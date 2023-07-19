@@ -1,0 +1,52 @@
+// =========================================================
+// typography - テキスト関連の設定
+// =========================================================
+
+//  ・フォントサイズ
+//  レガシーブラウザ用にpx指定した後、モダンブラウザ用にrem指定しています。
+// --------------------
+@mixin font-size($size, $base: 16) {
+    font-size: $size + px;
+    font-size: ($size / $base) + rem;
+}
+
+// ・デフォルトの文字サイズ
+// --------------------
+$base-font-size: 16px;
+
+// ・行の高さ
+// --------------------
+$base-line-height: 1.6;
+
+// ・aリンクの文字色
+// hoverなどで若干色が薄くなります。
+// --------------------
+@mixin link-color($color: #0044CC) {
+    color: $color;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: lighten($color, 20%);
+    }
+}
+
+// ・テキスト要素から上下の余白削除
+@mixin text-crop {
+
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+    }
+
+    &::before {
+        margin-bottom: calc((1 - #{$base-line-height}) * 0.5em);
+    }
+
+    &::after {
+        margin-top: calc((1 - #{$base-line-height}) * 0.5em);
+    }
+}

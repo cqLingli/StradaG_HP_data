@@ -1,0 +1,171 @@
+/* =========================================================
+title - 共通のタイトルやテキストなど
+========================================================= */
+.c-tlt01 {
+  h2 {
+    font-size: 3rem;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    span {
+      display: block;
+      font-size: 1.3rem;
+      line-height: 18px;
+      margin-top: 15px;
+      @include mq(lg, max) {
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+      @include mq(md, max) {
+        font-size: 1rem;
+        margin-top: 6px;
+      }
+    }
+    @include mq(lg, max) {
+      font-size: 2.6rem;
+    }
+    @include mq(md, max) {
+      font-size: 2.4rem;
+    }
+  }
+  &__small {
+    h2 {
+      font-size: 2.4rem;
+      @include mq(lg, max) {
+        font-size: 2rem;
+      }
+      @include mq(md, max) {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  &__black {
+    h2,
+    span {
+      color: #333;
+    }
+  }
+  &__white {
+    h2,
+    span {
+      color: #fff;
+    }
+  }
+  &__line {
+    position: relative;
+    padding-bottom: 20px;
+    @include mq(lg, max) {
+      padding-bottom: 15px;
+    }
+    @include mq(md, max) {
+      padding-bottom: 10px;
+    }
+    &:after {
+      content: "";
+      width: 100px;
+      height: 1px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    &--white {
+      &:after {
+        background-color: #fff;
+      }
+    }
+    &--black {
+      &:after {
+        background-color: #333;
+      }
+    }
+    &--gray {
+      &:after {
+        background-color: #8f8f8f;
+      }
+    }
+  }
+}
+.c-mainTitle {
+  background-color: #fff;
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  h1 {
+    font-size: 4rem;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    span {
+      display: block;
+      font-size: 1.7rem;
+      line-height: 18px;
+      margin-top: 5px;
+      color: #8f8f8f;
+      text-transform: uppercase;
+      margin-top: 20px;
+      @include mq(lg, max) {
+        font-size: 1.4rem;
+        margin-top: 10px;
+      }
+      @include mq(md, max) {
+        font-size: 1.2rem;
+        margin-top: 5px;
+      }
+    }
+    @include mq(lg, max) {
+      font-size: 3rem;
+    }
+    @include mq(md, max) {
+      font-size: 2.2rem;
+    }
+  }
+  &_content {
+    background-color: #fff;
+    height: 277px;
+    margin-top: -77px;
+    position: relative;
+    z-index: 9;
+    max-width: 962px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mq(lg, max) {
+      height: 227px;
+      margin-top: -57px;
+      max-width: 762px;
+    }
+    @include mq(md, max) {
+      height: 107px;
+      margin-top: -37px;
+      max-width: 462px;
+      width: 90%;
+    }
+  }
+}
+.c-tlt02 {
+  font-weight: bold;
+  margin-bottom: 70px;
+  h2 {
+    font-size: 3rem;
+    @include mq(lg, max) {
+      font-size: 2.6rem;
+    }
+    @include mq(md, max) {
+      font-size: 2rem;
+    }
+  }
+  span {
+    font-size: 1.3rem;
+    color: #8f8f8f;
+  }
+  &--center {
+    text-align: center;
+  }
+}

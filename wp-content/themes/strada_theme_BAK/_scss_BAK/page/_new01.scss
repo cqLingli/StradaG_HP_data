@@ -1,0 +1,128 @@
+.p-new01 {
+
+    .c-mainTitle_content {
+        margin-top: -69px;
+
+        @include mq(lg, max) {
+            max-width: 762px;
+            height: 227px;
+            margin-top: -57px;
+        }
+
+        @include mq(md, max) {
+            width: 90%;
+            max-width: 462px;
+            height: 107px;
+            margin-top: -37px;
+        }
+    }
+
+    .c-new-content {
+        background: #F8F8F8;
+        padding-bottom: 129px;
+
+        @include mq(lg, max) {
+            padding-bottom: 90px;
+        }
+
+        @include mq(md, max){
+        	padding-bottom: 50px;
+        }
+
+        .c-list-news {
+            background: #fff;
+            margin-top: 42px;
+            padding: 40px 52px;
+
+            @include mq(sm, max){
+            	padding:10px;
+            }
+
+            .c-new {
+                text-decoration: none;
+                color: #333333;
+                display: block;
+                margin-bottom: 16px;
+
+                &:nth-child(2),
+                &:nth-child(4),
+                &:nth-child(5) {
+                    margin-bottom: 17px;
+                }
+
+                &__date {
+                    font-size: 1.2rem;
+                    line-height: 33px;
+                    font-weight: bold;
+                    margin-left: 2px;
+                    @include mq(md, max){
+                    	line-height: 25px;
+                    }
+                }
+
+                &__title {
+                    font-size: 1.8rem;
+                    line-height: 29px;
+                    margin-top: 7px;
+                    @include mq(md, max){
+                    	font-size: 1.4rem;
+                    	line-height: 20px;
+                    }
+                }
+
+                .c-line-bottom {
+                    margin-top: 26px;
+                    border:none;
+                    height: 1px;
+                    background:#D5D5D5;
+                }
+            }
+
+            .c-pagination {
+                text-align: center;
+                margin-top: 82px;
+
+                @include mq(md, max){
+                	margin-top: 41px;
+                }
+
+                ul {
+                    li {
+                        height: 30px;
+                        width: 30px;
+                        border: 1px solid #CCCCCC;
+                        border-radius: 2px;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        @include mq(sm, max){
+                        	width: 29px;
+                        	height: 29px;
+                        }
+
+                        &+li {
+                            margin-left: 4px;
+                        }
+
+                        &.is-active,
+                        &:hover {
+                            background: #153F6F;
+
+                            a {
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        a {
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                            color: #3B3C3E;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

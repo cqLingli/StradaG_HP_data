@@ -1,0 +1,162 @@
+/* =========================================================
+typography - 文字の装飾など
+========================================================= */
+
+// ---------------------------------------------------------------
+//  ■font-color
+//  各色のカラーコードは適宜変更してください。
+// ---------------------------------------------------------------
+
+.u-fc-primary {
+    color: $primary-color !important;
+}
+
+.u-fc-secondary {
+    color: $secondary-color !important;
+}
+
+.u-fc-tertiary {
+    color: $tertiary-color !important;
+}
+
+//  ・白
+// --------------------
+.u-fc-white {
+    color: #ffffff !important;
+}
+
+//  ・赤
+// --------------------
+.u-fc-red {
+    color: #d90b23 !important;
+}
+
+
+
+/// ---------------------------------------------------------------
+//  ■font-weight
+// ---------------------------------------------------------------
+
+.u-fw-100 {
+    font-weight: 100 !important;
+}
+
+.u-fw-200 {
+    font-weight: 200 !important;
+}
+
+.u-fw-300 {
+    font-weight: 300 !important;
+}
+
+.u-fw-400 {
+    font-weight: 400 !important;
+}
+
+.u-fw-500 {
+    font-weight: 500 !important;
+}
+
+.u-fw-600 {
+    font-weight: 600 !important;
+}
+
+.u-fw-700 {
+    font-weight: 700 !important;
+}
+
+.u-fw-800 {
+    font-weight: 800 !important;
+}
+
+.u-fw-900 {
+    font-weight: 900 !important;
+}
+
+
+// ---------------------------------------------------------------
+//  ■text-align
+// ---------------------------------------------------------------
+
+//  ・左揃え
+// --------------------
+.u-ta-l {
+    text-align: left !important;
+}
+
+.u-ta-c {
+    text-align: center !important;
+}
+
+.u-ta-r {
+    text-align: right !important;
+}
+
+@include mq(sm, min) {
+    .u-ta-sm-l {
+        text-align: left !important;
+    }
+
+    .u-ta-sm-c {
+        text-align: center !important;
+    }
+
+    .u-ta-sm-r {
+        text-align: right !important;
+    }
+}
+
+@include mq(md, min) {
+    .u-ta-md-l {
+        text-align: left !important;
+    }
+
+    .u-ta-md-c {
+        text-align: center !important;
+    }
+
+    .u-ta-md-r {
+        text-align: right !important;
+    }
+}
+
+@include mq(lg, min) {
+    .u-ta-lg-l {
+        text-align: left !important;
+    }
+
+    .u-ta-lg-c {
+        text-align: center !important;
+    }
+
+    .u-ta-lg-r {
+        text-align: right !important;
+    }
+}
+
+@include mq(xl, min) {
+    .u-ta-xl-l {
+        text-align: left !important;
+    }
+
+    .u-ta-xl-c {
+        text-align: center !important;
+    }
+
+    .u-ta-xl-r {
+        text-align: right !important;
+    }
+}
+
+
+// ---------------------------------------------------------------
+//  ■line-height
+// ---------------------------------------------------------------
+
+.u-lh-md {
+    line-height: $base-line-height !important;
+}
+
+.u-lh-lg {
+    line-height: 2 !important;
+}

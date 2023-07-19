@@ -1,0 +1,73 @@
+/* =========================================================
+button - ボタン関係のコンポーネント
+========================================================= */
+.c-btn01{
+	a{
+		width: 300px;
+		height: 65px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 2rem;
+		line-height: 28px;
+		font-weight: 500;
+		position: relative;
+		text-decoration: none;
+		transition: all 0.3s ease-in-out;
+		border: 1px solid transparent;
+		svg{
+			width: 20px;
+			position: absolute;
+			right: 25px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		@include mq(md, max) {
+			width: 200px;
+			height: 45px;
+			font-size: 1.6rem;
+			svg{
+				width: 12px;
+			}
+		}
+	}
+	&__center{
+		display: flex;
+		justify-content: center;
+	}
+	&__blue{
+		svg {
+			fill: #fff;
+		}
+		a{
+			background-color: #153F6F;
+			color: #fff;
+			&:hover {
+				background-color: #fff;
+				border-color: #153F6F;
+				color: #153F6F;
+				svg {
+					fill: #153F6F;
+				}
+			}
+		}
+		
+	}
+	&__white{
+		svg {
+			fill: #153F6F;
+		}
+		a{
+			background-color: #fff;
+			color: #153F6F;
+			&:hover {
+				background-color: #153F6F;
+				border-color: #fff;
+				color: #fff;
+				svg {
+					fill: #fff;
+				}
+			}
+		}
+	}
+}

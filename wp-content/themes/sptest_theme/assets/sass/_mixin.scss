@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import "variables";
+
+// ==================================================
+// 	media query
+// ==================================================
+@mixin media($media-width) {
+	@if $media-width == exSP {
+		@at-root {/* ▽ SP layout ========== */}
+		@media only screen and (max-width: $exSP) {
+			@content;
+		}
+		@at-root {/* ========== end △ */}
+  	}
+  	@else if $media-width == sp {
+		@at-root {/* ▽ PC-TAB layout ========== */}
+		@media print, screen and (max-width: $sp) {
+			@content;
+		}
+		@at-root {/* ========== end △ */}
+	}
+	@else if $media-width == tab {
+		@at-root {/* ▽ PC-TAB layout ========== */}
+		@media print, screen and (max-width: $tab) {
+			@content;
+		}
+		@at-root {/* ========== end △ */}
+	}
+	@else if $media-width == pc {
+		@at-root {/* ▽ PC layout ========== */}
+		@media print, screen and (max-width: $pc) {
+			@content;
+		}
+		@at-root {/* ========== end △ */}
+	}
+	@else if $media-width == print {
+		@at-root {/* ▽ PRINT layout ========== */}
+		@media print {
+			@content;
+		}
+		@at-root {/* ========== end △ */}
+	}
+}
+
+@function rem($pt) {
+  @return #{((($pt * 300 )/72)/2)/10}rem;
+}
