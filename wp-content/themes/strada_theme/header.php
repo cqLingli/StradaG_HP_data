@@ -16,7 +16,7 @@
 
     <!-- 書き出したcssの読み込み -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sz_style.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_sz.css" />
 
     <?php wp_head(); ?>
 	  <script>
