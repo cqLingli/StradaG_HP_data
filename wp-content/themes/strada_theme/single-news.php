@@ -1,17 +1,28 @@
 <?php
 get_header();
 ?>
-<main class="l-main p-new02">
-  <div class="c-breakcrumds">
-    <div class="l-container">
-      <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+<main class="l-main p-new01">
+
+    <div class="c-breakcrumds">
+        <div class="l-container">
+            <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+        </div>
     </div>
-  </div>
+    <div class="c-mainTitle">
+        <div class="c-mainTitle_content">
+            <div class="c-tlt01 c-tlt01__black">
+                <h1 class="c-tlt01__line c-tlt01__line--gray">
+                    ニュース
+                    <span>NEWS</span>
+                </h1>
+            </div>
+        </div>
+    </div>
   <div class="c-new-content">
     <div class="l-container">
       <div class="c-wrap-new p-column__post" style="width:100%; max-width:100%; margin-bottom:0;">
-        <div class="date"><?php echo get_the_date('Y.m.d') ?></div>
-        <div class="title"><?php echo get_the_title(); ?></div>
+        <div class="c-new__date"><?php echo get_the_date('Y.m.d') ?></div>
+        <div class="single_title"><?php echo get_the_title(); ?></div>
         <div class="content box">
           <?php
             if ( have_posts() ) {

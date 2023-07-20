@@ -14,12 +14,13 @@ get_header();
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
-          事業内容
-          <span>Service</span>
+            BPO(アウトソーシングサービス)
+         <!-- <span>Service</span>-->
         </h1>
       </div>
     </div>
   </div>
+    <hr class="service-line-bottom" />
   <!-- end c-mainTitle -->
   <div class="l-content">
     <div class="l-container">
