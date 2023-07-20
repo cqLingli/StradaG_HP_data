@@ -1,5 +1,5 @@
   <!-- .l-footer | フッター -->
-  <footer class="l-footer">
+   <footer class="l-footer">
     
   <div class="fx-contact">
     <div class="fx-contact_inner">
