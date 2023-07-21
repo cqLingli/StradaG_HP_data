@@ -1,5 +1,5 @@
 <?php
-get_header();
+get_header("sz");
 ?>
 
 <!-- .l-main | メインコンテンツ -->
@@ -14,8 +14,8 @@ get_header();
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
-            BPO(アウトソーシングサービス)
-         <!-- <span>Service</span>-->
+            事業内容
+          <span>Service</span>
         </h1>
       </div>
     </div>
@@ -42,16 +42,21 @@ get_header();
         $img = get_field('service_cat_thumbnail', $term);
         ?>
           <div class="serviceItem">
+              <span class="ttl"><?php echo $tax_name; ?></span>
             <div class="thumb">
               <img src="<?php echo $img['url'] ?>" alt="">
             </div>
+
             <div class="content">
-              <h2 class="ttl"><?php echo $tax_name; ?></h2>
+                <div style="height: 200px;">
               <p><?php echo nl2br($term->description); ?></p>
-              <div class="c-btn01 c-btn01__blue">
+<!--              <div class="c-btn01 ">-->
+                </div>
+               <div class="ttl2 c-btn01__blue">
                 <a href="<?php echo get_term_link($term) ?>">詳細はこちら</a>
               </div>
             </div>
+
           </div>
         <?php
         endforeach;
