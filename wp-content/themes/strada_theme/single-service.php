@@ -26,13 +26,13 @@ if($mv){
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle c-mainTitle-overlay">
-      <div class="c-mainTitle_content">
-        <div class="c-tlt01 c-tlt01__black">
-          <h1 class="c-tlt01__line c-tlt01__line--gray">
-            <?php the_title(); ?>
-          </h1>
-        </div>
-      </div>
+<!--      <div class="c-mainTitle_content">-->
+<!--        <div class="c-tlt01 c-tlt01__black">-->
+<!--          <h1 class="c-tlt01__line c-tlt01__line--gray">-->
+<!--            --><?php //the_title(); ?>
+<!--          </h1>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
     <!-- end c-mainTitle -->
     <div class="l-container">
