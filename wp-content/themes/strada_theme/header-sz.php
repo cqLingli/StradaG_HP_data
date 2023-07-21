@@ -85,6 +85,16 @@
                 <span>LINEでご相談</span>
               </a>
             </div>
+            <div class="h-mail h-mail--4">
+              <a href="#" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/minilogo.png" alt="" />
+              </a>
+            </div>
+            <div class="h-mail h-mail--4">
+              <a href="#" target="_blank">
+                <img style="width: 50px;height: auto;"src="<?php echo get_template_directory_uri(); ?>/images/common_sz/seach_icon.png" alt="" />
+              </a>
+            </div>
 
           </div>
         </div>
@@ -95,26 +105,32 @@
         <ul class="h-nav">
           <li><a href="<?php echo get_post_type_archive_link('service'); ?>"><div class="vertical-line">事業内容</div></a></li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('members'); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo get_post_type_archive_link('members'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">お客様の声</div></a>
+            <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(134); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo get_permalink(134); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">採用情報</div></a>
+            <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">お役立ち情報</div></a>
           </li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">ニュース</div></a>
+            <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">会社概要</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('columns'); ?>"><div class="vertical-line">お役立ち情報</div></a>
+            <a href="<?php echo home_url('columns'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
+          <li>
+            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">リクルート</div></a>
+          </li>   
+          <li>
+            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">確定申告サポート</div></a>
+          </li>          
         </ul>
       </div>
     </div>

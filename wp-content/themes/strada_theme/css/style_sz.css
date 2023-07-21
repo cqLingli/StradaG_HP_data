@@ -187,7 +187,7 @@ section - コンテンツの大枠
 
 .l-container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1680px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1199px) {
@@ -2046,6 +2046,7 @@ div.catch {
 .h-logo:hover img {
   opacity: 0.7;
 }
+
 .h-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2203,6 +2204,7 @@ div.catch {
     font-size: 1.4rem;
     font-weight: 400;
     text-decoration: none;
+    font-weight:bold；
   }
   .h-nav > li > a:after,
   .h-nav > li > span:after {
@@ -2216,6 +2218,7 @@ div.catch {
     background: url(../images/common/ico-right-arrow.svg) no-repeat right center;
     background-size: 14px;
     content: "";
+    font-weight:bold；
   }
   .h-nav > li.has-sub > a,
   .h-nav > li.has-sub > span {
@@ -2253,7 +2256,7 @@ div.catch {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
-    max-width: 1015px;
+    max-width: 1300px;
     margin: 0 auto;
   }
   .h-nav > li > a {
@@ -11738,6 +11741,18 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(158deg) brightness(103%) contrast(101%);
 }
 
+.h-mail.h-mail--4 a {
+  width: 60px;
+  background-color: #f6f6f6;
+}
+
+.h-mail.h-mail--4 a span {
+  color: #fff;
+}
+.h-mail.h-mail--4 a img{
+  width: 60px;
+}
+
 .f-contact_mail a{
   width:213px
 }
@@ -11916,6 +11931,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .h-mail.h-mail--3 img {
   margin-right: 12px;
 }
+
 
 .fx-contact-pc .fx-contact_btn span{
   line-height: 1.3;
