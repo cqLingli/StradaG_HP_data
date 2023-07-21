@@ -265,6 +265,9 @@
   <!-- スライダーのjsの読み込み -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
 
+  <!-- custom.jsの読み込み -->
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+
   <?php wp_footer(); ?>
 
   <!-- 共通のjsの読み込み -->
