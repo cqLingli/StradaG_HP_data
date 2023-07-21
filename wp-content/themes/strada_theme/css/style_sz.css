@@ -4091,6 +4091,7 @@ title - 共通のタイトルやテキストなど
     font-size: 1.8rem;
     font-weight: bold;
   }
+
   @media screen and (max-width: 575px) {
     .p-member__list .item .name {
       font-size: 1.4rem;
@@ -7369,6 +7370,7 @@ margin - 余白の調整
 .u-py-5 {
   padding-top: 2.5rem !important;
 }
+
 .u-pr-5,
 .u-px-5 {
   padding-right: 2.5rem !important;
@@ -10110,6 +10112,7 @@ img{
   margin-bottom:0;
 }
 
+
 .p-qa__faq{
   margin-bottom:0;
 }
@@ -11973,8 +11976,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   float: left;
   height: 300px;
   border: 1px solid;
-  margin: 3px
-
+  margin: 3px;
+	}
 .title_item_wrap {
   width:210px;
   height:30px;
@@ -11990,7 +11993,12 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   z-index: 99;
   }
 .thumb-sz{
-
+flex-shrink: 0;
+  margin-right: 37px;
+  line-height: 0;
+  float: left;
+  height: 100px;
+	}
   /*アイコン描画*/
   .title_item_wrap::after {
     content: '';
@@ -12038,23 +12046,9 @@ color: white;
 /*内容をコントロールする*/
 .node_wrap_show {
   width:100%;
-  flex-shrink: 0;
-  margin-right: 37px;
-  line-height: 0;
-  float: left;
-  height: 100px
   margin-left:12%;
   height: 330px;
 }
-.p-column__post .box h2 {
-  margin-bottom: 20px;
-  padding: 8px 20px;
-  background-color: #153f6f;
-  background: linear-gradient(to right,#153F6F 30%, #fff 100%);
-  color: #fff;
-  font-size: 2.4rem;
-  font-weight: bold;
-  line-height: 32px;
 .circle {
     width: 22px;
     height: 22px;
