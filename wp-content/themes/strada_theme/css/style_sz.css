@@ -11964,8 +11964,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 .vertical-line {
   border-right: 1px solid rgb(20, 19, 19);
-  padding: 0 10px;
-}
+  padding:0 10px;
+
 .block_wrap {
   width: 100%;
   margin: 0 auto;
