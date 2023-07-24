@@ -1987,7 +1987,7 @@ div.catch {
   width: 100%; 
   min-width: 600px; 
   z-index: 99999; 
-  background: #153d6e;
+  background: #EC7700;
   padding-left: 5px;
   }
 @media screen and (max-width: 500px) {
@@ -2066,7 +2066,7 @@ div.catch {
   height: 25px;
   margin-bottom: 7px;
   border-radius: 25px;
-  background: #153f6f;
+  background: #EC7700;
   color: #fff;
   font-size: 1.4rem;
   line-height: 22px;
@@ -2080,7 +2080,7 @@ div.catch {
   height: 10px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #153f6f;
+  background: #EC7700;
   content: "";
 }
 .h-phone .time {
@@ -2263,7 +2263,7 @@ div.catch {
     display: block;
     position: relative;
     padding: 0 10px;
-    color: #153d6e;
+    color: #EC7700;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 70px;
@@ -5363,7 +5363,7 @@ top - Topページ固有のオブジェクト
   cursor: pointer;
 }
 .t-mv ul li.slick-active {
-  background-color: #153d6e;
+  background-color: #EC7700;
 }
 .t-mv ul li button {
   width: 0;
@@ -10531,12 +10531,10 @@ img{
 }
 
 /* 07-15-2021 */
-
 .p-access .accessbox{
   background: #E3E8F1 !important;
   padding: 30px 15px !important;
 }
-
 .p-access .access-title{
   background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
   color: #fff !important;
@@ -10546,17 +10544,14 @@ img{
   padding-left: 20px !important;
   margin: 0 50px 0 50px !important;
 }
-
 .p-access .t-access_add{
   font-size: 1rem !important;
   margin: auto !important;
 }
-
 .p-about_groupContent h3.cm-ttl01 {
   border-left: 4px solid #003E75 !important;
   line-height: 1.5 !important;
 }
-
 .p-access .c-mainTitle {
   background: url(../images/mv/mv-access.png) no-repeat;
   background-size: cover;
@@ -11292,7 +11287,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   text-decoration:none
 }
 .pagination .current {
-
   height: 50px;
   width: 50px;
   background: #002862;
@@ -12211,7 +12205,6 @@ top: 30px;
 .a-back-color{
   text-align: center;
   border-bottom: #0a53be;
-
 }
 .p-new01 .c-back-list {
   display: -webkit-box;
