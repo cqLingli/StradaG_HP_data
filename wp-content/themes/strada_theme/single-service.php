@@ -1,6 +1,13 @@
 <?php
 /* Template Name: Single Service */
-get_header();
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_header($url_type);
+}else{
+    get_header('sz');
+}
+
 ?>
 <?php 
 $mv = get_field('s_mv');
@@ -26,14 +33,18 @@ if($mv){
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle c-mainTitle-overlay">
-<!--      <div class="c-mainTitle_content">-->
-<!--        <div class="c-tlt01 c-tlt01__black">-->
-<!--          <h1 class="c-tlt01__line c-tlt01__line--gray">-->
-<!--            --><?php //the_title(); ?>
-<!--          </h1>-->
-<!--        </div>-->
-<!--      </div>-->
+      <div class="c-mainTitle_content">
+        <div class="c-tlt01 c-tlt01__black">
+          <h1 class="c-tlt01__line c-tlt01__line--gray">
+            <?php the_title(); ?>
+          </h1>
+        </div>
+      </div>
     </div>
+      <div class="term-excerpt">
+          <?php echo the_excerpt(); ?>
+          <hr class="c-line-bottom" />
+      </div>
     <!-- end c-mainTitle -->
     <div class="l-container">
       <div class="singleService">

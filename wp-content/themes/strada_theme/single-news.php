@@ -1,5 +1,28 @@
 <?php
-get_header();
+$get_post_type_archive_link = get_post_type_archive_link('news');
+$HTTP_REFERER = $_SERVER['HTTP_REFERER'];
+if(strpos($HTTP_REFERER,'taxria')){
+    get_header("tr");
+
+}
+elseif(strpos($HTTP_REFERER,'sr')){
+    get_header("sr");
+}
+elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
+    get_header("ch");
+}
+elseif(strpos($HTTP_REFERER,'admin')){
+    get_header("sg");
+}
+elseif(strpos($HTTP_REFERER,'bs')){
+    get_header("sb");
+}
+else{
+    get_header("sz");
+    $get_post_type_archive_link = str_replace("news", "taxnewslist", $get_post_type_archive_link);
+
+}
+
 ?>
 <main class="l-main p-new01">
 
@@ -33,14 +56,14 @@ get_header();
             }
           ?>
         </div>
-        <a href="<?php echo get_post_type_archive_link('news'); ?>" class="c-back-list">
+      </div>
+    </div>
+      <a href="<?php echo $get_post_type_archive_link ?>" class="c-back-list">
           一覧へ戻る
           <span class="i-arrow">
             <img src="<?php echo get_template_directory_uri(); ?>/images/new02/i_arrow.svg" alt="" />
           </span>
-        </a>
-      </div>
-    </div>
+      </a>
   </div>
 </main>
 
