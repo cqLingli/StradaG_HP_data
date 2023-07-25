@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.min.css" />
 
   <!-- 書き出したcssの読み込み -->
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_ss.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_sr.css" />
 
   <?php wp_head(); ?>
   <script>
@@ -30,7 +30,7 @@
       a.async = 1;
       a.src = g;
       m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    });//(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-85290322-1', 'auto');
     ga('send', 'pageview');
@@ -104,9 +104,9 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo get_post_type_archive_link('service'); ?>"><div class="vertical-line">ニュース</div></a></li>
+          <li><a href="<?php echo home_url('srnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('members'); ?>"><div class="vertical-line">業務内容</div></a>
+            <a href="<?php echo home_url('srservice'); ?>"><div class="vertical-line">業務内容</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
