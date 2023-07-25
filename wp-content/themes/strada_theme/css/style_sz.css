@@ -11544,12 +11544,13 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .s-service .entry-content h3 {
   margin-top: 60px;
   font-size: 2.2rem;
-  background: #153F6F;
+  background:linear-gradient(to right,#153F6F 30%, #fff 100%);
   color: #fff;
   line-height: 1.6;
   display: inline-block;
   padding: 4px 20px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .s-service .entry-content ul {

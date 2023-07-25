@@ -104,7 +104,7 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo get_post_type_archive_link('service'); ?>"><div class="vertical-line">業務内容</div></a></li>
+          <li><a href="<?php echo home_url('taxriaservice'); ?>"><div class="vertical-line">業務内容</div></a></li>
           <li>
             <a href="<?php echo get_post_type_archive_link('members'); ?>"><div class="vertical-line">お客さまへの支援</div></a>
           </li>

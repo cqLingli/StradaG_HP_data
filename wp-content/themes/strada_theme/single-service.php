@@ -41,12 +41,13 @@ if($mv){
         </div>
       </div>
     </div>
-      <div class="term-excerpt">
-          <?php echo the_excerpt(); ?>
-          <hr class="c-line-bottom" />
-      </div>
+
     <!-- end c-mainTitle -->
     <div class="l-container">
+        <div class="term-excerpt">
+            <?php echo the_excerpt(); ?>
+            <hr class="c-line-bottom" />
+        </div>
       <div class="singleService">
         <div class="singleService-main">
         	<?php
@@ -89,4 +90,12 @@ if($mv){
       </div>
     </div>
   </main>
-<?php get_footer(); ?>
+<?php
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_footer($url_type);
+}else{
+    get_footer('sz');
+}
+ ?>

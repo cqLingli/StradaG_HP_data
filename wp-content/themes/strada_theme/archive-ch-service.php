@@ -1,6 +1,6 @@
 <?php
-/* Template Name: Archive Sz Service */
-get_header("sz");
+/* Template Name: Archive CH Service */
+get_header("ch");
 ?>
 
 <!-- .l-main | メインコンテンツ -->
@@ -67,4 +67,4 @@ get_header("sz");
   </div>
 </main>
 
-<?php get_footer('sz'); ?>
+<?php get_footer('ch'); ?>

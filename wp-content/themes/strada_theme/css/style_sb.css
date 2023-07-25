@@ -2465,7 +2465,7 @@ button - ボタン関係のコンポーネント
   fill: #fff;
 }
 .c-btn01__blue a {
-  background-color: #153f6f;
+  background-color: #00A159;
   color: #fff;
 }
 .c-btn01__blue a:hover {
@@ -3493,8 +3493,7 @@ title - 共通のタイトルやテキストなど
   .p-column__post .box h2 {
     margin-bottom: 20px;
     padding: 8px 20px;
-    background-color: #153f6f;
-    background: linear-gradient(to right,#153F6F 30%, #fff 100%);
+    background: linear-gradient(to right,#00A159 30%, #fff 100%);
     color: #fff;
     font-size: 2.4rem;
     font-weight: bold;
@@ -4347,7 +4346,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-new01 .c-new-content {
     padding-bottom: 129px;
-    background: #F8F8F8;
+    background: #EFF7EF;
   }
   @media screen and (max-width: 991px) {
     .p-new01 .c-new-content {
@@ -11525,7 +11524,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 
 .s-service .entry-content h2 {
   font-size: 2.6rem;
-  color: #153F6F;
+  color: #00A159;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -11538,12 +11537,13 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .s-service .entry-content h3 {
   margin-top: 60px;
   font-size: 2.2rem;
-  background: #153F6F;
+  background: linear-gradient(to right,#00A159 30%, #fff 100%);;
   color: #fff;
   line-height: 1.6;
   display: inline-block;
   padding: 4px 20px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .s-service .entry-content ul {
@@ -11577,7 +11577,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   margin-top: 50px;
   line-height: 1.6;
-  border-left: 4px solid #153F6F;
+  border-left: 4px solid #00A159;
   padding: 2px 0 2px 15px;
 }
 
@@ -11651,7 +11651,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-bottom: 10px;
   padding: 8px 20px;
   background-color: #153f6f;
-  background: linear-gradient(to right,#153F6F 30%, #fff 100%);
+  background: linear-gradient(to right,#00A159 30%, #fff 100%);
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
@@ -11662,7 +11662,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   line-height: 1.4;
   padding: 8px 20px;
-  background-color: #153f6f;
+  background-color: #00A159;
   color: #fff;
   font-size: 1.4rem;
   text-align: center;
@@ -12238,7 +12238,7 @@ top: 30px;
   margin-top: 42px;
   margin-right: auto;
   margin-left: auto;
-  background: #153F6F;
+  background: #00A159;
   color: #fff;
   font-size: 2.5rem;
   font-weight: bold;

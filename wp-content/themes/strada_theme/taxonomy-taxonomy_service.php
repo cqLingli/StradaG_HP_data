@@ -1,29 +1,36 @@
 <?php
 session_start();
+$HTTP_REFERER = $_SERVER['HTTP_REFERER'];
 if(strpos($HTTP_REFERER,'taxria')){
     get_header("tr");
     $_SESSION['url_type'] = "tr";
+    $company='TR';
 
 }
 elseif(strpos($HTTP_REFERER,'sr')){
-    get_header("sr");
-    $_SESSION['url_type'] = "sr";
+    get_header("ss");
+    $_SESSION['url_type'] = "ss";
+    $company='SS';
 }
 elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
     get_header("ch");
     $_SESSION['url_type'] = "ch";
+    $company='CH';
 }
 elseif(strpos($HTTP_REFERER,'admin')){
     get_header("sg");
     $_SESSION['url_type'] = "sg";
+    $company='SG';
 }
 elseif(strpos($HTTP_REFERER,'bs')){
     get_header("sb");
     $_SESSION['url_type'] = "sb";
+    $company='SB';
 }
 else{
     get_header("sz");
     $_SESSION['url_type'] = "sz";
+    $company='SZ';
 }
 
 ?>
@@ -62,15 +69,24 @@ $mv = get_field('service_cat_mv', $qo);
                 </div>
             </div>
         </div>
-        <div class="term-description">
-            <?php echo term_description(); ?>
-            <hr class="c-line-bottom" />
-        </div>
+
         <!-- end c-mainTitle -->
         <div class="l-container">
+            <div class="term-description">
+                <?php echo term_description(); ?>
+                <hr class="c-line-bottom" />
+            </div>
             <div class="l-content">
                 <div class="c-serviceList">
-                    <?php while ( have_posts() ) : the_post(); ?>
+                    <?php
+                    global $wp_query;
+                    $args = array(
+                        'company' => $company, // 自定义字段名
+                        'taxonomy_service' =>$wp_query->query['taxonomy_service'],
+                    );
+                    $query = new WP_Query( $args ); // 执行查询
+                    ?>
+                    <?php while (  $query->have_posts() ) : $query->the_post(); ?>
                         <?php
                         $repeater = get_field('s_repeat');
                         ?>
@@ -113,4 +129,12 @@ $mv = get_field('service_cat_mv', $qo);
         </div>
     </main>
 
-<?php get_footer(); ?>
+<?php
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_footer($url_type);
+}else{
+    get_footer('sz');
+}
+?>

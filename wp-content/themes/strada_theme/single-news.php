@@ -3,19 +3,24 @@ $get_post_type_archive_link = get_post_type_archive_link('news');
 $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
 if(strpos($HTTP_REFERER,'taxria')){
     get_header("tr");
+    $get_post_type_archive_link = str_replace("news", "taxrianewslist", $get_post_type_archive_link);
 
 }
 elseif(strpos($HTTP_REFERER,'sr')){
-    get_header("sr");
+    get_header("ss");
+    $get_post_type_archive_link = str_replace("news", "srnewslist", $get_post_type_archive_link);
 }
 elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
     get_header("ch");
+    $get_post_type_archive_link = str_replace("news", "chushoukigyouroudounewslist", $get_post_type_archive_link);
 }
 elseif(strpos($HTTP_REFERER,'admin')){
     get_header("sg");
+    $get_post_type_archive_link = str_replace("news", "adminnewslist", $get_post_type_archive_link);
 }
 elseif(strpos($HTTP_REFERER,'bs')){
     get_header("sb");
+    $get_post_type_archive_link = str_replace("news", "bsnewslist", $get_post_type_archive_link);
 }
 else{
     get_header("sz");
@@ -68,4 +73,26 @@ else{
 </main>
 
 
-<?php get_footer(); ?>
+<?php
+$HTTP_REFERER = $_SERVER['HTTP_REFERER'];
+if(strpos($HTTP_REFERER,'taxria')){
+    get_footer("tr");
+
+}
+elseif(strpos($HTTP_REFERER,'sr')){
+    get_footer("ss");
+}
+elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
+    get_footer("ch");
+}
+elseif(strpos($HTTP_REFERER,'admin')){
+    get_footer("sg");
+}
+elseif(strpos($HTTP_REFERER,'bs')){
+    get_footer("sb");
+}
+else{
+    get_footer("sz");
+
+}
+ ?>
