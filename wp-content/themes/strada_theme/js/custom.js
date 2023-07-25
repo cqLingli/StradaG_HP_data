@@ -65,20 +65,24 @@ var timer;
         var left = document.querySelector('.left');
         var right = document.querySelector('.right');
         var num = 0;  //picture count
+        var isMoving = false;
 
-        function animate(obj, target) {
+        function animate(obj, target,callback) {
             var timer1 = setInterval(function () {
                 var current = obj.offsetLeft;
-                var step = 10;
+                var step = 30;
                 step = current > target ? -step : step;
                 if (Math.abs(current - target) <= Math.abs(step)) {
                     clearInterval(timer1);
                     obj.style.left = target + 'px';
+                    if (callback){
+                        callback();
+                      };
                 }
                 else {
                     obj.style.left = current + step + 'px';
                 }
-            }, 10)
+            }, 30)
         }
 
         //dot style 
@@ -101,12 +105,16 @@ var timer;
                     li.className = "current";
                 }
                 li.addEventListener('click', function () {
+                    if (isMoving) {
+                        return;
+                    }
+                       isMoving = true;
                     for (var j = 0; j < ol.children.length; j++) {
                         ol.children[j].className = "";
                     }
                     this.className = "current";
                     var index = this.getAttribute('index');
-                    animate(ul, -index * imageplay.offsetWidth);
+                    animate(ul, -index * imageplay.offsetWidth,function(){isMoving=false;});
                     circlechange(circles, index);
                 })
             }
@@ -115,21 +123,29 @@ var timer;
             ul.appendChild(li_img);
 
             right.addEventListener('click', function () {
+                if (isMoving) {
+                    return;
+                }
+                   isMoving = true;
                 if (num >= lis_img.length) {
                     num = 0;
                     ul.style.left = 0 + 'px';
                 }
                 num++;
-                animate(ul, -num * imageplay.offsetWidth);
+                animate(ul, -num * imageplay.offsetWidth,function(){isMoving=false;});
                 circlechange(circles, num);
             })
             left.addEventListener('click', function () {
+                if (isMoving) {
+                    return;
+                }
+                   isMoving = true;
                 if (num <= 0) {
                     num = lis_img.length;
                     ul.style.left = -lis_img.length * imageplay.offsetWidth + 'px';
                 }
                 num--;
-                animate(ul, -num * imageplay.offsetWidth);
+                animate(ul, -num * imageplay.offsetWidth,function(){isMoving=false;});
                 circlechange(circles, num);
             })
 
