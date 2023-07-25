@@ -1,64 +1,30 @@
-<?php get_header();
+<?php get_header("sz");
 /* Template Name: Front Page SZ */
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">
-  <div class="t-mv">
-    <div class="t-mv_slide">
-		
-		<?php
-		if( have_rows('top_banner') ):
-			while( have_rows('top_banner') ) : the_row();
-				$image_pc = get_sub_field('image_pc');
-				$image_sp = get_sub_field('image_sp');
-				$url = get_sub_field('url');
-		        $target = get_sub_field('target_url');
-				//var_dump($image_pc);
-				//var_dump($target);
-				?>
-				<div class="items">
-					<?php if(strlen($url) > 0 ) : ?>
-						<a href="<?php echo $url?>" <?php echo (sizeof($target) > 0) ? 'target="_blank"' : ""; ?>>		
-							<div class="pc">
-								<img src="<?php echo $image_pc['url']; ?>" alt="" />
-							</div>
-							<div class="sp">
-								<img src="<?php echo $image_sp['url']; ?>" alt="" />
-							</div>
-						</a>
-					<?php else: ?>
-						<div class="pc">
-								<img src="<?php echo $image_pc['url']; ?>" alt="" />
-							</div>
-						<div class="sp">
-							<img src="<?php echo $image_sp['url']; ?>" alt="" />
-						</div>
-					<?php endif; ?>
-				</div>
-				<?php
-			endwhile;
-		endif;
-	  ?>
-      <div class="items">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img01.png" alt="" />
-      </div>
-      <div class="items">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img02.png" alt="" />
-      </div>
-      <div class="items">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img03.png" alt="" />
-      </div>
-    </div>
-    <div class="t-mv_arrows">
-      <div class="t-mv_arrowsItem t-mv_prev">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/arrow-left.png" alt="" class="SZ_left" />
-      </div>
-      <div class="t-mv_arrowsItem t-mv_next">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/arrow-right.png" alt="" class="SZ_right" />
-      </div>
-    </div>
+  <!-- start imageplay -->
+  <div class="imageplay">
+        <!-- picture area -->
+        <ul>
+            <li>
+              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img01.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img02.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img03.png" alt="" /></a>
+            </li>
+        </ul>
+        <!-- left,right arrow -->
+        <div class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/arrow-left.png" alt="" class="arrowstyle-left" /></div>
+        <div class="right"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/arrow-right.png" alt="" class="arrowstyle-right" /></div>
+        <!-- dot -->
+        <ol>
+        </ol>
   </div>
-  <!-- end t-mv -->
+  <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
 		<div class="border-text"></div>
