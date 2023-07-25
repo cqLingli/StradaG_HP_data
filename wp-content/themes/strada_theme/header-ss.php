@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.min.css" />
 
   <!-- 書き出したcssの読み込み -->
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_sr.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_ss.css" />
 
   <?php wp_head(); ?>
   <script>
