@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header("ss"); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">
@@ -36,12 +36,12 @@
                                 </h2>
                             </div>
                             <?php endif; ?>
-                                <h4>ストラーダホールディングス株式会社</h4>
+                                <h4>ストラーダ社会保険労務士法人</h4>
                                 <p class="t-access_add">
-                                〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階
+                                東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル3階
                                 </p>
                                 <p class="t-access_add">
-                                TEL:03-6206-215
+                                TEL:03-6231-1103
                                 </p>
                             <ul>
                                 <li>
@@ -164,4 +164,4 @@
     </div>
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("ss"); ?>

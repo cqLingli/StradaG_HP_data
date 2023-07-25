@@ -209,61 +209,28 @@ section - コンテンツの大枠
 footer - フッターのレイアウト
 ========================================================= */
 
-.l-footer__contact {
-  padding: 90px 0;
-  background: #153F6F;
+.l-footer__foot .youtube {
+  margin-top: 5px;
 }
-@media screen and (max-width: 991px) {
-  .l-footer__contact {
-    padding: 60px 0;
-  }
+
+.l-footer__foot ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
-@media screen and (max-width: 767px) {
-  .l-footer__contact {
-    padding: 40px 0;
-  }
+
+.l-footer__foot .l-container {
+  background-color: #1D3138;
+  padding: 20px;
 }
-.l-footer__menu {
-  padding: 50px 0;
+
+.l-footer__foot .l-container a {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: block;
 }
-@media screen and (max-width: 991px) {
-  .l-footer__menu {
-    padding: 35px 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .l-footer__menu {
-    padding: 20px 0;
-  }
-}
-.l-footer__banner {
-  padding: 40px 0;
-}
-@media screen and (max-width: 991px) {
-  .l-footer__banner {
-    padding: 25px 0;
-    padding-top: 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .l-footer__banner {
-    padding: 15px 0;
-  }
-}
-.l-footer__foot {
-  padding: 60px 0;
-  background: #153F6F;
-}
-@media screen and (max-width: 991px) {
-  .l-footer__foot {
-    padding: 40px 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .l-footer__foot {
-    padding: 20px 0;
-  }
-}
+
 .f-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -701,14 +668,10 @@ footer - フッターのレイアウト
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 35px;
-  border-top: 2px solid #EDEDED;
+  background-color: #000;
+  padding: 10px;
 }
-@media screen and (max-width: 991px) {
-  .f-copyright {
-    padding-top: 15px;
-  }
-}
+
 .f-copyright ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -749,9 +712,10 @@ footer - フッターのレイアウト
 .f-copyright p {
   color: #fff;
   font-size: 1.2rem;
-  font-weight: bold;
   line-height: 24px;
   text-decoration: none;
+  width: 100%;
+  text-align: center;
 }
 /* =========================================================
 bootstrap4のグリッドシステム
@@ -10532,11 +10496,11 @@ img{
 
 /* 07-15-2021 */
 .p-access .accessbox{
-  background: #E3E8F1 !important;
+  background: #EFF6EF !important;
   padding: 30px 15px !important;
 }
 .p-access .access-title{
-  background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background: linear-gradient(90deg, #00A159, #EFF6EF) !important;
   color: #fff !important;
   font-size: 2.4rem !important;
   font-weight: bold !important;
@@ -10549,7 +10513,7 @@ img{
   margin: auto !important;
 }
 .p-about_groupContent h3.cm-ttl01 {
-  border-left: 4px solid #003E75 !important;
+  border-left: 4px solid #00A159 !important;
   line-height: 1.5 !important;
 }
 .p-access .c-mainTitle {
@@ -10605,7 +10569,7 @@ img{
   border: 14px solid transparent !important;
   right: -17% !important;
   top: 85px !important;
-  border-left-color: #003E75 !important;
+  border-left-color: #00A159 !important;
   width: 0 !important;
   height: 0 !important;
   transform: none !important;
@@ -10712,10 +10676,10 @@ img{
     border-bottom: none !important;
     right: -12% !important;
     top: 30% !important;
-    border-top-color: #003E75 !important;
+    border-top-color: #00A159 !important;
   }
   .p-access .access-title{
-    background-color: #003E75 !important;
+    background-color: #00A159 !important;
     color: #fff !important;
     font-size: 2.4rem !important;
     font-weight: bold !important;
@@ -10890,9 +10854,6 @@ img{
   display:none;
 }
 @media screen and (min-width:768px){
-  .l-footer{
-    padding-bottom:40px;
-  }
 
   .fx-contact-pc{
     position: fixed;

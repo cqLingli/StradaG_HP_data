@@ -36,7 +36,7 @@
       </div>
       <div class="f-copyright">
         <p>
-        Copyright © Strada Group Corp. All rights reserved.
+        Copyright © TAX REALTY Inc. All rights reserved.
         </p>
       </div>
     </div>

@@ -36,7 +36,7 @@
       </div>
       <div class="f-copyright">
         <p>
-        Copyright © Strada Group Corp. All rights reserved.
+        Copyright © Strada Adminidtrstive Scrivener Corp. All rights reserved.
         </p>
       </div>
     </div>

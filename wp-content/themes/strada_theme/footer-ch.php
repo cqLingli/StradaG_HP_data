@@ -36,7 +36,7 @@
       </div>
       <div class="f-copyright">
         <p>
-        Copyright © Strada Group Corp. All rights reserved.
+        Copyright © Small and Medium Enterprise Labor Planning and Development Association All rights reserved.
         </p>
       </div>
     </div>

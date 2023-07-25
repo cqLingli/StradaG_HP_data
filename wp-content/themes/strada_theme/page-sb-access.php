@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header("sb"); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">
@@ -164,4 +164,4 @@
     </div>
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("sb"); ?>
