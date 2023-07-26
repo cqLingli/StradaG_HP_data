@@ -17,8 +17,8 @@ if($url_type==="sz"){
     $company="CH";
 }elseif ($url_type==="tr"){
     $company="TR";
-}elseif ($url_type==="tr"){
-    $company="TR";
+}elseif ($url_type==="ss"){
+    $company="SS";
 }
 ?>
 
