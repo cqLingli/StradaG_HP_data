@@ -11347,7 +11347,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .p-member02__box .txt .content a{
-	color: #0050e7;
+	color: black;
 }
 
 .p-member02__box .txt .content a:hover{
@@ -12434,11 +12434,14 @@ top: 30px;
     width:85%;
     height:auto;
   }
-  
+
   .Message_style2{
     width:85%;
     height:auto;
     margin-left:0;
     margin-top:2%;
   }
+}
+.has-medium-font-size {
+  color: #153F6F !important;;
 }

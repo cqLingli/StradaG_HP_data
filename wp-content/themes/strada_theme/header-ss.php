@@ -115,7 +115,7 @@
             <a href="<?php echo get_permalink(134); ?>"><div class="vertical-line">事務所概要</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('srmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
             <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">料金表</div></a>

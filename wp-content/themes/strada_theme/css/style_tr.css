@@ -4062,13 +4062,13 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member__list .item .name::after {
-    display: block;
-    width: 26px;
-    height: 26px;
-    margin-left: auto;
-    background: url(../images/member/icon.svg) no-repeat center;
-    background-size: cover;
-    content: "";
+    /*display: block;*/
+    /*width: 26px;*/
+    /*height: 26px;*/
+    /*margin-left: auto;*/
+    /*background: url(../images/member/icon.svg) no-repeat center;*/
+    /*background-size: cover;*/
+    /*content: "";*/
   }
   @media screen and (max-width: 575px) {
     .p-member__list .item .name::after {
@@ -4180,7 +4180,7 @@ title - 共通のタイトルやテキストなど
    	padding:0 10px;
     height: 36px;
     margin-bottom: 15px;
-    background: #153f6f;
+    background: #EC7700 ;
     color: #fff;
     font-size: 1.9rem;
     line-height: 36px;

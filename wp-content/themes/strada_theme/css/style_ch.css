@@ -4061,13 +4061,13 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member__list .item .name::after {
-    display: block;
-    width: 26px;
-    height: 26px;
-    margin-left: auto;
-    background: url(../images/member/icon.svg) no-repeat center;
-    background-size: cover;
-    content: "";
+    /*display: block;*/
+    /*width: 26px;*/
+    /*height: 26px;*/
+    /*margin-left: auto;*/
+    /*background: url(../images/member/icon.svg) no-repeat center;*/
+    /*background-size: cover;*/
+    /*content: "";*/
   }
   @media screen and (max-width: 575px) {
     .p-member__list .item .name::after {
