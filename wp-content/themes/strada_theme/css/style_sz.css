@@ -4233,7 +4233,7 @@ title - 共通のタイトルやテキストなど
     width: 22.5%;
     margin-right: 1%;
     margin-left: 1%;
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 20px 20px;
     background-color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -4278,7 +4278,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-member02 .item .image {
     width: 100%;
-    height: 85%;
+    height: 80%;
   }
   @media screen and (max-width: 991px) {
     .p-member02 .item .image {
@@ -4313,6 +4313,7 @@ title - 共通のタイトルやテキストなど
   .p-member02 .item .txt {
     width: 100%;
     padding: 0;
+    margin-top: 3%;
   }
   @media screen and (max-width: 575px) {
     .p-member02 .item .txt {
@@ -12354,6 +12355,7 @@ top: 30px;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
+  margin-top: 1%;
 }
 .menberTtile{
   width: 100%;
