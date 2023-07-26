@@ -29,7 +29,7 @@
   <div class="block_wrap">
 		<div class="border-text"></div>
       <div id="block_wrap" class="title_item_wrap active">
-        <p class="chapter_title">What's New<div class="circle"></div></p>
+        <p class="chapter_title"><strong>What's New</strong><div class="circle"></div></p>
       </div> 
 		    <div class="border-bt"></div>
           <div id="list_wrap" class="node_wrap node_wrap_show">
@@ -39,43 +39,29 @@
             <div class="news_style2">  
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
               <a href="#"><p style="color:#004179">ニュース</p></a>
               <hr style="border:1px dotted #BDB7B7;">
-              <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
             </div>
           </div>
 </div>
 <!-- end What’s New -->
 
 <!-- start Message -->
-<div class="block_wrap1">
-		<div class="border-text1"></div>
-      <div id="block_wrap1" class="title_item_wrap1 active1">
-        <p class="chapter_title1">Message<div class="circle1"></div></p>
-      </div> 
-		    <div class="border-bt1"></div>
-          <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
-            <div class="Message_style1">
-              
-            </div>
-            <div class="Message_style2">  
-              
-            </div>
-          </div>
-</div>
+
 <!-- end Message -->
 
 <!-- start 選ばれる6つの理由 -->
