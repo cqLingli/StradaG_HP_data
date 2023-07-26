@@ -12185,3 +12185,22 @@ top: 30px;
   font-size: 1.5rem;
   margin-left: 17%;
 }
+.read-more{
+  border: 1px solid;
+  border-radius: 15px;
+  margin: -8% 5% 5% -2%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 1%;
+}
+.menberTtile{
+  width: 100%;
+  border: 1px solid;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: white;
+  background:  linear-gradient(to right,#153F6F 30%, #fff 100%);;
+}
