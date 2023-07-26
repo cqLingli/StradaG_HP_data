@@ -1,10 +1,24 @@
 <?php
 session_start();
+$company;
 $url_type = $_SESSION['url_type'];
 if($url_type){
     get_header($url_type);
 }else{
     get_header('sz');
+}
+if($url_type==="sz"){
+    $company="SZ";
+}elseif ($url_type==="sg"){
+    $company="SG";
+}elseif ($url_type==="sb"){
+    $company="SB";
+}elseif ($url_type==="ch"){
+    $company="CH";
+}elseif ($url_type==="tr"){
+    $company="TR";
+}elseif ($url_type==="tr"){
+    $company="TR";
 }
 ?>
 
@@ -63,7 +77,7 @@ if($url_type){
         $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
         $args = array(
           'post_type' => 'members',
-          'company' => 'SZ', // 自定义字段名
+          'company' => $company, // 自定义字段名
           'posts_per_page' => -1,
           'orderby' => 'date',
           'paged' => $paged,
