@@ -12024,6 +12024,7 @@ margin-top: 6px;
 }
 .chapter_title {
     font-size: 16px;
+    font-weight:bold;
     padding: 0;
     margin: 0;
     width: calc(100% - 30px);
@@ -12321,4 +12322,104 @@ ol li {
     overflow-x:hidden;
     border: 8px solid #DCDDDD;
   }
+}
+
+.block_wrap1 {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom:30px;
+  margin-top:30px;
+  border: 0px solid #e3e3e3;
+}
+
+.title_item_wrap1 {
+width:210px;
+height:30px;
+padding: 0px 40px 0px 8px;
+margin: 20px 20px 0 7.5%;
+border-bottom: none;
+display: flex;
+align-items: center;
+background: linear-gradient(-135deg, transparent 31px, #004179 0);
+cursor: pointer;
+position: relative;
+top: -5px;
+z-index: 99;
+}
+/*アイコン描画*/
+.title_item_wrap1::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #999999;
+  border-right: 2px solid #999999;
+  transform: rotate(135deg);
+  display: inline-block;
+  transition: 0.3s;
+  margin-left: -6px;
+  border-color: #004179 #004179 transparent transparent;
+}
+.active1 {
+  border-bottom: 0px solid #F0F0F0;
+}
+.active1::after{
+  transform: rotate(-45deg);
+margin-top: 6px;
+}
+.chapter_title1 {
+  font-size: 16px;
+  font-weight:bold;
+  padding: 0;
+  margin: 0;
+  width: calc(100% - 30px);
+color: white;
+}
+.node_wrap1 {
+  overflow: hidden;
+  overflow-y: scroll;
+  transition: 0.3s;
+}
+.node_wrap1 p {
+  padding: 0 20px 5px 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid #e3e3e3
+}
+/*scrollbarを隠す*/
+.node_wrap1::-webkit-scrollbar {
+  display: none;
+}
+.node_wrap_hide1 {
+  max-height: 0;
+}
+/*内容をコントロールする*/
+.node_wrap_show1 {
+width:100%;
+margin-top:20px;
+margin-left:7.5%;
+height: 400px;
+display: flex;
+overflow-x: hidden;
+flex-wrap: wrap;
+}
+.circle1 {
+  width: 22px;
+  height: 22px;
+  background-color:#3F6D97;
+  border-radius: 50%;
+position: relative;
+left: 10px;
+top: 1px;
+}
+.border-bt1 {
+border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+width:100%;
+position: relative;
+top: -5px;
+}
+.border-text1
+{
+width: 300px;
+position: relative;
+left: 300px;
+top: 30px;
 }
