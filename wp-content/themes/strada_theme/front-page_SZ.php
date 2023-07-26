@@ -28,102 +28,44 @@
   <!-- start What’s New -->
   <div class="block_wrap">
 		<div class="border-text"></div>
-        <div id="block_wrap" class="title_item_wrap active">
-            <p class="chapter_title"><strong>What's New</strong><div class="circle"></div></p>
-        </div> 
-		<div class="border-bt">
-		</div>
-        <div id="list_wrap" class="node_wrap node_wrap_show">
-          <div style="padding-top:20px;float:left;position:relative;left:17px">
-            <div class="elementor-element elementor-element-5121e2d elementor-widget elementor-widget-video" data-id="5121e2d" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;\/wp-content\/uploads\/2023\/07\/TR_Top_image-1.png&quot;,&quot;id&quot;:915,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
-              <div class="elementor-widget-container">
-<style>/*! elementor - v3.14.0 - 26-06-2023 */
-.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:220px;width:425px;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;left:0;width:425px;height:220px;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center} .elementor-custom-embed-play i{opacity:1;color: #DF3F41;font-size: 70px}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:425px}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}
-</style>		
-	<div class="e-hosted-video elementor-wrapper elementor-open-inline">
-		<video class="elementor-video" src="/wp-content/uploads/2023/07/9b2110b29ede8da621b8178456b188f4.mp4" controls="" preload="metadata" muted="muted" controlslist="nodownload" poster="/wp-content/uploads/2023/07/TR_Top_image-1.png"></video>
-		<div class="elementor-custom-embed-image-overlay" style="background-image: url(/wp-content/uploads/2023/07/TR_Top_image-1.png);">
-		<div class="elementor-custom-embed-play" role="button" aria-label="播放视频" tabindex="0">
-		<i aria-hidden="true" class="fab fa-youtube"></i><span class="elementor-screen-only">播放视频</span>
-		</div>
-		</div>
-	</div>
+      <div id="block_wrap" class="title_item_wrap active">
+        <p class="chapter_title"><strong>What's New</strong><div class="circle"></div></p>
+      </div> 
+		    <div class="border-bt"></div>
+          <div id="list_wrap" class="node_wrap node_wrap_show">
+            <div class="news_style1"><iframe src="https://www.youtube.com/embed/xGmXxpIj6vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:90%"></iframe>
+              <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
+            </div>
+            <div class="news_style2">  
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+              <a href="#"><p style="color:#004179">ニュース</p></a>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p>2022.09.12  AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+            </div>
+          </div>
 </div>
-</div>
-<div style="font-size: 12px;zoom:0.9">ストラーダ公認会計士事務所紹介動画 Youtube</div>
-</div>
-<div style="height: 260px;width:40%;overflow-y:auto;overflow-x:hidden;border: 8px solid #DED2D2;position:relative;top:20px;left:-228px;float:right">
-        <p style="color:red">ニュース</p>
-        <p>···········································································································································</p>
-        <p>2022.09.12</p>
-<p style="color:red">採用情報</p>
-        <p>···········································································································································</p>
-        <p>2022.09.12</p>
-        <p style="color:red">インフォメーション</p>
-        <p>···········································································································································</p>
-        <p>2022.09.12</p>
-        <p style="color:red">○○</p>
-        <p>···········································································································································</p>
-        <p>2022.09.12</p>
-    </div>
-        </div>
-    </div>
 <!-- end What’s New -->
 
 <!-- start Message -->
-<div class="block_wrap1">
-	<div class="border-text1"></div>
-    <div id="block_wrap1" class="title_item_wrap1 active1">
-      <p class="chapter_title1"><strong>Message</strong><div class="circle1"></div></p>
-</div> 
-<div class="border-bt1">
-	</div>
-    <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
-		  <div style="width:35%;height: 100%;float:left;">
-			<hr style="border:1px dotted #BDB7B7;">
-        <div style="font-size: 12px; zoom: 0.7; color: red;">
-          <div style="transform: translateY(4px)"><span style="mso-spacerun: 'yes'; font-size: 13px; font-family: Kozuka Gothic Pr6N B; color: #004179; font-weight: bold;">ストラーダ税理士法人の経営理念
-          </span></div>
-        <div><span style="mso-spacerun: 'yes'; font-size: 26px; font-family: Kozuka Gothic Pr6N B; color: #004179; font-weight: bold;">お客様と共に同じ道を歩く</span></div>
-        </div>
-        <span style="letter-spacing: 0px;"></span>
-          <div style="letter-spacing: 0px; font-size: 12px; zoom: 0.75;">
-        <div style="transform: translateY(10px)"><span style="mso-spacerun: 'yes'; font-size: 10pt; font-family: Kozuka Gothic Pr6N R; color: #221815;">　「ストラーダ」とは、イタリア語で「道」という意味があります。お客様と歩む長い道をともに歩
-み続けられるような、税理士法人にしたいという意味を込めて、「ストラーダ税理士法人」と名付
-けました。税理士の特徴は、一時的なサービスではなく、企業が誕生し、企業が発展し続けるた
-めに、共に企業を成長させていく、生涯付き合える、パートナーとしての性質を有しています。企
-業の成長が、日本社会に価値を与え、弊法人のクライアントが少しでも日本社会に価値を与え
-る手助けすることが、私達の使命です。そのため、長期に渡って企業の価値を提供できるよう
-に、自己研鑽に励み、税務的面はもちろん、他の面においても価値を提供できるように努めてま
-いります。また、企業に価値を提供するスタッフが長期に渡って働けるような、社内環境を整え、
-新しいことに挑戦し続ける事務所経営を行います。
-	      </span></div>
-              </div>
-              <div style="transform: translateY(10px)"><span style="letter-spacing: 0px; font-size: 12px; float: right;">株式会社タックス・リアルティ　代表取締役</span></div><br>
-                <div style="transform: translateY(10px)"><span style="letter-spacing: 0px; font-size: 12px; float: right;transform: translateY(-8px)">加藤 経</span></div><br>
-                <hr style="border:1px dotted #BDB7B7">
-    </div>
-    <div style="width:35%;height: 100%;float:right;position:relative;left:-23.5%;top:7px"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.jpg" style="width: 100%;height:100%"></div>
-	</div>
-</div>
+
 <!-- end Message -->
 
 <!-- start 選ばれる6つの理由 -->
-&nbsp;<div style="background-color:#CDE9EF;height:735px;width:100%">&nbsp;<div style="background-color:transparent;background-image:linear-gradient(306deg, #CDE9EF 12%, #004179 70%);width:76%;height:30px;position:relative;left:12%;">
-							<div><span style="mso-spacerun: 'yes'; font-size: 11.5347pt; font-family: A-OTF Gothic MB101 Pro B; color: #ffffff; font-weight: bold;line-height:30px">&nbsp;&nbsp;選ばれる6つの理由</span></div></div>
-	<table style="margin-top:20px">
-	    <tr>
-	       <td style="border-width:0px"><div style="margin-left:12%;width:35%;padding-left:8px;padding-top:8px;padding-right:8px;background-color:white">
-        01 上場企業含む300社以上の顧問実績
-        <hr style="border:1px dotted #BDB7B7">
 
-        <p style="">これまで担当してきた確かな実績で、あらゆるお客様のお悩みにお応え致します。また、上場企業含む300社以上、個人事業主150名以上の顧問実績から培われた金融機関の人脈を駆使して、クライアント様に適切な銀行をご紹介しております。※一部紹介ができない地域がありますので、ご留意ください。</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img01.jpg" style="width: 100%;height:100%;padding-top:20px">
-	</div></td>
-	</tr>
-	</table>
-	&nbsp;
-		</div>
 <!-- end 選ばれる6つの理由 -->
   <div class="t-banner">
     <div class="l-container">
