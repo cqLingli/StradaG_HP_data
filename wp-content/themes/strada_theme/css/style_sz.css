@@ -4730,8 +4730,8 @@ navigation - グローバルナビなど
   width: 100%;
 }
  .company_infomation {
-  border-top: 1px solid #707070;
-  border-bottom: 1px solid #707070;
+  border-top: 1px dotted #707070;
+  border-bottom: 1px dotted #707070;
   margin: 30px;
   font-size: 2rem;
 }
@@ -4773,12 +4773,12 @@ navigation - グローバルナビなど
   display: -ms-flexbox;
   display: flex;
   padding: 22.5px 10px;
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px dotted #707070;
   font-size: 1.5rem;
 }
 
 .t-recruitContent dl:first-child {
-  border-top: 1px solid #707070;
+  border-top: 1px dotted #707070;
 }
 
 .t-recruitContent dl dt {
