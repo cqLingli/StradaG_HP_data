@@ -5460,6 +5460,7 @@ li.column_post .column_post_cat {
   letter-spacing: 0;
   color: #333;
   font-weight: bold;
+  text-align: center;
 }
 .c-voicePost .c-voicePost__name{
   font-size: 1.4rem;
@@ -5468,6 +5469,7 @@ li.column_post .column_post_cat {
   color: #8B8B8B;
   font-weight: bold;
   margin-top: 5px;
+  text-align: center;
 }
 @media screen and (max-width: 991px) {
   .c-voicePost .c-voicePost__items {
@@ -9640,13 +9642,35 @@ typography - 文字の装飾など
   padding: 70px 0;
 }
 .singleVoice{
-  padding: 70px 0;
+  padding: 0 0;
 }
 .singleVoice-main{
   max-width: 750px;
   width: 100%;
   margin: 0 auto;
 }
+
+
+.singleVoice-title h5{
+  font-size: 3rem;
+  line-height: 27px;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px dashed #ccc;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.singleVoice-title h6{
+  font-size: 2rem;
+  line-height: 27px;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 20px;
+}
+
+
 .singleVoice-content h2{
   font-size: 2rem;
   line-height: 27px;
