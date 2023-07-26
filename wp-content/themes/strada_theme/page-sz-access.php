@@ -1,5 +1,7 @@
-<?php get_header("sz"); ?>
-
+<?php
+/* Template Name: sz_access */
+get_header("sz");
+?>
 <main class="l-main p-access">
     <div class="c-breakcrumds">
       <div class="l-container">
