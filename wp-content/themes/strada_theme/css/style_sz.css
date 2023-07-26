@@ -12038,7 +12038,6 @@ color: white;
 .node_wrap p {
     padding: 0 20px 5px 20px;
     margin: 10px 0;
-    border-bottom: 1px solid #e3e3e3
 }
 /*scrollbarを隠す*/
 .node_wrap::-webkit-scrollbar {
@@ -12382,7 +12381,6 @@ color: white;
 .node_wrap1 p {
   padding: 0 20px 5px 20px;
   margin: 10px 0;
-  border-bottom: 1px solid #e3e3e3
 }
 /*scrollbarを隠す*/
 .node_wrap1::-webkit-scrollbar {
