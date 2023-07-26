@@ -221,6 +221,7 @@ footer - フッターのレイアウト
 .l-footer__foot .l-container {
   background-color: #1D3138;
   padding: 20px;
+  max-width: none;
 }
 
 .l-footer__foot .l-container a {
