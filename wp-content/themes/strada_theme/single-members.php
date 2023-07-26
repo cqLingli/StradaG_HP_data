@@ -1,5 +1,11 @@
 <?php
-get_header();
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_header($url_type);
+}else{
+    get_header('sz');
+}
 ?>
 
 <!-- .l-main | メインコンテンツ -->
@@ -11,6 +17,9 @@ get_header();
   </div>
   <!-- end c-breakcrumds -->
   <div class="l-container">
+      <div class="menberTtile">
+          <span>メンバー紹介</span>
+      </div>
     <div class="p-member02__box">
       <div class="image">
         <?php
@@ -54,6 +63,7 @@ get_header();
         $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
         $args = array(
           'post_type' => 'members',
+          'company' => 'SZ', // 自定义字段名
           'posts_per_page' => -1,
           'orderby' => 'date',
           'paged' => $paged,
@@ -63,7 +73,7 @@ get_header();
         $the_query = new WP_Query($args); ?>
         <?php
         if($the_query->have_posts()) :
-          while($the_query->have_posts()) : $the_query->the_post(); ?>
+          while($the_query->have_posts()) : $the_query->the_post();?>
             <div class="item">
               <div class="image">
                 <?php
@@ -75,6 +85,7 @@ get_header();
                 <?php } ?>
               </div>
               <div class="txt">
+                  <p class="name"><?php echo get_the_title(); ?></p>
                 <div class="c-job">
                   <?php
                       $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
@@ -83,18 +94,27 @@ get_header();
                           'order' => 'ASC',
                           'orderby' => 'term_id'
                       ) );
+                      $index=0;
                       foreach ( $terms as $term) {
                         $tax_link = get_term_link($term->slug, 'taxonomy_position');
                         $tax_name = $term->name;
                         $tax_slug = $term->slug;
-                        echo '<p class="job">' . $tax_name . '</p>';
+                        if($index===0){
+                            echo '<p class="job">'.$tax_name.'</p>';
+                        }else{
+                            echo '<p class="job">/'.$tax_name.'</p>';
+                        }
+                          $index++;
                       }
                     ?>
+
                 </div>
-                <p class="name"><?php echo get_the_title(); ?></p>
+                  <div class="read-more"><span>READ MORE</span></div>
+
               </div>
               <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
             </div>
+
           <?php endwhile;
           if (function_exists("pagination")) {
             pagination($the_query->max_num_pages);
@@ -111,4 +131,11 @@ get_header();
 </main>
 
 
-<?php get_footer(); ?>
+<?php session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_footer($url_type);
+}else{
+    get_footer('sz');
+}
+?>

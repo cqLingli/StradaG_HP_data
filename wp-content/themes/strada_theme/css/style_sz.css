@@ -4007,10 +4007,17 @@ title - 共通のタイトルやテキストなど
   }
   .p-member__list .item {
     position: relative;
-    width: calc(100% / 4);
+    width: calc(100% / 4.1);
     margin-bottom: 40px;
-    padding: 0 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
   }
+.p-member__list .item .image {
+  width: 100%;
+  height: 85%;
+}
   @media screen and (max-width: 767px) {
     .p-member__list .item {
       width: calc(100% / 3);
@@ -4048,7 +4055,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-member__list .item .job {
     margin-bottom: 5px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
   .p-member__list .item .name {
@@ -4063,13 +4070,13 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member__list .item .name::after {
-    display: block;
-    width: 26px;
-    height: 26px;
-    margin-left: auto;
-    background: url(../images/member/icon.svg) no-repeat center;
-    background-size: cover;
-    content: "";
+    /*display: block;*/
+    /*width: 26px;*/
+    /*height: 26px;*/
+    /*margin-left: auto;*/
+    /*background: url(../images/member/icon.svg) no-repeat center;*/
+    /*background-size: cover;*/
+    /*content: "";*/
   }
   @media screen and (max-width: 575px) {
     .p-member__list .item .name::after {
@@ -4129,8 +4136,10 @@ title - 共通のタイトルやテキストなど
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 70px;
-    padding: 50px 60px 50px 70px;
+    padding: 20px 20px 20px 20px;
     background: #fff;
+    margin-top: 10px;
+    border: 1px solid
   }
   @media screen and (max-width: 991px) {
     .p-member02__box {
@@ -4215,21 +4224,21 @@ title - 共通のタイトルやテキストなど
     text-align: left;
   }
   .p-member02 .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 31%;
-    margin-right: 3.5%;
+    width: 22.5%;
+    margin-right: 1%;
+    margin-left: 1%;
     padding: 20px 20px 20px 30px;
     background-color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    border: 1px solid;
+    margin-top: 1px;
   }
   @media screen and (max-width: 1199px) {
     .p-member02 .item {
@@ -4268,8 +4277,8 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member02 .item .image {
-    width: 43%;
-    height: 180px;
+    width: 100%;
+    height: 85%;
   }
   @media screen and (max-width: 991px) {
     .p-member02 .item .image {
@@ -4302,7 +4311,7 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member02 .item .txt {
-    width: 50%;
+    width: 100%;
     padding: 0;
   }
   @media screen and (max-width: 575px) {
@@ -11180,7 +11189,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .c-job .job{
-	margin-right:15px;
+	margin-right:1px;
 }
 
 .p-new01 .c-mainTitle{
@@ -12336,4 +12345,22 @@ width: 300px;
 position: relative;
 left: 300px;
 top: 30px;
+}
+.read-more{
+  border: 1px solid;
+  border-radius: 15px;
+  margin: -8% 5% 5% -2%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.menberTtile{
+  width: 100%;
+  border: 1px solid;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: white;
+  background:  linear-gradient(to right,#153F6F 30%, #fff 100%);;
 }
