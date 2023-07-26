@@ -1,9 +1,9 @@
 <?php
 /* Template Name: Single Voice */
-get_header();
+get_header("sz");
 ?>
  <!-- .l-main | メインコンテンツ -->
-  <main class="l-main s-voice">
+  <main class="l-main p-voice">
     <div class="c-breakcrumds">
       <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
@@ -14,13 +14,17 @@ get_header();
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
-            <?php echo get_the_title(); ?>
-            <span><?php echo get_field('name'); ?></span>
+            お客様の声
+            <span>VOICE</span>
           </h1>
         </div>
       </div>
     </div>
     <!-- end c-mainTitle -->
+
+
+
+    
     <div class="l-container">
     <?php 
       if ( have_posts() ) :
@@ -49,6 +53,18 @@ get_header();
                   <div class="singleVoice">
                     <div class="singleVoice-main">
                       <div class="singleVoice-content">
+                          
+                          
+                        <div class="singleVoice-title">
+                            <h5><?php echo get_the_title(); ?></h5>
+                            <h6><?php echo get_field('name'); ?></h6>
+                        </div>
+                          
+                          
+                          
+                          
+                          
+                          
                         <div class="voice-content voice-content01">
                           <h2>1. 各項目の弊法人のサービスや担当者の対応への満足度について</h2>
                           <h3>コミュニケーション </h3>
@@ -153,17 +169,26 @@ get_header();
                           </div>
                         </div>
                                                   
-                          <?php 
-                          $images = get_field('img');
-                          if( $images ): ?>
-                              <div class="singleVoice-content__img">
-                                  <?php foreach( $images as $image ): ?>
-                                      <figure>
-                                          <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                                      </figure>
-                                  <?php endforeach; ?>
-                                  </div>
-                          <?php endif; ?>
+                          
+                          
+                          <div class="c-voicePost__img">
+                            <figure>
+                              <?php
+        						if (has_post_thumbnail()) {
+        							echo get_the_post_thumbnail();
+        						} else { ?>
+        						<img src="<?php echo get_template_directory_uri() ?>/images/common/no-image.png" alt="nophoto">
+        						<?php }
+        						?>
+        					  </figure>
+                          </div>
+                          
+            <div class="c-btn01__blue">
+              <a  href="<?php echo home_url('taxvoicelist'); ?>">
+                <span >一覧に戻ろ</span>
+              </a>
+            </div>
+                          
                       </div>
                     </div>
                   </div>          
