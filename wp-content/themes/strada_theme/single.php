@@ -1,5 +1,12 @@
 <?php
-get_header();
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_header($_SESSION['url_type']);
+}else{
+    get_header("sz");
+}
+
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
@@ -9,9 +16,27 @@ get_header();
     </div>
   </div>
   <!-- end c-breakcrumds -->
+    <div class="c-mainTitle">
+        <div class="c-mainTitle_content">
+            <div class="c-tlt01 c-tlt01__black">
+                <h1 class="c-tlt01__line c-tlt01__line--gray">
+                    <?php
+                   echo  $_SESSION["CAT_NAME"];
+                    ?>
+                    <span>column</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- end c-mainTitle -->
   <div class="l-container">
     <div class="p-column__03">
       <div class="p-column__post">
+          <div class="menberTtile">
+            <span><?php
+                echo  $_SESSION["CAT_NAME"];
+                ?></span>
+          </div>
         <div class="box">
           <div class="date-cat">
             <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
@@ -27,6 +52,7 @@ get_header();
                 $tax_name = $term->name;
                 $tax_slug = $term->slug;
                 echo '<span class="cat">'.$tax_name.'</span>';
+                  $cat_name = $tax_name;
               }
               ?>
                 </div>
@@ -419,4 +445,11 @@ get_header();
 </main>
 
 
-<?php get_footer(); ?>
+<?php
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_footer($_SESSION['url_type']);
+}else{
+    get_footer("sz");
+}
+?>

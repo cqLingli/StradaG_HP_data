@@ -114,7 +114,7 @@
             <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">お役立ち情報</div></a>
+            <a href="<?php echo home_url('taxcolumns'); ?>"><div class="vertical-line">お役立ち情報</div></a>
           </li>
           <li>
             <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">会社概要</div></a>

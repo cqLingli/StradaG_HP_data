@@ -1,14 +1,9 @@
 <?php
 session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_header($_SESSION['url_type']);
-}else{
-    get_header("sz");
-}
-
+$_SESSION['url_type']="sz";
+get_header("sz");
 /**
-* Template Name: Archive
+* Template Name: Archive Sz column
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
@@ -23,26 +18,23 @@ if($url_type){
     <div class="c-mainTitle_content">
     <div class="c-tlt01 c-tlt01__black">
       <h1 class="c-tlt01__line c-tlt01__line--gray">
-        <?php
+        <?php 
             if(get_query_var('monthnum') != 0){
-                echo get_query_var('year') . "年" . get_query_var('monthnum'). "月"."の記事一覧" ;
+              echo get_query_var('year') . "年" . get_query_var('monthnum'). "月"."の記事一覧" ;
             }elseif(get_query_var('year') != 0){
-                echo get_query_var('year') . "年" ."の記事一覧" ;
+              echo get_query_var('year') . "年" ."の記事一覧" ;
             }elseif(is_category()){
-                global $wp_query;
-                $_SESSION["CAT_NAME"] = $wp_query->queried_object->cat_name;
-                single_cat_title();
+              single_cat_title();
             }elseif(is_tag()){
               single_tag_title();
             }elseif(is_page('columns')){
-              echo 'お役立ち情報 ';
+              echo 'お役立ち情報 ';            
             }else{
               echo wp_title('');
             }
             ?>
             <span>column</span>
       </h1>
-
     </div>
     </div>
   </div>
@@ -73,7 +65,7 @@ if($url_type){
           おすすめ記事
         </h2>
         <div class="p-column__list">
-          <?php
+          <?php           
             if($the_query->have_posts()) :
                 while($the_query->have_posts()) : $the_query->the_post(); ?>
                   <?php array_push($recommendPosts, get_the_id()); ?>
@@ -126,23 +118,7 @@ if($url_type){
     <div class="p-column__02">
       <div class="p-column__main">
           <div class="menberTtile">
-              <span>
-                  <?php
-                  if(get_query_var('monthnum') != 0){
-                      echo get_query_var('year') . "年" . get_query_var('monthnum'). "月"."の記事一覧" ;
-                  }elseif(get_query_var('year') != 0){
-                      echo get_query_var('year') . "年" ."の記事一覧" ;
-                  }elseif(is_category()){
-                      single_cat_title();
-                  }elseif(is_tag()){
-                      single_tag_title();
-                  }elseif(is_page('columns')){
-                      echo 'お役立ち情報 ';
-                  }else{
-                      echo wp_title('');
-                  }
-                  ?>
-              </span>
+              <span>お役立ち情報</span>
           </div>
         <div class="p-column__list">
           <?php
@@ -175,7 +151,6 @@ if($url_type){
                       </div>
                       <div class="txt">
                         <p class="date-cat">
-
                           <?php
                             $terms = wp_get_post_terms($post->ID, 'category', array(
                                 'hide_empty' => false,
@@ -223,11 +198,4 @@ if($url_type){
 </main>
 
 
-<?php
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_footer($_SESSION['url_type']);
-}else{
-    get_footer("sz");
-}
-?>
+<?php get_footer("sz"); ?>

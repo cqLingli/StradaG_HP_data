@@ -12142,6 +12142,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-bottom: 1px;
 }
 .menberTtile{
+  padding: 2px 5px;
   width: 100%;
   border: 1px solid;
   line-height: 40px;
