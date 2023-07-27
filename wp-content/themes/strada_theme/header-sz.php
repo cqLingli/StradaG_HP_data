@@ -103,15 +103,15 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('taxservice'); ?>"><div class="vertical-line">事業内容</div></a></li>
+          <li><a href="<?php echo home_url('tax/taxservicelist'); ?>"><div class="vertical-line">事業内容</div></a></li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('members'); ?>"><div class="vertical-line">お客様の声</div></a>
+            <a href="<?php echo home_url('tax/taxvoicelist'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
+            <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
             <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">お役立ち情報</div></a>
@@ -123,7 +123,7 @@
             <a href="<?php echo home_url('taxmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">アクセス</div></a>
+            <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">リクルート</div></a>
