@@ -2566,8 +2566,7 @@ sidebar - サイドバー
 ========================================================= */
 
 .l-sidebar {
-  width: 350px;
-  max-width: 350px;
+  width: 35%;
 }
 @media screen and (max-width: 767px) {
   .l-sidebar {
@@ -3106,6 +3105,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-column .c-pagenation {
     padding: 70px 0;
+    text-align: center;
   }
   .p-column .c-pagenation ul {
     display: -webkit-box;
@@ -3145,14 +3145,18 @@ title - 共通のタイトルやテキストなど
     color: #fff;
   }
   .p-column .c-tlt04 {
+    padding: 2px 5px;
     margin-bottom: 15px;
-    padding: 15px 0;
-    background-color: #153f6f;
+    background: linear-gradient(to right,#00A159 30%, #fff 100%);
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     font-weight: bold;
-    text-align: center;
+    margin-top: 8px;
   }
+.p-column .l-sidebar .c-list__cat {
+  border: 1px solid;
+  margin-top: 15px;
+}
   .p-column .c-list__cat li {
     padding: 20px 0;
     border-bottom: 1px solid #a9a8a8;
@@ -3291,7 +3295,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-column__list .item .txt .cat {
     padding: 2px 5px;
-    background-color: #d3f6ff;
+    background-color: #00A159;
     color: #333333;
     font-size: 1.1rem;
     font-weight: bold;
@@ -3390,8 +3394,7 @@ title - 共通のタイトルやテキストなど
     margin-top: 30px;
   }
   .p-column__main {
-    width: 750px;
-    max-width: 750px;
+    width: 60%;
     margin-bottom: 50px;
     padding: 5px 35px 40px;
     background-color: #fff;
@@ -3406,6 +3409,8 @@ title - 共通のタイトルやテキストなど
   .p-column__main .p-column__list {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    border: 1px solid;
+    margin-top: 15px;
   }
   .p-column__main .item {
     display: -webkit-box;
@@ -3438,6 +3443,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-column__main .item .txt .date {
     font-size: 1.2rem;
+    margin-left: 45%;
   }
   .p-column__main .item .txt .title {
     margin-bottom: 8px;
@@ -3451,10 +3457,7 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-column__post {
-    width: 750px;
-    max-width: 750px;
-    margin-bottom: 75px;
-    padding: 40px;
+    width: 60%;
     background-color: #fff;
   }
   .p-column__post .box .date-cat {
@@ -3834,7 +3837,9 @@ title - 共通のタイトルやテキストなど
   .p-column .l-sidebar .p-column__list {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 0 15px;
+    padding: 5px 5px;
+    border: 1px solid;
+    margin-top: 10px;
   }
   .p-column .l-sidebar .p-column__list .item {
     display: -webkit-box;
@@ -3846,6 +3851,8 @@ title - 共通のタイトルやテキストなど
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px dotted #6B696A;
   }
   .p-column .l-sidebar .p-column__list .item .image {
     position: relative;
@@ -12206,4 +12213,16 @@ top: 30px;
 }
 .has-medium-font-size {
   color: #00A159 !important;;
+}
+.column-read-more{
+  margin: 0 5% 5% 5%;
+  width: 90%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1px;
+}
+.column-read-more img {
+  margin: auto;
+  height: 35px;
 }
