@@ -12726,7 +12726,7 @@ top: 30px;
 }
 
 .reason04_style1_img1{
-  margin-top:48px;
+  margin-top:28px;
 }
 
 .reason04_style1_img1_1{
@@ -12749,6 +12749,10 @@ top: 30px;
   .reason04_style1_span2{
     font-size:12px;
     zoom:0.85
+  }
+
+  .reason04_style1_img1{
+    margin-top:48px;
   }
 
 }
