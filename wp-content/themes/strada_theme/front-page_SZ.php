@@ -217,7 +217,23 @@
 </div>
 <!-- end Strada Group -->
 
-  <?php get_template_part( 'template', 'recruit_sz' ); ?>
+  <!-- start Strada recruit -->
+  <div class="block_wrap">
+    <div class="border-text"></div>
+    <div id="block_wrap" class="title_item_wrap active">
+      <p class="chapter_title">Recruit
+      <div class="circle"></div>
+      </p>
+    </div>
+    <div class="border-bt"></div>
+    <div id="list_wrap" class="node_wrap node_wrap_show_template">
+      <div class="l-container">
+        <?php get_template_part('template', 'recruit_sz'); ?>
+      </div>
+    </div>
+  </div>
+  <!-- start Strada recruit -->
+
 </main>
 
 <?php get_footer(); ?>
