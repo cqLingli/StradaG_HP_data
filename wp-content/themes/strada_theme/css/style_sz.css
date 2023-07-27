@@ -12018,6 +12018,12 @@ color: white;
   overflow-x: hidden;
   flex-wrap: wrap;
 }
+.node_wrap_show_new {
+  width:100%;
+  margin-top:20px;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+}
 .circle {
     width: 22px;
     height: 22px;
