@@ -3976,19 +3976,20 @@ title - 共通のタイトルやテキストなど
   .p-column .l-commonTag .c-tlt04 {
     margin-bottom: 25px;
   }
-  .p-member__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin-right: -5px;
-    margin-left: -5px;
-    padding-bottom: 90px;
-  }
+.p-member__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: -5px;
+  margin-left: -5px;
+  padding-bottom: 90px;
+
+}
   @media screen and (max-width: 575px) {
     .p-member__list {
       padding-bottom: 40px;
@@ -4181,7 +4182,7 @@ title - 共通のタイトルやテキストなど
    	padding:0 10px;
     height: 36px;
     margin-bottom: 15px;
-    background: #153f6f;
+    background: #808C96;
     color: #fff;
     font-size: 1.9rem;
     line-height: 36px;
@@ -4214,23 +4215,22 @@ title - 共通のタイトルやテキストなど
     font-weight: bold;
     text-align: left;
   }
-  .p-member02 .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 31%;
-    margin-right: 3.5%;
-    padding: 20px 20px 20px 30px;
-    background-color: #fff;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+.p-member02 .item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 23%;
+  margin-right: 1%;
+  padding: 20px 20px 20px 20px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+  margin-top: 1px;
+}
   @media screen and (max-width: 1199px) {
     .p-member02 .item {
       margin-right: 1%;
@@ -4267,10 +4267,10 @@ title - 共通のタイトルやテキストなど
       margin-right: 0;
     }
   }
-  .p-member02 .item .image {
-    width: 43%;
-    height: 180px;
-  }
+.p-member02 .item .image {
+  width: 100%;
+  height: 80%;
+}
   @media screen and (max-width: 991px) {
     .p-member02 .item .image {
       height: auto;
@@ -4302,8 +4302,9 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-member02 .item .txt {
-    width: 50%;
+    width: 100%;
     padding: 0;
+    margin-top: 3%;
   }
   @media screen and (max-width: 575px) {
     .p-member02 .item .txt {
@@ -11180,7 +11181,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .c-job .job{
-	margin-right:15px;
+	margin-right:1px;
 }
 
 .p-new01 .c-mainTitle{
@@ -12197,7 +12198,7 @@ top: 30px;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
-  margin-top: 1%;
+  margin-bottom: 1px;
 }
 .menberTtile{
   width: 100%;
@@ -12206,5 +12207,8 @@ top: 30px;
   font-weight: bold;
   font-size: 2.0rem;
   color: white;
-  background:  linear-gradient(to right,#153F6F 30%, #fff 100%);;
+  background:  linear-gradient(to right,#808C96 30%, #fff 100%);;
+}
+.has-medium-font-size {
+  color: #808C96 !important;;
 }
