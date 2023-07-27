@@ -86,122 +86,138 @@
             <hr style="border:1px dotted #BDB7B7;">
             </div>
             <div class="Message_style2">  
-              <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.jpg" alt="" class="Message_style1_img" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt="" class="Message_style1_img" />
             </div>
           </div>
 </div>
 <!-- end Message -->
 
 <!-- start 選ばれる6つの理由 -->
-<div style="background-color:#CDE9EF;height:735px;width:100%;padding-top:20px">
-  <div style="background-color:transparent;background-image:linear-gradient(306deg, #CDE9EF 12%, #004179 70%);width:85%;margin-left:7.5%">
+<div class="sixreasons_bg">
+  <div class="title_bg">
 		<div>
-      <span style="mso-spacerun: 'yes'; font-size: 11.5347pt; font-family: A-OTF Gothic MB101 Pro B; color: #ffffff; font-weight: bold;line-height:30px">&nbsp;&nbsp;選ばれる6つの理由</span></div>
-		</div>
-</div>
-<!-- end 選ばれる6つの理由 -->
- 
-  <div class="t-reason t-block"> 
-    <div class="c-tlt01 c-tlt01__black">
-      <h2 class="c-tlt01__line c-tlt01__line--black">
-        選ばれる6つの理由
-        <span>REASON</span>
-      </h2>
-    </div>
-    <div class="l-container">
-      <div class="t-reason_main">
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>01</span>
-            <h3>上場企業含む300社以上の顧問実績</h3>
-            <p>
-              これまで担当してきた確かな実績で、あらゆるお客様のお悩みにお応え致します。<br />
-              また、上場企業含む300社以上、個人事業主150名以上の顧問実績から培われた金融機関の人脈を駆使して、クライアント様に適切な銀行をご紹介しております。<br />
-              ※一部紹介ができない地域がありますので、ご留意ください。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img01.jpg" alt="上場企業含む300社以上の顧問実績" />
-          </div>
-        </div>
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>02</span>
-            <h3>創業融資通過率99.7%の実績</h3>
-            <p>
-              ストラーダでは創業融資を通過率を上げるためにご依頼者の状況確認から最適な金融機関をご提案させて頂きます。<br />
-              取引銀行の数や業種、業績など企業ごとに相性の良い金融機関をご紹介します。<br />
-              申込書や事業計画書などのサポートも細かく行い、99.7％の融資通過率になりました。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img02.jpg" alt="創業融資通過率99.7%の実績" />
-          </div>
-        </div>
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>03</span>
-            <h3>経済産業省から認定された信頼性</h3>
-            <p>
-              ストラーダ税理士法人は、経営革新認定支援機関として、経済産業省に認定された登録機関です。<br />
-              経営革新認定支援機関が、事業計画を作成することにより、融資の通過率の増加や金利が減少する場合があります。<br />
-              また、補助金についても、補助金を得られる確率が増加します。<br />
-              <br />
-              ※実際に、補助金をご依頼頂く場合は、別途費用を頂戴致しますので、ご留意ください。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img03.jpg" alt="経済産業省から認定された信頼性" />
-          </div>
-        </div>
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>04</span>
-            <h3>チャットワークを使用し素早いレスポンスを実現</h3>
-            <p>
-              弊社では、基本的には、チャットワークというビジネスチャットでやり取りさせて頂いております。<br />
-              お客様ごとの、弊社の従業員を含めた、チャットグループを作成させて頂きます。<br />
-              不明な点等を気軽にチャットでご連絡頂ければ、適時に返信致します。<br />
-              もちろん、メール・電話対応も行っておりますので、チャットワークをご利用いただかなくても結構です。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img04.jpg" alt="チャットワークを使用し素早いレスポンスを実現" />
-          </div>
-        </div>
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>05</span>
-            <h3>効率的なサポート体制と豊富な税制知識</h3>
-            <p>
-              毎年一回税制改正が行われます。 ストラーダでは、最新の税制に基いてお客様が安定経営ができるように、最新の情報を入手・発信致します。 また、効率化の観点から、全てのお客様に電子申告で申告作業を致します。
-              そのため、決算申告の間際に、お客様に申告の作業で押印を頂く必要がありません。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img05.jpg" alt="効率的なサポート体制と豊富な税制知識" />
-          </div>
-        </div>
-        <div class="t-reason_items">
-          <div class="t-reason_content">
-            <span>06</span>
-            <h3>公認会計士や社労士、行政書士が在籍しているから出来る、ビジネス全体のアドバイス</h3>
-            <p>
-              税理士は、税金の計算や税金に関するアドバイスをさせて頂きます。<br />
-              一方で公認会計士は、税金以外の決算書に関するアドバイスをさせて頂きます。<br />
-              企業運営には、税金の計算だけではなくて、財務、会計、経営、倒産リスク等考える必要がある項目は、多くあります。<br />
-              そのような場合、税務以外の相談も、私たちが培った長年の経験を生かして、アドバイスさせて頂きます。
-            </p>
-          </div>
-          <div class="t-reason_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img06.jpg" alt="公認会計士や社労士、行政書士が在籍しているから出来る、ビジネス全体のアドバイス" />
+      <span class="title_wd">選ばれる6つの理由</span></div>
+	</div>
+  <div class="reasonline1">
+      <div class="reason01_style1">
+        <div class="reason01_style1_borderin1">
+          <p><span class="reason01_style1_span1">01</span><span class="reason01_style1_span2">上場企業含む300社以上の顧問実績</span></p>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason01_style1_p1">これまで担当してきた確かな実績で、あらゆるお客様のお悩みにお応え致します。また、上
+場企業含む300社以上、個人事業主150名以上の顧問実績から培われた金融機関の人脈
+を駆使して、クライアント様に適切な銀行をご紹介しております。
+<br />※一部紹介ができない地域がありますので、ご留意ください。</p>
+          <div class="reason01_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img01.jpg" alt="" class="reason01_style1_img1_1" />
           </div>
         </div>
       </div>
-    </div>
+      <div class="reason02_style1">  
+        <div class="reason02_style1_borderin1">
+          <p><span class="reason02_style1_span1">02</span><span class="reason02_style1_span2">創業融資通過率99.7%の実績</span></p>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason02_style1_p1">ストラーダでは創業融資を通過率を上げるためにご依頼者の状況確認から最適な金融機
+関をご提案させて頂きます。取引銀行の数や業種、業績など企業ごとに相性の良い金融機
+関をご紹介します。申込書や事業計画書などのサポートも細かく行い、99.7％の融資通過
+率になりました。</p>
+          <div class="reason02_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img02.jpg" alt="" class="reason02_style1_img1_1" />
+          </div>
+        </div>
+      </div>
   </div>
-  <!-- end t-reason -->
-  <?php get_template_part( 'template', 'access' ); ?>
+  <div class="reasonline2">
+      <div class="reason03_style1">
+        <div class="reason03_style1_borderin1">
+          <p><span class="reason03_style1_span1">03</span><span class="reason03_style1_span2">経済産業省から認定された信頼性</span></p>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason03_style1_p1">ストラーダ税理士法人は、経営革新認定支援機関として、経済産業省に認定された登録機
+関です。経営革新認定支援機関が、事業計画を作成することにより、融資の通過率の増加
+や金利が減少する場合があります。また、補助金についても、補助金を得られる確率が増
+加します。
+<br />※実際に、補助金をご依頼頂く場合は、別途費用を頂戴致しますので、ご留意ください。 </p>
+          <div class="reason03_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img03.jpg" alt="" class="reason03_style1_img1_1" />
+          </div>
+        </div>
+      </div>
+      <div class="reason04_style1">  
+        <div class="reason04_style1_borderin1">
+          <p><span class="reason04_style1_span1">04</span><span class="reason04_style1_span2">チャットワークを使用し素早いレスポンスを実現</span></p>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason04_style1_p1">弊社では、基本的には、チャットワークというビジネスチャットでやり取りさせて頂いており
+ます。お客様ごとの、弊社の従業員を含めた、チャットグループを作成させて頂きます。不
+明な点等を気軽にチャットでご連絡頂ければ、適時に返信致します。もちろん、メール・電
+話対応も行っておりますので、チャットワークをご利用いただかなくても結構です。 </p>
+          <div class="reason04_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img04.jpg" alt="" class="reason04_style1_img1_1" />
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="reasonline3">
+      <div class="reason05_style1">
+        <div class="reason05_style1_borderin1">
+          <p><span class="reason05_style1_span1">05</span><span class="reason05_style1_span2">効率的なサポート体制と豊富な税制知識</span></p>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason05_style1_p1">毎年一回税制改正が行われます。 ストラーダでは、最新の税制に基いてお客様が安定経
+営ができるように、最新の情報を入手・発信致します。 また、効率化の観点から、全てのお
+客様に電子申告で申告作業を致します。 そのため、決算申告の間際に、お客様に申告の作
+業で押印を頂く必要がありません。</p>
+          <div class="reason05_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img05.jpg" alt="" class="reason05_style1_img1_1" />
+          </div>
+        </div>
+      </div>
+      <div class="reason06_style1">  
+        <div class="reason06_style1_borderin1">
+          <div class="reason06_style1_title"><div class="reason06_style1_span1">06</div><div class="reason06_style1_span2">公認会計士や社労士、行政書士が在籍しているから出来る、ビジネス全体のアドバイス</div></div>
+          <hr style="border:1px dotted #BDB7B7;">
+          <p class="reason06_style1_p1">税理士は、税金の計算や税金に関するアドバイスをさせて頂きます。一方で公認会計士
+は、税金以外の決算書に関するアドバイスをさせて頂きます。企業運営には、税金の計算
+だけではなくて、財務、会計、経営、倒産リスク等考える必要がある項目は、多くあります。そ
+のような場合、税務以外の相談も、私たちが培った長年の経験を生かして、アドバイスさせ
+て頂きます。</p>
+          <div class="reason06_style1_img1">  
+            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage_6つの理由img06.jpg" alt="" class="reason06_style1_img1_1" />
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- end 選ばれる6つの理由 -->
+
+<!-- start Strada Group -->
+<div class="block_wrap2">
+		<div class="border-text2"></div>
+      <div id="block_wrap2" class="title_item_wrap2 active2">
+        <p class="chapter_title2">Strada Group<div class="circle2"></div></p>
+      </div> 
+		    <div class="border-bt2"></div>
+          <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
+            <div class="Strada_style">
+              <div class="Strada_style_img1">  
+                <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt="" class="Strada_style_img1_1" />
+              </div>
+              <hr style="border:1px dotted #BDB7B7;">
+              <p style="font-size:12px;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+	              <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
+	              <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人 </span>
+	              <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士 </span>
+	              <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ </span>
+                <span style="color: #e17401; font-weight: bold;">社会保険労務士 </span>
+	              <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会 </span>
+	              <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士 </span>
+	              <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>
+	              <span style="color: #221815;">が在籍しています。ストラーダグループとして、企 </span>
+                <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span></p>
+              <hr style="border:1px dotted #BDB7B7;">
+            </div>
+          </div>
+</div>
+<!-- end Strada Group -->
+
+  <?php get_template_part( 'template', 'recruit_sz' ); ?>
 </main>
 
 <?php get_footer(); ?>

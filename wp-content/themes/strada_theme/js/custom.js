@@ -56,6 +56,35 @@ var block_wrap1 = document.getElementById('block_wrap1')
         }
     }
 
+//---------- block_wrap2 ----------//
+var block_wrap2 = document.getElementById('block_wrap2')
+
+if(block_wrap2.classList.contains('active2')==false){
+    list_wrap2.classList.add('node_wrap_hide2')
+}
+block_wrap2.onclick = function() {
+
+    let classArray2 = this.className.split(/\s+/)
+
+    let list_wrap2 = document.getElementById('list_wrap2')
+
+    // 内容の隠れと表示
+    if (classArray2.includes('active2')) {
+        // 内容を隠す
+        block_wrap2.classList.remove('active2')
+        list_wrap2.classList.remove('node_wrap_show2')
+        list_wrap2.classList.add('node_wrap_hide2')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap2.classList.add('active2')
+        list_wrap2.classList.add('node_wrap_show2')
+        list_wrap2.classList.remove('node_wrap_hide2')
+        return
+    }
+}
+
 //---------- imageplay ----------//
 var timer;
         var imageplay = document.querySelector('.imageplay');
