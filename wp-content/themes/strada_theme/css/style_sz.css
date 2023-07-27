@@ -12355,7 +12355,7 @@ color: white;
 width:100%;
 margin-top:20px;
 margin-left:7.5%;
-height: 330px;
+height: 100%;
 display: flex;
 overflow-x: hidden;
 flex-wrap: wrap;
@@ -12402,13 +12402,13 @@ top: 30px;
   }
 .Message_style1{
   width:41.5%;
-  height:330px;
+  height:355px;
   overflow-y:auto;
 }
 
 .Message_style2{
   width:41.5%;
-  height:330px;
+  height:355px;
   margin-left:2%;
 }
 .Message_style1_p1{
@@ -12811,7 +12811,7 @@ top: 30px;
 }
 
 .reason05_style1_img1{
-  margin-top:28px;
+  margin-top:38px;
   padding:0;
 }
 
