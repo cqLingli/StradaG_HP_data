@@ -4564,6 +4564,11 @@ title - 共通のタイトルやテキストなど
 .p-new02 .c-new-content .c-wrap-new .c-back-list .i-arrow img {
   width: 22px;
 }
+.qa_container{
+  padding: 10px !important;
+  background-color: #FFF0E5 !important;
+  max-width: none !important;
+}
 .p-qa__faq {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4578,18 +4583,13 @@ title - 共通のタイトルやテキストなど
 .p-qa__faq a {
   display: block;
   padding: 24px 0;
-  border: 2px solid #153f6f;
-  color: #153f6f;
+  border: 2px solid #EC7700;
+  color: #EC7700;
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
 }
-.p-qa__content {
-  margin-right: 41px;
-  margin-left: 27px;
-  padding: 79px 103px;
-  background-color: #fff;
-}
+
 @media only screen and (max-width: 767px) {
   .p-qa__faq{
     flex-wrap:wrap;
@@ -4624,7 +4624,7 @@ list - リストのオブジェクト
   top: -2px;
   width: 166px;
   height: 2px;
-  background-color: #153f6f;
+  background-color: #EC7700;
   content: '';
 }
 .c-qa-list__title p {
@@ -4715,7 +4715,6 @@ navigation - グローバルナビなど
   flex-grow: 1;
   padding-top: 6px;
   font-size: 1.4rem;
-  font-weight: 700;
   line-height: 22px;
 }
 @media only screen and (max-width: 767px) {
@@ -9906,8 +9905,8 @@ img{
 }
 
 /* 06-03-2021 */
-.p-qa__content{
-  padding: 0 0;
+.p-qa__content {
+  padding: 30px 100px;
   background:transparent;
 }
 
@@ -9923,10 +9922,12 @@ img{
 }
 
 .c-qa-list__title{
-  padding-top:0;
-  border:none;
-  color:#153F6F;
+  padding-top: 0;
+  border: none;
+  color: white;
   margin-bottom: 17.5px;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  padding-left: 10px;
 }
 
 .c-qa__question--icon, .c-qa__answer--icon{
@@ -9935,9 +9936,9 @@ img{
   display:flex;
   align-items: center;
   justify-content: center;
-  color:#153F6F;
+  color:#EC7700;
   font-size:1.4rem;
-  background:#E8E8E8;
+  background:#C6BEB9;
   border-radius: 50%;
   flex-shrink: 0;
   margin-right:20px;
@@ -9945,7 +9946,7 @@ img{
 
 .c-qa__answer--icon{
   color:#fff;
-  background:#153F6F;
+  background:#EC7700;
 }
 
 .c-qa__question{
@@ -10005,7 +10006,7 @@ img{
 
 .c-qa-list{
   margin-bottom:0;
-  padding-top:75px;
+  padding-top:40px;
 }
 
 .c-qa-list:last-child{
