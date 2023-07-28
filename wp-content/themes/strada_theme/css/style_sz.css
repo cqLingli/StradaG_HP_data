@@ -12360,7 +12360,6 @@ color: white;
 .node_wrap_show1 {
 width:100%;
 margin-top:20px;
-margin-left:7.5%;
 height: 100%;
 display: flex;
 overflow-x: hidden;
@@ -12409,6 +12408,7 @@ top: 30px;
 .Message_style1{
   width:41.5%;
   height:355px;
+  margin-left:7.5%;
   overflow-y:auto;
 }
 
@@ -12483,8 +12483,8 @@ top: 30px;
   .Message_style2{
     width:85%;
     height:auto;
-    margin-left:0;
     margin-top:2%;
+    margin-left:7.5%
   }
 }
 .has-medium-font-size {
@@ -12507,7 +12507,8 @@ top: 30px;
   background-color:#CDE9EF;
   height:100%;
   width:100%;
-  padding-top:20px
+  padding-top:20px;
+  margin-top: 20px;
 }
 .title_bg{
   background-color:transparent;
