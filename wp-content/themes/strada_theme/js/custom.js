@@ -85,6 +85,209 @@ block_wrap2.onclick = function() {
     }
 }
 
+//---------- block_wrap3 ----------//
+var block_wrap3 = document.getElementById('block_wrap3')
+
+if(block_wrap3.classList.contains('active3')==false){
+    list_wrap3.classList.add('node_wrap_hide3')
+}
+block_wrap3.onclick = function() {
+
+    let classArray3 = this.className.split(/\s+/)
+
+    let list_wrap3 = document.getElementById('list_wrap3')
+
+    // 内容の隠れと表示
+    if (classArray3.includes('active3')) {
+        // 内容を隠す
+        block_wrap3.classList.remove('active3')
+        list_wrap3.classList.remove('node_wrap_show3')
+        list_wrap3.classList.add('node_wrap_hide3')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap3.classList.add('active3')
+        list_wrap3.classList.add('node_wrap_show3')
+        list_wrap3.classList.remove('node_wrap_hide3')
+        return
+    }
+}
+
+//---------- block_wrap4 ----------//
+var block_wrap4 = document.getElementById('block_wrap4')
+
+if(block_wrap4.classList.contains('active4')==false){
+    list_wrap4.classList.add('node_wrap_hide4')
+}
+block_wrap4.onclick = function() {
+
+    let classArray4 = this.className.split(/\s+/)
+
+    let list_wrap4 = document.getElementById('list_wrap4')
+
+    // 内容の隠れと表示
+    if (classArray4.includes('active4')) {
+        // 内容を隠す
+        block_wrap4.classList.remove('active4')
+        list_wrap4.classList.remove('node_wrap_show4')
+        list_wrap4.classList.add('node_wrap_hide4')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap4.classList.add('active4')
+        list_wrap4.classList.add('node_wrap_show4')
+        list_wrap4.classList.remove('node_wrap_hide4')
+        return
+    }
+}
+
+//---------- block_wrap5 ----------//
+var block_wrap5 = document.getElementById('block_wrap5')
+
+if(block_wrap5.classList.contains('active5')==false){
+    list_wrap5.classList.add('node_wrap_hide5')
+}
+block_wrap5.onclick = function() {
+
+    let classArray5 = this.className.split(/\s+/)
+
+    let list_wrap5 = document.getElementById('list_wrap5')
+
+    // 内容の隠れと表示
+    if (classArray5.includes('active5')) {
+        // 内容を隠す
+        block_wrap5.classList.remove('active5')
+        list_wrap5.classList.remove('node_wrap_show5')
+        list_wrap5.classList.add('node_wrap_hide5')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap5.classList.add('active5')
+        list_wrap5.classList.add('node_wrap_show5')
+        list_wrap5.classList.remove('node_wrap_hide5')
+        return
+    }
+}
+
+//---------- block_wrap6 ----------//
+var block_wrap6 = document.getElementById('block_wrap6')
+
+if(block_wrap6.classList.contains('active6')==false){
+    list_wrap6.classList.add('node_wrap_hide6')
+}
+block_wrap6.onclick = function() {
+
+    let classArray6 = this.className.split(/\s+/)
+
+    let list_wrap6 = document.getElementById('list_wrap6')
+
+    // 内容の隠れと表示
+    if (classArray6.includes('active6')) {
+        // 内容を隠す
+        block_wrap6.classList.remove('active6')
+        list_wrap6.classList.remove('node_wrap_show6')
+        list_wrap6.classList.add('node_wrap_hide6')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap6.classList.add('active6')
+        list_wrap6.classList.add('node_wrap_show6')
+        list_wrap6.classList.remove('node_wrap_hide6')
+        return
+    }
+}
+
+//---------- block_wrap7 ----------//
+var block_wrap7 = document.getElementById('block_wrap7')
+
+if(block_wrap7.classList.contains('active7')==false){
+    list_wrap7.classList.add('node_wrap_hide7')
+}
+block_wrap7.onclick = function() {
+
+    let classArray7 = this.className.split(/\s+/)
+
+    let list_wrap7 = document.getElementById('list_wrap7')
+
+    // 内容の隠れと表示
+    if (classArray7.includes('active7')) {
+        // 内容を隠す
+        block_wrap7.classList.remove('active7')
+        list_wrap7.classList.remove('node_wrap_show7')
+        list_wrap7.classList.add('node_wrap_hide7')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap7.classList.add('active7')
+        list_wrap7.classList.add('node_wrap_show7')
+        list_wrap7.classList.remove('node_wrap_hide7')
+        return
+    }
+}
+
+//---------- block_wrap8 ----------//
+var block_wrap8 = document.getElementById('block_wrap8')
+
+if(block_wrap8.classList.contains('active8')==false){
+    list_wrap8.classList.add('node_wrap_hide8')
+}
+block_wrap8.onclick = function() {
+
+    let classArray8 = this.className.split(/\s+/)
+
+    let list_wrap8 = document.getElementById('list_wrap8')
+
+    // 内容の隠れと表示
+    if (classArray8.includes('active8')) {
+        // 内容を隠す
+        block_wrap8.classList.remove('active8')
+        list_wrap8.classList.remove('node_wrap_show8')
+        list_wrap8.classList.add('node_wrap_hide8')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap8.classList.add('active8')
+        list_wrap8.classList.add('node_wrap_show8')
+        list_wrap8.classList.remove('node_wrap_hide8')
+        return
+    }
+}
+
+//---------- block_wrap9 ----------//
+var block_wrap9 = document.getElementById('block_wrap9')
+
+if(block_wrap9.classList.contains('active9')==false){
+    list_wrap9.classList.add('node_wrap_hide9')
+}
+block_wrap9.onclick = function() {
+
+    let classArray9 = this.className.split(/\s+/)
+
+    let list_wrap9 = document.getElementById('list_wrap9')
+
+    // 内容の隠れと表示	
+    if (classArray9.includes('active9')) {
+        // 内容を隠す
+        block_wrap9.classList.remove('active9')
+        list_wrap9.classList.remove('node_wrap_show9')
+        list_wrap9.classList.add('node_wrap_hide9')
+        console.log(this.className.split(/\s+/))
+        return
+    } else {
+        // 内容を表示する
+        block_wrap9.classList.add('active9')
+        list_wrap9.classList.add('node_wrap_show9')
+        list_wrap9.classList.remove('node_wrap_hide9')
+        return
+    }
+}
+
 //---------- imageplay ----------//
 var timer;
         var imageplay = document.querySelector('.imageplay');
