@@ -1,4 +1,6 @@
-<?php get_header("ch"); ?>
+<?php 
+/* Template Name: access_ch */
+get_header("ch"); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">

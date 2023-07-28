@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+/* Template Name: access_group */
+get_header(); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">

@@ -1,5 +1,5 @@
 <?php
-/* Template Name: sz_access */
+/* Template Name: access_sz */
 get_header("sz");
 ?>
 <main class="l-main p-access">

@@ -1,4 +1,6 @@
-<?php get_header("ss"); ?>
+<?php 
+/* Template Name: access_ss */
+get_header("ss"); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">

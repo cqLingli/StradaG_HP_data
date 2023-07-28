@@ -1,4 +1,6 @@
-<?php get_header("tr"); ?>
+<?php 
+/* Template Name: access_tr */
+get_header("tr"); ?>
 
 <main class="l-main p-access">
     <div class="c-breakcrumds">
