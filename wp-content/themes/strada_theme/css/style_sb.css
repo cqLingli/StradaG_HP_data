@@ -3319,9 +3319,10 @@ title - 共通のタイトルやテキストなど
   .p-column__list .item .txt .cat {
     padding: 2px 5px;
     background-color: #00A159;
-    color: #333333;
+    color: white;
     font-size: 1.1rem;
     font-weight: bold;
+    border: 1px solid;
   }
   @media screen and (max-width: 767px) {
     .p-column__list .item .txt .cat {
@@ -12248,4 +12249,34 @@ top: 30px;
 .column-read-more img {
   margin: auto;
   height: 35px;
+}
+.firstview_casestudy {
+  width: 100%;
+  height: 350px;
+  background-image: url(../images/casestudy.jpg);
+  background-repeat: no-repeat;
+  background-position: center 67%;
+  background-size: cover;
+  color: #fff;
+  margin-top: 70px;
+}
+.firstview_casestudy .container .english {
+  color: #fff;
+  font-size: 80px;
+  font-family: "Noto Serif JP", serif;
+  padding: 170px 0 5px;
+  margin-left: 60px;
+  -webkit-filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
+  letter-spacing: 0;
+}
+.firstview_casestudy .container .title {
+  font-size: 20px;
+  padding: 3px 10px 1px 60px;
+  line-height: 1.45;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: linear-gradient(170deg, #9ecf41 10%, #32833A 80%);
+  display: inline-block;
 }
