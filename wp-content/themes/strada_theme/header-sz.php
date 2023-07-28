@@ -120,7 +120,7 @@
             <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">会社概要</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('tax/taxmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="vertical-line">アクセス</div></a>
