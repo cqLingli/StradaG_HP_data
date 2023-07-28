@@ -28,7 +28,7 @@ get_header("sb");
             }elseif(is_tag()){
               single_tag_title();
             }elseif(is_page('columns')){
-              echo 'お役立ち情報 ';            
+              echo 'お役立ち情報 ';
             }else{
               echo wp_title('');
             }
@@ -44,7 +44,7 @@ get_header("sb");
     <?php
       $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
       $args = array(
-          'post_type' => 'post',
+          'post_type' => 'casestudy',
           'posts_per_page' => 3,
           'orderby' => 'date',
           'paged' => $paged,
@@ -122,21 +122,7 @@ get_header("sb");
           </div>
         <div class="p-column__list">
           <?php
-            if(get_query_var('year') != 0){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }elseif(get_query_var('monthnum') != 0){
-              $args = array( 'post_type' => 'column','posts_per_page' => 30,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }elseif(is_category()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
-            }elseif(is_tag()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
-            }elseif(is_front_page()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
-            }else {
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }
-
+              query_posts(array('post_type' =>'casestudy', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             if(have_posts()) :
                 while(have_posts()) : the_post(); ?>
                     <div class="item">
@@ -152,16 +138,16 @@ get_header("sb");
                       <div class="txt">
                         <p class="date-cat">
                           <?php
-                            $terms = wp_get_post_terms($post->ID, 'category', array(
+                            $terms = wp_get_post_terms($post->ID, 'casestudy_type', array(
                                 'hide_empty' => false,
                                 'parent' => 0,
                                 'order' => 'ASC',
                                 'orderby' => 'term_id'
                             ) );
                             foreach ( $terms as $term) {
-                                $tax_link = get_term_link($term->slug, 'category');
+                               // $tax_link = get_term_link($term->slug, 'category');
                                 $tax_name = $term->name;
-                                $tax_slug = $term->slug;
+                               // $tax_slug = $term->slug;
                                 echo '<span class="cat">'.$tax_name.'</span>';
                             }
                             ?>
@@ -191,7 +177,7 @@ get_header("sb");
         </div>
       </div>
       <div class="l-sidebar">
-        <?php get_sidebar('sidebar'); ?>
+        <?php get_sidebar('bs'); ?>
       </div>
     </div>
   </div>

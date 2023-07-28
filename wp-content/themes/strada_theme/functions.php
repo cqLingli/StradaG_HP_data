@@ -83,7 +83,7 @@ add_action( 'widgets_init', 'sidebarinit' );
 	require PARENT_INC . '/view.php';
 
 	/* Widget: Recent */
-	require PARENT_INC . '/widget-recent_post.php';
+//	require PARENT_INC . '/widget-recent_post.php';
 
 	/* Widget: Popular */
 	require PARENT_INC . '/widget-popular_post.php';
