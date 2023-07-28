@@ -2882,6 +2882,77 @@ title - 共通のタイトルやテキストなど
   .c-tlt02--center {
     text-align: center;
   }
+  div#協会概要 {
+    background-color: #F9EFE7;
+  }
+  .p-about {
+    background-color: white;
+  }
+  .p-about_groupContent {
+    background: none !important;
+    display: flex !important;
+    width: 100% !important;
+    margin: auto !important;
+  } 
+  .p-about_group .c-tlt02--center {
+    text-align: left !important;
+    color: white !important;
+    background: linear-gradient(90deg, #B97727, #F9EFE7) !important;
+    padding-left: 10px !important;
+    margin-bottom: 30px !important;
+  }
+  .p-about_history .c-tlt02--center {
+    text-align: left !important;
+    color: white !important;
+    background: linear-gradient(90deg, #B97727, #F9EFE7) !important;
+    padding-left: 10px !important;
+    margin-bottom: 30px !important;
+  }
+  .company_left {
+    position: static !important;
+    width: auto !important;
+    flex: 1 0 50% !important;
+    padding-right: 30px !important;
+  }
+  .company_right {
+    position: static !important;
+    width: auto !important;
+    flex: 1 0 50% !important;
+    padding-left: 30px !important;
+  }
+  .company_right a {
+    margin-left: 20px;
+    color: #B97727;
+    text-decoration: none;
+  }
+  .company_right img {
+    max-width: 30px;
+  }
+  .p-about_groupContent dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22.5px 10px;
+    border-bottom: 1px dotted #707070;
+    font-size: 2rem;
+  }
+  .p-about_groupContent dl:first-child {
+    border-top: 1px dotted #707070 !important;
+  }
+  .p-about_groupContent  dl dt {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 210px;
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .company_right  dl dt{
+    text-align: left !important;
+    border: none !important;
+  }
+  .t-company_list {
+    margin-top: 20px;
+  }
   .p-about_intro img {
     max-width: 100%;
   }
@@ -2950,40 +3021,16 @@ title - 共通のタイトルやテキストなど
       margin-bottom: 40px;
     }
   }
-  .p-about_groupContent {
-    margin: 0 25px;
-    padding: 125px 100px;
-    background-color: #fff;
-  }
-  @media only screen and (max-width: 767px){
-    .p-about_groupContent {
-      padding: 25px 20px;
-      margin: 0;
-    }
-  }
   .p-about_groupItems {
     margin-bottom: 47.5px;
   }
   .p-about_groupItems:last-child {
     margin-bottom: 0;
   }
-/*.p-about_groupItems h4 {
-  position: relative;
-  margin-bottom: 20px;
-  padding-left: 30px;
-  font-size: 1.7rem;
-  font-weight: bold;
-}
-.p-about_groupItems h4:before {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  background-color: #153f6f;
-  content: "";
-  }*/
+  .p-about hr {
+    border: none;
+    border-bottom: 1px dotted;
+  }
   .p-about_groupItems dl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3000,59 +3047,35 @@ title - 共通のタイトルやテキストなど
   }
   .p-about_historyContent {
     margin: 0 25px;
-    padding: 100px;
-    background-color: #fff;
   }
-  .p-about_historyTime dl {
+  .p-about_historyContent dl {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    border-bottom: 1px dotted;
+    padding: 22.5px 10px;
   }
-  .p-about_historyTime dl dt {
+  .p-about_historyContent dl dt {
     position: relative;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 125px;
     flex: 0 0 125px;
   }
-  .p-about_historyTime dl dt:after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: -50px;
-    width: 1px;
-    background-color: #707070;
-    content: "";
-  }
-  .p-about_historyTime dl dd {
+  .p-about_historyContent dl dd {
     position: relative;
-    padding-left: 75px;
+    width: 100%;
   }
-  .p-about_historyTime dl dd:before {
-    position: absolute;
-    top: 5px;
-    left: -6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #153f6f;
-    content: "";
-  }
-  .p-about_historyTime dl dd h4 {
+  .p-about_historyContent dl dd h4 {
     margin-bottom: 15px;
     font-size: 1.75rem;
     font-weight: bold;
   }
-  .p-about_historyTime dl:first-child dt:after {
-    top: -20px;
-    bottom: -70px;
+ .p-about_historyContent dl:first-child {
+    border-top: 1px dotted #707070 !important;
   }
-  .p-about_historyTime dl:last-child {
-    margin-bottom: 0;
-  }
-  .p-about_historyTime dl:last-child dt:after {
-    height: 15px;
+  .p-about_historyContent span {
+    font-weight: bold;
   }
   @media screen and (max-width: 767px) {
     .p-about_groupItems dl{
@@ -4579,7 +4602,7 @@ title - 共通のタイトルやテキストなど
     text-decoration: none;
   }
   .p-qa__content {
-    padding: 30px 100px;
+    padding: 30px;
     background:transparent;
   }
   @media only screen and (max-width: 767px) {
@@ -10242,7 +10265,7 @@ img{
 }
 
 .p-about .c-mainTitle{
-  background:url('../images/mv/mv-about.jpg') no-repeat;
+  /* background:url('../images/mv/mv-about.jpg') no-repeat; */
   background-size:cover;
   background-position: center center;
 }
