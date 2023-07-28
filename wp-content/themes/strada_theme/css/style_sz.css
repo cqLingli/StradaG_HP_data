@@ -4606,7 +4606,7 @@ title - 共通のタイトルやテキストなど
     text-decoration: none;
   }
   .p-qa__content {
-    padding: 30px 100px;
+    padding: 30px;
   }
   @media only screen and (max-width: 767px) {
     .p-qa__faq{
