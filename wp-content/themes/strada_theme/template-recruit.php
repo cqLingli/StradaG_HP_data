@@ -1,9 +1,10 @@
 <main class="l-main p-recruit">
+  <!--
   <div class="c-breakcrumds">
     <div class="l-container">
       <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to 中央区日本橋の税理士法人【ストラーダ税理士法人】." href="https://strada-tax.jp" class="home" ><span property="name">TOP</span></a><meta property="position" content="1"></span>/<span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">採用情報</span><meta property="url" content="https://strada-tax.jp/recruit/"><meta property="position" content="2"></span>    </div>
     </div>
-  
+  -->
     <div class="c-mainTitle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
@@ -76,5 +77,5 @@
         </div>      
       </div>
     </div>
-  </div>
+  <!--</div>-->
 </main>
