@@ -2912,6 +2912,10 @@ title - 共通のタイトルやテキストなど
     width: 100% !important;
     margin: auto !important;
   } 
+  .p-access_groupContent {
+    width: 100% !important;
+    margin: auto !important;
+  } 
   .p-about_group .c-tlt02--center {
     text-align: left !important;
     color: white !important;
@@ -9926,6 +9930,60 @@ img{
   }
 }
 
+/* p-access */
+.p-access_groupContent h3, .cm-ttl01{
+  margin-bottom: 20px;
+  padding-left: 13px;
+  border-left: 4px solid #153f6f;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.p-access_groupContent .wp-block-table{
+margin-bottom: 70px;
+}
+
+.p-access_groupContent .wp-block-table:last-child{
+margin-bottom:0;
+}
+
+.p-access_groupContent .wp-block-table tr{
+  font-size: 1.5rem;
+  border-bottom: 1px solid #707070;
+}
+
+.p-access_groupContent .wp-block-table td{
+  padding: 22.5px 10px;
+}
+
+.p-access_groupContent .wp-block-table td:first-child{
+width:200px;
+font-weight: bold;
+}
+
+@media only screen and (max-width: 767px){
+.p-access_groupContent h3, .cm-ttl01{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.p-access_groupContent .wp-block-table td{
+  display:block;
+  padding:0 10px;
+}
+
+.p-access_groupContent .wp-block-table td:first-child{
+  width:100%;
+  padding-top:22.5px;
+}
+
+.p-access_groupContent .wp-block-table td:last-child{
+  padding-bottom:22.5px;
+  margin-top:10px;
+}
+}
+/**/
+
 /* 06-02-2021 */
 .p-column .c-mainTitle{
   padding:0 0;
@@ -10554,14 +10612,15 @@ img{
   max-width:100%;
 }
 
-.p-access .p-about_groupContent{
+.p-access .p-access_groupContent{
   border: 1px solid !important;
   padding: 20px !important;
-  margin: 30px 50px 50px 50px !important; 
+  margin: 30px 50px 50px 50px !important;
+  background-color: white; 
 }
 
 @media screen and (max-width: 1140px){
-  .p-access .p-about_groupContent{
+  .p-access .p-access_groupContent{
     padding-left:20px;
     padding-right:20px;
   }

@@ -22,7 +22,7 @@ get_header("ch"); ?>
 
     <div class="l-container accessbox">
         <div class="access-title">アクセス</div>
-        <div class="p-about_groupContent">
+        <div class="p-access_groupContent">
             <div class="t-access t-block" id="access">
                 <div class="l-container">
                     <div class="t-access_main">
