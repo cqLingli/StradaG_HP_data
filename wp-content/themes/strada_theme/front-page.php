@@ -1,4 +1,4 @@
-<?php get_header("home");
+<?php get_header("");
 /* Template Name: Front Page */
 ?>
 <!-- .l-main | メインコンテンツ -->
