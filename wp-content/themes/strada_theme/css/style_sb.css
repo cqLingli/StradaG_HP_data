@@ -2858,6 +2858,23 @@ title - 共通のタイトルやテキストなど
     margin-left: auto;
     background-color: #fff;
   }
+
+  .c-mainTitle_content010{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 9;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    width: 100%;
+    max-width: 962px;
+    height: 390px;
+    margin-right: auto;
+  }
   @media screen and (max-width: 991px) {
     .c-mainTitle_content {
       max-width: 762px;
@@ -11294,9 +11311,14 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .p-column .c-mainTitle{
-  background:url('../images/mv/mv-columns.png') no-repeat;
+  background:url('../images/casestudy.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center 67%;
+  background-size: cover;
+  color: #fff;
 }
 
 .google-map iframe{
@@ -13667,3 +13689,54 @@ flex-shrink: 0;
   left: 300px;
   top: 30px;
   }
+.firstview_casestudy {
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/casestudy.jpg);
+  background-repeat: no-repeat;
+  background-position: center 67%;
+  background-size: cover;
+  color: #fff;
+}
+.firstview_casestudy .container .english {
+  color: #fff;
+  font-size: 80px;
+  font-family: "Noto Serif JP", serif;
+  padding: 170px 0 5px;
+  margin-left: 60px;
+  -webkit-filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
+  letter-spacing: 0;
+}
+.firstview_casestudy .container .title {
+  font-size: 20px;
+  padding: 3px 10px 1px 60px;
+  line-height: 1.45;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: linear-gradient(170deg, #9ecf41 10%, #32833A 80%);
+  display: inline-block;
+}
+.menberTtile{
+  padding: 2px 5px;
+  width: 100%;
+  border: 1px solid;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: white;
+  background:  linear-gradient(to right,#00A159  30%, #fff 100%);
+}
+.column-read-more {
+  margin: 0 5% 5% 5%;
+  width: 90%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1px;
+}
+.column-read-more img {
+  margin: auto;
+  height: 35px;
+}

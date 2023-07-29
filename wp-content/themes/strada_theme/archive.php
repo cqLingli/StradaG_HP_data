@@ -1,12 +1,6 @@
 <?php
 session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_header($_SESSION['url_type']);
-}else{
-    get_header("sz");
-}
-
+get_header("sz");
 /**
 * Template Name: Archive
 */
@@ -224,10 +218,5 @@ if($url_type){
 
 
 <?php
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_footer($_SESSION['url_type']);
-}else{
     get_footer("sz");
-}
 ?>

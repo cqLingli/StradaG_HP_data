@@ -1,6 +1,6 @@
 <?php
 session_start();
-get_header("sz");
+get_header("sb");
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
@@ -10,16 +10,10 @@ get_header("sz");
     </div>
   </div>
   <!-- end c-breakcrumds -->
-    <div class="c-mainTitle">
-        <div class="c-mainTitle_content">
-            <div class="c-tlt01 c-tlt01__black">
-                <h1 class="c-tlt01__line c-tlt01__line--gray">
-                    <?php
-                   echo  $_SESSION["CAT_NAME"];
-                    ?>
-                    <span>column</span>
-                </h1>
-            </div>
+    <div class="firstview_casestudy">
+        <div class="container">
+            <p class="english">Case study</p>
+            <h1 class="title">事例</h1>
         </div>
     </div>
     <!-- end c-mainTitle -->
@@ -28,7 +22,7 @@ get_header("sz");
       <div class="p-column__post">
           <div class="menberTtile">
             <span><?php
-                echo  $_SESSION["CAT_NAME"];
+             echo   $_SESSION["C_T_NAME"];
                 ?></span>
           </div>
         <div class="box">
@@ -250,7 +244,7 @@ get_header("sz");
             endforeach ;
               $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
               $args = array(
-                  'post_type' => 'post',
+                  'post_type' => 'casestudy',
                   'posts_per_page' => 3,
                   'orderby' => 'date',
                   'category__in' => $category_ID,
@@ -309,7 +303,7 @@ get_header("sz");
             <?php
               $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
               $args = array(
-                  'post_type' => 'post',
+                  'post_type' => 'casestudy',
                   'posts_per_page' => 3,
                   'meta_key' => '_views',
                   'order' => 'desc', 
@@ -372,7 +366,7 @@ get_header("sz");
               foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
               $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
               $args = array(
-                  'post_type' => 'post',
+                  'post_type' => 'casestudy',
                   'posts_per_page' => 3,
                   'tag__in' => $tag_ids,
                   'post__not_in' => array($post->ID),
@@ -433,14 +427,7 @@ get_header("sz");
       </div>
       <div class="l-sidebar">
         <?php
-        //session_start();
-        $url_type = $_SESSION['url_type'];
-        if($url_type){
-            get_sidebar($_SESSION['url_type']);
-        }else{
-            get_sidebar('sidebar');
-        }
-
+            get_sidebar('sb');
          ?>
       </div>
     </div>
@@ -449,5 +436,7 @@ get_header("sz");
 
 
 <?php
-    get_footer("sz");
+
+    get_footer("sb");
+
 ?>
