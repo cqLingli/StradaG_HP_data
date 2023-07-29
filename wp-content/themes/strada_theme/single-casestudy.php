@@ -22,8 +22,19 @@ get_header("sb");
       <div class="p-column__post">
           <div class="menberTtile">
             <span><?php
-             echo   $_SESSION["C_T_NAME"];
-                ?></span>
+                $terms = wp_get_post_terms($post->ID, 'casestudy_type', array(
+                    'hide_empty' => false,
+                    'parent' => 0,
+                    'order' => 'ASC',
+                    'orderby' => 'term_id'
+                ) );
+                foreach ( $terms as $term) {
+                    $tax_name = $term->name;
+                    echo $tax_name;
+                    break;
+                }
+                ?>
+                </span>
           </div>
         <div class="box">
           <div class="date-cat">

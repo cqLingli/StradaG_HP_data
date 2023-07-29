@@ -15,7 +15,17 @@ get_header("sz");
             <div class="c-tlt01 c-tlt01__black">
                 <h1 class="c-tlt01__line c-tlt01__line--gray">
                     <?php
-                   echo  $_SESSION["CAT_NAME"];
+                    $terms = wp_get_post_terms($post->ID, 'casestudy_type', array(
+                        'hide_empty' => false,
+                        'parent' => 0,
+                        'order' => 'ASC',
+                        'orderby' => 'term_id'
+                    ) );
+                    foreach ( $terms as $term) {
+                        $tax_name = $term->name;
+                        echo $tax_name;
+                        break;
+                    }
                     ?>
                     <span>column</span>
                 </h1>

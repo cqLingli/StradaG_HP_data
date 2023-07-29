@@ -102,8 +102,7 @@ get_header("sb");
               <span>
                   <?php
                   global $wp_query;
-                  $_SESSION["C_T_NAME"] = $wp_query->queried_object->name;
-                  echo $_SESSION["C_T_NAME"];
+                  echo $wp_query->queried_object->name;
                   ?>
               </span>
                     </div>
