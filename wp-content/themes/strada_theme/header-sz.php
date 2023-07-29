@@ -47,7 +47,7 @@
       <span></span>
     </div>
     <div class="l-header__top">
-      <div class="l-container">
+    <div class="l-container_header">
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
@@ -133,5 +133,6 @@
           </li>          
         </ul>
       </div>
+      <div class="l-header_topline"></div>
     </div>
   </header>
