@@ -104,27 +104,27 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('adminnewslist');  ?>"><div class="vertical-line">ニュース</div></a></li>
+          <li><a href="<?php echo home_url('admin/adminnewslist');  ?>"><div class="vertical-line">ニュース</div></a></li>
           <li>
-            <a href="<?php echo home_url('adminservice'); ?>"><div class="vertical-line">サービス案内</div></a>
+            <a href="<?php echo home_url('admin/adminservicelist'); ?>"><div class="vertical-line">サービス案内</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('admin'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(134); ?>"><div class="vertical-line">事務所概要</div></a>
+            <a href="<?php echo home_url('admin'); ?>"><div class="vertical-line">事務所概要</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(42); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('admin/adminmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">料金表</div></a>
+            <a href="<?php echo home_url('admin'); ?>"><div class="vertical-line">料金表</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('columns'); ?>"><div class="vertical-line">アクセス</div></a>
+            <a href="<?php echo home_url('admin/adminaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('admin'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>            
         </ul>
       </div>

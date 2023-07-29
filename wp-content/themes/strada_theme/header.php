@@ -88,7 +88,7 @@
       <div class="h-otherhp">
       <div class="h-menum h-menum-sb">
           <div class="vertical-line">
-            <a href="<?php echo get_post_type_archive_link('service'); ?>">
+            <a href="<?php echo home_url('bs'); ?>">
               <span>ストラーダビジネスサポート</span>
             </a>
           </div>
@@ -96,35 +96,35 @@
 
         <div class="h-menum h-menum-sz">
             <div class="vertical-line">
-              <a href="<?php echo get_post_type_archive_link('service'); ?>">
+              <a href="<?php echo home_url('tax'); ?>">
                 <span>ストラーダ税理士法人</span>
               </a>
             </div>
           </div>
           <div class="h-menum h-menum-sg">
             <div class="vertical-line">
-              <a href="<?php echo get_post_type_archive_link('service'); ?>">
+              <a href="<?php echo home_url('admin'); ?>">
                 <span>ストラーダ行政書士</span>
               </a>
             </div>
           </div>
           <div class="h-menum h-menum-ss">
             <div class="vertical-line">
-              <a href="<?php echo get_post_type_archive_link('service'); ?>">
+              <a href="<?php echo home_url('sr'); ?>">
                 <span>ストラーダ社会保険労務士</span>
               </a>
             </div>
           </div>
           <div class="h-menum h-menum-ch">
             <div class="vertical-line">
-              <a href="<?php echo get_post_type_archive_link('service'); ?>">
+              <a href="<?php echo home_url('chushoukigyouroudou'); ?>">
                 <span>中小企業労働企画開発協会</span>
               </a>
             </div>
           </div>
           <div class="h-menum h-menum-tr">
             <div class="vertical-line">
-              <a href="<?php echo get_post_type_archive_link('service'); ?>">
+              <a href="<?php echo home_url('taxria'); ?>">
                 <span>タックス・リアルティ</span>
               </a>
             </div>
@@ -135,36 +135,36 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo get_post_type_archive_link('service'); ?>">
+          <li><a href="<?php echo home_url('top/news'); ?>">
               <div class="vertical-line">ニュース</div>
             </a></li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('members'); ?>">
+            <a href="<?php echo home_url(''); ?>">
               <div class="vertical-line">業務内容</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url('voice'); ?>">
+            <a href="<?php echo home_url(''); ?>">
               <div class="vertical-line">グループ紹介</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(134); ?>">
+            <a href="<?php echo home_url(''); ?>">
               <div class="vertical-line">会社概要</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(42); ?>">
+            <a href="<?php echo home_url('top/menber'); ?>">
               <div class="vertical-line">メンバー紹介</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('news'); ?>">
+            <a href="<?php echo home_url('top/access'); ?>">
               <div class="vertical-line">アクセス</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url('columns'); ?>">
+            <a href="<?php echo home_url(''); ?>">
               <div class="vertical-line">リクルート</div>
             </a>
           </li>

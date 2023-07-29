@@ -9,8 +9,8 @@
   <meta name="format-detection" content="telephone=no" />
 
   <!-- ファビコンの読み込み -->
-  <link rel="icon" href="<?php echo home_url('tax'); ?>/favicon.ico" />
-  <link rel="apple-touch-icon-precomposed" href="<?php echo home_url('tax'); ?>/apple-touch-icon-152x152.png" />
+  <link rel="icon" href="<?php echo home_url(); ?>/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="<?php echo home_url(); ?>/apple-touch-icon-152x152.png" />
 
   <!-- プラグインのcssの読み込み -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.min.css" />
@@ -51,7 +51,7 @@
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
-              <a href="<?php echo home_url(); ?>/">
+              <a href="<?php echo home_url('tax'); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/logo.png" alt="" />
               </a>
             </h1>
@@ -108,7 +108,7 @@
             <a href="<?php echo home_url('tax/taxvoicelist'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('tax'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
@@ -117,7 +117,7 @@
             <a href="<?php echo home_url('tax/taxcolumn1'); ?>"><div class="vertical-line">お役立ち情報</div></a>
           </li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">会社概要</div></a>
+            <a href="<?php echo home_url('tax'); ?>"><div class="vertical-line">会社概要</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('tax/taxmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
@@ -126,10 +126,10 @@
             <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('tax'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>   
           <li>
-            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">確定申告サポート</div></a>
+            <a href="<?php echo home_url('tax'); ?>"><div class="vertical-line">確定申告サポート</div></a>
           </li>          
         </ul>
       </div>

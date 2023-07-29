@@ -1,4 +1,5 @@
 <?php
+/* Template Name: group members */
 get_header();
 ?>
 <!-- .l-main | メインコンテンツ -->

@@ -104,27 +104,27 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('srnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
+          <li><a href="<?php echo home_url('sr/srnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
           <li>
-            <a href="<?php echo home_url('srservice'); ?>"><div class="vertical-line">業務内容</div></a>
+            <a href="<?php echo home_url('sr/srservice'); ?>"><div class="vertical-line">業務内容</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('voice'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo get_permalink(134); ?>"><div class="vertical-line">事務所概要</div></a>
+            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">事務所概要</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('srmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('sr/srmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="<?php echo get_post_type_archive_link('news'); ?>"><div class="vertical-line">料金表</div></a>
+            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">料金表</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('columns'); ?>"><div class="vertical-line">アクセス</div></a>
+            <a href="<?php echo home_url('sr/sraccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('access'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>         
         </ul>
       </div>

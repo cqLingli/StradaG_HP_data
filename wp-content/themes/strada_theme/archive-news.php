@@ -1,4 +1,5 @@
 <?php
+/* Template Name: group news */
 get_header();
 ?>
 
