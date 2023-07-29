@@ -3067,9 +3067,7 @@ title - 共通のタイトルやテキストなど
     -ms-flex: 0 0 200px;
     flex: 0 0 200px;
   }
-  .p-about_historyContent {
-    margin: 0 25px;
-  }
+
   .p-about_historyContent dl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3110,10 +3108,6 @@ title - 共通のタイトルやテキストなど
     .p-about_groupItems dl dd{
       font-weight: normal;
       margin-top: 10px;
-    }
-    .p-about_historyContent{
-      padding: 50px 20px;
-      margin: 0;
     }
     .p-about_historyTime dl dt{
       flex: 0 0 65px;
@@ -5108,21 +5102,9 @@ top - Topページ固有のオブジェクト
   max-width: 100%;
 }
 .t-block {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding:30px
 }
-@media screen and (max-width: 991px) {
-  .t-block {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .t-block {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
+
 .t-banner {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -12450,6 +12432,7 @@ flex-shrink: 0;
     font-size:14px;
     line-height:24px;
     zoom:0.95;
+    padding-top:5px;
     padding-bottom:5px
   }
   .Message_style1_p4{
