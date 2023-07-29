@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Archive Sz Members */
+/* Template Name: Archive tr Members */
 session_start();
 $_SESSION['url_type']="tr";
 get_header('tr');

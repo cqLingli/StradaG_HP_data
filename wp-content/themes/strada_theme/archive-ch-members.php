@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Archive Sz Members */
+/* Template Name: Archive CH Members */
 session_start();
 $_SESSION['url_type']="ch";
 get_header('ch');
