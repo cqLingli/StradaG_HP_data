@@ -30,14 +30,6 @@ get_header("tr"); ?>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/top/img_access.jpg" alt="">
                         </div>
                         <div class="t-access_content">
-                            <?php if(!is_page('access')) : ?>
-                            <div class="c-tlt01 c-tlt01__black">
-                                <h2 class="c-tlt01__line">
-                                    アクセス
-                                    <span>ACCSESS</span>
-                                </h2>
-                            </div>
-                            <?php endif; ?>
                                 <h4>株式会社タックス・リアルティ</h4>
                                 <p class="t-access_add">
                                 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階
@@ -60,13 +52,6 @@ get_header("tr"); ?>
                                 </li>
                             </ul>
                         </div>
-                        <?php if(!is_page('access')) : ?>
-                        <div class="t-access_map">
-                            <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.732793825305!2d139.78441761525877!3d35.68358088019382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188945bc013343%3A0x91fe51cc7df02e4d!2z5pel5pys44CB44CSMTAzLTAwMTQg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL6JuO5q6755S677yS5LiB55uu77yR77yR4oiS77ySIOOCquODvOODiOOCqOODg-OCr-OCueW3peiXpOODk-ODqyA0Rg!5e0!3m2!1sja!2s!4v1619871108536!5m2!1sja!2s"
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                        <?php endif; ?>
                         </div>
                     </div>
                 </div>
