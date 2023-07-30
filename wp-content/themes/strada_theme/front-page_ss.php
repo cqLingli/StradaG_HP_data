@@ -48,7 +48,7 @@
       </div>
       <div class="news_style2">
       <div class="c-list-news">
-      <a href="<?php echo home_url('bs/bsnewslist'); ?>" style="text-decoration:none">
+      <a href="<?php echo home_url('sr/srnewslist'); ?>" style="text-decoration:none">
               <div style="display: flex;overflow-x: hidden;width:100%">
                 <div style="width:80%;color:#EC7700;font-weight:bold;">ニュース</div>
                 <div style="width:100px;color:black">READ MORE</div>
