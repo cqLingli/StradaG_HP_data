@@ -29,7 +29,18 @@ if($url_type==="sz"){
       <?php if (function_exists('bcn_display')) { bcn_display(); }?>
     </div>
   </div>
-  <!-- end c-breakcrumds -->
+    <!-- end c-breakcrumds -->
+    <div class="c-mainTitle">
+        <div class="c-mainTitle_content">
+            <div class="c-tlt01 c-tlt01__black">
+                <h1 class="c-tlt01__line c-tlt01__line--gray">
+                    メンバー紹介
+                    <span>MEMBER</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- end c-mainTitle -->
   <div class="l-container">
       <div class="menberTtile">
           <span>メンバー紹介</span>

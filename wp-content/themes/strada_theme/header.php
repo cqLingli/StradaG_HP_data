@@ -86,47 +86,58 @@
     <!--↓other hp Lincks-->
     <div class="l-header__top2">
       <div class="h-otherhp">
-      <div class="h-menum h-menum-sb">
+        <div class="h-menum h-menum-sb">
           <div class="vertical-line">
+            <p>
             <a href="<?php echo home_url('bs'); ?>">
-              <span>ストラーダビジネスサポート</span>
-            </a>
+                <span>ストラーダビジネスサポート</span>
+              </a>
+            </p>
           </div>
         </div>
-
         <div class="h-menum h-menum-sz">
-            <div class="vertical-line">
+          <div class="vertical-line">
+            <p>
               <a href="<?php echo home_url('tax'); ?>">
                 <span>ストラーダ税理士法人</span>
               </a>
-            </div>
+            </p>
           </div>
-          <div class="h-menum h-menum-sg">
-            <div class="vertical-line">
+        </div>
+        <div class="h-menum h-menum-sg">
+          <div class="vertical-line">
+            <p>
               <a href="<?php echo home_url('admin'); ?>">
                 <span>ストラーダ行政書士</span>
               </a>
-            </div>
+            </p>
           </div>
-          <div class="h-menum h-menum-ss">
-            <div class="vertical-line">
+        </div>
+        <div class="h-menum h-menum-ss">
+          <div class="vertical-line">
+            <p>
               <a href="<?php echo home_url('sr'); ?>">
                 <span>ストラーダ社会保険労務士</span>
               </a>
-            </div>
+            </p>
           </div>
-          <div class="h-menum h-menum-ch">
-            <div class="vertical-line">
+        </div>
+        <div class="h-menum h-menum-ch">
+          <div class="vertical-line">
+            <p>
               <a href="<?php echo home_url('chushoukigyouroudou'); ?>">
                 <span>中小企業労働企画開発協会</span>
               </a>
-            </div>
+            </p>
           </div>
-          <div class="h-menum h-menum-tr">
-            <div class="vertical-line">
-              <a href="<?php echo home_url('taxria'); ?>">
+        </div>
+        <div class="h-menum h-menum-tr">
+          <div class="vertical-line">
+            <p>
+               <a href="<?php echo home_url('taxria'); ?>">
                 <span>タックス・リアルティ</span>
               </a>
+            </p>
             </div>
           </div>
       </div>

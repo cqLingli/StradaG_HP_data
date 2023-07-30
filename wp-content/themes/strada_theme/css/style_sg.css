@@ -4062,6 +4062,10 @@ title - 共通のタイトルやテキストなど
     margin-bottom: 40px;
     padding: 0 10px;
   }
+.p-member__list .item .image {
+  width: 100%;
+  height: 80%;
+}
   @media screen and (max-width: 767px) {
     .p-member__list .item {
       width: calc(100% / 3);
@@ -4083,7 +4087,6 @@ title - 共通のタイトルやテキストなど
     height: 100%;
   }
   .p-member__list .item .txt {
-    padding: 15px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -12134,7 +12137,8 @@ flex-shrink: 0;
   font-weight: bold;
   font-size: 2.0rem;
   color: white;
-  background:  linear-gradient(to right,#808C96 30%, #fff 100%);;
+  background:  linear-gradient(to right,#808C96 30%, #fff 100%);
+  margin-top: 3%;
 }
 .has-medium-font-size {
   color: #808C96 !important;;
@@ -13864,4 +13868,24 @@ top: 30px;
 }
 .has-medium-font-size {
   color: #808C96 !important;;
+}
+.p-member01 .item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 23%;
+  padding: 20px 20px 20px 20px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+  margin-top: 1px;
+}
+.p-member02 .c-mainTitle{
+  background:url('../images/mv/mv-member.jpg') no-repeat;
+  background-size:cover;
+  background-position: center center;
 }

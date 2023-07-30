@@ -4026,6 +4026,10 @@ div#法人概要 {
 .p-column .l-commonTag .c-tlt04 {
   margin-bottom: 25px;
 }
+.p-member__list .item .image {
+  width: 100%;
+  height: 80%;
+}
 .p-member__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4089,7 +4093,6 @@ div#法人概要 {
   height: 100%;
 }
 .p-member__list .item .txt {
-  padding: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -12077,7 +12080,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   font-size: 2.0rem;
   color: white;
-  background:  linear-gradient(to right,#EC7700 30%, #fff 100%);;
+  background:  linear-gradient(to right,#EC7700 30%, #fff 100%);
+  margin-top: 3%;
 }
 .has-medium-font-size {
   color: #EC7700 !important;;
@@ -13812,4 +13816,24 @@ top: 30px;
 }
 .has-medium-font-size {
   color: #EC7700 !important;;
+}
+.p-member01 .item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 23%;
+  padding: 20px 20px 20px 20px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+  margin-top: 1px;
+}
+.p-member02 .c-mainTitle{
+  background:url('../images/mv/mv-member.jpg') no-repeat;
+  background-size:cover;
+  background-position: center center;
 }
