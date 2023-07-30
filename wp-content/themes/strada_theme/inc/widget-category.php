@@ -37,7 +37,10 @@ class Category_Widget extends WP_Widget {
                     $categories = get_categories(); 
                     foreach ($categories as $category) {
                 ?>
-                <li><a href="<?php echo home_url('columns').'/category/'.$category->slug; ?>"><?php echo $category->cat_name; ?> (<?php echo $category->category_count; ?>)</a></li>
+                <li><a href="<?php echo home_url('columns').'/category/'.$category->slug; ?>"><?php echo $category->cat_name; ?>
+                        <span class="contents_number"><?php echo $category->category_count; ?><span style="float: right;">CONTENTS</span></span>
+
+                    </a></li>
                 <?php } ?>
             </ul>
 

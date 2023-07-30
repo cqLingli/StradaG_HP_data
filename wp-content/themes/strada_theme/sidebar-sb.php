@@ -13,7 +13,13 @@
 
                       foreach ($categories as $term) {
                           ?>
-                  <li><a href="<?php echo home_url('casestudy').'/casestudy_type/'.$term->slug; ?>"><?php echo $term->name; ?> (<?php echo $term->count; ?>)</a></li>
+                  <li><a href="<?php echo home_url('casestudy').'/casestudy_type/'.$term->slug; ?>">
+                          <?php echo $term->name; ?>
+                          <span class="contents_number"><?php echo $term->count; ?>
+                              <span style="float: right;">CONTENTS</span>
+                          </span>
+
+                      </a></li>
                       <?php }
                       ?>
               </ul>

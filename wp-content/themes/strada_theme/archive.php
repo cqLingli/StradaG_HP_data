@@ -41,6 +41,7 @@ get_header("sz");
     </div>
   </div>
   <!-- end c-mainTitle -->
+    <div class="c-new-content">
   <div class="l-container">
     <?php  $recommendPosts = array(); ?>
     <?php
@@ -214,6 +215,7 @@ get_header("sz");
       </div>
     </div>
   </div>
+    </div>
 </main>
 
 

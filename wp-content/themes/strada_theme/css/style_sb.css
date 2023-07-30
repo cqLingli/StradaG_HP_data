@@ -3233,6 +3233,7 @@ title - 共通のタイトルやテキストなど
   .p-column .c-list__cat li a {
     display: block;
     padding-left: 15px;
+    padding-right: 15%;
     color: #333;
     font-size: 1.6rem;
     font-weight: bold;
@@ -13850,4 +13851,12 @@ flex-shrink: 0;
 .c-new-content {
   padding-bottom: 129px;
   background: #EFF7EF;
+}
+.contents_number{
+  display: inline-block;
+  background: #00A159;
+  color: white;
+  padding:3px 13px 3px 13px;
+  float: right;
+  width: 30%;
 }

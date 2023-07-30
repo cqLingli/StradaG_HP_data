@@ -20,6 +20,7 @@ get_header("sb");
             </div>
         </div>
         <!-- end c-mainTitle -->
+        <div class="c-new-content">
         <div class="l-container">
             <?php  $recommendPosts = array(); ?>
             <?php
@@ -166,6 +167,7 @@ get_header("sb");
                     <?php get_sidebar('sb'); ?>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 

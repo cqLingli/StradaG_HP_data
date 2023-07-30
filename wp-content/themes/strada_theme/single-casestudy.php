@@ -17,6 +17,7 @@ get_header("sb");
         </div>
     </div>
     <!-- end c-mainTitle -->
+    <div class="c-new-content">
   <div class="l-container">
     <div class="p-column__03">
       <div class="p-column__post">
@@ -443,6 +444,7 @@ get_header("sb");
       </div>
     </div>
   </div>
+    </div>
 </main>
 
 
