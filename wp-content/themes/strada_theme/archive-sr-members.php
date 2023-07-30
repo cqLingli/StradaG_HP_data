@@ -6,7 +6,7 @@ get_header('ss');
 
 ?>
     <!-- .l-main | メインコンテンツ -->
-    <main class="l-main p-member01">
+    <main class="l-main p-member02">
         <div class="c-breakcrumds">
             <div class="l-container">
                 <?php if (function_exists('bcn_display')) { bcn_display(); }?>
@@ -25,13 +25,9 @@ get_header('ss');
         </div>
         <!-- end c-mainTitle -->
         <div class="l-container">
-            <ul class="p-member01__link" id="myBtnContainer">
-                <!--                    <li><a href="--><?php ////echo get_post_type_archive_link('members'); ?><!--">ALL</a></li>-->
-                <div class="menberTtile">
-                    <span>メンバー紹介</span>
-                </div>
-
-            </ul>
+            <div class="menberTtile">
+                <span>メンバー紹介</span>
+            </div>
             <div class="p-member__list">
                 <?php
                 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
@@ -40,8 +36,7 @@ get_header('ss');
                     'company' => "SS", // 自定义字段名
                     'posts_per_page' => -1,
                     'orderby' => 'date',
-                    'paged' => $paged,
-                    'post__not_in' => array($post->ID)
+                    'paged' => $paged
                 );
 
                 $the_query = new WP_Query($args); ?>

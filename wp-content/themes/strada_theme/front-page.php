@@ -53,7 +53,7 @@
               <div style="display: flex;overflow-x: hidden;width:100%">
                 <div style="width:95%;color:#6A6969;font-weight:bold;padding:0 0 0 15px">ニュース</div>
                 <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/top_HOME/news_more.png" alt=""
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
                     style="width:30px" />
                 </div>
               </div>

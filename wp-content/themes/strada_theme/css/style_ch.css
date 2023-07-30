@@ -9729,10 +9729,9 @@ typography - 文字の装飾など
 }
 
 .singleService-main{
-  max-width: 750px;
   width: 100%;
   margin: 0 auto;
-  padding: 70px 0;
+  padding: 30px 0px 10px 34px;
 }
 .singleService-block{
   margin-bottom: 70px;
@@ -11648,18 +11647,20 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   display: inline-grid;
   margin-bottom: 45px;
   border: 2px solid;
-  width: 48%;
+  width: 45%;
   padding: 8px 8px 8px 8px;
-  margin-left: 10px;
+  margin-left: 2%;
+  background: white;
 }
 
 .c-serviceList {
-  max-width: 1015px;
+  max-width: 1680px;
   margin: 0 auto;
+  margin-top: 1%;
 }
 
 .serviceItem .thumb {
-  width: 290px;
+  width: 500px;
   flex-shrink: 0;
   margin: auto;
   line-height: 0;
@@ -12055,9 +12056,9 @@ flex-shrink: 0;
   width: 22px;
 }
 .term-description{
-  width: 65%;
+  width: 92%;
   font-size: 1.5rem;
-  margin-left: 17%;
+  margin-left: 2%;
 }
 .term-excerpt{
    width: 65%;
@@ -13828,4 +13829,16 @@ top: 30px;
   background:url('../images/mv/mv-member.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+}
+.c-line-bottom {
+  border: none;
+  height: 1px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-new-content {
+  padding-bottom: 129px;
+  background: #E3E8F1;
 }

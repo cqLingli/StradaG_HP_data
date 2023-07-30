@@ -47,36 +47,54 @@
         <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
       </div>
       <div class="news_style2">
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
-        <a href="#">
-          <p style="color:#004179">ニュース</p>
-        </a>
-        <hr style="border:1px dotted #BDB7B7;">
-        <p style="border-bottom: 8px solid #DCDDDD;">2022.09.12 AI・DX を活用した M&A 仲介事業を行う「M&A 総合研究所」と業務提携<br />を致しました。</p>
+      <div class="c-list-news">
+      <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
+              <div style="display: flex;overflow-x: hidden;width:100%">
+                <div style="width:80%;color:#003E75;font-weight:bold;">ニュース</div>
+                <div style="width:100px;color:black">READ MORE</div>
+                <div style="position:relative;top:-5px">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
+                    style="width:30px" />
+                </div>
+              </div>
+              </a>
+              <hr style="border:1px dotted #BDB7B7;">
+          <?php
+         // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+          $args = array(
+              'post_type' => 'news', // 文章类型
+              'posts_per_page' => 10,
+              'paged' => $paged,
+              'company' => 'SZ', // 自定义字段名
+          );
+          $query = new WP_Query( $args ); // 执行查询
+          ?>
+          <?php while (  $query->have_posts() ) : $query->the_post(); ?>
+          <a href="<?php echo get_permalink(get_the_ID()); ?>" class="c-new">
+            <div class="c-new__date">
+              <?php echo get_the_date('Y.m.d'); ?>
+            </div>
+            <div class="c-new__title">
+              <?php echo get_the_title(); ?>
+            </div>
+           <hr class="c-line-bottom" />
+          </a>
+             <?php endwhile; ?>
+
+<!--          --><?php //if(function_exists('wp_pagenavi')) { ?>
+<!--              --><?php //wp_pagenavi(); ?>
+<!--          --><?php //} ?>
+
+      </div>
+        <?php
+        if (function_exists("pagination")) {
+
+            pagination($query->max_num_pages);
+        }
+        ?>
+<!--        <div class="c-pagination">-->
+<!--            --><?php // wp_pagenavi(); ?>
+<!--        </div>-->
       </div>
     </div>
     </div>
@@ -277,7 +295,7 @@
     <div class="border-bt3"></div>
     <div class="l-container">
     <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-
+    <?php get_template_part('archive', 'sz-service'); ?>
     </div>
     </div>
   </div>
@@ -294,7 +312,7 @@
     <div class="border-bt4"></div>
     <div class="l-container">
     <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
-    
+    <?php get_template_part('single', 'voice'); ?>
     </div>
     </div>
   </div>
@@ -309,12 +327,12 @@
       </p>
     </div>
     <div class="border-bt5"></div>
-    <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
     <div class="l-container">
+    <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
         <?php get_template_part('template', 'qa_sz'); ?>
       </div>
     </div>
-  </div>
+    </div>
   <!-- end Q&A -->
 
   <!-- start Column -->
@@ -328,7 +346,7 @@
     <div class="border-bt6"></div>
     <div class="l-container">
     <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-    
+    <?php get_template_part('archive', 'sz-column'); ?>
     </div>
     </div>
   </div>
@@ -345,7 +363,82 @@
     <div class="border-bt7"></div>
     <div class="l-container">
     <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
-    
+    <?php get_template_part('template', 'about_sz'); ?>
+    <div class="menberTtile">
+          <span>メンバー紹介</span>
+      </div>
+    <div class="p-member__list">
+      <?php
+        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+        $args = array(
+          'post_type' => 'members',
+          'company' => 'sz', // 自定义字段名
+          'posts_per_page' => -1,
+          'orderby' => 'date',
+          'paged' => $paged,
+          'post__not_in' => array($post->ID)
+        );
+
+        $the_query = new WP_Query($args); ?>
+        <?php
+        if($the_query->have_posts()) :
+          while($the_query->have_posts()) : $the_query->the_post();?>
+            <div class="item">
+              <div class="image">
+                <?php
+                  if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('full');
+                  } else {
+                ?>
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
+                <?php } ?>
+              </div>
+              <div class="txt">
+                  <p class="name"><?php echo get_the_title(); ?></p>
+                <div class="c-job">
+                  <?php
+                      $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
+                          'hide_empty' => false,
+                          'parent' => 0,
+                          'order' => 'ASC',
+                          'orderby' => 'term_id'
+                      ) );
+                      $index=0;
+                      foreach ( $terms as $term) {
+                        $tax_link = get_term_link($term->slug, 'taxonomy_position');
+                        $tax_name = $term->name;
+                        $tax_slug = $term->slug;
+                        if($index===0){
+                            echo '<p class="job">'.$tax_name.'</p>';
+                        }else{
+                            echo '<p class="job">/'.$tax_name.'</p>';
+                        }
+                          $index++;
+                      }
+                    ?>
+
+                </div>
+                  <div class="read-more">
+                  <img src="<?php echo home_url('/wp-content/uploads/2023/07/20230727100511_icon.png'); ?>"">
+                  </div>
+
+              </div>
+              <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
+            </div>
+
+          <?php endwhile;
+          if (function_exists("pagination")) {
+            pagination($the_query->max_num_pages);
+          }
+          wp_reset_postdata();
+        else:
+          ?>
+          <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
+          <?php
+        endif;
+      ?>
+    </div></div>
+</div>
     </div>
     </div>
   </div>
@@ -383,8 +476,7 @@
     </div>
     </div>
   </div>
-  <!-- start Recruit -->
-
+  <!-- end Recruit -->
 </main>
 
 <?php get_footer(); ?>

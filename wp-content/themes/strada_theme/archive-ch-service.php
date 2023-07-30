@@ -23,6 +23,7 @@ get_header("ch");
   </div>
     <hr class="service-line-bottom" />
   <!-- end c-mainTitle -->
+    <div class="c-new-content">
   <div class="l-content">
     <div class="l-container">
       <?php 
@@ -65,6 +66,7 @@ get_header("ch");
       </div>
     </div>
   </div>
+    </div>
 </main>
 
 <?php get_footer('ch'); ?>
