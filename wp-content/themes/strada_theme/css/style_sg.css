@@ -12564,7 +12564,8 @@ top: 30px;
   font-size:14px;
   line-height:24px;
   zoom:0.95;
-  padding-bottom:5px
+  padding-bottom:5px;
+  padding-top:5px
 }
 .Message_style1_p4{
   font-size:12px;
@@ -13288,7 +13289,7 @@ top: 30px;
 width:210px;
 height:30px;
 padding: 0px 40px 0px 8px;
-margin: 20px 20px 0 7.5%;
+margin: 0 0 0 7.5%;
 border-bottom: none;
 display: flex;
 align-items: center;
@@ -13360,10 +13361,10 @@ top: -5px;
 }
 .border-text4
 {
-width: 300px;
-position: relative;
-left: 300px;
-top: 30px;
+  position: relative;
+  top:-5px;
+  font-weight: bold;
+  color:#676767;
 }
 
 .block_wrap5 {
