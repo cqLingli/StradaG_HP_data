@@ -59,12 +59,15 @@ get_header("sz");
                             <h5><?php echo get_the_title(); ?></h5>
                             <h6><?php echo get_field('name'); ?></h6>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+      </div>
+      <div class="l-container">
                           
-                          
-                          
-                          
-                          
-                          
+                  <div class="singleVoice singleVoice01">
+                    <div class="singleVoice-main">
+                      <div class="singleVoice-content">
                         <div class="voice-content voice-content01">
                           <h2>1. 各項目の弊法人のサービスや担当者の対応への満足度について</h2>
                           <h3>コミュニケーション </h3>
@@ -183,8 +186,8 @@ get_header("sz");
         					  </figure>
                           </div>
                           
-            <div class="c-btn01__blue">
-              <a  href="<?php echo home_url('taxvoicelist'); ?>">
+            <div class="c-btn01 c-btn01__center c-btn01__blue">
+              <a  href="<?php echo home_url('tax/taxvoicelist'); ?>">
                 <span >一覧に戻ろ</span>
               </a>
             </div>

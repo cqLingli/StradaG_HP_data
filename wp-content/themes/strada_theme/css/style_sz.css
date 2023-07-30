@@ -2495,6 +2495,11 @@ button - ボタン関係のコンポーネント
 .c-btn01__blue a:hover svg {
   fill: #153f6f;
 }
+.c-btn01__blue a{
+  width: 100%;
+}
+
+
 .c-btn01__white svg {
   fill: #153f6f;
 }
@@ -9699,14 +9704,16 @@ typography - 文字の装飾など
 
 
 .archiveVoice{
-  padding: 70px 0;
+  background-color: #E4E8F1;
+  padding: 30px 0 70px 0;
+  margin-top: 30px;
 }
 .singleVoice{
   padding: 0 0;
 }
 .singleVoice-main{
+  width: 90%;
   max-width: 750px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -9735,7 +9742,7 @@ typography - 文字の装飾など
   font-size: 2rem;
   line-height: 27px;
   padding: 10px 20px;
-  background: #153F6F;
+  background: linear-gradient(to right,#153F6F 30%, #E4E8F1 100%);
   color: #fff;
   margin-bottom: 25px;
 }
@@ -9757,7 +9764,9 @@ typography - 文字の装飾など
 }
 @media only screen and (max-width: 767px) {
   .archiveVoice{
+    background-color: #E4E8F1;
     padding: 30px 0;
+    margin-top: 30px;
   }
   .singleVoice{
     padding: 30px 0;
@@ -9857,6 +9866,9 @@ typography - 文字の装飾など
 
 /* 05-28-2021 */
 .singleVoice-content p{
+  margin-bottom:30px;
+}
+.singleVoice-content{
   margin-bottom:30px;
 }
 
@@ -11075,6 +11087,10 @@ img{
 .voice-content01 .more-content{
   margin-top:12px;
 }
+.singleVoice01{
+  background-color: #E4E8F1;
+  padding: 30px 0;
+}
 
 .choice-part {
   display: flex;
@@ -11098,9 +11114,9 @@ img{
 }
 
 .choice-part .choice.is-active {
-  background: #C30000;
+  background: #153F6F;
   color: #fff;
-  border-color: #C30000;
+  border-color: #153F6F;
 }
 
 .choice-part.cols-4 .choice:not(:nth-child(4n)) {
