@@ -4036,8 +4036,7 @@ title - 共通のタイトルやテキストなど
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: -3.5%;
   padding-bottom: 90px;
 
 }
@@ -4052,10 +4051,10 @@ title - 共通のタイトルやテキストなど
     height: auto;
   }
   .p-member__list:after {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    content: "";
+    /*-webkit-box-flex: 1;*/
+    /*-ms-flex: 1;*/
+    /*flex: 1;*/
+    /*content: "";*/
   }
   .p-member__list .item {
     position: relative;
@@ -4183,6 +4182,7 @@ title - 共通のタイトルやテキストなど
     margin-bottom: 70px;
     padding: 50px 60px 50px 70px;
     background: #fff;
+    border: 1px solid;
   }
   @media screen and (max-width: 991px) {
     .p-member02__box {
@@ -12124,12 +12124,7 @@ flex-shrink: 0;
   margin-left: 17%;
 }
 .read-more{
-  margin: -8% 5% 5% -2%;
-  width: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 1px;
+  padding: 1px 1px 10px 1px;
 }
 .menberTtile{
   padding: 2px 5px;
@@ -13866,4 +13861,7 @@ top: 30px;
 }
 .t-price strong {
   font-weight: bold !important;
+}
+.has-medium-font-size {
+  color: #808C96 !important;;
 }

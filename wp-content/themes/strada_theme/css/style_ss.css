@@ -4035,8 +4035,7 @@ div#法人概要 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: -3.5%;
   padding-bottom: 90px;
 
 }
@@ -12068,12 +12067,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-left: 17%;
 }
 .read-more{
-  margin: -8% 5% 5% -2%;
-  width: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 1px;
+  padding: 1px 1px 10px 1px;
 }
 .menberTtile{
   padding: 2px 5px;
@@ -13815,4 +13809,7 @@ top: 30px;
 }
 .t-price  th.has-text-align-left {
   width: 30%;
+}
+.has-medium-font-size {
+  color: #EC7700 !important;;
 }

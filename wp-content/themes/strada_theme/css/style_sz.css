@@ -4044,8 +4044,7 @@ title - 共通のタイトルやテキストなど
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-right: -3.5%;
     padding-bottom: 90px;
 
   }
@@ -4463,7 +4462,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-new01 .c-new-content .c-list-news .c-new__title {
     margin-top: -27px;
-    font-size: 1.8rem;
+    font-size: 1.8rem;.has-medium-font-size
     padding: 20px;
     line-height: 29px;
   }
@@ -12491,12 +12490,7 @@ left: 300px;
 top: 30px;
 }
 .read-more{
-  margin: -8% 5% 5% -2%;
-  width: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 1px;
+  padding: 1px 1px 10px 1px;
 }
 .menberTtile{
   padding: 2px 5px;
