@@ -333,7 +333,6 @@
       </div>
     </div>
     </div>
-  </div>
   <!-- end Q&A -->
 
   <!-- start Column -->
@@ -477,8 +476,7 @@
     </div>
     </div>
   </div>
-  <!-- start Recruit -->
-
+  <!-- end Recruit -->
 </main>
 
 <?php get_footer(); ?>
