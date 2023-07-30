@@ -328,73 +328,74 @@ function circlechange(circles, circle) {
     }
     circles[circle].className = "current";
 }
-
-window.addEventListener('load', function () {
-    for (var i = 0; i < lis_img.length; i++) {
-        var li = document.createElement('li');
-        ol.appendChild(li);
-        li.setAttribute('index', i);
-        if (i == 0) {
-            li.className = "current";
+document.onreadystatechange = function () {
+    if (document.readyState == 'complete') {
+        for (var i = 0; i < lis_img.length; i++) {
+            var li = document.createElement('li');
+            ol.appendChild(li);
+            li.setAttribute('index', i);
+            if (i == 0) {
+                li.className = "current";
+            }
+            li.addEventListener('click', function () {
+                if (isMoving) {
+                    return;
+                }
+                isMoving = true;
+                for (var j = 0; j < ol.children.length; j++) {
+                    ol.children[j].className = "";
+                }
+                this.className = "current";
+                var index = this.getAttribute('index');
+                animate(ul, -index * imageplay.offsetWidth, function () { isMoving = false; });
+                circlechange(circles, index);
+            })
         }
-        li.addEventListener('click', function () {
+        var circles = ol.querySelectorAll('li');
+        var li_img = ul.children[0].cloneNode(true);
+        ul.appendChild(li_img);
+
+        right.addEventListener('click', function () {
             if (isMoving) {
                 return;
             }
             isMoving = true;
-            for (var j = 0; j < ol.children.length; j++) {
-                ol.children[j].className = "";
+            if (num >= lis_img.length) {
+                num = 0;
+                ul.style.left = 0 + 'px';
             }
-            this.className = "current";
-            var index = this.getAttribute('index');
-            animate(ul, -index * imageplay.offsetWidth, function () { isMoving = false; });
-            circlechange(circles, index);
+            num++;
+            animate(ul, -num * imageplay.offsetWidth, function () { isMoving = false; });
+            circlechange(circles, num);
         })
-    }
-    var circles = ol.querySelectorAll('li');
-    var li_img = ul.children[0].cloneNode(true);
-    ul.appendChild(li_img);
+        left.addEventListener('click', function () {
+            if (isMoving) {
+                return;
+            }
+            isMoving = true;
+            if (num <= 0) {
+                num = lis_img.length;
+                ul.style.left = -lis_img.length * imageplay.offsetWidth + 'px';
+            }
+            num--;
+            animate(ul, -num * imageplay.offsetWidth, function () { isMoving = false; });
+            circlechange(circles, num);
+        })
 
-    right.addEventListener('click', function () {
-        if (isMoving) {
-            return;
-        }
-        isMoving = true;
-        if (num >= lis_img.length) {
-            num = 0;
-            ul.style.left = 0 + 'px';
-        }
-        num++;
-        animate(ul, -num * imageplay.offsetWidth, function () { isMoving = false; });
-        circlechange(circles, num);
-    })
-    left.addEventListener('click', function () {
-        if (isMoving) {
-            return;
-        }
-        isMoving = true;
-        if (num <= 0) {
-            num = lis_img.length;
-            ul.style.left = -lis_img.length * imageplay.offsetWidth + 'px';
-        }
-        num--;
-        animate(ul, -num * imageplay.offsetWidth, function () { isMoving = false; });
-        circlechange(circles, num);
-    })
-
-    timer = setInterval(function () {
-        right.click();
-    }, 5000)
-
-    imageplay.addEventListener('mouseover', function () {
-        clearInterval(timer);
-    })
-
-    imageplay.addEventListener('mouseout', function () {
-        clearInterval(timer);
         timer = setInterval(function () {
             right.click();
         }, 5000)
-    })
-})
+
+        imageplay.addEventListener('mouseover', function () {
+            clearInterval(timer);
+        })
+
+        imageplay.addEventListener('mouseout', function () {
+            clearInterval(timer);
+            timer = setInterval(function () {
+                right.click();
+            }, 5000)
+        })
+    }
+}
 //----------end imageplay --------------//
