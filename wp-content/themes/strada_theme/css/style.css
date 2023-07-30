@@ -2028,7 +2028,7 @@ div.catch {
 }
 .h-logo img {
   display: block;
-  width: 400px;
+  width: 320px;
   height: auto;
 }
 .h-logo:hover img {
@@ -5363,6 +5363,31 @@ top - Topページ固有のオブジェクト
     padding-left: 10px;
   }
 }
+.t-news_list_topbox {
+  margin: 15px 15px;
+}
+.t-news_list_topbox li {
+  padding: 15px 0;
+  border-top: 1px solid #e9ebf3;
+}
+.t-news_list_topbox li:last-child {
+  border-bottom: 1px solid #e9ebf3;
+}
+.t-news_list_topbox a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  text-decoration:none;
+}
+.t-news_list_topbox time {
+  font-size: 1.4rem;
+  line-height: 19px;
+}
+.t-news_list_topbox time {
+  padding: 0 15px;
+}
+
 .t-column_ul {
 	display: flex;
 	justify-content: space-between;

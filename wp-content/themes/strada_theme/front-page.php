@@ -47,54 +47,52 @@
           <p style="padding:0;margin:0;border:0">ストラーダグループ紹介動画 Youtube</p>
         </div>
         <div class="news_style2">
-          <div class="t-news_list">
-            <ul>
-            <a href="<?php echo home_url('tax/taxnewslist'); ?>">
+        <div class="t-news_list_topbox">
+            <!-- <a href="<?php //echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none"> -->
               <div style="display: flex;overflow-x: hidden;width:100%">
-                <div style="width:95%;color:#6A6969;font-weight:bold;padding:0 0 0 15px">ニュース</div>
-                <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
-                    style="width:30px" />
+                <div style="width:80%;color:#003E75;font-weight:bold;font-size:15px;">ニュース</div>
+                <div style="width:100px;color:black">READ MORE</div>
+                <div style="position:relative;top:-5px">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt="" style="width:30px" />
                 </div>
               </div>
-              </a>
-              <?php
-              // $author_name = get_post_meta($post->ID, 'author_name', true);
-              // $authorCurrent = array( get_user_by( 'id', $post->post_author ) );
-              $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-              $args = array(
-                'post_type' => 'news',
-                'posts_per_page' => 3,
-                'orderby' => 'date',
-                'paged' => 1
-              );
-
-              $the_query = new WP_Query($args); ?>
-              <?php
-              if($the_query->have_posts()) :
-                while($the_query->have_posts()) : $the_query->the_post(); ?>
+            <!-- </a> -->
+            <hr style="border:1px dotted #BDB7B7;">
+            <?php
+            // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+            $args = array(
+              'post_type' => 'news', // 文章类型
+              'posts_per_page' => 10,
+              'paged' => $paged,
+            );
+            $query = new WP_Query($args); // 执行查询
+            ?>
+            <ul>
+            <?php 
+              if($query->have_posts()) :
+                while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <time>
+                  <div class="time" style="float: left; width: 15%;">
                     <?php echo get_the_date('Y.m.d') ?>
-                  </time>
-                  <span>
+                  </div>
+                  <div class="time" style="float: right; width: 85%; padding-left: 5px;">
                     <?php echo get_the_title(); ?>
-                  </span>
+                  </div>
                 </a>
               </li>
               <?php endwhile;
                 wp_reset_postdata();
               else:
                 ?>
-              <div class="title">
+            <div class="title">
+              <li>
                 <p>
                   <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
                 </p>
-              </div>
-              <?php
-              endif;
-            ?>
+              </li>
+            </div>
+            <?php endif;?>
             </ul>
           </div>
         </div>
