@@ -43,6 +43,7 @@ if($mv){
     </div>
 
     <!-- end c-mainTitle -->
+      <div class="c-new-content">
     <div class="l-container">
         <div class="term-excerpt">
             <?php echo the_excerpt(); ?>
@@ -89,6 +90,7 @@ if($mv){
         </div>
       </div>
     </div>
+      </div>
   </main>
 <?php
 session_start();

@@ -71,12 +71,13 @@ $mv = get_field('service_cat_mv', $qo);
         </div>
 
         <!-- end c-mainTitle -->
+        <div class="c-new-content">
         <div class="l-container">
-            <div class="term-description">
-                <?php echo term_description(); ?>
-                <hr class="c-line-bottom" />
-            </div>
             <div class="l-content">
+                <div class="term-description">
+                    <?php echo term_description(); ?>
+                    <hr class="c-line-bottom" />
+                </div>
                 <div class="c-serviceList">
                     <?php
                     global $wp_query;
@@ -126,6 +127,7 @@ $mv = get_field('service_cat_mv', $qo);
                     <?php endwhile; ?>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 
