@@ -5552,6 +5552,9 @@ li.column_post .column_post_cat {
   width: 100%;
   height: auto;
 }
+.c-voicePost__img figure{
+    text-align: center;
+}
 .c-voicePost .c-voicePost__tlt{
   font-size: 1.6rem;
   line-height: 22px;
