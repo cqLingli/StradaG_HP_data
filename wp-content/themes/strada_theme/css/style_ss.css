@@ -3501,6 +3501,12 @@ div#法人概要 {
   padding: 40px;
   background-color: #fff;
 }
+.p-column__post .box {
+  margin-bottom: 75px;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
 .p-column__post .box .date-cat {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11968,6 +11974,11 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-size: 2.5rem;
   line-height: 20px;
   font-weight:bold;
+  padding: 20px;
+  margin-top: -30px;
+}
+.c-new__date{
+  padding: 20px;
 }
 .service-line-bottom {
   height: 1px;

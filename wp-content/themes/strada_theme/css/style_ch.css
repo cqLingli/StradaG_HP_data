@@ -3501,6 +3501,12 @@ title - 共通のタイトルやテキストなど
     padding: 40px;
     background-color: #fff;
   }
+.p-column__post .box {
+  margin-bottom: 75px;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
   .p-column__post .box .date-cat {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4436,8 +4442,9 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-new01 .c-new-content .c-list-news .c-new__title {
-    margin-top: 7px;
+    margin-top: -27px;
     font-size: 1.8rem;
+    padding: 20px;
     line-height: 29px;
   }
   @media screen and (max-width: 767px) {
@@ -11963,6 +11970,11 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-size: 2.5rem;
   line-height: 20px;
   font-weight:bold;
+  padding: 20px;
+  margin-top: -30px;
+}
+.c-new__date{
+  padding: 20px;
 }
 .service-line-bottom {
   height: 1px;
