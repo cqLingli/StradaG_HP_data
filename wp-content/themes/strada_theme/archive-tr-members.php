@@ -7,7 +7,7 @@ get_header('tr');
 ?>
     <!-- .l-main | メインコンテンツ -->
 
-    <main class="l-main p-member01">
+    <main class="l-main p-member02">
         <div class="c-breakcrumds">
             <div class="l-container">
                 <?php if (function_exists('bcn_display')) { bcn_display(); }?>
@@ -41,8 +41,7 @@ get_header('tr');
                     'company' => "TR", // 自定义字段名
                     'posts_per_page' => -1,
                     'orderby' => 'date',
-                    'paged' => $paged,
-                    'post__not_in' => array($post->ID)
+                    'paged' => $paged
                 );
 
                 $the_query = new WP_Query($args); ?>
