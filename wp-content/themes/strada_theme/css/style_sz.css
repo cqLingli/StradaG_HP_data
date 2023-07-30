@@ -3515,6 +3515,7 @@ title - 共通のタイトルやテキストなど
   margin-bottom: 75px;
   padding: 20px;
   background-color: #fff;
+  border: 1px solid;
   margin-top: 20px;
 }
   .p-column__post .box .date-cat {
@@ -9713,7 +9714,6 @@ typography - 文字の装飾など
 }
 .singleVoice-main{
   width: 90%;
-  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -9777,6 +9777,26 @@ typography - 文字の装飾など
   .singleVoice-content h3{
     font-size: 1.6rem;
   }
+  .singleVoice-content h5{
+    font-size: 1.4rem;
+      border-top: 0;
+    margin-top: 0px;
+  }
+  .singleVoice-content h6{
+    font-size: 1.2rem;
+      border-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .singleVoice-content{
+    margin-bottom:0px;
+  }
+ .singleVoice01{
+    padding:0 0;
+ }
+  .singleVoice-main{
+    width: 100%;
+  }
+
 }
 
 .singleService-main{
