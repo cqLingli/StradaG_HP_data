@@ -13752,9 +13752,8 @@ flex-shrink: 0;
 
   .menberTtile{
     text-align:left !important;
-    font-size:2.6rem;
+    font-size:2.2rem;
     font-weight:bold;
-    margin-top:30px;
     color:white !important;
     background:linear-gradient(90deg, #6A6969, #F3F4F4) !important;
     padding-left:10px !important;

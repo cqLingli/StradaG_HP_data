@@ -3214,7 +3214,7 @@ title - 共通のタイトルやテキストなど
   }
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
-  margin-top: 8%;;
+  margin-top: 3.5%;;
 }
   .p-column .c-list__cat li {
     padding: 20px 0;
@@ -12600,7 +12600,7 @@ top: 30px;
   padding-left:10px;
   line-height: 40px;
   font-weight: bold;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin-top:30px;
   color: white;
   background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
@@ -13913,12 +13913,11 @@ top: 30px;
   background-color: #fff;
 }
 .menberTtile2{
-  padding-left:10px;
+  padding-left: 10px;
   line-height: 40px;
   font-weight: bold;
-  font-size: 2.6rem;
-  margin-top:30px;
+  font-size: 2.2rem;
   color: white;
-  background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
+  background: linear-gradient(to right,#153F6F 0%, #fff 96%);
   width: 100%;
 }
