@@ -11693,7 +11693,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .serviceItem .thumb {
-  width: 500px;
   flex-shrink: 0;
   margin: auto;
   line-height: 0;
