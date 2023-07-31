@@ -48,7 +48,7 @@
       </div>
       <div class="news_style2">
           <div class="t-news_list_topbox">
-            <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
+            <!-- <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none"> -->
               <div style="display: flex;overflow-x: hidden;width:100%">
                 <div style="width:80%;color:#003E75;font-weight:bold;font-size:15px;">ニュース</div>
                 <div style="width:100px;color:black">READ MORE</div>
@@ -56,7 +56,7 @@
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt="" style="width:30px" />
                 </div>
               </div>
-            </a>
+            <!-- </a> -->
             <hr style="border:1px dotted #BDB7B7;">
             <?php
             // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
