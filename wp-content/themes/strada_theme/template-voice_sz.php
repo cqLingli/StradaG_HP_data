@@ -77,7 +77,7 @@
 
        </div>
        <div style="padding-left:30px;padding-right:30px">
-		 <a href="#" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:100%;text-align:center">詳しく観る</div></a>
+		 <a href="<?php echo home_url('tax/taxvoicelist'); ?>" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:100%;text-align:center">詳しく観る</div></a>
                     </div>
      </div>
     </div>

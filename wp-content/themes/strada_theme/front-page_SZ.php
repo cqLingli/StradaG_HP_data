@@ -426,17 +426,18 @@
               <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
             </div>
 
-          <?php endwhile;
-          if (function_exists("pagination")) {
-
-          }
-          wp_reset_postdata();
-        else:
-          ?>
-          <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-          <?php
-        endif;
-      ?>
+            <?php endwhile;
+                wp_reset_postdata();
+              else:
+                ?>
+            <div class="title">
+              <li>
+                <p>
+                  <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+                </p>
+              </li>
+            </div>
+            <?php endif;?>
     </div></div>
 </div>
     </div>
