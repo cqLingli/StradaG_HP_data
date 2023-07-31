@@ -3082,7 +3082,7 @@ title - 共通のタイトルやテキストなど
     flex: 0 0 200px;
   }
   .p-about_historyContent {
-    margin: 0 25px;
+    /*margin: 0 25px;*/
   }
   .p-about_historyContent dl {
     display: -webkit-box;
@@ -3126,8 +3126,8 @@ title - 共通のタイトルやテキストなど
       margin-top: 10px;
     }
     .p-about_historyContent{
-      padding: 50px 20px;
-      margin: 0;
+      /*padding: 50px 20px;
+      margin: 0;*/
     }
     .p-about_historyTime dl dt{
       flex: 0 0 65px;
@@ -4062,8 +4062,8 @@ title - 共通のタイトルやテキストなど
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-right: -3.5%;
-    padding-bottom: 90px;
+    padding :30px;
+    padding-top:0px
 
   }
   @media screen and (max-width: 575px) {
@@ -5181,8 +5181,7 @@ top - Topページ固有のオブジェクト
   max-width: 100%;
 }
 .t-block {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding:30px
 }
 @media screen and (max-width: 991px) {
   .t-block {
@@ -10258,7 +10257,8 @@ font-weight: bold;
 .contactBox{
   background: #E3E8F1;
   padding:30px;
-  padding-top:0px
+  padding-top:0px;
+  margin-top:30px
 }
 
 .contactBox__intro{
@@ -12597,15 +12597,13 @@ top: 30px;
   padding: 1px 1px 10px 1px;
 }
 .menberTtile{
-  padding: 2px 5px;
-  width: 100%;
-  border: 1px solid;
+  padding-left:10px;
   line-height: 40px;
   font-weight: bold;
-  font-size: 2.0rem;
+  font-size: 2.6rem;
+  margin:30px;
   color: white;
   background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
-  margin-top: 3%;
   }
 .Message_style1{
   width:49%;
