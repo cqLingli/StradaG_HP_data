@@ -12602,7 +12602,7 @@ top: 30px;
   line-height: 40px;
   font-weight: bold;
   font-size: 2.6rem;
-  margin:30px;
+  margin-top:30px;
   color: white;
   background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
   }
@@ -13918,7 +13918,7 @@ top: 30px;
   line-height: 40px;
   font-weight: bold;
   font-size: 2.6rem;
-  margin:30px;
+  margin-top:30px;
   color: white;
   background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
   width: 100%;
