@@ -146,36 +146,36 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('top/news'); ?>">
+          <li><a href="news">
               <div class="vertical-line">ニュース</div>
             </a></li>
           <li>
-            <a href="<?php echo home_url(''); ?>">
+            <a href="#">
               <div class="vertical-line">業務内容</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url(''); ?>">
+            <a href="#StradaGroup">
               <div class="vertical-line">グループ紹介</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url(''); ?>">
+            <a href="#About">
               <div class="vertical-line">会社概要</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url('top/menber'); ?>">
+            <a href="#menber">
               <div class="vertical-line">メンバー紹介</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url('top/access'); ?>">
+            <a href="access">
               <div class="vertical-line">アクセス</div>
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url(''); ?>">
+            <a href="#Recruit">
               <div class="vertical-line">リクルート</div>
             </a>
           </li>

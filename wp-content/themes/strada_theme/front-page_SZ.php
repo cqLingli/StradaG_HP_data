@@ -248,7 +248,7 @@
   <!-- end Message -->
 
   <!-- start Strada Group -->
-  <div class="block_wrap2">
+  <div id="StradaGroup" class="block_wrap2">
     <div class="border-text2"></div>
     <div id="block_wrap2" class="title_item_wrap2 active2">
       <p class="chapter_title2">Strada Group
@@ -285,7 +285,7 @@
   <!-- end Strada Group -->
 
   <!-- start Service -->
-  <div class="block_wrap3">
+  <div id="Service" class="block_wrap3">
     <div class="border-text3"></div>
     <div id="block_wrap3" class="title_item_wrap3 active3">
       <p class="chapter_title3">Service
@@ -302,7 +302,7 @@
   <!-- end Service -->
 
   <!-- start Voice -->
-  <div class="block_wrap4">
+  <div id="Voice" class="block_wrap4">
     <div class="border-text4"></div>
     <div id="block_wrap4" class="title_item_wrap4 active4">
       <p class="chapter_title4">Voice
@@ -319,7 +319,7 @@
   <!-- end Voice -->
 
   <!-- start Q&A -->
-  <div class="block_wrap5">
+  <div id="QA" class="block_wrap5">
     <div class="border-text5"></div>
     <div id="block_wrap5" class="title_item_wrap5 active5">
       <p class="chapter_title5">Q&A
@@ -336,7 +336,7 @@
   <!-- end Q&A -->
 
   <!-- start Column -->
-  <div class="block_wrap6">
+  <div id="Column" class="block_wrap6">
     <div class="border-text6"></div>
     <div id="block_wrap6" class="title_item_wrap6 active6">
       <p class="chapter_title6">Column
@@ -353,7 +353,7 @@
   <!-- end Column -->
 
   <!-- start About -->
-  <div class="block_wrap7">
+  <div id="About" class="block_wrap7">
     <div class="border-text7"></div>
     <div id="block_wrap7" class="title_item_wrap7 active7">
       <p class="chapter_title7">About
@@ -364,7 +364,7 @@
     <div class="l-container">
     <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
     <?php get_template_part('template', 'about_sz'); ?>
-    <div class="menberTtile">
+    <div id="menber" class="menberTtile">
           <span>メンバー紹介</span>
       </div>
     <div class="p-member__list">
@@ -463,7 +463,7 @@
   <!-- end Contact -->
 
   <!-- start Recruit -->
-  <div class="block_wrap9">
+  <div id="Recruit" class="block_wrap9">
     <div class="border-text9"></div>
     <div id="block_wrap9" class="title_item_wrap9 active9">
       <p class="chapter_title9">Recruit
