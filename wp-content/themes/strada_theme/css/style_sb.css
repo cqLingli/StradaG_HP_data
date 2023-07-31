@@ -3225,7 +3225,7 @@ title - 共通のタイトルやテキストなど
   }
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
-  margin-top: 15px;
+  margin-top: 8%;
 }
   .p-column .c-list__cat li {
     padding: 20px 0;
@@ -4051,7 +4051,7 @@ title - 共通のタイトルやテキストなど
   .p-column .l-commonCategories {
     margin-bottom: 35px;
     padding-bottom: 30px;
-    margin-top: 6%;
+    margin-top: 7%;
 
   }
   .p-column .l-commonCategories .c-tlt04 {
