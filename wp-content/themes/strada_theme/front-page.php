@@ -272,14 +272,7 @@
     <div class="border-bt8"></div>
     <div class="l-container">
         <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
-            <div class="contactBox">
-                <div class="contactBox__intro">
-                    各種お問い合わせは、こちらのフォームよりお送りください。翌営業日を目安にお返事を差し上げます。 
-                </div>
-                <?php 
-                    echo do_shortcode('[mwform_formkey key="236"]');
-                ?>
-            </div>
+        <?php get_template_part('template', 'contact'); ?>
         </div>
     </div>
   </div>

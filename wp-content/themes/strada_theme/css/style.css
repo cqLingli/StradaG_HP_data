@@ -10144,16 +10144,16 @@ font-weight: bold;
 }
 
 .contactBox{
-  background: #fff;
-  max-width: 1015px;
-  margin: 70px auto;
-  padding: 60px 85px 80px;
+  background: #F3F4F4;
+  padding:30px;
+  padding-top:0px
 }
 
 .contactBox__intro{
+  background: #fff;
   text-align: center;
   font-size: 1.6rem;
-  margin-bottom: 75px;
+  padding:15px;
 }
 
 .c-form .row{
@@ -10215,10 +10215,10 @@ font-weight: bold;
 }
 
 .c-form input[type="submit"]{
-  width:360px;
-  height:70px;
-  background:#153F6F;
-  border:1px solid #153F6F;
+  width:100%;
+  height:40px;
+  background:#6A6969;
+  border:1px solid #6A6969;
   color:#fff;
   font-size:1.6rem;
   font-weight:bold;
@@ -10233,8 +10233,8 @@ font-weight: bold;
 }
 
 .c-form input[type="submit"]:hover{
-  background:#fff;
-  color:#153F6F;
+  /*background:#fff;
+  color:#153F6F;*/
 }
 
 .c-form .row input[type="text"]:focus, .c-form .row textarea:focus{
