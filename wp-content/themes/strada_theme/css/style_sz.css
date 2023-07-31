@@ -2598,6 +2598,7 @@ sidebar - サイドバー
 
 .l-sidebar {
   width: 35%;
+  margin-right: 5%;
 }
 @media screen and (max-width: 767px) {
   .l-sidebar {
@@ -3218,6 +3219,7 @@ title - 共通のタイトルやテキストなど
   .p-column .c-list__cat li {
     padding: 20px 0;
     border-bottom: 1px solid #a9a8a8;
+    background-color: #fff;
   }
   .p-column .c-list__cat li a {
     display: block;
@@ -3457,7 +3459,6 @@ title - 共通のタイトルやテキストなど
     width: 60%;
     margin-bottom: 50px;
     padding: 5px 35px 40px;
-    background-color: #fff;
   }
   @media screen and (max-width: 767px) {
     .p-column__main {
@@ -3483,6 +3484,7 @@ title - 共通のタイトルやテキストなど
     margin-right: 0;
     padding: 15px 15px 15px 15px;
     border-bottom: 1px dotted #6B696A;
+    background-color: #fff;
   }
   @media screen and (max-width: 991px) {
     .p-column__main .item {
@@ -3908,6 +3910,7 @@ title - 共通のタイトルやテキストなど
     padding: 5px 5px;
     border: 1px solid;
     margin-top: 10px;
+    background: white;
   }
   .p-column .l-sidebar .p-column__list .item {
     display: -webkit-box;
@@ -4033,12 +4036,12 @@ title - 共通のタイトルやテキストなど
   }
   .p-column .l-commonPopular-Article {
     margin-bottom: 30px;
-    background-color: #fff;
+
   }
   .p-column .l-commonCategories {
     margin-bottom: 35px;
     padding-bottom: 30px;
-    background-color: #fff;
+    margin-top: 6%;
   }
   .p-column .l-commonCategories .c-tlt04 {
     margin-bottom: 0;
@@ -11790,7 +11793,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   border: 2px solid;
   width: 45%;
   padding: 8px 8px 8px 8px;
-  margin-left: 2%;
+  margin-left: 3%;
   background: white;
 }
 

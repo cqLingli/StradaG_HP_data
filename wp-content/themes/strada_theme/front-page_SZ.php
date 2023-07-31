@@ -296,7 +296,7 @@
     <div class="border-bt3"></div>
     <div class="l-container">
     <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-    <?php get_template_part('archive', 'sz-service'); ?>
+    <?php get_template_part('template', 'sz-service'); ?>
     </div>
     </div>
   </div>
@@ -313,7 +313,7 @@
     <div class="border-bt4"></div>
     <div class="l-container">
     <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
-    <?php get_template_part('single', 'voice'); ?>
+    <?php get_template_part('template', 'taxvoicelist'); ?>
     </div>
     </div>
   </div>
@@ -347,7 +347,7 @@
     <div class="border-bt6"></div>
     <div class="l-container">
     <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-    <?php get_template_part('archive', 'sz-column'); ?>
+    <?php get_template_part('template', 'sz-column'); ?>
     </div>
     </div>
   </div>

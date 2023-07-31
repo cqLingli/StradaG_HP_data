@@ -3446,7 +3446,7 @@ div#法人概要 {
   max-width: 750px;
   margin-bottom: 50px;
   padding: 5px 35px 40px;
-  background-color: #fff;
+
 }
 @media screen and (max-width: 767px) {
   .p-column__main {
@@ -3470,6 +3470,7 @@ div#法人概要 {
   margin-right: 0;
   padding: 35px 0;
   border-bottom: 1px solid #d5d5d5;
+  background-color: #fff;
 }
 @media screen and (max-width: 991px) {
   .p-column__main .item {
@@ -11685,7 +11686,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   border: 2px solid;
   width: 45%;
   padding: 8px 8px 8px 8px;
-  margin-left: 2%;
+  margin-left: 3%;
   background: white;
 }
 
