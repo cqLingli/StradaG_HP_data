@@ -122,8 +122,7 @@
         <hr style="border:1px dotted #BDB7B7;">
       </div>
       <div class="Message_style2">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/IMG_0362.JPG" alt=""
-          class="Message_style1_img" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/IMG_0362.JPG" alt="" />
       </div>
     </div>
     </div>

@@ -123,8 +123,7 @@
           <hr style="border:1px dotted #BDB7B7;">
         </div>
         <div class="Message_style2">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt=""
-            class="Message_style1_img" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt=""/>
         </div>
       </div>
     </div>
