@@ -34,7 +34,7 @@
       $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
       $args = array(
           'post_type' => 'post',
-          'posts_per_page' => 3,
+          'posts_per_page' => 4,
           'orderby' => 'date',
           'paged' => $paged,
           'meta_query' => array(
@@ -50,7 +50,7 @@
     ?>
     <?php if(is_page('columns') && ($the_query->found_posts != 0)) : ?>
       <div class="p-column__01">
-        <h2 class="c-tlt03">
+        <h2 class="c-tlt04">
           おすすめ記事
         </h2>
         <div class="p-column__list">
@@ -112,18 +112,18 @@
         <div class="p-column__list">
           <?php
             if(get_query_var('year') != 0){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }elseif(get_query_var('monthnum') != 0){
-              $args = array( 'post_type' => 'column','posts_per_page' => 9,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              $args = array( 'post_type' => 'column','posts_per_page' => 4,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }elseif(is_category()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
             }elseif(is_tag()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
             }elseif(is_front_page()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
             }else {
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 9,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              query_posts(array('post_type' =>'post', 'posts_per_page' => 4,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }
 
             if(have_posts()) :
@@ -161,7 +161,7 @@
                           <?php echo strip_tags(get_the_excerpt()); ?>
                         </div>
                           <div class="column-read-more">
-                              <img src="<?php echo home_url('/wp-content/uploads/2023/07/2023072790511_icon.png'); ?>"">
+                              <img src="<?php echo home_url('/wp-content/uploads/2024/07/2024072740511_icon.png'); ?>"">
                           </div>
                       </div>
                       <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
@@ -177,7 +177,7 @@
         </div>
       </div>
       <div class="l-sidebar">
-        <?php get_sidebar('sidebar'); ?>
+        <?php get_sidebar('topsz'); ?>
       </div>
     </div>
   </div>
