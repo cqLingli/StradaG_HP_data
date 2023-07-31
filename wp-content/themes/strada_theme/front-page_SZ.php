@@ -74,10 +74,10 @@
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <div class="time" style="float: left; width: 15%;">
+                  <div class="time" style="float: left; width: 15%;font-size: 1.5rem;">
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
-                  <div class="time" style="float: right; width: 85%; padding-left: 5px;">
+                  <div class="time" style="float: right; width: 85%; padding-left: 5px;font-size: 1.5rem;">
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>
@@ -428,7 +428,7 @@
 
           <?php endwhile;
           if (function_exists("pagination")) {
-            pagination($the_query->max_num_pages);
+
           }
           wp_reset_postdata();
         else:
