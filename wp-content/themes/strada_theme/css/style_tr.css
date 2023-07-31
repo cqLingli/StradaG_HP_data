@@ -4037,7 +4037,7 @@ title - 共通のタイトルやテキストなど
   }
 .p-member__list .item .image {
   width: 100%;
-  height: 80%;
+  height: 70%;
 }
   .p-member__list {
     display: -webkit-box;
@@ -4096,6 +4096,7 @@ title - 共通のタイトルやテキストなど
   .p-member__list .item .txt {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    margin-top: 3%;
   }
   @media screen and (max-width: 991px) {
     .p-member__list .item .txt {
