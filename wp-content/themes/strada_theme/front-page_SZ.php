@@ -456,7 +456,7 @@
     <div class="border-bt8"></div>
     <div class="l-container">
     <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
-    
+    <?php get_template_part('template', 'contact_sz'); ?>
     </div>
     </div>
   </div>
