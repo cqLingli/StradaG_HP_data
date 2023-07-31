@@ -40,62 +40,62 @@
     </div>
     <div class="border-bt"></div>
     <div class="l-container">
-    <div id="list_wrap" class="node_wrap node_wrap_show">
-      <div class="news_style1"><iframe src="https://www.youtube.com/embed/xGmXxpIj6vs" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-          style="width:100%;height:90%"></iframe>
-        <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
-      </div>
-      <div class="news_style2">
-      <div class="c-list-news">
-      <a href="<?php echo home_url('bs/bsnewslist'); ?>" style="text-decoration:none">
+      <div id="list_wrap" class="node_wrap node_wrap_show">
+        <div class="news_style1"><iframe src="https://www.youtube.com/embed/xGmXxpIj6vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:90%"></iframe>
+          <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
+        </div>
+        <div class="news_style2">
+          <div class="t-news_list_topbox">
+            <a href="<?php echo home_url('sb/bsnewslist'); ?>" style="text-decoration:none">
               <div style="display: flex;overflow-x: hidden;width:100%">
-                <div style="width:95%;color:#00A159;font-weight:bold;">ニュース</div>
-                <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
-                    style="width:30px" />
+                <div style="width:80%;color:#003E75;font-weight:bold;font-size:15px;">ニュース</div>
+                <div style="width:100px;color:black">READ MORE</div>
+                <div style="position:relative;top:-5px">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt="" style="width:30px" />
                 </div>
               </div>
-              </a>
-              <hr style="border:1px dotted #BDB7B7;">
-          <?php
-         // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-          $args = array(
+            </a>
+            <hr style="border:1px dotted #BDB7B7;">
+            <?php
+            // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+            $args = array(
               'post_type' => 'news', // 文章类型
               'posts_per_page' => 10,
               'paged' => $paged,
               'company' => 'SB', // 自定义字段名
-          );
-          $query = new WP_Query( $args ); // 执行查询
-          ?>
-          <?php while (  $query->have_posts() ) : $query->the_post(); ?>
-          <a href="<?php echo get_permalink(get_the_ID()); ?>" class="c-new">
-            <div class="c-new__date">
-              <?php echo get_the_date('Y.m.d'); ?>
-            </div>
-            <div class="c-new__title">
-              <?php echo get_the_title(); ?>
-            </div>
-           <hr class="c-line-bottom" />
-          </a>
-             <?php endwhile; ?>
-
-<!--          --><?php //if(function_exists('wp_pagenavi')) { ?>
-<!--              --><?php //wp_pagenavi(); ?>
-<!--          --><?php //} ?>
-
+            );
+            $query = new WP_Query($args); // 执行查询
+            ?>
+            <ul>
+              <?php
+              if ($query->have_posts()) :
+                while ($query->have_posts()) : $query->the_post(); ?>
+                  <li>
+                    <a href="<?php echo get_permalink(get_the_ID()); ?>">
+                      <div class="time" style="float: left; width: 15%;">
+                        <?php echo get_the_date('Y.m.d') ?>
+                      </div>
+                      <div class="time" style="float: right; width: 85%; padding-left: 5px;">
+                        <?php echo get_the_title(); ?>
+                      </div>
+                    </a>
+                  </li>
+                <?php endwhile;
+                wp_reset_postdata();
+              else :
+                ?>
+                <div class="title">
+                  <li>
+                    <p>
+                      <?php esc_html_e('Sorry, no posts matched your criteria.'); ?>
+                    </p>
+                  </li>
+                </div>
+              <?php endif; ?>
+            </ul>
+          </div>
+        </div>
       </div>
-        <?php
-        if (function_exists("pagination")) {
-
-            pagination($query->max_num_pages);
-        }
-        ?>
-<!--        <div class="c-pagination">-->
-<!--            --><?php // wp_pagenavi(); ?>
-<!--        </div>-->
-      </div>
-    </div>
     </div>
   </div>
   <!-- end What’s New -->
