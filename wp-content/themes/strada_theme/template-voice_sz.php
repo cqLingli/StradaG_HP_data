@@ -76,7 +76,9 @@
           </div>
 
        </div>
-		 <a href="#" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:95%;text-align:center;margin-left:30px;margin-right:30px">詳しく観る</div></a>
+       <div style="padding-left:30px;padding-right:30px">
+		 <a href="#" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:100%;text-align:center">詳しく観る</div></a>
+                    </div>
      </div>
     </div>
   </main>
