@@ -210,7 +210,7 @@ section - コンテンツの大枠
 
 .l-container {
   width: 100%;
-  max-width: 1680px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1199px) {
