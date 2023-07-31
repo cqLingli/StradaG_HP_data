@@ -2990,7 +2990,7 @@ title - 共通のタイトルやテキストなど
     display: flex;
     padding: 22.5px 10px;
     border-bottom: 1px dotted #707070;
-    font-size: 2rem;
+    font-size: 14px;
   }
   .p-about_groupContent dl:first-child {
     border-top: 1px dotted #707070 !important;
@@ -3106,7 +3106,7 @@ title - 共通のタイトルやテキストなど
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 2rem;
+    font-size: 14px;
     border-bottom: 1px dotted;
     padding: 22.5px 10px;
   }
@@ -4793,7 +4793,7 @@ navigation - グローバルナビなど
   border-top: 1px dotted #707070;
   border-bottom: 1px dotted #707070;
   margin: 30px;
-  font-size: 2rem;
+  font-size: 14px;
 }
 .t-recruitContent {
   display: block;
@@ -4832,7 +4832,7 @@ navigation - グローバルナビなど
   display: flex;
   padding: 22.5px 10px;
   border-bottom: 1px dotted #707070;
-  font-size: 1.5rem;
+  font-size: 14px;
 }
 
 .t-recruitContent dl:first-child {
@@ -13757,6 +13757,7 @@ flex-shrink: 0;
     color:white !important;
     background:linear-gradient(90deg, #6A6969, #F3F4F4) !important;
     padding-left:10px !important;
+    margin-top:30px
   }
   
   .p-contact{
