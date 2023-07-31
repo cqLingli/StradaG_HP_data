@@ -12509,7 +12509,6 @@ top: 30px;
 
 .Message_style1{
   width:49%;
-  height:330px;
   overflow-y:auto;
   padding-left:30px;
 }
@@ -12536,13 +12535,13 @@ top: 30px;
 }
 .Message_style1_p3{
   font-size:14px;
-  line-height:24px;
+  line-height:30px;
   zoom:0.95;
   padding-bottom:5px;
   padding-top:5px
 }
 .Message_style1_p4{
-  font-size:12px;
+  font-size:14px;
   text-align:right
 }
 .Message_style1_p5{
@@ -12551,10 +12550,9 @@ top: 30px;
   padding-bottom:18px;
   text-align:right
 }
-.Message_style1_img{
+.Message_style2 img{
   display:block;
   width:100%;
-  height:100%
 }
 
 @media screen and (max-width: 991px) {
@@ -12565,13 +12563,13 @@ top: 30px;
     font-size:24px;
   }
 
-  .Message_style1{
+  /* .Message_style1{
     height:356px;
   }
 
   .Message_style2{
     height:356px;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {
