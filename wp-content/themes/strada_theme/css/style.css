@@ -4056,8 +4056,8 @@ title - 共通のタイトルやテキストなど
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    padding-left:20px;
-    padding-right:20px
+    padding-left:30px;
+    padding-top:0px
   }
   @media screen and (max-width: 575px) {
     .p-member__list {
@@ -4077,10 +4077,19 @@ title - 共通のタイトルやテキストなど
   }
   .p-member__list .item {
     position: relative;
-    width: calc(100% / 4);
+    width: calc(100% / 4.1);
     margin-bottom: 40px;
-    padding: 0 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
   }
+
+  .p-member__list .item .image {
+    width: 100%;
+    height: 70%;
+  }
+
   @media screen and (max-width: 767px) {
     .p-member__list .item {
       width: calc(100% / 3);
@@ -13746,7 +13755,7 @@ flex-shrink: 0;
     text-align:left !important;
     font-size:2.6rem;
     font-weight:bold;
-    margin:30px;
+    margin-top:30px;
     color:white !important;
     background:linear-gradient(90deg, #6A6969, #F3F4F4) !important;
     padding-left:10px !important;

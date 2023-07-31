@@ -179,7 +179,7 @@
     <div class="l-container">
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about'); ?>
-      <div id="menber" class="menberTtile">
+        <div id="menber" class="menberTtile">
           <span>メンバー紹介</span>
       </div>
     <div class="p-member__list">
@@ -241,20 +241,20 @@
               <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
             </div>
 
-          <?php endwhile;
-          if (function_exists("pagination")) {
-            pagination($the_query->max_num_pages);
-          }
-          wp_reset_postdata();
-        else:
-          ?>
-          <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-          <?php
-        endif;
-      ?>
-    </div>
-  </div>
-	   </div>
+            <?php endwhile;
+                wp_reset_postdata();
+              else:
+                ?>
+            <div class="title">
+              <li>
+                <p>
+                  <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+                </p>
+              </li>
+            </div>
+            <?php endif;?>
+    </div></div>
+</div>
   </div>
       </div>
     </div>
