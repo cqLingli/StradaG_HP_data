@@ -27,7 +27,7 @@ get_header('sg');
         <div class="l-container">
             <ul class="p-member01__link" id="myBtnContainer">
                 <!--                    <li><a href="--><?php ////echo get_post_type_archive_link('members'); ?><!--">ALL</a></li>-->
-                <div class="menberTtile">
+                <div class="menberTtile2">
                     <span>メンバー紹介</span>
                 </div>
 

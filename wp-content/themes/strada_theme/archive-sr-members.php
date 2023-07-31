@@ -25,7 +25,7 @@ get_header('ss');
         </div>
         <!-- end c-mainTitle -->
         <div class="l-container">
-            <div class="menberTtile">
+            <div class="menberTtile2">
                 <span>メンバー紹介</span>
             </div>
             <div class="p-member__list">

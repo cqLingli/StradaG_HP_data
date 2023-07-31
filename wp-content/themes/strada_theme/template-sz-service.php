@@ -42,7 +42,7 @@
             </div>
 
             <div class="content">
-                <div style="height: 200px;">
+                <div>
               <p><?php echo nl2br($term->description); ?></p>
 <!--              <div class="c-btn01 ">-->
                 </div>

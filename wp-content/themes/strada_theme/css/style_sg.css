@@ -210,7 +210,7 @@ section - コンテンツの大枠
 
 .l-container {
   width: 100%;
-  max-width: 1680px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1199px) {
@@ -2964,7 +2964,7 @@ title - 共通のタイトルやテキストなど
     display: flex;
     padding: 22.5px 10px;
     border-bottom: 1px dotted #707070;
-    font-size: 2rem;
+    font-size: 14px;
   }
   .p-about_groupContent dl:first-child {
     border-top: 1px dotted #707070 !important;
@@ -3082,7 +3082,7 @@ title - 共通のタイトルやテキストなど
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 2rem;
+    font-size: 14px;
     border-bottom: 1px dotted;
     padding: 22.5px 10px;
   }
@@ -4331,7 +4331,7 @@ title - 共通のタイトルやテキストなど
   }
 .p-member02 .item .image {
   width: 100%;
-  height: 80%;
+  height: 70%;
 }
   @media screen and (max-width: 991px) {
     .p-member02 .item .image {
@@ -4793,7 +4793,7 @@ navigation - グローバルナビなど
   border-top: 1px dotted #707070;
   border-bottom: 1px dotted #707070;
   margin: 30px;
-  font-size: 2rem;
+  font-size: 14px;
 }
 .t-recruitContent {
   display: block;
@@ -11688,7 +11688,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .c-serviceList {
-  max-width: 1680px;
+  max-width: 1400px;
   margin: 0 auto;
   margin-top: 1%;
 }
@@ -11697,6 +11697,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   flex-shrink: 0;
   margin: auto;
   line-height: 0;
+  width: 80%;
 
 }
 
@@ -12062,7 +12063,7 @@ flex-shrink: 0;
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  max-width: 1680px;
+  max-width: 1400px;
   height: 65px;
   margin-top: 42px;
   margin-right: auto;
@@ -12116,7 +12117,7 @@ flex-shrink: 0;
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  max-width: 1680px;
+  max-width: 1400px;
   height: 65px;
   margin-top: 42px;
   margin-right: auto;
@@ -13928,4 +13929,14 @@ top: 30px;
 .c-new-content {
   padding-bottom: 129px;
   background: #F3F5F6;
+}
+.menberTtile2{
+  padding-left:10px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2.6rem;
+  margin:30px;
+  color: white;
+  background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
+  width: 100%;
 }
