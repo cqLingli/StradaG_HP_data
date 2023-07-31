@@ -13881,3 +13881,52 @@ top: 30px;
   padding-bottom: 129px;
   background: #E3E8F1;
 }
+
+.t-service {
+  background-color: white !important;
+  width: 100% !important;
+}
+.t-service-title {
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  color: #fff !important;
+  font-size: 2.4rem !important;
+  font-weight: bold !important;
+  line-height: 1.5 !important;
+  padding-left: 10px !important;
+  margin: 15px 0;
+}
+.t-service span {
+  color: #EC7700;
+}
+.t-service dd {
+  border-bottom: 1px dotted;
+  border-top: 1px dotted;
+  font-size: 1.5rem;
+}
+.t-service dt {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.t-service_list {
+  border: 1px solid;
+  padding: 10px 30px;
+  margin: 15px 0;
+}
+.t-service-container.part2 {
+  background-color: #fff0e5;
+}
+.t-service .part-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid;
+}
+.t-service p {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.t-service-container {
+  padding: 10px 0;
+}
