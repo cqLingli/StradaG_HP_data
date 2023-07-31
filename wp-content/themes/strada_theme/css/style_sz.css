@@ -4115,9 +4115,9 @@ title - 共通のタイトルやテキストなど
     height: 100%;
   }
   .p-member__list .item .txt {
+    padding: 20px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    margin-top: 3%;
   }
   @media screen and (max-width: 991px) {
     .p-member__list .item .txt {
