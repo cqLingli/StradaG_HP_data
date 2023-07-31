@@ -5602,7 +5602,7 @@ li.column_post .column_post_cat {
 @media screen and (max-width: 991px) {
   .c-voicePost .c-voicePost__items {
     margin-bottom: 20px;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
   }
 }
 @media screen and (max-width: 767px) {
@@ -10378,8 +10378,8 @@ font-weight: bold;
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .contactBox{
-    padding-left:50px;
-    padding-right:50px;
+    /*padding-left:50px;
+    padding-right:50px;*/
   }
 
   .c-form .row .head{
@@ -10389,11 +10389,11 @@ font-weight: bold;
 
 @media screen and (max-width: 767px){
   .contactBox{
-    padding:50px 20px;
+    /*padding:50px 20px;*/
   }
 
   .contactBox__intro{
-    margin-bottom:40px;
+    /*margin-bottom:40px;*/
     font-size:1.5rem;
   }
 
