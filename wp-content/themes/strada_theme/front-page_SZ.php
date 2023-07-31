@@ -373,7 +373,7 @@
         $args = array(
           'post_type' => 'members',
           'company' => 'SZ', // 自定义字段名
-          'posts_per_page' => -1,
+          'posts_per_page' => 2,
           'orderby' => 'date',
           'paged' => $paged,
           'post__not_in' => array($post->ID)

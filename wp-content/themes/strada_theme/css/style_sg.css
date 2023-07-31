@@ -13941,3 +13941,14 @@ top: 30px;
   background:  linear-gradient(to right,#153F6F 30%, #fff 100%);
   width: 100%;
 }
+.p-member__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  margin-right: -3.5%;
+  padding-bottom: 90px;
+}
