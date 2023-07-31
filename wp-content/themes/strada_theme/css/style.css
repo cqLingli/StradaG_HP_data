@@ -10358,13 +10358,13 @@ font-weight: bold;
 }
 
 .p-recruit .c-mainTitle{
-  /* background:url('../images/mv/mv-recruit.jpg') no-repeat; */
+  background:url('../images/mv/mv-recruit.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
 }
 
 .p-about .c-mainTitle{
-  /* background:url('../images/mv/mv-about.jpg') no-repeat; */
+  background:url('../images/mv/mv-about.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
 }

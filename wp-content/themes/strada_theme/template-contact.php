@@ -1,6 +1,14 @@
-<div style="background: #fff;padding:30px">
-  <img src="<?php echo get_template_directory_uri(); ?>/images/top/Contact_top.png" alt="" style="width:100%" />
-</div>
+<main class="l-main p-contact">
+<div class="c-mainTitle">
+      <div class="c-mainTitle_content">
+        <div class="c-tlt01 c-tlt01__black">
+          <h1 class="c-tlt01__line c-tlt01__line--gray">
+          お問い合わせ
+            <span>CONTACT</span>
+          </h1>
+        </div>
+      </div>
+    </div>
   <div class="contactBox">
     <p style="padding:15px">各種お問い合わせは、こちらのフォームよりお送りください。翌営業日を目安にお返事を差し上げます。</p>
     <div class="contactBox__intro">
@@ -9,6 +17,7 @@
             ?>
     </div>
   </div>
+</main>
 <script type="text/javascript">
   jQuery(function ($) {
     $(".error").each(function (i) {
