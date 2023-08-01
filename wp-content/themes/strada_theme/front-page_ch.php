@@ -143,7 +143,7 @@
             class="Strada_style_img1_1" />
         </div>
         <hr style="border:1px dotted #BDB7B7;">
-        <p style="font-size:12px;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+        <p style="font-size:14px;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
           <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
           <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人 </span>
           <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士 </span>

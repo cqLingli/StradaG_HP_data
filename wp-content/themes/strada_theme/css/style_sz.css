@@ -4884,7 +4884,7 @@ navigation - グローバルナビなど
   display: flex;
   padding: 22.5px 10px;
   border-bottom: 1px dotted #707070;
-  font-size: 1.5rem;
+  font-size: 14px;
 }
 
 .t-recruitContent dl:first-child {
