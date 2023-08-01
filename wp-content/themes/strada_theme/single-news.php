@@ -22,9 +22,12 @@ elseif(strpos($HTTP_REFERER,'bs')){
     get_header("sb");
     $get_post_type_archive_link = str_replace("news", "bsnewslist", $get_post_type_archive_link);
 }
-else{
+elseif(strpos($HTTP_REFERER,'sz')){
     get_header("sz");
     $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
+}
+else{
+    get_header();
 
 }
 
@@ -91,8 +94,11 @@ elseif(strpos($HTTP_REFERER,'admin')){
 elseif(strpos($HTTP_REFERER,'bs')){
     get_footer("sb");
 }
-else{
+elseif(strpos($HTTP_REFERER,'sz')){
     get_footer("sz");
+}
+else{
+    get_footer();
 
 }
  ?>

@@ -5,7 +5,7 @@ $url_type = $_SESSION['url_type'];
 if($url_type){
     get_header($url_type);
 }else{
-    get_header('sz');
+    get_header();
 }
 
 ?>
@@ -98,6 +98,6 @@ $url_type = $_SESSION['url_type'];
 if($url_type){
     get_footer($url_type);
 }else{
-    get_footer('sz');
+    get_footer();
 }
  ?>

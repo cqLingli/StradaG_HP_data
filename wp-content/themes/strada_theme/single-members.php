@@ -5,7 +5,7 @@ $url_type = $_SESSION['url_type'];
 if($url_type){
     get_header($url_type);
 }else{
-    get_header('sz');
+    get_header();
 }
 if($url_type==="sz"){
     $company="SZ";
@@ -86,14 +86,26 @@ if($url_type==="sz"){
     <div class="p-member__list">
       <?php
         $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-        $args = array(
-          'post_type' => 'members',
-          'company' => $company, // 自定义字段名
-          'posts_per_page' => -1,
-          'orderby' => 'date',
-          'paged' => $paged,
-          'post__not_in' => array($post->ID)
-        );
+        if($company){
+            $args = array(
+                'post_type' => 'members',
+                'company' => $company, // 自定义字段名
+                'posts_per_page' => -1,
+                'orderby' => 'date',
+                'paged' => $paged,
+                'post__not_in' => array($post->ID)
+            );
+        }else{
+            $args = array(
+                'post_type' => 'members',
+                'posts_per_page' => -1,
+                'orderby' => 'date',
+                'paged' => $paged,
+                'post__not_in' => array($post->ID)
+            );
+
+        }
+
 
         $the_query = new WP_Query($args); ?>
         <?php
@@ -163,6 +175,6 @@ $url_type = $_SESSION['url_type'];
 if($url_type){
     get_footer($url_type);
 }else{
-    get_footer('sz');
+    get_footer();
 }
 ?>

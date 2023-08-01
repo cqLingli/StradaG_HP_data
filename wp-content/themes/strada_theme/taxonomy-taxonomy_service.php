@@ -27,10 +27,14 @@ elseif(strpos($HTTP_REFERER,'bs')){
     $_SESSION['url_type'] = "sb";
     $company='SB';
 }
-else{
+elseif(strpos($HTTP_REFERER,'sz')){
     get_header("sz");
     $_SESSION['url_type'] = "sz";
     $company='SZ';
+}
+else{
+    get_header();
+
 }
 
 ?>
@@ -137,6 +141,6 @@ $url_type = $_SESSION['url_type'];
 if($url_type){
     get_footer($url_type);
 }else{
-    get_footer('sz');
+    get_footer();
 }
 ?>
