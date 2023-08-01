@@ -103,33 +103,33 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="#Service"><div class="vertical-line">事業内容</div></a></li>
+          <li><a href="<?php echo home_url('tax/#Service'); ?>"><div class="vertical-line">事業内容</div></a></li>
           <li>
-            <a href="#Voice"><div class="vertical-line">お客様の声</div></a>
+            <a href="<?php echo home_url('tax/#Voice'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
-            <a href="#QA"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('tax/#QA'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="taxnewslist"><div class="vertical-line">ニュース</div></a>
+            <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
-            <a href="#Column"><div class="vertical-line">お役立ち情報</div></a>
+            <a href="<?php echo home_url('tax/#Column'); ?>"><div class="vertical-line">お役立ち情報</div></a>
           </li>
           <li>
-            <a href="#About"><div class="vertical-line">会社概要</div></a>
+            <a href="<?php echo home_url('tax/#About'); ?>"><div class="vertical-line">会社概要</div></a>
           </li>
           <li>
-            <a href="#menber"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('tax/#menber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="taxaccess"><div class="vertical-line">アクセス</div></a>
+            <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="#Recruit"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('tax/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>   
           <li>
-            <a href="tax"><div class="vertical-line">確定申告サポート</div></a>
+            <a href="<?php echo home_url('tax/tax'); ?>"><div class="vertical-line">確定申告サポート</div></a>
           </li>          
         </ul>
       </div>
