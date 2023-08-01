@@ -172,7 +172,7 @@ get_header("sg");
   <!-- end Strada Group -->
 
   <!-- start Service -->
-  <div class="block_wrap3">
+  <div id="Service" class="block_wrap3">
     <div class="border-text3"></div>
     <div id="block_wrap3" class="title_item_wrap3 active3">
       <p class="chapter_title3">Service
@@ -208,7 +208,7 @@ get_header("sg");
   <!-- end Case Study -->
 
   <!-- start About -->
-  <div class="block_wrap6">
+  <div id="About" class="block_wrap6">
     <div class="border-text6"></div>
     <div id="block_wrap6" class="title_item_wrap6 active6">
       <p class="chapter_title6">About
@@ -225,7 +225,7 @@ get_header("sg");
   <!-- end About -->
 
   <!-- start Price -->
-  <div class="block_wrap7">
+  <div id="Price" class="block_wrap7">
     <div class="border-text7"></div>
     <div id="block_wrap7" class="title_item_wrap7 active7">
       <p class="chapter_title7">Price
@@ -259,7 +259,7 @@ get_header("sg");
   <!-- end Contact -->
 
   <!-- start Recruit -->
-  <div class="block_wrap9">
+  <div id="Recruit" class="block_wrap9">
     <div class="border-text9"></div>
     <div id="block_wrap9" class="title_item_wrap9 active9">
       <p class="chapter_title9">Recruit

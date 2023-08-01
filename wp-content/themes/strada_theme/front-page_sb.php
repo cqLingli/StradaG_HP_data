@@ -170,7 +170,7 @@ get_header("sb");
   <!-- end Strada Group -->
 
   <!-- start Service -->
-  <div class="block_wrap3">
+  <div id="Service" class="block_wrap3">
     <div class="border-text3"></div>
     <div id="block_wrap3" class="title_item_wrap3 active3">
       <p class="chapter_title3">Service
@@ -187,7 +187,7 @@ get_header("sb");
   <!-- end Service -->
 
   <!-- start Case Study -->
-  <div class="block_wrap4">
+  <div id="CaseStudy" class="block_wrap4">
     <div class="border-text4"></div>
     <div id="block_wrap4" class="title_item_wrap4 active4">
       <p class="chapter_title4">Case Study
@@ -204,7 +204,7 @@ get_header("sb");
   <!-- end Case Study -->
 
   <!-- start About -->
-  <div class="block_wrap7">
+  <div id="About" class="block_wrap7">
     <div class="border-text7"></div>
     <div id="block_wrap7" class="title_item_wrap7 active7">
       <p class="chapter_title7">About
@@ -215,72 +215,72 @@ get_header("sb");
     <div class="l-container">
     <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
       <?php get_template_part('template', 'about_sb'); ?>
-        <div id="menber" class="menberTtile">
-            <span>メンバー紹介</span>
-        </div>
-        <div class="p-member__list">
-            <?php
-            $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-            $args = array(
-                'post_type' => 'members',
+      <div id="menber" class="menberTtile">
+          <span>メンバー紹介</span>
+      </div>
+    <div class="p-member__list">
+      <?php
+        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+        $args = array(
+          'post_type' => 'members',
                 'company' => 'SB', // 自定义字段名
-                'posts_per_page' => -1,
-                'orderby' => 'date',
-                'paged' => $paged,
-                'post__not_in' => array($post->ID)
-            );
+          'posts_per_page' => -1,
+          'orderby' => 'date',
+          'paged' => $paged,
+          'post__not_in' => array($post->ID)
+        );
 
-            $the_query = new WP_Query($args); ?>
-            <?php
-            if($the_query->have_posts()) :
-                while($the_query->have_posts()) : $the_query->the_post();?>
-                    <div class="item">
-                        <div class="image">
-                            <?php
-                            if ( has_post_thumbnail() ) {
-                                the_post_thumbnail('full');
-                            } else {
-                                ?>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
-                            <?php } ?>
-                        </div>
-                        <div class="txt">
-                            <p class="name"><?php echo get_the_title(); ?></p>
-                            <div class="c-job">
-                                <?php
-                                $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
-                                    'hide_empty' => false,
-                                    'parent' => 0,
-                                    'order' => 'ASC',
-                                    'orderby' => 'term_id'
-                                ) );
-                                $index=0;
-                                foreach ( $terms as $term) {
-                                    $tax_link = get_term_link($term->slug, 'taxonomy_position');
-                                    $tax_name = $term->name;
-                                    $tax_slug = $term->slug;
-                                    if($index===0){
-                                        echo '<p class="job">'.$tax_name.'</p>';
-                                    }else{
-                                        echo '<p class="job">/'.$tax_name.'</p>';
-                                    }
-                                    $index++;
-                                }
-                                ?>
-
-                            </div>
-                            <div class="read-more">
-                                <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
-                            </div>
-
-                        </div>
-                        <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-                    </div>
-
-                <?php endwhile;
-                wp_reset_postdata();
-            else:
+        $the_query = new WP_Query($args); ?>
+        <?php
+        if($the_query->have_posts()) :
+          while($the_query->have_posts()) : $the_query->the_post();?>
+            <div class="item">
+              <div class="image">
+                <?php
+                  if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('full');
+                  } else {
                 ?>
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
+                <?php } ?>
+              </div>
+              <div class="txt">
+                  <p class="name"><?php echo get_the_title(); ?></p>
+                <div class="c-job">
+                  <?php
+                      $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
+                          'hide_empty' => false,
+                          'parent' => 0,
+                          'order' => 'ASC',
+                          'orderby' => 'term_id'
+                      ) );
+                      $index=0;
+                      foreach ( $terms as $term) {
+                        $tax_link = get_term_link($term->slug, 'taxonomy_position');
+                        $tax_name = $term->name;
+                        $tax_slug = $term->slug;
+                        if($index===0){
+                            echo '<p class="job">'.$tax_name.'</p>';
+                        }else{
+                            echo '<p class="job">/'.$tax_name.'</p>';
+                        }
+                          $index++;
+                      }
+                    ?>
+
+                </div>
+                  <div class="read-more">
+                                <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
+                  </div>
+
+              </div>
+              <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
+            </div>
+
+          <?php endwhile;
+          wp_reset_postdata();
+        else:
+          ?>
                 <div class="title">
                     <li>
                         <p>
@@ -289,7 +289,7 @@ get_header("sb");
                     </li>
                 </div>
             <?php endif;?>
-        </div></div>
+    </div></div>
 </div>
     </div>
     </div>
@@ -314,7 +314,7 @@ get_header("sb");
   <!-- end Contact -->
 
   <!-- start Recruit -->
-  <div class="block_wrap9">
+  <div id="Recruit" class="block_wrap9">
     <div class="border-text9"></div>
     <div id="block_wrap9" class="title_item_wrap9 active9">
       <p class="chapter_title9">Recruit
