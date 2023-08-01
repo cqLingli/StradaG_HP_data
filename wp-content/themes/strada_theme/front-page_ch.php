@@ -1,4 +1,7 @@
-<?php get_header("ch");
+<?php
+session_start();
+$_SESSION['url_type']="ch";
+get_header("ch");
 /* Template Name: Front Page CH */
 ?>
 <!-- .l-main | メインコンテンツ -->
@@ -298,7 +301,7 @@
 
                 </div>
                   <div class="read-more">
-                  <img src="<?php echo home_url('/wp-content/uploads/2023/07/20230727100511_icon.png'); ?>"">
+                  <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
                   </div>
 
               </div>

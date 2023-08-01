@@ -4076,8 +4076,7 @@ title - 共通のタイトルやテキストなど
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    margin-right: -3.5%;
-    padding-bottom: 90px;
+    margin-top:30px
   }
   @media screen and (max-width: 575px) {
     .p-member__list {
@@ -4094,9 +4093,12 @@ title - 共通のタイトルやテキストなど
   }
   .p-member__list .item {
     position: relative;
-    width: calc(100% / 4);
+    width: calc(100% / 4.1);
     margin-bottom: 40px;
-    padding: 0 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
   }
   @media screen and (max-width: 767px) {
     .p-member__list .item {

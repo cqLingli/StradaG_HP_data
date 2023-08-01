@@ -4047,9 +4047,7 @@ div#法人概要 {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-right: -3.5%;
-  padding-bottom: 90px;
+  margin-top:30px
 
 }
 @media screen and (max-width: 575px) {

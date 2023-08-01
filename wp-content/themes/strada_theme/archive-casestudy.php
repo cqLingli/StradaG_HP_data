@@ -141,7 +141,7 @@ get_header("sb");
                                             <?php echo strip_tags(get_the_excerpt()); ?>
                                         </div>
                                         <div class="column-read-more">
-                                            <img src="<?php echo home_url('/wp-content/uploads/2023/07/20230727100511_icon.png'); ?>"">
+                                            <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
                                         </div>
                                     </div>
                                     <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>

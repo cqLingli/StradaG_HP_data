@@ -1,4 +1,7 @@
-<?php get_header("sg");
+<?php
+session_start();
+$_SESSION['url_type']="sg";
+get_header("sg");
 /* Template Name: Front Page SG */
 ?>
 <!-- .l-main | メインコンテンツ -->

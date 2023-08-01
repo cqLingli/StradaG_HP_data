@@ -2604,6 +2604,7 @@ sidebar - サイドバー
   .l-sidebar {
     width: 100%;
     max-width: 100%;
+    margin: 0;
   }
 }
 /* =========================================================
@@ -3334,12 +3335,20 @@ title - 共通のタイトルやテキストなど
   }
   @media screen and (max-width: 991px) {
     .p-column__list .item .txt .date-cat {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-bottom: 5px;
+      display: block;
     }
   }
   @media screen and (max-width: 767px) {
     .p-column__list .item .txt .date-cat {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-bottom: 5px;
+      display: block;
     }
   }
   .p-column__list .item .txt .date {
@@ -3364,7 +3373,12 @@ title - 共通のタイトルやテキストなど
   }
   @media screen and (max-width: 767px) {
     .p-column__list .item .txt .cat {
-      font-size: 0.9rem;
+      padding: 2px 5px;
+      background-color: #153F6F;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border: 1px solid;
     }
   }
   .p-column__list .item .txt .title {
@@ -3499,6 +3513,16 @@ title - 共通のタイトルやテキストなど
   .p-column__main .item .image {
     width: 35%;
   }
+@media screen and (max-width: 991px) {
+  .p-column__main .item .image {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-column__main .item .image {
+    width: 35%;
+  }
+}
   .p-column__main .item .txt {
     width: 60%;
     padding: 0;
@@ -4100,7 +4124,7 @@ title - 共通のタイトルやテキストなど
   }
   @media screen and (max-width: 575px) {
     .p-member__list .item {
-      width: calc(100% / 2);
+      width: 48%;
       padding: 0 5px;
     }
   }
@@ -10982,7 +11006,7 @@ img{
 }
 @media screen and (max-width: 767px){
 	.c-mainTitle_content{
-		margin-top:0;
+      margin-top: -30%;
 	}
 	
 	.p-column__post .box h2{
@@ -11858,7 +11882,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 
 @media screen and (max-width: 768px){
   .serviceItem{
-      display:block;
+    width: 100%;
   }
   .serviceItem .thumb{
       width:100%;
@@ -13907,6 +13931,18 @@ top: 30px;
   float: right;
   width: 30%;
   font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+
+  .contents_number{
+    display: inline-block;
+    background: #004179;
+    color: white;
+    padding: 1px 5px;
+    float: right;
+    width: 45%;
+    font-size: 14px;
+  }
 }
 
 .p-contact{
