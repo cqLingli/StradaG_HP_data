@@ -3,7 +3,7 @@ $get_post_type_archive_link = get_post_type_archive_link('news');
 $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
 if(strpos($HTTP_REFERER,'taxria')){
     get_header("tr");
-    $get_post_type_archive_link = str_replace("news", "taxrianewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "taxria/taxrianewslist", $get_post_type_archive_link);
 
 }
 elseif(strpos($HTTP_REFERER,'sr')){
@@ -24,7 +24,7 @@ elseif(strpos($HTTP_REFERER,'bs')){
 }
 else{
     get_header("sz");
-    $get_post_type_archive_link = str_replace("news", "taxnewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
 
 }
 
