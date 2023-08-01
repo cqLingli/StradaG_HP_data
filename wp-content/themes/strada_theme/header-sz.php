@@ -111,7 +111,7 @@
             <a href="#QA"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="news"><div class="vertical-line">ニュース</div></a>
+            <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
             <a href="#Column"><div class="vertical-line">お役立ち情報</div></a>

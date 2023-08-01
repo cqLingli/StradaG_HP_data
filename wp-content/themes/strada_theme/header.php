@@ -146,7 +146,7 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="news">
+          <li><a href="<?php echo home_url('news'); ?>">
               <div class="vertical-line">ニュース</div>
             </a></li>
           <li>
