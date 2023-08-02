@@ -322,10 +322,8 @@
     </div>
     </div>
     <div class="border-bt4"></div>
-    <div class="l-container">
     <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
     <?php get_template_part('template', 'voice_sz'); ?>
-    </div>
     </div>
   </div>
   <!-- end Voice -->
