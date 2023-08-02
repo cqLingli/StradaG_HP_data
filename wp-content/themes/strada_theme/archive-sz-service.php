@@ -67,7 +67,6 @@ get_header("sz");
               <div class="service_title_icon">
               <a  href="<?php echo get_term_link($term) ?>">
               <span><?php echo $tax_name; ?></span>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png">
               </a>
               </div>
             <div class="content">
