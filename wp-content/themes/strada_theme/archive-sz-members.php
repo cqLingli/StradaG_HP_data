@@ -24,15 +24,12 @@ get_header('sz');
             </div>
         </div>
         <!-- end c-mainTitle -->
+        <div class="c-new-content">
         <div class="l-container">
-            <ul class="p-member01__link" id="myBtnContainer">
-                <!--                    <li><a href="--><?php ////echo get_post_type_archive_link('members'); ?><!--">ALL</a></li>-->
+            <div class="p-member__list">
                 <div class="menberTtile2">
                     <span>メンバー紹介</span>
                 </div>
-
-            </ul>
-            <div class="p-member__list">
                 <?php
                 $index_menber=0;
                 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
@@ -48,7 +45,13 @@ get_header('sz');
                 <?php
                 if($the_query->have_posts()) :
                     while($the_query->have_posts()) : $the_query->the_post();  $index_menber++;?>
-                        <div class="item">
+                        <div class="<?php
+                        if($index_menber % 4==1){
+                            echo "newItem";
+                        }else{
+                            echo "newItem2";
+                        }
+                        ?>">
                             <div class="image">
                                 <?php
                                 if ( has_post_thumbnail() ) {
@@ -103,6 +106,7 @@ get_header('sz');
                 endif;
                 ?>
             </div>
+        </div>
         </div>
     </main>
 <?php get_footer("sz"); ?>
