@@ -3,6 +3,7 @@
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-service">
     <!-- end c-breakcrumds -->
+    <div class="l-container">
     <div class="c-mainTitle">
         <div class="c-mainTitle_content">
             <div class="c-tlt01 c-tlt01__black">
@@ -19,10 +20,10 @@
         <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
         <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
         <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
-        <hr class="service-line-bottom-top" />
-        <div style="height: 10px;"></div>
+        <hr class="service-line-bottom-top2" />
+        <div style="height: 20px;"></div>
     </div>
-
+    </div>
     <!-- end c-mainTitle -->
     <div class="c-new-content">
         <div class="l-content">

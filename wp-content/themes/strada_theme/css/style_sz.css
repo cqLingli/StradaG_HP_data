@@ -4113,6 +4113,20 @@ title - 共通のタイトルやテキストなど
     margin-top:30px
 
   }
+@media screen and (max-width: 760px) {
+  .p-member__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    margin-top: -25%;
+    padding: 3%;
+  }
+}
+
   @media screen and (max-width: 575px) {
     .p-member__list {
       padding-bottom: 40px;
@@ -14033,6 +14047,13 @@ top: 30px;
 }
 .service-line-bottom-top {
   height: 1px;
+  margin-top: 2%;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.service-line-bottom-top2 {
+  height: 1px;
   margin-top: 10px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
@@ -14075,7 +14096,7 @@ top: 30px;
   width: calc(100% / 3.1);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.39%;
+  margin-left: 1.37%;
 }
 @media screen and (max-width: 760px) {
   .serviceItem_top2 {
