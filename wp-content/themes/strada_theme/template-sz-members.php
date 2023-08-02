@@ -1,25 +1,10 @@
 
     <!-- .l-main | メインコンテンツ -->
     <main class="l-main p-member02">
-
-        <!-- end c-breakcrumds -->
-        <div class="c-mainTitle">
-            <div class="c-mainTitle_content">
-                <div class="c-tlt01 c-tlt01__black">
-                    <h1 class="c-tlt01__line c-tlt01__line--gray">
-                        メンバー紹介
-                        <span>MEMBER</span>
-                    </h1>
-                </div>
-            </div>
-        </div>
         <!-- end c-mainTitle -->
         <div class="c-new-content">
             <div class="l-container">
                 <div class="p-member__list">
-                    <div class="menberTtile2">
-                        <span>メンバー紹介</span>
-                    </div>
                     <?php
                     $index_menber=0;
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
