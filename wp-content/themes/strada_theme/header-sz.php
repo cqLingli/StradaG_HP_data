@@ -103,7 +103,7 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('tax/#Service'); ?>"><div class="vertical-line">事業内容</div></a></li>
+          <li><a href="<?php echo home_url('tax/#Service'); ?>"><div class="vertical-line_head">事業内容</div></a></li>
           <li>
             <a href="<?php echo home_url('tax/#Voice'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
