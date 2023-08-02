@@ -11880,7 +11880,12 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-top: -10%;
   padding: 5.5%;
 }
-
+.c-serviceList1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 5.5%;
+  margin-top: -2.5%;
+}
 .serviceItem .thumb {
   flex-shrink: 0;
   margin: auto;
@@ -12388,9 +12393,9 @@ top: 30px;
   width: 22px;
 }
 .term-description{
-  width: 92%;
-  font-size: 1.5rem;
-  margin-left: 2%;
+  margin-top: -5.5%;
+  margin-left: 7.8%;
+  margin-right: 8.8%;
 }
 .term-excerpt{
   width: 92%;

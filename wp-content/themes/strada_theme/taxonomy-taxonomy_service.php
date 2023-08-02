@@ -82,7 +82,7 @@ $mv = get_field('service_cat_mv', $qo);
                     <?php echo term_description(); ?>
                     <hr class="c-line-bottom" />
                 </div>
-                <div class="c-serviceList">
+                <div class="c-serviceList1">
                     <?php
                     global $wp_query;
                     $args = array(
