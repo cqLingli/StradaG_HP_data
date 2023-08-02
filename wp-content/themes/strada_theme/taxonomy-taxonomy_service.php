@@ -27,7 +27,7 @@ elseif(strpos($HTTP_REFERER,'bs')){
     $_SESSION['url_type'] = "sb";
     $company='SB';
 }
-elseif(strpos($HTTP_REFERER,'sz')){
+elseif(strpos($HTTP_REFERER,'tax')){
     get_header("sz");
     $_SESSION['url_type'] = "sz";
     $company='SZ';
