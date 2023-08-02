@@ -32,8 +32,8 @@
   <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
-  <div class="l-container">
     <div class="border-text"></div>
+    <div class="l-container">
     <div id="block_wrap" class="title_item_wrap active">
       <p class="chapter_title">What's New
       <div class="circle"></div>
@@ -107,10 +107,12 @@
   <!-- start Message -->
   <div class="block_wrap1">
     <div class="border-text1"></div>
+    <div class="l-container">
     <div id="block_wrap1" class="title_item_wrap1 active1">
       <p class="chapter_title1">Message
       <div class="circle1"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt1"></div>
     <div class="l-container">
@@ -252,10 +254,12 @@
   <!-- start Strada Group -->
   <div id="StradaGroup" class="block_wrap2">
     <div class="border-text2"></div>
+    <div class="l-container">
     <div id="block_wrap2" class="title_item_wrap2 active2">
       <p class="chapter_title2">Strada Group
       <div class="circle2"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt2"></div>
     <div class="l-container">
@@ -289,10 +293,12 @@
   <!-- start Service -->
   <div id="Service" class="block_wrap3">
     <div class="border-text3"></div>
+    <div class="l-container">
     <div id="block_wrap3" class="title_item_wrap3 active3">
       <p class="chapter_title3">Service
       <div class="circle3"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt3"></div>
     <div class="l-container">
@@ -306,10 +312,12 @@
   <!-- start Voice -->
   <div id="Voice" class="block_wrap4">
     <div class="border-text4"></div>
+    <div class="l-container">
     <div id="block_wrap4" class="title_item_wrap4 active4">
       <p class="chapter_title4">Voice
       <div class="circle4"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt4"></div>
     <div class="l-container">
@@ -323,10 +331,12 @@
   <!-- start Q&A -->
   <div id="QA" class="block_wrap5">
     <div class="border-text5"></div>
+    <div class="l-container">
     <div id="block_wrap5" class="title_item_wrap5 active5">
       <p class="chapter_title5">Q&A
       <div class="circle5"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt5"></div>
     <div class="l-container">
@@ -340,10 +350,12 @@
   <!-- start Column -->
   <div id="Column" class="block_wrap6">
     <div class="border-text6"></div>
+    <div class="l-container">
     <div id="block_wrap6" class="title_item_wrap6 active6">
       <p class="chapter_title6">Column
       <div class="circle6"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt6"></div>
     <div class="l-container">
@@ -357,10 +369,12 @@
   <!-- start About -->
   <div id="About" class="block_wrap7">
     <div class="border-text7"></div>
+    <div class="l-container">
     <div id="block_wrap7" class="title_item_wrap7 active7">
       <p class="chapter_title7">About
       <div class="circle7"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt7"></div>
     <div class="l-container">
@@ -450,10 +464,12 @@
   <!-- start Contact -->
   <div class="block_wrap8">
     <div class="border-text8"></div>
+    <div class="l-container">
     <div id="block_wrap8" class="title_item_wrap8 active8">
       <p class="chapter_title8">Contact
       <div class="circle8"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt8"></div>
     <div class="l-container">
@@ -467,10 +483,12 @@
   <!-- start Recruit -->
   <div id="Recruit" class="block_wrap9">
     <div class="border-text9"></div>
+    <div class="l-container">
     <div id="block_wrap9" class="title_item_wrap9 active9">
       <p class="chapter_title9">Recruit
       <div class="circle9"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt9"></div>
     <div class="l-container">
