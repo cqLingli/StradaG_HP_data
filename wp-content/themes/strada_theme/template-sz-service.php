@@ -15,12 +15,13 @@
         </div>
     </div>
 
-    <div style="padding: 5.5%">
+    <div style="margin-left: 5.5%;margin-right: 5.5%;margin-top: 4%;">
         <hr class="service-line-bottom-top" />
         <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
         <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
         <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
         <hr class="service-line-bottom-top2" />
+        <div style="margin-top: 3%;"></div>
     </div>
     </div>
     <!-- end c-mainTitle -->
