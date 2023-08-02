@@ -7,7 +7,7 @@ if($url_type){
 }else{
     get_header();
 }
-if($url_type==="sz"){
+if($url_type==="tax"){
     $company="SZ";
 }elseif ($url_type==="sg"){
     $company="SG";
