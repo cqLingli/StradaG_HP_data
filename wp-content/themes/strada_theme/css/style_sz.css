@@ -10524,6 +10524,8 @@ font-weight: bold;
   background:url('../images/mv/mv-service.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 
 .p-qa .c-mainTitle{
@@ -11875,7 +11877,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .c-serviceList {
   max-width: 1400px;
   margin: 0 auto;
-  margin-top: 1%;
+  margin-top: -10%;
+  padding: 5.5%;
 }
 
 .serviceItem .thumb {
@@ -13448,6 +13451,7 @@ color: white;
   width:100%;
   overflow-x: hidden;
   flex-wrap: wrap;
+  margin-top: 2%;
 }
 .circle3 {
   width: 22px;
@@ -14048,7 +14052,7 @@ top: 30px;
 }
 .service-line-bottom-top {
   height: 1px;
-  margin-top: 2%;
+  margin-top: -2%;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -14097,7 +14101,7 @@ top: 30px;
   width: calc(100% / 3.1);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.37%;
+  margin-left: 1.31%;
 }
 @media screen and (max-width: 760px) {
   .serviceItem_top2 {
@@ -14211,7 +14215,7 @@ top: 30px;
   }
 }
 .service_title_01{
-  padding: 1% 9%;
+  padding: 1% 5.5%;
   background: white
 }
 @media screen and (max-width: 991px) and (min-width: 760px) {
@@ -14219,7 +14223,7 @@ top: 30px;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -15%;
-    padding: 9%;
+    padding: 5.5%;
 
   }
 }
@@ -14228,7 +14232,7 @@ top: 30px;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -30%;;
-    padding: 9%;
+    padding: 5.5%;
 
   }
 }
