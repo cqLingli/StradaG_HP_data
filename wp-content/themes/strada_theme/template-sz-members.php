@@ -33,7 +33,7 @@
                 $args = array(
                     'post_type' => 'members',
                     'company' => "SZ", // 自定义字段名
-                    'posts_per_page' => 4,
+                    'posts_per_page' => -1,
                     'orderby' => 'date',
                     'paged' => $paged
                 );
