@@ -22,7 +22,7 @@ elseif(strpos($HTTP_REFERER,'bs')){
     get_header("sb");
     $get_post_type_archive_link = str_replace("news", "bsnewslist", $get_post_type_archive_link);
 }
-elseif(strpos($HTTP_REFERER,'sz')){
+elseif(strpos($HTTP_REFERER,'tax')){
     get_header("sz");
     $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
 }
