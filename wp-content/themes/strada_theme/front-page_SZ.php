@@ -72,7 +72,7 @@
             $query = new WP_Query($args); // 执行查询
             ?>
             <ul>
-              <?php
+              <?php 
               if($query->have_posts()) :
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
@@ -277,7 +277,7 @@
               class="Strada_style_img1_1" />
           </div>
           <hr style="border:1px dotted #BDB7B7;">
-          <p style="font-size:14px;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+          <p style="font-size:1.5rem;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
             <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
@@ -308,9 +308,9 @@
       </div>
     </div>
     <div class="border-bt3"></div>
-    <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-    <?php get_template_part('template', 'sz-service'); ?>
-    </div>
+      <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
+        <?php get_template_part('template', 'sz-service'); ?>
+      </div>
 
   </div>
   <!-- end Service -->

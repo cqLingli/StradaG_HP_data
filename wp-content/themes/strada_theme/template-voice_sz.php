@@ -82,7 +82,7 @@
       <div style="padding-left:5.5%;padding-right:5.5%">
         <a href="voice" style="text-decoration:none;">
           <div
-            style="background-color:#003E75;color:#fff;width:100%;text-align:center;padding-top:5px;padding-bottom:5px;font-weight:bold">
+            style="background-color:#003E75;color:#fff;width:100%;text-align:center;padding-top:5px;padding-bottom:5px;font-weight:bold;font-size:1.5rem">
             詳しく観る</div>
         </a>
       </div>
