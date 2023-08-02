@@ -32,11 +32,13 @@
   <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
+  <div class="l-container">
     <div class="border-text"></div>
     <div id="block_wrap" class="title_item_wrap active">
       <p class="chapter_title">What's New
       <div class="circle"></div>
       </p>
+    </div>
     </div>
     <div class="border-bt"></div>
     <div class="l-container">
