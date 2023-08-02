@@ -103,12 +103,12 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('bsnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
+          <li><a href="<?php echo home_url('bs/bsnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
           <li>
-            <a href="<?php echo home_url('bsservicelist');  ?>"><div class="vertical-line">業務内容</div></a>
+            <a href="<?php echo home_url('bs/bsservicelist');  ?>"><div class="vertical-line">業務内容</div></a>
           </li>
             <li>
-                <a href="<?php echo home_url('sb/#bscasestudylist');  ?>"><div class="vertical-line">事例</div></a>
+                <a href="<?php echo home_url('bs/bscasestudylist');  ?>"><div class="vertical-line">事例</div></a>
             </li>
           <li>
             <a href="<?php echo home_url('bs'); ?>"><div class="vertical-line">よくあるご質問</div></a>
@@ -117,11 +117,11 @@
             <a href="<?php echo home_url('bs'); ?>"><div class="vertical-line">事務所概要</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('bsmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
+            <a href="<?php echo home_url('bs/bsmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
 
           <li>
-            <a href="<?php echo home_url('bsaccess'); ?>"><div class="vertical-line">アクセス</div></a>
+            <a href="<?php echo home_url('bs/bsaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('bs'); ?>"><div class="vertical-line">リクルート</div></a>

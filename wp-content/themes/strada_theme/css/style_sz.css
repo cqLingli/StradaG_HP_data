@@ -12189,7 +12189,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   width:210px;
   height:30px;
   padding: 0px 40px 0px 8px;
-  margin: 20px 20px 0 7.5%;
+  margin: 0 0 0 7.5%;
   border-bottom: none;
   display: flex;
   align-items: center;
@@ -12197,6 +12197,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   cursor: pointer;
   position: relative;
   top: -5px;
+  border-radius: 3px 0 0 0;
 }
   /*アイコン描画*/
   .title_item_wrap::after {
