@@ -4509,7 +4509,7 @@ title - 共通のタイトルやテキストなど
     }
   }
 .c-new-content {
-    padding-bottom: 129px;
+    /*padding-bottom: 129px;*/
     background: #E3E8F1;
   }
 
@@ -11878,12 +11878,14 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   max-width: 1400px;
   margin: 0 auto;
   margin-top: -10%;
-  padding: 5.5%;
+      margin-left: 5.5%;
+    margin-right: 5.5%;
 }
 .c-serviceList1 {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 5.5%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
   margin-top: -2.5%;
 }
 .serviceItem .thumb {
@@ -14228,7 +14230,8 @@ top: 30px;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -15%;
-    padding: 5.5%;
+        margin-left: 5.5%;
+    margin-right: 5.5%;
 
   }
 }
@@ -14237,7 +14240,8 @@ top: 30px;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -25%;;
-    padding: 5.5%;
+        margin-left: 5.5%;
+    margin-right: 5.5%;
 
   }
 }
