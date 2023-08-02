@@ -2895,7 +2895,7 @@ title - 共通のタイトルやテキストなど
     .c-mainTitle_content {
       max-width: 762px;
       height: 227px;
-      margin-top: -57px;
+      margin-top: -17%;
     }
   }
   @media screen and (max-width: 767px) {
@@ -3557,7 +3557,7 @@ title - 共通のタイトルやテキストなど
   @media screen and (max-width: 767px) {
     .p-column__main .item .txt .title {
       margin-bottom: 8px;
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
   }
   .p-column__post {
@@ -4085,6 +4085,13 @@ title - 共通のタイトルやテキストなど
     padding-bottom: 30px;
     margin-top: 7%;
   }
+@media screen and (max-width: 991px) and (min-width: 760px) {
+  .p-column .l-commonCategories {
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    margin-top: 11.5%;
+  }
+}
   .p-column .l-commonCategories .c-tlt04 {
     margin-bottom: 0;
   }
@@ -11027,7 +11034,7 @@ img{
 }
 @media screen and (max-width: 767px){
 	.c-mainTitle_content{
-      margin-top: -30%;
+      margin-top: -37%;
 	}
 	
 	.p-column__post .box h2{
@@ -13981,6 +13988,18 @@ top: 30px;
     font-size: 14px;
   }
 }
+@media screen and (max-width: 991px) and (min-width: 760px) {
+
+  .contents_number{
+    display: inline-block;
+    background: #004179;
+    color: white;
+    padding: 1px 5px;
+    float: right;
+    width: 40%;
+    font-size: 14px;
+  }
+}
 
 .p-contact{
   background-color: #fff;
@@ -14047,7 +14066,7 @@ top: 30px;
   width: calc(100% / 3.1);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.39%;
+  margin-left: 1.37%;
 }
 @media screen and (max-width: 760px) {
   .serviceItem_top2 {
@@ -14158,6 +14177,28 @@ top: 30px;
     border: 1px solid;
     margin-top: 10px;
     margin-left: 0;
+  }
+}
+.service_title_01{
+  padding: 1% 9%;
+  background: white
+}
+@media screen and (max-width: 991px) and (min-width: 760px) {
+  .c-serviceList {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: -15%;
+    padding: 9%;
+
+  }
+}
+@media screen and (max-width: 760px) {
+  .c-serviceList {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: -30%;;
+    padding: 9%;
+
   }
 }
 

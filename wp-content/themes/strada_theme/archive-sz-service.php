@@ -22,7 +22,7 @@ get_header("sz");
     </div>
   </div>
 
-    <div style="padding: 1% 2%;background: white">
+    <div class="service_title_01">
         <hr class="service-line-bottom2" />
     <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
     <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>

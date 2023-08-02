@@ -48,13 +48,7 @@ get_header('sz');
                 <?php
                 if($the_query->have_posts()) :
                     while($the_query->have_posts()) : $the_query->the_post();  $index_menber++;?>
-                        <div class="<?php
-                        if($index_menber % 4==1){
-                            echo "newItem";
-                        }else{
-                            echo "newItem2";
-                        }
-                        ?>">
+                        <div class="item">
                             <div class="image">
                                 <?php
                                 if ( has_post_thumbnail() ) {
