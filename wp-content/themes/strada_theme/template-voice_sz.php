@@ -1,6 +1,6 @@
 <!-- .l-main | メインコンテンツ -->
-<main class="l-main p-voice">
-    <!-- end c-breakcrumds -->
+<main class="p-voice">
+<div class="l-container">
     <div class="c-mainTitle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
@@ -11,9 +11,10 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- end c-mainTitle -->
-    <div class="l-container">
      <div class="archiveVoice">
+     <div class="l-container">
        <?php 
        $field = get_field('voice_textbox', 3726);
        if($field){
@@ -76,9 +77,9 @@
           </div>
 
        </div>
-       <div style="padding-left:30px;padding-right:30px">
-		 <a href="voice" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:100%;text-align:center;padding-top:5px;padding-bottom:5px">詳しく観る</div></a>
+       <div style="padding-left:5.5%;padding-right:5.5%">
+		 <a href="voice" style="text-decoration:none;"><div style="background-color:#003E75;color:#fff;width:100%;text-align:center;padding-top:5px;padding-bottom:5px;font-weight:bold">詳しく観る</div></a>
                     </div>
      </div>
-    </div>
+     </div>
   </main>
