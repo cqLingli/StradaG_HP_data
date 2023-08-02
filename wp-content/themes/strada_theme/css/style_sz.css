@@ -12236,9 +12236,10 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .block_wrap {
     width: 100%;
     margin: 0 auto;
-    margin-bottom:30px;
-    margin-top:30px;
+    padding-bottom:30px;
+    padding-top:30px;
     border: 0px solid #e3e3e3;
+    background-color:#fff
 }
 
 .title_item_wrap {
@@ -12615,9 +12616,9 @@ ol li {
 .block_wrap1 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap1 {
@@ -13279,9 +13280,9 @@ top: 30px;
 .block_wrap2 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap2 {
@@ -13385,9 +13386,9 @@ top: 30px;
 .block_wrap3 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap3 {
@@ -13472,9 +13473,9 @@ top: 30px;
 .block_wrap4 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap4 {
@@ -13559,9 +13560,9 @@ top: 30px;
 .block_wrap5 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap5 {
@@ -13646,9 +13647,9 @@ top: 30px;
 .block_wrap6 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap6 {
@@ -13733,9 +13734,9 @@ top: 30px;
 .block_wrap7 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap7 {
@@ -13820,9 +13821,9 @@ top: 30px;
 .block_wrap8 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap8 {
@@ -13907,9 +13908,9 @@ top: 30px;
 .block_wrap9 {
   width: 100%;
   margin: 0 auto;
-  margin-bottom:30px;
-  margin-top:30px;
+  padding-bottom:30px;
   border: 0px solid #e3e3e3;
+  background-color:#fff
 }
 
 .title_item_wrap9 {
