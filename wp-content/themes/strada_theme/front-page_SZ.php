@@ -115,8 +115,8 @@
     </div>
     </div>
     <div class="border-bt1"></div>
-    <div class="l-container">
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
+		    <div class="l-container Message_style1_extra">
       <div class="Message_style1">
         <hr style="border:1px dotted #BDB7B7;">
         <p class="Message_style1_p1">ストラーダ税理士法人の経営理念</p>
@@ -137,8 +137,10 @@
       <div class="Message_style2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt=""/>
       </div>
+	</div>
       <!-- start 選ばれる6つの理由 -->
   <div class="sixreasons_bg">
+  <div class="l-container">
     <div class="title_bg">
       <div>
         <span class="title_wd">選ばれる6つの理由</span>
@@ -244,9 +246,9 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
   <!-- end 選ばれる6つの理由 -->
-    </div>
     </div>
   </div>
   <!-- end Message -->
@@ -384,7 +386,7 @@
           <span>メンバー紹介</span>
       </div>
         <?php get_template_part('template', 'sz-members'); ?>
-    </div>
+                </div>
 </div>
     </div>
     </div>
