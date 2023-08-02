@@ -2895,7 +2895,7 @@ title - 共通のタイトルやテキストなど
     .c-mainTitle_content {
       max-width: 762px;
       height: 227px;
-      margin-top: -57px;
+      margin-top: -13%;;
     }
   }
   @media screen and (max-width: 767px) {
