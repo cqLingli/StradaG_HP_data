@@ -1,10 +1,4 @@
-<?php
-/* Template Name: Archive Sz Members */
-session_start();
-$_SESSION['url_type']="sz";
-get_header('sz');
 
-?>
     <!-- .l-main | メインコンテンツ -->
     <main class="l-main p-member02">
         <div class="c-breakcrumds">
@@ -39,7 +33,7 @@ get_header('sz');
                 $args = array(
                     'post_type' => 'members',
                     'company' => "SZ", // 自定义字段名
-                    'posts_per_page' => -1,
+                    'posts_per_page' => 4,
                     'orderby' => 'date',
                     'paged' => $paged
                 );
@@ -98,9 +92,6 @@ get_header('sz');
                         </div>
 
                     <?php endwhile;
-                    if (function_exists("pagination")) {
-                        pagination($the_query->max_num_pages);
-                    }
                     wp_reset_postdata();
                 else:
                     ?>
@@ -111,4 +102,3 @@ get_header('sz');
             </div>
         </div>
     </main>
-<?php get_footer("sz"); ?>
