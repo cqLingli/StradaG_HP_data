@@ -362,11 +362,10 @@
       </div>
     </div>
     <div class="border-bt6"></div>
-    <div class="l-container">
       <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
         <?php get_template_part('template', 'sz-column'); ?>
       </div>
-    </div>
+
   </div>
   <!-- end Column -->
 

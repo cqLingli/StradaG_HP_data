@@ -2616,13 +2616,25 @@ sidebar - サイドバー
 
 .l-sidebar {
   width: 35%;
-  margin-right: 5%;
+  margin-right: 5.5%;
 }
+
 @media screen and (max-width: 767px) {
   .l-sidebar {
     width: 100%;
     max-width: 100%;
     margin: 0;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .l-sidebar {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
   }
 }
 /* =========================================================
@@ -3493,14 +3505,26 @@ title - 共通のタイトルやテキストなど
     width: 60%;
     margin-bottom: 50px;
     padding: 5px 35px 40px;
+    margin-left: -3%;
   }
   @media screen and (max-width: 767px) {
     .p-column__main {
       width: 100%;
       max-width: 100%;
       padding: 0;
+      margin-left: 5.5%;
+      margin-right: 5.5%;
     }
   }
+@media screen  and (min-width: 767px) and (max-width: 991px){
+  .p-column__main {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+}
   .p-column__main .p-column__list {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -11521,6 +11545,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background:url('../images/mv/mv-columns.png') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 
 .google-map iframe{
@@ -11889,7 +11915,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin: 0 auto;
   margin-left: 5.5%;
   margin-right: 5.5%;
-  margin-top: -2.5%;
 }
 .serviceItem .thumb {
   flex-shrink: 0;
@@ -13735,6 +13760,7 @@ color: white;
   width:100%;
   overflow-x: hidden;
   flex-wrap: wrap;
+  margin-top: 2%;
 }
 .circle6 {
   width: 22px;
@@ -14238,7 +14264,7 @@ top: 30px;
   }
 }
 .service_title_01{
-  padding: 1% 5.5%;
+  padding: 1% 8.5%;
   background: white
 }
 @media screen and (max-width: 991px) and (min-width: 760px) {

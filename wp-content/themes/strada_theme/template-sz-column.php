@@ -1,6 +1,7 @@
 
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
+    <div class="l-container">
   <!-- end c-breakcrumds -->
   <div class="c-mainTitle">
     <div class="c-mainTitle_content">
@@ -27,6 +28,7 @@
     </div>
   </div>
   <!-- end c-mainTitle -->
+    </div>
     <div class="c-new-content">
   <div class="l-container">
     <?php  $recommendPosts = array(); ?>
