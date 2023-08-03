@@ -1,4 +1,5 @@
-<div class="p-about"> 
+<div class="p-about">
+    <div class="l-container">
   <div class="c-mainTitle">
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
@@ -9,10 +10,10 @@
       </div>
     </div>
   </div>
+    </div>
 
-    
-                                
-  <div class="p-about_group t-block" id="企業概要" >
+    <div class="c-new-content">
+  <div class="p-about_group t-block" id="企業概要" style="margin-left: 2%;margin-right: 2%;" >
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>企業概要</h2>      
     </div>
@@ -97,8 +98,8 @@
       </div>
     </div>
   </div>
-                                      
-  <div class="p-about_history t-block" id="ストラーダグループの沿革">
+    </div>
+  <div class="p-about_history t-block" id="ストラーダグループの沿革" style="margin-left: 2%;margin-right: 2%;">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>ストラーダグループの沿革</h2>      
     </div>

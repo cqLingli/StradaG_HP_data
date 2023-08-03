@@ -1,10 +1,14 @@
 
     <!-- .l-main | メインコンテンツ -->
     <main class="l-main p-member02">
+
         <!-- end c-mainTitle -->
-        <div class="c-new-content">
+        <div class="c-new-content" style="padding-bottom:2%">
             <div class="l-container">
-                <div class="p-member__list">
+                <div class="p-member__list" style="margin-left: 5.5%;margin-right: 5.5%">
+                    <div class="menberTtile3">
+                        <span>メンバー紹介</span>
+                    </div>
                     <?php
                     $index_menber=0;
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
