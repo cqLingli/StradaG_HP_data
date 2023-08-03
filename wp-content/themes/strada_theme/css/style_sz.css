@@ -14456,3 +14456,18 @@ top: 30px;
     font-size: 1.2rem;
   }
 }
+
+.target-fix{
+  position: relative;
+  top:-158px;
+  display:block;
+  height:0;
+  overflow: hidden;
+}
+.target-fix1{
+  position: relative;
+  top:-100px;
+  display:block;
+  height:0;
+  overflow: hidden;
+}
