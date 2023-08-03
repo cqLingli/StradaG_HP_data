@@ -13,7 +13,9 @@
     </div>
 
     <div class="c-new-content">
-  <div class="p-about_group t-block" id="企業概要" style="margin-left: 2%;margin-right: 2%;" >
+    <div class="l-container">
+      <div style="margin-left:5.5%;margin-right:5.5%">
+  <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>企業概要</h2>      
     </div>
@@ -99,7 +101,11 @@
     </div>
   </div>
     </div>
-  <div class="p-about_history t-block" id="ストラーダグループの沿革" style="margin-left: 2%;margin-right: 2%;">
+    </div>
+    </div>
+    <div class="l-container">
+    <div style="margin-left:5.5%;margin-right:5.5%">
+  <div class="p-about_history" id="ストラーダグループの沿革">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>ストラーダグループの沿革</h2>      
     </div>
@@ -167,6 +173,8 @@
         </dl>
       </div>
     </div>
+  </div>
+  </div>
   </div>
 </div>
     
