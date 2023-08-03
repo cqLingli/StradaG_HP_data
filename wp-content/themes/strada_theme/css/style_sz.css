@@ -14388,6 +14388,9 @@ top: 30px;
   .company_right dl dt{
     flex:0 0 35% !important;
   }
+  .t-recruit{
+    padding: 10px 0 30px 0;
+  }
 }
 @media screen and (max-width: 760px) {
   .c-qa-list{
@@ -14443,5 +14446,8 @@ top: 30px;
   }
   .c-qa-list{
     padding-top:30px
+  }
+  .t-recruit{
+    padding: 10px 0 30px 0;
   }
 }
