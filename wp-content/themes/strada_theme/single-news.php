@@ -49,7 +49,7 @@ else{
             </div>
         </div>
     </div>
-  <div class="c-new-content">
+  <div class="c-new-content" style="padding-bottom: 100px;">
     <div class="l-container">
       <div class="c-wrap-new p-column__post">
         <div class="c-new__date"><?php echo get_the_date('Y.m.d') ?></div>
