@@ -150,9 +150,10 @@
           <div class="reasonline1">
             <div class="reason01_style1">
               <div class="reason01_style1_borderin1">
-                <p><span class="reason01_style1_span1">01</span><span
-                    class="reason01_style1_span2">上場企業含む300社以上の顧問実績</span>
-                </p>
+                <div class="reason06_style1_title">
+                  <div class="reason01_style1_span1">01</div>
+                  <div class="reason01_style1_span2">上場企業含む300社以上の顧問実績</div>
+                </div>
                 <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason01_style1_p1">これまで担当してきた確かな実績で、あらゆるお客様のお悩みにお応え致します。また、上
                   場企業含む300社以上、個人事業主150名以上の顧問実績から培われた金融機関の人脈
@@ -167,8 +168,10 @@
             </div>
             <div class="reason02_style1">
               <div class="reason02_style1_borderin1">
-                <p><span class="reason02_style1_span1">02</span><span
-                    class="reason02_style1_span2">創業融資通過率99.7%の実績</span></p>
+                <div class="reason06_style1_title">
+                  <div class="reason02_style1_span1">02</div>
+                  <div class="reason02_style1_span2">創業融資通過率99.7%の実績</div>
+                </div>
                 <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason02_style1_p1">ストラーダでは創業融資を通過率を上げるためにご依頼者の状況確認から最適な金融機
                   関をご提案させて頂きます。取引銀行の数や業種、業績など企業ごとに相性の良い金融機
@@ -184,8 +187,10 @@
           <div class="reasonline2">
             <div class="reason03_style1">
               <div class="reason03_style1_borderin1">
-                <p><span class="reason03_style1_span1">03</span><span
-                    class="reason03_style1_span2">経済産業省から認定された信頼性</span></p>
+                <div class="reason06_style1_title">
+                  <div class="reason03_style1_span1">03</div>
+                  <div class="reason03_style1_span2">経済産業省から認定された信頼性</div>
+                </div>
                 <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason03_style1_p1">ストラーダ税理士法人は、経営革新認定支援機関として、経済産業省に認定された登録機
                   関です。経営革新認定支援機関が、事業計画を作成することにより、融資の通過率の増加
@@ -201,8 +206,10 @@
             </div>
             <div class="reason04_style1">
               <div class="reason04_style1_borderin1">
-                <p><span class="reason04_style1_span1">04</span><span
-                    class="reason04_style1_span2">チャットワークを使用し素早いレスポンスを実現</span></p>
+                <div class="reason06_style1_title">
+                  <div class="reason04_style1_span1">04</div>
+                  <div class="reason04_style1_span2">チャットワークを使用し素早いレスポンスを実現</div>
+                </div>
                 <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason04_style1_p1">弊社では、基本的には、チャットワークというビジネスチャットでやり取りさせて頂いており
                   ます。お客様ごとの、弊社の従業員を含めた、チャットグループを作成させて頂きます。不
@@ -218,9 +225,10 @@
           <div class="reasonline3">
             <div class="reason05_style1">
               <div class="reason05_style1_borderin1">
-                <p><span class="reason05_style1_span1">05</span><span
-                    class="reason05_style1_span2">効率的なサポート体制と豊富な税制知識</span>
-                </p>
+                <div class="reason05_style1_title">
+                  <div class="reason05_style1_span1">05</div>
+                  <div class="reason05_style1_span2">効率的なサポート体制と豊富な税制知識</div>
+                </div>
                 <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason05_style1_p1">毎年一回税制改正が行われます。 ストラーダでは、最新の税制に基いてお客様が安定経
                   営ができるように、最新の情報を入手・発信致します。 また、効率化の観点から、全てのお

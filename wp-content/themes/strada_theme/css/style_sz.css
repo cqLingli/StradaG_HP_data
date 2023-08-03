@@ -12967,7 +12967,7 @@ top: 30px;
 .reason01_style1_span2{
   position: relative;
   left:20px;
-  top:-12px;
+  top:5px;
   font-weight:bold;
   font-size: 1.6rem;
 }
@@ -13003,7 +13003,7 @@ top: 30px;
 .reason02_style1_span2{
   position: relative;
   left:20px;
-  top:-12px;
+  top:5px;
   font-weight:bold;
   font-size: 1.6rem;
 }
@@ -13045,11 +13045,14 @@ top: 30px;
 
   .reason01_style1_span2{
     font-size: 12px;
+    top:10px
   }
 
   .reason02_style1_span2{
     font-size: 12px;
+    top:10px
   }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -13118,7 +13121,7 @@ top: 30px;
 .reason03_style1_span2{
   position: relative;
   left:20px;
-  top:-12px;
+  top:5px;
   font-weight:bold;
   font-size: 1.6rem;
 }
@@ -13152,10 +13155,11 @@ top: 30px;
 }
 
 .reason04_style1_span2{
-  position: relative;
-  left:20px;
-  top:-12px;
+  padding-top:14px;
+  padding-left: 20px;
+  padding-bottom: 5px;
   font-weight:bold;
+  line-height:16px;
   font-size: 1.6rem;
 }
 
@@ -13205,6 +13209,7 @@ top: 30px;
 
   .reason03_style1_span2{
     font-size: 12px;
+    top:10px
   }
 
 
@@ -13222,6 +13227,10 @@ top: 30px;
     height:auto;
     margin-left:0;
     margin-top:2%;
+  }
+
+  .reason04_style1_span2{
+    padding-top:6px
   }
 }
 
@@ -13260,7 +13269,7 @@ top: 30px;
 .reason05_style1_span2{
   position: relative;
   left:20px;
-  top:-12px;
+  top:5px;
   font-weight:bold;
   font-size: 1.6rem;
 }
@@ -13321,6 +13330,14 @@ top: 30px;
   height:100%;
   vertical-align: bottom;
 }
+.reason05_style1_title{
+  display: flex;
+  padding-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height:100%
+}
+
 .reason06_style1_title{
   display: flex;
   padding-bottom: 10px;
@@ -13360,8 +13377,9 @@ top: 30px;
   }
 
   .reason05_style1_span2{
-      font-size: 12px;
-    }
+    font-size: 12px;
+    top:10px
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -14406,85 +14424,85 @@ top: 30px;
   }
 }
 @media screen and (max-width: 760px) {
-  .c-qa-list {
-    padding-top: 0;
+  .c-qa-list{
+    padding-top:0;
   }
 
-  .p-voice {
-    padding-top: 24%;
+  .p-voice{
+    padding-top:24%;
   }
 
-  .p-qa {
-    padding-top: 17%;
+  .p-qa{
+    padding-top:17%;
   }
 
-  .p-contact {
-    padding-top: 17%;
+  .p-contact{
+    padding-top:17%;
   }
 
-  .p-recruit {
-    padding-top: 17%;
+  .p-recruit{
+    padding-top:17%;
   }
 
-  .p-about {
-    padding-top: 2%;
+  .p-about{
+    padding-top:2%;
   }
 
-  .p-about_groupContent {
-    flex-wrap: wrap;
-
+  .p-about_groupContent{
+    flex-wrap:wrap;
+    
   }
 
-  .company_left {
-    flex: 1 0 100% !important;
-    padding-right: 0px !important;
-
-  }
-
-  .p-about_groupContent dl dt {
-    flex: 0 0 25% !important;
-    margin-right: 10px;
-  }
-
-  .company_right {
-    padding-left: 0 !important;
-    padding-top: 30px !important;
-  }
-
-  .t-recruitContent dl dt {
-    flex: 0 0 28%;
-  }
-
-  .t-recruitHead {
-    font-size: 2.2rem
-  }
-
-  .t-recruitContent dl {
-    font-size: 1.5rem
-  }
-
-  .p-qa__content {
-    padding: 0px 20px;
+  .company_left{
+    flex:1 0 100% !important;
+    padding-right:0px !important;
 
   }
 
-  .c-qa-list {
-    padding-top: 30px
+  .p-about_groupContent dl dt{
+    flex:0 0 25% !important;
+    margin-right:10px;
   }
 
-  .t-recruit {
+  .company_right{
+    padding-left:0 !important;
+    padding-top:30px !important;
+  }
+
+  .t-recruitContent dl dt{
+    flex:0 0 28%;
+  }
+
+  .t-recruitHead{
+    font-size:2.2rem
+  }
+
+  .t-recruitContent dl{
+    font-size:1.5rem
+  }
+
+  .p-qa__content{
+    padding:0px 20px;
+
+  }
+
+  .c-qa-list{
+    padding-top:30px
+  }
+
+  .t-recruit{
     padding: 10px 0 30px 0;
   }
 
-  .accessStyle {
-    margin-top: 170px
+  .accessStyle{
+    margin-top:170px
   }
 
   .p-about_historyContent dl {
     font-size: 1.2rem;
   }
 
-  .term-excerpt {
+  .term-excerpt{
     font-size: 1.5rem;
     padding-left: 5%;
     padding-right: 2%;
@@ -14497,11 +14515,11 @@ top: 30px;
     margin-left: 2% !important;
   }
 
-  .single-service {
+  .single-service{
     margin-top: 1%;
   }
 
-  .service_content_add {
+  .service_content_add{
     margin-top: 1% !important;
   }
 
