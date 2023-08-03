@@ -43,7 +43,7 @@
     <div class="border-bt"></div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
-        <div class="news_style1"><iframe src="https://youtu.be/D5-5j3AoQvw" frameborder="0"
+        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
             style="width:100%;height:90%"></iframe>
           <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
@@ -259,8 +259,7 @@
   <!-- end Message -->
 
   <!-- start Strada Group -->
-  <a id="StradaGroup" class="target-fix"></a>
-  <div class="block_wrap2">
+  <div id="StradaGroup" class="block_wrap2">
     <div class="border-text2"></div>
     <div class="l-container">
       <div id="block_wrap2" class="title_item_wrap2 active2">
@@ -299,8 +298,7 @@
   <!-- end Strada Group -->
 
   <!-- start Service -->
-  <a id="Service" class="target-fix"></a>
-  <div class="block_wrap3">
+  <div id="Service" class="block_wrap3">
     <div class="border-text3"></div>
     <div class="l-container">
       <div id="block_wrap3" class="title_item_wrap3 active3">
@@ -313,12 +311,12 @@
       <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
         <?php get_template_part('template', 'sz-service'); ?>
       </div>
+
   </div>
   <!-- end Service -->
 
   <!-- start Voice -->
-  <a id="Voice" class="target-fix"></a>
-  <div class="block_wrap4">
+  <div id="Voice" class="block_wrap4">
     <div class="border-text4"></div>
     <div class="l-container">
       <div id="block_wrap4" class="title_item_wrap4 active4">
@@ -335,8 +333,7 @@
   <!-- end Voice -->
 
   <!-- start Q&A -->
-  <a id="QA" class="target-fix"></a>
-  <div class="block_wrap5">
+  <div id="QA" class="block_wrap5">
     <div class="border-text5"></div>
     <div class="l-container">
       <div id="block_wrap5" class="title_item_wrap5 active5">
@@ -353,8 +350,7 @@
   <!-- end Q&A -->
 
   <!-- start Column -->
-  <a id="Column" class="target-fix"></a>
-  <div class="block_wrap6">
+  <div id="Column" class="block_wrap6">
     <div class="border-text6"></div>
     <div class="l-container">
       <div id="block_wrap6" class="title_item_wrap6 active6">
@@ -372,8 +368,7 @@
   <!-- end Column -->
 
   <!-- start About -->
-  <a id="About" class="target-fix"></a>
-  <div class="block_wrap7">
+  <div id="About" class="block_wrap7">
     <div class="border-text7"></div>
     <div class="l-container">
       <div id="block_wrap7" class="title_item_wrap7 active7">
@@ -385,7 +380,7 @@
     <div class="border-bt7"></div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_sz'); ?>
-        <a id="menber" class="target-fix1"></a>
+        <div id="menber"></div>
         <?php get_template_part('template', 'sz-members'); ?>
       </div>
   </div>
@@ -411,8 +406,7 @@
   <!-- end Contact -->
 
   <!-- start Recruit -->
-  <a id="Recruit" class="target-fix"></a>
-  <div class="block_wrap9">
+  <div id="Recruit" class="block_wrap9">
     <div class="border-text9"></div>
     <div class="l-container">
       <div id="block_wrap9" class="title_item_wrap9 active9">

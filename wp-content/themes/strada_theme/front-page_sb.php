@@ -44,7 +44,7 @@ get_header("sb");
     <div class="border-bt"></div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
-        <div class="news_style1"><iframe src="https://youtu.be/D5-5j3AoQvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:90%"></iframe>
+        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:90%"></iframe>
           <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
         </div>
         <div class="news_style2">
