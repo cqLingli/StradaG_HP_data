@@ -1,34 +1,40 @@
 <?php
 $get_post_type_archive_link = get_post_type_archive_link('news');
+$breadcrumb = "";
 $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
 if(strpos($HTTP_REFERER,'taxria')){
     get_header("tr");
     $get_post_type_archive_link = str_replace("news", "taxria/taxrianewslist", $get_post_type_archive_link);
-
+    $breadcrumb = "news_tr";
 }
 elseif(strpos($HTTP_REFERER,'sr')){
     get_header("ss");
-    $get_post_type_archive_link = str_replace("news", "srnewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "sr/srnewslist", $get_post_type_archive_link);
+    $breadcrumb = "news_ss";
 }
 elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
     get_header("ch");
-    $get_post_type_archive_link = str_replace("news", "chushoukigyouroudounewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "chushoukigyouroudou/chushoukigyouroudounewslist", $get_post_type_archive_link);
+    $breadcrumb = "news_ch";
 }
 elseif(strpos($HTTP_REFERER,'admin')){
     get_header("sg");
-    $get_post_type_archive_link = str_replace("news", "adminnewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "admin/adminnewslist", $get_post_type_archive_link);
+    $breadcrumb = "news_sg";
 }
 elseif(strpos($HTTP_REFERER,'bs')){
     get_header("sb");
-    $get_post_type_archive_link = str_replace("news", "bsnewslist", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "bs/bsnewslist", $get_post_type_archive_link);
+    $breadcrumb = "news_sb";
 }
 elseif(strpos($HTTP_REFERER,'tax')){
     get_header("sz");
     $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
+    $breadcrumb = "news_sz";
 }
 else{
     get_header();
-
+    $breadcrumb = "news";
 }
 
 ?>
@@ -36,7 +42,7 @@ else{
 
     <div class="c-breakcrumds">
         <div class="l-container">
-            <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+            <?php get_template_part('breadcrumb', $breadcrumb); ?>
         </div>
     </div>
     <div class="c-mainTitle">
@@ -94,7 +100,7 @@ elseif(strpos($HTTP_REFERER,'admin')){
 elseif(strpos($HTTP_REFERER,'bs')){
     get_footer("sb");
 }
-elseif(strpos($HTTP_REFERER,'sz')){
+elseif(strpos($HTTP_REFERER,'tax')){
     get_footer("sz");
 }
 else{
