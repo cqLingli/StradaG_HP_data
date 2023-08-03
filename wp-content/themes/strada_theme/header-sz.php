@@ -129,7 +129,7 @@
             <a href="<?php echo home_url('tax/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>   
           <li>
-            <a href="<?php echo home_url('tax/tax'); ?>"><div class="vertical-line">確定申告サポート</div></a>
+            <a href="#"><div class="vertical-line">確定申告サポート</div></a>
           </li>          
         </ul>
       </div>
