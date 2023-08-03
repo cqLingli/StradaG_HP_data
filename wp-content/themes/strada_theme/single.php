@@ -10,7 +10,7 @@ get_header("sz");
     </div>
   </div>
   <!-- end c-breakcrumds -->
-    <div class="c-mainTitle">
+    <div class="c-mainTitle" style="margin-top: 1%">
         <div class="c-mainTitle_content">
             <div class="c-tlt01 c-tlt01__black">
                 <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -442,7 +442,7 @@ get_header("sz");
           </div>
         </div>
       </div>
-      <div class="l-sidebar">
+      <div class="l-sidebar" style="margin-left: 1%;">
         <?php
         //session_start();
         $url_type = $_SESSION['url_type'];

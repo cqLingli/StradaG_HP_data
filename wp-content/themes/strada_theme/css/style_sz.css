@@ -3600,7 +3600,6 @@ title - 共通のタイトルやテキストなど
   }
   .p-column__post {
     width: 60%;
-    background-color: #fff;
   }
 .p-column__post .box {
   margin-bottom: 75px;
@@ -10563,8 +10562,6 @@ font-weight: bold;
   background:url('../images/mv/mv-service.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .p-service .c-mainTitle, .s-service .c-mainTitle{
@@ -11120,7 +11117,7 @@ img{
 }
 @media screen and (max-width: 767px){
 	.c-mainTitle_content{
-      margin-top: -20%;
+      margin-top: 15%;
 	}
 	
 	.p-column__post .box h2{
@@ -11580,8 +11577,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background:url('../images/mv/mv-columns.png') no-repeat;
   background-size:cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
   margin-top: -10%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -11591,7 +11586,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
     background-position: center center;
     margin-left: 5.5%;
     margin-right: 5.5%;
-    margin-top: -12%;
+    margin-top: 8%;
   }
 }
 
