@@ -65,7 +65,7 @@ $mv = get_field('service_cat_mv', $qo);
         </div>
         <!-- end c-breakcrumds -->
         <div class="c-mainTitle c-mainTitle-<?php echo $qo->slug; ?> c-mainTitle-overlay">
-            <div class="c-mainTitle_content">
+            <div class="c-mainTitle_content content-service">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
 <!--                        --><?php //echo single_term_title(); ?>
@@ -73,15 +73,17 @@ $mv = get_field('service_cat_mv', $qo);
                 </div>
             </div>
         </div>
-
+        <div class="l-container">
+        <div class="term-description">
+            <hr class="c-line-bottom" />
+            <?php echo term_description(); ?>
+            <hr class="c-line-bottom" />
+        </div>
+        </div>
         <!-- end c-mainTitle -->
         <div class="c-new-content">
         <div class="l-container">
             <div class="l-content">
-                <div class="term-description">
-                    <?php echo term_description(); ?>
-                    <hr class="c-line-bottom" />
-                </div>
                 <div class="c-serviceList1">
                     <?php
                     global $wp_query;
