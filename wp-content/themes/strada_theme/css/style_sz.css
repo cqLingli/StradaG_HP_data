@@ -5022,7 +5022,7 @@ navigation - グローバルナビなど
   .t-recruitContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 10%;
+    flex: 0 0 15%;
   }
 }
 .p-recruitBtn {
@@ -14375,8 +14375,23 @@ top: 30px;
   .p-recruit{
     padding-top:57px;
   }
+  .p-about{
+    margin-top:87px
+  }
+  .p-about_groupContent dl dt{
+    flex:0 0 26%
+  }
+  .p-about_groupContent dl{
+    font-size:1.2rem
+  }
+  .company_right dl dt{
+    flex:0 0 35% !important;
+  }
 }
 @media screen and (max-width: 760px) {
+  .c-qa-list{
+    padding-top:0;
+  }
   .p-voice{
     padding-top:34%;
   }
@@ -14388,5 +14403,37 @@ top: 30px;
   }
   .p-recruit{
     padding-top:26%;
+  }
+  .p-about{
+    padding-top:12%;
+  }
+  .p-about_groupContent{
+    flex-wrap:wrap;
+    
+  }
+  .company_left{
+    flex:1 0 100% !important;
+    padding-right:0px !important;
+
+  }
+
+  .p-about_groupContent dl dt{
+    flex:0 0 25% !important;
+    margin-right:10px;
+  }
+
+  .company_right{
+    padding-left:0 !important;
+    padding-top:30px !important;
+  }
+  .t-recruitContent dl dt{
+    flex:0 0 28%;
+  }
+
+  .t-recruitHead{
+    font-size:2.2rem
+  }
+  .t-recruitContent dl{
+    font-size:1.5rem
   }
 }
