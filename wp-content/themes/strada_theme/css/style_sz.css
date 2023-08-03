@@ -11120,7 +11120,7 @@ img{
 }
 @media screen and (max-width: 767px){
 	.c-mainTitle_content{
-      margin-top: -30%;
+      margin-top: -20%;
 	}
 	
 	.p-column__post .box h2{
@@ -11582,6 +11582,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background-position: center center;
   margin-left: 5.5%;
   margin-right: 5.5%;
+  margin-top: -10%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .p-column .c-mainTitle{

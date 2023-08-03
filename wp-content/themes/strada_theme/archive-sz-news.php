@@ -20,7 +20,7 @@ get_header('sz');
       </div>
     </div>
   </div>
-  <div class="c-new-content">
+  <div class="c-new-content" style="padding-bottom: 120px;">
     <div class="l-container">
       <div class="c-list-news">
           <?php
