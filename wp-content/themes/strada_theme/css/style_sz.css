@@ -2911,11 +2911,11 @@ title - 共通のタイトルやテキストなど
     font-weight: bold;
   }
   .c-tlt02 h2 {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
   @media screen and (max-width: 991px) {
     .c-tlt02 h2 {
-      font-size: 2.6rem;
+      font-size: 1.8rem;
     }
   }
   @media screen and (max-width: 767px) {
@@ -2923,7 +2923,7 @@ title - 共通のタイトルやテキストなど
       margin-bottom: 60px;
     }
     .c-tlt02 h2 {
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
   }
   .c-tlt02 span {
@@ -2987,26 +2987,28 @@ title - 共通のタイトルやテキストなど
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 22.5px 10px;
+    padding: 15px 0px;
     border-bottom: 1px dotted #707070;
-    font-size: 14px;
+    font-size: 1.5rem;
   }
   .p-about_groupContent dl:first-child {
     border-top: 1px dotted #707070 !important;
   }
-  .p-about_groupContent  dl dt {
+  .p-about_groupContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 20%;
+    flex: 0 0 17%;
     text-align: right;
-    padding-right: 10px;
+    margin-right: 15px;
   }
   .company_right  dl dt{
     text-align: left !important;
     border: none !important;
+    flex:0 0 23%;
+    padding-left:5px
   }
   .t-company_list {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
   }
   .p-about_intro img {
     max-width: 100%;
@@ -3107,9 +3109,9 @@ title - 共通のタイトルやテキストなど
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 14px;
+    font-size: 1.5rem;
     border-bottom: 1px dotted;
-    padding: 22.5px 10px;
+    padding: 15px 10px;
   }
   .p-about_historyContent dl dt {
     position: relative;
@@ -3223,13 +3225,13 @@ title - 共通のタイトルやテキストなど
     color: #fff;
   }
   .p-column .c-tlt04 {
-    padding: 2px 5px;
+    padding-left:10px;
     margin-bottom: 15px;
     background: linear-gradient(to right,#153F6F 30%, #fff 100%);
     color: #fff;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 30px;
   }
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
@@ -4793,7 +4795,7 @@ list - リストのオブジェクト
   content: '';
 }
 .c-qa-list__title p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
   font-weight: 700;
 }
@@ -4906,7 +4908,7 @@ navigation - グローバルナビなど
   border-top: 1px dotted #707070;
   border-bottom: 1px dotted #707070;
   margin: 30px;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
 .t-recruitContent {
   display: block;
@@ -4945,9 +4947,9 @@ navigation - グローバルナビなど
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 22.5px 10px;
+  padding: 5px;
   border-bottom: 1px dotted #707070;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
 
 .t-recruitContent dl:first-child {
@@ -4957,7 +4959,7 @@ navigation - グローバルナビなど
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 30%;
+  flex: 0 0 20%;
   font-weight: bold;
 }
 
@@ -4980,7 +4982,7 @@ navigation - グローバルナビなど
   .t-recruitContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 20%;
+    flex: 0 0 10%;
   }
 }
 .p-recruitBtn {
@@ -11757,6 +11759,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-top:5px;
   color:#333;
   text-align: center;
+  font-size:1.5rem
 }
 
 .s-service {
@@ -12756,11 +12759,11 @@ top: 30px;
   padding-bottom:5px
 }
 .Message_style1_p4{
-  font-size:14px;
+  font-size:1.5rem;
   text-align:right
 }
 .Message_style1_p5{
-  font-size:18px;
+  font-size:2.5rem;
   line-height:22px;
   padding-bottom:18px;
   text-align:right
@@ -12843,7 +12846,7 @@ top: 30px;
   margin-top:30px
 }
 .title_wd{
-  font-size: 2rem; 
+  font-size: 2.2rem; 
   color: white; 
   font-weight: bold;
   padding-left:10px
@@ -14154,6 +14157,7 @@ top: 30px;
   -webkit-line-clamp: 2;
   line-height: 1.2em;
   max-height: 2.4em;
+  font-size:1.5rem
 }
 @media screen and (max-width: 760px) {
 
