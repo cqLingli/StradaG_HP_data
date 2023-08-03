@@ -27,7 +27,7 @@ get_header('sz');
         <div class="c-new-content">
         <div class="l-container">
             <div class="p-member__list">
-                <div class="menberTtile2">
+                <div class="menberTtile3">
                     <span>メンバー紹介</span>
                 </div>
                 <?php
