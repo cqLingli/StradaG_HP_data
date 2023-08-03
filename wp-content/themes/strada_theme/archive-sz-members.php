@@ -86,12 +86,13 @@ get_header('sz');
                                     ?>
 
                                 </div>
-                                <div class="read-more">
-                                    <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
+                                <div class="service_title_icon">
+                                    <a  href="<?php echo get_permalink(get_the_ID());?>">
+                                        <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
+                                    </a>
                                 </div>
 
                             </div>
-                            <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
                         </div>
 
                     <?php endwhile;
