@@ -378,13 +378,11 @@
       </div>
     </div>
     <div class="border-bt7"></div>
-
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_sz'); ?>
         <div id="menber"></div>
         <?php get_template_part('template', 'sz-members'); ?>
       </div>
-
   </div>
   </div>
   </div>

@@ -2947,9 +2947,13 @@ title - 共通のタイトルやテキストなど
   }
   div#企業概要 {
     background-color: #E3E8F1;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:30px
   }
   .p-about {
     background-color: white;
+    margin-top:30px
   }
   .p-about_groupContent {
     background: none !important;
@@ -3009,14 +3013,14 @@ title - 共通のタイトルやテキストなど
   .p-about_groupContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 17%;
+    flex: 0 0 18%;
     text-align: right;
     margin-right: 15px;
   }
   .company_right  dl dt{
     text-align: left !important;
     border: none !important;
-    flex:0 0 23%;
+    flex:0 0 25%;
     padding-left:5px
   }
   .t-company_list {
@@ -4537,6 +4541,7 @@ title - 共通のタイトルやテキストなど
 .c-new-content {
     /*padding-bottom: 129px;*/
     background: #E3E8F1;
+    margin-top:30px
   }
 
   @media screen and (max-width: 991px) {
@@ -14332,9 +14337,27 @@ top: 30px;
   .p-voice{
     padding-top:87px;
   }
+  .p-qa{
+    padding-top:57px;
+  }
+  .p-contact{
+    padding-top:57px;
+  }
+  .p-recruit{
+    padding-top:57px;
+  }
 }
 @media screen and (max-width: 760px) {
   .p-voice{
-    padding-top:30%;
+    padding-top:34%;
+  }
+  .p-qa{
+    padding-top:26%;
+  }
+  .p-contact{
+    padding-top:26%;
+  }
+  .p-recruit{
+    padding-top:26%;
   }
 }
