@@ -77,10 +77,10 @@
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <div class="time" style="float: left; width: 15%;font-size: 1.5rem;">
+                  <div class="t-news_list_topbox time" style="float: left; width: 18%;">
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
-                  <div class="time" style="float: right; width: 85%; padding-left: 5px;font-size: 1.5rem;">
+                  <div class="t-news_list_topbox time" style="float: right; width: 82%;">
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>
