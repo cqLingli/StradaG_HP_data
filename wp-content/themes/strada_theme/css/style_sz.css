@@ -11117,7 +11117,7 @@ img{
 }
 @media screen and (max-width: 767px){
 	.c-mainTitle_content{
-      margin-top: 15%;
+      margin-top: -20%;
 	}
 	
 	.p-column__post .box h2{
