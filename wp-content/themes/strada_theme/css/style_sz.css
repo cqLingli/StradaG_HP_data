@@ -10567,8 +10567,6 @@ font-weight: bold;
   background:url('../images/mv/mv-service.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .p-service .c-mainTitle, .s-service .c-mainTitle{
@@ -12480,7 +12478,7 @@ top: 30px;
   width: 22px;
 }
 .term-description{
-  margin-top: -5.5%;
+  margin-top: 1.5%;
   margin-left: 7.8%;
   margin-right: 8.8%;
   font-size: 15px;
