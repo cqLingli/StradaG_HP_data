@@ -378,15 +378,13 @@
       </div>
     </div>
     <div class="border-bt7"></div>
-    <div class="l-container">
+
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_sz'); ?>
-        <div id="menber" class="menberTtile">
-          <span>メンバー紹介</span>
-        </div>
+        <div id="menber"></div>
         <?php get_template_part('template', 'sz-members'); ?>
       </div>
-    </div>
+
   </div>
   </div>
   </div>

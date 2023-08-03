@@ -3505,7 +3505,7 @@ title - 共通のタイトルやテキストなど
     width: 60%;
     margin-bottom: 50px;
     padding: 5px 35px 40px;
-    margin-left: -3%;
+    margin-left: 3%;
   }
   @media screen and (max-width: 767px) {
     .p-column__main {
@@ -10586,6 +10586,8 @@ font-weight: bold;
   background:url('../images/mv/mv-about.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 
 .p-contact .c-mainTitle{
@@ -14085,7 +14087,7 @@ top: 30px;
 .p-contact{
   background-color: #fff;
 }
-.menberTtile2{
+.menberTtile3{
   padding-left: 10px;
   line-height: 40px;
   font-weight: bold;
@@ -14093,6 +14095,7 @@ top: 30px;
   color: white;
   background: linear-gradient(to right,#153F6F 0%, #fff 96%);
   width: 100%;
+  margin-top: 2%;
 }
 .service-line-bottom2 {
   height: 1px;
