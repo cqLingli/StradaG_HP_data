@@ -14290,22 +14290,23 @@ top: 30px;
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
   .p-member02 .newItem {
-    width: calc(100% / 2.01);
+    width: calc(100% / 2.03);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
   .p-member02 .newItem2 {
-    width: calc(100% / 2.01);
+    width: calc(100% / 2.03);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5px;
+
   }
 }
 .service_title_01{
