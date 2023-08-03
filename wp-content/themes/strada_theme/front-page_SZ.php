@@ -401,11 +401,9 @@
       </div>
     </div>
     <div class="border-bt8"></div>
-    <div class="l-container">
       <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
         <?php get_template_part('template', 'contact_sz'); ?>
       </div>
-    </div>
   </div>
   <!-- end Contact -->
 
@@ -420,11 +418,9 @@
       </div>
     </div>
     <div class="border-bt9"></div>
-    <div class="l-container">
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
         <?php get_template_part('template', 'recruit_sz'); ?>
       </div>
-    </div>
   </div>
   <!-- end Recruit -->
 </main>

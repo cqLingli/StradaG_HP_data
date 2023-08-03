@@ -1,4 +1,5 @@
 <main class="l-main p-contact">
+<div class="l-container">
 <div class="c-mainTitle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
@@ -9,13 +10,18 @@
         </div>
       </div>
     </div>
+    </div>
   <div class="contactBox">
-    <p style="padding:15px">各種お問い合わせは、こちらのフォームよりお送りください。翌営業日を目安にお返事を差し上げます。</p>
+  <div class="l-container">
+    <div style="margin-left:5.5%;margin-right:5.5%">
+    <p style="padding:15px;font-size:1.5rem">各種お問い合わせは、こちらのフォームよりお送りください。翌営業日を目安にお返事を差し上げます。</p>
     <div class="contactBox__intro">
     <?php 
                 echo do_shortcode('[mwform_formkey key="236"]');
             ?>
     </div>
+  </div>
+  </div>
   </div>
 </main>
 <script type="text/javascript">
