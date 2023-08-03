@@ -14436,4 +14436,11 @@ top: 30px;
   .t-recruitContent dl{
     font-size:1.5rem
   }
+  .p-qa__content{
+    padding:0px 20px;
+
+  }
+  .c-qa-list{
+    padding-top:30px
+  }
 }
