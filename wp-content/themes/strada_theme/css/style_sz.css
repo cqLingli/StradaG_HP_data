@@ -172,14 +172,17 @@ a {
 a:hover {
   color: inherit;
 }
+.l-main {
+  margin-top: 150px;
+}
 @media screen and (max-width: 991px) {
   .l-main {
-    margin-top: 120px;
+    margin-top: 110px;
   }
 }
 @media screen and (max-width: 760px) {
   .l-main {
-    margin-top: 110px;
+    margin-top: 90px;
   }
 }
 /* =========================================================
@@ -1956,7 +1959,11 @@ header - ヘッダー
 ========================================================= */
 
 .l-header {
-  position: relative;
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
 }
 @media screen and (max-width: 991px) {
   .l-header {
