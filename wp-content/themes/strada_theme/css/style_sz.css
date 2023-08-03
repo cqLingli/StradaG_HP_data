@@ -3604,7 +3604,7 @@ title - 共通のタイトルやテキストなど
     }
   }
   .p-column__post {
-    width: 60%;
+    padding: 5.5%;
   }
 .p-column__post .box {
   margin-bottom: 75px;
@@ -14406,86 +14406,105 @@ top: 30px;
   }
 }
 @media screen and (max-width: 760px) {
-  .c-qa-list{
-    padding-top:0;
+  .c-qa-list {
+    padding-top: 0;
   }
-  .p-voice{
-    padding-top:24%;
+
+  .p-voice {
+    padding-top: 24%;
   }
-  .p-qa{
-    padding-top:17%;
+
+  .p-qa {
+    padding-top: 17%;
   }
-  .p-contact{
-    padding-top:17%;
+
+  .p-contact {
+    padding-top: 17%;
   }
-  .p-recruit{
-    padding-top:17%;
+
+  .p-recruit {
+    padding-top: 17%;
   }
-  .p-about{
-    padding-top:2%;
+
+  .p-about {
+    padding-top: 2%;
   }
-  .p-about_groupContent{
-    flex-wrap:wrap;
-    
-  }
-  .company_left{
-    flex:1 0 100% !important;
-    padding-right:0px !important;
+
+  .p-about_groupContent {
+    flex-wrap: wrap;
 
   }
 
-  .p-about_groupContent dl dt{
-    flex:0 0 25% !important;
-    margin-right:10px;
-  }
-
-  .company_right{
-    padding-left:0 !important;
-    padding-top:30px !important;
-  }
-  .t-recruitContent dl dt{
-    flex:0 0 28%;
-  }
-
-  .t-recruitHead{
-    font-size:2.2rem
-  }
-  .t-recruitContent dl{
-    font-size:1.5rem
-  }
-  .p-qa__content{
-    padding:0px 20px;
+  .company_left {
+    flex: 1 0 100% !important;
+    padding-right: 0px !important;
 
   }
-  .c-qa-list{
-    padding-top:30px
+
+  .p-about_groupContent dl dt {
+    flex: 0 0 25% !important;
+    margin-right: 10px;
   }
-  .t-recruit{
+
+  .company_right {
+    padding-left: 0 !important;
+    padding-top: 30px !important;
+  }
+
+  .t-recruitContent dl dt {
+    flex: 0 0 28%;
+  }
+
+  .t-recruitHead {
+    font-size: 2.2rem
+  }
+
+  .t-recruitContent dl {
+    font-size: 1.5rem
+  }
+
+  .p-qa__content {
+    padding: 0px 20px;
+
+  }
+
+  .c-qa-list {
+    padding-top: 30px
+  }
+
+  .t-recruit {
     padding: 10px 0 30px 0;
   }
-  .accessStyle{
-    margin-top:170px
+
+  .accessStyle {
+    margin-top: 170px
   }
+
   .p-about_historyContent dl {
     font-size: 1.2rem;
   }
-  .term-excerpt{
+
+  .term-excerpt {
     font-size: 1.5rem;
     padding-left: 5%;
     padding-right: 2%;
   }
+
   .s-service .entry-content h3 {
     margin-top: 40px;
     font-size: 2rem;
     padding: 4px 15px;
     margin-left: 2% !important;
   }
-  .single-service{
+
+  .single-service {
     margin-top: 1%;
   }
-  .service_content_add{
+
+  .service_content_add {
     margin-top: 1% !important;
   }
+
   .c-serviceList1 {
     max-width: 1400px;
     margin: 0 auto;
@@ -14494,11 +14513,21 @@ top: 30px;
 
   element.style {
   }
+
   .term-description {
     margin-top: -1.5%;
     margin-left: 7.8%;
     margin-right: 8.8%;
     font-size: 15px;
+  }
+
+  .news_content_add {
+    margin-top: 1% !important;
+  }
+
+  .p-new01 .c-new-content .c-list-news {
+    margin-top: -10%;
+    background: #fff;
   }
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
@@ -14536,6 +14565,13 @@ top: 30px;
     margin-left: 7.8%;
     margin-right: 8.8%;
     font-size: 15px;
+  }
+  .news_content_add {
+    margin-top: 1% !important;
+  }
+  .p-new01 .c-new-content .c-list-news {
+    margin-top: -10%;
+    background: #fff;
   }
 
 }

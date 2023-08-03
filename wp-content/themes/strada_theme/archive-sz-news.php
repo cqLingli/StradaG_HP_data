@@ -11,7 +11,7 @@ get_header('sz');
     </div>
   </div>
   <div class="c-mainTitle">
-    <div class="c-mainTitle_content">
+    <div class="c-mainTitle_content news_content_add">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
           ニュース
