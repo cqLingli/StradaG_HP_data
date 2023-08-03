@@ -10562,6 +10562,8 @@ font-weight: bold;
   background:url('../images/mv/mv-service.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .p-service .c-mainTitle, .s-service .c-mainTitle{
@@ -10810,6 +10812,11 @@ font-weight: bold;
   background: url(../images/mv/mv-access.png) no-repeat;
   background-size: cover;
   background-position: center right;
+  margin-bottom: 30px;
+}
+
+.p-access{
+  background-color: #fff;
 }
 
 .p-access .t-access{
@@ -11577,6 +11584,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background:url('../images/mv/mv-columns.png') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
   margin-top: -10%;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -14386,6 +14395,9 @@ top: 30px;
   .t-recruit{
     padding: 10px 0 30px 0;
   }
+  .accessStyle{
+    margin-top:60px
+  }
 }
 @media screen and (max-width: 760px) {
   .c-qa-list{
@@ -14444,5 +14456,8 @@ top: 30px;
   }
   .t-recruit{
     padding: 10px 0 30px 0;
+  }
+  .accessStyle{
+    margin-top:90px
   }
 }

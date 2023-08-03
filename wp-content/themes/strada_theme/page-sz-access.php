@@ -9,7 +9,7 @@ get_header("sz");
       </div>
     </div>
 
-    <div class="c-mainTitle">
+    <div class="c-mainTitle accessStyle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -20,7 +20,9 @@ get_header("sz");
       </div>
     </div>
 
-    <div class="l-container accessbox">
+    <div class="accessbox">
+    <div class="l-container">
+    <div style="margin-left:5.5%;margin-right:5.5%">
         <div class="access-title">アクセス</div>
         <div class="p-access_groupContent">
             <div class="t-access t-block" id="access">
@@ -148,6 +150,8 @@ get_header("sz");
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.732793825305!2d139.78441761525877!3d35.68358088019382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188945bc013343%3A0x91fe51cc7df02e4d!2z5pel5pys44CB44CSMTAzLTAwMTQg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL6JuO5q6755S677yS5LiB55uu77yR77yR4oiS77ySIOOCquODvOODiOOCqOODg-OCr-OCueW3peiXpOODk-ODqyA0Zg!5e0!3m2!1sja!2s!4v1635329371742!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
+        </div>
+    </div>
     </div>
 </main>
 
