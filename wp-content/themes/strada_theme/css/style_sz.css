@@ -2635,6 +2635,7 @@ sidebar - サイドバー
     margin: 0;
     margin-left: 5.5%;
     margin-right: 5.5%;
+    margin-top: -1%;
   }
 }
 /* =========================================================
@@ -10556,6 +10557,17 @@ font-weight: bold;
   margin-left: 5.5%;
   margin-right: 5.5%;
 }
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .p-service .c-mainTitle, .s-service .c-mainTitle{
+    background:url('../images/mv/mv-service.jpg') no-repeat;
+    background-size:cover;
+    background-position: center center;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-top: -12%;
+  }
+
+}
 
 .p-qa .c-mainTitle{
   background:url('../images/mv/mv-qa.jpg') no-repeat;
@@ -11561,6 +11573,16 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background-position: center center;
   margin-left: 5.5%;
   margin-right: 5.5%;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .p-column .c-mainTitle{
+    background:url('../images/mv/mv-columns.png') no-repeat;
+    background-size:cover;
+    background-position: center center;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-top: -12%;
+  }
 }
 
 .google-map iframe{
