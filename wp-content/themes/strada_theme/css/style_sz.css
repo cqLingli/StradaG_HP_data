@@ -2933,17 +2933,9 @@ title - 共通のタイトルやテキストなど
   .c-tlt02 h2 {
     font-size: 2.2rem;
   }
-  @media screen and (max-width: 991px) {
-    .c-tlt02 h2 {
-      font-size: 1.8rem;
-    }
-  }
   @media screen and (max-width: 767px) {
     .c-tlt02 {
       margin-bottom: 60px;
-    }
-    .c-tlt02 h2 {
-      font-size: 1.2rem;
     }
   }
   .c-tlt02 span {
@@ -14459,5 +14451,8 @@ top: 30px;
   }
   .accessStyle{
     margin-top:90px
+  }
+  .p-about_historyContent dl {
+    font-size: 1.2rem;
   }
 }
