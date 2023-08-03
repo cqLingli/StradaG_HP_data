@@ -33,7 +33,7 @@ if($mv){
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle c-mainTitle-overlay">
-      <div class="c-mainTitle_content">
+      <div class="c-mainTitle_content single-service">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
             <?php the_title(); ?>
@@ -41,14 +41,16 @@ if($mv){
         </div>
       </div>
     </div>
-
+      <div class="l-container">
+          <div class="term-excerpt">
+              <hr class="c-line-bottom" />
+              <?php echo the_excerpt(); ?>
+              <hr class="c-line-bottom" />
+          </div>
+      </div>
     <!-- end c-mainTitle -->
       <div class="c-new-content">
     <div class="l-container">
-        <div class="term-excerpt">
-            <?php echo the_excerpt(); ?>
-            <hr class="c-line-bottom" />
-        </div>
       <div class="singleService">
         <div class="singleService-main">
         	<?php

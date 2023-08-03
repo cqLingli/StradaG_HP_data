@@ -2911,6 +2911,19 @@ title - 共通のタイトルやテキストなど
     margin-left: auto;
     background-color: #fff;
   }
+.content-service {
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .content-service {
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-service {
+    margin-top: 15% !important;
+  }
+}
   @media screen and (max-width: 991px) {
     .c-mainTitle_content {
       max-width: 762px;
@@ -10564,7 +10577,7 @@ font-weight: bold;
     background-position: center center;
     margin-left: 5.5%;
     margin-right: 5.5%;
-    margin-top: -12%;
+    margin-top: 6%;
   }
 
 }
@@ -11925,12 +11938,15 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   .s-service .entry-content h4 {
       font-size: 1.6rem;
       margin-top: 40px;
+      margin-left: 2%;
   }
 
   .s-service .entry-content p {
       font-size: 1.4rem;
       margin-top: 20px;
       margin-bottom: 0;
+     margin-left: 5%;
+     margin-right: 5%;
   }
 }
 
@@ -14455,6 +14471,75 @@ top: 30px;
   .p-about_historyContent dl {
     font-size: 1.2rem;
   }
+  .term-excerpt{
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+  .s-service .entry-content h3 {
+    margin-top: 40px;
+    font-size: 2rem;
+    padding: 4px 15px;
+    margin-left: 2% !important;
+  }
+  .single-service{
+    margin-top: 1%;
+  }
+  .service_content_add{
+    margin-top: 1% !important;
+  }
+  .c-serviceList1 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-right: 5.5%;
+  }
+
+  element.style {
+  }
+  .term-description {
+    margin-top: -1.5%;
+    margin-left: 7.8%;
+    margin-right: 8.8%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 760px){
+  .single-service{
+
+  }
+  .c-serviceList1 {
+    max-width: 1400px;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    margin-top: -5%;
+  }
+  .term-excerpt{
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    font-size: 1.5rem;
+  }
+  .s-service .entry-content p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 0;
+    margin-right: 2%;
+  }
+  .service_content_add{
+
+  }
+  .service_title_01 {
+    padding: 1% 5%;
+    background: white;
+  }
+  .term-description {
+    margin-top: 2%;
+    margin-left: 7.8%;
+    margin-right: 8.8%;
+    font-size: 15px;
+  }
+
 }
 
 .target-fix{
