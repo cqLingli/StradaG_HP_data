@@ -3523,8 +3523,8 @@ title - 共通のタイトルやテキストなど
     padding: 0;
     margin-left: 5.5%;
     margin-right: 5.5%;
+    }
   }
-}
   .p-column__main .p-column__list {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -4754,9 +4754,9 @@ title - 共通のタイトルやテキストなど
     width: 22px;
   }
   .qa_container{
-    padding: 10px !important;
     background-color: #E3E8F1 !important;
     max-width: none !important;
+    margin-top:30px
   }
   .p-qa__faq {
     display: -webkit-box;
@@ -4779,7 +4779,7 @@ title - 共通のタイトルやテキストなど
     text-decoration: none;
   }
   .p-qa__content {
-    padding: 30px;
+    padding: 0 5.5% 0 5.5%;
   }
   @media only screen and (max-width: 767px) {
     .p-qa__faq{
@@ -10323,11 +10323,11 @@ font-weight: bold;
 
 .c-qa-list{
   margin-bottom:0;
-  padding-top:40px;
+  padding-top:30px;
 }
 
 .c-qa-list:last-child{
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 767px){
@@ -10558,6 +10558,11 @@ font-weight: bold;
   background:url('../images/mv/mv-qa.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
+  margin-left: 5.5%;
+  margin-right:5.5%
+}
+.p-qa{
+  margin-top: 30px;
 }
 
 .p-voice .c-mainTitle{

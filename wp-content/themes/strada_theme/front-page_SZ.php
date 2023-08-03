@@ -343,11 +343,9 @@
       </div>
     </div>
     <div class="border-bt5"></div>
-    <div class="l-container">
       <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
         <?php get_template_part('template', 'qa_sz'); ?>
       </div>
-    </div>
   </div>
   <!-- end Q&A -->
 
