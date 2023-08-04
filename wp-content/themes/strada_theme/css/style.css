@@ -12587,7 +12587,7 @@ li {
   width: 100%;
   height: 0;
   overflow: hidden;
-  padding-bottom:50.625%;
+  padding-bottom:45%;
 }
 
 .imageplay ul {
@@ -12674,7 +12674,7 @@ ol li {
 
 @media screen and (max-width: 991px) {
   .imageplay {
-    padding-bottom:47.25%
+    padding-bottom:42%
   }
 
   /*.imageplay ul {
@@ -12714,7 +12714,7 @@ ol li {
 }
 @media screen and (max-width: 767px) {
   .imageplay {
-    padding-bottom:45%
+    padding-bottom:40%
   }
 
   /*.imageplay ul {
