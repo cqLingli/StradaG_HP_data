@@ -31,7 +31,7 @@ if($url_type==="tax"){
   </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle">
-        <div class="c-mainTitle_content">
+        <div class="c-mainTitle_content menber-single-content">
             <div class="c-tlt01 c-tlt01__black">
                 <h1 class="c-tlt01__line c-tlt01__line--gray">
                     メンバー紹介
@@ -41,11 +41,12 @@ if($url_type==="tax"){
         </div>
     </div>
     <!-- end c-mainTitle -->
+    <div class="c-new-content" style="padding-bottom: 100px;">
   <div class="l-container">
-      <div class="menberTtile">
+      <div class="menberTtile" style="margin-left: 5.5%;margin-right: 5.5%;">
           <span>メンバー紹介</span>
       </div>
-    <div class="p-member02__box">
+    <div class="p-member02__box" style="margin-left: 5.5%;margin-right: 5.5%;">
       <div class="image">
         <?php
           if ( has_post_thumbnail() ) {
@@ -83,7 +84,7 @@ if($url_type==="tax"){
         </div>
       </div>
     </div>
-    <div class="p-member__list">
+    <div class="p-member__list_single">
       <?php
         $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
         if($company){
@@ -109,50 +110,58 @@ if($url_type==="tax"){
 
         $the_query = new WP_Query($args); ?>
         <?php
+        $index_menber=0;
         if($the_query->have_posts()) :
-          while($the_query->have_posts()) : $the_query->the_post();?>
-            <div class="item">
-              <div class="image">
-                <?php
-                  if ( has_post_thumbnail() ) {
-                    the_post_thumbnail('full');
-                  } else {
-                ?>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
-                <?php } ?>
-              </div>
-              <div class="txt">
-                  <p class="name"><?php echo get_the_title(); ?></p>
-                <div class="c-job">
-                  <?php
-                      $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
-                          'hide_empty' => false,
-                          'parent' => 0,
-                          'order' => 'ASC',
-                          'orderby' => 'term_id'
-                      ) );
-                      $index=0;
-                      foreach ( $terms as $term) {
-                        $tax_link = get_term_link($term->slug, 'taxonomy_position');
-                        $tax_name = $term->name;
-                        $tax_slug = $term->slug;
-                        if($index===0){
-                            echo '<p class="job">'.$tax_name.'</p>';
-                        }else{
-                            echo '<p class="job">/'.$tax_name.'</p>';
-                        }
-                          $index++;
-                      }
-                    ?>
-
-                </div>
-                  <div class="read-more">
-                  <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
+          while($the_query->have_posts()) : $the_query->the_post();$index_menber++;?>
+              <div class="<?php
+              if($index_menber % 4==1){
+                  echo "newItem";
+              }else{
+                  echo "newItem2";
+              }
+              ?>">
+                  <div class="image">
+                      <?php
+                      if ( has_post_thumbnail() ) {
+                          the_post_thumbnail('full');
+                      } else {
+                          ?>
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
+                      <?php } ?>
                   </div>
+                  <div class="txt">
+                      <p class="name"><?php echo get_the_title(); ?></p>
+                      <div class="c-job">
+                          <?php
+                          $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
+                              'hide_empty' => false,
+                              'parent' => 0,
+                              'order' => 'ASC',
+                              'orderby' => 'term_id'
+                          ) );
+                          $index=0;
+                          foreach ( $terms as $term) {
+                              $tax_link = get_term_link($term->slug, 'taxonomy_position');
+                              $tax_name = $term->name;
+                              $tax_slug = $term->slug;
+                              if($index===0){
+                                  echo '<p class="job">'.$tax_name.'</p>';
+                              }else{
+                                  echo '<p class="job">/'.$tax_name.'</p>';
+                              }
+                              $index++;
+                          }
+                          ?>
 
+                      </div>
+                      <div class="service_title_icon">
+                          <a  href="<?php echo get_permalink(get_the_ID());?>">
+                              <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
+                          </a>
+                      </div>
+
+                  </div>
               </div>
-              <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-            </div>
 
           <?php endwhile;
           if (function_exists("pagination")) {
@@ -167,6 +176,7 @@ if($url_type==="tax"){
       ?>
     </div>
   </div>
+    </div>
 </main>
 
 
