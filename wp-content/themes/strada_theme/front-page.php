@@ -1,5 +1,5 @@
 <?php get_header("");
-/* Template Name: Front Page */
+/* Template Name: Front Page*/
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">
@@ -33,10 +33,12 @@
   <!-- start What’s New -->
   <div class="block_wrap">
     <div class="border-text"></div>
-    <div id="block_wrap" class="title_item_wrap active">
-      <p class="chapter_title">What's New
-      <div class="circle"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap" class="title_item_wrap active">
+        <p class="chapter_title">What's New
+        <div class="circle"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt"></div>
     <div class="l-container">
@@ -47,16 +49,16 @@
           <p style="padding:0;margin:0;border:0">ストラーダグループ紹介動画 Youtube</p>
         </div>
         <div class="news_style2">
-        <div class="t-news_list_topbox">
-            <!-- <a href="<?php //echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none"> -->
-              <div style="display: flex;overflow-x: hidden;width:100%">
-                <div style="width:80%;color:#003E75;font-weight:bold;font-size:15px;">ニュース</div>
-                <div style="width:100px;color:black">READ MORE</div>
+          <div class="t-news_list_topbox">
+            <div style="display: flex;overflow-x: hidden;width:100%">
+              <div style="width:95%;color:#6A6969;font-weight:bold;font-size:15px;">ニュース</div>
+              <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
                 <div style="position:relative;top:-5px">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt="" style="width:30px" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
+                    style="width:30px" />
                 </div>
-              </div>
-            <!-- </a> -->
+              </a>
+            </div>
             <hr style="border:1px dotted #BDB7B7;">
             <?php
             // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
@@ -64,19 +66,20 @@
               'post_type' => 'news', // 文章类型
               'posts_per_page' => 10,
               'paged' => $paged,
+              'company' => '', // 自定义字段名
             );
             $query = new WP_Query($args); // 执行查询
             ?>
             <ul>
-            <?php 
+              <?php 
               if($query->have_posts()) :
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <div class="time" style="float: left; width: 15%;">
+                  <div class="t-news_list_topbox time" style="float: left; width: 18%;">
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
-                  <div class="time" style="float: right; width: 85%; padding-left: 5px;">
+                  <div class="t-news_list_topbox time" style="float: right; width: 82%;">
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>
@@ -85,14 +88,14 @@
                 wp_reset_postdata();
               else:
                 ?>
-            <div class="title">
-              <li>
-                <p>
-                  <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
-                </p>
-              </li>
-            </div>
-            <?php endif;?>
+              <div class="title">
+                <li>
+                  <p>
+                    <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+                  </p>
+                </li>
+              </div>
+              <?php endif;?>
             </ul>
           </div>
         </div>
@@ -104,26 +107,35 @@
   <!-- start Message -->
   <div class="block_wrap1">
     <div class="border-text1"></div>
-    <div id="block_wrap1" class="title_item_wrap1 active1">
-      <p class="chapter_title1">Message
-      <div class="circle1"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap1" class="title_item_wrap1 active1">
+        <p class="chapter_title1">Message
+        <div class="circle1"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt1"></div>
-    <div class="l-container">
-      <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
+    <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
+      <div class="l-container Message_style1_extra">
         <div class="Message_style1">
           <hr style="border:1px dotted #BDB7B7;">
-          <p class="Message_style1_p3">
-            　ストラーダグループとは、税理士、公認会計士、社会保険労務士、中小企業診断士、行政書士が在籍している士業の専門家集団です。<br /><br />　私たちは、時代の先端の情報を収集して、バックオフィスのあらゆる業務を解決できる集団になるべく精進しております。<br />　上場企業、大会社、社会福祉法人等でも、経理、人事、総務等の役割に応じて、部署が分かれていますが、会社の目指すべき方向は一つです。<br />　各種部署が連携しながら、会社が目指すべき方向について、議論しています。その機能を私
-            たち士業が担います。<br />　ストラーダグループとして、総合的な支援をさせて頂くことにより、会社の全体戦略や方向性
-            に基づいたアドバイスが可能になるのです。</p>
-          <p class="Message_style1_p4">ストラーダホールディングス株式会社 CEO</p>
+          <p class="Message_style1_p1">ストラーダ税理士法人の経営理念</p>
+          <p class="Message_style1_p2">お客様と共に同じ道を歩く</p>
+          <p class="Message_style1_p3">　「ストラーダ」とは、イタリア語で「道」という意味があります。お客様と歩む長い道をともに歩
+            み続けられるような、税理士法人にしたいという意味を込めて、「ストラーダ税理士法人」と名付
+            けました。税理士の特徴は、一時的なサービスではなく、企業が誕生し、企業が発展し続けるた
+            めに、共に企業を成長させていく、生涯付き合える、パートナーとしての性質を有しています。企
+            業の成長が、日本社会に価値を与え、弊法人のクライアントが少しでも日本社会に価値を与え
+            る手助けすることが、私達の使命です。そのため、長期に渡って企業の価値を提供できるよう
+            に、自己研鑽に励み、税務的面はもちろん、他の面においても価値を提供できるように努めてま
+            いります。また、企業に価値を提供するスタッフが長期に渡って働けるような、社内環境を整え、
+            新しいことに挑戦し続ける事務所経営を行います。</p>
+          <p class="Message_style1_p4">ストラーダ税理士法人　代表社員</p>
           <p class="Message_style1_p5">山田 直輝</p>
           <hr style="border:1px dotted #BDB7B7;">
         </div>
         <div class="Message_style2">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt=""/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt="" />
         </div>
       </div>
     </div>
@@ -131,12 +143,15 @@
   <!-- end Message -->
 
   <!-- start Strada Group -->
-  <div id="StradaGroup" class="block_wrap2">
+  <a id="StradaGroup" class="target-fix"></a>
+  <div class="block_wrap2">
     <div class="border-text2"></div>
-    <div id="block_wrap2" class="title_item_wrap2 active2">
-      <p class="chapter_title2">Strada Group
-      <div class="circle2"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap2" class="title_item_wrap2 active2">
+        <p class="chapter_title2">Strada Group
+        <div class="circle2"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt2"></div>
     <div class="l-container">
@@ -147,16 +162,16 @@
               class="Strada_style_img1_1" />
           </div>
           <hr style="border:1px dotted #BDB7B7;">
-          <p style="font-size:14px;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+          <p style="font-size:1.5rem;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
-            <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人 </span>
-            <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士 </span>
-            <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ </span>
-            <span style="color: #e17401; font-weight: bold;">社会保険労務士 </span>
-            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会 </span>
-            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士 </span>
+            <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
+            <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
+            <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ</span>
+            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>
+            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>
+            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>
             <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>
-            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企 </span>
+            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>
             <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
               会社の全体戦略に基づいたアドバイスを可能としております。</span>
           </p>
@@ -168,132 +183,61 @@
   <!-- end Strada Group -->
 
   <!-- start About -->
-  <div id="About" class="block_wrap7">
+  <a id="About" class="target-fix"></a>
+  <div class="block_wrap7">
     <div class="border-text7"></div>
-    <div id="block_wrap7" class="title_item_wrap7 active7">
-      <p class="chapter_title7">About
-      <div class="circle7"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap7" class="title_item_wrap7 active7">
+        <p class="chapter_title7">About
+        <div class="circle7"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt7"></div>
-    <div class="l-container">
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about'); ?>
-        <div id="menber" class="menberTtile">
-          <span>メンバー紹介</span>
+        <a id="menber" class="target-fix1"></a>
+        <?php get_template_part('template', 'members'); ?>
       </div>
-    <div class="p-member__list">
-      <?php
-        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-        $args = array(
-          'post_type' => 'members',
-          'company' => '', // 自定义字段名
-          'posts_per_page' => -1,
-          'orderby' => 'date',
-          'paged' => $paged,
-          'post__not_in' => array($post->ID)
-        );
-
-        $the_query = new WP_Query($args); ?>
-        <?php
-        if($the_query->have_posts()) :
-          while($the_query->have_posts()) : $the_query->the_post();?>
-            <div class="item">
-              <div class="image">
-                <?php
-                  if ( has_post_thumbnail() ) {
-                    the_post_thumbnail('full');
-                  } else {
-                ?>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
-                <?php } ?>
-              </div>
-              <div class="txt">
-                  <p class="name"><?php echo get_the_title(); ?></p>
-                <div class="c-job">
-                  <?php
-                      $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
-                          'hide_empty' => false,
-                          'parent' => 0,
-                          'order' => 'ASC',
-                          'orderby' => 'term_id'
-                      ) );
-                      $index=0;
-                      foreach ( $terms as $term) {
-                        $tax_link = get_term_link($term->slug, 'taxonomy_position');
-                        $tax_name = $term->name;
-                        $tax_slug = $term->slug;
-                        if($index===0){
-                            echo '<p class="job">'.$tax_name.'</p>';
-                        }else{
-                            echo '<p class="job">/'.$tax_name.'</p>';
-                        }
-                          $index++;
-                      }
-                    ?>
-
-                </div>
-                  <div class="read-more">
-                  <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
-                  </div>
-
-              </div>
-              <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-            </div>
-
-            <?php endwhile;
-                wp_reset_postdata();
-              else:
-                ?>
-            <div class="title">
-              <li>
-                <p>
-                  <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
-                </p>
-              </li>
-            </div>
-            <?php endif;?>
-    </div></div>
-</div>
   </div>
-      </div>
-    </div>
+  </div>
+  </div>
   <!-- end About -->
 
   <!-- start Contact -->
-  <div id="Contact" class="block_wrap8">
+  <div class="block_wrap8">
     <div class="border-text8"></div>
-    <div id="block_wrap8" class="title_item_wrap8 active8">
-      <p class="chapter_title8">Contact
-      <div class="circle8"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap8" class="title_item_wrap8 active8">
+        <p class="chapter_title8">Contact
+        <div class="circle8"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt8"></div>
-    <div class="l-container">
-        <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
+      <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
         <?php get_template_part('template', 'contact'); ?>
-        </div>
-    </div>
+      </div>
   </div>
   <!-- end Contact -->
 
   <!-- start Recruit -->
-  <div id="Recruit" class="block_wrap9">
+  <a id="Recruit" class="target-fix"></a>
+  <div class="block_wrap9">
     <div class="border-text9"></div>
-    <div id="block_wrap9" class="title_item_wrap9 active9">
-      <p class="chapter_title9">Recruit
-      <div class="circle9"></div>
-      </p>
+    <div class="l-container">
+      <div id="block_wrap9" class="title_item_wrap9 active9">
+        <p class="chapter_title9">Recruit
+        <div class="circle9"></div>
+        </p>
+      </div>
     </div>
     <div class="border-bt9"></div>
-    <div class="l-container">
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
         <?php get_template_part('template', 'recruit'); ?>
       </div>
-    </div>
   </div>
-  <!-- start Recruit -->
-
+  <!-- end Recruit -->
 </main>
 
 <?php get_footer(); ?>
