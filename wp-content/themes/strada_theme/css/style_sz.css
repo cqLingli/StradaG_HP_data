@@ -9895,20 +9895,20 @@ typography - 文字の装飾など
 .singleVoice-title h5{
   font-size: 3rem;
   line-height: 27px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   text-align: center;
   border-top: 1px dashed #ccc;
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: bold;
 }
 .singleVoice-title h6{
   font-size: 2rem;
   line-height: 27px;
-  padding: 10px 20px;
+  padding: 0px 20px;
   margin-bottom: 25px;
   text-align: center;
   border-bottom: 1px dashed #ccc;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 
@@ -9922,12 +9922,13 @@ typography - 文字の装飾など
 }
 .singleVoice-content h3{
   font-size: 1.9rem;
-  line-height: 25px;
+  line-height: 40px;
   color: #333;
   font-weight: bold;
   padding-left: 20px;
   border-left: 5px solid #153F6F;
   margin-bottom: 20px;
+  background: linear-gradient(to right,#fff 30%, #E4E8F1 100%);
 }
 .singleVoice-content__img{
   margin-bottom: 25px;
@@ -10062,7 +10063,7 @@ typography - 文字の装飾など
   margin-bottom:30px;
 }
 .singleVoice-content{
-  margin-bottom:30px;
+  padding-bottom:30px;
 }
 
 .p-about_groupItems h4{
@@ -11321,7 +11322,7 @@ img{
 }
 .singleVoice01{
   background-color: #E4E8F1;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 
 .choice-part {
@@ -14590,10 +14591,10 @@ top: 30px;
   }
   .p-member__list_single{
 
-  }
+}
   .menber-single-content{
 
-  }
+}
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
   .menber-single-content{
@@ -14689,4 +14690,67 @@ top: 30px;
   display:block;
   height:0;
   overflow: hidden;
+}
+
+.p-voice01 .c-mainTitle{
+  background:url('../images/mv/mv-voice.jpg') no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.p-voice01{
+  background-color: #fff;
+}
+
+.archiveVoice01{
+  background-color: #E4E8F1;
+  padding: 30px 0 30px 0;
+  margin-top: 30px;
+}
+
+.p-voice02 .c-mainTitle{
+  background:url('../images/mv/mv-voice.jpg') no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.p-voice02{
+  background-color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .Voicestyle{
+    margin-top:60px
+  }
+  .singleVoicestyle{
+    margin-top:60px
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .Voicestyle{
+    margin-top:170px
+  }
+
+  .archiveVoice01{
+    margin-top:0px
+  }
+
+  .singleVoicestyle{
+    margin-top:170px
+  }
+
+  .singleVoice-content h5{
+    font-size: 1.4rem;
+      border-top: 0;
+    margin-top: 0px;
+    border-top:1px dashed #ccc;
+  }
+
+  .singleVoice-title h6{
+    border-bottom: 1px dashed #ccc;
+  }
+  .singleVoice{
+    padding:30px 0 0 0
+  }
 }
