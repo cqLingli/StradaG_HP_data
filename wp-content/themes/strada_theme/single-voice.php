@@ -3,14 +3,14 @@
 get_header("sz");
 ?>
  <!-- .l-main | メインコンテンツ -->
-  <main class="l-main p-voice">
+  <main class="l-main p-voice02">
     <div class="c-breakcrumds">
       <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
       </div>
     </div>
     <!-- end c-breakcrumds -->
-    <div class="c-mainTitle">
+    <div class="c-mainTitle singleVoicestyle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -62,10 +62,9 @@ get_header("sz");
                       </div>
                     </div>
                   </div>
-      </div>
-      <div class="l-container">
-                          
+      </div>          
                   <div class="singleVoice singleVoice01">
+                  <div class="l-container">
                     <div class="singleVoice-main">
                       <div class="singleVoice-content">
                         <div class="voice-content voice-content01">

@@ -3,14 +3,14 @@
 get_header("sz");
 ?>
  <!-- .l-main | メインコンテンツ -->
-  <main class="l-main p-voice">
+  <main class="l-main p-voice01">
     <div class="c-breakcrumds">
       <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
       </div>
     </div>
     <!-- end c-breakcrumds -->
-    <div class="c-mainTitle">
+    <div class="c-mainTitle Voicestyle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -21,8 +21,8 @@ get_header("sz");
       </div>
     </div>
     <!-- end c-mainTitle -->
-    <div class="l-container">
-     <div class="archiveVoice">
+     <div class="archiveVoice01">
+     <div class="l-container">
        <?php 
        $field = get_field('voice_textbox', 3726);
        if($field){
@@ -76,7 +76,7 @@ get_header("sz");
                             <?php echo get_field('name'); ?>
                           </p>
                           <p class="c-voicePost__text">
-                            <?php echo get_field('textbox'); ?>
+                          いつもありがとうございます！！
                           </p>
                         </a>
                       </div>
