@@ -3264,7 +3264,7 @@ title - 共通のタイトルやテキストなど
   }
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
-  margin-top: 3.5%;;
+  margin-top: 4.5%;;
 }
   .p-column .c-list__cat li {
     padding: 20px 0;
@@ -11587,18 +11587,13 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   background:url('../images/mv/mv-columns.png') no-repeat;
   background-size:cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
-  margin-top: -10%;
+
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .p-column .c-mainTitle{
     background:url('../images/mv/mv-columns.png') no-repeat;
     background-size:cover;
     background-position: center center;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
-    margin-top: 8%;
   }
 }
 
@@ -14146,7 +14141,7 @@ top: 30px;
     color: white;
     padding: 1px 5px;
     float: right;
-    width: 40%;
+    width: 50%;
     font-size: 14px;
   }
 }
@@ -14529,9 +14524,6 @@ top: 30px;
     margin-right: 5.5%;
   }
 
-  element.style {
-  }
-
   .term-description {
     margin-top: -1.5%;
     margin-left: 7.8%;
@@ -14547,8 +14539,59 @@ top: 30px;
     margin-top: -10%;
     background: #fff;
   }
+  .columns_content{
+    margin-top: 3% !important;
+  }
+  .columns_content2{
+    margin-top: 1% !important;
+  }
+  .p-column__main .p-column__list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin-top: 15px;
+  }
+  .column_main02{
+
+ }
+
+  .cloumn_sidebar02{
+
+  }
+  .single-column-info{
+    margin-top: 2%;
+  }
+  .p-column__post1 {
+    width: 100% !important;
+
+  }
+  .column_sidebar02{
+
+  }
+}
+.p-column__post1 {
+  width: 60%;
+  margin-top: -5%;
+
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
+  .column_sidebar02{
+    width: 135%;
+  }
+  .p-column__post1 {
+    margin-top: -6.5%;
+    width: 200%;
+  }
+  .single-column-info{
+    margin-top: 1%;
+  }
+  .cloumn_sidebar02{
+    width: 45%;
+    margin-top: 0.5%;
+  }
+  .column_main02{
+   width: 45%;
+  }
   .single-service{
 
   }
@@ -14590,6 +14633,12 @@ top: 30px;
   .p-new01 .c-new-content .c-list-news {
     margin-top: -10%;
     background: #fff;
+  }
+  .columns_content{
+    margin-top: 2%;
+  }
+  .columns_content2{
+    margin-top: 1% !important;
   }
 
 }

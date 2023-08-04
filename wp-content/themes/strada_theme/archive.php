@@ -13,8 +13,8 @@ get_header("sz");
     </div>
   </div>
   <!-- end c-breakcrumds -->
-  <div class="c-mainTitle" style="margin-top: 1%">
-    <div class="c-mainTitle_content">
+  <div class="c-mainTitle">
+    <div class="c-mainTitle_content columns_content2">
     <div class="c-tlt01 c-tlt01__black">
       <h1 class="c-tlt01__line c-tlt01__line--gray">
         <?php
@@ -119,7 +119,7 @@ get_header("sz");
       </div>
     <?php endif; ?>
     <div class="p-column__02">
-      <div class="p-column__main">
+      <div class="p-column__main column_main02">
           <div class="menberTtile">
               <span>
                   <?php
@@ -210,7 +210,7 @@ get_header("sz");
           <?php wp_pagenavi(); ?>
         </div>
       </div>
-      <div class="l-sidebar">
+      <div class="l-sidebar cloumn_sidebar02">
         <?php get_sidebar('sidebar'); ?>
       </div>
     </div>

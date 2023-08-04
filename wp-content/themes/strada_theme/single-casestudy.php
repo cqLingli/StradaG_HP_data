@@ -125,58 +125,60 @@ get_header("sb");
                 <?php
               }
             ?>
-        </div>
-        <?php 
+
+            <?php
             $main_user = get_user_by('id', intval($post->post_author));
             $member = get_field('member_display', 'user_'.$post->post_author);
             if($member){
-              ?>
-              <div class="c-member">
-                <div class="c-member_ttl">この記事の監修者</div>                         
-                <div class="c-member_main">
-                  <div class="c-memberTop">
-                    <div class="c-member_ava">
-                      <?php
-                        if ( has_post_thumbnail($member->ID) ) {
-                          echo get_the_post_thumbnail($member->ID, 'full');
-                        } else {
-                      ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
-                      <?php } ?>
+                ?>
+                <div class="c-member">
+                    <div class="c-member_ttl">この記事の監修者</div>
+                    <div class="c-member_main">
+                        <div class="c-memberTop">
+                            <div class="c-member_ava">
+                                <?php
+                                if ( has_post_thumbnail($member->ID) ) {
+                                    echo get_the_post_thumbnail($member->ID, 'full');
+                                } else {
+                                    ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
+                                <?php } ?>
+                            </div>
+                            <div class="head">
+                                <div class="name"><?php echo get_the_title($member->ID); ?></div>
+                                <div class="job-list">
+                                    <?php
+                                    $terms = wp_get_post_terms($member->ID,'taxonomy_position', array(
+                                        'hide_empty' => false,
+                                        'parent' => 0,
+                                        'order' => 'ASC',
+                                        'orderby' => 'term_id'
+                                    ) );
+                                    foreach ( $terms as $term) {
+                                        $tax_link = get_term_link($term->slug, 'taxonomy_position');
+                                        $tax_name = $term->name;
+                                        $tax_slug = $term->slug;
+                                        echo '<span class="job">' . $tax_name . '</span>';
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bio">
+                            <?php echo get_user_meta($main_user->ID, 'description', true); ?>
+                        </div>
+                        <a href="<?php echo get_permalink($member->ID); ?>" class="c-btn">この監修者のプロフィールを見る
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.318" height="14.558" viewBox="0 0 20.318 14.558">
+                                <path id="Path_8806" data-name="Path 8806" d="M552.563,148.306a1.437,1.437,0,0,0-1.854,0,1.064,1.064,0,0,0,0,1.637l4.693,4.145H541.414a1.167,1.167,0,1,0,0,2.315H555.4l-4.693,4.145a1.064,1.064,0,0,0,0,1.637,1.436,1.436,0,0,0,1.854,0l7.858-6.94Z" transform="translate(-540.103 -147.968)"/>
+                            </svg>
+                        </a>
                     </div>
-                    <div class="head">
-                      <div class="name"><?php echo get_the_title($member->ID); ?></div>
-                      <div class="job-list">
-                        <?php
-                            $terms = wp_get_post_terms($member->ID,'taxonomy_position', array(
-                                'hide_empty' => false,
-                                'parent' => 0,
-                                'order' => 'ASC',
-                                'orderby' => 'term_id'
-                            ) );
-                            foreach ( $terms as $term) {
-                              $tax_link = get_term_link($term->slug, 'taxonomy_position');
-                              $tax_name = $term->name;
-                              $tax_slug = $term->slug;
-                              echo '<span class="job">' . $tax_name . '</span>';
-                            }
-                          ?>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="bio">
-                      <?php echo get_user_meta($main_user->ID, 'description', true); ?>
-                  </div>
-                  <a href="<?php echo get_permalink($member->ID); ?>" class="c-btn">この監修者のプロフィールを見る
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20.318" height="14.558" viewBox="0 0 20.318 14.558">
-                    <path id="Path_8806" data-name="Path 8806" d="M552.563,148.306a1.437,1.437,0,0,0-1.854,0,1.064,1.064,0,0,0,0,1.637l4.693,4.145H541.414a1.167,1.167,0,1,0,0,2.315H555.4l-4.693,4.145a1.064,1.064,0,0,0,0,1.637,1.436,1.436,0,0,0,1.854,0l7.858-6.94Z" transform="translate(-540.103 -147.968)"/>
-                  </svg>
-                  </a>
                 </div>
-              </div>
-              <?php
+                <?php
             }
-        ?>
+            ?>
+
+
         <div class="p-column__slider">
           <div class="p-column__list">
             <?php $prev_post = get_previous_post();
@@ -436,6 +438,7 @@ get_header("sb");
             ?>
           </div>
         </div>
+      </div>
       </div>
       <div class="l-sidebar">
         <?php
