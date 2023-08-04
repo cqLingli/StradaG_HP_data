@@ -24,7 +24,7 @@ get_header('sz');
             </div>
         </div>
         <!-- end c-mainTitle -->
-        <div class="c-new-content">
+        <div class="c-new-content" style="padding-bottom: 100px;">
         <div class="l-container">
             <div class="p-member__list">
                 <div class="menberTtile3">
