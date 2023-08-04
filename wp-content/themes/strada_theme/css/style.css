@@ -2868,7 +2868,6 @@ title - 共通のタイトルやテキストなど
     color: #8f8f8f;
     font-size: 1.7rem;
     line-height: 18px;
-    text-transform: uppercase;
   }
   @media screen and (max-width: 991px) {
     .c-mainTitle h1 span {
@@ -4956,7 +4955,7 @@ navigation - グローバルナビなど
 }
 .t-recruitContent {
   display: block;
-  width: calc(100% / 3);
+  width: 100%;
   margin-left: 30px;
 }
 .t-recruitHead {
@@ -4985,6 +4984,7 @@ navigation - グローバルナビなど
 .recruit-container{
   width: 100%;
   display: flex;
+  flex-wrap:wrap
 }
 
 .t-recruitContent dl {
@@ -5003,7 +5003,7 @@ navigation - グローバルナビなど
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 20%;
+  flex: 0 0 10%;
   font-weight: bold;
 }
 
@@ -5037,6 +5037,7 @@ navigation - グローバルナビなど
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 30px;
+  width:100%
 }
 
 .p-recruitBtn a {

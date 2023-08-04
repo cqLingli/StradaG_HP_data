@@ -4,8 +4,8 @@
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
-        ストラーダについて
-          <span>ABOUT STRADA</span>
+        会社概要
+          <span>About</span>
         </h1>
       </div>
     </div>
@@ -17,36 +17,30 @@
       <div style="margin-left:5.5%;margin-right:5.5%">
   <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
-      <h2>企業概要</h2>      
+      <h2>会社概要</h2>      
     </div>
     <div class="p-about_groupContent">
       <div class="company_left">
         <div class="t-company_list">
           <dl>
             <dt>法人名称</dt>
-            <dd>ストラーダ税理士法人</dd>
+            <dd>ストラーダホールディングス株式会社</dd>
           </dl>
           <dl>
             <dt>代表</dt>
             <dd>代表取締役　山田 直輝</dd>
           </dl>                                 
           <dl>
-            <dt>登録番号</dt>
-            <dd>日本橋支部　登録番号3613</dd>
-          </dl>
-          <dl>
             <dt>本店所在地</dt>
-            <dd>〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル4階</dd>
+            <dd>〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階</dd>
           </dl>                      
           <dl>
             <dt>電話番号</dt>
             <dd>03-6206-215</dd>
-            <dt>ファックス</dt>
-            <dd>03-5643-6432</dd>
           </dl>                     
           <dl>
             <dt>メールアドレス</dt>
-            <dd>info@strada-tax.jp</dd>
+            <dd>info@strada-bs.jp</dd>
           </dl>                      
           <dl>
             <dt>営業時間</dt>
@@ -54,12 +48,17 @@
           </dl> 
           <dl>
             <dt>業務内容</dt>
-            <dd>・税金に関する各種アドバイス<br />
-                ・法人税の申告書の作成<br />
-                ・確定申告書の作成<br />
-                ・相続税の申告書の作成<br />
-                ・贈与税の申告書の作成<br />
-                ・財産基本通達に基づく財産評価</dd>
+            <dd>・バーチャルオフィス運営業務<br />
+                ・経理代行業務（Business Process Outsourcing）<br />
+                ・補助金申請代行業務<br />
+                ・資金調達業務<br />
+                ・不正調査業務<br />
+                ・海外進出支援事業<br />
+                ・Ｍ＆Ａ関連業務／デューデリジェンス／バリュエーション／M&A検索代行<br />
+                ・IPO支援業務<br />
+                ・資本政策業務<br />
+                ・内部統制構築支援業務<br />
+              </dd>
           </dl>                                         
         </div>
       </div>
