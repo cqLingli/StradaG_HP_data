@@ -11,15 +11,15 @@ get_header("ch");
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/mainimage.jpg"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/Strada_Chushou_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/mainimage.jpg"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/mainimage.jpg"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_CH/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
     </ul>

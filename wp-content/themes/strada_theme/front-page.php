@@ -8,15 +8,15 @@
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img02.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Slider_img03.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_02.png"
             alt="" /></a>
       </li>
     </ul>

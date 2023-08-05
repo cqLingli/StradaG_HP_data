@@ -11,15 +11,15 @@ get_header("sg");
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/G_HP_Top_Image.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/G_HP_Top_Image.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/G_HP_Top_Image.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
     </ul>
