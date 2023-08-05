@@ -1,8 +1,8 @@
-<?php
+<?php get_header("sg");
+/* Template Name: Front Page SG */
 session_start();
 $_SESSION['url_type']="sg";
-get_header("sg");
-/* Template Name: Front Page SG */
+$_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">

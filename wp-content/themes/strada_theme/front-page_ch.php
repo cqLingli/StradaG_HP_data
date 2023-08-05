@@ -1,8 +1,8 @@
-<?php
+<?php get_header("ch");
+/* Template Name: Front Page CH */
 session_start();
 $_SESSION['url_type']="ch";
-get_header("ch");
-/* Template Name: Front Page CH */
+$_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">

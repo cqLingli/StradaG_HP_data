@@ -1,5 +1,7 @@
 <?php
 session_start();
+$_SESSION['url_type']="sz";
+$_SESSION['page_type']="column";
 get_header("sz");
 /**
 * Template Name: Archive

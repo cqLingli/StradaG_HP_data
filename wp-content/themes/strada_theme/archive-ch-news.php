@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive CH News */
 get_header('ch');
+session_start();
+$_SESSION['url_type']="ch";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

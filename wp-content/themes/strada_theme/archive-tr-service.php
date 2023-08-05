@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive TR Service */
 get_header("tr");
+session_start();
+$_SESSION['url_type']="tr";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

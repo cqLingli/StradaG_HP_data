@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive SB News */
 get_header('sb');
+session_start();
+$_SESSION['url_type']="sb";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

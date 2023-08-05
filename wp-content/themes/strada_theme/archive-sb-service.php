@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive SB Service */
 get_header("sb");
+session_start();
+$_SESSION['url_type']="sb";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

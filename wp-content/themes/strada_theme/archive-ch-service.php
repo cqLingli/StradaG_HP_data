@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive CH Service */
 get_header("ch");
+session_start();
+$_SESSION['url_type']="ch";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

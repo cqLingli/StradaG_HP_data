@@ -1,8 +1,8 @@
-<?php
+<?php get_header("sb");
+/* Template Name: Front Page SB */
 session_start();
 $_SESSION['url_type']="sb";
-get_header("sb");
-/* Template Name: Front Page SB */
+$_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">

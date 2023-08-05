@@ -249,4 +249,9 @@ function set_menu_order_service_tax($query){
 }
 add_action('pre_get_posts','set_menu_order_service_tax');
 
+function ses_init() {
+   if (!session_id())
+   session_start();
+}
+add_action('init','ses_init');
 ?>

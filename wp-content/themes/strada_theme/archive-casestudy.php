@@ -1,10 +1,10 @@
-<?php
-session_start();
-$_SESSION['url_type']="sb";
-get_header("sb");
+<?php get_header("sb");
 /**
  * Template Name: Archive Bs Casestudy
  */
+session_start();
+$_SESSION['url_type']="sb";
+$_SESSION['page_type']="casestudy";
 ?>
     <!-- .l-main | メインコンテンツ -->
     <main class="l-main p-column">

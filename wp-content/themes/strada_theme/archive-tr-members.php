@@ -2,6 +2,7 @@
 /* Template Name: Archive tr Members */
 session_start();
 $_SESSION['url_type']="tr";
+$_SESSION['page_type']="members";
 get_header('tr');
 
 ?>

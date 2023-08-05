@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive Sz Service */
 get_header("sz");
+session_start();
+$_SESSION['url_type']="sz";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

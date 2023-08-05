@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive Voice */
 get_header();
+session_start();
+$_SESSION['url_type']="";
+$_SESSION['page_type']="voice";
 ?>
  <!-- .l-main | メインコンテンツ -->
   <main class="l-main p-voice">

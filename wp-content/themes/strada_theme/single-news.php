@@ -1,48 +1,37 @@
 <?php
 $get_post_type_archive_link = get_post_type_archive_link('news');
-$breadcrumb = "";
-$HTTP_REFERER = $_SERVER['HTTP_REFERER'];
-if(strpos($HTTP_REFERER,'taxria')){
-    get_header("tr");
-    $get_post_type_archive_link = str_replace("news", "taxria/taxrianewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_tr";
-}
-elseif(strpos($HTTP_REFERER,'sr')){
-    get_header("ss");
-    $get_post_type_archive_link = str_replace("news", "sr/srnewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_ss";
-}
-elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
-    get_header("ch");
-    $get_post_type_archive_link = str_replace("news", "chushoukigyouroudou/chushoukigyouroudounewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_ch";
-}
-elseif(strpos($HTTP_REFERER,'admin')){
-    get_header("sg");
-    $get_post_type_archive_link = str_replace("news", "admin/adminnewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_sg";
-}
-elseif(strpos($HTTP_REFERER,'bs')){
-    get_header("sb");
-    $get_post_type_archive_link = str_replace("news", "bs/bsnewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_sb";
-}
-elseif(strpos($HTTP_REFERER,'tax')){
-    get_header("sz");
-    $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
-    $breadcrumb = "news_sz";
-}
-else{
+session_start();
+$page_type = $_SESSION['page_type'];
+$url_type = $_SESSION['url_type'];
+
+if($url_type){
+    get_header($url_type);
+}else{
     get_header();
-    $breadcrumb = "news";
 }
+if($url_type==="sz"){
+    $get_post_type_archive_link = str_replace("news", "tax/taxnewslist", $get_post_type_archive_link);
+}elseif ($url_type==="sg"){
+    $get_post_type_archive_link = str_replace("news", "admin/adminnewslist", $get_post_type_archive_link);
+}elseif ($url_type==="sb"){
+    $get_post_type_archive_link = str_replace("news", "bs/bsnewslist", $get_post_type_archive_link);
+}elseif ($url_type==="ch"){
+    $get_post_type_archive_link = str_replace("news", "chushoukigyouroudou/chushoukigyouroudounewslist", $get_post_type_archive_link);
+}elseif ($url_type==="tr"){
+    $get_post_type_archive_link = str_replace("news", "taxria/taxrianewslist", $get_post_type_archive_link);
+}elseif ($url_type==="ss"){
+    $get_post_type_archive_link = str_replace("news", "sr/srnewslist", $get_post_type_archive_link);
+}else{
+    $get_post_type_archive_link = str_replace("news", "", $get_post_type_archive_link);
+}
+
 
 ?>
 <main class="l-main p-new01">
 
     <div class="c-breakcrumds">
         <div class="l-container">
-            <?php get_template_part('breadcrumb', $breadcrumb); ?>
+            <?php get_template_part('breadcrumb', 'all'); ?>
         </div>
     </div>
     <div class="c-mainTitle">

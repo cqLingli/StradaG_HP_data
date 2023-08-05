@@ -1,5 +1,8 @@
 <?php get_header("ss");
 /* Template Name: Front Page SS */
+session_start();
+$_SESSION['url_type']="ss";
+$_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">

@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive SG News */
 get_header('sg');
+session_start();
+$_SESSION['url_type']="sg";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

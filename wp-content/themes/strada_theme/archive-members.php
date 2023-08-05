@@ -1,6 +1,9 @@
 <?php
 /* Template Name: group members */
 get_header();
+session_start();
+$_SESSION['url_type']="";
+$_SESSION['page_type']="members";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-member01">

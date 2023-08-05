@@ -1,32 +1,79 @@
 <?php
 $newsurl = get_post_type_archive_link('news');
-$homeurl = str_replace("/news", "", $newsurl);
-$homeurl2 = $homeurl."tax";
-$url3= str_replace("news", "tax/taxnewslist", $newsurl);
+
+$url1=str_replace("/news", "", $newsurl);
+$text1="TOP";
+$url2="";
+$text2="";
+$url3="";
+$text3="";
+$url4="";
+$text4=the_title();
+
+session_start();
+$url_type = $_SESSION['url_type'];
+$thisurl = the_permalink();
+
+
+if($url_type==="sz"){
+    if(strpos($thisurl,'news')){
+        $url2=$url1."tax";
+        $text2="税理士法人トップ";
+        $url3=$url1."tax/taxnewslist";
+        $text3="税理士法人ニュース";
+    }elseif(strpos($thisurl,'service')){
+    
+    }elseif(strpos($thisurl,'voice')){
+    
+    }elseif(strpos($thisurl,'columns')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }
+}elseif ($url_type==="ss"){
+    if(strpos($thisurl,'news')){
+        
+    }elseif(strpos($thisurl,'service')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }
+
+}elseif ($url_type==="ch"){
+    if(strpos($thisurl,'news')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }
+}elseif ($url_type==="sg"){
+    if(strpos($thisurl,'news')){
+        
+    }elseif(strpos($thisurl,'service')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }
+
+}elseif ($url_type==="sb"){
+    if(strpos($thisurl,'news')){
+        
+    }elseif(strpos($thisurl,'service')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }elseif(strpos($thisurl,'casestudy')){
+    }
+
+}elseif ($url_type==="tr"){
+    if(strpos($thisurl,'news')){
+        
+    }elseif(strpos($thisurl,'service')){
+    
+    }elseif(strpos($thisurl,'members')){
+    
+    }
+
+
+}
+
 ?>
-<span property="itemListElement" typeof="ListItem">
-    <a property="item" typeof="WebPage" title="Go to 中央区日本橋の税理士法人【ストラーダ税理士法人】." href="<?php echo $homeurl ?>" class="home">
-        <span property="name">TOP</span>
-    </a>
-    <meta property="position" content="1">
-</span>
-&gt;
-<span property="itemListElement" typeof="ListItem">
-    <a property="item" typeof="WebPage" title="Go to 税理士法人トップ." href="<?php echo $homeurl2 ?>" class="post post-page">
-        <span property="name">税理士法人トップ</span>
-    </a>
-    <meta property="position" content="2">
-</span>
-&gt;
-<span property="itemListElement" typeof="ListItem">
-    <a property="item" typeof="WebPage" title="Go to 税理士法人ニュース." href="<?php echo $url3 ?>" class="post post-page">
-        <span property="name">税理士法人ニュース</span>
-    </a>
-    <meta property="position" content="3">
-</span>
-&gt;
-<span property="itemListElement" typeof="ListItem">
-    <span property="name" class="post post-page current-item"><?php echo $get_post_type_archive_link ?><?php the_title() ?></span>
-    <meta property="url" content="">
-    <meta property="position" content="4">
-</span>

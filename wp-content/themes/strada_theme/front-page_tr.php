@@ -1,5 +1,8 @@
 <?php get_header("tr");
 /* Template Name: Front Page TR */
+session_start();
+$_SESSION['url_type']="tr";
+$_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-top">

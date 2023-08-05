@@ -1,5 +1,8 @@
 <?php
-get_header("sz");
+get_header("");
+session_start();
+$_SESSION['url_type']="";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

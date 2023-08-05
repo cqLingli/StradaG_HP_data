@@ -1,9 +1,9 @@
 <?php
 /* Template Name: Archive sg Members */
+get_header('sg');
 session_start();
 $_SESSION['url_type']="sg";
-get_header('sg');
-
+$_SESSION['page_type']="members";
 ?>
     <!-- .l-main | メインコンテンツ -->
     <main class="l-main p-member02">

@@ -1,8 +1,9 @@
 <?php
 /* Template Name: Archive SB Members */
+get_header('sb');
 session_start();
 $_SESSION['url_type']="sb";
-get_header('sb');
+$_SESSION['page_type']="members";
 
 ?>
     <!-- .l-main | メインコンテンツ -->

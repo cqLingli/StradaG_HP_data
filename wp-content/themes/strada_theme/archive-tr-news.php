@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive TR News */
 get_header('tr');
+session_start();
+$_SESSION['url_type']="tr";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

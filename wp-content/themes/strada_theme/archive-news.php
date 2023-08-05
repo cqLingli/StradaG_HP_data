@@ -1,6 +1,9 @@
 <?php
 /* Template Name: group news */
 get_header();
+session_start();
+$_SESSION['url_type']="";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

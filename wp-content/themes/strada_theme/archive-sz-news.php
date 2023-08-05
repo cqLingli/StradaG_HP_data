@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive Sz News */
 get_header('sz');
+session_start();
+$_SESSION['url_type']="sz";
+$_SESSION['page_type']="news";
 ?>
 
 <!-- .l-main | メインコンテンツ -->
@@ -64,4 +67,4 @@ get_header('sz');
 </main>
 
 
-<?php get_footer('sz'); ?>
+<?php get_footer('sz');?>

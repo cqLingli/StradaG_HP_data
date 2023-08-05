@@ -1,6 +1,9 @@
 <?php
 /* Template Name: Archive SR Service */
 get_header("ss");
+session_start();
+$_SESSION['url_type']="ss";
+$_SESSION['page_type']="service";
 ?>
 
 <!-- .l-main | メインコンテンツ -->

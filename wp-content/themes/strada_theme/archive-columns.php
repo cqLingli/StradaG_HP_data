@@ -1,5 +1,8 @@
 <?php
 get_header();
+session_start();
+$_SESSION['url_type']="";
+$_SESSION['page_type']="columns";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">

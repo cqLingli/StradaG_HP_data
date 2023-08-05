@@ -2,6 +2,7 @@
 /* Template Name: Archive CH Members */
 session_start();
 $_SESSION['url_type']="ch";
+$_SESSION['page_type']="members";
 get_header('ch');
 
 ?>
