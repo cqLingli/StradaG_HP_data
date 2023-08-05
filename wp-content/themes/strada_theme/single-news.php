@@ -22,7 +22,7 @@ if($url_type==="sz"){
 }elseif ($url_type==="ss"){
     $get_post_type_archive_link = str_replace("news", "sr/srnewslist", $get_post_type_archive_link);
 }else{
-    $get_post_type_archive_link = str_replace("news", "", $get_post_type_archive_link);
+    $get_post_type_archive_link = str_replace("news", "news", $get_post_type_archive_link);
 }
 
 
@@ -59,14 +59,16 @@ if($url_type==="sz"){
             }
           ?>
         </div>
-      </div>
-    </div>
-      <a href="<?php echo $get_post_type_archive_link ?>" class="c-back-list">
-          一覧へ戻る
-          <span class="i-arrow">
+
+        <a href="<?php echo $get_post_type_archive_link ?>" class="c-back-list">
+            一覧へ戻る
+            <span class="i-arrow">
             <img src="<?php echo get_template_directory_uri(); ?>/images/new02/i_arrow.svg" alt="" />
           </span>
-      </a>
+        </a>
+    </div>
+    </div>
+
   </div>
 </main>
 

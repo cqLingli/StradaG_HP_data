@@ -1982,7 +1982,7 @@ div.catch {
   width: 100%; 
   min-width: 600px; 
   z-index: 99999; 
-  background: #153d6e;
+  background: #6A6969;
   padding-left: 5px;
   }
 @media screen and (max-width: 500px) {
@@ -4553,7 +4553,7 @@ title - 共通のタイトルやテキストなど
   }
 .c-new-content {
     /*padding-bottom: 129px;*/
-    background: #F3F4F4;
+    background: #F4F4F4;
     margin-top:30px
   }
 
@@ -4571,6 +4571,8 @@ title - 共通のタイトルやテキストなど
     margin-top: 42px;
     padding: 40px 52px;
     background: #fff;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
   }
   @media screen and (max-width: 575px) {
     .p-new01 .c-new-content .c-list-news {
@@ -14680,7 +14682,7 @@ top: 30px;
 
 }
   .menber-single-content{
-
+    margin-top: 1%;
 }
 }
 @media screen and (max-width: 991px) and (min-width: 760px){
@@ -14843,4 +14845,12 @@ top: 30px;
   .singleVoice01{
     padding:30px 30px 0 30px
   }
+}
+@media screen and (max-width: 991px) and (min-width: 760px){
+  .group_content{
+    margin-top: 1%!important;
+  }
+}
+@media screen and (max-width: 760px) {
+
 }

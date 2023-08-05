@@ -14,7 +14,7 @@ $_SESSION['page_type']="news";
     </div>
   </div>
   <div class="c-mainTitle">
-    <div class="c-mainTitle_content">
+    <div class="c-mainTitle_content group_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
           ニュース

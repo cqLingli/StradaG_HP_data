@@ -55,7 +55,7 @@ $_SESSION['page_type']="top";
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%">
               <div style="width:95%;color:#6A6969;font-weight:bold;font-size:15px;">ニュース</div>
-              <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
+              <a href="<?php echo home_url('news'); ?>" style="text-decoration:none">
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
                     style="width:30px" />
