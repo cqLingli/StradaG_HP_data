@@ -26,7 +26,7 @@ if($url_type==="sz"){
 <main class="l-main p-member02">
   <div class="c-breakcrumds">
     <div class="l-container">
-      <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+        <?php get_template_part('breadcrumb', 'all'); ?>
     </div>
   </div>
     <!-- end c-breakcrumds -->

@@ -1,12 +1,26 @@
 <?php
 /* Template Name: Single Voice */
-get_header("sz");
+$get_post_type_archive_link = get_post_type_archive_link('voice');
+session_start();
+$page_type = $_SESSION['page_type'];
+$url_type = $_SESSION['url_type'];
+
+if($url_type){
+    get_header("sz");
+}else{
+    get_header();
+}
+if($url_type==="sz"){
+    $get_post_type_archive_link = str_replace("voice", "tax/taxvoicelist", $get_post_type_archive_link);
+}else{
+    $get_post_type_archive_link = str_replace("voice", "", $get_post_type_archive_link);
+}
 ?>
  <!-- .l-main | メインコンテンツ -->
   <main class="l-main p-voice02">
     <div class="c-breakcrumds">
       <div class="l-container">
-        <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+        <?php get_template_part('breadcrumb', 'all'); ?>
       </div>
     </div>
     <!-- end c-breakcrumds -->
@@ -186,7 +200,7 @@ get_header("sz");
                           </div>
                           
             <div class="c-btn01 c-btn01__center c-btn01__blue">
-              <a  href="<?php echo home_url('tax/taxvoicelist'); ?>">
+              <a  href="<?php echo $get_post_type_archive_link ; ?>">
                 <span >一覧に戻ろ</span>
               </a>
             </div>
