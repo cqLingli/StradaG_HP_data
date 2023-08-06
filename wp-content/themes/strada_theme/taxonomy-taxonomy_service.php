@@ -1,42 +1,25 @@
 <?php
 session_start();
-$HTTP_REFERER = $_SERVER['HTTP_REFERER'];
-if(strpos($HTTP_REFERER,'taxria')){
-    get_header("tr");
-    $_SESSION['url_type'] = "tr";
-    $company='TR';
-
-}
-elseif(strpos($HTTP_REFERER,'sr')){
-    get_header("ss");
-    $_SESSION['url_type'] = "ss";
-    $company='SS';
-}
-elseif(strpos($HTTP_REFERER,'chushoukigyouroudou')){
-    get_header("ch");
-    $_SESSION['url_type'] = "ch";
-    $company='CH';
-}
-elseif(strpos($HTTP_REFERER,'admin')){
-    get_header("sg");
-    $_SESSION['url_type'] = "sg";
-    $company='SG';
-}
-elseif(strpos($HTTP_REFERER,'bs')){
-    get_header("sb");
-    $_SESSION['url_type'] = "sb";
-    $company='SB';
-}
-elseif(strpos($HTTP_REFERER,'tax')){
-    get_header("sz");
-    $_SESSION['url_type'] = "sz";
-    $company='SZ';
-}
-else{
+$company;
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_header($url_type);
+}else{
     get_header();
-
 }
-
+if($url_type==="sz"){
+    $company="SZ";
+}elseif ($url_type==="sg"){
+    $company="SG";
+}elseif ($url_type==="sb"){
+    $company="SB";
+}elseif ($url_type==="ch"){
+    $company="CH";
+}elseif ($url_type==="tr"){
+    $company="TR";
+}elseif ($url_type==="ss"){
+    $company="SS";
+}
 ?>
 
 <?php
@@ -60,7 +43,7 @@ $mv = get_field('service_cat_mv', $qo);
 
         <div class="c-breakcrumds">
             <div class="l-container">
-                <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+                <?php get_template_part('breadcrumb', 'all'); ?>
             </div>
         </div>
         <!-- end c-breakcrumds -->

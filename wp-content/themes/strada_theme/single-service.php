@@ -28,7 +28,7 @@ if($mv){
   <main class="l-main s-service">
     <div class="c-breakcrumds">
       <div class="l-container">
-        <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+            <?php get_template_part('breadcrumb', 'all'); ?>
       </div>
     </div>
     <!-- end c-breakcrumds -->

@@ -9,6 +9,7 @@ $url3="";
 $text3="";
 $url4="";
 
+$breadcrumbType = "";
 
 session_start();
 $url_type = $_SESSION['url_type'];
@@ -21,13 +22,35 @@ if($url_type==="sz"){
         $text2="税理士法人トップ";
         $url3=$url1."tax/taxnewslist";
         $text3="税理士法人ニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'service')){
-    
+        if(is_tax()){
+            $url2=$url1."tax";
+            $text2="税理士法人トップ";
+            $url3=$url1."tax/taxservicelist";
+            $text3="税理士法人サービス";
+            $term = get_queried_object();
+            $text4="事業内容:".$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."tax";
+            $text2="税理士法人トップ";
+            $url3=$url1."tax/taxservicelist";
+            $text3="税理士法人サービス";
+            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $url4=$url1."service/".$terms[0]->slug;
+            $text4="事業内容:".$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'voice')){
         $url2=$url1."tax";
         $text2="税理士法人トップ";
         $url3=$url1."tax/taxvoicelist";
         $text3="税理士法人お客様の声";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'columns')){
     
     }elseif(strpos($thisurl,'members')){
@@ -35,7 +58,8 @@ if($url_type==="sz"){
         $text2="税理士法人トップ";
         $url3=$url1."tax/taxmenber";
         $text3="税理士法人メンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }
 }elseif ($url_type==="ss"){
     if(strpos($thisurl,'news')){
@@ -43,14 +67,35 @@ if($url_type==="sz"){
         $text2="社労士法人トップ";
         $url3=$url1."sr/srnewslist";
         $text3="社労士法人ニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'service')){
-    
+        if(is_tax()){
+            $url2=$url1."sr";
+            $text2="社労士法人トップ";
+            $url3=$url1."sr/taxservicelist";
+            $text3="社労士法人サービス";
+            $term = get_queried_object();
+            $text4="事業内容:".$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."sr";
+            $text2="社労士法人トップ";
+            $url3=$url1."sr/taxservicelist";
+            $text3="社労士法人サービス";
+            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $url4=$url1."service/".$terms[0]->slug;
+            $text4="事業内容:".$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."sr";
         $text2="社労士法人トップ";
         $url3=$url1."sr/srmenber";
         $text3="社労士法人メンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }
 
 }elseif ($url_type==="ch"){
@@ -59,12 +104,15 @@ if($url_type==="sz"){
         $text2="中小企業労働企画開発協会トップ";
         $url3=$url1."chushoukigyouroudou/chushoukigyouroudounewslist";
         $text3="中小企業労働企画開発協会ニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."chushoukigyouroudou";
         $text2="中小企業労働企画開発協会トップ";
         $url3=$url1."chushoukigyouroudou/chushoukigyouroudoumenber";
         $text3="中小企業労働企画開発協会メンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }
 }elseif ($url_type==="sg"){
     if(strpos($thisurl,'news')){
@@ -72,14 +120,35 @@ if($url_type==="sz"){
         $text2="行政書士トップ";
         $url3=$url1."admin/adminnewslist";
         $text3="行政書士ニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'service')){
-    
+        if(is_tax()){
+            $url2=$url1."admin";
+            $text2="行政書士トップ";
+            $url3=$url1."admin/taxservicelist";
+            $text3="行政書士サービス";
+            $term = get_queried_object();
+            $text4="事業内容:".$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."admin";
+            $text2="行政書士トップ";
+            $url3=$url1."admin/taxservicelist";
+            $text3="行政書士サービス";
+            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $url4=$url1."service/".$terms[0]->slug;
+            $text4="事業内容:".$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."admin";
         $text2="行政書士トップ";
         $url3=$url1."admin/adminmenber";
         $text3="行政書士メンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }
 
 }elseif ($url_type==="sb"){
@@ -88,14 +157,35 @@ if($url_type==="sz"){
         $text2="ビジネスサポートトップ";
         $url3=$url1."bs/bsnewslist";
         $text3="ビジネスサポートニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'service')){
-    
+        if(is_tax()){
+            $url2=$url1."bs";
+            $text2="ビジネスサポートトップ";
+            $url3=$url1."bs/taxservicelist";
+            $text3="ビジネスサポートサービス";
+            $term = get_queried_object();
+            $text4="事業内容:".$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."bs";
+            $text2="ビジネスサポートトップ";
+            $url3=$url1."bs/taxservicelist";
+            $text3="ビジネスサポートサービス";
+            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $url4=$url1."service/".$terms[0]->slug;
+            $text4="事業内容:".$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."bs";
         $text2="ビジネスサポートトップ";
         $url3=$url1."bs/bsmenber";
         $text3="ビジネスサポートメンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'casestudy')){
     
     }
@@ -106,39 +196,83 @@ if($url_type==="sz"){
         $text2="タックスリアルティトップ";
         $url3=$url1."taxria/taxrianewslist";
         $text3="タックスリアルティニュース";
+        $text4=get_the_title();
+        $breadcrumbType="4";
     }elseif(strpos($thisurl,'service')){
-    
+        if(is_tax()){
+            $url2=$url1."taxria";
+            $text2="タックスリアルティトップ";
+            $url3=$url1."taxria/taxservicelist";
+            $text3="タックスリアルティサービス";
+            $term = get_queried_object();
+            $text4="事業内容:".$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."taxria";
+            $text2="タックスリアルティトップ";
+            $url3=$url1."taxria/taxservicelist";
+            $text3="タックスリアルティサービス";
+            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $url4=$url1."service/".$terms[0]->slug;
+            $text4="事業内容:".$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."taxria";
         $text2="タックスリアルティトップ";
         $url3=$url1."taxria/taxriamenber";
         $text3="タックスリアルティメンバー";
-        $text4="メンバー紹介:";
+        $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
     }
 }else{
     if(strpos($thisurl,'news')){
         $url2=$url1."news";
         $text2="ニュース";
+        $text3=get_the_title();
+        $breadcrumbType="3";
     }elseif(strpos($thisurl,'service')){
-    
+        //作成なし
     }elseif(strpos($thisurl,'columns')){
-    
+        //作成なし
     }elseif(strpos($thisurl,'members')){
-        $text4="メンバー紹介:";
+        $text2="メンバー紹介:".get_the_title();
+        $breadcrumbType="2";
     }
 }
 
+
+
+
+
 ?>
 
-<?php if($url_type===""){ ?>
+
+
+
+
+<?php if($breadcrumbType==="2"){ ?>
     <span property="itemListElement" typeof="ListItem">
         <a property="item" typeof="WebPage" title="Go to <?php echo $text1 ?>." href="<?php echo $url1 ?>" class="home">
             <span property="name">TOP</span>
         </a>
         <meta property="position" content="1">
     </span>
-    
-  <?php if($text2!=""){ ?>
+    &gt;
+    <span property="itemListElement" typeof="ListItem">
+        <span property="name" class="post post-page current-item"><?php echo $text2 ?></span>
+        <meta property="url" content="">
+        <meta property="position" content="3">
+    </span>
+<?php } elseif($breadcrumbType==="3") { ?>
+
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to <?php echo $text1 ?>." href="<?php echo $url1 ?>" class="home">
+            <span property="name">TOP</span>
+        </a>
+        <meta property="position" content="1">
+    </span>
     &gt;
     <span property="itemListElement" typeof="ListItem">
         <a property="item" typeof="WebPage" title="Go to <?php echo $text2 ?>." href="<?php echo $url2 ?>" class="post post-page">
@@ -146,18 +280,14 @@ if($url_type==="sz"){
         </a>
         <meta property="position" content="2">
     </span>
-  <?php } ?>
     &gt;
     <span property="itemListElement" typeof="ListItem">
-        <span property="name" class="post post-page current-item"><?php echo $text4 ?><?php the_title() ?></span>
+        <span property="name" class="post post-page current-item"><?php echo $text3 ?></span>
         <meta property="url" content="">
         <meta property="position" content="3">
-
-
-
-<?php } else { ?>
-
-
+    </span>
+        
+<?php } elseif($breadcrumbType==="4") { ?>
     <span property="itemListElement" typeof="ListItem">
         <a property="item" typeof="WebPage" title="Go to <?php echo $text1 ?>." href="<?php echo $url1 ?>" class="home">
             <span property="name">TOP</span>
@@ -180,10 +310,45 @@ if($url_type==="sz"){
     </span>
     &gt;
     <span property="itemListElement" typeof="ListItem">
-        <span property="name" class="post post-page current-item"><?php echo $text4 ?><?php the_title() ?></span>
+        <span property="name" class="post post-page current-item"><?php echo $text4 ?></span>
         <meta property="url" content="">
         <meta property="position" content="4">
     </span>
-</span>
-
+<?php } elseif($breadcrumbType==="5") { ?>
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to <?php echo $text1 ?>." href="<?php echo $url1 ?>" class="home">
+            <span property="name">TOP</span>
+        </a>
+        <meta property="position" content="1">
+    </span>
+    &gt;
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to <?php echo $text2 ?>." href="<?php echo $url2 ?>" class="post post-page">
+            <span property="name"><?php echo $text2 ?></span>
+        </a>
+        <meta property="position" content="2">
+    </span>
+    &gt;
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to <?php echo $text3 ?>." href="<?php echo $url3 ?>" class="post post-page">
+            <span property="name"><?php echo $text3 ?></span>
+        </a>
+        <meta property="position" content="3">
+    </span>
+    &gt;
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to <?php echo $text4 ?>." href="<?php echo $url4 ?>" class="post post-page">
+            <span property="name"><?php echo $text4 ?></span>
+        </a>
+        <meta property="position" content="3">
+    </span>
+    &gt;
+    <span property="itemListElement" typeof="ListItem">
+        <span property="name" class="post post-page current-item"><?php echo $text5 ?></span>
+        <meta property="url" content="">
+        <meta property="position" content="4">
+    </span>
 <?php } ?>
+
+
+
