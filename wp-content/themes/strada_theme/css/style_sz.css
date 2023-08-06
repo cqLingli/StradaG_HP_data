@@ -10386,7 +10386,15 @@ font-weight: bold;
   font-size: 1.6rem;
   margin-bottom: 45px;
 }
-
+.c-form .row.end{
+  margin-bottom:0!important;
+}
+.c-form .row.protection{
+  margin-top:0;
+}
+.mwform-checkbox-field-text{
+  font-weight:800;
+}
 .c-form .row.last{
   margin-bottom:0!important;
 }
@@ -10409,6 +10417,17 @@ font-weight: bold;
   height: 14px;
   width: 28px;
   background: red;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  line-height: 1;
+  margin-left: 13px;
+}
+.c-form .head .nonerequired{
+  height: 14px;
+  width: 28px;
   display: flex;
   font-size: 1rem;
   align-items: center;
