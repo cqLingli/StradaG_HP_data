@@ -14207,7 +14207,7 @@ top: 30px;
 .serviceItem_top {
   display: inline-grid;
   margin-bottom: 45px;
-  border: 2px solid;
+  border: 1px solid;
   width: calc(100% / 3.1);
   padding: 8px 8px 8px 8px;
   background: white;
@@ -14216,7 +14216,7 @@ top: 30px;
   .serviceItem_top {
     display: inline-grid;
     margin-bottom: 45px;
-    border: 2px solid;
+    border: 1px solid;
     width: calc(100% / 1);
     padding: 8px 8px 8px 8px;
     background: white;
@@ -14226,7 +14226,7 @@ top: 30px;
   .serviceItem_top {
     display: inline-grid;
     margin-bottom: 45px;
-    border: 2px solid;
+    border: 1px solid;
     width: calc(100% / 2.01);
     padding: 8px 8px 8px 8px;
     background: white;
@@ -14236,7 +14236,7 @@ top: 30px;
 .serviceItem_top2 {
   display: inline-grid;
   margin-bottom: 45px;
-  border: 2px solid;
+  border: 1px solid;
   width: calc(100% / 3.1);
   padding: 8px 8px 8px 8px;
   background: white;
@@ -14246,7 +14246,7 @@ top: 30px;
   .serviceItem_top2 {
     display: inline-grid;
     margin-bottom: 45px;
-    border: 2px solid;
+    border: 1px solid;
     width: calc(100% / 1);
     padding: 8px 8px 8px 8px;
     background: white;
@@ -14257,7 +14257,7 @@ top: 30px;
   .serviceItem_top2 {
     display: inline-grid;
     margin-bottom: 45px;
-    border: 2px solid;
+    border: 1px solid;
     width: calc(100% / 2.01);
     padding: 8px 8px 8px 8px;
     background: white;
