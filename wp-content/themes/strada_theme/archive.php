@@ -11,7 +11,7 @@ get_header("sz");
 <main class="l-main p-column">
   <div class="c-breakcrumds">
     <div class="l-container">
-      <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+        <?php get_template_part('breadcrumb', 'all'); ?>
     </div>
   </div>
   <!-- end c-breakcrumds -->
@@ -27,6 +27,7 @@ get_header("sz");
             }elseif(is_category()){
                 global $wp_query;
                 $_SESSION["CAT_NAME"] = $wp_query->queried_object->cat_name;
+                $_SESSION["CAT_SLUG"] = $wp_query->queried_object->slug;
                 single_cat_title();
             }elseif(is_tag()){
               single_tag_title();

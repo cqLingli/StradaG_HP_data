@@ -52,7 +52,27 @@ if($url_type==="sz"){
         $text4=get_the_title();
         $breadcrumbType="4";
     }elseif(strpos($thisurl,'columns')){
-    
+        if(is_archive()){
+            $url2=$url1."tax";
+            $text2="税理士法人トップ";
+            $url3=$url1."tax/taxcolumn1";
+            $text3="税理士法人お役立ち情報";
+            $category = get_the_category();
+            $text4=$_SESSION["CAT_NAME"] ;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."tax";
+            $text2="税理士法人トップ";
+            $url3=$url1."tax/taxcolumn1";
+            $text3="税理士法人お役立ち情報";
+            
+            $category = get_the_category();
+            $url4=$url1."columns/category/".$_SESSION["CAT_SLUG"];
+            $text4=$_SESSION["CAT_NAME"] ;
+
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."tax";
         $text2="税理士法人トップ";
