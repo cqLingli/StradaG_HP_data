@@ -1,7 +1,7 @@
-<?php get_header("sz");
+<?php get_header("ss");
 /* Template Name: Front Page SZ */
 session_start();
-$_SESSION['url_type']="sz";
+$_SESSION['url_type']="ss";
 $_SESSION['page_type']="top";
 ?>
 <!-- .l-main | メインコンテンツ -->
