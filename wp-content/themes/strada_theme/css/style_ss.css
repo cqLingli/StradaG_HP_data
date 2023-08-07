@@ -14152,10 +14152,12 @@ width:100%;
 }
 .border-text9
 {
-  width: 300px;
   position: relative;
-  left: 300px;
-  top: 30px;
+  top:-4px;
+  font-size:18px;
+  font-weight: bold;
+  color:#676767;
+  margin-bottom:-6px
 }
 .contents_number{
   display: inline-block;
@@ -14817,27 +14819,23 @@ width:100%;
 .price_head {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #808C96, #F3F5F6) !important;
-  padding-left: 10px !important;
-  margin-top: 30px !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   margin-bottom: 30px !important;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 .left_heading{
-  margin-bottom: 20px;
-  padding-left: 13px;
-  border-left: 4px solid #808C96;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 10px solid #EC7700;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 1;
   border-bottom: 1px dotted;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
-.t-price tr th {
-  color: white !important;
-  background-color: #808C96 !important;
-}
+
 .p-entry__body {
   background-color: #F3F5F6 !important;
 }
@@ -14856,4 +14854,75 @@ width:100%;
 }
 .has-medium-font-size {
   color: #808C96 !important;
+}
+
+.body1{
+  background-color: #FFF0E5 !important;
+  padding-top: 30px !important;
+  margin-top: 30px;
+}
+
+.c-price{
+  background:url('../images/mv/mv-about.jpg') no-repeat;
+  background-size:cover;
+  background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+.is-style-stripes{
+  margin:0;
+  padding-bottom: 30px;
+}
+
+.body1 tr th {
+  color: black !important;
+  background-color: #F3F5F6 !important;
+  width:12.5%
+}
+
+.body1 tr td {
+  color: black !important;
+  background-color: #fff !important;
+  width:12.5%
+}
+
+.body2 tr th {
+  color: black !important;
+  background-color: #DADBDB !important;
+  width:37.5%
+}
+
+.body2 tr td {
+  color: black !important;
+  background-color: #fff !important;
+}
+
+.body1 .has-text-align-center1{
+  border: 1px solid black !important;
+  width:12.5%
+  
+}
+
+.body1 .has-text-align-center2{
+  border: 1px solid black !important;
+  width:87.5%
+  
+}
+
+.wp-block-table.is-style-stripes{
+  border-bottom:0px !important;
+}
+
+.body2{
+  background-color: #fff !important;
+  margin-top: 30px;
+}
+
+.has-text-align-left{
+  border: 1px solid black !important;
+}
+
+.is-style-stripes1{
+  padding-bottom:0px
 }

@@ -1,5 +1,6 @@
 <div class="t-price">
-  <div class="c-mainTitle">
+<div class="l-container">
+  <div class="c-mainTitle c-price">
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -9,9 +10,12 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="l-contents__inner l-inner mt50">
       <div class="l-primary">
           <div class="p-entry__body body1">
+          <div class="l-container">
+          <div style="margin-left:5.5%;margin-right:5.5%">
               <div class="price_head">「顧問契約」の料金</div>
               <h3 class="left_heading">アドバイザリー顧問</h3>
               <figure class="wp-block-table is-style-stripes">
@@ -39,17 +43,15 @@
                           </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">給与計算顧問</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
                           <tr>
-                              <th class="has-text-align-center">基本料金月額</th>
-                              <td class="has-text-align-center">10,000円+1,000円×人数</td>
+                              <th class="has-text-align-center1">基本料金月額</th>
+                              <td class="has-text-align-center2">10,000円+1,000円×人数</td>
                           </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">労務・手続顧問</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -76,7 +78,11 @@
                   </table>
               </figure>
           </div>
+          </div>
+          </div>
           <div  class="p-entry__body body2">
+          <div class="l-container">
+          <div style="margin-left:5.5%;margin-right:5.5%">
           <div class="price_head">「スポット契約」の料金</div>
               <h3 class="left_heading">給与計算顧問</h3>
               <figure class="wp-block-table is-style-stripes">
@@ -108,7 +114,6 @@
                           </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">入退社時支援</h3>
               <figure class="wp-block-table is-style-stripes">
                 <table>
@@ -166,7 +171,6 @@
                     </tr>
                 </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">中小事業主が労災保険に加入したい時</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -176,7 +180,6 @@
                           </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">中小事業主が労災保険に加入したい時</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -190,7 +193,6 @@
                           </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">出産・育児・介護休暇</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -226,7 +228,6 @@
                     </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">従業員が怪我をした場合</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -316,7 +317,6 @@
                     </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">調査立会い</h3>
               <figure class="wp-block-table is-style-stripes">
                   <table>
@@ -334,9 +334,8 @@
                     </tr>
                   </table>
               </figure>
-              <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
               <h3 class="left_heading">アウトソーシング支援</h3>
-              <figure class="wp-block-table is-style-stripes">
+              <figure class="wp-block-table is-style-stripes is-style-stripes1">
                   <table>
                       <tr>
                         <th class="has-text-align-left">社会保険の算定届（7月）</th>
@@ -353,6 +352,8 @@
                       
                   </table>
               </figure>
+          </div>
+          </div>
           </div>
       </div>
   </div>

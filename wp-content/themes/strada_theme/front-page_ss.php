@@ -273,13 +273,15 @@ $_SESSION['page_type']="top";
     <!-- start Recruit -->
     <a id="Recruit" class="target-fix"></a>
     <div class="block_wrap9">
-        <div class="border-text9"></div>
         <div class="l-container">
+        <div style="display:flex">
             <div id="block_wrap9" class="title_item_wrap9 active9">
                 <p class="chapter_title9">Recruit
                 <div class="circle9"></div>
                 </p>
             </div>
+            <div class="border-text9">採用情報</div>
+        </div>
         </div>
         <div class="border-bt9"></div>
         <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
