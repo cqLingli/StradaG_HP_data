@@ -65,11 +65,13 @@
                                         ?>
 
                                     </div>
-                                    <div class="service_title_icon">
+
                                         <a  href="<?php echo get_permalink(get_the_ID());?>">
+                                            <div class="service_title_icon">
                                             <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
+                                            </div>
                                         </a>
-                                    </div>
+
                                 </div>
                             </div>
 
