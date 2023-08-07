@@ -1,7 +1,7 @@
 <div class="t-price">
 <div class="l-container">
   <div class="c-mainTitle c-price">
-    <div class="c-mainTitle_content">
+    <div class="c-mainTitle_content priceStyle">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
         料金表

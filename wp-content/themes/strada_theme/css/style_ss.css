@@ -13874,7 +13874,6 @@ width:100%;
   width:100%;
   overflow-x: hidden;
   flex-wrap: wrap;
-  margin-top: 2%;
 }
 .circle6 {
   width: 22px;
@@ -14878,19 +14877,19 @@ width:100%;
 .body1 tr th {
   color: black !important;
   background-color: #F3F5F6 !important;
-  width:12.5%
+  width:12.5%;
 }
 
 .body1 tr td {
   color: black !important;
   background-color: #fff !important;
-  width:12.5%
+  width:12.5%;
 }
 
 .body2 tr th {
   color: black !important;
   background-color: #DADBDB !important;
-  width:37.5%
+  width:37.5%;
 }
 
 .body2 tr td {
@@ -14900,13 +14899,13 @@ width:100%;
 
 .body1 .has-text-align-center1{
   border: 1px solid black !important;
-  width:12.5%
+  width:12.5%;
   
 }
 
 .body1 .has-text-align-center2{
   border: 1px solid black !important;
-  width:87.5%
+  width:87.5%;
   
 }
 
@@ -14925,4 +14924,48 @@ width:100%;
 
 .is-style-stripes1{
   padding-bottom:0px
+}
+.priceStyle{
+  margin-top:30px
+}
+
+@media screen and (max-width: 991px) {
+
+  .body1 tr th{
+    font-size:12px
+  }
+
+  .body1 tr td{
+    font-size:12px
+  }
+
+  .body2 tr th{
+    font-size:12px
+  }
+
+  .body2 tr td{
+    font-size:12px
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .left_heading{
+    font-size: 1.8rem;
+  }
+
+  .body1 tr th {
+    white-space: nowrap;
+  }
+  
+  .body1 tr td {
+    white-space: nowrap;
+  }
+  
+  .body2 tr th {
+    width:60%
+  }
+  
+  .body2 tr td {
+    width:40%
+  }
 }
