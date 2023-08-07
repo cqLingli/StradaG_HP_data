@@ -1982,7 +1982,7 @@ div.catch {
   width: 100%;
   min-width: 600px;
   z-index: 99999;
-  background: #153d6e;
+  background: #EC7700;
   padding-left: 5px;
 }
 @media screen and (max-width: 500px) {
@@ -2074,7 +2074,7 @@ div.catch {
   height: 25px;
   margin-bottom: 7px;
   border-radius: 25px;
-  background: #153f6f;
+  background: #EC7700;
   color: #fff;
   font-size: 1.4rem;
   line-height: 22px;
@@ -2088,7 +2088,7 @@ div.catch {
   height: 10px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #153f6f;
+  background: #EC7700;
   content: "";
 }
 .h-phone .time {
@@ -2217,7 +2217,7 @@ div.catch {
     padding: 0 15px;
     padding: 15px 10px;
     border-bottom: 1px solid #ccc;
-    color: #333;
+    color: #EC7700;
     font-size: 1.4rem;
     font-weight: 400;
     text-decoration: none;
@@ -2279,7 +2279,7 @@ div.catch {
   .h-nav > li > a {
     display: block;
     position: relative;
-    color: #153d6e;
+    color: #EC7700;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 70px;
@@ -2517,7 +2517,7 @@ button - ボタン関係のコンポーネント
   fill: #fff;
 }
 .c-btn01__blue a {
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
 }
 .c-btn01__blue a:hover {
@@ -2538,11 +2538,11 @@ button - ボタン関係のコンポーネント
 }
 .c-btn01__white a {
   background-color: #fff;
-  color: #153f6f;
+  color: #EC7700;
 }
 .c-btn01__white a:hover {
   border-color: #fff;
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
 }
 .c-btn01__white a:hover svg {
@@ -2981,14 +2981,14 @@ div#企業概要 {
 .p-about_group .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
 .p-about_history .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3006,7 +3006,7 @@ div#企業概要 {
 }
 .company_right a {
   margin-left: 20px;
-  color: #003E75;
+  color: #EC7700;
   text-decoration: none;
 }
 .company_right img {
@@ -3049,7 +3049,7 @@ div#企業概要 {
 }
 .p-about_introHead p {
   margin-bottom: 10px;
-  color: #153f6f;
+  color: #EC7700;
   font-size: 1.6rem;
 }
 .p-about_introHead h3 {
@@ -3249,14 +3249,14 @@ div#企業概要 {
 }
 .p-column .c-pagenation ul li.is-active a,
 .p-column .c-pagenation ul li:hover a {
-  border-color: #153f6f;
-  background-color: #153f6f;
+  border-color: #EC7700;
+  background-color: #EC7700;
   color: #fff;
 }
 .p-column .c-tlt04 {
   padding-left:10px;
   margin-bottom: 15px;
-  background: linear-gradient(to right,#153F6F 30%, #E3E8F1 100%);
+  background: linear-gradient(to right,#EC7700 30%, #E3E8F1 100%);
   color: #fff;
   font-size: 2.2rem;
   font-weight: bold;
@@ -3414,7 +3414,7 @@ div#企業概要 {
 }
 .p-column__list .item .txt .cat {
   padding: 2px 5px;
-  background-color: #153F6F;
+  background-color: #EC7700;
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
@@ -3423,7 +3423,7 @@ div#企業概要 {
 @media screen and (max-width: 767px) {
   .p-column__list .item .txt .cat {
     padding: 2px 5px;
-    background-color: #153F6F;
+    background-color: #EC7700;
     color: white;
     font-size: 1.1rem;
     font-weight: bold;
@@ -3482,7 +3482,7 @@ div#企業概要 {
   bottom: -2px;
   width: 20%;
   height: 2px;
-  background-color: #153f6f;
+  background-color: #EC7700;
   content: "";
 }
 @media screen and (max-width: 991px) {
@@ -3630,7 +3630,7 @@ div#企業概要 {
 }
 .p-column__post .box .cat {
   padding: 2px 10px;
-  background-color: #153F6F;
+  background-color: #EC7700;
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
@@ -3650,8 +3650,8 @@ div#企業概要 {
 .p-column__post .box h2 {
   margin-bottom: 20px;
   padding: 8px 20px;
-  background-color: #153f6f;
-  background: linear-gradient(to right,#153F6F 30%, #fff 100%);
+  background-color: #EC7700;
+  background: linear-gradient(to right,#EC7700 30%, #fff 100%);
   color: #fff;
   font-size: 2.4rem;
   font-weight: bold;
@@ -3668,7 +3668,7 @@ div#企業概要 {
 .p-column__post .box h4 {
   margin-bottom: 20px;
   padding: 3px 15px;
-  border-left: 4px solid #153f6f;
+  border-left: 4px solid #EC7700;
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -3861,7 +3861,7 @@ div#企業概要 {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   border: none;
-  background: #153f6f;
+  background: #EC7700;
   color: transparent;
   cursor: pointer;
   display: flex;
@@ -4278,7 +4278,7 @@ div#企業概要 {
 }
 .p-member01__link li {
   margin: 0 15px 10px;
-  border: 2px solid #153f6f;
+  border: 2px solid #EC7700;
   background: #fff;
 }
 @media screen and (max-width: 575px) {
@@ -4290,7 +4290,7 @@ div#企業概要 {
   display: block;
   min-width: 85px;
   height: 30px;
-  color: #153f6f;
+  color: #EC7700;
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 30px;
@@ -4300,14 +4300,14 @@ div#企業概要 {
 }
 .p-member01__link li.is-active,
 .p-member01__link li:hover {
-  background: #153f6f;
+  background: #EC7700;
 }
 .p-member01__link li.is-active a,
 .p-member01__link li:hover a {
   color: #fff;
 }
 .p-member01 .item:hover .txt {
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
 }
 .p-member02__box {
@@ -4372,7 +4372,7 @@ div#企業概要 {
   padding:0 10px;
   height: 36px;
   margin-bottom: 15px;
-  background: #153f6f;
+  background: #EC7700;
   color: #fff;
   font-size: 1.9rem;
   line-height: 36px;
@@ -4528,7 +4528,7 @@ div#企業概要 {
 }
 @media screen and (min-width: 768px) {
   .p-member02 .item:hover {
-    background-color: #153f6f;
+    background-color: #EC7700;
   }
   .p-member02 .item:hover .txt {
     color: #fff;
@@ -4658,7 +4658,7 @@ div#企業概要 {
 }
 .c-pagination span.current,
 .c-pagination a:hover {
-  background: #153F6F;
+  background: #EC7700;
 }
 .c-pagination span.current,
 .c-pagination a:hover {
@@ -4745,7 +4745,7 @@ div#企業概要 {
   margin-top: 142px;
   margin-right: auto;
   margin-left: auto;
-  background: #153F6F;
+  background: #EC7700;
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
@@ -4791,8 +4791,8 @@ div#企業概要 {
 .p-qa__faq a {
   display: block;
   padding: 24px 0;
-  border: 2px solid #003E75;
-  color: #003E75;
+  border: 2px solid #EC7700;
+  color: #EC7700;
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
@@ -4834,7 +4834,7 @@ list - リストのオブジェクト
   top: -2px;
   width: 166px;
   height: 2px;
-  background-color: #003E75;
+  background-color: #EC7700;
   content: '';
 }
 .c-qa-list__title p {
@@ -4852,7 +4852,7 @@ navigation - グローバルナビなど
   text-align: center;
 }
 .is-focused {
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff !important;
 }
 .c-qa {
@@ -4915,7 +4915,7 @@ navigation - グローバルナビなど
 }
 .c-qa__answer--icon {
   margin-right: 16px;
-  color: #003E75;
+  color: #EC7700;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -4970,7 +4970,7 @@ div#新卒採用 {
   justify-content: center;
   height: 60px;
   border-right: 1px solid #fff;
-  background-color: #003E75;
+  background-color: #EC7700;
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
@@ -5051,9 +5051,9 @@ div#新卒採用 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  border: 1px solid #003E75;
+  border: 1px solid #EC7700;
   border-radius: 4px;
-  background-color: #003E75;
+  background-color: #EC7700;
   color: #fff;
   font-size: 1.75rem;
   font-weight: bold;
@@ -5119,8 +5119,8 @@ div#新卒採用 {
   width: calc(100% / 2 - 20px);
   height: 62.5px;
   margin-bottom: 30px;
-  border: 3px solid #153f6f;
-  color: #153f6f;
+  border: 3px solid #EC7700;
+  color: #EC7700;
   font-size: 1.9rem;
   font-weight: bold;
   text-decoration: none;
@@ -5137,12 +5137,12 @@ div#新卒採用 {
     width: 100%;
     height: 52.5px;
     margin-bottom: 15px;
-    border: 2px solid #153f6f;
+    border: 2px solid #EC7700;
     font-size: 1.4rem;
   }
 }
 .p-service__list a svg {
-  fill: #153f6f;
+  fill: #EC7700;
   position: absolute;
   top: 50%;
   right: 10px;
@@ -5156,7 +5156,7 @@ div#新卒採用 {
   }
 }
 .p-service__list a:hover, .p-service__list a.is-active {
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
 }
 .p-service__list a:hover svg, .p-service__list a.is-active svg {
@@ -5451,7 +5451,7 @@ top - Topページ固有のオブジェクト
   cursor: pointer;
 }
 .t-mv ul li.slick-active {
-  background-color: #153d6e;
+  background-color: #EC7700;
 }
 .t-mv ul li button {
   width: 0;
@@ -5602,7 +5602,7 @@ li.column_post .column_post_cat {
   margin-bottom: 3em;
 }
 .t-about {
-  background-color: #153f6f;
+  background-color: #EC7700;
 }
 .t-about_main {
   width: 100%;
@@ -5764,7 +5764,7 @@ li.column_post .column_post_cat {
 .t-reason_items span {
   position: absolute;
   top: -45px;
-  color: #153f6f;
+  color: #EC7700;
   font-family: "Oswald", sans-serif;
   font-size: 4.5rem;
 }
@@ -5880,7 +5880,7 @@ li.column_post .column_post_cat {
   text-decoration: none;
 }
 .t-member_items a:hover {
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
 }
 .t-member_items ._inner {
@@ -6106,8 +6106,8 @@ li.column_post .column_post_cat {
   width: 226px;
   height: 31px;
   padding-left: 60px;
-  border: 1px solid #153f6f;
-  background-color: #153f6f;
+  border: 1px solid #EC7700;
+  background-color: #EC7700;
   color: #fff;
   font-size: 1.4rem;
   line-height: 31px;
@@ -6123,10 +6123,10 @@ li.column_post .column_post_cat {
 }
 .t-access ul li a:hover {
   background-color: #fff;
-  color: #153f6f;
+  color: #EC7700;
 }
 .t-access ul li a:hover svg {
-  fill: #153f6f;
+  fill: #EC7700;
 }
 .t-access ul li a svg {
   fill: #fff;
@@ -9873,7 +9873,7 @@ typography - 文字の装飾など
 }
 
 .p-qa__faq a:hover{
-  background:#153f6f;
+  background:#EC7700;
   color:#fff;
 }
 
@@ -9916,7 +9916,7 @@ typography - 文字の装飾など
   font-size: 2rem;
   line-height: 27px;
   padding: 10px 20px;
-  background: linear-gradient(to right,#153F6F 30%, #E4E8F1 100%);
+  background: linear-gradient(to right,#EC7700 30%, #E4E8F1 100%);
   color: #fff;
   margin-bottom: 25px;
 }
@@ -9926,7 +9926,7 @@ typography - 文字の装飾など
   color: #333;
   font-weight: bold;
   padding-left: 20px;
-  border-left: 5px solid #153F6F;
+  border-left: 5px solid #EC7700;
   margin-bottom: 20px;
   background: linear-gradient(to right,#fff 30%, #E4E8F1 100%);
 }
@@ -10069,7 +10069,7 @@ typography - 文字の装飾など
 .p-about_groupItems h4{
   margin-bottom: 20px;
   padding-left: 13px;
-  border-left: 4px solid #153f6f;
+  border-left: 4px solid #EC7700;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 1;
@@ -10134,7 +10134,7 @@ img{
 .p-about_groupContent h3, .cm-ttl01{
   margin-bottom: 20px;
   padding-left: 13px;
-  border-left: 4px solid #153f6f;
+  border-left: 4px solid #EC7700;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 1;
@@ -10186,7 +10186,7 @@ img{
 .p-access_groupContent h3, .cm-ttl01{
   margin-bottom: 20px;
   padding-left: 13px;
-  border-left: 4px solid #153f6f;
+  border-left: 4px solid #EC7700;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 1;
@@ -10261,7 +10261,7 @@ img{
   border: none;
   color: white;
   margin-bottom: 17.5px;
-  background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
   padding-left: 10px;
 }
 
@@ -10271,7 +10271,7 @@ img{
   display:flex;
   align-items: center;
   justify-content: center;
-  color:#003E75;
+  color:#EC7700;
   font-size:1.4rem;
   background:#C6BEB9;
   border-radius: 50%;
@@ -10281,7 +10281,7 @@ img{
 
 .c-qa__answer--icon{
   color:#fff;
-  background:#003E75;
+  background:#EC7700;
 }
 
 .c-qa__question{
@@ -10461,8 +10461,8 @@ img{
 .c-form input[type="submit"]{
   width:100%;
   height:40px;
-  background:#153F6F;
-  border:1px solid #153F6F;
+  background:#EC7700;
+  border:1px solid #EC7700;
   color:#fff;
   font-size:1.6rem;
   font-weight:bold;
@@ -10478,11 +10478,11 @@ img{
 
 .c-form input[type="submit"]:hover{
   /*background:#fff;
-  color:#153F6F;*/
+  color:#EC7700;*/
 }
 
 .c-form .row input[type="text"]:focus, .c-form .row textarea:focus{
-  border-color:#153F6F;
+  border-color:#EC7700;
 }
 
 .c-form .row.is-error{
@@ -10812,7 +10812,7 @@ img{
 }
 
 .p-access .access-title{
-  background: linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
   color: #fff !important;
   font-size: 2.4rem !important;
   font-weight: bold !important;
@@ -10827,7 +10827,7 @@ img{
 }
 
 .p-about_groupContent h3.cm-ttl01 {
-  border-left: 4px solid #003E75 !important;
+  border-left: 4px solid #EC7700 !important;
   line-height: 1.5 !important;
 }
 
@@ -10889,7 +10889,7 @@ img{
   border: 14px solid transparent !important;
   right: -17% !important;
   top: 85px !important;
-  border-left-color: #003E75 !important;
+  border-left-color: #EC7700 !important;
   width: 0 !important;
   height: 0 !important;
   transform: none !important;
@@ -10998,10 +10998,10 @@ img{
     border-bottom: none !important;
     right: -12% !important;
     top: 30% !important;
-    border-top-color: #003E75 !important;
+    border-top-color: #EC7700 !important;
   }
   .p-access .access-title{
-    background-color: #003E75 !important;
+    background-color: #EC7700 !important;
     color: #fff !important;
     font-size: 2.4rem !important;
     font-weight: bold !important;
@@ -11029,7 +11029,7 @@ img{
     left: 0;
     width: 100%;
     height: 60px;
-    background: #153F6F;
+    background: #EC7700;
     padding: 8px 10px;
     display:block;
     z-index: 999;
@@ -11182,7 +11182,7 @@ img{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #153f6f;
+    background: #EC7700;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -11366,9 +11366,9 @@ img{
 }
 
 .choice-part .choice.is-active {
-  background: #153F6F;
+  background: #EC7700;
   color: #fff;
-  border-color: #153F6F;
+  border-color: #EC7700;
 }
 
 .choice-part.cols-4 .choice:not(:nth-child(4n)) {
@@ -11382,7 +11382,7 @@ img{
 .more-content .more-contentTtl{
   font-size:1.6rem;
   font-weight: bold;
-  color:#153F6F;
+  color:#EC7700;
   margin-bottom:8px;
 }
 
@@ -11415,7 +11415,7 @@ img{
 .check-part .checkbox{
   width:17px;
   height:17px;
-  border:1px solid #153F6F;
+  border:1px solid #EC7700;
   border-radius: 4px;
   background:#fff;
   position:relative;
@@ -11636,11 +11636,11 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 }
 
 .c-member {
-  border: 1px solid #153F6F;
+  border: 1px solid #EC7700;
 }
 
 .c-member_ttl {
-  background: #153F6F;
+  background: #EC7700;
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
@@ -11703,7 +11703,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   width:100%;
   max-width: 260px;
   height: 45px;
-  background: #153F6F;
+  background: #EC7700;
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
@@ -11712,7 +11712,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   padding: 0 25px;
   justify-content: space-between;
-  border:1px solid #153F6F;
+  border:1px solid #EC7700;
 }
 
 .c-member_main a svg {
@@ -11723,11 +11723,11 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 
 .c-member_main a:hover{
   background:#fff;
-  color:#153F6F;
+  color:#EC7700;
 }
 
 .c-member_main a:hover svg{
-  fill:#153F6F;
+  fill:#EC7700;
 }
 
 .p-column__post .c-member{
@@ -11792,7 +11792,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-size: 2rem;
   line-height: 27px;
   padding: 10px 20px;
-  background: #153F6F;
+  background: #EC7700;
   color: #fff;
   margin-bottom: 25px;
 }
@@ -11803,7 +11803,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   color: #333;
   font-weight: bold;
   padding-left: 20px;
-  border-left: 5px solid #153F6F;
+  border-left: 5px solid #EC7700;
   margin-bottom: 20px;
   background:transparent;
 }
@@ -11862,7 +11862,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 
 .s-service .entry-content h2 {
   font-size: 2.6rem;
-  color: #153F6F;
+  color: #EC7700;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -11875,7 +11875,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .s-service .entry-content h3 {
   margin-top: 60px;
   font-size: 2.2rem;
-  background:linear-gradient(to right,#153F6F 30%, #E3E8F1 100%);
+  background:linear-gradient(to right,#EC7700 30%, #E3E8F1 100%);
   color: #fff;
   line-height: 1.6;
   display: inline-block;
@@ -11900,7 +11900,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-bottom: 10px;
 }
 
-.s-service .entry-content ul li:before {content: '';width: 4px;height: 4px;background: #153F6F;border-radius: 50%;position: absolute;top: 11px;left: 0;}
+.s-service .entry-content ul li:before {content: '';width: 4px;height: 4px;background: #EC7700;border-radius: 50%;position: absolute;top: 11px;left: 0;}
 
 .s-service .entry-content ul li span {
   line-height: inherit;
@@ -11915,7 +11915,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   margin-top: 50px;
   line-height: 1.6;
-  border-left: 4px solid #153F6F;
+  border-left: 4px solid #EC7700;
   padding: 2px 0 2px 15px;
 }
 
@@ -11999,8 +11999,8 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   margin-bottom: 10px;
   padding: 8px 20px;
-  background-color: #153f6f;
-  background: linear-gradient(to right,#153F6F 30%, #fff 100%);
+  background-color: #EC7700;
+  background: linear-gradient(to right,#EC7700 30%, #fff 100%);
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
@@ -12011,7 +12011,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: bold;
   line-height: 1.4;
   padding: 8px 20px;
-  background-color: #153f6f;
+  background-color: #EC7700;
   color: #fff;
   font-size: 1.4rem;
   text-align: center;
@@ -12358,7 +12358,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -12373,7 +12373,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active {
   border-bottom: 0px solid #F0F0F0;
@@ -12465,7 +12465,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-top: 42px;
   margin-right: auto;
   margin-left: auto;
-  background: #153F6F;
+  background: #EC7700;
   color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
@@ -12543,7 +12543,7 @@ li {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-color: #003E75;
+  background-color: #EC7700;
   width: 5%;
   height: 100%;
 }
@@ -12553,7 +12553,7 @@ li {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-color: #003E75;
+  background-color: #EC7700;
   width: 5%;
   height: 100%;
 }
@@ -12594,7 +12594,7 @@ li {
 }
 
 .imageplay ol .current {
-  background-color: #153F6F;
+  background-color: #EC7700;
 }
 
 .left,
@@ -12738,7 +12738,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -12753,7 +12753,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active1 {
   border-bottom: 0px solid #F0F0F0;
@@ -12821,7 +12821,7 @@ ol li {
   font-size: 2.2rem;
   margin-top:30px;
   color: white;
-  background:  linear-gradient(to right,#153F6F 30%, #E3E8F1  100%);
+  background:  linear-gradient(to right,#EC7700 30%, #E3E8F1  100%);
 }
 .Message_style1{
   width:49%;
@@ -12913,7 +12913,7 @@ ol li {
   }
 }
 .has-medium-font-size {
-  color: #153F6F !important;;
+  color: #EC7700 !important;;
 }
 .column-read-more{
   margin: 0 5% 5% 5%;
@@ -12936,7 +12936,7 @@ ol li {
 }
 .title_bg{
   background-color:transparent;
-  background-image:linear-gradient(90deg, #003E75, #E3E8F1) !important;
+  background-image:linear-gradient(90deg, #EC7700, #E3E8F1) !important;
   margin-left:5.5%;
   margin-right:5.5%;
   margin-top:30px
@@ -12973,7 +12973,7 @@ ol li {
 }
 
 .reason01_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13009,7 +13009,7 @@ ol li {
 }
 
 .reason02_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13127,7 +13127,7 @@ ol li {
 }
 
 .reason03_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13163,7 +13163,7 @@ ol li {
 }
 
 .reason04_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13275,7 +13275,7 @@ ol li {
 }
 
 .reason05_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13311,7 +13311,7 @@ ol li {
 }
 
 .reason06_style1_span1{
-  color:#153f6f;
+  color:#EC7700;
   font-family:"Oswald", sans-serif;
   font-size:4.5rem;
   line-height:40px;
@@ -13432,7 +13432,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13447,7 +13447,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active2 {
   border-bottom: 0px solid #F0F0F0;
@@ -13538,7 +13538,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13553,7 +13553,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active3 {
   border-bottom: 0px solid #F0F0F0;
@@ -13592,15 +13592,15 @@ ol li {
 .circle3 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt3 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
-  width:100%;
+border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
+width:100%;
 }
 .border-text3
 {
@@ -13626,7 +13626,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13641,7 +13641,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active4 {
   border-bottom: 0px solid #F0F0F0;
@@ -13679,14 +13679,14 @@ ol li {
 .circle4 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt4 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text4
@@ -13713,7 +13713,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13728,7 +13728,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active5 {
   border-bottom: 0px solid #F0F0F0;
@@ -13766,14 +13766,14 @@ ol li {
 .circle5 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt5 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text5
@@ -13800,7 +13800,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13815,7 +13815,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active6 {
   border-bottom: 0px solid #F0F0F0;
@@ -13854,14 +13854,14 @@ ol li {
 .circle6 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt6 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text6
@@ -13888,7 +13888,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13903,7 +13903,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active7 {
   border-bottom: 0px solid #F0F0F0;
@@ -13941,14 +13941,14 @@ ol li {
 .circle7 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt7 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text7
@@ -13975,7 +13975,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -13990,7 +13990,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active8 {
   border-bottom: 0px solid #F0F0F0;
@@ -14028,14 +14028,14 @@ ol li {
 .circle8 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt8 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text8
@@ -14062,7 +14062,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -14077,7 +14077,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 .active9 {
   border-bottom: 0px solid #F0F0F0;
@@ -14115,14 +14115,14 @@ ol li {
 .circle9 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt9 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text9
@@ -14176,7 +14176,7 @@ ol li {
   font-weight: bold;
   font-size: 2.2rem;
   color: white;
-  background: linear-gradient(to right,#153F6F 0%, #E3E8F1 96%);
+  background: linear-gradient(to right,#EC7700 0%, #E3E8F1 96%);
   width: 100%;
   margin-top: 2%;
 }
