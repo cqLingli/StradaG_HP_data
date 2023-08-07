@@ -7,6 +7,9 @@ if($url_type){
 }else{
     get_header();
 }
+if ($url_type==="ss"){
+    $get_post_type_archive_link = str_replace("service", "sr/srservice", get_post_type_archive_link("service"));
+}
 
 ?>
 <?php 
@@ -89,6 +92,17 @@ if($mv){
             endwhile;
           endif;
         ?>
+
+          <?php
+          if($get_post_type_archive_link){
+              echo '<div class="entry-content page-entry"> <a href="'.$get_post_type_archive_link.'" class="c-back-list">
+                         業務内容へ戻る
+                     <span class="i-arrow">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/new02/i_arrow.svg" alt="" />
+                </span>
+              </a></div>';
+          }
+          ?>
         </div>
       </div>
     </div>

@@ -4326,7 +4326,7 @@ title - 共通のタイトルやテキストなど
   @media screen and (max-width: 991px) {
     .p-member02__box {
       margin-bottom: 50px;
-      padding: 40px 0;
+      padding: 20px 20px;
     }
   }
   @media screen and (max-width: 767px) {
@@ -14452,7 +14452,7 @@ top: 30px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   margin-top: -3%;
-  margin-left: 5%;
+  margin-left: 5.5%;
   margin-right: 5.2%;
 }
 @media screen and (max-width: 760px) {
@@ -14775,4 +14775,8 @@ top: 30px;
   .singleVoice01{
     padding:30px 30px 0 30px
   }
+}
+.page-entry{
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }

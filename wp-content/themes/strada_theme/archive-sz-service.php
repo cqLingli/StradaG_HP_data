@@ -67,11 +67,11 @@ $_SESSION['page_type']="service";
             <div class="thumb">
               <img src="<?php echo $img['url'] ?>" alt="">
             </div>
-              <div class="service_title_icon">
-              <a  href="<?php echo get_term_link($term) ?>">
-              <span><?php echo $tax_name; ?></span>
+              <a  href="<?php echo get_term_link($term) ?>" style="text-decoration:none;">
+                  <div class="service_title_icon">
+                      <span><?php echo $tax_name; ?></span>
+                  </div>
               </a>
-              </div>
             <div class="content">
                 <div>
               <p class="description_box"><?php echo nl2br($term->description); ?></p>
