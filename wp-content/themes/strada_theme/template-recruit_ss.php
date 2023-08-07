@@ -5,12 +5,13 @@
       <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to 中央区日本橋の税理士法人【ストラーダ税理士法人】." href="https://strada-tax.jp" class="home" ><span property="name">TOP</span></a><meta property="position" content="1"></span>/<span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">採用情報</span><meta property="url" content="https://strada-tax.jp/recruit/"><meta property="position" content="2"></span>    </div>
     </div>
 -->
+  <div class="l-container">
     <div class="c-mainTitle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
             採用情報
-            <span>RECRUIT</span>
+            <span>Recruit</span>
           </h1>
         </div>
       </div>
@@ -21,8 +22,11 @@
       ストラーダ社会労務士法人ストラーダ社会労務士法人ストラーダ社会労務士法人ストラーダ社会労務士法人ストラーダ社会労務士法人ストラーダ社会労務士法人
       </p>
     </div>  
+    </div>
 
     <div class="t-recruit">
+    <div class="l-container">
+      <div style="margin-left:5.5%;margin-right:5.5%">
       <div class="recruit-container">                           
         <div class="t-recruitContent" id="募集要項" >
           <div class="t-recruitHead">                      
@@ -70,11 +74,12 @@
         </div>
 
         <div class="p-recruitBtn">
-          <a href="https://strada-tax.jp/recruit/form">
+          <a href="https://strada-sr.jp/recruit/form">
               <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit_icon.png" alt="" />
               採用エントリーはこちらから
           </a>
         </div>      
+        </div> 
       </div>
     </div>
   <!--</div>-->

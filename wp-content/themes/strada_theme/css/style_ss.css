@@ -2868,7 +2868,6 @@ title - 共通のタイトルやテキストなど
   color: #8f8f8f;
   font-size: 1.7rem;
   line-height: 18px;
-  text-transform: uppercase;
 }
 @media screen and (max-width: 991px) {
   .c-mainTitle h1 span {
@@ -2959,7 +2958,7 @@ title - 共通のタイトルやテキストなど
   text-align: center;
 }
 div#企業概要 {
-  background-color: #E3E8F1;
+  background-color: #FFF0E5;
   padding-top:30px;
   padding-bottom:30px;
   margin-bottom:30px
@@ -2981,14 +2980,14 @@ div#企業概要 {
 .p-about_group .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
 .p-about_history .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3256,7 +3255,7 @@ div#企業概要 {
 .p-column .c-tlt04 {
   padding-left:10px;
   margin-bottom: 15px;
-  background: linear-gradient(to right,#EC7700 30%, #E3E8F1 100%);
+  background: linear-gradient(to right,#EC7700 30%, #FFF0E5 100%);
   color: #fff;
   font-size: 2.2rem;
   font-weight: bold;
@@ -4554,7 +4553,7 @@ div#企業概要 {
 }
 .c-new-content {
   /*padding-bottom: 129px;*/
-  background:#FCF1E6;
+  background: #FFF0E5;
   margin-top:30px
 }
 
@@ -4773,9 +4772,9 @@ div#企業概要 {
   width: 22px;
 }
 .qa_container{
-  background-color: #E3E8F1 !important;
+  background-color: #FFF0E5 !important;
   max-width: none !important;
-  margin-top:30px
+  margin-top:30px;
 }
 .p-qa__faq {
   display: -webkit-box;
@@ -4940,11 +4939,11 @@ navigation - グローバルナビなど
   background-color: #fff;
   margin-top:30px
 }
-div#新卒採用 {
+div#募集要項 {
   margin-left: 0;
 }
 .t-recruit {
-  background-color: #E3E8F1;
+  background-color: #FFF0E5;
   padding: 30px 0 30px 0;
   width: 100%;
 }
@@ -4956,7 +4955,7 @@ div#新卒採用 {
 }
 .t-recruitContent {
   display: block;
-  width: calc(100% / 3);
+  width: 100%;
   margin-left: 30px;
 }
 .t-recruitHead {
@@ -4985,6 +4984,7 @@ div#新卒採用 {
 .recruit-container{
   width: 100%;
   display: flex;
+  flex-wrap:wrap
 }
 
 .t-recruitContent dl {
@@ -5003,7 +5003,7 @@ div#新卒採用 {
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 20%;
+  flex: 0 0 10%;
   font-weight: bold;
 }
 
@@ -5037,6 +5037,7 @@ div#新卒採用 {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 30px;
+  width:100%
 }
 
 .p-recruitBtn a {
@@ -10261,7 +10262,7 @@ img{
   border: none;
   color: white;
   margin-bottom: 17.5px;
-  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px;
 }
 
@@ -10368,7 +10369,7 @@ img{
 }
 
 .contactBox{
-  background: #E3E8F1;
+  background: #FFF0E5;
   padding-bottom:30px;
   margin-top:30px
 }
@@ -10807,12 +10808,12 @@ img{
 /* 07-15-2021 */
 
 .p-access .accessbox{
-  background: #E3E8F1 !important;
+  background: #FFF0E5 !important;
   padding: 30px 15px !important;
 }
 
 .p-access .access-title{
-  background: linear-gradient(90deg, #EC7700, #E3E8F1) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   color: #fff !important;
   font-size: 2.4rem !important;
   font-weight: bold !important;
@@ -11875,7 +11876,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .s-service .entry-content h3 {
   margin-top: 60px;
   font-size: 2.2rem;
-  background:linear-gradient(to right,#EC7700 30%, #E3E8F1 100%);
+  background:linear-gradient(to right,#EC7700 30%, #FFF0E5 100%);
   color: #fff;
   line-height: 1.6;
   display: inline-block;
@@ -12425,14 +12426,14 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .circle {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text
@@ -12818,14 +12819,14 @@ ol li {
 .circle1 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt1 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text1
@@ -12845,7 +12846,7 @@ ol li {
   font-size: 2.2rem;
   margin-top:30px;
   color: white;
-  background:  linear-gradient(to right,#EC7700 30%, #E3E8F1  100%);
+  background:  linear-gradient(to right,#EC7700 30%, #FFF0E5  100%);
 }
 .Message_style1{
   width:49%;
@@ -12861,14 +12862,14 @@ ol li {
 }
 .Message_style1_p1{
   font-size:14px;
-  color:#004179;
+  color:#EC7700;
   font-weight:bold;
   padding-top:5px;
 }
 .Message_style1_p2{
   font-size:28px;
   line-height:24px;
-  color:#004179;
+  color:#EC7700;
   font-weight:bold;
   padding-top:2px;
   padding-bottom:15px;
@@ -12953,14 +12954,14 @@ ol li {
 }
 
 .sixreasons_bg{
-  background-color:#E3E8F1;
+  background-color:#FFF0E5;
   height:100%;
   width:100%;
   margin-top: 30px;
 }
 .title_bg{
   background-color:transparent;
-  background-image:linear-gradient(90deg, #EC7700, #E3E8F1) !important;
+  background-image:linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   margin-left:5.5%;
   margin-right:5.5%;
   margin-top:30px
@@ -13513,14 +13514,14 @@ ol li {
 .circle2 {
   width: 22px;
   height: 22px;
-  background-color:#3F6D97;
+  background-color:#EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
   top: 1px;
 }
 .border-bt2 {
-  border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+  border: 2px solid #EC7700; border-top: none; border-left: none; border-right: none;
   width:100%;
 }
 .border-text2
@@ -14158,7 +14159,7 @@ width:100%;
 }
 .contents_number{
   display: inline-block;
-  background: #004179;
+  background: #EC7700;
   color: white;
   padding: 1px 5px;
   float: right;
@@ -14169,7 +14170,7 @@ width:100%;
 
   .contents_number{
     display: inline-block;
-    background: #004179;
+    background: #EC7700;
     color: white;
     padding: 1px 5px;
     float: right;
@@ -14181,7 +14182,7 @@ width:100%;
 
   .contents_number{
     display: inline-block;
-    background: #004179;
+    background: #EC7700;
     color: white;
     padding: 1px 5px;
     float: right;
@@ -14200,7 +14201,7 @@ width:100%;
   font-weight: bold;
   font-size: 2.2rem;
   color: white;
-  background: linear-gradient(to right,#EC7700 0%, #E3E8F1 96%);
+  background: linear-gradient(to right,#EC7700 0%, #FFF0E5 96%);
   width: 100%;
   margin-top: 2%;
 }
@@ -14803,4 +14804,56 @@ width:100%;
 .page-entry{
   margin-left: 5.5%;
   margin-right: 5.5%;
+
+.t-price {
+  background-color: white;
+}
+.t-price p {
+  border-top: 1px dotted #707070;
+  border-bottom: 1px dotted #707070;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price_head {
+  text-align: left !important;
+  color: white !important;
+  background: linear-gradient(90deg, #808C96, #F3F5F6) !important;
+  padding-left: 10px !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.left_heading{
+  margin-bottom: 20px;
+  padding-left: 13px;
+  border-left: 4px solid #808C96;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+  border-bottom: 1px dotted;
+  padding-bottom: 10px;
+}
+.t-price tr th {
+  color: white !important;
+  background-color: #808C96 !important;
+}
+.p-entry__body {
+  background-color: #F3F5F6 !important;
+}
+.t-price .has-text-align-center {
+  border: 1px solid black !important;
+}
+.t-price thead {
+  border: none !important;
+}
+.price_note {
+  background-color: white !important;
+  padding: 10px 0 !important;
+}
+.t-price strong {
+  font-weight: bold !important;
+}
+.has-medium-font-size {
+  color: #808C96 !important;;
 }
