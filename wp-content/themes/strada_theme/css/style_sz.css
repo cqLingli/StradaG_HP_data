@@ -12992,9 +12992,8 @@ top: 30px;
 }
 
 .reason01_style1_span2{
-  position: relative;
-  left:20px;
-  top:6px;
+  padding-left: 20px;
+  padding-top:6px;
   font-weight:bold;
   font-size: 2.2rem;
 }
@@ -13028,9 +13027,8 @@ top: 30px;
 }
 
 .reason02_style1_span2{
-  position: relative;
-  left:20px;
-  top:6px;
+  padding-left: 20px;
+  padding-top:6px;
   font-weight:bold;
   font-size: 2.2rem;
 }
@@ -13082,14 +13080,14 @@ top: 30px;
 
   .reason01_style1_span2{
     font-size: 1.6rem;
-    top:12px;
-    left:15px
+    padding-top:12px;
+    padding-left:15px
   }
 
   .reason02_style1_span2{
     font-size: 1.6rem;
-    top:12px;
-    left:15px
+    padding-top:12px;
+    padding-left:15px
   }
 
 }
@@ -13147,9 +13145,8 @@ top: 30px;
 }
 
 .reason03_style1_span2{
-  position: relative;
-  left:20px;
-  top:6px;
+  padding-left: 20px;
+  padding-top: 6px;
   font-weight:bold;
   font-size: 2.2rem;
 }
@@ -13248,8 +13245,8 @@ padding-top:6px
 
   .reason03_style1_span2{
     font-size: 1.6rem;
-    top:12px;
-    left:15px
+    padding-top:12px;
+    padding-left:15px
   }
 
 
