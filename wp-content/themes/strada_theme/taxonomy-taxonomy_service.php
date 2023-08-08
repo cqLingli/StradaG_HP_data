@@ -51,7 +51,7 @@ $mv = get_field('service_cat_mv', $qo);
             <div class="c-mainTitle_content content-service">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
-<!--                        --><?php //echo single_term_title(); ?>
+                        <?php echo single_term_title(); ?>
                     </h1>
                 </div>
             </div>
