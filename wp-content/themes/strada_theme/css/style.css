@@ -11891,12 +11891,11 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   margin-top: 30px;
   padding: 20px 50px 20px 25px;
   display: table;
-  width: 100%;
 }
 
 .s-service .entry-content ul li {
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.6;
   position: relative;
   padding-left: 15px;
@@ -11994,7 +11993,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   flex-shrink: 0;
   margin: auto;
   line-height: 0;
-  width: 100%;
+  width: 80%;
 
 }
 
