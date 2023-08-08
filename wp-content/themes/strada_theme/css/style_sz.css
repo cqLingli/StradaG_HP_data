@@ -3009,6 +3009,10 @@ title - 共通のタイトルやテキストなど
     color: #003E75;
     text-decoration: none;
   }
+
+  .accessChange{
+    margin-left: 12px !important;
+  }
   .company_right img {
     max-width: 30px;
   }
@@ -3064,6 +3068,10 @@ title - 共通のタイトルやテキストなど
   @media only screen and (max-width: 767px) {
     .p-about_introContent{
       flex-wrap:wrap;
+    }
+
+    .accessChange{
+      margin-left: 13px !important;
     }
   }
   .p-about_introContent figure {
@@ -12445,7 +12453,11 @@ width:100%;
   font-weight: bold;
   color:#676767;
   font-size: 18px;
-  margin-top:-6px
+  margin-top:-6px;
+}
+
+.border-text-controll{
+  display:none;
 }
 
 .a-back-color{

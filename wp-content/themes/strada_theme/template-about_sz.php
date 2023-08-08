@@ -72,26 +72,26 @@
             <dt>最寄駅 アクセス方法</dt>
             <dd>
               半蔵門線　　水天宮前　徒歩2分
-              <a href="#access01">
+              <a href="<?php echo home_url('tax/taxaccess/#access01'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               日比谷線　　人形町駅　徒歩5分
-              <a href="#access02">
+              <a href="<?php echo home_url('tax/taxaccess/#access02'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               浅草線　　　人形町駅　徒歩8分
-              <a href="#access02">
+              <a href="<?php echo home_url('tax/taxaccess/#access02'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               都営新宿線　浜町駅　　徒歩10分
-              <a href="#access03">
-                経路はこちら
+              <a href="<?php echo home_url('tax/taxaccess/#access03'); ?>" class="accessChange">
+              経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
             </dd>

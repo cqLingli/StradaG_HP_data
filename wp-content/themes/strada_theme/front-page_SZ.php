@@ -42,7 +42,7 @@ $_SESSION['page_type']="top";
         <div class="circle"></div>
         </p>
       </div>
-      <div class="border-text">更新のご案内</div>
+      <div id="text" class="border-text border-text-controll">更新のご案内</div>
       </div>
     </div>
     <div class="border-bt"></div>
@@ -114,11 +114,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap1">
     <div class="border-text1"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap1" class="title_item_wrap1 active1">
         <p class="chapter_title1">Message
         <div class="circle1"></div>
         </p>
       </div>
+      <div id="text1" class="border-text border-text-controll">トップメッセージ、選ばれる6つの理由</div>
+    </div>
     </div>
     <div class="border-bt1"></div>
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
@@ -276,11 +279,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap2">
     <div class="border-text2"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap2" class="title_item_wrap2 active2">
         <p class="chapter_title2">Strada Group
         <div class="circle2"></div>
         </p>
       </div>
+      <div id="text2" class="border-text border-text-controll">Strada Group</div>
+    </div>
     </div>
     <div class="border-bt2"></div>
     <div class="l-container">
@@ -316,11 +322,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap3">
     <div class="border-text3"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap3" class="title_item_wrap3 active3">
         <p class="chapter_title3">Service
         <div class="circle3"></div>
         </p>
       </div>
+      <div id="text3" class="border-text border-text-controll">業務内容</div>
+    </div>
     </div>
     <div class="border-bt3"></div>
       <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
@@ -334,11 +343,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap4">
     <div class="border-text4"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap4" class="title_item_wrap4 active4">
         <p class="chapter_title4">Voice
         <div class="circle4"></div>
         </p>
       </div>
+      <div id="text4" class="border-text border-text-controll">お客様の声</div>
+    </div>
     </div>
     <div class="border-bt4"></div>
     <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
@@ -352,11 +364,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap5">
     <div class="border-text5"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap5" class="title_item_wrap5 active5">
         <p class="chapter_title5">Q&A
         <div class="circle5"></div>
         </p>
       </div>
+      <div id="text5" class="border-text border-text-controll">よくあるご質問</div>
+    </div>
     </div>
     <div class="border-bt5"></div>
       <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
@@ -370,11 +385,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap6">
     <div class="border-text6"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap6" class="title_item_wrap6 active6">
         <p class="chapter_title6">Column
         <div class="circle6"></div>
         </p>
       </div>
+      <div id="text6" class="border-text border-text-controll">お役立ち情報</div>
+    </div>
     </div>
     <div class="border-bt6"></div>
       <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
@@ -389,11 +407,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap7">
     <div class="border-text7"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap7" class="title_item_wrap7 active7">
         <p class="chapter_title7">About
         <div class="circle7"></div>
         </p>
       </div>
+      <div id="text7" class="border-text border-text-controll">会社概要、アクセス、メンバー</div>
+    </div>
     </div>
     <div class="border-bt7"></div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
@@ -410,11 +431,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap8">
     <div class="border-text8"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap8" class="title_item_wrap8 active8">
         <p class="chapter_title8">Contact
         <div class="circle8"></div>
         </p>
       </div>
+      <div id="text8" class="border-text border-text-controll">お問い合わせ</div>
+    </div>
     </div>
     <div class="border-bt8"></div>
       <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
@@ -428,11 +452,14 @@ $_SESSION['page_type']="top";
   <div class="block_wrap9">
     <div class="border-text9"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap9" class="title_item_wrap9 active9">
         <p class="chapter_title9">Recruit
         <div class="circle9"></div>
         </p>
       </div>
+      <div id="text9" class="border-text border-text-controll">採用情報</div>
+    </div>
     </div>
     <div class="border-bt9"></div>
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
