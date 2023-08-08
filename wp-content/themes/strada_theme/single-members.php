@@ -90,7 +90,7 @@ if($url_type==="sz"){
         if($company){
             $args = array(
                 'post_type' => 'members',
-                'company' => $company, // 自定义字段名
+//                'company' => $company, // 自定义字段名
                 'posts_per_page' => -1,
                 'orderby' => 'date',
                 'paged' => $paged,

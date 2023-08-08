@@ -51,7 +51,7 @@ $mv = get_field('service_cat_mv', $qo);
             <div class="c-mainTitle_content content-service">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
-<!--                        --><?php //echo single_term_title(); ?>
+                        <?php echo single_term_title(); ?>
                     </h1>
                 </div>
             </div>
@@ -67,7 +67,7 @@ $mv = get_field('service_cat_mv', $qo);
         <div class="c-new-content">
         <div class="l-container">
             <div class="l-content">
-                <div class="c-serviceList1">
+                <div class="c-serviceList">
                     <?php
                     global $wp_query;
                     $args = array(
@@ -104,14 +104,13 @@ $mv = get_field('service_cat_mv', $qo);
                                 }
                                 ?>
                             </div>
-                            <div class="content">
-                                <div style="height: 200px;">
+
+                                <div>
                                     <p><?php echo nl2br(get_the_excerpt()); ?></p>
                                 </div>
                                 <div class="ttl2 c-btn01__blue">
                                     <a href="<?php echo get_the_permalink() ?>">詳細はこちら</a>
                                 </div>
-                            </div>
                         </div>
                     <?php endwhile; ?>
                 </div>
