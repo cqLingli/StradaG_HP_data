@@ -35,6 +35,7 @@ $_SESSION['page_type']="top";
   <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
+    <div class="border-bt">
     <div class="l-container">
     <div style="display:flex">
       <div id="block_wrap" class="title_item_wrap active">
@@ -45,7 +46,7 @@ $_SESSION['page_type']="top";
       <div id="text" class="border-text border-text-controll">更新のご案内</div>
       </div>
     </div>
-    <div class="border-bt"></div>
+    </div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
         <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"

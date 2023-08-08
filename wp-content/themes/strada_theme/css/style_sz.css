@@ -12444,7 +12444,11 @@ top: 1px;
 }
 .border-bt {
 border: 2px solid #004179; border-top: none; border-left: none; border-right: none;
+height: 30px;
+background-image: url("../images/common/title_line.png");
 width:100%;
+background-repeat: repeat-x;
+background-position-y: bottom;
 }
 .border-text
 {
