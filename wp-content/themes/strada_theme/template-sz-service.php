@@ -26,7 +26,7 @@
     </div>
     <!-- end c-mainTitle -->
     <div class="c-new-content">
-        <div class="l-content">
+        <div class="l-content template-sz-service">
             <div class="l-container">
                 <?php
                 $terms = get_terms( 'taxonomy_service', array(
@@ -36,7 +36,7 @@
                     'orderby' => 'menu_order'
                 ) );
                 ?>
-                <div class="c-serviceList">
+                <div class="c-serviceList template-sz-serviceList">
                     <div class="menberTtile">事業内容</div>
                     <div style="height: 10px;"></div>
                     <?php

@@ -14,7 +14,7 @@
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
                     $args = array(
                         'post_type' => 'members',
-//                        'company' => "SZ", // 自定义字段名
+                        'company' => "SZ", // 自定义字段名
                         'posts_per_page' => -1,
                         'orderby' => 'date',
                         'paged' => $paged
