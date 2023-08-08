@@ -38,7 +38,7 @@
               $args = array(
                 'post_type' => 'voice',
                 'company'=>'sz',
-                'posts_per_page' => 6,
+                'posts_per_page' => 3,
                 'orderby' => 'date',
                 'paged' => $paged
               );

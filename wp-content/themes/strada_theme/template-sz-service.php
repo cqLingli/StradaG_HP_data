@@ -58,11 +58,11 @@
                             <div class="thumb">
                                 <img src="<?php echo $img['url'] ?>" alt="">
                             </div>
-                            <div class="service_title_icon">
-                                <a  href="<?php echo get_term_link($term) ?>">
+                            <a  href="<?php echo get_term_link($term) ?>">
+                                <div class="service_title_icon">
                                     <span><?php echo $tax_name; ?></span>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                             <div class="content">
                                 <div>
                                     <p class="description_box"><?php echo nl2br($term->description); ?></p>
