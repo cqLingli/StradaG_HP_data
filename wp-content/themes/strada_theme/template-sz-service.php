@@ -58,7 +58,7 @@
                             <div class="thumb">
                                 <img src="<?php echo $img['url'] ?>" alt="">
                             </div>
-                            <a  href="<?php echo get_term_link($term) ?>">
+                            <a  href="<?php echo get_term_link($term) ?>" style="text-decoration: none;">
                                 <div class="service_title_icon">
                                     <span><?php echo $tax_name; ?></span>
                                 </div>
