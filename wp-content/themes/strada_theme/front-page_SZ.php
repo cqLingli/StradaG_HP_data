@@ -35,12 +35,14 @@ $_SESSION['page_type']="top";
   <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
-    <div class="border-text"></div>
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap" class="title_item_wrap active">
         <p class="chapter_title">What's New
         <div class="circle"></div>
         </p>
+      </div>
+      <div class="border-text">更新のご案内</div>
       </div>
     </div>
     <div class="border-bt"></div>

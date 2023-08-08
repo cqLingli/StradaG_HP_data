@@ -297,8 +297,8 @@ var imageplay = document.querySelector('.imageplay');
 var ul = imageplay.querySelector('ul');
 var ol = imageplay.querySelector('ol');
 var lis_img = ul.querySelectorAll('li');
-var left = document.querySelector('.left');
-var right = document.querySelector('.right');
+var left = document.querySelector('.arrowstyle-left');
+var right = document.querySelector('.arrowstyle-right');
 var num = 0;  //picture count
 var isMoving = false;
 
