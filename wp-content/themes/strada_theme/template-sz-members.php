@@ -5,7 +5,7 @@
         <!-- end c-mainTitle -->
         <div class="c-new-content" style="padding-bottom:2%">
             <div class="l-container">
-                <div class="p-member__list tempalte_menber-list">
+                <div class="p-member__list tempalte_menber-list p-member__list_extra">
                     <div class="menberTtile3">
                         <span>メンバー紹介</span>
                     </div>

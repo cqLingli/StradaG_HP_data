@@ -5037,13 +5037,12 @@ navigation - グローバルナビなど
     font-size: 2rem;
   }
   .t-recruitContent dl {
-    font-size: 1rem;
-    zoom:0.9
+    font-size: 1.6rem;
   }
   .t-recruitContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 10%;
+    flex: 0 0 15%;
   }
 }
 .p-recruitBtn {
@@ -15026,7 +15025,6 @@ top: 30px;
   .company_infomation{
     font-size:1rem;
     zoom:0.9;
-    margin:15px 3% 15px 3%
   }
 }
 
@@ -15369,8 +15367,10 @@ top: 30px;
   }
   .company_infomation{
     zoom:0.92;
+    margin:15px 3% 15px 3%
   }
   .t-recruitContent dl{
+    font-size: 1rem;
     zoom:0.92;
   }
   .t-recruitContent dl dt{
