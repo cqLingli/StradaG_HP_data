@@ -3192,7 +3192,7 @@ title - 共通のタイトルやテキストなど
       flex: 0 0 65px;
     }
     .p-about_historyTime dl dd{
-      padding-left: 20px;
+      padding-left: 0px;
     }
     .p-about_historyTime dl dd h4{
       font-size: 1.6rem;
@@ -15398,5 +15398,16 @@ top: 30px;
 
   .contactStyle{
     padding:5px 15px 5px 15px
+  }
+  .company_left dl dt{
+    margin-left:-30px !important
+  }
+
+  .company_right dl dt{
+    margin-left:-5px !important
+  }
+
+  .p-about_historyContent dl{
+    padding: 15px 0;
   }
 }
