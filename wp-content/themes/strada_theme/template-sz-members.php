@@ -1,11 +1,11 @@
 
     <!-- .l-main | メインコンテンツ -->
-    <main class="l-main p-member02" style="margin-top: 1px;">
+    <main class="l-main p-member02" style="margin-top: 0px;">
 
         <!-- end c-mainTitle -->
         <div class="c-new-content" style="padding-bottom:2%">
             <div class="l-container">
-                <div class="p-member__list tempalte_menber-list" style="margin-left: 5.5%;margin-right: 5.5%">
+                <div class="p-member__list tempalte_menber-list">
                     <div class="menberTtile3">
                         <span>メンバー紹介</span>
                     </div>

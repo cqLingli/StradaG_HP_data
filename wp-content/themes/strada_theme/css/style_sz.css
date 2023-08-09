@@ -2191,6 +2191,7 @@ div.catch {
   }
   .h-nav__sub li a:after {
     position: absolute;
+
     top: 50%;
     right: 15px;
     width: 14px;
@@ -3545,8 +3546,7 @@ title - 共通のタイトルやテキストなど
       width: 100%;
       max-width: 100%;
       padding: 0;
-      padding: 2.5%;
-      margin-right: 2.5%;
+      margin-right: 3%;
     }
   }
 @media screen  and (min-width: 767px) and (max-width: 991px){
@@ -3792,6 +3792,7 @@ title - 共通のタイトルやテキストなど
   .p-column .c-title {
     margin-bottom: 25px;
     padding-bottom: 15px;
+
     border-bottom: 1px solid #b1b1b1;
     font-size: 1.9rem;
     font-weight: bold;
@@ -4184,7 +4185,6 @@ title - 共通のタイトルやテキストなど
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     margin-top: -2%;
-    padding: 3%;
   }
 }
 
@@ -5736,7 +5736,7 @@ li.column_post .column_post_cat {
 @media screen and (max-width: 767px) {
   .c-voicePost .c-voicePost__items {
     width: calc(100% / 2);
-    padding:0 14px 0 0
+    padding:0 12px 0 0
   }
 }
 .c-voicePost .c-voicePost__items:hover {
@@ -5818,6 +5818,7 @@ li.column_post .column_post_cat {
   z-index: 9;
   width: 50%;
   min-height: 303px;
+
   padding: 27px 20px;
   -webkit-transform: translateX(43px);
   transform: translateX(43px);
@@ -6684,6 +6685,7 @@ flex - flexを使った位置調整など
   }
 }
 @media (min-width: 768px) {
+
   .u-flex-md-row {
     -ms-flex-direction: row !important;
     -webkit-box-orient: horizontal !important;
@@ -6817,6 +6819,7 @@ flex - flexを使った位置調整など
     align-content: stretch !important;
   }
   .u-align-self-md-auto {
+
     -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
@@ -9957,8 +9960,8 @@ typography - 文字の装飾など
 @media only screen and (max-width: 767px) {
   .archiveVoice{
     background-color: #E4E8F1;
-    padding: 30px 0;
-    margin-top: 14px;
+    padding: 15px 0;
+    margin-top: 15px;
   }
   .singleVoice{
     padding: 30px 0;
@@ -10537,7 +10540,8 @@ font-weight: bold;
 
 @media screen and (max-width: 767px){
   .contactBox{
-    /*padding:50px 20px;*/
+    padding-bottom:15px;
+    margin-top:15px
   }
 
   .contactBox__intro{
@@ -11631,6 +11635,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
     background:url('../images/mv/mv-columns.png') no-repeat;
     background-size:cover;
     background-position: center center;
+
   }
 }
 
@@ -12947,9 +12952,10 @@ top: 30px;
   .Message_style2{
     width:100%;
     height:auto;
-    margin-top:2%;
+    margin-top:3%;
     margin-left:0;
-    padding-left:5.5%;
+    padding-left:3%;
+    padding-right:3%;
   }
 }
 .has-medium-font-size {
@@ -13305,10 +13311,6 @@ padding-top:10px
     margin-left:0;
     margin-top:2%;
   }
-
-  .reason04_style1_span2{
-    padding-top:10px
-  }
 }
 
 .reasonline3{
@@ -13335,6 +13337,7 @@ padding-top:10px
   background-color: white;
   margin-left:2%;
 }
+
 
 .reason05_style1_span1{
   color:#153f6f;
@@ -13488,9 +13491,6 @@ padding-top:10px
     height:auto;
     margin-left:0;
     margin-top:2%;
-  }
-  .reason05_style1_span2{
-    padding-top:10px
   }
 }
 
@@ -14594,30 +14594,20 @@ top: 30px;
     padding-top:30px !important;
   }
 
-  .t-recruitContent dl dt{
-    flex:0 0 28%;
-  }
-
   .t-recruitHead{
     font-size:2.2rem
   }
 
-  .t-recruitContent dl{
-    font-size:1.5rem
-  }
 
   .p-qa__content{
-    padding:0px 20px;
+    padding:0px 3%;
 
   }
 
   .c-qa-list{
-    padding-top:30px
+    padding-top:15px
   }
 
-  .t-recruit{
-    padding: 10px 0 30px 0;
-  }
 
   .accessStyle{
     margin-top:170px
@@ -14956,6 +14946,45 @@ top: 30px;
   font-size:1.44rem
 }
 
+.ssbtnwidth{
+  padding-left:5.5%;
+  padding-right:5.5%
+}
+
+.ssbtn{
+  background-color:#003E75;
+  color:#fff;
+  width:100%;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-weight:bold;
+  font-size:1.5rem
+}
+
+.aboutcomstyle{
+  margin-left:5.5%;
+  margin-right:5.5%
+}
+
+.p-member__list_extra{
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.companyss{
+  margin-left:5.5%;
+  margin-right:5.5%
+}
+
+.recruit-contain_style{
+  margin-left:5.5%;
+  margin-right:5.5%
+}
+.contact_containStyle{
+  margin-left:5.5%;
+  margin-right:5.5%
+}
 @media screen and (max-width: 991px) {
   .StradaStyle{
     font-size:1rem;
@@ -14996,7 +15025,8 @@ top: 30px;
   }
   .company_infomation{
     font-size:1rem;
-    zoom:0.9
+    zoom:0.9;
+    margin:15px 3% 15px 3%
   }
 }
 
@@ -15006,13 +15036,367 @@ top: 30px;
     padding-left: 15px;
     padding-right: 15%;
     color: #333;
-    font-size: 1rem;
+	}
+  .block_wrap{
+    padding-top:15px;
+    padding-bottom:15px
+  }
+  .title_item_wrap{
+    margin:0 0 0 3%
+  }
+  .node_wrap_show{
+    padding:0 3% 0 3%;
+    margin-top:15px
+  }
+
+  .block_wrap1{
+    padding-bottom:15px
+  }
+
+  .title_item_wrap1{
+    margin:0 0 0 3%
+  }
+  .node_wrap_show1{
+    margin-top:15px
+  }
+
+  .block_wrap2{
+    padding-bottom:15px
+  }
+  .title_item_wrap2{
+    margin:0 0 0 3%
+  }
+  .node_wrap_show2{
+    padding:0 3% 0 3%;
+    margin-top:15px
+  }
+
+  .block_wrap3{
+    padding-bottom:15px
+  }
+  .title_item_wrap3{
+    margin:0 0 0 3%
+  }
+  .node_wrap_show3{
+    padding:0 3% 0 3%;
+    margin-top:15px
+  }
+
+  .block_wrap4{
+    padding-bottom:15px
+  }
+  .title_item_wrap4{
+    margin:0 0 0 3%
+  }
+
+  .block_wrap5{
+    padding-bottom:15px
+  }
+  .title_item_wrap5{
+    margin:0 0 0 3%
+  }
+
+  .block_wrap6{
+    padding-bottom:15px
+  }
+  .title_item_wrap6{
+    margin:0 0 0 3%
+  }
+
+  .block_wrap7{
+    padding-bottom:15px
+  }
+  .title_item_wrap7{
+    margin:0 0 0 3%
+  }
+
+  .block_wrap8{
+    padding-bottom:15px
+  }
+  .title_item_wrap8{
+    margin:0 0 0 3%
+  }
+  .block_wrap9{
+    padding-bottom:0px
+  }
+  .title_item_wrap9{
+    margin:0 0 0 3%
+  }
+
+
+  .Message_style1{
+    padding-left:3%;
+    padding-right:3%;
+  }
+
+  .title_bg{
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:15px
+  }
+  .reasonline1{
+    margin-top:15px;
+    padding-left:3%;
+    padding-right:3%;
+    margin-bottom:1%;
+  }
+  .reasonline2{
+    margin-top:15px;
+    padding-left:3%;
+    padding-right:3%;
+    margin-bottom:1%;
+  }
+  .reasonline3{
+    margin-top:15px;
+    padding-left:3%;
+    padding-right:3%;
+    margin-bottom:1%;
+  }
+  .reason01_style1_span2{
+    font-size:1.08rem
+  }
+  .reason02_style1_span2{
+    font-size:1.08rem
+  }
+  .reason03_style1_span2{
+    font-size:1.08rem
+  }
+  .reason04_style1_span2{
+    font-size:1.08rem
+  }
+  .reason05_style1_span2{
+    font-size:1.08rem
+  }
+  .reason06_style1_span2{
+    font-size:1.08rem
+  }
+  .reason01_style1_p1{
+    zoom:0.92
+  }
+  .reason02_style1_p1{
+    zoom:0.92
+  }
+  .reason03_style1_p1{
+    zoom:0.92
+  }
+  .reason04_style1_p1{
+    zoom:0.92
+  }
+  .reason05_style1_p1{
+    zoom:0.92
+  }
+  .reason06_style1_p1{
+    zoom:0.92
+  }
+  .reason03_style1_img1{
+    margin-top:8px
+  }
+
+  .reason04_style1_img1{
+    margin-top:8px
+  }
+  .Message_style1_p1{
+    font-size:1rem;
     font-weight: bold;
     text-decoration: none;
+    zoom:0.92
+  }
+  .Message_style1_p2{
+    font-size:1.84rem;
+  }
+  .Message_style1_p3{
+    zoom:0.92
+  }
+  .Message_style1_p4{
+    zoom:0.92
+  }
+  .StradaStyle{
+    zoom:0.8
+  }
+  .sixreasons_bg{
+    margin-top:15px
+  }
+  .reason02_style1{
+    margin-top:15px
+  }
+  .reason04_style1{
+    margin-top:15px
+  }
+  .reason06_style1{
+    margin-top:15px;
+    margin-bottom:12px
+  }
+
+  .p-voice .c-mainTitle{
+    margin-left:3%;
+    margin-right:3%
+  }
+  .p-voice{
+    padding-top:22.5%
+  }
+  .c-voicePost{
+    padding-left:3%;
+    padding-right:0
+  }
+  .c-voicePost .c-voicePost__tlt{
+    font-size:1rem;
+    line-height:16px
+  }
+  .c-voicePost__text{
+    font-size:1rem;
+    margin-top: 0px;
+  }
+
+  .c-voicePost .c-voicePost__name{
+    font-size:1rem;
+    line-height:1px;
+  }
+
+  .ssbtn{
+    padding-top:0;
+    padding-bottom:0;
+    font-size:1.6rem
+  }
+
+  .ssbtnwidth{
+    padding-left:3%;
+    padding-right:3%
   }
   .tempalte_menber-list{
     margin-left: 2.5%!important;
     margin-right: 2.5%!important;
+	}
+  .p-qa .c-mainTitle{
+    margin-left:3%;
+    margin-right:3%
+  }
 
+  .qa_container{
+    margin-top:15px
+  }
+  .p-qa{
+    padding-top:14.5%
+  }
+
+  .c-qa__question--icon, .c-qa__answer--icon{
+    height:25px;
+    width:25px
+  }
+  .c-qa__question--text{
+    font-size:1.2rem;
+    padding-top:6px;
+    line-height:16px
+  }
+
+  .c-qa__answer--text{
+    zoom:0.92
+  }
+
+  .p-about .c-mainTitle{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .c-new-content{
+    margin-top:15px
+  }
+
+  .p-about{
+    padding-top:0.4%
+  }
+
+  .c-qa-list:last-child{
+    padding-bottom:15px
+  }
+
+  div#企業概要{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom:15px
+  }
+
+  .aboutcomstyle{
+    margin-left:3%;
+    margin-right:3%;
+    margin-bottom:15px;
+  }
+
+  .p-about_group .c-tlt02--center {
+    margin-bottom: 15px !important;
+  }
+  .company_right{
+    padding-top:15px !important
+  }
+
+  .p-member__list_extra{
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .companyss{
+    margin-left:3%;
+    margin-right:3%
+  }
+
+  .p-about_history .c-tlt02--center{
+    margin-bottom:15px !important
+  }
+
+  .p-member__list{
+    margin-left:3%;
+    margin-right:3%
+  }
+
+  .p-recruit .c-mainTitle{
+    margin-left:3%;
+    margin-right:3%
+  }
+  .p-recruit{
+    padding-top:14.5%
+  }
+  .t-recruitContent{
+    padding-top:15px
+  }
+
+  .recruit-contain_style{
+    margin-left:3%;
+    margin-right:3%
+  }
+
+  .p-about_historyContent dl {
+    zoom:0.92
+  }
+  .contactStyle{
+    zoom:0.92
+  }
+  .company_infomation{
+    zoom:0.92;
+  }
+  .t-recruitContent dl{
+    zoom:0.92;
+  }
+  .t-recruitContent dl dt{
+    flex:0 0 15%;
+  }
+  .t-recruit{
+    padding:0 0 15px 0
+  }
+  .p-recruitBtn{
+    margin-top:15px
+  }
+
+  .contact_containStyle{
+    margin-left:3%;
+    margin-right:3%
+  }
+  .p-contact .c-mainTitle{
+    margin-left:3%;
+    margin-right:3%;
+  }
+
+  .p-contact{
+    padding-top:14.5%
+  }
+
+  .contactStyle{
+    padding:5px 15px 5px 15px
   }
 }

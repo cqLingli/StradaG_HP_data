@@ -13,7 +13,7 @@
     </div>
   <div class="contactBox">
   <div class="l-container">
-    <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="contact_containStyle">
     <p class="contactStyle">下記お問合せフォームにご記載頂きご送信ください。担当者より折り返しご連絡させていただきます。※メールでのご相談は受け付けておりません。 </p>
     <div class="contactBox__intro">
     <?php 
