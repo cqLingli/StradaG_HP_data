@@ -5033,15 +5033,16 @@ navigation - グローバルナビなど
     padding-top: 20px;
   }
   .t-recruitHead {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
   .t-recruitContent dl {
-    font-size: 2rem;
+    font-size: 1rem;
+    zoom:0.9
   }
   .t-recruitContent dl dt {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 210px;
-    flex: 0 0 15%;
+    flex: 0 0 10%;
   }
 }
 .p-recruitBtn {
@@ -12888,18 +12889,39 @@ top: 30px;
 
 @media screen and (max-width: 991px) {
   .Message_style1_p1{
-    font-size:12px;
+    font-size:1rem;
+    zoom:0.9;
+    padding-top:0px
   }
   .Message_style1_p2{
-    font-size:24px;
+    font-size:1.8rem;
+    line-height:16px;
+    padding-top:0px;
+    padding-bottom:10px
+  }
+
+  .Message_style1_p3{
+    font-size:1rem;
+    line-height:16px;
+    padding-bottom:0px;
+    zoom:0.9
+  }
+  .Message_style1_p4{
+    font-size:1rem;
+    zoom:0.9
+  }
+  .Message_style1_p5{
+    font-size:1.4rem;
+    line-height:12px;
+    padding-bottom:10px;
   }
 
   /* .Message_style1{
     height:356px;
-  }
-  .Message_style2{
-    height:356px;
   } */
+  .Message_style2{
+    height:auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -13063,39 +13085,46 @@ top: 30px;
 @media screen and (max-width: 991px) {
 
   .reason01_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height:35px
   }
 
   .reason01_style1_p1{
-    font-size: 1.4rem;
-    line-height:20px;
+    font-size: 1rem;
+    line-height:16px;
+    zoom:0.9
   }
 
   .reason02_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height:35px
   }
 
   .reason02_style1_p1{
-    font-size: 1.4rem;
-    line-height:20px;
+    font-size: 1rem;
+    line-height:16px;
+    zoom:0.9
   }
 
   .reason02_style1_img1{
-    margin-top:48px;
+    margin-top:28px;
   }
 
   .reason01_style1_span2{
-    font-size: 1.6rem;
-    padding-top:12px;
-    padding-left:15px
+    font-size: 1.05rem;
+    padding-top:6px;
+    padding-left:10px
   }
 
   .reason02_style1_span2{
-    font-size: 1.6rem;
-    padding-top:12px;
-    padding-left:15px
+    font-size: 1.05rem;
+    padding-top:6px;
+    padding-left:10px
   }
 
+  .title_wd{
+    font-size: 1.5rem; 
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -13216,32 +13245,36 @@ padding-top:10px
 @media screen and (max-width: 991px) {
 
   .reason03_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height:35px
   }
 
   .reason03_style1_p1{
-    font-size: 1.4rem;
-    line-height:20px;
+    font-size: 1rem;
+    line-height:16px;
+    zoom:0.9
   }
 
   .reason04_style1_span2{
-    font-size: 1.6rem;
-    padding-left:15px;
-    padding-top:12px;
+    font-size: 1.05rem;
+    padding-left:10px;
+    padding-top:6px;
     line-height: 20px;
   }
 
   .reason04_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height: 35px;
   }
 
   .reason04_style1_img1{
-    margin-top:18px;
+    margin-top:32px;
   }
 
   .reason04_style1_p1{
-    font-size: 1.4rem;
-    line-height:20px;
+    font-size: 1rem;
+    line-height:16px;
+    zoom:0.9
   }
 
   .reason03_style1_img1{
@@ -13250,9 +13283,9 @@ padding-top:10px
   }
 
   .reason03_style1_span2{
-    font-size: 1.6rem;
-    padding-top:12px;
-    padding-left:15px
+    font-size: 1.05rem;
+    padding-top:6px;
+    padding-left:10px
   }
 
 
@@ -13395,32 +13428,36 @@ padding-top:10px
   }
 
   .reason05_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height: 35px;
   }
 
   .reason05_style1_p1{
-    font-size: 1.4rem;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 16px;
+    zoom:0.9
   }
 
 
   .reason06_style1_span1{
-    font-size:6rem;
+    font-size:4rem;
+    line-height: 35px;
   }
 
   .reason06_style1_p1{
-    font-size: 1.4rem;
-    line-height:20px;
+    font-size: 1rem;
+    line-height:16px;
+    zoom:0.9
   }
 
   .reason06_style1_span2{
-    font-size:1.6rem;
-    padding-left:15px;
-    line-height: 16px;
+    font-size:1.05rem;
+    padding-left:10px;
+    line-height: 12px;
   }
 
   .reason05_style1_img1{
-    margin-top:48px;
+    margin-top:22px;
   }
 
   .reason06_style1_img1{
@@ -13432,9 +13469,9 @@ padding-top:10px
   }
 
   .reason05_style1_span2{
-    font-size: 1.6rem;
-    padding-left:15px;
-    padding-top:12px;
+    font-size: 1.05rem;
+    padding-left:10px;
+    padding-top:6px;
     line-height: 20px;
   }
 }
@@ -14480,10 +14517,11 @@ top: 30px;
     flex:0 0 26%
   }
   .p-about_groupContent dl{
-    font-size:1.2rem
+    font-size:1rem;
+    zoom:0.9
   }
   .company_right dl dt{
-    flex:0 0 35% !important;
+    flex:0 0 30% !important;
   }
   .t-recruit{
     padding: 10px 0 30px 0;
@@ -14910,4 +14948,52 @@ top: 30px;
 .contactStyle{
   padding:15px;
   font-size:1.44rem
+}
+
+@media screen and (max-width: 991px) {
+  .StradaStyle{
+    font-size:1rem;
+    line-height: 16px;
+    zoom:0.81
+  }
+  .c-qa-list__title p {
+    font-size: 1.5rem;
+  }
+
+  .c-qa__question--text{
+    font-size:1.3rem;
+    padding-top:3px;
+  }
+
+  .c-qa__question--icon, .c-qa__answer--icon{
+    height: 30px;
+    width:30px;
+  }
+  .c-qa__answer--text{
+    font-size:1rem;
+    zoom:0.9;
+    line-height:16px
+  }
+  .accessChange{
+    margin-left:14.5px !important
+  }
+  .c-tlt02 h2{
+    font-size:1.5rem
+  }
+  .p-about_historyContent dl {
+    font-size: 1rem;
+    zoom:0.9
+  }
+  .contactStyle{
+    font-size:1rem;
+    zoom:0.9
+  }
+  .company_infomation{
+    font-size:1rem;
+    zoom:0.9
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
 }
