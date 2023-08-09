@@ -11927,7 +11927,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   line-height: 1.6;
   border-left: 4px solid #153F6F;
   padding: 2px 0 2px 15px;
-  width: calc(100%/2.1);
 }
 
 .s-service .entry-content p {
@@ -11936,7 +11935,6 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
   font-weight: 500;
   line-height: 1.7;
   margin-bottom:0;
-  width: calc(100%/2.1);
 }
 
 @media screen and (max-width: 767px){
@@ -12521,9 +12519,9 @@ background-position-y: bottom;
   font-size: 15px;
 }
 .term-excerpt{
-  width: 92%;
   font-size: 1.5rem;
-  margin-left: 2%;
+  margin-left: 7.5%;
+  margin-right: 5.5%;
  }
 
  * {
@@ -14412,6 +14410,10 @@ top: 30px;
     margin-right: 5.5%;
 
   }
+  .c-serviceList-add{
+    margin-left: 2.5%!important;
+    margin-right: 7%!important;
+  }
 }
 
 
@@ -14569,16 +14571,14 @@ top: 30px;
   }
 
   .term-excerpt{
-    font-size: 1.5rem;
-    padding-left: 5%;
-    padding-right: 2%;
+    font-size: 1.4rem;
+    margin-left: 5.5%;
   }
 
   .s-service .entry-content h3 {
     margin-top: 40px;
     font-size: 2rem;
     padding: 4px 15px;
-    margin-left: 2% !important;
   }
 
   .single-service{
@@ -14599,8 +14599,13 @@ top: 30px;
     margin-top: -1.5%;
     margin-left: 7.8%;
     margin-right: 8.8%;
-    font-size: 15px;
+    font-size: 14px;
   }
+  .term-description—service{
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+  }
+
 
   .news_content_add {
     margin-top: 1% !important;
@@ -14831,4 +14836,14 @@ top: 30px;
 }
 .menber-representative{
   height: 20px;
+}
+@media screen and (min-width: 991px) {
+  .term-description—service {
+    margin-left: 6% !important;
+    margin-right: 8% !important;
+  }
+  .c-serviceList-add{
+    margin-left: 4%!important;
+    margin-right: 0.5%!important;
+  }
 }

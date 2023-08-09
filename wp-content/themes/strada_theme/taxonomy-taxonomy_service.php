@@ -57,7 +57,7 @@ $mv = get_field('service_cat_mv', $qo);
             </div>
         </div>
         <div class="l-container">
-        <div class="term-description">
+        <div class="term-description term-description—service">
             <hr class="c-line-bottom" />
             <?php echo term_description(); ?>
             <hr class="c-line-bottom" />
@@ -67,7 +67,7 @@ $mv = get_field('service_cat_mv', $qo);
         <div class="c-new-content">
         <div class="l-container">
             <div class="l-content">
-                <div class="c-serviceList">
+                <div class="c-serviceList c-serviceList-add">
                     <?php
                     global $wp_query;
                     $args = array(
