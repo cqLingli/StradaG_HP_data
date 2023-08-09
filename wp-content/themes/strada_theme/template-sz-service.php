@@ -46,6 +46,8 @@
                         $tax_name = $term->name;
                         $tax_slug = $term->slug;
                         $img = get_field('service_cat_thumbnail', $term);
+                        $slug = $term->slug;
+                        $wp_term_url = get_term_link($term);
                         $index++;
                         ?>
                         <div class="<?php
@@ -58,11 +60,22 @@
                             <div class="thumb">
                                 <img src="<?php echo $img['url'] ?>" alt="">
                             </div>
-                            <a  href="<?php echo get_term_link($term) ?>" style="text-decoration: none;">
-                                <div class="service_title_icon">
-                                    <span><?php echo $tax_name; ?></span>
-                                </div>
-                            </a>
+                            <?php
+                            if($slug==="buppantax"){
+                                echo '<a  href="https://'.$slug.'.com" style="text-decoration:none;">
+                               <div class="service_title_icon">
+                                       <span>'.$tax_name.'</span>
+                                    </div> </a>';
+                            }else{
+                                echo '<a  href="'.$wp_term_url.'" style="text-decoration:none;">
+                  <div class="service_title_icon">
+                     <span>'.$tax_name.'</span>
+                  </div>
+              </a>';
+
+                            }
+
+                            ?>
                             <div class="content">
                                 <div>
                                     <p class="description_box"><?php echo nl2br($term->description); ?></p>
