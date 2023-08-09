@@ -3418,7 +3418,7 @@ title - 共通のタイトルやテキストなど
   @media screen and (max-width: 767px) {
     .p-column__list .item .txt .date {
       font-size: 1rem!important;
-      margin-left: 6%!important;
+      margin-left: 5%!important;
 
     }
   }
@@ -3545,7 +3545,8 @@ title - 共通のタイトルやテキストなど
       width: 100%;
       max-width: 100%;
       padding: 0;
-      margin-right: 3%;
+      padding: 5.5%;
+      margin-right: 5.5%;
     }
   }
 @media screen  and (min-width: 767px) and (max-width: 991px){
@@ -14869,6 +14870,11 @@ top: 30px;
   }
   .singleVoice01{
     padding:30px 30px 0 30px
+  }
+  .template-sz-serviceList{
+    margin-top: 1%;
+    margin-left: 5.5%!important;
+    margin-right: -1.5%!important;
   }
 }
 .columns_title_icon{
