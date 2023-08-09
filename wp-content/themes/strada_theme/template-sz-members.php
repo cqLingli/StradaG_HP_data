@@ -41,9 +41,9 @@
                                     <?php } ?>
                                 </div>
                                 <div class="txt">
-                                    <p class="name"><?php echo get_the_title(); ?></p>
-                                    <div class="c-job">
                                         <?php
+                                        $representative_name="";
+                                        $tax_name_over="";
                                         $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
                                             'hide_empty' => false,
                                             'parent' => 0,
@@ -55,16 +55,26 @@
                                             $tax_link = get_term_link($term->slug, 'taxonomy_position');
                                             $tax_name = $term->name;
                                             $tax_slug = $term->slug;
-                                            if($index===0){
-                                                echo '<p class="job">'.$tax_name.'</p>';
+                                            if($tax_name==="代表社員"){
+                                                $representative_name  ="代表社員";
                                             }else{
-                                                echo '<p class="job">/'.$tax_name.'</p>';
+                                                if($index===0){
+                                                  //  echo '<p class="job">'.$tax_name.'</p>';
+                                                    $tax_name_over=$tax_name;
+                                                }else{
+                                                 //   echo '<p class="job">/'.$tax_name.'</p>';
+                                                    $tax_name_over=$tax_name_over.'/'.$tax_name;
+                                                }
+                                                $index++;
                                             }
-                                            $index++;
+
                                         }
                                         ?>
-
-                                    </div>
+                                    <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
+                                    <p class="menber-name"><?php echo get_the_title(); ?></p>
+                                    <div class="c-job">
+                                    <p class="job"><?php echo $tax_name_over ?></p>
+                                   </div>
 
                                         <a  href="<?php echo get_permalink(get_the_ID());?>">
                                             <div class="service_title_icon">

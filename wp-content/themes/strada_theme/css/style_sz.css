@@ -11599,6 +11599,7 @@ body.post-type-archive-members .p-member__list img, body.tax-taxonomy_position .
 .c-job{
 	display:flex;
 	flex-wrap:wrap;
+    margin-top: -2.5%;
 }
 
 .c-job .job{
@@ -14314,6 +14315,7 @@ top: 30px;
 .service_title_icon{
   border: 1px solid black;
   border-radius: 20px;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14822,4 +14824,11 @@ top: 30px;
   margin-top: 1%;
   margin-left: 9.5%;
   margin-right: 1.5%;
+}
+.menber-name{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.menber-representative{
+  height: 20px;
 }

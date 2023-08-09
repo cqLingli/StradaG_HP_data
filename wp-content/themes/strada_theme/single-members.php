@@ -90,7 +90,7 @@ if($url_type==="sz"){
         if($company){
             $args = array(
                 'post_type' => 'members',
-//                'company' => $company, // 自定义字段名
+                'company' => $company, // 自定义字段名
                 'posts_per_page' => -1,
                 'orderby' => 'date',
                 'paged' => $paged,
@@ -130,37 +130,46 @@ if($url_type==="sz"){
                       <?php } ?>
                   </div>
                   <div class="txt">
-                      <p class="name"><?php echo get_the_title(); ?></p>
-                      <div class="c-job">
-                          <?php
-                          $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
-                              'hide_empty' => false,
-                              'parent' => 0,
-                              'order' => 'ASC',
-                              'orderby' => 'term_id'
-                          ) );
-                          $index=0;
-                          foreach ( $terms as $term) {
-                              $tax_link = get_term_link($term->slug, 'taxonomy_position');
-                              $tax_name = $term->name;
-                              $tax_slug = $term->slug;
+                      <?php
+                      $representative_name="";
+                      $tax_name_over="";
+                      $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
+                          'hide_empty' => false,
+                          'parent' => 0,
+                          'order' => 'ASC',
+                          'orderby' => 'term_id'
+                      ) );
+                      $index=0;
+                      foreach ( $terms as $term) {
+                          $tax_link = get_term_link($term->slug, 'taxonomy_position');
+                          $tax_name = $term->name;
+                          $tax_slug = $term->slug;
+                          if($tax_name==="代表社員"){
+                              $representative_name  ="代表社員";
+                          }else{
                               if($index===0){
-                                  echo '<p class="job">'.$tax_name.'</p>';
+                                  //  echo '<p class="job">'.$tax_name.'</p>';
+                                  $tax_name_over=$tax_name;
                               }else{
-                                  echo '<p class="job">/'.$tax_name.'</p>';
+                                  //   echo '<p class="job">/'.$tax_name.'</p>';
+                                  $tax_name_over=$tax_name_over.'/'.$tax_name;
                               }
                               $index++;
                           }
-                          ?>
 
+                      }
+                      ?>
+                      <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
+                      <p class="menber-name"><?php echo get_the_title(); ?></p>
+                      <div class="c-job">
+                          <p class="job"><?php echo $tax_name_over ?></p>
                       </div>
 
-                          <a  href="<?php echo get_permalink(get_the_ID());?>">
-                              <div class="service_title_icon">
+                      <a  href="<?php echo get_permalink(get_the_ID());?>">
+                          <div class="service_title_icon">
                               <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
-                              </div>
-                          </a>
-
+                          </div>
+                      </a>
 
                   </div>
               </div>
