@@ -14236,7 +14236,7 @@ top: 30px;
     padding: 1px 5px;
     float: right;
     width: 45%;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 991px) and (min-width: 760px) {
@@ -15001,5 +15001,13 @@ top: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  
+  .p-column .c-list__cat li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15%;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
