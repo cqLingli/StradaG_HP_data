@@ -3388,7 +3388,7 @@ title - 共通のタイトルやテキストなど
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
   }
   @media screen and (max-width: 991px) {
     .p-column__list .item .txt .date-cat {
@@ -3406,6 +3406,7 @@ title - 共通のタイトルやテキストなど
       align-items: center;
       margin-bottom: 5px;
       display: block;
+      margin-top: -3%;
     }
   }
   .p-column__list .item .txt .date {
@@ -3416,15 +3417,16 @@ title - 共通のタイトルやテキストなど
   }
   @media screen and (max-width: 767px) {
     .p-column__list .item .txt .date {
-      margin-right: 5px;
-      font-size: 1.2rem;
+      font-size: 1rem!important;
+      margin-left: 6%!important;
+
     }
   }
   .p-column__list .item .txt .cat {
     padding: 2px 5px;
     background-color: #153F6F;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     border: 1px solid;
   }
@@ -3433,7 +3435,7 @@ title - 共通のタイトルやテキストなど
       padding: 2px 5px;
       background-color: #153F6F;
       color: white;
-      font-size: 1.1rem;
+      font-size: 1rem !important;
       font-weight: bold;
       border: 1px solid;
     }
@@ -3454,9 +3456,15 @@ title - 共通のタイトルやテキストなど
       margin-bottom: 10px;
       font-size: 1.6rem;
     }
+    .p-column__list .item .txt .content {
+      font-size: 0.5rem!important;
+      margin-top: -2%!important;
+      line-height: 1;
+    }
   }
   .p-column__list .item .txt .content {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin-top: 5%;
   }
   .p-column__01 {
     margin-bottom: 50px;
@@ -3537,8 +3545,7 @@ title - 共通のタイトルやテキストなど
       width: 100%;
       max-width: 100%;
       padding: 0;
-      margin-left: 5.5%;
-      margin-right: 5.5%;
+      margin-right: 3%;
     }
   }
 @media screen  and (min-width: 767px) and (max-width: 991px){
@@ -3576,11 +3583,11 @@ title - 共通のタイトルやテキストなど
   }
   @media screen and (max-width: 767px) {
     .p-column__main .item {
-      padding: 15px 0;
+      padding: 3% 1%;
     }
   }
   .p-column__main .item .image {
-    width: 35%;
+    width: calc(100% /2 - 10px);
   }
 @media screen and (max-width: 991px) {
   .p-column__main .item .image {
@@ -3589,26 +3596,27 @@ title - 共通のタイトルやテキストなど
 }
 @media screen and (max-width: 767px) {
   .p-column__main .item .image {
-    width: 35%;
+    width: calc(100% /2 + 5px);
   }
 }
   .p-column__main .item .txt {
-    width: 60%;
+    width: calc(100% /2 - 10px);
     padding: 0;
   }
   .p-column__main .item .txt .date {
     font-size: 1.2rem;
-    margin-left: 45%;
+    margin-left: 30%;
   }
   .p-column__main .item .txt .title {
     margin-bottom: 8px;
-    font-size: 1.8rem;
-    line-height: 29px;
+    font-size: 1.5rem;
+    line-height: 100%;
+    margin-top: 5%;
   }
   @media screen and (max-width: 767px) {
     .p-column__main .item .txt .title {
-      margin-bottom: 8px;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      margin-top: -2%;
     }
   }
   .p-column__post {
@@ -12931,6 +12939,7 @@ top: 30px;
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 1px;
+  margin-top: 5%;
 }
 .column-read-more img {
   margin: auto;
@@ -14823,6 +14832,19 @@ top: 30px;
   .singleVoice01{
     padding:30px 30px 0 30px
   }
+}
+.columns_title_icon{
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 15%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/top/news_more.png");
+  background-repeat:no-repeat;
+  background-position: right 3% center;
+  background-size: 10%;
 }
 .page-entry{
   margin-left: 5.5%;

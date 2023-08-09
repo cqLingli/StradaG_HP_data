@@ -158,12 +158,15 @@
                             ?>
                             <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
                         </p>
-                        <p class="title"><?php echo get_the_title(); ?></p>
+                        <p class="title line-clamp line-clamp--2"><?php echo get_the_title(); ?></p>
                         <div class="content line-clamp line-clamp--2">
                           <?php echo strip_tags(get_the_excerpt()); ?>
                         </div>
-                          <div class="column-read-more">
-                              <img src="<?php echo home_url('/wp-content/uploads/2024/07/2024072740511_icon.png'); ?>"">
+<!--                          <div class="column-read-more">-->
+<!--                              <img src="--><?php //echo home_url('/wp-content/uploads/2024/07/2024072740511_icon.png'); ?><!--"">-->
+<!--                          </div>-->
+                          <div class="columns_title_icon">
+                              <span>READ MORE</span>
                           </div>
                       </div>
                       <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
