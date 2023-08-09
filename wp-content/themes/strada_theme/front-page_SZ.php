@@ -52,14 +52,14 @@ $_SESSION['page_type']="top";
         <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
             style="width:100%;height:90%"></iframe>
-          <p style="padding:0;margin:0;border:0">Youtubeストラーダグループチャンネル</p>
+          <p class="Youtube_text">Youtubeストラーダグループチャンネル</p>
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%">
-              <div style="width:80%;color:#003E75;font-weight:bold;font-size:15px;">ニュース</div>
+              <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
-                <div style="width:100px;color:black">READ MORE</div>
+                <div class="news_title_readmore">READ MORE</div>
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
                     style="width:30px" />
@@ -300,7 +300,7 @@ $_SESSION['page_type']="top";
               class="Strada_style_img1_1" />
           </div>
           <hr style="border:1px dotted #BDB7B7;">
-          <p style="font-size:1.5rem;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+          <p class="StradaStyle">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
             <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
