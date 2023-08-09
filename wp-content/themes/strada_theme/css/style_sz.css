@@ -15010,4 +15010,9 @@ top: 30px;
     font-weight: bold;
     text-decoration: none;
   }
+  .tempalte_menber-list{
+    margin-left: 2.5%!important;
+    margin-right: 2.5%!important;
+
+  }
 }

@@ -5,7 +5,7 @@
         <!-- end c-mainTitle -->
         <div class="c-new-content" style="padding-bottom:2%">
             <div class="l-container">
-                <div class="p-member__list" style="margin-left: 5.5%;margin-right: 5.5%">
+                <div class="p-member__list tempalte_menber-list" style="margin-left: 5.5%;margin-right: 5.5%">
                     <div class="menberTtile3">
                         <span>メンバー紹介</span>
                     </div>
