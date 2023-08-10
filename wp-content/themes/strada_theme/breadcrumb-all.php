@@ -66,9 +66,15 @@ if($url_type==="sz"){
             $url3=$url1."tax/taxcolumn1";
             $text3="税理士法人お役立ち情報";
             
-            $category = get_the_category();
-            $url4=$url1."columns/category/".$_SESSION["CAT_SLUG"];
-            $text4=$_SESSION["CAT_NAME"] ;
+            if($_SESSION["CAT_NAME"]){
+                $url4=$url1."columns/category/".$_SESSION["CAT_SLUG"];
+                $text4=$_SESSION["CAT_NAME"] ;
+            }else{
+                $category = get_the_category();
+                $url4=$url1."columns/category/".$category[0]->slug;
+                $text4=$category[0]->cat_name;
+            }
+            
 
             $text5=get_the_title();
             $breadcrumbType="5";

@@ -3,6 +3,8 @@ session_start();
 $_SESSION['url_type']="sz";
 $_SESSION['page_type']="column";
 get_header("sz");
+$_SESSION["CAT_NAME"] = "";
+$_SESSION["CAT_SLUG"] = "";
 /**
 * Template Name: Archive Sz column
 */
@@ -31,7 +33,8 @@ get_header("sz");
             }elseif(is_page('columns')){
               echo 'お役立ち情報 ';            
             }else{
-              echo wp_title('');
+              //echo wp_title('');
+              echo 'お役立ち情報 '; 
             }
             ?>
             <span>column</span>

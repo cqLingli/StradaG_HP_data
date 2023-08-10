@@ -3,6 +3,9 @@ session_start();
 $_SESSION['url_type']="sz";
 $_SESSION['page_type']="column";
 get_header("sz");
+global $wp_query;
+$_SESSION["CAT_NAME"] = $wp_query->queried_object->cat_name;
+$_SESSION["CAT_SLUG"] = $wp_query->queried_object->slug;
 /**
 * Template Name: Archive
 */
@@ -25,9 +28,7 @@ get_header("sz");
             }elseif(get_query_var('year') != 0){
                 echo get_query_var('year') . "年" ."の記事一覧" ;
             }elseif(is_category()){
-                global $wp_query;
-                $_SESSION["CAT_NAME"] = $wp_query->queried_object->cat_name;
-                $_SESSION["CAT_SLUG"] = $wp_query->queried_object->slug;
+
                 single_cat_title();
             }elseif(is_tag()){
               single_tag_title();
