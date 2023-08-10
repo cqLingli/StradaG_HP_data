@@ -15798,6 +15798,37 @@ top: 30px;
     margin-right: 3%!important;
     padding: 1%;
   }
+  .pagination .m-prev{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .pagination .pn-numbers{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .pagination .pn-prev{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .pagination .current{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .pagination .pn-next{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .pagination .m-next{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
 }
 
 .menber_single-width{
@@ -15808,3 +15839,7 @@ top: 30px;
   margin-left: 5.5%;
   margin-right: 5.5%;
 }
+.pagination{
+  margin-top: 1%;
+}
+
