@@ -70,7 +70,7 @@
 
                                         }
                                         ?>
-                                    <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
+                                    <p class="menber-representative"><?php echo $representative_name; ?></p>
                                     <p class="menber-name"><?php echo get_the_title(); ?></p>
                                     <div class="c-job">
                                     <p class="job"><?php echo $tax_name_over ?></p>
@@ -78,7 +78,7 @@
 
                                         <a  href="<?php echo get_permalink(get_the_ID());?>">
                                             <div class="service_title_icon">
-                                            <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
+                                            <span style="font-weight: 400!important;">READ MORE</span>
                                             </div>
                                         </a>
 

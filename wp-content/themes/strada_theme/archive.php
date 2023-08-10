@@ -142,73 +142,82 @@ get_header("sz");
                   ?>
               </span>
           </div>
-        <div class="p-column__list">
-          <?php
-            if(get_query_var('year') != 0){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }elseif(get_query_var('monthnum') != 0){
-              $args = array( 'post_type' => 'column','posts_per_page' => 30,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }elseif(is_category()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
-            }elseif(is_tag()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
-            }elseif(is_front_page()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
-            }else {
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
-            }
+          <div class="p-column__list">
+              <?php
+              if(get_query_var('year') != 0){
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              }elseif(get_query_var('monthnum') != 0){
+                  $args = array( 'post_type' => 'column','posts_per_page' => 30,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              }elseif(is_category()){
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              }elseif(is_tag()){
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              }elseif(is_front_page()){
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
+              }else {
+                  query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              }
 
-            if(have_posts()) :
-                while(have_posts()) : the_post(); ?>
-                    <div class="item">
-                      <div class="image">
-                        <?php
-                          if (has_post_thumbnail()) {
-                            the_post_thumbnail( 'kv-size');
-                          } else { ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/common/no-image.png" alt="" class="img">
-                          <?php }
-                        ?>
-                      </div>
-                      <div class="txt">
-                        <p class="date-cat">
-
-                          <?php
-                            $terms = wp_get_post_terms($post->ID, 'category', array(
-                                'hide_empty' => false,
-                                'parent' => 0,
-                                'order' => 'ASC',
-                                'orderby' => 'term_id'
-                            ) );
-                            foreach ( $terms as $term) {
-                                $tax_link = get_term_link($term->slug, 'category');
-                                $tax_name = $term->name;
-                                $tax_slug = $term->slug;
-                                echo '<span class="cat">'.$tax_name.'</span>';
-                            }
-                            ?>
-                            <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
-                        </p>
-                        <p class="title"><?php echo get_the_title(); ?></p>
-                        <div class="content line-clamp line-clamp--2">
-                          <?php echo strip_tags(get_the_excerpt()); ?>
-                        </div>
-                          <div class="column-read-more">
-                              <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
+              if(have_posts()) :
+                  while(have_posts()) : the_post(); ?>
+                      <div class="item">
+                          <div class="image">
+                              <?php
+                              if (has_post_thumbnail()) {
+                                  the_post_thumbnail( 'kv-size');
+                              } else { ?>
+                                  <img src="<?php echo get_template_directory_uri(); ?>/images/common/no-image.png" alt="" class="img">
+                              <?php }
+                              ?>
                           </div>
+                          <div class="txt">
+                              <p class="date-cat">
+                                  <?php
+                                  $index_tax_name=0;
+                                  $terms = wp_get_post_terms($post->ID, 'category', array(
+                                      'hide_empty' => false,
+                                      'parent' => 0,
+                                      'order' => 'ASC',
+                                      'orderby' => 'term_id'
+                                  ) );
+                                  foreach ( $terms as $term) {
+                                      $tax_link = get_term_link($term->slug, 'category');
+                                      $tax_name = $term->name;
+                                      $tax_slug = $term->slug;
+                                      $index_tax_name++;
+                                      if($index_tax_name<2){
+                                          echo '<span class="cat">'.$tax_name.'</span>';
+                                      }else{
+                                          break;
+                                      }
+
+                                  }
+                                  ?>
+                                  <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
+                              </p>
+                              <p class="title line-clamp line-clamp--2"><?php echo get_the_title(); ?></p>
+                              <div class="content line-clamp line-clamp--2">
+                                  <?php echo strip_tags(get_the_excerpt()); ?>
+                              </div>
+                              <!--                          <div class="column-read-more">-->
+                              <!--                              <img src="--><?php //echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?><!--"">-->
+                              <!--                          </div>-->
+                              <div class="columns_title_icon">
+                                  <span>READ MORE</span>
+                              </div>
+                          </div>
+                          <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
                       </div>
-                      <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-                    </div>
-                <?php endwhile;
-                wp_reset_postdata();
-            else:
-                ?>
-                <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-                <?php
-            endif;
-          ?>
-        </div>
+                  <?php endwhile;
+                  wp_reset_postdata();
+              else:
+                  ?>
+                  <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
+              <?php
+              endif;
+              ?>
+          </div>
         <div class="c-pagenation">
           <?php wp_pagenavi(); ?>
         </div>
