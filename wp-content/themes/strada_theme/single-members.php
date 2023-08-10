@@ -43,10 +43,10 @@ if($url_type==="sz"){
     <!-- end c-mainTitle -->
     <div class="c-new-content" style="padding-bottom: 100px;">
   <div class="l-container">
-      <div class="menberTtile" style="margin-left: 5.5%;margin-right: 5.5%;">
+      <div class="menberTtile menber_single-width">
           <span>メンバー紹介</span>
       </div>
-    <div class="p-member02__box" style="margin-left: 5.5%;margin-right: 5.5%;">
+    <div class="p-member02__box single_p-member02__box">
       <div class="image">
         <?php
           if ( has_post_thumbnail() ) {

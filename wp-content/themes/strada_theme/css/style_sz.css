@@ -14799,7 +14799,8 @@ top: 30px;
     margin-top: 1%;
   }
   .p-member__list_single{
-
+    margin-left: 3%;
+    margin-right: 3%;
 }
   .menber-single-content{
     margin-top: 1%;
@@ -15788,4 +15789,22 @@ top: 30px;
     height: 20px;
     padding-left:3%
   }
+  .menber_single-width{
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+  }
+  .single_p-member02__box{
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+    padding: 1%;
+  }
+}
+
+.menber_single-width{
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+.single_p-member02__box{
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
