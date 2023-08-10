@@ -42,7 +42,7 @@ $(function() {
     })
 });
 
-$(function(){
+/*$(function(){
 	if($(window).width() < 768){
 		if( $('.c-breakcrumds')){
 		   var breadcrumb = $('.c-breakcrumds').clone().addClass('newBreadcrumb');
@@ -50,7 +50,7 @@ $(function(){
 		   $('.c-breakcrumds').not('.newBreadcrumb').remove();
 		}
 	}
-})
+})*/
 
 // $('.p-column__slider .p-column__list').slick({
 //     slidesToShow: 2,

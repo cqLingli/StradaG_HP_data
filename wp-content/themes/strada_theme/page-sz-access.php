@@ -22,16 +22,13 @@ get_header("sz");
 
     <div class="accessbox">
     <div class="l-container">
-    <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="mob_access">
         <div class="access-title">アクセス</div>
         <div class="p-access_groupContent">
             <div class="t-access t-block" id="access">
                 <div class="l-container">
                     <div class="t-access_main">
-                        <div class="t-access_img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img_access.jpg" alt="">
-                        </div>
-                        <div class="t-access_content">
+                    <div class="t-access_content">
                                 <h4>ストラーダ税理士法人</h4>
                                 <p class="t-access_add">
                                 東京都中央区日本橋蛎殻町2丁目11−2 オートエックス工藤ビル4F
@@ -39,7 +36,7 @@ get_header("sz");
                                 <p class="t-access_add">
                                 TEL:0120-709-459
                                 </p>
-                            <ul>
+                            <ul class="accstyle">
                                 <li>
                                     <span>半蔵門線：水天宮前駅 5番出口から徒歩2分</span>
                                 </li>
@@ -53,6 +50,9 @@ get_header("sz");
                                     <span>都営新宿線：浜町駅 A2出口から徒歩9分</span>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="t-access_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img_access.jpg" alt="">
                         </div>
                         </div>
                     </div>
