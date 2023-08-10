@@ -14935,11 +14935,12 @@ top: 30px;
 
 @media screen and (max-width: 760px) {
   .Voicestyle{
-    margin-top:170px
+    margin-top:80px
   }
 
   .archiveVoice01{
-    margin-top:0px
+    margin-top:15px;
+    padding:15px 0 15px 0
   }
 
   .singleVoicestyle{
