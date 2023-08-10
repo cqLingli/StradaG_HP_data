@@ -257,6 +257,11 @@ footer - フッターのレイアウト
   margin-right: 5px;
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .l-footer__foot .l-container a {
+    font-size: 1rem;
+  }
+}
 
 .f-flex {
   display: -webkit-box;
