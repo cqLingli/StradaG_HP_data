@@ -191,9 +191,15 @@ get_header("sz");
             endif;
           ?>
         </div>
-        <div class="c-pagenation">
-          <?php wp_pagenavi(); ?>
-        </div>
+          <?php
+          if (function_exists("pagination")) {
+
+              pagination($query->max_num_pages);
+          }
+          ?>
+<!--        <div class="c-pagenation">-->
+<!--          --><?php //wp_pagenavi(); ?>
+<!--        </div>-->
       </div>
       <div class="l-sidebar">
         <?php get_sidebar('sidebar'); ?>

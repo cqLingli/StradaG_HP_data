@@ -174,7 +174,6 @@ get_header("sz");
                           <div class="txt">
                               <p class="date-cat">
                                   <?php
-                                  $index_tax_name=0;
                                   $terms = wp_get_post_terms($post->ID, 'category', array(
                                       'hide_empty' => false,
                                       'parent' => 0,
@@ -186,12 +185,7 @@ get_header("sz");
                                       $tax_name = $term->name;
                                       $tax_slug = $term->slug;
                                       $index_tax_name++;
-                                      if($index_tax_name<2){
-                                          echo '<span class="cat">'.$tax_name.'</span>';
-                                      }else{
-                                          break;
-                                      }
-
+                                      echo '<span class="cat">'.$tax_name.'</span>';
                                   }
                                   ?>
                                   <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
@@ -218,9 +212,15 @@ get_header("sz");
               endif;
               ?>
           </div>
-        <div class="c-pagenation">
-          <?php wp_pagenavi(); ?>
-        </div>
+          <?php
+          if (function_exists("pagination")) {
+
+              pagination($query->max_num_pages);
+          }
+          ?>
+<!--        <div class="c-pagenation">-->
+<!--          --><?php //wp_pagenavi(); ?>
+<!--        </div>-->
       </div>
       <div class="l-sidebar cloumn_sidebar02">
         <?php get_sidebar('sidebar'); ?>
