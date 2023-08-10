@@ -3268,6 +3268,7 @@ title - 共通のタイトルやテキストなど
   }
   .p-column .c-tlt04 {
     padding-left:10px;
+
     margin-bottom: 15px;
     background: linear-gradient(to right,#153F6F 30%, #E3E8F1 100%);
     color: #fff;
@@ -3442,6 +3443,7 @@ title - 共通のタイトルやテキストなど
       color: white;
       font-size: 1rem !important;
       font-weight: bold;
+
       border: 1px solid;
     }
   }
@@ -6824,6 +6826,7 @@ flex - flexを使った位置調整など
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
+
   .u-align-content-md-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
@@ -10722,6 +10725,7 @@ font-weight: bold;
 }
 
 .p-qa .c-mainTitle{
+
   background:url('../images/mv/mv-qa.jpg') no-repeat;
   background-size:cover;
   background-position: center center;
@@ -15133,6 +15137,20 @@ top: 30px;
     font-size:1rem;
     zoom:0.9;
   }
+  .p-access .access-title{
+    font-size:2rem !important
+  }
+  .p-access .t-access_add{
+    font-size:1.4rem !important
+  }
+
+  .p-access_groupContent h3, .cm-ttl01{
+    font-size:2rem
+  }
+
+  .p-access .access p{
+    font-size:1.4rem
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -15792,54 +15810,129 @@ top: 30px;
   .menber_single-width{
     margin-left: 3%!important;
     margin-right: 3%!important;
-  }
+}
   .single_p-member02__box{
     margin-left: 3%!important;
     margin-right: 3%!important;
     padding: 1%;
-  }
+	}
+.search_icon{
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
   .pagination .m-prev{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+	  }
+.search_content{
+  height: auto;
+  width: 90%;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  left: 5%;
+  top: 149px;
+  z-index: 9999;
+  display: none;
+}
   .pagination .pn-numbers{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+	  }
+
+@keyframes slide-down{
+  0%{transform:scale(1,0);}
+  100%{transform:scale(1,1);}
+}
   .pagination .pn-prev{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+	  }
+@-webkit-keyframes slide-down{
+  0%{-webkit-transform:scale(1,0);}
+  100%{-webkit-transform:scale(1,1);}
+}
   .pagination .current{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+
+	  }
+.search_content_show{
+  display: block;
+  max-height: auto;
+  transition: max-height .3s ease-in;
+  transform-origin: 50% 0;
+  animation: slide-down 0.3s ease-in;
+  -webkit-animation: slide-down 0.3s ease-in;
+}
   .pagination .pn-next{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+	  }
+.search_content a {
+  text-decoration: none;
+}
+.search_content_style{
+  font-size:2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin:10px;
+  background-color: #153d6e;
+  color:#fff;
+}
 
   .pagination .m-next{
     width: 20px;
     height: 20px;
     font-size: 10px;
-  }
+	  }
+.search_content_style1{
+  display: flex;
+  border-radius: 10px;
+  border:1px solid black;
+  margin:10px;
+}
+.search_content_style1_1{
+  width: 95%;
 }
 
 .menber_single-width{
   margin-left: 5.5%;
   margin-right: 5.5%;
+	  }
+.search_content_style1_2{
+  width: 5%;
 }
 .single_p-member02__box{
   margin-left: 5.5%;
   margin-right: 5.5%;
+	  }
+.search_content_style1_1 input{
+  width: 100%;
+  height: 100%;
+  font-size:2rem;
+  border-radius: 10px 0px 0px 10px;
+  border:0;
+  background-color: #F3F5F6;
+  outline: none;
 }
 .pagination{
   margin-top: 1%;
+	  }
+.search_content_style1_2 button{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  border:0;
+  cursor: pointer;
+  background-color: #F3F5F6;
 }
-
+.search_content_style1_1 input::-webkit-input-placeholder{
+  padding-left:51%;
+  font-size:2rem;
+  }

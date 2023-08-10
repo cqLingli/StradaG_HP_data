@@ -91,11 +91,8 @@
               </a>
             </div>
             <div class="h-mail h-mail--4">
-              <a href="#" target="_blank">
-                <img style="width: 50px;height: auto;"src="<?php echo get_template_directory_uri(); ?>/images/common_sz/seach_icon.png" alt="" />
-              </a>
+                <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common_sz/seach_icon.png" alt="" />
             </div>
-
           </div>
         </div>
       </div>
@@ -132,6 +129,36 @@
             <a href="https://buppantax.com/"><div class="vertical-line">確定申告サポート</div></a>
           </li>          
         </ul>
+      </div>
+      <div id="search_content_ID" class="search_content">
+      <a href="<?php echo home_url('tax/taxservicelist'); ?>"><div class="search_content_style">事業内容</div></a>
+      <a href="<?php echo home_url('tax/taxvoicelist'); ?>"><div class="search_content_style">お客様の声</div></a>
+      <a href="<?php echo home_url('tax/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
+      <a href="<?php echo home_url('tax/taxnewslist'); ?>"><div class="search_content_style">ニュース</div></a>
+      <a href="<?php echo home_url('tax/taxcolumn1'); ?>"><div class="search_content_style">お役立ち情報</div></a>
+      <a href="<?php echo home_url('tax/#About'); ?>"><div class="search_content_style">会社概要</div></a>
+      <a href="<?php echo home_url('tax/taxmenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
+      <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="search_content_style">アクセス</div></a>
+      <a href="<?php echo home_url('tax/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+      <a href="https://buppantax.com/"><div class="search_content_style">確定申告サポート</div></a>
+      <div class="search_content_style1">
+      <div class="search_content_style1_1">
+                <input type="text" id="search_content_input" placeholder="検索">
+            </div>
+            <div class="search_content_style1_2">
+                <button onclick="#" class="search_content_button">
+                    <svg t="1637644951499" class="icon-search" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="2455" width="36" height="28">
+                        <path
+                            d="M425.9 144.9c38.1 0 75 7.4 109.6 22.1 33.5 14.2 63.7 34.5 89.6 60.4 25.9 25.9 46.2 56 60.4 89.6 14.7 34.7 22.1 71.6 22.1 109.6s-7.4 75-22.1 109.6c-14.2 33.5-34.5 63.7-60.4 89.6-25.9 25.9-56 46.2-89.6 60.4-34.7 14.7-71.6 22.1-109.6 22.1s-75-7.4-109.6-22.1c-33.5-14.2-63.7-34.5-89.6-60.4-25.9-25.9-46.2-56-60.4-89.6-14.7-34.7-22.1-71.6-22.1-109.6s7.4-75 22.1-109.6c14.2-33.5 34.5-63.7 60.4-89.6 25.9-25.9 56-46.2 89.6-60.4 34.7-14.6 71.6-22.1 109.6-22.1m0-80c-199.8 0-361.7 161.9-361.7 361.7s161.9 361.7 361.7 361.7 361.7-161.9 361.7-361.7S625.7 64.9 425.9 64.9z"
+                            fill="#2C2C2C" p-id="2456"></path>
+                        <path
+                            d="M715.3 654l226.3 226.3c15.6 15.6 15.6 40.9 0 56.6-15.6 15.6-40.9 15.6-56.6 0L658.7 710.6c-15.6-15.6-15.6-40.9 0-56.6 15.6-15.6 41-15.6 56.6 0z"
+                            fill="#5ABE64" p-id="2457"></path>
+                    </svg>
+                </button>
+            </div>
+      </div>
       </div>
       <div class="l-header_topline"></div>
     </div>
