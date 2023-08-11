@@ -5782,7 +5782,7 @@ div#新卒採用 {
 
 .t-recruitContent {
   display: block;
-  width: calc(100% / 3);
+  width: 100%;
   margin-left: 30px;
 }
 
@@ -5813,6 +5813,7 @@ div#新卒採用 {
 .recruit-container {
   width: 100%;
   display: flex;
+  flex-wrap:wrap
 }
 
 .t-recruitContent dl {
@@ -5831,7 +5832,7 @@ div#新卒採用 {
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 20%;
+  flex: 0 0 10%;
   font-weight: bold;
 }
 
@@ -5870,6 +5871,7 @@ div#新卒採用 {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 30px;
+  width:100%
 }
 
 .p-recruitBtn a {
@@ -12184,7 +12186,7 @@ img {
   border-left: 4px solid #6A6969;
   font-size: 2.4rem;
   font-weight: bold;
-  line-height: 1;
+  line-height: 2;
 }
 
 .p-access_groupContent .wp-block-table {
@@ -12979,6 +12981,7 @@ img {
 
 .p-access {
   background-color: #fff;
+  margin-top:220px
 }
 
 .p-access .t-access {
@@ -13052,7 +13055,7 @@ img {
 }
 
 .p-access .cm-ttl01 {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 img {
@@ -17180,7 +17183,7 @@ ol li {
 
 .target-fix {
   position: relative;
-  top: -158px;
+  top: -226px;
   display: block;
   height: 0;
   overflow: hidden;
@@ -17869,8 +17872,8 @@ ol li {
     zoom: 0.92;
   }
 
-  .t-recruitContent dl dt {
-    flex: 0 0 15%;
+  .t-recruitContent dl dt{
+    flex:0 0 28%;
   }
 
   .t-recruit {

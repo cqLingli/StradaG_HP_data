@@ -175,7 +175,7 @@
             </a>
           </li>
           <li>
-            <a href="<?php echo home_url('#menber'); ?>">
+            <a href="<?php echo home_url('menber'); ?>">
               <div class="vertical-line">メンバー紹介</div>
             </a>
           </li>
@@ -196,7 +196,7 @@
       <a href="<?php echo home_url('#'); ?>"><div class="search_content_style">業務内容</div></a>
       <a href="<?php echo home_url('#StradaGroup'); ?>"><div class="search_content_style">グループ紹介</div></a>
       <a href="<?php echo home_url('#About'); ?>"><div class="search_content_style">会社概要</div></a>
-      <a href="<?php echo home_url('#menber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
+      <a href="<?php echo home_url('menber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('access'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       <div class="search_content_style1">

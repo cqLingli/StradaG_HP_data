@@ -19,7 +19,7 @@ $_SESSION['page_type']="top";
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_02.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
             alt="" /></a>
       </li>
     </ul>
@@ -35,27 +35,31 @@ $_SESSION['page_type']="top";
   <!-- end imageplay -->
   <!-- start What’s New -->
   <div class="block_wrap">
-    <div class="border-text"></div>
+    <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap" class="title_item_wrap active">
         <p class="chapter_title">What's New
         <div class="circle"></div>
         </p>
       </div>
+      <div id="text" class="border-text border-text-controll">更新のご案内</div>
+      </div>
     </div>
-    <div class="border-bt"></div>
+    </div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
         <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
             style="width:100%;height:90%"></iframe>
-          <p style="padding:0;margin:0;border:0">ストラーダグループ紹介動画 Youtube</p>
+          <p class="Youtube_text">ストラーダグループ紹介動画 Youtube</p>
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%">
-              <div style="width:95%;color:#6A6969;font-weight:bold;font-size:15px;">ニュース</div>
+              <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('news'); ?>" style="text-decoration:none">
+                <div class="news_title_readmore">READ MORE</div>
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
                     style="width:30px" />
@@ -110,14 +114,18 @@ $_SESSION['page_type']="top";
   <!-- start Message -->
   <div class="block_wrap1">
     <div class="border-text1"></div>
+      <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap1" class="title_item_wrap1 active1">
         <p class="chapter_title1">Message
         <div class="circle1"></div>
         </p>
       </div>
+      <div id="text1" class="border-text border-text-controll">トップメッセージ</div>
     </div>
-    <div class="border-bt1"></div>
+    </div>
+      </div>
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
@@ -144,14 +152,18 @@ $_SESSION['page_type']="top";
   <a id="StradaGroup" class="target-fix"></a>
   <div class="block_wrap2">
     <div class="border-text2"></div>
+      <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap2" class="title_item_wrap2 active2">
         <p class="chapter_title2">Strada Group
         <div class="circle2"></div>
         </p>
       </div>
+      <div id="text2" class="border-text border-text-controll">Strada Group</div>
     </div>
-    <div class="border-bt2"></div>
+    </div>
+  </div>
     <div class="l-container">
       <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
         <div class="Strada_style">
@@ -160,7 +172,7 @@ $_SESSION['page_type']="top";
               class="Strada_style_img1_1" />
           </div>
           <hr style="border:1px dotted #BDB7B7;">
-          <p style="font-size:1.5rem;padding-top:5px;padding-bottom:5px">ストラーダグループとは、　
+          <p class="StradaStyle">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
             <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
@@ -184,14 +196,18 @@ $_SESSION['page_type']="top";
   <a id="About" class="target-fix"></a>
   <div class="block_wrap7">
     <div class="border-text7"></div>
+      <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap7" class="title_item_wrap7 active7">
         <p class="chapter_title7">About
         <div class="circle7"></div>
         </p>
       </div>
+      <div id="text7" class="border-text border-text-controll">会社概要、アクセス、メンバー</div>
     </div>
-    <div class="border-bt7"></div>
+    </div>
+    </div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about'); ?>
         <a id="menber" class="target-fix1"></a>
@@ -205,14 +221,18 @@ $_SESSION['page_type']="top";
   <!-- start Contact -->
   <div class="block_wrap8">
     <div class="border-text8"></div>
+      <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap8" class="title_item_wrap8 active8">
         <p class="chapter_title8">Contact
         <div class="circle8"></div>
         </p>
       </div>
+      <div id="text8" class="border-text border-text-controll">お問い合わせ</div>
     </div>
-    <div class="border-bt8"></div>
+    </div>
+   </div>
       <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
         <?php get_template_part('template', 'contact'); ?>
       </div>
@@ -223,14 +243,18 @@ $_SESSION['page_type']="top";
   <a id="Recruit" class="target-fix"></a>
   <div class="block_wrap9">
     <div class="border-text9"></div>
+      <div class="border-bt">
     <div class="l-container">
+    <div style="display:flex">
       <div id="block_wrap9" class="title_item_wrap9 active9">
         <p class="chapter_title9">Recruit
         <div class="circle9"></div>
         </p>
       </div>
+      <div id="text9" class="border-text border-text-controll">採用情報</div>
     </div>
-    <div class="border-bt9"></div>
+    </div>
+  </div>
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
         <?php get_template_part('template', 'recruit'); ?>
       </div>
