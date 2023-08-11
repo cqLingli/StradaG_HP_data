@@ -3513,16 +3513,16 @@ div#企業概要 {
 .p-about_groupContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 18%;
+  flex: 0 0 17%;
   text-align: right;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .company_right dl dt {
   text-align: left !important;
   border: none !important;
   flex: 0 0 25%;
-  padding-left: 5px
+  margin-right: -4px;
 }
 
 .t-company_list {
@@ -16964,8 +16964,8 @@ ol li {
   }
 
   .p-about_groupContent dl dt {
-    flex: 0 0 25% !important;
-    margin-right: 10px;
+    flex: 0 0 24% !important;
+    margin-right: 5px;
   }
 
   .company_right {
@@ -17903,11 +17903,12 @@ ol li {
   }
 
   .company_left dl dt {
-    margin-left: -30px !important
+    margin-left: -28px !important
   }
 
   .company_right dl dt {
-    margin-left: -2px !important
+    margin-left: 0px !important;
+    margin-right: 0px !important
   }
 
   .p-about_historyContent dl {
