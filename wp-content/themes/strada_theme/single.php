@@ -34,7 +34,12 @@ get_header("sz");
       <div class="p-column__post p-column__post1">
           <div class="menberTtile">
             <span><?php
-                echo  $_SESSION["CAT_NAME"];
+                if($_SESSION["CAT_NAME"] ){
+                    echo $_SESSION["CAT_NAME"] ;
+                }else{
+                    $category = get_the_category();
+                    echo $category [0]->cat_name;
+                }
                 ?></span>
           </div>
         <div class="box">
