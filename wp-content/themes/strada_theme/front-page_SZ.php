@@ -121,7 +121,7 @@ $_SESSION['page_type']="top";
         <div class="circle1"></div>
         </p>
       </div>
-      <div id="text1" class="border-text border-text-controll">トップメッセージ、選ばれる6つの理由</div>
+      <div id="text1" class="border-text border-text-controll">トップメッセージ、選ばれる６つの理由</div>
     </div>
     </div>
       </div>
