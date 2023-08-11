@@ -4,29 +4,29 @@
 <main class="l-main p-service">
     <!-- end c-breakcrumds -->
     <div class="l-container">
-    <div class="c-mainTitle" style="  margin-left: 5.5%;margin-right: 5.5%;margin-top: -10%">
-        <div class="c-mainTitle_content">
-            <div class="c-tlt01 c-tlt01__black">
-                <h1 class="c-tlt01__line c-tlt01__line--gray">
-                    事業内容
-                    <span>Service</span>
-                </h1>
+        <div class="c-mainTitle template-service-mainTitle">
+            <div class="c-mainTitle_content">
+                <div class="c-tlt01 c-tlt01__black">
+                    <h1 class="c-tlt01__line c-tlt01__line--gray">
+                        事業内容
+                        <span>Service</span>
+                    </h1>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div style="margin-left: 5.5%;margin-right: 5.5%;margin-top: 4%;font-size:1.5rem;">
-        <hr class="service-line-bottom-top" />
-        <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
-        <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
-        <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
-        <hr class="service-line-bottom-top2" />
-        <div style="margin-top: 3%;"></div>
-    </div>
+        <div class="template-service-title">
+            <hr class="service-line-bottom-top" />
+            <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
+            <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
+            <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
+            <hr class="service-line-bottom-top2" />
+            <div style="margin-top: 3%;"></div>
+        </div>
     </div>
     <!-- end c-mainTitle -->
-    <div class="c-new-content">
-        <div class="l-content">
+    <div class="c-new-content-service">
+        <div class="l-content template-sz-service">
             <div class="l-container">
                 <?php
                 $terms = get_terms( 'taxonomy_service', array(
@@ -36,7 +36,7 @@
                     'orderby' => 'menu_order'
                 ) );
                 ?>
-                <div class="c-serviceList">
+                <div class="c-serviceList template-sz-serviceList">
                     <div class="menberTtile">事業内容</div>
                     <div style="height: 10px;"></div>
                     <?php
@@ -46,6 +46,8 @@
                         $tax_name = $term->name;
                         $tax_slug = $term->slug;
                         $img = get_field('service_cat_thumbnail', $term);
+                        $slug = $term->slug;
+                        $wp_term_url = get_term_link($term);
                         $index++;
                         ?>
                         <div class="<?php
@@ -58,12 +60,22 @@
                             <div class="thumb">
                                 <img src="<?php echo $img['url'] ?>" alt="">
                             </div>
+                            <?php
+                            if($slug==="buppantax"){
+                                echo '<a  href="https://'.$slug.'.com" style="text-decoration:none;">
+                               <div class="service_title_icon">
+                                       <span>'.$tax_name.'</span>
+                                    </div> </a>';
+                            }else{
+                                echo '<a  href="'.$wp_term_url.'" style="text-decoration:none;">
+                  <div class="service_title_icon">
+                     <span>'.$tax_name.'</span>
+                  </div>
+              </a>';
 
-                                <a  href="<?php echo get_term_link($term) ?>">
-                                    <div class="service_title_icon">
-                                    <span><?php echo $tax_name; ?></span>
-                                    </div>
-                                </a>
+                            }
+
+                            ?>
                             <div class="content">
                                 <div>
                                     <p class="description_box"><?php echo nl2br($term->description); ?></p>
