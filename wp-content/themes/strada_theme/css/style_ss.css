@@ -2326,7 +2326,7 @@ div.catch {
   width: 100%;
   min-width: 600px;
   z-index: 99999;
-  background: #153d6e;
+  background: #EC7700;
   padding-left: 5px;
 }
 
@@ -2661,7 +2661,7 @@ div.catch {
   .h-nav>li>a {
     display: block;
     position: relative;
-    color: #153d6e;
+    color: #EC7700;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 70px;
@@ -3456,7 +3456,7 @@ div#企業概要 {
 .p-about_group .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #003E75, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3464,7 +3464,7 @@ div#企業概要 {
 .p-about_history .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #003E75, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3485,7 +3485,7 @@ div#企業概要 {
 
 .company_right a {
   margin-left: 20px;
-  color: #003E75;
+  color: #EC7700;
   text-decoration: none;
 }
 
@@ -3802,7 +3802,7 @@ div#企業概要 {
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
   margin-top: 4.5%;
-;
+  ;
 }
 
 .p-column .c-list__cat li {
@@ -5295,7 +5295,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px;
+       margin-top: -69px; 
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -5591,8 +5591,8 @@ div#企業概要 {
 .p-qa__faq a {
   display: block;
   padding: 24px 0;
-  border: 2px solid #003E75;
-  color: #003E75;
+  border: 2px solid #EC7700;
+  color: #EC7700;
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
@@ -5641,7 +5641,7 @@ list - リストのオブジェクト
   top: -2px;
   width: 166px;
   height: 2px;
-  background-color: #003E75;
+  background-color: #EC7700;
   content: '';
 }
 
@@ -5734,7 +5734,7 @@ navigation - グローバルナビなど
 
 .c-qa__answer--icon {
   margin-right: 16px;
-  color: #003E75;
+  color: #EC7700;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -5797,7 +5797,7 @@ div#新卒採用 {
   justify-content: center;
   height: 60px;
   border-right: 1px solid #fff;
-  background-color: #003E75;
+  background-color: #EC7700;
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
@@ -5884,9 +5884,9 @@ div#新卒採用 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  border: 1px solid #003E75;
+  border: 1px solid #EC7700;
   border-radius: 4px;
-  background-color: #003E75;
+  background-color: #EC7700;
   color: #fff;
   font-size: 1.75rem;
   font-weight: bold;
@@ -6345,7 +6345,7 @@ top - Topページ固有のオブジェクト
 }
 
 .t-mv ul li.slick-active {
-  background-color: #153d6e;
+  background-color: #EC7700;
 }
 
 .t-mv ul li button {
@@ -12260,7 +12260,7 @@ img {
   border: none;
   color: white;
   margin-bottom: 17.5px;
-  background: linear-gradient(90deg, #003E75, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   padding-left: 10px;
 }
 
@@ -12271,7 +12271,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #003E75;
+  color: #EC7700;
   font-size: 1.4rem;
   background: #C6BEB9;
   border-radius: 50%;
@@ -12281,7 +12281,7 @@ img {
 
 .c-qa__answer--icon {
   color: #fff;
-  background: #003E75;
+  background: #EC7700;
 }
 
 .c-qa__question {
@@ -12950,7 +12950,7 @@ img {
 }
 
 .p-access .access-title {
-  background: linear-gradient(90deg, #003E75, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   color: #fff !important;
   font-size: 2.4rem !important;
   font-weight: bold !important;
@@ -12966,7 +12966,7 @@ img {
 }
 
 .p-about_groupContent h3.cm-ttl01 {
-  border-left: 4px solid #003E75 !important;
+  border-left: 4px solid #EC7700 !important;
   line-height: 1.5 !important;
 }
 
@@ -13027,7 +13027,7 @@ img {
   border: 14px solid transparent !important;
   right: -17% !important;
   top: 85px !important;
-  border-left-color: #003E75 !important;
+  border-left-color: #EC7700 !important;
   width: 0 !important;
   height: 0 !important;
   transform: none !important;
@@ -13136,11 +13136,11 @@ img {
     border-bottom: none !important;
     right: -12% !important;
     top: 30% !important;
-    border-top-color: #003E75 !important;
+    border-top-color: #EC7700 !important;
   }
 
   .p-access .access-title {
-    background-color: #003E75 !important;
+    background-color: #EC7700 !important;
     color: #fff !important;
     font-size: 1.5rem !important;
     font-weight: bold !important;
@@ -14556,7 +14556,7 @@ body.tax-taxonomy_position .p-member__list img {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -14572,7 +14572,7 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active {
@@ -14635,7 +14635,7 @@ body.tax-taxonomy_position .p-member__list img {
 .circle {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -14643,7 +14643,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .border-bt {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -14960,7 +14960,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -14976,7 +14976,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active1 {
@@ -15026,7 +15026,7 @@ ol li {
 .circle1 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -15034,7 +15034,7 @@ ol li {
 }
 
 .border-bt1 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15077,7 +15077,7 @@ ol li {
 
 .Message_style1_p1 {
   font-size: 14px;
-  color: #004179;
+  color: #EC7700;
   font-weight: bold;
   padding-top: 5px;
 }
@@ -15085,7 +15085,7 @@ ol li {
 .Message_style1_p2 {
   font-size: 28px;
   line-height: 24px;
-  color: #004179;
+  color: #EC7700;
   font-weight: bold;
   padding-top: 2px;
   padding-bottom: 15px;
@@ -15186,7 +15186,7 @@ ol li {
 
 .has-medium-font-size {
   color: #EC7700 !important;
-;
+  ;
 }
 
 .column-read-more {
@@ -15213,7 +15213,7 @@ ol li {
 
 .title_bg {
   background-color: transparent;
-  background-image: linear-gradient(90deg, #003E75, #FFF0E5) !important;
+  background-image: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
   margin-left: 5.5%;
   margin-right: 5.5%;
   margin-top: 30px
@@ -15744,7 +15744,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15760,7 +15760,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active2 {
@@ -15811,7 +15811,7 @@ ol li {
 .circle2 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -15819,7 +15819,7 @@ ol li {
 }
 
 .border-bt2 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15864,7 +15864,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15880,7 +15880,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active3 {
@@ -15928,7 +15928,7 @@ ol li {
 .circle3 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -15936,7 +15936,7 @@ ol li {
 }
 
 .border-bt3 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15966,7 +15966,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15982,7 +15982,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active4 {
@@ -16029,7 +16029,7 @@ ol li {
 .circle4 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16037,7 +16037,7 @@ ol li {
 }
 
 .border-bt4 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16067,7 +16067,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16083,7 +16083,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active5 {
@@ -16130,7 +16130,7 @@ ol li {
 .circle5 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16138,7 +16138,7 @@ ol li {
 }
 
 .border-bt5 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16168,7 +16168,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16184,7 +16184,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active6 {
@@ -16232,7 +16232,7 @@ ol li {
 .circle6 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16240,7 +16240,7 @@ ol li {
 }
 
 .border-bt6 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16270,7 +16270,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16286,7 +16286,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active7 {
@@ -16333,7 +16333,7 @@ ol li {
 .circle7 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16341,7 +16341,7 @@ ol li {
 }
 
 .border-bt7 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16371,7 +16371,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16387,7 +16387,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active8 {
@@ -16434,7 +16434,7 @@ ol li {
 .circle8 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16442,7 +16442,7 @@ ol li {
 }
 
 .border-bt8 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16472,7 +16472,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #003E75 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16488,7 +16488,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #003E75 #003E75 transparent transparent;
+  border-color: #EC7700 #EC7700 transparent transparent;
 }
 
 .active9 {
@@ -16535,7 +16535,7 @@ ol li {
 .circle9 {
   width: 22px;
   height: 22px;
-  background-color: #3F6D97;
+  background-color: #EBA981;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -16543,7 +16543,7 @@ ol li {
 }
 
 .border-bt9 {
-  border: 2px solid #004179;
+  border: 2px solid #EC7700;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16559,7 +16559,7 @@ ol li {
 
 .contents_number {
   display: inline-block;
-  background: #004179;
+  background: #EC7700;
   color: white;
   padding: 1px 5px;
   float: right;
@@ -16571,7 +16571,7 @@ ol li {
 
   .contents_number {
     display: inline-block;
-    background: #004179;
+    background: #EC7700;
     color: white;
     padding: 0 10px;
     float: right;
@@ -16584,7 +16584,7 @@ ol li {
 
   .contents_number {
     display: inline-block;
-    background: #004179;
+    background: #EC7700;
     color: white;
     padding: 1px 5px;
     float: right;
@@ -16820,7 +16820,7 @@ ol li {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -20%;
-  ;
+    ;
     margin-left: 3%;
     margin-right: 3%;
 
@@ -17332,7 +17332,7 @@ ol li {
 
 .news_title {
   width: 80%;
-  color: #003E75;
+  color: #EC7700;
   font-weight: bold;
   font-size: 1.44rem;
 }
@@ -17362,7 +17362,7 @@ ol li {
 }
 
 .ssbtn {
-  background-color: #003E75;
+  background-color: #EC7700;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -17963,7 +17963,7 @@ ol li {
 
   .news_title {
     width: 80%;
-    color: #003E75;
+    color: #EC7700;
     font-weight: bold;
     font-size: 1rem;
   }
@@ -18330,7 +18330,7 @@ ol li {
   text-align: center;
   border-radius: 10px;
   margin: 10px;
-  background-color: #153d6e;
+  background-color: #EC7700;
   color: #fff;
 }
 
