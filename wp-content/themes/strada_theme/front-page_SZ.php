@@ -146,12 +146,12 @@ $_SESSION['page_type']="top";
           <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt="" />
         </div>
       </div>
-      <!-- start 選ばれる6つの理由 -->
+      <!-- start 選ばれる６つの理由 -->
       <div class="sixreasons_bg">
         <div class="l-container">
           <div class="title_bg">
             <div>
-              <span class="title_wd">選ばれる6つの理由</span>
+              <span class="title_wd">選ばれる６つの理由</span>
             </div>
           </div>
           <div class="reasonline1">
@@ -262,7 +262,7 @@ $_SESSION['page_type']="top";
           </div>
         </div>
       </div>
-      <!-- end 選ばれる6つの理由 -->
+      <!-- end 選ばれる６つの理由 -->
     </div>
   </div>
   <!-- end Message -->
