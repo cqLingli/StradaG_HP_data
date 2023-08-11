@@ -56,7 +56,7 @@ $_SESSION['page_type']="top";
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
-            <div style="display: flex;overflow-x: hidden;width:100%">
+            <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('news'); ?>" style="text-decoration:none">
                 <div class="news_title_readmore">READ MORE</div>
@@ -66,7 +66,6 @@ $_SESSION['page_type']="top";
                 </div>
               </a>
             </div>
-            <hr style="border:1px dotted #BDB7B7;">
             <?php
             // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
             $args = array(
@@ -129,7 +128,6 @@ $_SESSION['page_type']="top";
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
-          <hr style="border:1px dotted #BDB7B7;">
           <p class="Message_style1_p3">　ストラーダグループとは、税理士、公認会計士、社会保険労務士、中小企業診断士、行政書士
 が在籍している士業の専門家集団です。<br /><br />　私たちは、時代の先端の情報を収集して、バックオフィスのあらゆる業務を解決できる集団
 になるべく精進しております。<br />　上場企業、大会社、社会福祉法人等でも、経理、人事、総務等の役割に応じて、部署が分かれ
@@ -138,7 +136,6 @@ $_SESSION['page_type']="top";
 に基づいたアドバイスが可能になるのです。<br /></p>
           <p class="Message_style1_p4">ストラーダホールディングス株式会社 CEO</p>
           <p class="Message_style1_p5">山田 直輝</p>
-          <hr style="border:1px dotted #BDB7B7;">
         </div>
         <div class="Message_style2">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top/Group_TOP_Massage.png" alt="" />
@@ -171,7 +168,6 @@ $_SESSION['page_type']="top";
             <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt=""
               class="Strada_style_img1_1" />
           </div>
-          <hr style="border:1px dotted #BDB7B7;">
           <p class="StradaStyle">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
@@ -185,7 +181,6 @@ $_SESSION['page_type']="top";
             <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
               会社の全体戦略に基づいたアドバイスを可能としております。</span>
           </p>
-          <hr style="border:1px dotted #BDB7B7;">
         </div>
       </div>
     </div>

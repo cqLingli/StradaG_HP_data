@@ -14603,8 +14603,8 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .node_wrap p {
-  padding: 0 20px 5px 20px;
-  margin: 10px 0;
+  padding: 0;
+  margin: 0;
 }
 
 /*scrollbarを隠す*/
@@ -14939,7 +14939,7 @@ ol li {
   .news_style2 {
     width: 100%;
     height: 300px;
-    margin-top: 8%;
+    margin-top: 15px;
     margin-left: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -15097,7 +15097,8 @@ ol li {
 .Message_style1_p3 {
   font-size: 1.44rem;
   line-height: 24px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  border-top:1px dotted #707070;
 }
 
 .Message_style1_p4 {
@@ -15109,7 +15110,8 @@ ol li {
   font-size: 2.5rem;
   line-height: 24px;
   padding-bottom: 15px;
-  text-align: right
+  text-align: right;
+  border-bottom:1px dotted #707070;
 }
 
 .Message_style2 img {
@@ -17351,7 +17353,9 @@ ol li {
   font-size: 1.38rem;
   padding-top: 5px;
   line-height: 24px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  border-top:1px dotted #707070;;
+  border-bottom:1px dotted #707070;
 }
 
 .contactStyle {
@@ -18275,6 +18279,11 @@ ol li {
   }
   .has-medium-font-size-new{
     font-size: 14px!important;
+  }
+
+  .Youtube_text {
+    font-size: 1rem;
+    zoom:0.92
   }
 }
 
