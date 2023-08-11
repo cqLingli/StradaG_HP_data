@@ -14,7 +14,7 @@
 
     <div class="c-new-content">
     <div class="l-container">
-      <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="companyss">
   <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>会社概要</h2>      
@@ -103,7 +103,7 @@
     </div>
     </div>
     <div class="l-container">
-    <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="aboutcomstyle">
   <div class="p-about_history" id="ストラーダグループの沿革">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>ストラーダグループの沿革</h2>      
