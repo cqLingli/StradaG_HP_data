@@ -16840,22 +16840,23 @@ ol li {
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
+    margin-left: 5px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem2 {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 
