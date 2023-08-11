@@ -43,6 +43,7 @@ if($url_type==="sz"){
     <!-- end c-mainTitle -->
     <div class="c-new-content" style="padding-bottom: 100px;">
   <div class="l-container">
+      <div style="height: 5px;"></div>
       <div class="menberTtile menber_single-width">
           <span>メンバー紹介</span>
       </div>
