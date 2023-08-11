@@ -146,7 +146,7 @@ $_SESSION['page_type']="top";
           <hr style="border:1px dotted #BDB7B7;">
         </div>
         <div class="Message_style2">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/SS_TOP_Massage.png" alt="" />
         </div>
       </div>
     </div>

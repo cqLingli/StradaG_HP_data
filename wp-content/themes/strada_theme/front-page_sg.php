@@ -127,7 +127,7 @@ $_SESSION['page_type']="top";
         <hr style="border:1px dotted #BDB7B7;">
       </div>
       <div class="Message_style2">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/SZ_member_04_Hoshino.jpg" alt=""/>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/SG_TOP_Massage.png" alt=""/>
       </div>
     </div>
     </div>
