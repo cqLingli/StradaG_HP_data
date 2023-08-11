@@ -70,10 +70,18 @@ $mv = get_field('service_cat_mv', $qo);
                 <div class="c-serviceList c-serviceList-add">
                     <?php
                     global $wp_query;
-                    $args = array(
-//                        'company' => $company, // 自定义字段名
-                        'taxonomy_service' =>$wp_query->query['taxonomy_service'],
-                    );
+                    $args = array();
+                    if($company){
+                        $args = array(
+                            'company' => $company, // 自定义字段名
+                            'taxonomy_service' =>$wp_query->query['taxonomy_service'],
+                        );
+                    }else{
+                        $args = array(
+                            'taxonomy_service' =>$wp_query->query['taxonomy_service'],
+                        );
+                    }
+
                     $query = new WP_Query( $args ); // 执行查询
                     ?>
                     <?php while (  $query->have_posts() ) : $query->the_post(); ?>
