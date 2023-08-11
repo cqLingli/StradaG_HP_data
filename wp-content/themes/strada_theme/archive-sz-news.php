@@ -25,6 +25,7 @@ $_SESSION['page_type']="news";
   </div>
   <div class="c-new-content" style="padding-bottom: 120px;">
     <div class="l-container">
+        <div style="height: 5px"></div>
       <div class="c-list-news">
           <?php
          // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';

@@ -16567,7 +16567,7 @@ ol li {
   color: white;
   padding: 1px 5px;
   float: right;
-  width: 30%;
+  width: 40%;
   font-size: 14px;
 }
 
@@ -16579,7 +16579,7 @@ ol li {
     color: white;
     padding: 0 10px;
     float: right;
-    width: 45%;
+    width: 40%;
     font-size: 5px;
   }
 }
@@ -16910,7 +16910,7 @@ ol li {
 }
 
 .p-column__post1 {
-  width: 60%;
+  width: 100%;
   margin-top: -5%;
 
 }
