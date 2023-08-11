@@ -56,7 +56,7 @@ $_SESSION['page_type']="top";
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
-            <div style="display: flex;overflow-x: hidden;width:100%">
+            <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
                 <div class="news_title_readmore">READ MORE</div>
@@ -66,7 +66,6 @@ $_SESSION['page_type']="top";
                 </div>
               </a>
             </div>
-            <hr style="border:1px dotted #BDB7B7;">
             <?php
             // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
             $args = array(
@@ -129,7 +128,6 @@ $_SESSION['page_type']="top";
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
-          <hr style="border:1px dotted #BDB7B7;">
           <p class="Message_style1_p1">ストラーダ税理士法人の経営理念</p>
           <p class="Message_style1_p2">お客様と共に同じ道を歩く</p>
           <p class="Message_style1_p3">　「ストラーダ」とは、イタリア語で「道」という意味があります。お客様と歩む長い道をともに歩
@@ -143,7 +141,6 @@ $_SESSION['page_type']="top";
             新しいことに挑戦し続ける事務所経営を行います。</p>
           <p class="Message_style1_p4">ストラーダ税理士法人　代表社員</p>
           <p class="Message_style1_p5">山田 直輝</p>
-          <hr style="border:1px dotted #BDB7B7;">
         </div>
         <div class="Message_style2">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/SZ_TOP_Massage.png" alt="" />
@@ -164,7 +161,6 @@ $_SESSION['page_type']="top";
                   <div class="reason01_style1_span1">01</div>
                   <div class="reason01_style1_span2">上場企業含む300社以上の顧問実績</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason01_style1_p1">これまで担当してきた確かな実績で、あらゆるお客様のお悩みにお応え致します。また、上
                   場企業含む300社以上、個人事業主150名以上の顧問実績から培われた金融機関の人脈
                   を駆使して、クライアント様に適切な銀行をご紹介しております。
@@ -182,7 +178,6 @@ $_SESSION['page_type']="top";
                   <div class="reason02_style1_span1">02</div>
                   <div class="reason02_style1_span2">創業融資通過率99.7%の実績</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason02_style1_p1">ストラーダでは創業融資を通過率を上げるためにご依頼者の状況確認から最適な金融機
                   関をご提案させて頂きます。取引銀行の数や業種、業績など企業ごとに相性の良い金融機
                   関をご紹介します。申込書や事業計画書などのサポートも細かく行い、99.7％の融資通過
@@ -201,7 +196,6 @@ $_SESSION['page_type']="top";
                   <div class="reason03_style1_span1">03</div>
                   <div class="reason03_style1_span2">経済産業省から認定された信頼性</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason03_style1_p1">ストラーダ税理士法人は、経営革新認定支援機関として、経済産業省に認定された登録機
                   関です。経営革新認定支援機関が、事業計画を作成することにより、融資の通過率の増加
                   や金利が減少する場合があります。また、補助金についても、補助金を得られる確率が増
@@ -220,7 +214,6 @@ $_SESSION['page_type']="top";
                   <div class="reason04_style1_span1">04</div>
                   <div class="reason04_style1_span2">チャットワークを使用し素早いレスポンスを実現</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason04_style1_p1">弊社では、基本的には、チャットワークというビジネスチャットでやり取りさせて頂いており
                   ます。お客様ごとの、弊社の従業員を含めた、チャットグループを作成させて頂きます。不
                   明な点等を気軽にチャットでご連絡頂ければ、適時に返信致します。もちろん、メール・電
@@ -239,7 +232,6 @@ $_SESSION['page_type']="top";
                   <div class="reason05_style1_span1">05</div>
                   <div class="reason05_style1_span2">効率的なサポート体制と豊富な税制知識</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason05_style1_p1">毎年一回税制改正が行われます。 ストラーダでは、最新の税制に基いてお客様が安定経
                   営ができるように、最新の情報を入手・発信致します。 また、効率化の観点から、全てのお
                   客様に電子申告で申告作業を致します。 そのため、決算申告の間際に、お客様に申告の作
@@ -256,7 +248,6 @@ $_SESSION['page_type']="top";
                   <div class="reason06_style1_span1">06</div>
                   <div class="reason06_style1_span2">公認会計士や社労士、行政書士が在籍しているから出来る、ビジネス全体のアドバイス</div>
                 </div>
-                <hr style="border:1px dotted #BDB7B7;">
                 <p class="reason06_style1_p1">税理士は、税金の計算や税金に関するアドバイスをさせて頂きます。一方で公認会計士
                   は、税金以外の決算書に関するアドバイスをさせて頂きます。企業運営には、税金の計算
                   だけではなくて、財務、会計、経営、倒産リスク等考える必要がある項目は、多くあります。そ
@@ -299,7 +290,6 @@ $_SESSION['page_type']="top";
             <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt=""
               class="Strada_style_img1_1" />
           </div>
-          <hr style="border:1px dotted #BDB7B7;">
           <p class="StradaStyle">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
@@ -313,7 +303,6 @@ $_SESSION['page_type']="top";
             <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
               会社の全体戦略に基づいたアドバイスを可能としております。</span>
           </p>
-          <hr style="border:1px dotted #BDB7B7;">
         </div>
       </div>
     </div>
