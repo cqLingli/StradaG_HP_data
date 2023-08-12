@@ -2326,7 +2326,7 @@ div.catch {
   width: 100%;
   min-width: 600px;
   z-index: 99999;
-  background: #EC7700;
+  background: #153d6e;
   padding-left: 5px;
 }
 
@@ -2661,7 +2661,7 @@ div.catch {
   .h-nav>li>a {
     display: block;
     position: relative;
-    color: #EC7700;
+    color: #153d6e;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 70px;
@@ -3456,7 +3456,7 @@ div#企業概要 {
 .p-about_group .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700 , #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3464,7 +3464,7 @@ div#企業概要 {
 .p-about_history .c-tlt02--center {
   text-align: left !important;
   color: white !important;
-  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700 , #FFF0E5) !important;
   padding-left: 10px !important;
   margin-bottom: 30px !important;
 }
@@ -3485,7 +3485,7 @@ div#企業概要 {
 
 .company_right a {
   margin-left: 20px;
-  color: #EC7700;
+  color: #EC7700 ;
   text-decoration: none;
 }
 
@@ -3513,16 +3513,16 @@ div#企業概要 {
 .p-about_groupContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 18%;
+  flex: 0 0 17%;
   text-align: right;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .company_right dl dt {
   text-align: left !important;
   border: none !important;
   flex: 0 0 25%;
-  padding-left: 5px
+  margin-right: -4px;
 }
 
 .t-company_list {
@@ -3802,7 +3802,7 @@ div#企業概要 {
 .p-column .l-sidebar .c-list__cat {
   border: 1px solid;
   margin-top: 4.5%;
-  ;
+;
 }
 
 .p-column .c-list__cat li {
@@ -3970,7 +3970,7 @@ div#企業概要 {
 @media screen and (max-width: 767px) {
   .p-column__list .item .txt .date {
     font-size: 1rem !important;
-    margin-left: 10px !important;
+    margin-left: 21px !important;
 
   }
 }
@@ -4188,7 +4188,7 @@ div#企業概要 {
 
 .p-column__main .item .txt .date {
   font-size: 1.2rem;
-  margin-left: 30%;
+  margin-left: 50%;
 }
 
 .p-column__main .item .txt .title {
@@ -5591,8 +5591,8 @@ div#企業概要 {
 .p-qa__faq a {
   display: block;
   padding: 24px 0;
-  border: 2px solid #EC7700;
-  color: #EC7700;
+  border: 2px solid #EC7700 ;
+  color: #EC7700 ;
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
@@ -5641,7 +5641,7 @@ list - リストのオブジェクト
   top: -2px;
   width: 166px;
   height: 2px;
-  background-color: #EC7700;
+  background-color: #EC7700 ;
   content: '';
 }
 
@@ -5734,7 +5734,7 @@ navigation - グローバルナビなど
 
 .c-qa__answer--icon {
   margin-right: 16px;
-  color: #EC7700;
+  color: #EC7700 ;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -5797,7 +5797,7 @@ div#新卒採用 {
   justify-content: center;
   height: 60px;
   border-right: 1px solid #fff;
-  background-color: #EC7700;
+  background-color: #EC7700 ;
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
@@ -5884,9 +5884,9 @@ div#新卒採用 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  border: 1px solid #EC7700;
+  border: 1px solid #EC7700 ;
   border-radius: 4px;
-  background-color: #EC7700;
+  background-color: #EC7700 ;
   color: #fff;
   font-size: 1.75rem;
   font-weight: bold;
@@ -6345,7 +6345,7 @@ top - Topページ固有のオブジェクト
 }
 
 .t-mv ul li.slick-active {
-  background-color: #EC7700;
+  background-color: #153d6e;
 }
 
 .t-mv ul li button {
@@ -12260,7 +12260,7 @@ img {
   border: none;
   color: white;
   margin-bottom: 17.5px;
-  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700 , #FFF0E5) !important;
   padding-left: 10px;
 }
 
@@ -12271,7 +12271,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #EC7700;
+  color: #EC7700 ;
   font-size: 1.4rem;
   background: #C6BEB9;
   border-radius: 50%;
@@ -12281,7 +12281,7 @@ img {
 
 .c-qa__answer--icon {
   color: #fff;
-  background: #EC7700;
+  background: #EC7700 ;
 }
 
 .c-qa__question {
@@ -12950,7 +12950,7 @@ img {
 }
 
 .p-access .access-title {
-  background: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  background: linear-gradient(90deg, #EC7700 , #FFF0E5) !important;
   color: #fff !important;
   font-size: 2.4rem !important;
   font-weight: bold !important;
@@ -12966,7 +12966,7 @@ img {
 }
 
 .p-about_groupContent h3.cm-ttl01 {
-  border-left: 4px solid #EC7700 !important;
+  border-left: 4px solid #EC7700  !important;
   line-height: 1.5 !important;
 }
 
@@ -13027,7 +13027,7 @@ img {
   border: 14px solid transparent !important;
   right: -17% !important;
   top: 85px !important;
-  border-left-color: #EC7700 !important;
+  border-left-color: #EC7700  !important;
   width: 0 !important;
   height: 0 !important;
   transform: none !important;
@@ -13136,11 +13136,11 @@ img {
     border-bottom: none !important;
     right: -12% !important;
     top: 30% !important;
-    border-top-color: #EC7700 !important;
+    border-top-color: #EC7700  !important;
   }
 
   .p-access .access-title {
-    background-color: #EC7700 !important;
+    background-color: #EC7700  !important;
     color: #fff !important;
     font-size: 1.5rem !important;
     font-weight: bold !important;
@@ -14556,7 +14556,7 @@ body.tax-taxonomy_position .p-member__list img {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -14572,7 +14572,7 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active {
@@ -14600,8 +14600,8 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .node_wrap p {
-  padding: 0 20px 5px 20px;
-  margin: 10px 0;
+  padding: 0;
+  margin: 0;
 }
 
 /*scrollbarを隠す*/
@@ -14643,7 +14643,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .border-bt {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -14936,7 +14936,7 @@ ol li {
   .news_style2 {
     width: 100%;
     height: 300px;
-    margin-top: 8%;
+    margin-top: 15px;
     margin-left: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -14960,7 +14960,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -14976,7 +14976,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active1 {
@@ -15034,7 +15034,7 @@ ol li {
 }
 
 .border-bt1 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15077,15 +15077,16 @@ ol li {
 
 .Message_style1_p1 {
   font-size: 14px;
-  color: #EC7700;
+  color: #EC7700 ;
   font-weight: bold;
   padding-top: 5px;
+  border-top:1px dotted #707070;
 }
 
 .Message_style1_p2 {
   font-size: 28px;
   line-height: 24px;
-  color: #EC7700;
+  color: #EC7700 ;
   font-weight: bold;
   padding-top: 2px;
   padding-bottom: 15px;
@@ -15106,7 +15107,8 @@ ol li {
   font-size: 2.5rem;
   line-height: 24px;
   padding-bottom: 15px;
-  text-align: right
+  text-align: right;
+  border-bottom:1px dotted #707070;
 }
 
 .Message_style2 img {
@@ -15186,7 +15188,7 @@ ol li {
 
 .has-medium-font-size {
   color: #EC7700 !important;
-  ;
+;
 }
 
 .column-read-more {
@@ -15213,7 +15215,7 @@ ol li {
 
 .title_bg {
   background-color: transparent;
-  background-image: linear-gradient(90deg, #EC7700, #FFF0E5) !important;
+  background-image: linear-gradient(90deg, #EC7700 , #FFF0E5) !important;
   margin-left: 5.5%;
   margin-right: 5.5%;
   margin-top: 30px
@@ -15647,7 +15649,8 @@ ol li {
   padding-bottom: 10px;
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 100%
+  height: 100%;
+  border-bottom:1px dotted #707070;
 }
 
 .reason06_style1_title {
@@ -15655,7 +15658,8 @@ ol li {
   padding-bottom: 10px;
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 100%
+  height: 100%;
+  border-bottom:1px dotted #707070;
 }
 
 @media screen and (max-width: 991px) {
@@ -15744,7 +15748,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15760,7 +15764,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active2 {
@@ -15819,7 +15823,7 @@ ol li {
 }
 
 .border-bt2 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15864,7 +15868,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15880,7 +15884,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active3 {
@@ -15936,7 +15940,7 @@ ol li {
 }
 
 .border-bt3 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -15966,7 +15970,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -15982,7 +15986,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active4 {
@@ -16037,7 +16041,7 @@ ol li {
 }
 
 .border-bt4 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16067,7 +16071,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16083,7 +16087,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active5 {
@@ -16138,7 +16142,7 @@ ol li {
 }
 
 .border-bt5 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16168,7 +16172,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16184,7 +16188,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active6 {
@@ -16240,7 +16244,7 @@ ol li {
 }
 
 .border-bt6 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16270,7 +16274,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16286,7 +16290,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active7 {
@@ -16341,7 +16345,7 @@ ol li {
 }
 
 .border-bt7 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16371,7 +16375,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16387,7 +16391,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active8 {
@@ -16442,7 +16446,7 @@ ol li {
 }
 
 .border-bt8 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16472,7 +16476,7 @@ ol li {
   border-bottom: none;
   display: flex;
   align-items: center;
-  background: linear-gradient(-135deg, transparent 31px, #EC7700 0);
+  background: linear-gradient(-135deg, transparent 31px, #EC7700  0);
   cursor: pointer;
   border-radius: 5px 0 0 0;
 }
@@ -16488,7 +16492,7 @@ ol li {
   display: inline-block;
   transition: 0.3s;
   margin-left: -6px;
-  border-color: #EC7700 #EC7700 transparent transparent;
+  border-color: #EC7700  #EC7700  transparent transparent;
 }
 
 .active9 {
@@ -16543,7 +16547,7 @@ ol li {
 }
 
 .border-bt9 {
-  border: 2px solid #EC7700;
+  border: 2px solid #EC7700 ;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -16559,11 +16563,11 @@ ol li {
 
 .contents_number {
   display: inline-block;
-  background: #EC7700;
+  background: #EC7700 ;
   color: white;
   padding: 1px 5px;
   float: right;
-  width: 30%;
+  width: 40%;
   font-size: 14px;
 }
 
@@ -16571,11 +16575,11 @@ ol li {
 
   .contents_number {
     display: inline-block;
-    background: #EC7700;
+    background: #EC7700 ;
     color: white;
     padding: 0 10px;
     float: right;
-    width: 45%;
+    width: 40%;
     font-size: 5px;
   }
 }
@@ -16584,7 +16588,7 @@ ol li {
 
   .contents_number {
     display: inline-block;
-    background: #EC7700;
+    background: #EC7700 ;
     color: white;
     padding: 1px 5px;
     float: right;
@@ -16820,7 +16824,7 @@ ol li {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -20%;
-    ;
+  ;
     margin-left: 3%;
     margin-right: 3%;
 
@@ -16836,22 +16840,23 @@ ol li {
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
+    margin-left: 5px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem2 {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 
@@ -16906,7 +16911,7 @@ ol li {
 }
 
 .p-column__post1 {
-  width: 60%;
+  width: 100%;
   margin-top: -5%;
 
 }
@@ -16961,8 +16966,8 @@ ol li {
   }
 
   .p-about_groupContent dl dt {
-    flex: 0 0 25% !important;
-    margin-right: 10px;
+    flex: 0 0 24% !important;
+    margin-right: 5px;
   }
 
   .company_right {
@@ -17332,7 +17337,7 @@ ol li {
 
 .news_title {
   width: 80%;
-  color: #EC7700;
+  color: #EC7700 ;
   font-weight: bold;
   font-size: 1.44rem;
 }
@@ -17348,7 +17353,9 @@ ol li {
   font-size: 1.38rem;
   padding-top: 5px;
   line-height: 24px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  border-top:1px dotted #707070;
+  border-bottom:1px dotted #707070;
 }
 
 .contactStyle {
@@ -17362,7 +17369,7 @@ ol li {
 }
 
 .ssbtn {
-  background-color: #EC7700;
+  background-color: #EC7700 ;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -17900,11 +17907,12 @@ ol li {
   }
 
   .company_left dl dt {
-    margin-left: -30px !important
+    margin-left: -28px !important
   }
 
   .company_right dl dt {
-    margin-left: -5px !important
+    margin-left: 0px !important;
+    margin-right: 0px !important
   }
 
   .p-about_historyContent dl {
@@ -17914,6 +17922,10 @@ ol li {
   .p-access .c-mainTitle {
 
     margin-bottom: 15px
+  }
+  .Youtube_text{
+    font-size: 1rem;
+    zoom:0.92
   }
 }
 
@@ -17963,7 +17975,7 @@ ol li {
 
   .news_title {
     width: 80%;
-    color: #EC7700;
+    color: #EC7700 ;
     font-weight: bold;
     font-size: 1rem;
   }
@@ -18330,7 +18342,7 @@ ol li {
   text-align: center;
   border-radius: 10px;
   margin: 10px;
-  background-color: #EC7700;
+  background-color: #153d6e;
   color: #fff;
 }
 
