@@ -43,9 +43,9 @@
   <!-- .l-header | ヘッダー -->
   <header class="l-header">
     <div class="catch">ワンストップの集団だからこそできる部分最適ではなく全体最適な提案を。</div>
-    <div class="h-btn">
+    <!-- <div class="h-btn">
       <span></span>
-    </div>
+    </div> -->
     <div class="l-header__top">
       <div class="l-container_header">
         <div class="l-header__main">
@@ -86,7 +86,7 @@
             </div>
             <div style="width:100px">
             </div>
-            <div class="h-mail h-mail--4">
+            <div class="h-mail h-mail--5">
                 <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common/seach_icon.png" alt="" />
             </div>
           </div>
@@ -191,7 +191,10 @@
           </li>
         </ul>
       </div>
-      <div id="search_content_ID" class="search_content">
+      <div class="l-header_topline"></div>
+    </div>
+    <div id="search_content_ID" class="search_content">
+      <div class="search_content_a">
       <a href="<?php echo home_url('news'); ?>"><div class="search_content_style">ニュース</div></a>
       <a href="<?php echo home_url('#'); ?>"><div class="search_content_style">業務内容</div></a>
       <a href="<?php echo home_url('#StradaGroup'); ?>"><div class="search_content_style">グループ紹介</div></a>
@@ -199,6 +202,7 @@
       <a href="<?php echo home_url('members'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('access'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+      </div>
       <div class="search_content_style1">
       <div class="search_content_style1_1">
                 <input type="text" id="search_content_input" placeholder="検索">
@@ -210,7 +214,4 @@
             </div>
       </div>
       </div>
-      <div class="l-header_topline"></div>
-    </div>
-
   </header>

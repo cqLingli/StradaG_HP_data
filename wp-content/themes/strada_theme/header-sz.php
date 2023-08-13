@@ -43,9 +43,11 @@
   <!-- .l-header | ヘッダー -->
   <header class="l-header">
     <div class="catch">企業税務・資金調達に強い士業集団が豊富な実績で安心のスピード対応！</div>
+    <!--
     <div class="h-btn">
       <span></span>
     </div>
+    -->
     <div class="l-header__top">
     <div class="l-container_header">
         <div class="l-header__main">
@@ -90,7 +92,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/minilogo.png" alt="" />
               </a>
             </div>
-            <div class="h-mail h-mail--4">
+            <div class="h-mail h-mail--5">
                 <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common_sz/seach_icon.png" alt="" />
             </div>
           </div>
@@ -130,7 +132,10 @@
           </li>          
         </ul>
       </div>
-      <div id="search_content_ID" class="search_content">
+      <div class="l-header_topline"></div>
+    </div>
+    <div id="search_content_ID" class="search_content">
+      <div class="search_content_a">
       <a href="<?php echo home_url('tax/taxservicelist'); ?>"><div class="search_content_style">事業内容</div></a>
       <a href="<?php echo home_url('tax/taxvoicelist'); ?>"><div class="search_content_style">お客様の声</div></a>
       <a href="<?php echo home_url('tax/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
@@ -141,6 +146,7 @@
       <a href="<?php echo home_url('tax/taxaccess'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('tax/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       <a href="https://buppantax.com/"><div class="search_content_style">確定申告サポート</div></a>
+      </div>
       <div class="search_content_style1">
       <div class="search_content_style1_1">
                 <input type="text" id="search_content_input" placeholder="検索">
@@ -151,7 +157,5 @@
                 </button>
             </div>
       </div>
-      </div>
-      <div class="l-header_topline"></div>
     </div>
   </header>
