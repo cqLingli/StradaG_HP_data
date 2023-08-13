@@ -44,12 +44,14 @@ if($url_type==="sz"){
             </div>
         </div>
     </div>
-  <div class="c-new-content" style="padding-bottom: 100px;">
+  <div class="c-new-content" >
     <div class="l-container">
-      <div class="c-wrap-new p-column__post">
-        <div class="c-new__date"><?php echo get_the_date('Y.m.d') ?></div>
-        <div class="single_title"><?php echo get_the_title(); ?></div>
+      <div class="c-wrap-new p-news__post">
+          <div style="height: 5px;"></div>
         <div class="content box">
+            <div class="c-new__date"><?php echo get_the_date('Y.m.d') ?></div>
+            <div class="single_title"><?php echo get_the_title(); ?></div>
+            <div style="height: 30px;"></div>
           <?php
             if ( have_posts() ) {
               while ( have_posts() ) { the_post();

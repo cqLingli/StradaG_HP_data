@@ -4185,6 +4185,17 @@ div#企業概要 {
   padding: 5.5%;
 }
 
+.p-news__post {
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  padding-bottom: 2%;
+}
+.p-news__post .box {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
 .p-column__post .box {
   margin-bottom: 75px;
   padding: 20px;
@@ -14483,12 +14494,10 @@ body.tax-taxonomy_position .p-member__list img {
   font-size: 2.5rem;
   line-height: 20px;
   font-weight: bold;
-  padding: 20px;
-  margin-top: -30px;
 }
 
 .c-new__date {
-  padding: 20px;
+  font-weight: bold;
 }
 
 .service-line-bottom {
@@ -14674,7 +14683,7 @@ body.tax-taxonomy_position .p-member__list img {
   justify-content: center;
   width: 100%;
   max-width: 1400px;
-  height: 65px;
+  height:50px;
   margin-top: 42px;
   margin-right: auto;
   margin-left: auto;
@@ -14690,11 +14699,73 @@ body.tax-taxonomy_position .p-member__list img {
   .p-new01 .c-back-list {
     margin-top: 112px;
   }
+  .p-new01 .c-back-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    height:50px;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #153F6F;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 27px;
+    text-decoration: none;
+  }
+  .p-new01 .c-back-list .i-arrow {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-40%);
+  }
 }
 
 @media screen and (max-width: 575px) {
   .p-new01 .c-back-list {
-    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    height:50px;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #153F6F;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 27px;
+    text-decoration: none;
+  }
+  .p-new01 .c-back-list .i-arrow {
+    position: absolute;
+    top: 50%;
+    left: 25%!important;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)!important;
+  }
+  .p-new01 .c-back-list .i-arrow img {
+    width: 15px!important;
   }
 }
 
@@ -18058,9 +18129,18 @@ ol li {
     margin-top: -2%;
     font-size: 10px;
   }
+  .p-news__post {
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    padding-bottom: 2%;
+  }
+  .p-news__post .box {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
 
   .c-new__date {
-    padding: 20px;
     font-size: 10px;
   }
 
@@ -18068,8 +18148,6 @@ ol li {
     font-size: 1.5rem;
     line-height: 20px;
     font-weight: bold;
-    padding: 20px;
-    margin-top: -30px;
   }
 
   .p-column__post .box p {
