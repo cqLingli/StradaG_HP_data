@@ -18317,6 +18317,9 @@ ol li {
   animation: slide-down 0.3s ease-in;
   -webkit-animation: slide-down 0.3s ease-in;
 }
+.search_content a {
+  text-decoration: none;
+}
 .search_content_style {
   font-size: 2rem;
   text-align: center;
