@@ -43,9 +43,9 @@
   <!-- .l-header | ヘッダー -->
   <header class="l-header">
     <div class="catch">ITを活用し、労務手続き・労務相談・給与計算など会社経営の労務を全面サポート!</div>
-    <div class="h-btn">
+    <!-- <div class="h-btn">
       <span></span>
-    </div>
+    </div> -->
     <div class="l-header__top">
     <div class="l-container_header">
         <div class="l-header__main">
@@ -91,8 +91,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_ss/minilogo.png" alt="" />
               </a>
             </div>
-            <div class="h-mail h-mail--4">
-                <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common_ss/seach_icon.png" alt="" />
+            <div class="h-mail h-mail--5">
+              <div class="h-mail h-mail--5">
+                  <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common/seach_icon.png" alt="" />
+              </div>
             </div>
 
           </div>
@@ -123,7 +125,7 @@
           </li>
           <li>
             <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">リクルート</div></a>
-          </li>         
+          </li>
         </ul>
       </div>
       <div id="search_content_ID" class="search_content">

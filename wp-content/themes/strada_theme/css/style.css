@@ -18284,8 +18284,8 @@ ol li {
   z-index: 9999;
   display: none;
 }
-.search_content a {
-  text-decoration: none;
+.search_content_a{
+  display: none;
 }
 
 

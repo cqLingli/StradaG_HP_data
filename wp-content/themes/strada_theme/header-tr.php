@@ -43,9 +43,9 @@
   <!-- .l-header | ヘッダー -->
   <header class="l-header">
     <div class="catch">税理士法人や会計士と業務提携している税金に強い不動産会社！</div>
-    <div class="h-btn">
+    <!-- <div class="h-btn">
       <span></span>
-    </div>
+    </div> -->
     <div class="l-header__top">
     <div class="l-container_header">
         <div class="l-header__main">
@@ -91,10 +91,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/minilogo.png" alt="" />
               </a>
             </div>
-            <div class="h-mail h-mail--4">
-              <a href="#" target="_blank">
-                <img style="width: 50px;height: auto;"src="<?php echo get_template_directory_uri(); ?>/images/common_tr/seach_icon.png" alt="" />
-              </a>
+            <div class="h-mail h-mail--5">
+              <div class="h-mail h-mail--5">
+                  <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common/seach_icon.png" alt="" />
+              </div>
             </div>
 
           </div>
