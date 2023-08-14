@@ -2816,8 +2816,7 @@ breadcrumbs - パンくずリスト
 @media screen and (max-width: 991px) {
   .c-breakcrumds {
     height: 40px;
-    padding-left: 20px;
-    white-space: nowrap;
+    padding-left: 20px
   }
 }
 
@@ -2831,7 +2830,7 @@ breadcrumbs - パンくずリスト
 }
 
 .c-breakcrumds span[property="itemListElement"] {
-  margin: 0 5px;
+  margin: 0 0px;
   color: #a2a2a2;
 }
 
@@ -2881,7 +2880,7 @@ button - ボタン関係のコンポーネント
 @media screen and (max-width: 767px) {
   .c-btn01 a {
     width: 200px;
-    height: 45px;
+    height: 30px;
     font-size: 1.4rem;
   }
 
@@ -3361,7 +3360,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15% !important;
+    margin-top: 15px !important;
   }
 }
 
@@ -11850,7 +11849,8 @@ typography - 文字の装飾など
 .singleVoice-title h6 {
   font-size: 2rem;
   line-height: 27px;
-  padding-bottom:15px;
+  padding: 0px 20px;
+  margin-bottom: 25px;
   text-align: center;
   border-bottom: 1px dashed #ccc;
   margin-bottom: 0px;
@@ -11864,6 +11864,7 @@ typography - 文字の装飾など
   background: linear-gradient(to right, #153F6F 30%, #E4E8F1 100%);
   color: #fff;
   margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .singleVoice-content h3 {
@@ -11898,25 +11899,29 @@ typography - 文字の装飾など
   }
 
   .singleVoice-content h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 16px;
+    padding:5px 10px;
+    margin-bottom: 15px;
   }
 
   .singleVoice-content h3 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    padding-left:5px;
+    margin-bottom:10px
   }
 
   .singleVoice-content h5 {
     font-size: 1.4rem;
     border-top: 0;
     margin-top: 0px;
-    padding: 10px 10px;
   }
 
   .singleVoice-content h6 {
     font-size: 1.2rem;
     border-bottom: 0px;
     margin-bottom: 0px;
-    padding-bottom: 8px;
   }
 
   .singleVoice-content {
@@ -13609,21 +13614,22 @@ img {
   }
 
   .voice-content01 .qa-part .ttl {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
+    line-height: 16px;
   }
 
   .more-content .more-contentTtl {
     font-size: 1.5rem;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
   }
 
   .qa-part {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .voice-content {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
   }
 }
 
@@ -17099,7 +17105,7 @@ ol li {
 
 
   .news_content_add {
-    margin-top: 1% !important;
+    margin-top: 15px !important;
   }
 
   .p-new01 .c-new-content .c-list-news {
@@ -17127,7 +17133,7 @@ ol li {
   .cloumn_sidebar02 {}
 
   .single-column-info {
-    margin-top: 2%;
+    margin-top: 15px;
   }
 
   .p-column__post1 {
@@ -17148,7 +17154,7 @@ ol li {
   }
 
   .menber-single-content {
-    margin-top: 1%;
+    margin-top: 15px;
   }
 }
 
@@ -17296,7 +17302,7 @@ ol li {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 760px) {
   .Voicestyle {
     margin-top: 80px
   }
@@ -17305,24 +17311,22 @@ ol li {
     margin-top: 15px;
     padding: 15px 0 15px 0
   }
-  
-  .singleVoice-content {
-  padding-bottom: 0px;
-  }
 
   .singleVoicestyle {
-    margin-top: 80px
+    margin-top: 90px
   }
 
   .singleVoice-content h5 {
     font-size: 1.4rem;
     border-top: 0;
     margin-top: 0px;
-    border-top: 1px dashed #ccc;
+    border-top: 0px dashed #ccc;
+    padding:5px;
   }
 
   .singleVoice-title h6 {
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 0px dashed #ccc;
+    line-height: 15px;
   }
 
   .singleVoice {
@@ -17330,7 +17334,7 @@ ol li {
   }
 
   .singleVoice01 {
-    padding: 30px 30px 0 30px
+    padding: 15px 3% 0 3%
   }
 
   .template-sz-serviceList {
@@ -18711,5 +18715,41 @@ ol li {
   .search_content_a{
     display: block;
   }
+
+  .c-breakcrumds div{
+    line-height:10px
+  }
+
+  .c-breakcrumds span{
+    line-height:10px
+  }
+
+  .singleVoice-title h5{
+    line-height: 15px;
+  }
+
+  .singleVoice-content {
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .more-content p{
+    font-size:1.5rem
+  }
 }
 /**2023 08 13 header**/
+
+.p-service{
+  background-color: #fff;
+}
+
+.p-member02{
+  background-color: #fff;
+}
+
+.p-new01{
+  background-color: #fff;
+}
+
+.p-column{
+  background-color: #fff;
+}
