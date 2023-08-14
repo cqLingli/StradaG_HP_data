@@ -14456,6 +14456,26 @@ body.tax-taxonomy_position .p-member__list img {
   .fx-contact_btn.contact.contact--2 img {
     width: 13px;
   }
+  .p-news__post {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+  }
+  .p-news__post .box {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .c-new__date {
+    font-size: 10px;
+  }
+
+  .single_title {
+    font-size: 1.5rem;
+    line-height: 20px;
+    font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 359px) {
@@ -14481,16 +14501,26 @@ body.tax-taxonomy_position .p-member__list img {
   line-height: 1.3;
 }
 
+.p-news__post {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 2%;
+}
+.p-news__post .box {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.c-new__date {
+  font-weight: bold;
+  font-size: 10px;
+}
+
 .single_title {
   font-size: 2.5rem;
   line-height: 20px;
   font-weight: bold;
-  padding: 20px;
-  margin-top: -30px;
-}
-
-.c-new__date {
-  padding: 20px;
 }
 
 .service-line-bottom {
@@ -16828,22 +16858,23 @@ ol li {
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
+    margin-left: 5px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .p-member02 .newItem2 {
-    width: calc(100% / 1);
+    width: calc(100% / 2.1);
     padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 
@@ -18055,16 +18086,13 @@ ol li {
   }
 
   .c-new__date {
-    padding: 20px;
     font-size: 10px;
   }
 
   .single_title {
     font-size: 1.5rem;
     line-height: 20px;
-    font-weight: bold;
-    padding: 20px;
-    margin-top: -30px;
+    font-weight: bold;;
   }
 
   .p-column__post .box p {
@@ -18708,4 +18736,15 @@ ol li {
   }
 }
 /**2023 08 13 header**/
+}
+
+.p-news__post {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 2%;
+}
+.p-news__post .box {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
 }
