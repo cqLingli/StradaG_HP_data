@@ -88,7 +88,7 @@
               </a>
             </div>
             <div class="h-mail h-mail--4">
-              <a href="#" target="_blank">
+              <a href="<?php echo home_url(); ?>/"> target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/minilogo.png" alt="" />
               </a>
             </div>
@@ -126,10 +126,10 @@
           </li>
           <li>
             <a href="<?php echo home_url('tax/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
-          </li>   
+          </li>
           <li>
             <a href="https://buppantax.com/"><div class="vertical-line">確定申告サポート</div></a>
-          </li>          
+          </li>
         </ul>
       </div>
       <div class="l-header_topline"></div>

@@ -51,7 +51,7 @@
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
-              <a href="<?php echo home_url(); ?>/">
+              <a href="<?php echo home_url('tr'); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/logo.png" alt="" />
               </a>
             </h1>
@@ -87,7 +87,7 @@
             </div>
   -->
             <div class="h-mail h-mail--4">
-              <a href="#" target="_blank">
+              <a href="<?php echo home_url(); ?>/" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/minilogo.png" alt="" />
               </a>
             </div>

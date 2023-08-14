@@ -51,7 +51,7 @@
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
-              <a href="<?php echo home_url(); ?>/">
+              <a href="<?php echo home_url('sr'); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_ss/logo.png" alt="" />
               </a>
             </h1>
@@ -87,7 +87,7 @@
             </div>
   -->
             <div class="h-mail h-mail--4">
-              <a href="#" target="_blank">
+              <a href="<?php echo home_url('sr'); ?>/" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_ss/minilogo.png" alt="" />
               </a>
             </div>
@@ -109,7 +109,7 @@
             <a href="<?php echo home_url('sr/srservice'); ?>"><div class="vertical-line">業務内容</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('sr/#QA'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('sr/#About'); ?>"><div class="vertical-line">事務所概要</div></a>
@@ -124,7 +124,7 @@
             <a href="<?php echo home_url('sr/sraccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('sr/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>
         </ul>
       </div>
