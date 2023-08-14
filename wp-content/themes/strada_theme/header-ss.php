@@ -112,13 +112,13 @@
             <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">事務所概要</div></a>
+            <a href="<?php echo home_url('sr/#About'); ?>"><div class="vertical-line">事務所概要</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('sr/srmenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('sr'); ?>"><div class="vertical-line">料金表</div></a>
+            <a href="<?php echo home_url('sr/#Price'); ?>"><div class="vertical-line">料金表</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('sr/sraccess'); ?>"><div class="vertical-line">アクセス</div></a>
@@ -134,7 +134,7 @@
       <a href="<?php echo home_url('sr/#Q&A'); ?>"><div class="search_content_style">よくあるご質問</div></a>
       <a href="<?php echo home_url('sr/#About'); ?>"><div class="search_content_style">事務所概要</div></a>
       <a href="<?php echo home_url('sr/srmenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
-      <a href="<?php echo home_url('sr/#price'); ?>"><div class="search_content_style">料金表</div></a>
+      <a href="<?php echo home_url('sr/#Price'); ?>"><div class="search_content_style">料金表</div></a>
       <a href="<?php echo home_url('sr/sraccess'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('sr/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       <div class="search_content_style1">
