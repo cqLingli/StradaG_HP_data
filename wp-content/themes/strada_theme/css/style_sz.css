@@ -3360,7 +3360,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15px !important;
+    margin-top: 1px !important;
   }
 }
 

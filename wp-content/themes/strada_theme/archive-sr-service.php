@@ -38,7 +38,7 @@ $_SESSION['page_type']="service";
             <div class="l-content">
                 <div class="l-container">
                     <?php
-                    $terms = get_terms( 'taxonomy_service', array(
+                    $terms = get_terms( 'taxonomy_servicesr', array(
                         'hide_empty' => false,
                         'parent' => 0,
                         'order' => 'ASC',
@@ -51,7 +51,7 @@ $_SESSION['page_type']="service";
                         <?php
                         $index=0;
                         foreach ( $terms as $term ) :
-                            $tax_link = get_term_link($term->slug, 'taxonomy_service');
+                            $tax_link = get_term_link($term->slug, 'taxonomy_servicesr');
                             $tax_name = $term->name;
                             $tax_slug = $term->slug;
                             $img = get_field('service_cat_thumbnail', $term);
