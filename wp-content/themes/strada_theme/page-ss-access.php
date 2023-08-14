@@ -1,7 +1,7 @@
-<?php 
+<?php
 /* Template Name: access_ss */
-get_header("ss"); ?>
-
+get_header("ss");
+?>
 <main class="l-main p-access">
     <div class="c-breakcrumds">
       <div class="l-container">
@@ -9,7 +9,7 @@ get_header("ss"); ?>
       </div>
     </div>
 
-    <div class="c-mainTitle">
+    <div class="c-mainTitle accessStyle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
@@ -20,16 +20,15 @@ get_header("ss"); ?>
       </div>
     </div>
 
-    <div class="l-container accessbox">
+    <div class="accessbox">
+    <div class="l-container">
+    <div class="mob_access">
         <div class="access-title">アクセス</div>
         <div class="p-access_groupContent">
             <div class="t-access t-block" id="access">
                 <div class="l-container">
                     <div class="t-access_main">
-                        <div class="t-access_img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img_access.jpg" alt="">
-                        </div>
-                        <div class="t-access_content">
+                    <div class="t-access_content">
                                 <h4>ストラーダ社会保険労務士法人</h4>
                                 <p class="t-access_add">
                                 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル3階
@@ -37,7 +36,7 @@ get_header("ss"); ?>
                                 <p class="t-access_add">
                                 TEL:03-6231-1103
                                 </p>
-                            <ul>
+                            <ul class="accstyle">
                                 <li>
                                     <span>半蔵門線：水天宮前駅 5番出口から徒歩2分</span>
                                 </li>
@@ -52,12 +51,15 @@ get_header("ss"); ?>
                                 </li>
                             </ul>
                         </div>
+                        <div class="t-access_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/img_access.jpg" alt="">
+                        </div>
                         </div>
                     </div>
                 </div>
             <div class="access-list">
                 <div class="access">
-                <a id="access01" class="target-fix"></a>
+                    <a id="access01" class="target-fix"></a>
                     <h3 class="cm-ttl01">半蔵門線「水天宮前駅」からお越しの場合</h3>
                     <ul>
                         <li>
@@ -151,6 +153,8 @@ get_header("ss"); ?>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.732793825305!2d139.78441761525877!3d35.68358088019382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188945bc013343%3A0x91fe51cc7df02e4d!2z5pel5pys44CB44CSMTAzLTAwMTQg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL6JuO5q6755S677yS5LiB55uu77yR77yR4oiS77ySIOOCquODvOODiOOCqOODg-OCr-OCueW3peiXpOODk-ODqyA0Zg!5e0!3m2!1sja!2s!4v1635329371742!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
+        </div>
+    </div>
     </div>
 </main>
 
