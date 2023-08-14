@@ -12117,11 +12117,11 @@ img {
 .p-about_groupContent h3,
 .cm-ttl01 {
   margin-bottom: 20px;
-  padding-left: 13px;
+  padding-left: 10px;
   border-left: 4px solid #153f6f;
   font-size: 2.4rem;
   font-weight: bold;
-  line-height: 1;
+  line-height: 2;
 }
 
 .p-about_groupContent .wp-block-table {
@@ -12178,7 +12178,7 @@ img {
   border-left: 4px solid #153f6f;
   font-size: 2.4rem;
   font-weight: bold;
-  line-height: 1;
+  line-height: 2;
 }
 
 .p-access_groupContent .wp-block-table {
@@ -13046,7 +13046,7 @@ img {
 }
 
 .p-access .cm-ttl01 {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 img {
