@@ -3451,14 +3451,14 @@ div#企業概要 {
   position: static !important;
   width: auto !important;
   flex: 1 0 50% !important;
-  padding-right: 30px !important;
+  padding-right: 15px !important;
 }
 
 .company_right {
   position: static !important;
   width: auto !important;
   flex: 1 0 50% !important;
-  padding-left: 30px !important;
+  padding-left: 15px !important;
 }
 
 .company_right a {
@@ -16881,7 +16881,7 @@ ol li {
 
   .p-about_groupContent dl {
     font-size: 1rem;
-    zoom: 0.9
+    zoom: 0.88
   }
 
   .company_right dl dt {
@@ -17895,7 +17895,7 @@ ol li {
   }
 
   .company_left dl dt {
-    margin-left: -28px !important
+    margin-left: -31px !important
   }
 
   .company_right dl dt {
