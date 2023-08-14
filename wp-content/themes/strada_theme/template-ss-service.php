@@ -17,9 +17,9 @@
 
         <div class="template-service-title">
             <hr class="service-line-bottom-top" />
-            <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
-            <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
-            <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
+            <span class="service-line-bottom2-span">労務に関するトータルサポート</span>
+            <p>人事、労務、社会保険、労働保険に関するご相談や事務手続きをおこないます。</p>
+            <p>日本人・外国人採用から雇用に関する手続き、就業規則作成まで労務の専門家としてしっかりサポートさせていただきます。</p>
             <hr class="service-line-bottom-top2" />
             <div style="margin-top: 3%;"></div>
         </div>
@@ -27,71 +27,113 @@
     <!-- end c-mainTitle -->
     <div class="c-new-content-service">
         <div class="l-content template-sz-service">
-            <div class="l-container">
+            <div class="c-serviceList1">
+                <div class="menberTtile">代表的なサービス</div>
+                <div style="height: 10px;"></div>
                 <?php
-                $terms = get_terms( 'taxonomy_servicesr', array(
-                    'hide_empty' => false,
-                    'parent' => 0,
-                    'order' => 'ASC',
-                    'orderby' => 'menu_order'
-                ) );
+                $index=0;
+                $args = array(
+                    'post_type' => 'servicesr', // 文章类型
+                    'posts_per_page' => 10,
+                    'paged' => $paged,
+                    'taxonomy_servicesr' => 'representative_service'
+
+                );
+                $query = new WP_Query( $args ); // 执行查询
                 ?>
-                <div class="c-serviceList template-sz-serviceList">
-                    <div class="menberTtile">事業内容</div>
-                    <div style="height: 10px;"></div>
-                    <?php
-                    $index=0;
-                    foreach ( $terms as $term ) :
-                        $tax_link = get_term_link($term->slug, 'taxonomy_servicesr');
-                        $tax_name = $term->name;
-                        $tax_slug = $term->slug;
-                        $img = get_field('service_cat_thumbnail', $term);
-                        $slug = $term->slug;
-                        $wp_term_url = get_term_link($term);
-                        $index++;
-                        ?>
-                        <div class="<?php
-                        if($index%3==1){
-                            echo "serviceItem_top";
-                        }else{
-                            echo "serviceItem_top2";
-                        }
-                        ?>">
-                            <div class="thumb">
-                                <img src="<?php echo $img['url'] ?>" alt="">
+                <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                    <div class="<?php
+                    if($index%3==1){
+                        echo "serviceItem_top";
+                    }else{
+                        echo "serviceItem_top2";
+                    }
+                    ?>">
+                        <div class="thumb">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                        </div>
+
+                        <a  href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                            <div class="service_title_icon">
+                                <span>  <?php echo get_the_title(); ?></span>
                             </div>
-                            <?php
-                            if($slug==="buppantax"){
-                                echo '<a  href="https://'.$slug.'.com" style="text-decoration:none;">
-                               <div class="service_title_icon">
-                                       <span>'.$tax_name.'</span>
-                                    </div> </a>';
-                            }else{
-                                echo '<a  href="'.$wp_term_url.'" style="text-decoration:none;">
-                  <div class="service_title_icon">
-                     <span>'.$tax_name.'</span>
-                  </div>
-              </a>';
-
-                            }
-
-                            ?>
-                            <div class="content">
-                                <div>
-                                    <p class="description_box"><?php echo nl2br($term->description); ?></p>
-                                    <!--              <div class="c-btn01 ">-->
-                                </div>
-                                <!--               <div class="ttl2 c-btn01__blue">-->
-                                <!--                <a href="--><?php //echo get_term_link($term) ?><!--">詳細はこちら</a>-->
-                                <!--              </div>-->
+                        </a>
+                        <div class="content">
+                            <div>
+                                <p class="description_box"><?php echo nl2br(get_the_excerpt()); ?></p>
                             </div>
 
                         </div>
-                    <?php
-                    endforeach;
-                    ?>
-                </div>
+
+                    </div>
+                <?php endwhile; ?>
             </div>
         </div>
     </div>
+
+
+        <div class="l-content template-sz-service">
+
+            <div class="c-serviceList1">
+                <div class="menberTtile">社労士業務とは</div>
+                <div style="height: 10px;"></div>
+
+            </div>
+        </div>
+
+    <div class="c-new-content-service">
+        <div class="l-content template-sz-service">
+            <div class="c-serviceList1">
+                <div class="menberTtile">当社の強み</div>
+                <div style="height: 10px;"></div>
+                <?php
+                $index=0;
+                $args = array(
+                    'post_type' => 'servicesr', // 文章类型
+                    'posts_per_page' => 10,
+                    'paged' => $paged,
+                    'taxonomy_servicesr' => 'trengths_company'
+
+                );
+                $query = new WP_Query( $args ); // 执行查询
+                ?>
+                <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                    <div class="<?php
+                    if($index%3==1){
+                        echo "serviceItem_top";
+                    }else{
+                        echo "serviceItem_top2";
+                    }
+                    ?>">
+                        <div class="thumb">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                        </div>
+
+                        <a  href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                            <div class="service_title_icon">
+                                <span>  <?php echo get_the_title(); ?></span>
+                            </div>
+                        </a>
+                        <div class="content">
+                            <div>
+                                <p class="description_box"><?php echo nl2br(get_the_excerpt()); ?></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                <?php endwhile; ?>
+            </div>
+
+        </div>
+    </div>
+
+        <div class="l-content template-sz-service">
+            <div class="c-serviceList1">
+                <div class="menberTtile">コンテンツ</div>
+                <div style="height: 10px;"></div>
+
+            </div>
+        </div>
+
 </main>
