@@ -17089,7 +17089,8 @@ ol li {
   .c-serviceList1 {
     max-width: 1400px;
     margin: 0 auto;
-    margin-right: 5.5%;
+    margin-right: -1.5%;
+    margin-left: 5.5%;
   }
 
   .term-description {
@@ -18974,10 +18975,66 @@ ol li {
     margin-left: 3%;
     margin-right: 3%
   }
+  .service-line-bottom2-span{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #EC7700;
+  }
+
+  .singleService .c-back-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    height:50px;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EC7700;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 27px;
+    text-decoration: none;
+  }
 }
 .service-line-bottom2-span{
   margin-top: 10px;
   font-size: 15px;
   font-weight: bold;
   color: #EC7700;
+}
+
+ .singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #EC7700;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
 }

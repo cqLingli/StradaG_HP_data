@@ -25,7 +25,7 @@
         </div>
     </div>
     <!-- end c-mainTitle -->
-    <div class="c-new-content-service">
+       <div class="c-new-content-service">
         <div class="l-content template-sz-service">
             <div class="c-serviceList1">
                 <div class="menberTtile">代表的なサービス</div>
@@ -71,7 +71,6 @@
         </div>
     </div>
 
-
         <div class="l-content template-sz-service">
 
             <div class="c-serviceList1">
@@ -81,7 +80,7 @@
             </div>
         </div>
 
-    <div class="c-new-content-service">
+       <div class="c-new-content-service">
         <div class="l-content template-sz-service">
             <div class="c-serviceList1">
                 <div class="menberTtile">当社の強み</div>
