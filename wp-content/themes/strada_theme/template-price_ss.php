@@ -15,7 +15,7 @@
       <div class="l-primary">
           <div class="p-entry__body body1">
           <div class="l-container">
-          <div style="margin-left:5.5%;margin-right:5.5%">
+          <div class="price_style">
               <div class="price_head">「顧問契約」の料金</div>
               <h3 class="left_heading">アドバイザリー顧問</h3>
               <figure class="wp-block-table is-style-stripes">
@@ -82,7 +82,7 @@
           </div>
           <div  class="p-entry__body body2">
           <div class="l-container">
-          <div style="margin-left:5.5%;margin-right:5.5%">
+          <div class="price_style">
           <div class="price_head">「スポット契約」の料金</div>
               <h3 class="left_heading">給与計算顧問</h3>
               <figure class="wp-block-table is-style-stripes">

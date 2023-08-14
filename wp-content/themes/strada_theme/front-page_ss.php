@@ -56,7 +56,7 @@ $_SESSION['page_type']="top";
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
-            <div style="display: flex;overflow-x: hidden;width:100%">
+            <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
                 <div class="news_title_readmore">READ MORE</div>
@@ -66,7 +66,6 @@ $_SESSION['page_type']="top";
                 </div>
               </a>
             </div>
-            <hr style="border:1px dotted #BDB7B7;">
             <?php
             // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
             $args = array(
@@ -122,28 +121,16 @@ $_SESSION['page_type']="top";
         <div class="circle1"></div>
         </p>
       </div>
-      <div id="text1" class="border-text border-text-controll">トップメッセージ、選ばれる6つの理由</div>
+      <div id="text1" class="border-text border-text-controll">トップメッセージ、選ばれる６つの理由</div>
     </div>
     </div>
       </div>
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
-          <hr style="border:1px dotted #BDB7B7;">
-          <p class="Message_style1_p1">ストラーダ税理士法人の経営理念</p>
-          <p class="Message_style1_p2">お客様と共に同じ道を歩く</p>
-          <p class="Message_style1_p3">　「ストラーダ」とは、イタリア語で「道」という意味があります。お客様と歩む長い道をともに歩
-            み続けられるような、税理士法人にしたいという意味を込めて、「ストラーダ税理士法人」と名付
-            けました。税理士の特徴は、一時的なサービスではなく、企業が誕生し、企業が発展し続けるた
-            めに、共に企業を成長させていく、生涯付き合える、パートナーとしての性質を有しています。企
-            業の成長が、日本社会に価値を与え、弊法人のクライアントが少しでも日本社会に価値を与え
-            る手助けすることが、私達の使命です。そのため、長期に渡って企業の価値を提供できるよう
-            に、自己研鑽に励み、税務的面はもちろん、他の面においても価値を提供できるように努めてま
-            いります。また、企業に価値を提供するスタッフが長期に渡って働けるような、社内環境を整え、
-            新しいことに挑戦し続ける事務所経営を行います。</p>
-          <p class="Message_style1_p4">ストラーダ税理士法人　代表社員</p>
-          <p class="Message_style1_p5">山田 直輝</p>
-          <hr style="border:1px dotted #BDB7B7;">
+          <p class="Message_style1_p3">Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）</p>
+          <p class="Message_style1_p4">ストラーダ社会保険労務士法人　代表社員</p>
+          <p class="Message_style1_p5">宿谷 裕樹</p>
         </div>
         <div class="Message_style2">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/SS_TOP_Massage.png" alt="" />
@@ -176,7 +163,6 @@ $_SESSION['page_type']="top";
             <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt=""
               class="Strada_style_img1_1" />
           </div>
-          <hr style="border:1px dotted #BDB7B7;">
           <p class="StradaStyle">ストラーダグループとは、　
             <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
             <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
@@ -190,7 +176,6 @@ $_SESSION['page_type']="top";
             <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
               会社の全体戦略に基づいたアドバイスを可能としております。</span>
           </p>
-          <hr style="border:1px dotted #BDB7B7;">
         </div>
       </div>
     </div>
@@ -214,32 +199,10 @@ $_SESSION['page_type']="top";
     </div>
     </div>
       <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-        <?php get_template_part('template', ''); ?>
+        <?php get_template_part('template', 'sz-service'); ?>
       </div>
   </div>
   <!-- end Service -->
-
-  <!-- start Voice -->
-  <a id="Voice" class="target-fix"></a>
-  <div class="block_wrap4">
-    <div class="border-text4"></div>
-      <div class="border-bt">
-    <div class="l-container">
-    <div style="display:flex">
-      <div id="block_wrap4" class="title_item_wrap4 active4">
-        <p class="chapter_title4">Voice
-        <div class="circle4"></div>
-        </p>
-      </div>
-      <div id="text4" class="border-text border-text-controll">お客様の声</div>
-    </div>
-    </div>
-   </div>
-    <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
-      <?php get_template_part('template', 'voice_sz'); ?>
-    </div>
-  </div>
-  <!-- end Voice -->
 
   <!-- start Q&A -->
   <a id="QA" class="target-fix"></a>
@@ -258,33 +221,10 @@ $_SESSION['page_type']="top";
     </div>
     </div>
       <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
-        <?php get_template_part('template', 'qa_sz'); ?>
+        <?php get_template_part('template', 'qa_ss'); ?>
       </div>
   </div>
   <!-- end Q&A -->
-
-  <!-- start Column -->
-  <a id="Column" class="target-fix"></a>
-  <div class="block_wrap6">
-    <div class="border-text6"></div>
-      <div class="border-bt">
-    <div class="l-container">
-    <div style="display:flex">
-      <div id="block_wrap6" class="title_item_wrap6 active6">
-        <p class="chapter_title6">Column
-        <div class="circle6"></div>
-        </p>
-      </div>
-      <div id="text6" class="border-text border-text-controll">お役立ち情報</div>
-    </div>
-    </div>
-    </div>
-      <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-        <?php get_template_part('template', 'sz-column'); ?>
-      </div>
-
-  </div>
-  <!-- end Column -->
 
   <!-- start About -->
   <a id="About" class="target-fix"></a>
@@ -303,14 +243,36 @@ $_SESSION['page_type']="top";
     </div>
     </div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
-        <?php get_template_part('template', 'about_sz'); ?>
+        <?php get_template_part('template', 'about_ss'); ?>
         <a id="menber" class="target-fix1"></a>
-        <?php get_template_part('template', 'sz-members'); ?>
+        <?php get_template_part('template', 'ss-members'); ?>
       </div>
   </div>
   </div>
   </div>
   <!-- end About -->
+
+  <!-- start Price -->
+  <a id="Price" class="target-fix"></a>
+    <div class="block_wrap6">
+        <div class="border-text6"></div>
+        <div class="border-bt">
+        <div class="l-container">
+        <div style="display:flex">
+            <div id="block_wrap6" class="title_item_wrap6 active6">
+                <p class="chapter_title6">Price
+                <div class="circle6"></div>
+                </p>
+            </div>
+            <div id="text6" class="border-text border-text-controll">Price</div>
+        </div>
+        </div>
+        </div>
+        <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
+            <?php get_template_part('template', 'price_ss'); ?>
+        </div>
+    </div>
+  <!-- end Price -->
 
   <!-- start Contact -->
   <div class="block_wrap8">
@@ -328,7 +290,7 @@ $_SESSION['page_type']="top";
     </div>
    </div>
       <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
-        <?php get_template_part('template', 'contact_sz'); ?>
+        <?php get_template_part('template', 'contact_ss'); ?>
       </div>
   </div>
   <!-- end Contact -->
@@ -350,7 +312,7 @@ $_SESSION['page_type']="top";
     </div>
   </div>
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-        <?php get_template_part('template', 'recruit_sz'); ?>
+        <?php get_template_part('template', 'recruit_ss'); ?>
       </div>
   </div>
   <!-- end Recruit -->

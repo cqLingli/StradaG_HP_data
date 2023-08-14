@@ -56,7 +56,8 @@ get_header("ss"); ?>
                     </div>
                 </div>
             <div class="access-list">
-                <div class="access" id="access01">
+                <div class="access">
+                <a id="access01" class="target-fix"></a>
                     <h3 class="cm-ttl01">半蔵門線「水天宮前駅」からお越しの場合</h3>
                     <ul>
                         <li>
@@ -85,7 +86,8 @@ get_header("ss"); ?>
                         </li>
                     </ul>
                 </div>
-                <div class="access" id="access02">
+                <div class="access">
+                <a id="access02" class="target-fix"></a>
                     <h3 class="cm-ttl01">日比谷線・浅草線「人形町駅」からお越しの場合</h3>
                     <ul>
                         <li>
@@ -114,7 +116,8 @@ get_header("ss"); ?>
                         </li>
                     </ul>
                 </div>
-                <div class="access" id="access03">
+                <div class="access">
+                <a id="access03" class="target-fix"></a>
                     <h3 class="cm-ttl01">新宿線「浜町駅」からお越しの場合</h3>
                     <ul>
                         <li>

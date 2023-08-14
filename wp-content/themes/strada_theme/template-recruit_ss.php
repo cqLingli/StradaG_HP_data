@@ -26,7 +26,7 @@
 
     <div class="t-recruit">
     <div class="l-container">
-      <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="recruit-contain_style">
       <div class="recruit-container">                           
         <div class="t-recruitContent" id="募集要項" >
           <div class="t-recruitHead">                      

@@ -14,7 +14,7 @@
 
     <div class="c-new-content">
     <div class="l-container">
-      <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="companyss">
   <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>法人概要</h2>      
@@ -74,25 +74,25 @@
             <dt>最寄駅 アクセス方法</dt>
             <dd>
               半蔵門線　　水天宮前　徒歩2分
-              <a href="#access01">
+              <a href="<?php echo home_url('sr/sraccess/#access01'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               日比谷線　　人形町駅　徒歩5分
-              <a href="#access02">
+              <a href="<?php echo home_url('sr/sraccess/#access02'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               浅草線　　　人形町駅　徒歩8分
-              <a href="#access02">
+              <a href="<?php echo home_url('sr/sraccess/#access02'); ?>">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               都営新宿線　浜町駅　　徒歩10分
-              <a href="#access03">
+              <a href="<?php echo home_url('sr/sraccess/#access03'); ?>" class="accessChange">
                 経路はこちら
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
@@ -106,7 +106,7 @@
     </div>
     </div>
     <div class="l-container">
-    <div style="margin-left:5.5%;margin-right:5.5%">
+    <div class="aboutcomstyle">
   <div class="p-about_history" id="ストラーダグループの沿革">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>ストラーダグループの沿革</h2>      

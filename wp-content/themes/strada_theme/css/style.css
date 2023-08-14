@@ -5878,8 +5878,8 @@ div#新卒採用 {
 @media screen and (max-width: 767px) {
   .p-recruitBtn a {
     width: 100%;
-    height: 50px;
-    font-size: 1.4rem;
+    height: 30px;
+    font-size: 1.3rem;
   }
 }
 
@@ -16963,7 +16963,8 @@ ol li {
   }
 
   .t-recruitHead {
-    font-size: 2.2rem
+    font-size: 1.3rem;
+    height: 30px;
   }
 
 
@@ -17864,7 +17865,7 @@ ol li {
   }
 
   .t-recruitContent dl dt{
-    flex:0 0 28%;
+    flex:0 0 15%;
   }
 
   .t-recruit {
