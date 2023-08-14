@@ -214,7 +214,7 @@ $_SESSION['page_type']="top";
     </div>
     </div>
       <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-        <?php get_template_part('template', 'ss-service'); ?>
+        <?php get_template_part('template', ''); ?>
       </div>
   </div>
   <!-- end Service -->
