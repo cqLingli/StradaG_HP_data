@@ -24,7 +24,7 @@ $_SESSION['page_type']="service";
       </div>
     </div>
   </div>
-
+    <div class="l-container">
     <div class="service_title_01">
         <hr class="service-line-bottom2" />
     <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
@@ -32,7 +32,7 @@ $_SESSION['page_type']="service";
     <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
         <hr class="service-line-bottom2" />
     </div>
-
+    </div>
   <!-- end c-mainTitle -->
     <div class="c-new-content">
   <div class="l-content">
