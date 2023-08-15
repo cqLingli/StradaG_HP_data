@@ -128,15 +128,19 @@
           </li>
         </ul>
       </div>
-      <div id="search_content_ID" class="search_content">
+      <div class="l-header_topline"></div>
+    </div>
+    <div id="search_content_ID" class="search_content">
+      <div class="search_content_a">
       <a href="<?php echo home_url('sr/srnewslist'); ?>"><div class="search_content_style">ニュース</div></a>
       <a href="<?php echo home_url('sr/srservice'); ?>"><div class="search_content_style">業務内容</div></a>
-      <a href="<?php echo home_url('sr/#Q&A'); ?>"><div class="search_content_style">よくあるご質問</div></a>
+      <a href="<?php echo home_url('sr/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
       <a href="<?php echo home_url('sr/#About'); ?>"><div class="search_content_style">事務所概要</div></a>
       <a href="<?php echo home_url('sr/srmenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('sr/#Price'); ?>"><div class="search_content_style">料金表</div></a>
       <a href="<?php echo home_url('sr/sraccess'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('sr/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+      </div>
       <div class="search_content_style1">
       <div class="search_content_style1_1">
                 <input type="text" id="search_content_input" placeholder="検索">
@@ -147,7 +151,5 @@
                 </button>
             </div>
       </div>
-      </div>
-      <div class="l-header_topline"></div>
     </div>
   </header>
