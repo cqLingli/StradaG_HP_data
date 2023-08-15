@@ -1,6 +1,6 @@
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-qa">
-  
+<div class="l-container">
   <div class="c-mainTitle">
 
     <div class="c-mainTitle_content">
@@ -12,8 +12,10 @@
       </div>
     </div>
   </div>
+  </div>  
 
-  <div class="l-container qa_container">
+  <div class="qa_container">
+  <div class="l-container">
     <div class="p-qa__content">
       <div class="c-qa-list" id="労働保険事務組合に関するよくあるご質問">
         <div class="c-qa-list__title">

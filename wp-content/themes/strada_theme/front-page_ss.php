@@ -72,7 +72,7 @@ $_SESSION['page_type']="top";
               'post_type' => 'news', // 文章类型
               'posts_per_page' => 10,
               'paged' => $paged,
-              'company' => 'SZ', // 自定义字段名
+              'company' => 'SS', // 自定义字段名
             );
             $query = new WP_Query($args); // 执行查询
             ?>
