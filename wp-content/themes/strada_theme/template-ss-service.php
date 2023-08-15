@@ -40,30 +40,30 @@
                 $query = new WP_Query( $args ); // 执行查询
                 ?>
                 <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
-                    <div class="<?php
+                <div class="<?php
                     if($index%3==1){
                         echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
-                        <div class="thumb">
-                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-                        </div>
+                    <div class="thumb">
+                        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                    </div>
 
-                        <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
-                            <div class="service_title_icon">
+                    <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                        <div class="service_title_icon">
                             <span>
                                 <?php echo get_the_title(); ?>
                             </span>
-                            </div>
-                        </a>
-                        <div class="content">
-                            <div>
-                                <p class="description_box">
-                                    <?php echo nl2br(get_the_excerpt()); ?>
-                                </p>
-                            </div>
-
+                        </div>
+                    </a>
+                    <div class="content">
+                        <div>
+                            <p class="description_box">
+                                <?php echo nl2br(get_the_excerpt()); ?>
+                            </p>
                         </div>
 
                     </div>
+
+                </div>
                 <?php endwhile; ?>
             </div>
         </div>
@@ -92,17 +92,17 @@
 
                 <div class="shosai_content">
                     <p class="shosai_content_title"><span class="shosai_content_gm_start">１号業務</span><span
-                                class="shosai_content_gm_end">[関係書類の作成業務]</span></p>
+                            class="shosai_content_gm_end">[関係書類の作成業務]</span></p>
                     <p class="shosai_content_gm_naiyo">
                         ・行政官庁に提出する届出書、申請書、報告書、審査請求などの書類を作成する業務<br />・企業の就業規則、労働者名簿、各種労使協定、賃金台帳などの書類を作成する業務</p>
 
                     <p class="shosai_content_title"><span class="shosai_content_gm_start">２号業務</span><span
-                                class="shosai_content_gm_end">[代理・代行業務]</span></p>
+                            class="shosai_content_gm_end">[代理・代行業務]</span></p>
                     <p class="shosai_content_gm_naiyo">
                         ・１号業務で作成した申請書などを、社会保険労務士が事業主に代って行政官庁に提出する業務<br />・事業主に代って、行政官庁に対して陳述、要望、主張などを行なう業務</p>
 
                     <p class="shosai_content_title"><span class="shosai_content_gm_start">３号業務</span><span
-                                class="shosai_content_gm_end">[相談・指導業務]</span></p>
+                            class="shosai_content_gm_end">[相談・指導業務]</span></p>
                     <p class="shosai_content_gm_naiyo">
                         いわゆる労務コンサルティングといわれる業務で、人事や労務に関する相談や指導、アドバイスを行ないます。社会保険労務士の能力が一番発揮できるジャンルで、今後の社会保険労務士の業務の、大きな柱になってきます。
                     </p>
@@ -128,30 +128,30 @@
                 $query = new WP_Query( $args ); // 执行查询
                 ?>
                 <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
-                    <div class="<?php
+                <div class="<?php
                     if($index%3==1){
                         echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
-                        <div class="thumb">
-                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-                        </div>
+                    <div class="thumb">
+                        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                    </div>
 
-                        <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
-                            <div class="service_title_icon">
+                    <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                        <div class="service_title_icon">
                             <span>
                                 <?php echo get_the_title(); ?>
                             </span>
-                            </div>
-                        </a>
-                        <div class="content">
-                            <div>
-                                <p class="description_box">
-                                    <?php echo nl2br(get_the_excerpt()); ?>
-                                </p>
-                            </div>
-
+                        </div>
+                    </a>
+                    <div class="content">
+                        <div>
+                            <p class="description_box">
+                                <?php echo nl2br(get_the_excerpt()); ?>
+                            </p>
                         </div>
 
                     </div>
+
+                </div>
                 <?php endwhile; ?>
             </div>
 
@@ -165,17 +165,17 @@
                 <div class="sr_service_imgcontent">
                     <div class="sr_service_img1">
                         <a href="#"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/images/top_SS/労務トラブル_バナー.png"
-                                    alt="" /></a>
+                                src="<?php echo get_template_directory_uri(); ?>/images/top_SS/労務トラブル_バナー.png"
+                                alt="" /></a>
                     </div>
                     <div class="sr_service_img2">
                         <a href="#"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/images/top_SS/クラウド活用_バナー.png"
-                                    alt="" /></a>
+                                src="<?php echo get_template_directory_uri(); ?>/images/top_SS/クラウド活用_バナー.png"
+                                alt="" /></a>
                     </div>
                     <div class="sr_service_img3">
                         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
-                                         alt="" /></a>
+                                alt="" /></a>
                     </div>
                 </div>
             </div>

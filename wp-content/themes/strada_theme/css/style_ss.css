@@ -19038,3 +19038,196 @@ ol li {
   line-height: 27px;
   text-decoration: none;
 }
+
+.sr_service_bg{
+  background-color: #fff;
+}
+
+.sr_service_style{
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+.sr_service_gm{
+  background:linear-gradient(90deg, #EC7700, #FFF0E5);
+  color:white;
+  text-align:left;
+  padding-left:10px;
+  margin-top:30px;
+  font-size:2.2rem;
+  font-weight: bold;
+}
+.sr_service_gm_title{
+  display: flex;
+  border-bottom: 1px dotted #707070;
+  margin-top: 5px;
+}
+
+.sr_service_gm_num{
+  height:20px;
+  width:20px;
+  text-align: center;
+  font-size:1.44rem;
+  color:#fff;
+  background:#EC7700;
+  border-radius:50%;
+  font-weight: bold;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  margin-top: 14px;
+}
+
+.sr_service_gm_modai{
+  font-size:2.3rem;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.sr_service_gm_naiyo{
+  font-size: 1.44rem;
+  line-height: 24px;
+  border-bottom: 1px dotted #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.shosai_content{
+  border: 1px solid black;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.shosai_content_title{
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:5px;
+  border-bottom: 1px dotted #707070;
+}
+
+.shosai_content_gm_naiyo{
+  margin-left:30px;
+  margin-right:30px;
+  border-bottom: 1px dotted #707070;
+  font-size:1.44rem;
+  line-height:24px;
+  padding-top:5px;
+  padding-bottom:5px
+}
+
+.shosai_content_gm_start{
+  font-size:2.3rem;
+  font-weight:bold;
+  color:#EC7700
+}
+
+.shosai_content_gm_end{
+  font-size:2.3rem;
+  font-weight:bold;
+  color:black;
+  padding-left: 4px;
+}
+
+.sr_service_imgcontent{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.sr_service_img1{
+  width:49%;
+}
+
+.sr_service_img1 img{
+  width:100%;
+  vertical-align: bottom;
+}
+
+.sr_service_img2{
+  width:49%;
+  margin-left:2%;
+}
+
+.sr_service_img2 img{
+  width:100%;
+  vertical-align: bottom;
+}
+
+.sr_service_img3{
+  width:49%;
+  margin-top: 30px;
+}
+
+.sr_service_img3 img{
+  width:100%;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 767px) {
+  .sr_service_style{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sr_service_gm{
+    font-size: 1.5rem;
+    margin-top:15px
+  }
+  .sr_service_gm_num{
+    width:15px;
+    height:15px;
+    font-size:1.2rem;
+    margin-top:9px
+  }
+  .sr_service_gm_modai{
+    font-size:1.6rem;
+    padding-left:2px
+  }
+  .sr_service_gm_naiyo{
+    font-size:1rem;
+    zoom:0.92;
+    line-height:16px
+  }
+
+  .shosai_content{
+    margin-top:15px;
+    padding-bottom:15px
+  }
+  .shosai_content_title{
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:0px
+  }
+  .shosai_content_gm_start{
+    font-size: 1.6rem;
+  }
+  .shosai_content_gm_end{
+    font-size: 1.6rem;
+  }
+  .shosai_content_gm_naiyo{
+    margin-left:15px;
+    margin-right:15px;
+    font-size: 1rem;
+    zoom:0.92;
+    line-height: 16px;
+  }
+  .sr_service_imgcontent{
+    margin-top:15px
+  }
+
+  .sr_service_img1{
+    width: 100%;
+  }
+
+  .sr_service_img2{
+    width: 100%;
+    margin-left:0;
+    margin-top:15px;
+
+  }
+  .sr_service_img3{
+    width: 100%;
+    margin-top:15px
+  }
+}
