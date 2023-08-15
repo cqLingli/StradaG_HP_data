@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-
+        <div class="l-container">
         <div class="template-service-title">
             <hr class="service-line-bottom-top" />
             <span class="service-line-bottom2-span">労務に関するトータルサポート</span>
@@ -21,9 +21,11 @@
             <hr class="service-line-bottom-top2" />
             <div style="margin-top: 3%;"></div>
         </div>
+        </div>
     </div>
     <!-- end c-mainTitle -->
     <div class="c-new-content-service">
+        <div class="l-container">
         <div class="l-content template-sz-service">
             <div class="c-serviceList1">
                 <div class="menberTtile">代表的なサービス</div>
@@ -66,6 +68,7 @@
                 </div>
                 <?php endwhile; ?>
             </div>
+        </div>
         </div>
     </div>
 
@@ -112,6 +115,7 @@
     </div>
 
     <div class="c-new-content-service">
+        <div class="l-container">
         <div class="l-content template-sz-service">
             <div class="c-serviceList1">
                 <div class="menberTtile">当社の強み</div>
@@ -155,6 +159,7 @@
                 <?php endwhile; ?>
             </div>
 
+        </div>
         </div>
     </div>
 

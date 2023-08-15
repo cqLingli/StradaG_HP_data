@@ -25,12 +25,14 @@ $_SESSION['page_type']="service";
             </div>
         </div>
 
+        <div class="l-container">
         <div class="service_title_01">
             <hr class="service-line-bottom2" />
             <span class="service-line-bottom2-span">労務に関するトータルサポート</span>
             <p>人事、労務、社会保険、労働保険に関するご相談や事務手続きをおこないます。</p>
             <p>日本人・外国人採用から雇用に関する手続き、就業規則作成まで労務の専門家としてしっかりサポートさせていただきます。</p>
             <hr class="service-line-bottom2" />
+        </div>
         </div>
 
         <!-- end c-mainTitle -->
@@ -126,6 +128,7 @@ $_SESSION['page_type']="service";
             </div>
 
         <div class="c-new-content">
+            <div class="l-container">
         <div class="l-content archive-content">
             <div class="l-content template-sz-service ">
                 <div class="c-serviceList1">
@@ -172,6 +175,7 @@ $_SESSION['page_type']="service";
 
             </div>
         </div>
+            </div>
         </div>
         <div class="l-content">
             <div class="sr_service_bg">
