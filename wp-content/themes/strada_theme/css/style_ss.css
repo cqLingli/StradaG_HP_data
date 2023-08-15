@@ -12439,6 +12439,9 @@ img {
 .c-form dd {
   flex: auto;
 }
+.c-form .row .dd.checkboxLeft{
+  flex: initial;
+}
 
 .c-form .row input[type="text"],
 .c-form .row textarea {
@@ -12601,6 +12604,9 @@ img {
 
   .c-form dd {
     flex: auto;
+  }
+  .c-form .row .dd.checkboxLeft{
+    flex: initial;
   }
 
   .c-form .row input[type="text"],
