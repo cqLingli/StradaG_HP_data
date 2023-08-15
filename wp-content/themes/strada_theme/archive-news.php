@@ -47,11 +47,6 @@ $_SESSION['page_type']="news";
                             <hr class="c-line-bottom" />
                         </a>
                     <?php endwhile; ?>
-
-                    <!--          --><?php //if(function_exists('wp_pagenavi')) { ?>
-                    <!--              --><?php //wp_pagenavi(); ?>
-                    <!--          --><?php //} ?>
-
                 </div>
                 <?php
                 if (function_exists("pagination")) {
@@ -59,9 +54,6 @@ $_SESSION['page_type']="news";
                     pagination($query->max_num_pages);
                 }
                 ?>
-                <!--        <div class="c-pagination">-->
-                <!--            --><?php // wp_pagenavi(); ?>
-                <!--        </div>-->
             </div>
         </div>
     </main>
