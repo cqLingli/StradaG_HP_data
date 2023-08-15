@@ -18,7 +18,7 @@ $_SESSION['page_type']="service";
             <div class="c-mainTitle_content service_content_add">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
-                        事業内容
+                        業務内容
                         <span>Service</span>
                     </h1>
                 </div>
