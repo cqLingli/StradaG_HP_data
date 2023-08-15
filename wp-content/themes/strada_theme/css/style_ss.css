@@ -19230,4 +19230,30 @@ ol li {
     width: 100%;
     margin-top:15px
   }
+  .sr-service-archive{
+    margin-top: -5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .sr-service-archive-gm{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .archive-content{
+    margin-left: -2%;
+    margin-right: -3%;
+  }
+  .sr-service-archive{
+    margin-top: -10%!important;
+  }
 }
+.sr-service-archive{
+  margin-top: -5%;
+}
+.archive-content{
+  padding: 10px 0;
+}
+.archive-container{
+  padding-bottom: 10px;
+}
+
