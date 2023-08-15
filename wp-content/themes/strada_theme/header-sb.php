@@ -87,7 +87,7 @@
             </div>
   -->
             <div class="h-mail h-mail--4">
-              <a href="<?php echo home_url(); ?>/" target="_blank">
+            <a href="<?php echo home_url(); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sb//minilogo.png" alt="" />
               </a>
             </div>
