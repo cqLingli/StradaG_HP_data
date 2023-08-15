@@ -17,7 +17,7 @@
     <p class="contactStyle">下記お問合せフォームにご記載頂きご送信ください。担当者より折り返しご連絡させていただきます。※メールでのご相談は受け付けておりません。</p>
     <div class="contactBox__intro">
     <?php 
-                echo do_shortcode('[mwform_formkey key="3832"]');
+                echo do_shortcode('[mwform_formkey key="3923"]');
             ?>
     </div>
   </div>
