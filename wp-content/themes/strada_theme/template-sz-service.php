@@ -26,6 +26,7 @@
     </div>
     <!-- end c-mainTitle -->
     <div class="c-new-content-service">
+        <div class="l-container">
         <div class="l-content template-sz-service">
             <div class="l-container">
                 <?php
@@ -92,6 +93,7 @@
                     ?>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </main>

@@ -18665,6 +18665,16 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .p-news__post {
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+    padding-bottom: 2%!important;
+  }
+  .p-news__post .box {
+    padding: 20px!important;
+    background-color: #fff!important;
+    margin-top: 20px!important;
+  }
   .h-mail a{
     height: 35px;
   }
@@ -18727,4 +18737,14 @@ ol li {
 
 .p-member02{
   background-color: #fff;
+}
+.p-news__post {
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  padding-bottom: 2%;
+}
+.p-news__post .box {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
 }

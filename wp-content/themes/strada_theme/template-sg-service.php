@@ -6,8 +6,7 @@
             <div class="c-mainTitle_content">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
-                        業務内容
-                        <span>Service</span>
+                        ビザ申請
                     </h1>
                 </div>
             </div>
