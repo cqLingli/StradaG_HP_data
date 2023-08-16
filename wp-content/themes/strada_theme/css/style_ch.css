@@ -12332,6 +12332,15 @@ img {
   margin-bottom: 0;
 }
 
+.c-benefits-list {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.c-benefits-list:last-child {
+  padding-bottom: 20px;
+}
+
 .c-qa-list {
   margin-bottom: 0;
   padding-top: 30px;
@@ -18023,7 +18032,7 @@ ol li {
 .template-Benefits-mainTitle {
   margin-left: 5.5%;
   margin-right: 5.5%;
-  margin-top: -10%
+  margin-top: -8%
 }
 
 
@@ -19287,7 +19296,7 @@ ol li {
 .benefits_container {
   background-color: white !important;
   max-width: none !important;
-  margin-top: 30px
+  margin-top: 10px;
 }
 
 
