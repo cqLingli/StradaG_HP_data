@@ -41,7 +41,7 @@ if($url_type==="sz"){
         </div>
     </div>
     <!-- end c-mainTitle -->
-    <div class="c-new-content" style="padding-bottom: 100px;">
+    <div class="c-new-content" style="padding-bottom: 20px;">
   <div class="l-container">
       <div style="height: 5px;"></div>
       <div class="menberTtile menber_single-width">
@@ -182,7 +182,8 @@ if($url_type==="sz"){
           wp_reset_postdata();
         else:
           ?>
-          <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
+<!--          <div class="title"><p>--><?php //esc_html_e( 'Sorry, no posts matched your criteria.' ); ?><!--</p></div>-->
+
           <?php
         endif;
       ?>
