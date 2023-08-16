@@ -5296,7 +5296,7 @@ div#企業概要 {
     width: 90%;
     max-width: 462px;
     height: 107px;
-    margin-top: -37px;
+    margin-top: 0px;
   }
 }
 
@@ -18734,7 +18734,7 @@ ol li {
     height: auto
   }
   .h-logo img {
-    width: auto;
+    width: 250px;
     height: 35px
   }
   .search_content {
@@ -19504,5 +19504,9 @@ ol li {
     zoom:0.92;
     line-height:16px;
     padding-left:20px
+  }
+
+  .p-member02 .c-mainTitle_content{
+    margin-top: 0;
   }
 }
