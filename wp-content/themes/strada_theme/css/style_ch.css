@@ -17550,6 +17550,11 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .template-Benefits-mainTitle {
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+    margin-top: -10%
+  }
   .p-column .c-list__cat li a {
     display: block;
     padding-left: 15px;
@@ -18015,6 +18020,13 @@ ol li {
   margin-right: 5.5%;
   margin-top: -10%
 }
+.template-Benefits-mainTitle {
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  margin-top: -10%
+}
+
+
 
 .template-service-title {
   margin-left: 5.5%;
@@ -19264,4 +19276,18 @@ ol li {
 .archive-container{
   padding-bottom: 10px;
 }
+.benefits-template{
+  margin-bottom: 17px;
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1% 1%;
+
+}
+.benefits_container {
+  background-color: white !important;
+  max-width: none !important;
+  margin-top: 30px
+}
+
 

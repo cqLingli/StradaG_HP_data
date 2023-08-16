@@ -222,7 +222,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
-
+        <?php get_template_part('template', 'ch-benifit'); ?>
     </div>
   </div>
   <!-- end Benefits of Joining -->
