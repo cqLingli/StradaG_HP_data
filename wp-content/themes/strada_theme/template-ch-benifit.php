@@ -18,7 +18,7 @@
     <div class="qa_container">
         <div class="l-container">
             <div class="p-qa__content">
-                <div class="c-qa-list">
+                <div class="c-benefits-list">
                     <div class="c-qa-list__title">
                         <p>労働保険事務組合へ事務処理を委託するメリット</p>
                     </div>
@@ -41,7 +41,7 @@
     <div class="benefits_container">
         <div class="l-container">
             <div class="p-qa__content">
-                <div class="c-qa-list">
+                <div class="c-benefits-list">
                     <div class="c-qa-list__title">
                         <p>委託できる事務の範囲</p>
                     </div>
