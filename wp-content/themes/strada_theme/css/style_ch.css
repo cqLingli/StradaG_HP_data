@@ -17550,6 +17550,11 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .template-Benefits-mainTitle {
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+    margin-top: -10%
+  }
   .p-column .c-list__cat li a {
     display: block;
     padding-left: 15px;
