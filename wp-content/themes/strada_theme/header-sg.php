@@ -51,7 +51,7 @@
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
-              <a href="<?php echo home_url(); ?>/">
+              <a href="<?php echo home_url('admin'); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sg/logo.png" alt="" />
               </a>
             </h1>
