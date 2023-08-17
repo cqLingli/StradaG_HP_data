@@ -3017,7 +3017,7 @@ sidebar - サイドバー
 
 .l-sidebar {
   width: 35%;
-  margin-right: 5.5%;
+  margin-right: 1.5%;
 }
 
 @media screen and (max-width: 767px) {
@@ -3025,8 +3025,8 @@ sidebar - サイドバー
     width: 100%;
     max-width: 100%;
     margin: 0;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
   }
 }
 
@@ -3035,8 +3035,8 @@ sidebar - サイドバー
     width: 100%;
     max-width: 100%;
     margin: 0;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     margin-top: -1%;
   }
 }
@@ -4103,8 +4103,8 @@ div#企業概要 {
     width: 100%;
     max-width: 100%;
     padding: 0;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
   }
 }
 
@@ -4182,12 +4182,12 @@ div#企業概要 {
 }
 
 .p-column__post {
-  padding: 5.5%;
+  padding: 1.5%;
 }
 
 .p-news__post {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   padding-bottom: 2%;
 }
 .p-news__post .box {
@@ -5303,7 +5303,7 @@ div#企業概要 {
 
 .c-new-content {
   /*padding-bottom: 129px;*/
-  background: #E3E8F1;
+  background: #F8F8F8;
   margin-top: 30px
 }
 
@@ -5587,7 +5587,7 @@ div#企業概要 {
 }
 
 .p-qa__content {
-  padding: 0 5.5% 0 5.5%;
+  padding: 0 1.5% 0 1.5%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -5764,7 +5764,7 @@ div#新卒採用 {
 .company_infomation {
   border-top: 1px dotted #707070;
   border-bottom: 1px dotted #707070;
-  margin: 30px 5.5% 30px 5.5%;
+  margin: 30px 1.5% 30px 1.5%;
   font-size: 1.44rem;
 }
 
@@ -6594,7 +6594,7 @@ li.column_post .column_post_cat {
 .c-voicePost {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 5.5%;
+  padding-left: 1.5%;
   padding-right: 3.35%;
 }
 
@@ -12708,7 +12708,7 @@ img {
 
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
-  background: url('../images/mv/mv-service.jpg') no-repeat;
+  background: url('../images/common_sg/SG_サービス案内.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -12720,8 +12720,8 @@ img {
     background: url('../images/mv/mv-service.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     margin-top: 6%;
   }
 
@@ -12732,8 +12732,8 @@ img {
   background: url('../images/mv/mv-qa.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .p-qa {
@@ -12744,8 +12744,8 @@ img {
   background: url('../images/mv/mv-voice.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .p-voice {
@@ -12757,24 +12757,24 @@ img {
   background: url('../images/mv/mv-recruit.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .p-about .c-mainTitle {
   background: url('../images/mv/mv-about.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .p-contact .c-mainTitle {
   background: url('../images/mv/mv-contact.jpg') no-repeat;
   background-size: cover;
   background-position: center right;
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .p-member01 .c-mainTitle {
@@ -14154,15 +14154,15 @@ body.tax-taxonomy_position .p-member__list img {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: -5%;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .c-serviceList1 {
   max-width: 1400px;
   margin: 0 auto;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .serviceItem .thumb {
@@ -14628,7 +14628,7 @@ body.tax-taxonomy_position .p-member__list img {
 /*内容をコントロールする*/
 .node_wrap_show {
   width: 100%;
-  padding: 0 5.5% 0 5.5%;
+  padding: 0 1.5% 0 1.5%;
   /* height: 400px; */
   display: flex;
   overflow-x: hidden;
@@ -14806,7 +14806,7 @@ body.tax-taxonomy_position .p-member__list img {
 .term-excerpt {
   font-size: 1.5rem;
   margin-left: 7.5%;
-  margin-right: 5.5%;
+  margin-right: 1.5%;
 }
 
 * {
@@ -15139,14 +15139,14 @@ ol li {
 .Message_style1 {
   width: 49%;
   overflow-y: auto;
-  padding-left: 5.5%;
+  padding-left: 1.5%;
 }
 
 .Message_style2 {
   width: 49%;
   height: 330px;
   margin-left: 2%;
-  padding-right: 5.5%;
+  padding-right: 1.5%;
 }
 
 .Message_style1_p1 {
@@ -15246,7 +15246,7 @@ ol li {
 
   .Message_style1 {
     width: 100%;
-    padding-right: 5.5%;
+    padding-right: 1.5%;
     height: auto;
   }
 
@@ -15290,8 +15290,8 @@ ol li {
 .title_bg {
   background-color: transparent;
   background-image: linear-gradient(90deg, #808C96, #E3E8F1) !important;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   margin-top: 30px
 }
 
@@ -15305,8 +15305,8 @@ ol li {
 .reasonline1 {
   width: 100%;
   margin-top: 30px;
-  padding-left: 5.5%;
-  padding-right: 5.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   margin-bottom: 2%;
   height: 100%;
   display: flex;
@@ -15465,8 +15465,8 @@ ol li {
 .reasonline2 {
   width: 100%;
   margin-top: 10px;
-  padding-left: 5.5%;
-  padding-right: 5.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   margin-bottom: 2%;
   height: 100%;
   display: flex;
@@ -15624,8 +15624,8 @@ ol li {
 .reasonline3 {
   width: 100%;
   margin-top: 10px;
-  padding-left: 5.5%;
-  padding-right: 5.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   margin-bottom: 2%;
   height: 100%;
   display: flex;
@@ -15877,7 +15877,7 @@ ol li {
 /*内容をコントロールする*/
 .node_wrap_show2 {
   width: 100%;
-  padding: 0 5.5% 0 5.5%;
+  padding: 0 1.5% 0 1.5%;
   display: flex;
   overflow-x: hidden;
   overflow-y: auto;
@@ -16878,7 +16878,7 @@ ol li {
 }
 
 .service_title_01 {
-  padding: 1% 5.5%;
+  padding: 1% 1.5%;
   background: white
 }
 
@@ -16887,8 +16887,8 @@ ol li {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: -10%;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 
   }
 }
@@ -16999,7 +16999,7 @@ ol li {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   margin-top: -3%;
-  margin-left: 5.5%;
+  margin-left: 1.5%;
   margin-right: 5.2%;
 }
 
@@ -17075,7 +17075,7 @@ ol li {
 
   .term-excerpt {
     font-size: 1.4rem;
-    margin-left: 5.5%;
+    margin-left: 1.5%;
   }
 
   .s-service .entry-content h3 {
@@ -17095,7 +17095,7 @@ ol li {
   .c-serviceList1 {
     max-width: 1400px;
     margin: 0 auto;
-    margin-right: 5.5%;
+    margin-right: 1.5%;
   }
 
   .term-description {
@@ -17203,14 +17203,14 @@ ol li {
 
   .c-serviceList1 {
     max-width: 1400px;
-    margin-right: 5.5%;
-    margin-left: 5.5%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
     margin-top: -5%;
   }
 
   .term-excerpt {
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     font-size: 1.5rem;
   }
 
@@ -17347,7 +17347,7 @@ ol li {
 
   .template-sz-serviceList {
     margin-top: 1%;
-    margin-left: 5.5% !important;
+    margin-left: 1.5% !important;
     margin-right: -1.6% !important;
   }
 }
@@ -17367,8 +17367,8 @@ ol li {
 }
 
 .page-entry {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .template-sz-service {
@@ -17380,7 +17380,7 @@ ol li {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 1%;
-  margin-left: 5.5%;
+  margin-left: 1.5%;
   margin-right: -2.5%;
 }
 
@@ -17441,8 +17441,8 @@ ol li {
 }
 
 .ssbtnwidth {
-  padding-left: 5.5%;
-  padding-right: 5.5%
+  padding-left: 1.5%;
+  padding-right: 1.5%
 }
 
 .ssbtn {
@@ -17457,28 +17457,28 @@ ol li {
 }
 
 .aboutcomstyle {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .p-member__list_extra {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .companyss {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .recruit-contain_style {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .contact_containStyle {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 @media screen and (max-width: 991px) {
@@ -18007,19 +18007,19 @@ ol li {
 }
 
 .mob_access {
-  margin-left: 5.5%;
-  margin-right: 5.5%
+  margin-left: 1.5%;
+  margin-right: 1.5%
 }
 
 .template-service-mainTitle {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   margin-top: -10%
 }
 
 .template-service-title {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   margin-top: 4%;
   font-size: 1.5rem;
 }
@@ -18444,8 +18444,8 @@ ol li {
 }
 
 .menber_single-width {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .search_content_style1_2 {
@@ -18453,8 +18453,8 @@ ol li {
 }
 
 .single_p-member02__box {
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .search_content_style1_1 input {
@@ -18764,4 +18764,28 @@ ol li {
 
 .p-column{
   background-color: #fff;
+}
+.singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height: 50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
 }

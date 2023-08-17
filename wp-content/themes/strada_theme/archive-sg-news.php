@@ -23,7 +23,8 @@ $_SESSION['page_type']="news";
       </div>
     </div>
   </div>
-  <div class="c-new-content">
+  <div class="c-new-content" style="padding-bottom: 120px;">
+      <div style="height: 5px"></div>
     <div class="l-container">
       <div class="c-list-news">
           <?php
@@ -48,10 +49,6 @@ $_SESSION['page_type']="news";
           </a>
              <?php endwhile; ?>
 
-<!--          --><?php //if(function_exists('wp_pagenavi')) { ?>
-<!--              --><?php //wp_pagenavi(); ?>
-<!--          --><?php //} ?>
-
       </div>
         <?php
         if (function_exists("pagination")) {
@@ -59,9 +56,7 @@ $_SESSION['page_type']="news";
             pagination($query->max_num_pages);
         }
         ?>
-<!--        <div class="c-pagination">-->
-<!--            --><?php // wp_pagenavi(); ?>
-<!--        </div>-->
+
     </div>
   </div>
 </main>
