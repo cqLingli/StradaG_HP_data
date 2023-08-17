@@ -17,7 +17,7 @@
     <p class="contactStyle">労働保険に関するご相談、労働保険事務組合に関するお問合せは下記メールフォームよりお気軽にお問合せください。</p>
     <div class="contactBox__intro">
     <?php 
-                echo do_shortcode('[mwform_formkey key="3832"]');
+                echo do_shortcode('[mwform_formkey key="3996"]');
             ?>
     </div>
   </div>

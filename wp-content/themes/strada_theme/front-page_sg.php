@@ -180,12 +180,12 @@ $_SESSION['page_type']="top";
       </p>
     </div>
     <div class="border-bt3"></div>
-    <div class="l-container">
+
     <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-    <?php get_template_part('archive', 'sg-service'); ?>
+    <?php get_template_part('template', 'sg-service'); ?>
     </div>
     </div>
-  </div>
+
   <!-- end Service -->
 
   <!-- start Case Study -->
