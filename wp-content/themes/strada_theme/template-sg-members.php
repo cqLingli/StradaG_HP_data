@@ -3,7 +3,7 @@
     <main class="l-main p-member02" style="margin-top: 0px;">
 
         <!-- end c-mainTitle -->
-        <div class="c-new-content" style="padding-bottom:2%">
+        <div class="c-new-content" style="padding-bottom:2%;background-color:#fff">
             <div class="l-container">
                 <div class="p-member__list tempalte_menber-list p-member__list_extra">
                     <div class="menberTtile3">
