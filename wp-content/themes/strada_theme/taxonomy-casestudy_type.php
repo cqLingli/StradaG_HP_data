@@ -9,7 +9,7 @@ get_header("sb");
     <main class="l-main p-column">
         <div class="c-breakcrumds">
             <div class="l-container">
-                <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+                <?php get_template_part('breadcrumb', 'all'); ?>
             </div>
         </div>
         <!-- end c-breakcrumds -->
@@ -104,6 +104,7 @@ get_header("sb");
                   <?php
                   global $wp_query;
                   echo $wp_query->queried_object->name;
+                  $_SESSION["CAT_NAME"]=$wp_query->queried_object->name;
                   ?>
               </span>
                     </div>

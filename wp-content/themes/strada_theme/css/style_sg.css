@@ -12707,7 +12707,7 @@ img {
 
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
-  background: url('../images/mv/mv-service.jpg') no-repeat;
+  background: url('../images/common_sg/SG_サービス案内.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -12716,7 +12716,7 @@ img {
 
   .p-service .c-mainTitle,
   .s-service .c-mainTitle {
-    background: url('../images/mv/mv-service.jpg') no-repeat;
+    background: url('../images/common_sg/SG_サービス案内.png') no-repeat;
     background-size: cover;
     background-position: center center;
     margin-left: 5.5%;
@@ -14143,7 +14143,7 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 2.3);
+  width: calc(100% / 3.3);
   padding: 8px 8px 8px 8px;
   background: white;
   margin-left: 2.5%;
@@ -17347,8 +17347,6 @@ ol li {
 
   .template-sz-serviceList {
     margin-top: 1%;
-    margin-left: 5.5% !important;
-    margin-right: -1.6% !important;
   }
 }
 
@@ -17379,8 +17377,8 @@ ol li {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 1%;
-  margin-left: 9.5%;
-  margin-right: 1.5%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 
 .menber-name {
@@ -17395,7 +17393,7 @@ ol li {
 @media screen and (min-width: 991px) {
   .term-description—service {
     margin-left: 6% !important;
-    margin-right: 8% !important;
+    margin-right: 1.5% !important;
   }
 
   .c-serviceList-add {
