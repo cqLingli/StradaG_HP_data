@@ -104,6 +104,7 @@ get_header("sb");
                   <?php
                   global $wp_query;
                   echo $wp_query->queried_object->name;
+                  $_SESSION["CAT_NAME"]=$wp_query->queried_object->name;
                   ?>
               </span>
                     </div>
