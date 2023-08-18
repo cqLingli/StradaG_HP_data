@@ -1,17 +1,21 @@
-<div class="p-about">     
+<div class="p-about">
+    <div class="l-container">
   <div class="c-mainTitle">
-      <div class="c-mainTitle_content">
-        <div class="c-tlt01 c-tlt01__black">
-          <h1 class="c-tlt01__line c-tlt01__line--gray">
-            会社概要
-            <span>About</span>
-          </h1>
-        </div>
+    <div class="c-mainTitle_content">
+      <div class="c-tlt01 c-tlt01__black">
+        <h1 class="c-tlt01__line c-tlt01__line--gray">
+        会社概要
+          <span>About</span>
+        </h1>
       </div>
     </div>
   </div>
-                               
-  <div class="p-about_group t-block" id="企業概要" >
+    </div>
+
+    <div class="c-new-content">
+    <div class="l-container">
+    <div class="companyss">
+  <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>企業概要</h2>      
     </div>
@@ -21,11 +25,11 @@
           <dl>
             <dt>法人名称</dt>
             <dd>株式会社タックス・リアルティ</dd>
-          </dl>                                 
+          </dl>
           <dl>
             <dt>代表</dt>
-            <dd>代表取締役　加藤 敦</dd>
-          </dl>
+            <dd>代表取締役　加藤 経</dd>
+          </dl>                                 
           <dl>
             <dt>登録番号</dt>
             <dd>東京都知事（1）第107399号</dd>
@@ -36,9 +40,7 @@
           </dl>                      
           <dl>
             <dt>電話番号</dt>
-            <dd>03-5962-3583（代）</dd>
-            <dt>ファックス</dt>
-            <dd>03-5962-3584</dd>
+            <dd>03-5962-3583（代）　　ファックス　03-5962-3584</dd>
           </dl>                     
           <dl>
             <dt>メールアドレス</dt>
@@ -51,11 +53,11 @@
           <dl>
             <dt>業務内容</dt>
             <dd>・不動産コンサルティング<br />
-                ・不動産売買<br />
-                ・不動産売買仲介<br />
-                ・不動産賃貸仲介<br />
-                ・不動産管理<br />
-                ・不動産査定</dd>
+            ・不動産売買<br />
+            ・不動産売買仲介<br />
+            ・不動産賃貸仲介<br />
+            ・不動産管理<br />
+            ・不動産査定</dd>
           </dl>                                         
         </div>
       </div>
@@ -68,27 +70,27 @@
             <dt>最寄駅 アクセス方法</dt>
             <dd>
               半蔵門線　　水天宮前　徒歩2分
-              <a href="#access01">
+              <a href="<?php echo home_url('taxria/taxriaaccess/#access01'); ?>">
                 経路はこちら
-                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               日比谷線　　人形町駅　徒歩5分
-              <a href="#access02">
+              <a href="<?php echo home_url('taxria/taxriaaccess/#access02'); ?>">
                 経路はこちら
-                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               浅草線　　　人形町駅　徒歩8分
-              <a href="#access02">
+              <a href="<?php echo home_url('taxria/taxriaaccess/#access02'); ?>">
                 経路はこちら
-                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
               <br />
               都営新宿線　浜町駅　　徒歩10分
-              <a href="#access03">
+              <a href="<?php echo home_url('taxria/taxriaaccess/#access03'); ?>" class="accessChange">
                 経路はこちら
-                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/migi_icon.png" alt="" width="5%"/>
               </a>
             </dd>
           </dl>
@@ -96,8 +98,12 @@
       </div>
     </div>
   </div>
-                                      
-  <div class="p-about_history t-block" id="ストラーダグループの沿革">
+    </div>
+    </div>
+    </div>
+    <div class="l-container">
+    <div class="aboutcomstyle">
+  <div class="p-about_history" id="ストラーダグループの沿革">
     <div class="c-tlt02 c-tlt02--center">                      
       <h2>ストラーダグループの沿革</h2>      
     </div>
@@ -112,9 +118,10 @@
         </dl>                     
         <dl>
           <dt>2021年4月</dt>
-          <dd><span>ストラーダビジネスサポート株式会社は、有料職業紹介事業許可を取得</span><hr>
-          <span>ストラーダ行政書士法人を設立</span><br />
-              ストラーダ行政書士法人の代表社員に星野隆介が就任致しました。</dd>
+          <dd><span>ストラーダビジネスサポート株式会社は、有料職業紹介事業許可を取得</span>
+              <hr>
+              <span>ストラーダ行政書士法人を設立</span><br />
+                  ストラーダ行政書士法人の代表社員に星野隆介が就任致しました。</dd>
         </dl>                     
         <dl>
           <dt>2019年10月</dt>
@@ -165,6 +172,8 @@
       </div>
     </div>
   </div>
-  
+  </div>
+  </div>
 </div>
+    
 
