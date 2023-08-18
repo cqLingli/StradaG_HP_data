@@ -4,25 +4,17 @@ get_header("sb");
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
-  <div class="c-breakcrumds">
-    <div class="l-container">
+    <div class="c-breakcrumds">
+        <div class="l-container">
             <?php get_template_part('breadcrumb', 'all'); ?>
+        </div>
     </div>
     <!-- end c-breakcrumds -->
-    <div class="c-mainTitle">
-        <div class="c-mainTitle_content single-column-info">
-            <div class="c-tlt01 c-tlt01__black">
-                <h1 class="c-tlt01__line c-tlt01__line--gray">
-                    <?php
-                    if($_SESSION["CAT_NAME"] ){
-                        echo $_SESSION["CAT_NAME"] ;
-                    }else{
-                        $category = get_the_category("casestudy_type");
-                        echo $category [0]->cat_name;
-                    }
-                    ?>
-                    <span>column</span>
-                </h1>
+    <div class="l-container">
+        <div class="firstview_casestudy">
+            <div class="container">
+                <p class="english">Case study</p>
+                <h1 class="title">事例</h1>
             </div>
         </div>
     </div>
@@ -30,7 +22,7 @@ get_header("sb");
     <div class="c-new-content">
         <div class="l-container">
             <div class="p-column__03">
-                <div class="p-column__post p-column__post1">
+                <div class="p-column__post p-casestudy__post">
                     <div class="menberTtile">
             <span><?php
                 if($_SESSION["CAT_NAME"] ){
@@ -44,10 +36,9 @@ get_header("sb");
                     ) );
                     foreach ( $terms as $term) {
                         $tax_name = $term->name;
-                        echo '<span class="cat">'.$tax_name.'</span>';
+                        echo $tax_name;
                         break;
                     }
-
                 }
                 ?></span>
                     </div>
@@ -272,7 +263,7 @@ get_header("sb");
                                 endforeach ;
                                 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
                                 $args = array(
-                                    'post_type' => 'casestudy',
+                                    'post_type' => 'post',
                                     'posts_per_page' => 3,
                                     'orderby' => 'date',
                                     'category__in' => $category_ID,
@@ -325,66 +316,7 @@ get_header("sb");
                                 ?>
                             </div>
                         </div>
-                        <div class="p-column__wellRead-Article">
-                            <p class="c-title">よく読まれている記事</p>
-                            <div class="p-column__list">
-                                <?php
-                                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-                                $args = array(
-                                    'post_type' => 'casestudy',
-                                    'posts_per_page' => 3,
-                                    'meta_key' => '_views',
-                                    'order' => 'desc',
-                                    'orderby' => 'meta_value_num',
-                                    'posts_per_page' => 3,
-                                    'paged' => $paged,
-                                );
 
-                                $the_query = new WP_Query($args);
-                                if($the_query->have_posts()) :
-                                    while($the_query->have_posts()) : $the_query->the_post(); ?>
-                                        <div class="item">
-                                            <div class="image">
-                                                <?php
-                                                if ( has_post_thumbnail() ) {
-                                                    the_post_thumbnail( 'kv-size');
-                                                } else {
-                                                    ?>
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common/no-image.png" alt="<?php the_title(); ?>">
-                                                <?php } ?>
-                                            </div>
-                                            <div class="txt">
-                                                <p class="date-cat">
-                                                    <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
-                                                    <?php
-                                                    $terms = wp_get_post_terms($post->ID, 'category', array(
-                                                        'hide_empty' => false,
-                                                        'parent' => 0,
-                                                        'order' => 'ASC',
-                                                        'orderby' => 'term_id'
-                                                    ) );
-                                                    foreach ( $terms as $term) {
-                                                        $tax_link = get_term_link($term->slug, 'category');
-                                                        $tax_name = $term->name;
-                                                        $tax_slug = $term->slug;
-                                                        echo '<span class="cat">'.$tax_name.'</span>';
-                                                    }
-                                                    ?>
-                                                </p>
-                                                <p class="title"><?php echo get_the_title(); ?></p>
-                                            </div>
-                                            <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-                                        </div>
-                                    <?php endwhile;
-                                    wp_reset_postdata();
-                                else:
-                                    ?>
-                                    <div class="title u-mb-8"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-                                <?php
-                                endif;
-                                ?>
-                            </div>
-                        </div>
                         <div class="p-column__related-Article" style="display:none">
                             <p class="c-title">この記事を見た人はこんな記事も見ています</p>
                             <div class="p-column__list">
@@ -394,7 +326,7 @@ get_header("sb");
                                 foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
                                 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
                                 $args = array(
-                                    'post_type' => 'casestudy',
+                                    'post_type' => 'post',
                                     'posts_per_page' => 3,
                                     'tag__in' => $tag_ids,
                                     'post__not_in' => array($post->ID),
@@ -456,14 +388,7 @@ get_header("sb");
                 </div>
                 <div class="l-sidebar column_sidebar02" >
                     <?php
-                    //session_start();
-                    $url_type = $_SESSION['url_type'];
-                    if($url_type){
-                        get_sidebar($_SESSION['url_type']);
-                    }else{
-                        get_sidebar('sidebar');
-                    }
-
+                        get_sidebar('sb');
                     ?>
                 </div>
             </div>
@@ -474,5 +399,4 @@ get_header("sb");
 
 <?php
 get_footer("sb");
-
 ?>

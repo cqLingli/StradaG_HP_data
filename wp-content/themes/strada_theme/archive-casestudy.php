@@ -14,11 +14,13 @@ $_SESSION['page_type']="casestudy";
             </div>
         </div>
         <!-- end c-breakcrumds -->
+        <div class="l-container">
         <div class="firstview_casestudy">
             <div class="container">
                 <p class="english">Case study</p>
                 <h1 class="title">事例</h1>
             </div>
+        </div>
         </div>
         <!-- end c-mainTitle -->
         <div class="c-new-content">
