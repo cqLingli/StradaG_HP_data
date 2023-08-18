@@ -56,14 +56,12 @@
                                         $tax_link = get_term_link($term->slug, 'taxonomy_position');
                                         $tax_name = $term->name;
                                         $tax_slug = $term->slug;
-                                        if($tax_name==="代表社員"){
-                                            $representative_name  ="代表社員";
+                                        if($tax_slug==="representative"){
+                                            $representative_name  =$tax_name;
                                         }else{
                                             if($index===0){
-                                                //  echo '<p class="job">'.$tax_name.'</p>';
                                                 $tax_name_over=$tax_name;
                                             }else{
-                                                //   echo '<p class="job">/'.$tax_name.'</p>';
                                                 $tax_name_over=$tax_name_over.'/'.$tax_name;
                                             }
                                             $index++;
