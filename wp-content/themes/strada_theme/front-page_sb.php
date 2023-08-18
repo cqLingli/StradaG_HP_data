@@ -250,6 +250,7 @@ $_SESSION['page_type']="top";
     </div>
     <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
       <?php get_template_part('template', 'about_sb'); ?>
+      <?php get_template_part('template', 'sb-members'); ?>
     </div>
   </div>
   </div>
@@ -294,7 +295,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', 'sb-members'); ?>
+
     </div>
   </div>
   <!-- end Recruit -->
