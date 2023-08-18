@@ -17,7 +17,7 @@
     <p class="contactStyle">各種お問い合わせは、こちらのフォームよりお送りください。翌営業日を目安にお返事を差し上げます。</p>
     <div class="contactBox__intro">
     <?php 
-                echo do_shortcode('[mwform_formkey key="3923"]');
+                echo do_shortcode('[mwform_formkey key="3998"]');
             ?>
     </div>
   </div>
