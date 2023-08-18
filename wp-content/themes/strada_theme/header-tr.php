@@ -51,7 +51,7 @@
         <div class="l-header__main">
           <div class="h-logo">
             <h1>
-              <a href="<?php echo home_url('tr'); ?>/">
+              <a href="<?php echo home_url('taxria'); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/logo.png" alt="" />
               </a>
             </h1>
@@ -109,13 +109,13 @@
             <a href="<?php echo home_url('taxria'); ?>"><div class="vertical-line">お客さまへの支援</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria'); ?>"><div class="vertical-line">お客様の声</div></a>
+            <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria'); ?>"><div class="vertical-line">会社概要</div></a>
+            <a href="<?php echo home_url('taxria/#About'); ?>"><div class="vertical-line">会社概要</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('taxria/taxriamenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
@@ -124,10 +124,32 @@
             <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('taxria/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>            
         </ul>
       </div>
       <div class="l-header_topline"></div>
+    </div>
+    <div id="search_content_ID" class="search_content">
+      <div class="search_content_a">
+      <a href="<?php echo home_url('taxria/taxriaservicelist'); ?>"><div class="search_content_style">業務内容</div></a>
+      <a href="<?php echo home_url('taxria'); ?>"><div class="search_content_style">お客さまへの支援</div></a>
+      <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
+      <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="search_content_style">お客様の声</div></a>
+      <a href="<?php echo home_url('taxria/#About'); ?>"><div class="search_content_style">会社概要</div></a>
+      <a href="<?php echo home_url('taxria/taxriamenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
+      <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="search_content_style">アクセス</div></a>
+      <a href="<?php echo home_url('taxria/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+      </div>
+      <div class="search_content_style1">
+      <div class="search_content_style1_1">
+                <input type="text" id="search_content_input" placeholder="検索">
+            </div>
+            <div class="search_content_style1_2">
+                <button onclick="#" class="search_content_button">
+                <svg t="1691662394048" class="icon-search" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="31988" width="30" height="30"><path d="M726.460377 809.298113c-68.588679 51.441509-153.6 81.630189-245.856603 81.630189-226.777358 0-410.566038-183.788679-410.566038-410.566038s183.788679-410.566038 410.566038-410.566038 410.566038 183.788679 410.566037 410.566038c0 92.256604-30.430189 177.267925-81.630188 245.856604l127.516981 127.516981c22.701887 22.701887 22.943396 59.65283-0.24151 82.837736-22.943396 22.943396-60.377358 22.460377-82.837736 0.241509L726.460377 809.298113zM480.603774 773.796226c162.05283 0 293.192453-131.381132 293.192452-293.192452S642.415094 187.411321 480.603774 187.411321 187.411321 318.792453 187.411321 480.603774c0 162.05283 131.139623 293.192453 293.192453 293.192452z m0 0" p-id="31989" fill="#8a8a8a"></path></svg>
+                </button>
+            </div>
+      </div>
     </div>
   </header>
