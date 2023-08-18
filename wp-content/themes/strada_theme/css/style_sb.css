@@ -19399,3 +19399,7 @@ ol li {
   width: 60%;
   margin-top: -5%;
 }
+.serviceItem .thumb img{
+  width: 580px!important;
+  height: 250px!important;
+}

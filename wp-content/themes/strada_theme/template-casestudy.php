@@ -10,6 +10,14 @@
             </div>
         </div>
         </div>
+        <div class="l-container">
+            <div class="template-service-title">
+                <hr class="service-line-bottom-top" />
+                <p>M&A・資金調達・経理代行・補助金申請など、弊社でのプロジェクト事例をご紹介します。</p>
+                <hr class="service-line-bottom-top2" />
+                <div style="margin-top: 3%;"></div>
+            </div>
+        </div>
         <!-- end c-mainTitle -->
         <div class="c-new-content">
         <div class="l-container">

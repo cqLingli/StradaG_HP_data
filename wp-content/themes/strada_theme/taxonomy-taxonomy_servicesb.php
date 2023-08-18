@@ -84,7 +84,7 @@ $mv = get_field('service_cat_mv', $qo);
                                 }
                                 if($repeater != null && $active){
                                     ?>
-                                    <img src="<?php echo $repeat['s_repeat_img']['url']; ?>" alt="nophoto">
+                                    <img src="<?php echo $repeat['s_repeat_img']['url']; ?>">
                                     <?php
                                 }else{
                                     if (has_post_thumbnail()) {
