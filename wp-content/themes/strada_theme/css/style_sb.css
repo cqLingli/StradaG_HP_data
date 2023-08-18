@@ -19348,14 +19348,13 @@ ol li {
   background: linear-gradient(170deg, #9ecf41 10%, #32833A 80%);
   display: inline-block;
 }
-.template-casestudy{
+.template-casestudy {
   margin-left: 5.5%;
   margin-right: 5.5%;
   margin-top: -8%;
+}
 
   .c-new-content_style{
     padding-top:15px;
     padding-bottom:15px;
   }
-
-}
