@@ -99,7 +99,7 @@ if($url_type==="sz"){
         if(is_tax()){
             $url2=$url1."sr";
             $text2="社労士法人トップ";
-            $url3=$url1."sr/taxservicelist";
+            $url3=$url1."sr/srservice";
             $text3="社労士法人サービス";
             $term = get_queried_object();
             $text4="事業内容:".$term->name;
@@ -107,13 +107,10 @@ if($url_type==="sz"){
         }elseif(is_single()){
             $url2=$url1."sr";
             $text2="社労士法人トップ";
-            $url3=$url1."sr/taxservicelist";
+            $url3=$url1."sr/srservice";
             $text3="社労士法人サービス";
-            $terms = get_the_terms(get_the_id(),'taxonomy_service');
-            $url4=$url1."service/".$terms[0]->slug;
-            $text4="事業内容:".$terms[0]->name;
-            $text5=get_the_title();
-            $breadcrumbType="5";
+            $text4="事業内容:".get_the_title();;
+            $breadcrumbType="4";
         }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."sr";
@@ -189,7 +186,7 @@ if($url_type==="sz"){
         if(is_tax()){
             $url2=$url1."bs";
             $text2="ビジネスサポートトップ";
-            $url3=$url1."bs/taxservicelist";
+            $url3=$url1."bs/bsservicelist";
             $text3="ビジネスサポートサービス";
             $term = get_queried_object();
             $text4="事業内容:".$term->name;
@@ -197,9 +194,9 @@ if($url_type==="sz"){
         }elseif(is_single()){
             $url2=$url1."bs";
             $text2="ビジネスサポートトップ";
-            $url3=$url1."bs/taxservicelist";
+            $url3=$url1."bs/bsservicelist";
             $text3="ビジネスサポートサービス";
-            $terms = get_the_terms(get_the_id(),'taxonomy_service');
+            $terms = get_the_terms(get_the_id(),'taxonomy_servicesr');
             $url4=$url1."service/".$terms[0]->slug;
             $text4="事業内容:".$terms[0]->name;
             $text5=get_the_title();
@@ -213,7 +210,25 @@ if($url_type==="sz"){
         $text4="メンバー紹介:".get_the_title();
         $breadcrumbType="4";
     }elseif(strpos($thisurl,'casestudy')){
-    
+        if(is_tax()){
+            $url2=$url1."bs";
+            $text2="ビジネスサポートトップ";
+            $url3=$url1."bs/bscasestudylist";
+            $text3="当社事例";
+            $term = get_queried_object();
+            $text4=$term->name;
+            $breadcrumbType="4";
+        }elseif(is_single()){
+            $url2=$url1."bs";
+            $text2="ビジネスサポートトップ";
+            $url3=$url1."bs/bscasestudylist";
+            $text3="当社事例";
+            $terms = get_the_terms(get_the_id(),'casestudy_type');
+            $url4=$url1."casestudy/casestudy_type/".$terms[0]->slug;
+            $text4=$terms[0]->name;
+            $text5=get_the_title();
+            $breadcrumbType="5";
+        }
     }
 
 }elseif ($url_type==="tr"){

@@ -4,10 +4,9 @@ get_header("sb");
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
-    <div class="c-breakcrumds">
-        <div class="l-container">
+  <div class="c-breakcrumds">
+    <div class="l-container">
             <?php get_template_part('breadcrumb', 'all'); ?>
-        </div>
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle">
@@ -475,4 +474,5 @@ get_header("sb");
 
 <?php
 get_footer("sb");
+
 ?>

@@ -11,15 +11,15 @@ $_SESSION['page_type']="top";
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/Strada_Bs_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/Strada_Bs_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/Strada_Bs_Slider_01.png"
             alt="" /></a>
       </li>
     </ul>
@@ -52,13 +52,13 @@ $_SESSION['page_type']="top";
         <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
             style="width:100%;height:90%"></iframe>
-          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
+          <p class="Youtube_text">ストラーダビジネスサポート紹介動画 Youtube</p>
         </div>
         <div class="news_style2">
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
-              <a href="<?php echo home_url('admin/adminnewslist'); ?>" style="text-decoration:none">
+              <a href="<?php echo home_url('bs/bsnewslist'); ?>" style="text-decoration:none">
                 <!-- <div class="news_title_readmore">READ MORE</div> -->
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
@@ -128,18 +128,18 @@ $_SESSION['page_type']="top";
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
+          <p class="Message_style1_p1">ビジネスを成長させたいあなたへ</p>
+          <p class="Message_style1_p2">ビジネスの土台作りから<br />拡大・上場まで一括支援。<br /><br /></p>
           <p class="Message_style1_p3">
-            　「ストラーダ」とは、イタリア語で「道」という意味があります。<br />
-            　お客様と歩む長い道をともに歩み続けられるような行政書士となりたいという意味を込めて、「ストラーダ行政書士法人」と名付けました。<br /><br />
-            　行政書士の特徴は、お客様の新しい生活・事業に寄り添うパートナーとしての性質を有しています。<br />
-            　そのため、長期に渡ってお客様へ価値を提供できるように自己研鑽に励み、行政への申請面はもちろん他の面においてもグループ内法人と共に価値を提供できるように努めてまいります。<br />
-            　また、企業に価値を提供するスタッフが長期に渡って働けるような社内環境を整え、新しいことに挑戦し続ける事務所経営を行います。<br /><br />
+            　「ストラーダ」とは、イタリア語で「道」という意味があります。<br /><br />
+            　お客様と歩む長い道をともに歩み続けられるような、会社にしたいという意味を込めて、「ストラーダビジネスサポート」と名付けました。<br />
+            　私たちの使命は、バックオフィスの総合的な支援です。<br /><br />
           </p>
-          <p class="Message_style1_p4">ストラーダ行政書士法人　代表社員</p>
-          <p class="Message_style1_p5">星野 隆介</p>
+          <p class="Message_style1_p4">ストラーダビジネスサポート株式会社 代表取締役</p>
+          <p class="Message_style1_p5">山田 直輝</p>
         </div>
         <div class="Message_style2">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/SG_TOP_Massage.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SB/IMG_0362.JPG" alt="" />
         </div>
       </div>
     </div>
@@ -294,7 +294,6 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', 'recruit_sb'); ?>
       <?php get_template_part('template', 'sb-members'); ?>
     </div>
   </div>

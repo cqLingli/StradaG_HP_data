@@ -3,7 +3,6 @@
     <main class="l-main p-member02" style="margin-top: 0px;">
 
         <!-- end c-mainTitle -->
-
         <div class="c-new-content c-new-content_style">
             <div class="l-container">
                 <div class="p-member__list tempalte_menber-list p-member__list_extra">
@@ -15,7 +14,7 @@
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
                     $args = array(
                         'post_type' => 'members',
-                        'company' => "SB", // 自定义字段名
+                        'company' => "TR", // 自定义字段名
                         'posts_per_page' => -1,
                         'orderby' => 'date',
                         'paged' => $paged

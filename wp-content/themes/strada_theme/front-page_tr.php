@@ -11,15 +11,15 @@ $_SESSION['page_type']="top";
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/Strada_Admin_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
             alt="" /></a>
       </li>
     </ul>
@@ -58,7 +58,7 @@ $_SESSION['page_type']="top";
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
-              <a href="<?php echo home_url('admin/adminnewslist'); ?>" style="text-decoration:none">
+              <a href="<?php echo home_url('taxria/taxrianewslist'); ?>" style="text-decoration:none">
                 <!-- <div class="news_title_readmore">READ MORE</div> -->
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
@@ -72,7 +72,7 @@ $_SESSION['page_type']="top";
               'post_type' => 'news', // 文章类型
               'posts_per_page' => 10,
               'paged' => $paged,
-              'company' => 'SG', // 自定义字段名
+              'company' => 'TR', // 自定义字段名
             );
             $query = new WP_Query($args); // 执行查询
             ?>
@@ -128,18 +128,19 @@ $_SESSION['page_type']="top";
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
+          <p class="Message_style1_p1">株式会社タックス・リアルティの経営理念</p>
+          <p class="Message_style1_p2">お客様と共に同じ道を歩く<br /><br /></p>
           <p class="Message_style1_p3">
-            　「ストラーダ」とは、イタリア語で「道」という意味があります。<br />
-            　お客様と歩む長い道をともに歩み続けられるような行政書士となりたいという意味を込めて、「ストラーダ行政書士法人」と名付けました。<br /><br />
-            　行政書士の特徴は、お客様の新しい生活・事業に寄り添うパートナーとしての性質を有しています。<br />
-            　そのため、長期に渡ってお客様へ価値を提供できるように自己研鑽に励み、行政への申請面はもちろん他の面においてもグループ内法人と共に価値を提供できるように努めてまいります。<br />
-            　また、企業に価値を提供するスタッフが長期に渡って働けるような社内環境を整え、新しいことに挑戦し続ける事務所経営を行います。<br /><br />
+          　株式会社タックス・リアルティは、不動産会社として2021年に誕生いたしました。<br />
+          　弊社の株主にはストラーダグループの資本が入っており、そのため、弊社の特徴としましては、士業の専門家チームと提携し、より多角的にお客様のサポートをすることが可能です。<br />
+          　不動産含め資産と税金とは紐づくものであり、この資産と税金を総合的にコンサルタントすることで、一時的なサービスではなく、お客様と共に長い道を歩み続けられるような不動産会社にしたいという思いを込めております。<br />
+          　そのため、私達は目先の利益に囚われずに、未来に繋がるアドバイスをさせて頂きます。<br /><br />
           </p>
-          <p class="Message_style1_p4">ストラーダ行政書士法人　代表社員</p>
-          <p class="Message_style1_p5">星野 隆介</p>
+          <p class="Message_style1_p4">株式会社タックス・リアルティ　代表取締役</p>
+          <p class="Message_style1_p5">加藤 経</p>
         </div>
         <div class="Message_style2">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/top_SG/SG_TOP_Massage.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/TR_TOP_Massage.png" alt="" />
         </div>
       </div>
     </div>
@@ -266,7 +267,7 @@ $_SESSION['page_type']="top";
         <div class="circle4"></div>
         </p>
       </div>
-      <div id="text4" class="border-text border-text-controll">お客様の声</div>
+      <div id="text4" class="border-text border-text-controll">お客様からの声</div>
     </div>
     </div>
    </div>
@@ -293,7 +294,8 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
-      <?php get_template_part('template', 'about_sg'); ?>
+      <?php get_template_part('template', 'about_tr'); ?>
+      <?php get_template_part('template', 'tr-members'); ?>
     </div>
   </div>
   </div>
@@ -316,7 +318,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap8" class="node_wrap8 node_wrap_show8">
-      <?php get_template_part('template', 'contact_sg'); ?>
+      <?php get_template_part('template', 'contact_tr'); ?>
     </div>
   </div>
   <!-- end Contact -->
@@ -338,7 +340,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', 'recruit_sg'); ?>
+      <?php get_template_part('template', ''); ?>
     </div>
   </div>
   <!-- end Recruit -->
