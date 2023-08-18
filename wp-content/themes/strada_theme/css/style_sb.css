@@ -15142,6 +15142,17 @@ ol li {
   color: white;
   background: linear-gradient(to right, #00A159 30%, #EFF6EF 100%);
 }
+.menberTtile2 {
+  padding-left: 10px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-top: 30px;
+  color: white;
+  background: linear-gradient(to right, #00A159 30%, #EFF6EF 100%);
+  margin-right: 2%;
+}
+
 
 .Message_style1 {
   width: 49%;
@@ -17371,6 +17382,7 @@ ol li {
 .page-entry {
   margin-left: 5.5%;
   margin-right: 5.5%;
+  margin-top: -3%;
 }
 
 .template-sz-service {

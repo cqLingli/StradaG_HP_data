@@ -85,7 +85,7 @@ $_SESSION['page_type']="service";
     <div class="sr_service_bg">
         <div class="l-container">
             <div class="sr_service_style">
-                <div class="menberTtile">ビジネスを拡大する</div>
+                <div class="menberTtile2">ビジネスを拡大する</div>
                 <div style="height: 10px;"></div>
                 <?php
                 $index=0;
@@ -179,7 +179,7 @@ $_SESSION['page_type']="service";
     <div class="sr_service_bg">
         <div class="l-container">
             <div class="sr_service_style">
-                <div class="menberTtile">会社を上場する</div>
+                <div class="menberTtile2">会社を上場する</div>
                 <div style="height: 10px;"></div>
                 <?php
                 $index=0;
