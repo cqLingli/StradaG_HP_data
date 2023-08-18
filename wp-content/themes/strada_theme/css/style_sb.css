@@ -5791,7 +5791,8 @@ div#新卒採用 {
 }
 
 .t-recruitContent__list {
-  background-color: #EFF6EF;
+  background-color: #fff;
+  padding:10px
 }
 
 .recruit-container {
@@ -5816,9 +5817,10 @@ div#新卒採用 {
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 9%;
-  text-align: right;
-  margin-right:50px
+  flex: 0 0 10%;
+  text-align: left;
+  margin-right:30px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 991px) {
