@@ -17,7 +17,10 @@
                         'post_type' => 'members',
                         'company' => "SB", // 自定义字段名
                         'posts_per_page' => -1,
-                        'orderby' => 'date',
+                          'orderby' => array(
+                                'meta_value' => 'ASC'
+                            ),
+                        'meta_key' => 'sb_jb',
                         'paged' => $paged
                     );
 
@@ -66,8 +69,26 @@
                                             }
                                             $index++;
                                         }
-
                                     }
+                                    
+                                    $url_type = $_SESSION['url_type'];
+                                    if($url_type==="sz"){
+                                        $representative_name = $post->sz_yw;
+                                    }elseif ($url_type==="sg"){
+                                        $representative_name = $post->sg_yw;
+                                    }elseif ($url_type==="sb"){
+                                        $representative_name = $post->sb_yw;
+                                    }elseif ($url_type==="ch"){
+                                        $representative_name = $post->ch_yw;
+                                    }elseif ($url_type==="tr"){
+                                        $representative_name = $post->tr_yw;
+                                    }elseif ($url_type==="ss"){
+                                        $representative_name = $post->sr_yw;
+                                    }else{
+                                        $representative_name = $post->top_yw;
+                                    }
+                                    
+                                    
                                     ?>
                                     <p class="menber-representative"><?php echo $representative_name; ?></p>
                                     <p class="menber-name"><?php echo get_the_title(); ?></p>
