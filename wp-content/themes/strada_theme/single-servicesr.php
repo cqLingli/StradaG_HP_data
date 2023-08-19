@@ -93,7 +93,7 @@ if($mv){
           endif;
         ?>
 
-             <div class="entry-content page-entry menberTtile"> <a href="<?php echo $get_post_type_archive_link;?>" class="c-back-list">
+             <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "sr/srservice", get_post_type_archive_link("service"));?>" class="c-back-list">
                          業務内容へ戻る
                      <span class="i-arrow">
                 </span>

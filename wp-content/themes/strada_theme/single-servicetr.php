@@ -36,7 +36,7 @@ if($mv){
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle c-mainTitle-overlay">
-      <div class="c-mainTitle_content single-service">
+      <div class="c-mainTitle_content single-service c-mainTitle_content3">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
             <?php the_title(); ?>
@@ -93,7 +93,7 @@ if($mv){
           endif;
         ?>
 
-             <div class="entry-content page-entry menberTtile"> <a href="<?php echo $get_post_type_archive_link;?>" class="c-back-list">
+             <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "taxria/taxriaservicelist", get_post_type_archive_link("service"));?>" class="c-back-list">
                          業務内容へ戻る
                      <span class="i-arrow">
                 </span>
