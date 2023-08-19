@@ -58,6 +58,23 @@ if($url_type==="sz"){
       <div class="txt">
         <div class="c-job">			
           <?php
+          
+            if($url_type==="sz"){
+                echo '<p class="job">' . $post->sz_yw . '</p>';
+            }elseif ($url_type==="sg"){
+                echo '<p class="job">' . $post->sg_yw . '</p>';
+            }elseif ($url_type==="sb"){
+                echo '<p class="job">' . $post->sb_yw . '</p>';
+            }elseif ($url_type==="ch"){
+                echo '<p class="job">' . $post->ch_yw . '</p>';
+            }elseif ($url_type==="tr"){
+                echo '<p class="job">' . $post->tr_yw . '</p>';
+            }elseif ($url_type==="ss"){
+                echo '<p class="job">' . $post->sr_yw . '</p>';
+            }else{
+                echo '<p class="job">' . $post->top_yw . '</p>';
+            }
+            
             $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
                 'hide_empty' => false,
                 'parent' => 0,
@@ -157,13 +174,28 @@ if($url_type==="sz"){
                               }
                               $index++;
                           }
-
                       }
+                      $url_type = $_SESSION['url_type'];
+                                    if($url_type==="sz"){
+                                        $representative_name = $post->sz_yw;
+                                    }elseif ($url_type==="sg"){
+                                        $representative_name = $post->sg_yw;
+                                    }elseif ($url_type==="sb"){
+                                        $representative_name = $post->sb_yw;
+                                    }elseif ($url_type==="ch"){
+                                        $representative_name = $post->ch_yw;
+                                    }elseif ($url_type==="tr"){
+                                        $representative_name = $post->tr_yw;
+                                    }elseif ($url_type==="ss"){
+                                        $representative_name = $post->sr_yw;
+                                    }else{
+                                        $representative_name = $post->top_yw;
+                                    }
                       ?>
                       <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
                       <p class="menber-name"><?php echo get_the_title(); ?></p>
                       <div class="c-job">
-                          <p class="job"><?php echo $tax_name_over ?></p>
+                          <p class="job"><?php echo $tax_name_over."　" ?></p>
                       </div>
 
                       <a  href="<?php echo get_permalink(get_the_ID());?>">
