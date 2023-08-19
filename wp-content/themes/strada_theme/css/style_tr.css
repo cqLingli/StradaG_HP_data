@@ -3350,7 +3350,12 @@ title - 共通のタイトルやテキストなど
   margin-left: auto;
   background-color: #fff;
 }
-
+.c-mainTitle_content2{
+  height: 377px!important;
+}
+.c-mainTitle_content3{
+  height: 500px!important;
+}
 .content-service {}
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -12707,7 +12712,7 @@ img {
 
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
-  background: url('../images/mv/mv-service.jpg') no-repeat;
+  background: url('../images/common_tr/taxria_service.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -12716,7 +12721,7 @@ img {
 
   .p-service .c-mainTitle,
   .s-service .c-mainTitle {
-    background: url('../images/mv/mv-service.jpg') no-repeat;
+    background: url('../images/common_tr/taxria_service.png') no-repeat;
     background-size: cover;
     background-position: center center;
     margin-left: 5.5%;
@@ -18937,7 +18942,7 @@ ol li {
 }
 .service-line-bottom2-span{
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: #B8193F;
 }
