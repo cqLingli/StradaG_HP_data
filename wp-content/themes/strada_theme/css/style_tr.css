@@ -14169,6 +14169,12 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: 5.5%;
   margin-right: 5.5%;
 }
+.c-serviceList2 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
 
 .serviceItem .thumb {
   flex-shrink: 0;
@@ -17098,8 +17104,8 @@ ol li {
   .c-serviceList1 {
     max-width: 1400px;
     margin: 0 auto;
-    margin-right: -1.5%;
-    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-left: 4.5%;
   }
 
   .term-description {
@@ -18080,6 +18086,12 @@ ol li {
     color: white;
     background: linear-gradient(to right, #B8193F 30%, #F8ECE9 100%);
   }
+  .c-serviceList2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-left: 7.5%;
+    margin-right: 8.5%;
+  }
 
   .description_box {
     overflow: hidden;
@@ -19026,6 +19038,50 @@ ol li {
   padding-bottom: 5px;
 }
 
+.sr_service_gm2{
+  background:linear-gradient(90deg, #B8193F, #F8ECE9);
+  color:white;
+  text-align:left;
+  padding-left:10px;
+  margin-top:30px;
+  font-size:2.2rem;
+  font-weight: bold;
+}
+.sr_service_gm2_title{
+  display: flex;
+  border-bottom: 1px dotted #707070;
+  margin-top: 5px;
+}
+
+.sr_service_gm2_num{
+  height:20px;
+  width:20px;
+  text-align: center;
+  font-size:1.44rem;
+  color:#fff;
+  background:#B8193F;
+  border-radius:50%;
+  font-weight: bold;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  margin-top: 14px;
+}
+
+.sr_service_gm2_modai{
+  font-size:2.3rem;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.sr_service_gm2_naiyo{
+  font-size: 1.44rem;
+  line-height: 24px;
+  border-bottom: 1px dotted #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .shosai_content{
   border: 1px solid black;
   margin-top: 30px;
@@ -19098,6 +19154,10 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .classAdd{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
   .sr_service_style{
     margin-left: 0;
     margin-right: 0;
@@ -19122,6 +19182,29 @@ ol li {
     zoom:0.92;
     line-height:16px
   }
+
+  .sr_service_gm2{
+    font-size: 1.5rem;
+    margin-top:15px;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .sr_service_gm2_num{
+    width:15px;
+    height:15px;
+    font-size:1.2rem;
+    margin-top:9px
+  }
+  .sr_service_gm2_modai{
+    font-size:1.6rem;
+    padding-left:2px
+  }
+  .sr_service_gm2_naiyo{
+    font-size:1rem;
+    zoom:0.92;
+    line-height:16px
+  }
+
 
   .shosai_content{
     margin-top:15px;

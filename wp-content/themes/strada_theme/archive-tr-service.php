@@ -38,7 +38,7 @@ $_SESSION['page_type']="service";
         <div class="c-new-content-service">
             <div class="l-container">
                 <div class="l-content template-sz-service">
-                    <div class="c-serviceList1">
+                    <div class="c-serviceList2">
                         <div class="menberTtile">代表的なサービス</div>
                         <div style="height: 10px;"></div>
                         <?php
@@ -86,7 +86,7 @@ $_SESSION['page_type']="service";
         <div class="sr_service_bg">
             <div class="l-container">
                 <div class="sr_service_style">
-                    <p class="sr_service_gm">弊社の強み</p>
+                    <p class="sr_service_gm2">弊社の強み</p>
                     <div style="height: 10px;"></div>
                     <?php
                     $index=0;
@@ -99,6 +99,7 @@ $_SESSION['page_type']="service";
                     );
                     $query = new WP_Query( $args ); // 执行查询
                     ?>
+                    <div class="classAdd">
                     <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
                         <div class="<?php
                         if($index%3==1){
@@ -125,6 +126,7 @@ $_SESSION['page_type']="service";
 
                         </div>
                     <?php endwhile; ?>
+                    </div>
                 </div>
             </div>
         </div>
