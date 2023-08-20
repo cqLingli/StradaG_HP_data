@@ -36,7 +36,7 @@ $_SESSION['page_type']="service";
   <!-- end c-mainTitle -->
     <div class="c-new-content-service">
         <div class="l-container">
-            <div class="l-content template-sz-service">
+            <div class="l-content template-sz-service sr_service_style_add">
                 <div class="c-serviceList1">
                     <div class="menberTtile">ビジネスの土台を作る</div>
                     <div style="height: 10px;"></div>
@@ -84,7 +84,7 @@ $_SESSION['page_type']="service";
 
     <div class="sr_service_bg">
         <div class="l-container">
-            <div class="sr_service_style">
+            <div class="sr_service_style sr_service_style_add">
                 <div class="menberTtile2">ビジネスを拡大する</div>
                 <div style="height: 10px;"></div>
                 <?php
@@ -130,7 +130,7 @@ $_SESSION['page_type']="service";
 
     <div class="c-new-content-service">
         <div class="l-container">
-            <div class="l-content template-sz-service">
+            <div class="l-content template-sz-service sr_service_style_add">
                 <div class="c-serviceList1">
                     <div class="menberTtile">会社を売買する</div>
                     <div style="height: 10px;"></div>
@@ -178,7 +178,7 @@ $_SESSION['page_type']="service";
 
     <div class="sr_service_bg">
         <div class="l-container">
-            <div class="sr_service_style">
+            <div class="sr_service_style sr_service_style_add">
                 <div class="menberTtile2">会社を上場する</div>
                 <div style="height: 10px;"></div>
                 <?php

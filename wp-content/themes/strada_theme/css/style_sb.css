@@ -15248,6 +15248,11 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .sr_service_style_add{
+    margin-right: 3%!important;
+    margin-left: 3%!important;
+  }
+
 
   .Message_style1_p1 {
     font-size: 12px;
