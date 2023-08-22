@@ -18747,6 +18747,12 @@ ol li {
   .search_content_style1_2 {
     width: 10%;
   }
+  .template-column_add{
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+    margin-top: -22%!important;
+    margin-bottom: 0px!important;
+  }
 }
 /**2023 08 13 header**/
 
@@ -18764,4 +18770,9 @@ ol li {
 
 .p-column{
   background-color: #fff;
+}
+.template-column_add{
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  margin-top: -10%;
 }
