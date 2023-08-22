@@ -91,6 +91,22 @@ get_header('ss');
                                         }
 
                                     }
+                                        $url_type = $_SESSION['url_type'];
+                                        if($url_type==="sz"){
+                                            $representative_name = $post->sz_yw;
+                                        }elseif ($url_type==="sg"){
+                                            $representative_name = $post->sg_yw;
+                                        }elseif ($url_type==="sb"){
+                                            $representative_name = $post->sb_yw;
+                                        }elseif ($url_type==="ch"){
+                                            $representative_name = $post->ch_yw;
+                                        }elseif ($url_type==="tr"){
+                                            $representative_name = $post->tr_yw;
+                                        }elseif ($url_type==="ss"){
+                                            $representative_name = $post->sr_yw;
+                                        }else{
+                                            $representative_name = $post->top_yw;
+                                        }
                                     ?>
                                     <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
                                     <p class="menber-name"><?php echo get_the_title(); ?></p>
