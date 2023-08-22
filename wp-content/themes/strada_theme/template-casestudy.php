@@ -3,12 +3,12 @@
     <main class="l-main p-column">
         <!-- end c-breakcrumds -->
         <div class="l-container">
-        <div class="firstview_casestudy template-casestudy">
-            <div class="container">
+            <div class="c-mainTitle template-casestudy">
+                <div class="casestudy_content">
                 <p class="english">Case study</p>
                 <h1 class="title">事例</h1>
+                </div>
             </div>
-        </div>
         </div>
         <div class="l-container">
             <div class="template-service-title">
@@ -70,7 +70,7 @@
                                     </div>
                                     <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
                                         <div class="columns_title_icon">
-                                            <span style="color: black">READ MORE</span>
+                                            <span>READ MORE</span>
                                         </div>
                                     </a>
 

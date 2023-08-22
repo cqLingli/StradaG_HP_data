@@ -3712,8 +3712,11 @@ div#企業概要 {
 
 @media screen and (max-width: 767px) {
   .p-column .c-mainTitle {
-    margin-bottom: 20px;
-    padding: 25px 0;
+    margin-bottom: 20px!important;
+    padding: 25px 0!important;
+    height: 100px;
+    margin-left: 3%!important;
+    margin-right: 3%!important;
   }
 }
 
@@ -3907,6 +3910,7 @@ div#企業概要 {
 .p-column__list .item .txt .date-cat {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -19276,6 +19280,11 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .template-casestudy {
+    margin-left: 5.5%!important;
+    margin-right: 5.5%!important;
+    margin-top: -18%!important;
+  }
   .about_sg_bg{
     padding-top:15px;
     padding-bottom:2px
@@ -19335,27 +19344,20 @@ ol li {
   .p-member02 .c-mainTitle_content{
     margin-top:0px
   }
-  .firstview_casestudy {
-    height: 10%!important;
-    width: 100%;
-    background-image: url(../images/casestudy.jpg);
-    background-repeat: no-repeat;
-    background-position: center 67%;
-    background-size: cover;
-    color: #fff;
+  .casestudy_content{
+    margin-top: -25%;
   }
-  .firstview_casestudy .container .english {
+  .template-casestudy .english {
     color: #fff;
-    font-size: 80px;
+    font-size: 15px!important;
     font-family: "Noto Serif JP", serif;
-    padding: 170px 0 5px;
     margin-left: 60px;
     -webkit-filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
     filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
     letter-spacing: 0;
   }
-  .firstview_casestudy .container .title {
-    font-size: 20px;
+  .template-casestudy .title {
+    font-size: 15px!important;
     padding: 3px 10px 1px 60px;
     line-height: 1.45;
     font-weight: 500;
@@ -19373,6 +19375,20 @@ ol li {
   .p-column__post {
     padding: 0.5%;
   }
+  .template-casestudy_add{
+    margin-top: -2%!important;
+    height: 93px!important;
+
+  }
+  .column-read-more {
+    margin: 0 5% 5% 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 5%;
+  }
 }
 .firstview_casestudy {
   height: 400px;
@@ -19382,17 +19398,16 @@ ol li {
   background-size: cover;
   color: #fff;
 }
-.firstview_casestudy .container .english {
+.template-casestudy .english {
   color: #fff;
   font-size: 80px;
   font-family: "Noto Serif JP", serif;
-  padding: 170px 0 5px;
   margin-left: 60px;
   -webkit-filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
   filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.8));
   letter-spacing: 0;
 }
-.firstview_casestudy .container .title {
+.template-casestudy .title {
   font-size: 20px;
   padding: 3px 10px 1px 60px;
   line-height: 1.45;
@@ -19406,6 +19421,13 @@ ol li {
   margin-left: 5.5%;
   margin-right: 5.5%;
   margin-top: -8%;
+  height: 300px;
+}
+.template-casestudy_add{
+  margin-left: -5%;
+  margin-right: -5%;
+  margin-top: 1%;
+
 }
 
   .c-new-content_style{
@@ -19419,4 +19441,7 @@ ol li {
 .serviceItem .thumb img{
   width: 580px!important;
   height: 250px!important;
+}
+.casestudy_content{
+  padding: 100px 0;
 }
