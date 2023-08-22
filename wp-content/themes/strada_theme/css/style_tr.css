@@ -3366,6 +3366,12 @@ title - 共通のタイトルやテキストなど
   .content-service {
     margin-top: 15px !important;
   }
+  .c-mainTitle_content3{
+    height: 100px!important;
+  }
+  .c-mainTitle_content2{
+    height: 100px!important;
+  }
 }
 
 @media screen and (max-width: 991px) {
