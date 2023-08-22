@@ -295,7 +295,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-
+        <?php get_template_part('template', 'recruit_sb'); ?>
     </div>
   </div>
   <!-- end Recruit -->
