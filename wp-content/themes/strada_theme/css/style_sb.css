@@ -3024,7 +3024,7 @@ sidebar - サイドバー
   .l-sidebar {
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 2px;
     margin-left: 5.5%;
     margin-right: 5.5%;
   }
@@ -3948,7 +3948,7 @@ div#企業概要 {
 @media screen and (max-width: 767px) {
   .p-column__list .item .txt .date {
     font-size: 1rem !important;
-    margin-left: 21px !important;
+    margin-left: 21px!important;
 
   }
 }
@@ -3969,7 +3969,6 @@ div#企業概要 {
     color: white;
     font-size: 1rem !important;
     font-weight: bold;
-
     border: 1px solid;
   }
 }
@@ -3994,7 +3993,7 @@ div#企業概要 {
   }
 
   .p-column__list .item .txt .content {
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
     margin-top: -2% !important;
     line-height: 1;
   }
@@ -4410,6 +4409,7 @@ div#企業概要 {
 
 .p-column__slider {
   margin-bottom: 70px;
+  margin-top: 2%;
 }
 
 .p-column__slider .p-column__list {
@@ -4525,7 +4525,7 @@ div#企業概要 {
 }
 
 .p-column__slider .p-column__list .slick-next {
-  right: 0;
+  left: 0;
 }
 
 .p-column__slider .p-column__list .slick-next::before {
@@ -5290,7 +5290,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -12910,7 +12910,7 @@ img {
 .p-column__slider .p-column__list .item.next:only-child {
   border-left: 1px solid #9f9f9f;
   flex-direction: row-reverse;
-  margin-left: auto;
+  margin-top: 1%;
 }
 
 .p-column__slider .p-column__list .item.next:only-child .image {
@@ -17378,11 +17378,12 @@ ol li {
 .columns_title_icon {
   border: 1px solid black;
   border-radius: 20px;
+  height: 15%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/top/news_more.png");
+  background-image: url(../images/top/news_more.png);
   background-repeat: no-repeat;
   background-position: right 3% center;
   background-size: 10%;
@@ -18991,6 +18992,7 @@ ol li {
   text-decoration: none;
 }
 
+
 .sr_service_bg{
   background-color: #fff;
 }
@@ -19389,6 +19391,14 @@ ol li {
     margin-bottom: 1px;
     margin-top: 5%;
   }
+  .back_a_class{
+    border: 1px solid;
+    background-color: #00A159;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
 }
 .firstview_casestudy {
   height: 400px;
@@ -19444,4 +19454,13 @@ ol li {
 }
 .casestudy_content{
   padding: 100px 0;
+}
+
+.back_a_class{
+  border: 1px solid;
+  background-color: #00A159;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }

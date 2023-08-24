@@ -1,6 +1,7 @@
 <?php
 session_start();
 get_header("sb");
+$get_post_type_archive_link = get_post_type_archive_link('casestudy');
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main class="l-main p-column">
@@ -182,8 +183,11 @@ get_header("sb");
                             <?php
                         }
                         ?>
-
-
+                        <div class="back_a_class">
+                            <a style="color: white; text-decoration: none;"  href="<?php echo str_replace("casestudy", "bs/bscasestudylist", $get_post_type_archive_link); ?>" >
+                                当社事例へ戻る
+                            </a>
+                        </div>
                         <div class="p-column__slider">
                             <div class="p-column__list">
                                 <?php $prev_post = get_previous_post();
@@ -220,7 +224,7 @@ get_header("sb");
                                 <?php endif;
                                 $next_post = get_next_post();
                                 if (!empty( $next_post )): ?>
-                                    <div class="item next">
+                                    <div class="item prev">
                                         <div class="image">
                                             <figure>
                                                 <?php

@@ -84,7 +84,7 @@ $_SESSION['page_type']="casestudy";
                                             ?>
                                             <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
                                         </p>
-                                        <p class="title"><?php echo get_the_title(); ?></p>
+                                        <p class="title line-clamp line-clamp--2"><?php echo get_the_title(); ?></p>
                                         <div class="content line-clamp line-clamp--2">
                                             <?php echo strip_tags(get_the_excerpt()); ?>
                                         </div>
@@ -106,9 +106,12 @@ $_SESSION['page_type']="casestudy";
                         endif;
                         ?>
                     </div>
-                    <div class="c-pagenation">
-                        <?php wp_pagenavi(); ?>
-                    </div>
+                    <?php
+                    if (function_exists("pagination")) {
+
+                        pagination($query->max_num_pages);
+                    }
+                    ?>
                 </div>
                 <div class="l-sidebar">
                     <?php get_sidebar('sb'); ?>

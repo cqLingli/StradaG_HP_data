@@ -3992,7 +3992,7 @@ div#企業概要 {
   }
 
   .p-column__list .item .txt .content {
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
     margin-top: -2% !important;
     line-height: 1;
   }
@@ -5282,7 +5282,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
