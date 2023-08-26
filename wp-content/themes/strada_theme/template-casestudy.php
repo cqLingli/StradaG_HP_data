@@ -69,7 +69,7 @@
 
                                     </div>
                                     <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
-                                        <div class="columns_title_icon">
+                                        <div class="columns_title_icon tempalte-columns_title_icon">
                                             <span>READ MORE</span>
                                         </div>
                                     </a>

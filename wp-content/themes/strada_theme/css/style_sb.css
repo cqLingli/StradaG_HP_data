@@ -4395,6 +4395,12 @@ div#企業概要 {
   .p-column__post .box__author .profile {
     width: 70%;
   }
+  .columns_title_icon{
+    height: 15%;
+  }
+  .tempalte-columns_title_icon{
+       height: auto!important;
+  }
 }
 
 .p-column .c-title {
@@ -17378,7 +17384,6 @@ ol li {
 .columns_title_icon {
   border: 1px solid black;
   border-radius: 20px;
-  height: 15%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
