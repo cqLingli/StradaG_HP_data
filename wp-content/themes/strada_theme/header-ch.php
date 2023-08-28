@@ -41,7 +41,8 @@
 
 <body <?php body_class('l-body'); ?>>
   <!-- .l-header | ヘッダー -->
-  <header class="l-header">
+  <header>
+  <div class="l-header" id="header">
     <div class="catch">中小企業の労働保険事務を代行し、スムーズに運営！</div>
     <!-- <div class="h-btn">
       <span></span>
@@ -125,7 +126,7 @@
           </li>
           <li>
             <a href="<?php echo home_url('chushoukigyouroudou/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
-          </li>            
+          </li>
         </ul>
       </div>
       <div class="l-header_topline"></div>
@@ -152,4 +153,5 @@
             </div>
       </div>
     </div>
+  </div>
   </header>

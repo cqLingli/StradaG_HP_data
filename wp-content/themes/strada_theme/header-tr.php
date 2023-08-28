@@ -41,7 +41,8 @@
 
 <body <?php body_class('l-body'); ?>>
   <!-- .l-header | ヘッダー -->
-  <header class="l-header">
+  <header>
+  <div class="l-header" id="header">
     <div class="catch">税理士法人や会計士と業務提携している税金に強い不動産会社！</div>
     <!-- <div class="h-btn">
       <span></span>
@@ -152,4 +153,5 @@
             </div>
       </div>
     </div>
+  </div>
   </header>

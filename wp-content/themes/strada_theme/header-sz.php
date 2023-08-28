@@ -41,7 +41,8 @@
 
 <body <?php body_class('l-body'); ?>>
   <!-- .l-header | ヘッダー -->
-  <header class="l-header">
+  <header>
+  <div class="l-header" id="header">
     <div class="catch">企業税務・資金調達に強い士業集団が豊富な実績で安心のスピード対応！</div>
     <!--
     <div class="h-btn">
@@ -158,4 +159,5 @@
             </div>
       </div>
     </div>
+  </div>
   </header>

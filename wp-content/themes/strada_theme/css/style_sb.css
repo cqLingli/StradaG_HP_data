@@ -19489,3 +19489,14 @@ body .is-layout-flex>* {
     flex-wrap: wrap !important;
   }
 }
+/* ----------------------------------------------------------------------------------
+　headerHide
+---------------------------------------------------------------------------------- */
+#header {
+	transform: translateY(0);
+	transition: all 0.3s ease;
+}
+#header.hide {
+	transform: translateY(-100%);
+}
+/*----------end headerHide----------*/

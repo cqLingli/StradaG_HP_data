@@ -41,7 +41,8 @@
 
 <body <?php body_class('l-body'); ?>>
   <!-- .l-header | ヘッダー -->
-  <header class="l-header">
+  <header>
+  <div class="l-header" id="header">
     <div class="catch">ビジネスの土台作りから拡大・上場まで一括支援！</div>
     <!-- <div class="h-btn">
       <span></span>
@@ -148,4 +149,5 @@
             </div>
       </div>
     </div>
+  </div>
   </header>

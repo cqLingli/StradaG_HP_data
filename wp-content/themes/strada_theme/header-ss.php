@@ -41,7 +41,8 @@
 
 <body <?php body_class('l-body'); ?>>
   <!-- .l-header | ヘッダー -->
-  <header class="l-header">
+  <header>
+  <div class="l-header" id="header">
     <div class="catch">ITを活用し、労務手続き・労務相談・給与計算など会社経営の労務を全面サポート!</div>
     <!-- <div class="h-btn">
       <span></span>
@@ -152,4 +153,5 @@
             </div>
       </div>
     </div>
+  </div>
   </header>
