@@ -3908,12 +3908,12 @@ div#企業概要 {
 }
 
 .p-column__list .item .txt .date-cat {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-webkit-box-align: center;*/
+  /*-ms-flex-align: center;*/
+  /*align-items: center;*/
   margin-bottom: 2%;
 }
 
@@ -3929,10 +3929,10 @@ div#企業概要 {
 
 @media screen and (max-width: 767px) {
   .p-column__list .item .txt .date-cat {
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    /*display: flex;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*align-items: center;*/
     margin-top: -3%;
   }
 }
@@ -4170,7 +4170,7 @@ div#企業概要 {
 
 .p-column__main .item .txt .date {
   font-size: 1.2rem;
-  margin-left: 50%;
+ float: right;
 }
 
 .p-column__main .item .txt .title {
@@ -4184,6 +4184,7 @@ div#企業概要 {
   .p-column__main .item .txt .title {
     font-size: 1rem;
     margin-top: -2%;
+    width: 100%;
   }
 }
 
