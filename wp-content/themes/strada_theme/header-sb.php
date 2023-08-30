@@ -104,7 +104,7 @@
     <div class="l-header__nav">
       <div class="l-container">
         <ul class="h-nav">
-          <li><a href="<?php echo home_url('bs/bsnewslist'); ?>"><div class="vertical-line">ニュース</div></a></li>
+          <li><a href="<?php echo home_url('bs/bsnewslist'); ?>"><div class="vertical-line_head">ニュース</div></a></li>
           <li>
             <a href="<?php echo home_url('bs/bsservicelist');  ?>"><div class="vertical-line">業務内容</div></a>
           </li>
