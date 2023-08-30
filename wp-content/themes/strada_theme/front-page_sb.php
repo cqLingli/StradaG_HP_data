@@ -258,6 +258,7 @@ $_SESSION['page_type']="top";
   <!-- end About -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
     <div class="border-bt">

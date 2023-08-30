@@ -68,7 +68,7 @@
               </a>
             </div>
             <div class="h-mail h-mail--1">
-              <a href="<?php echo home_url('strada-otoiawase'); ?>/?post_id=<?php echo $post->ID; ?>">
+              <a href="<?php echo home_url('sr/#Contact'); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_ss/ico-mail.svg" alt="" />
                 <span>お問い合わせ</span>
               </a>
