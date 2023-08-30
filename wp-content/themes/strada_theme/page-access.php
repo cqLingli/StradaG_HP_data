@@ -31,7 +31,7 @@ get_header(); ?>
                     <div class="t-access_content">
                                 <h4>ストラーダホールディングス株式会社</h4>
                                 <p class="t-access_add">
-                                〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階
+                                〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル４/５階
                                 </p>
                                 <p class="t-access_add">
                                 TEL:03-6206-215
@@ -82,9 +82,9 @@ get_header(); ?>
                         </li>
                         <li>
                             <div class="thumb">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="左手に見える青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>左手に見える青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>
@@ -112,9 +112,9 @@ get_header(); ?>
                         </li>
                         <li>
                             <div class="thumb">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access2_04.png" alt="右手に日高屋がある角を右折し、110m直進。左手に青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access2_04.png" alt="右手に日高屋がある角を右折し、110m直進。左手に青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>右手に日高屋がある角を右折し、110m直進。<br/>左手に青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>右手に日高屋がある角を右折し、110m直進。<br/>左手に青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>
@@ -142,9 +142,9 @@ get_header(); ?>
                         </li>
                         <li>
                             <div class="thumb">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="日高屋がある角を左折し、110m直進。左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="日高屋がある角を左折し、110m直進。左手に見える青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>日高屋がある角を左折し、110m直進。<br/>左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>日高屋がある角を左折し、110m直進。<br/>左手に見える青色・緑色・橙色の看板がある建物の４/５階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>
