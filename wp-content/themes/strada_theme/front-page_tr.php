@@ -137,7 +137,7 @@ $_SESSION['page_type']="top";
           　そのため、私達は目先の利益に囚われずに、未来に繋がるアドバイスをさせて頂きます。<br /><br />
           </p>
           <p class="Message_style1_p4">株式会社タックス・リアルティ　代表取締役</p>
-          <p class="Message_style1_p5">加藤 経</p>
+          <p class="Message_style1_p5">加藤 敦</p>
         </div>
         <div class="Message_style2">
           <img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/TR_TOP_Massage.png" alt="" />
