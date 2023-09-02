@@ -18727,9 +18727,12 @@ ol li {
   .c-breakcrumds span{
     line-height: 10px;
   }
+  .search_content_style1_2 {
+    width: 10%;
+  }
 }
 /**2023 08 13 header**/
-}
+
 
 .p-new01{
   background-color: #fff;
@@ -18748,7 +18751,7 @@ ol li {
   background-color: #fff;
   margin-top: 20px;
 }
-
+.search_words{background-color:yellow;}
 /* ----------------------------------------------------------------------------------
 　headerHide
 ---------------------------------------------------------------------------------- */

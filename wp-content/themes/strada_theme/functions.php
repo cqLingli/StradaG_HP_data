@@ -254,4 +254,28 @@ function ses_init() {
    session_start();
 }
 add_action('init','ses_init');
+
+// 検索条件のページタイプを指定する(通常投稿とカスタム投稿)
+function SearchFilter( $query ) {
+  if ( $query -> is_search ) {
+    $query -> set( 'post_type', array('service','servicesb','servicesg','servicesr','servicetr') );
+  }
+  return $query;
+}
+add_filter( 'pre_get_posts', 'SearchFilter' );
+
+function hx_high_search_word($buffer){
+    if(is_search()){
+        $arr = explode(" ", get_search_query());
+        $arr = array_unique($arr);
+        foreach($arr as $v)
+            if($v)
+                $buffer = preg_replace("/(".$v.")/i", "<strong class='search_words'>$1</strong>", $buffer);
+    }
+    return $buffer;
+}
+add_filter("the_title", "hx_high_search_word", 200);
+add_filter("the_excerpt", "hx_high_search_word", 200);
+add_filter("the_content", "hx_high_search_word", 200);
+
 ?>
