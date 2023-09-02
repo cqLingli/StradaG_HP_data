@@ -196,13 +196,20 @@
     </div>
     <div id="search_content_ID" class="search_content">
       <div class="search_content_a">
-      <a href="<?php echo home_url('news'); ?>"><div class="search_content_style">ニュース</div></a>
-      <a href="<?php echo home_url('#'); ?>"><div class="search_content_style">業務内容</div></a>
-      <a href="<?php echo home_url('#StradaGroup'); ?>"><div class="search_content_style">グループ紹介</div></a>
-      <a href="<?php echo home_url('#About'); ?>"><div class="search_content_style">会社概要</div></a>
-      <a href="<?php echo home_url('members/representative/yamada'); ?>"><div class="search_content_style">メンバー紹介</div></a>
-      <a href="<?php echo home_url('access'); ?>"><div class="search_content_style">アクセス</div></a>
-      <a href="<?php echo home_url('#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+        <a href="<?php echo home_url('bs'); ?>"><div class="search_content_style_sb">ストラーダビジネスサポート</div></a>
+        <a href="<?php echo home_url('tax'); ?>"><div class="search_content_style_sz">ストラーダ税理士法人</div></a>
+        <a href="<?php echo home_url('admin'); ?>"><div class="search_content_style_sg">ストラーダ行政書士</div></a>
+        <a href="<?php echo home_url('sr'); ?>"><div class="search_content_style_ss">ストラーダ社会保険労務士</div></a>
+        <a href="<?php echo home_url('chushoukigyouroudou'); ?>"><div class="search_content_style_ch">中小企業労働企画開発協会</div></a>
+        <a href="<?php echo home_url('taxria'); ?>"><div class="search_content_style_tr">タックス・リアルティ</div></a>
+
+        <a href="<?php echo home_url('news'); ?>"><div class="search_content_style">ニュース</div></a>
+        <a href="<?php echo home_url('#'); ?>"><div class="search_content_style">業務内容</div></a>
+        <a href="<?php echo home_url('#StradaGroup'); ?>"><div class="search_content_style">グループ紹介</div></a>
+        <a href="<?php echo home_url('#About'); ?>"><div class="search_content_style">会社概要</div></a>
+        <a href="<?php echo home_url('members/representative/yamada'); ?>"><div class="search_content_style">メンバー紹介</div></a>
+        <a href="<?php echo home_url('access'); ?>"><div class="search_content_style">アクセス</div></a>
+        <a href="<?php echo home_url('#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       </div>
     <form id="searchFrom" method="get" action="<?php echo esc_url(home_url('/')); ?>">
       <div class="search_content_style1">

@@ -18328,7 +18328,54 @@ ol li {
   background-color: #6A6969;
   color: #fff;
 }
-
+.search_content_style_sz{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #003E75;
+  color: #fff;
+}
+.search_content_style_sb{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #00A159;
+  color: #fff;
+}
+.search_content_style_ss{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #EC7700;
+  color: #fff;
+}
+.search_content_style_ch{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #B97727;
+  color: #fff;
+}
+.search_content_style_sg{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #808C96;
+  color: #fff;
+}
+.search_content_style_tr{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #B8193F;
+  color: #fff;
+}
 
 .search_content_style1 {
   display: flex;
