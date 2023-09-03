@@ -12,7 +12,8 @@ $url4="";
 $breadcrumbType = "";
 
 session_start();
-$url_type = $_SESSION['url_type'];
+//$url_type = $_SESSION['url_type'];
+$url_type = get_query_var('headername');
 $thisurl = home_url(add_query_arg(array()));
 
 

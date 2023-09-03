@@ -1,16 +1,7 @@
 <?php
 /* Template Name: Single Service */
-session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_header($url_type);
-}else{
-    get_header();
-}
-if ($url_type==="ss"){
-    $get_post_type_archive_link = str_replace("service", "sr/srservice", get_post_type_archive_link("service"));
-}
-
+$url_type = "tr";
+get_header("tr");
 ?>
 <?php 
 $mv = get_field('s_mv');

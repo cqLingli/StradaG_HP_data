@@ -1,10 +1,7 @@
 <?php
 /* Template Name: Single Service */
-session_start();
-$url_type = $_SESSION['url_type'];
+$url_type = "sb";
 get_header("sb");
-
-
 ?>
 <?php 
 $mv = get_field('s_mv');
