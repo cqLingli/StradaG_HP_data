@@ -50,7 +50,8 @@ add_filter(
              <form id="searchFrom" method="get" action="<?php echo esc_url(home_url('/')); ?>">
                 <div class="search_content_style1">
                         <div class="search_content_style1_1">
-                         <input type="text" name="s" id="search_content_input" placeholder="検索" value="<?php echo $_GET['s'] ?>">
+                         <input type="text" name="s" id="search_content_input" placeholder="検索" value="<?php echo $_GET['s'] ?>" 
+                         style="background-color:#FFFFFF">
                 </div>
                 <div class="search_content_style1_2">
                     <button onclick="$("searchFrom").submit();" class="search_content_button">
