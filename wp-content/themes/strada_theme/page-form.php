@@ -1,5 +1,11 @@
 <?php
-get_header();
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_header($url_type);
+}else{
+    get_header();
+}
 /* Template Name: Recruit Form */
 ?>
   <!-- .l-main | メインコンテンツ -->
@@ -28,19 +34,30 @@ get_header();
                 ※メールでのご相談は受け付けておりません。
             </div> -->
             <?php 
-                if(is_page('form1')){
-                    echo do_shortcode('[mwform_formkey key="533"]');
-                }else if(is_page('form2')){
-                    echo do_shortcode('[mwform_formkey key="545"]');
-                }else if(is_page('form3')){
-                    echo do_shortcode('[mwform_formkey key="546"]');
+                if(is_page('recruitformsz')){
+                    echo do_shortcode('[mwform_formkey key="4093"]');
+                }else if(is_page('recruitformsb')){
+                    echo do_shortcode('[mwform_formkey key="4092"]');
+                }else if(is_page('recruitformsg')){
+                    echo do_shortcode('[mwform_formkey key="4094"]');
                 }
                 
             ?>
         </div>
     </div>
   </main>
-<?php get_footer(); ?>
+
+<?php
+session_start();
+$url_type = $_SESSION['url_type'];
+if($url_type){
+    get_footer($url_type);
+}else{
+    get_footer();
+}
+?>
+
+
 <script type="text/javascript">
     jQuery(function($){
         $( ".error" ).each(function( i ) {
