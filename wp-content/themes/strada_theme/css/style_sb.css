@@ -19671,7 +19671,7 @@ body .is-layout-flex>* {
 　privacyPolicy
 ---------------------------------------------------------------------------------- */
 .privacyPolicy .privacyPolicyBox {
-  background: #E3E8F1 !important;
+  background: #EFF6EF !important;
   padding: -30px 15px
 }
 .mob_privacyPolicy {
@@ -19682,7 +19682,7 @@ body .is-layout-flex>* {
 .privacyPolicy-main {
   width: 100%;
   margin: -60px auto;
-  padding: 0px 0px 10px 34px;
+  padding: 30px 0px 10px 34px;
 }
 .privacyPolicy-main h2 {
   font-size: 1.8rem;
@@ -19702,11 +19702,11 @@ body .is-layout-flex>* {
   }
   .privacyPolicy-main {
     margin: -60px auto;
-    padding: 30px 0;
+    padding: 15px 0;
   }
   .privacyPolicy-main h2 {
     font-size: 1.5rem;
-    margin: 20px 0;
+    margin-bottom: 15px;
   }
   .mob_privacyPolicy {
     margin-left: 3%;
