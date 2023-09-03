@@ -150,4 +150,5 @@
       </div>
     </div>
   </div>
+  <?php set_query_var('headername', "sb"); ?>
   </header>
