@@ -1,7 +1,7 @@
 <?php
 /* Template Name: Single Service */
-$url_type = "sr";
-get_header("sr");
+$url_type = "ss";
+get_header("ss");
 
 ?>
 <?php 

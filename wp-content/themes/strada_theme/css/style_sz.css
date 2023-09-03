@@ -18677,7 +18677,30 @@ ol li {
     display: block;
   }
 }
-
+ .singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #153F6F;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
 @media screen and (max-width: 767px) {
   .h-mail a{
     height: 35px;
@@ -18752,6 +18775,30 @@ ol li {
     margin-right: 3%!important;
     margin-top: -22%!important;
     margin-bottom: 0px!important;
+  }
+    .singleService .c-back-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    height:50px;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #153F6F;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 27px;
+    text-decoration: none;
   }
 }
 /**2023 08 13 header**/
