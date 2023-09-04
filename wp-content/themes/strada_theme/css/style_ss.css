@@ -14038,7 +14038,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .s-service .entry-content h3 {
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 2.2rem;
   background: linear-gradient(to right, #EC7700 30%, #FFF0E5 100%);
   color: #fff;
@@ -14109,7 +14109,7 @@ body.tax-taxonomy_position .p-member__list img {
   }
 
   .s-service .entry-content h3 {
-    margin-top: 40px;
+    margin-top: 15px;
     font-size: 2rem;
     padding: 4px 15px;
   }
@@ -17079,7 +17079,7 @@ ol li {
   }
 
   .s-service .entry-content h3 {
-    margin-top: 40px;
+    margin-top: 15px;
     font-size: 1.5rem;
     padding: 4px 15px;
   }
@@ -19264,6 +19264,26 @@ ol li {
 }
 .archive-container{
   padding-bottom: 10px;
+}
+/* //事業内容二列表示 */
+body .is-layout-flex>* {
+  margin: 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  body .is-layout-flex>* {
+    margin: 0;
+    width: 100%;
+  }
+  .wp-container-3.wp-container-3,
+  .wp-container-6.wp-container-6,
+  .wp-container-9.wp-container-9,
+  .wp-container-12.wp-container-12,
+  .wp-container-15.wp-container-15,
+  .wp-container-18.wp-container-18 {
+    flex-wrap: wrap !important;
+  }
 }
 /* ----------------------------------------------------------------------------------
 　Search
