@@ -14,9 +14,9 @@ get_header("ss"); ?>
     <div class="c-mainTitle privacyPolicyStyle">
         <div class="c-mainTitle_content">
             <div class="c-tlt01 c-tlt01__black">
-                <h1 class="c-tlt01__line c-tlt01__line--gray">
-                    プライバシーポリシー<span>
-                        PRIVACY POLICY</span>
+            <h1 class="c-tlt01__line c-tlt01__line--gray">
+                個人情報保護方針<span>
+                PRIVACY POLICY</span>
                 </h1>
             </div>
         </div>
