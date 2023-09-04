@@ -19032,3 +19032,75 @@ ol li {
   }
 }
 /*----------end privacyPolicy----------*/
+/* ----------------------------------------------------------------------------------
+　privacyStatement
+---------------------------------------------------------------------------------- */
+.privacyStatement .privacyStatementBox {
+  background: #F3F4F4 !important;
+  padding: -30px 15px
+}
+.mob_privacyStatement {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyStatement-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyStatement-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #6A6969 30%, #F3F4F4 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.privacyStatement-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  background: #fff;
+}
+.c-line-dotted{
+  border: none;
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .privacyStatement .privacyStatementBox  {
+    padding: 5px 0px
+  }
+  .privacyStatement-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyStatement-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+  }
+  .mob_privacyStatement {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyStatementStyle {
+    margin-top: 80px
+  }
+  .privacyStatement-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+    background: #fff;
+  }
+}
+/*----------end privacyStatement----------*/
