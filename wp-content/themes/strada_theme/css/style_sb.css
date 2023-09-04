@@ -19794,3 +19794,18 @@ body .is-layout-flex>* {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------strat reciuit----------*/
+@media only screen and (max-width: 767px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+}
+@media only screen and (max-width: 991px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+}
+.l-thanks{
+      text-align: center;
+}
+/*----------end reciuit----------*/
