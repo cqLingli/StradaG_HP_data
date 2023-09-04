@@ -342,4 +342,4 @@ $_SESSION['page_type']="top";
   <!-- end Recruit -->
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("ch"); ?>
