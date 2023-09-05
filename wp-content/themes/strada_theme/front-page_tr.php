@@ -159,7 +159,7 @@ $_SESSION['page_type']="top";
             <div class="circle2"></div>
             </p>
           </div>
-          <div id="text2" class="border-text border-text-controll">Strada Group</div>
+          <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
         </div>
       </div>
     </div>
@@ -211,7 +211,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Service -->
 
-  <!-- start Case Study -->
+  <!-- start Case Study 一旦非表示
   <a id="CaseStudy" class="target-fix"></a>
   <div class="block_wrap5">
     <div class="border-text5"></div>
@@ -228,12 +228,12 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
-      <?php get_template_part('template', ''); ?>
+      <?php //get_template_part('template', ''); ?>
     </div>
   </div>
-  <!-- end Case Study -->
+  一旦非表示 end Case Study -->
 
-  <!-- start Q&A -->
+  <!-- start Q&A 一旦非表示
   <a id="QA" class="target-fix"></a>
   <div class="block_wrap6">
     <div class="border-text6"></div>
@@ -250,12 +250,12 @@ $_SESSION['page_type']="top";
     </div>
     </div>
       <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-        <?php get_template_part('template', ''); ?>
+        <?php //get_template_part('template', ''); ?>
       </div>
   </div>
-  <!-- end Q&A -->
+  一旦非表示 end Q&A -->
 
-  <!-- start Voice -->
+  <!-- start Voice　一旦非表示
   <a id="Voice" class="target-fix"></a>
   <div class="block_wrap4">
     <div class="border-text4"></div>
@@ -275,7 +275,7 @@ $_SESSION['page_type']="top";
       <?php get_template_part('template', ''); ?>
     </div>
   </div>
-  <!-- end Voice -->
+  一旦非表示 end Voice -->
 
   <!-- start About -->
   <a id="About" class="target-fix"></a>
@@ -324,7 +324,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Contact -->
 
-  <!-- start Recruit -->
+  <!-- start Recruit 一旦非表示
   <a id="Recruit" class="target-fix"></a>
   <div class="block_wrap9">
     <div class="border-text9"></div>
@@ -341,10 +341,10 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', ''); ?>
+      <?php //get_template_part('template', ''); ?>
     </div>
   </div>
-  <!-- end Recruit -->
+  一旦非表示 end Recruit -->
 </main>
 
 <?php get_footer("tr"); ?>
