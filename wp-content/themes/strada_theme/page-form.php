@@ -41,6 +41,8 @@ if($url_type){
                     echo do_shortcode('[mwform_formkey key="4092"]');
                 }else if(is_page('recruitformsg')){
                     echo do_shortcode('[mwform_formkey key="4094"]');
+                }else if(is_page('recruitform')){
+                    echo do_shortcode('[mwform_formkey key="4182"]');
                 }
                 
             ?>
