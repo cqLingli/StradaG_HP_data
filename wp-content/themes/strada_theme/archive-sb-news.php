@@ -23,7 +23,8 @@ $_SESSION['page_type']="news";
       </div>
     </div>
   </div>
-  <div class="c-new-content">
+  <div class="c-new-content" style="padding-bottom: 120px;">
+      <div style="height: 5px"></div>
     <div class="l-container">
       <div class="c-list-news">
           <?php

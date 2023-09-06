@@ -13,11 +13,14 @@ $_SESSION['page_type']="casestudy";
                 <?php if (function_exists('bcn_display')) { bcn_display(); }?>
             </div>
         </div>
+        <div style="height: 2px;"></div>
         <!-- end c-breakcrumds -->
-        <div class="firstview_casestudy">
-            <div class="container">
-                <p class="english">Case study</p>
-                <h1 class="title">事例</h1>
+        <div class="l-container">
+            <div class="c-mainTitle template-casestudy template-casestudy_add">
+                <div class="casestudy_content">
+                    <p class="english">Case study</p>
+                    <h1 class="title">事例</h1>
+                </div>
             </div>
         </div>
         <!-- end c-mainTitle -->
@@ -43,65 +46,12 @@ $_SESSION['page_type']="casestudy";
             $the_query = new WP_Query($args);
             ?>
             <?php if(is_page('columns') && ($the_query->found_posts != 0)) : ?>
-                <div class="p-column__01">
-                    <h2 class="menberTtile">
-                        M&A
-                    </h2>
-                    <div class="p-column__list">
-                        <?php
-                        if($the_query->have_posts()) :
-                            while($the_query->have_posts()) : $the_query->the_post(); ?>
-                                <?php array_push($recommendPosts, get_the_id()); ?>
-                                <div class="item">
-                                    <div class="image">
-                                        <?php
-                                        if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('post-size');
-                                        } else {
-                                            ?>
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/common/no-image-qq.jpg" alt="<?php the_title(); ?>">
-                                        <?php } ?>
-                                    </div>
-                                    <div class="txt">
-                                        <p class="date-cat">
-                                            <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
-                                            <?php
-                                            $terms = wp_get_post_terms($post->ID, 'category', array(
-                                                'hide_empty' => false,
-                                                'parent' => 0,
-                                                'order' => 'ASC',
-                                                'orderby' => 'term_id'
-                                            ) );
-                                            foreach ( $terms as $term) {
-                                                $tax_link = get_term_link($term->slug, 'category');
-                                                $tax_name = $term->name;
-                                                $tax_slug = $term->slug;
-                                                echo '<span class="cat">'.$tax_name.'</span>';
-                                            }
-                                            ?>
-                                        </p>
-                                        <p class="title"><?php echo get_the_title(); ?></p>
-                                        <div class="content line-clamp line-clamp--2">
-                                            <?php echo strip_tags(get_the_excerpt()); ?>
-                                        </div>
-                                    </div>
-                                    <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-                                </div>
-                            <?php endwhile;
-                            wp_reset_postdata();
-                        else:
-                            ?>
-                            <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-                        <?php
-                        endif;
-                        ?>
-                    </div>
-                </div>
+
             <?php endif; ?>
             <div class="p-column__02">
                 <div class="p-column__main">
                     <div class="menberTtile">
-                        <span>事例</span>
+                        <span>当社事例</span>
                     </div>
                     <div class="p-column__list">
                         <?php
@@ -128,20 +78,21 @@ $_SESSION['page_type']="casestudy";
                                                 'orderby' => 'term_id'
                                             ) );
                                             foreach ( $terms as $term) {
-                                                // $tax_link = get_term_link($term->slug, 'category');
                                                 $tax_name = $term->name;
-                                                // $tax_slug = $term->slug;
                                                 echo '<span class="cat">'.$tax_name.'</span>';
                                             }
                                             ?>
                                             <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
                                         </p>
-                                        <p class="title"><?php echo get_the_title(); ?></p>
+                                        <p class="title line-clamp line-clamp--2"><?php echo get_the_title(); ?></p>
                                         <div class="content line-clamp line-clamp--2">
                                             <?php echo strip_tags(get_the_excerpt()); ?>
                                         </div>
-                                        <div class="column-read-more">
-                                            <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
+                                        <!--<div class="column-read-more">
+                                            <img src="<?php /*echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); */?>"">
+                                        </div>-->
+                                        <div class="columns_title_icon">
+                                            <span>READ MORE</span>
                                         </div>
                                     </div>
                                     <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
@@ -155,9 +106,12 @@ $_SESSION['page_type']="casestudy";
                         endif;
                         ?>
                     </div>
-                    <div class="c-pagenation">
-                        <?php wp_pagenavi(); ?>
-                    </div>
+                    <?php
+                    if (function_exists("pagination")) {
+
+                        pagination($query->max_num_pages);
+                    }
+                    ?>
                 </div>
                 <div class="l-sidebar">
                     <?php get_sidebar('sb'); ?>

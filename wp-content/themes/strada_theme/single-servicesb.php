@@ -1,16 +1,7 @@
 <?php
 /* Template Name: Single Service */
-session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_header($url_type);
-}else{
-    get_header();
-}
-if ($url_type==="ss"){
-    $get_post_type_archive_link = str_replace("service", "sr/srservice", get_post_type_archive_link("service"));
-}
-
+$url_type = "sb";
+get_header("sb");
 ?>
 <?php 
 $mv = get_field('s_mv');
@@ -93,11 +84,11 @@ if($mv){
           endif;
         ?>
 
-             <div class="entry-content page-entry menberTtile"> <a href="<?php echo $get_post_type_archive_link;?>" class="c-back-list">
-                         業務内容へ戻る
-                     <span class="i-arrow">
+            <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "bs/bsservicelist", get_post_type_archive_link("service"));?>" class="c-back-list">
+                    事業内容へ戻る
+                    <span class="i-arrow">
                 </span>
-              </a></div>
+                </a></div>
 
         </div>
       </div>

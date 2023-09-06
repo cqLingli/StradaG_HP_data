@@ -3350,7 +3350,12 @@ title - 共通のタイトルやテキストなど
   margin-left: auto;
   background-color: #fff;
 }
-
+.c-mainTitle_content2{
+  height: 377px!important;
+}
+.c-mainTitle_content3{
+  height: 500px!important;
+}
 .content-service {}
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -3360,6 +3365,12 @@ title - 共通のタイトルやテキストなど
 @media screen and (max-width: 768px) {
   .content-service {
     margin-top: 15px !important;
+  }
+  .c-mainTitle_content3{
+    height: 100px!important;
+  }
+  .c-mainTitle_content2{
+    height: 100px!important;
   }
 }
 
@@ -12707,7 +12718,7 @@ img {
 
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
-  background: url('../images/mv/mv-service.jpg') no-repeat;
+  background: url('../images/common_tr/taxria_service.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -12716,7 +12727,7 @@ img {
 
   .p-service .c-mainTitle,
   .s-service .c-mainTitle {
-    background: url('../images/mv/mv-service.jpg') no-repeat;
+    background: url('../images/common_tr/taxria_service.png') no-repeat;
     background-size: cover;
     background-position: center center;
     margin-left: 5.5%;
@@ -14159,6 +14170,12 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .c-serviceList1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+.c-serviceList2 {
   max-width: 1400px;
   margin: 0 auto;
   margin-left: 5.5%;
@@ -17093,8 +17110,8 @@ ol li {
   .c-serviceList1 {
     max-width: 1400px;
     margin: 0 auto;
-    margin-right: -1.5%;
-    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-left: 4.5%;
   }
 
   .term-description {
@@ -18075,6 +18092,12 @@ ol li {
     color: white;
     background: linear-gradient(to right, #B8193F 30%, #F8ECE9 100%);
   }
+  .c-serviceList2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-left: 7.5%;
+    margin-right: 8.5%;
+  }
 
   .description_box {
     overflow: hidden;
@@ -18937,7 +18960,7 @@ ol li {
 }
 .service-line-bottom2-span{
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: #B8193F;
 }
@@ -19021,6 +19044,50 @@ ol li {
   padding-bottom: 5px;
 }
 
+.sr_service_gm2{
+  background:linear-gradient(90deg, #B8193F, #F8ECE9);
+  color:white;
+  text-align:left;
+  padding-left:10px;
+  margin-top:30px;
+  font-size:2.2rem;
+  font-weight: bold;
+}
+.sr_service_gm2_title{
+  display: flex;
+  border-bottom: 1px dotted #707070;
+  margin-top: 5px;
+}
+
+.sr_service_gm2_num{
+  height:20px;
+  width:20px;
+  text-align: center;
+  font-size:1.44rem;
+  color:#fff;
+  background:#B8193F;
+  border-radius:50%;
+  font-weight: bold;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  margin-top: 14px;
+}
+
+.sr_service_gm2_modai{
+  font-size:2.3rem;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.sr_service_gm2_naiyo{
+  font-size: 1.44rem;
+  line-height: 24px;
+  border-bottom: 1px dotted #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .shosai_content{
   border: 1px solid black;
   margin-top: 30px;
@@ -19093,6 +19160,10 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
+  .classAdd{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
   .sr_service_style{
     margin-left: 0;
     margin-right: 0;
@@ -19117,6 +19188,29 @@ ol li {
     zoom:0.92;
     line-height:16px
   }
+
+  .sr_service_gm2{
+    font-size: 1.5rem;
+    margin-top:15px;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .sr_service_gm2_num{
+    width:15px;
+    height:15px;
+    font-size:1.2rem;
+    margin-top:9px
+  }
+  .sr_service_gm2_modai{
+    font-size:1.6rem;
+    padding-left:2px
+  }
+  .sr_service_gm2_naiyo{
+    font-size:1rem;
+    zoom:0.92;
+    line-height:16px
+  }
+
 
   .shosai_content{
     margin-top:15px;
@@ -19320,3 +19414,308 @@ ol li {
     padding-bottom:15px;
   }
 }
+/* ----------------------------------------------------------------------------------
+　Search
+---------------------------------------------------------------------------------- */
+.search_words{background-color:yellow;}
+.search-title{
+    background-color: #DCDDDD;
+    height:150px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.search-title1{
+    position: relative;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-title2{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-content{
+    background: #F4F4F4;
+    margin: 25px 0 25px 0;
+    padding: 25px 120px 0px 120px;
+}
+.search-content2{
+    background: #FFFFFF;
+    padding: 15px 25px 15px 25px;
+}
+.search-result-diva{
+    padding: 15px 0px 0px 0px;
+}
+.search-result-a{
+    text-decoration: none;
+    color: inherit;
+}
+.search-result-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.search-result-title1{
+
+    background: #153f6f;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.search-result-title2{
+    font-size: 1.5rem;
+}
+.search-result-content{
+    font-size: 1.5rem;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.search-page{
+    padding: 10px 0px 10px 0px;
+}
+.search-nodata{
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 50px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+@media screen and (max-width: 991px) {
+.search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 40px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+/* ----------------------------------------------------------------------------------
+　headerHide
+---------------------------------------------------------------------------------- */
+#header {
+	transform: translateY(0);
+	transition: all 0.3s ease;
+}
+#header.hide {
+	transform: translateY(-100%);
+}
+/*----------end headerHide----------*/
+/* ----------------------------------------------------------------------------------
+　privacyPolicy
+---------------------------------------------------------------------------------- */
+.privacyPolicy .privacyPolicyBox {
+  background: #F8ECE9 !important;
+  padding: -30px 15px
+}
+.mob_privacyPolicy {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyPolicy-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyPolicy-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.privacyPolicy-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .privacyPolicy .privacyPolicyBox  {
+    padding: 5px 0px
+  }
+  .privacyPolicy-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyPolicy-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .mob_privacyPolicy {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyPolicyStyle {
+    margin-top: 80px
+  }
+  .privacyPolicy-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+}
+/*----------end privacyPolicy----------*/
+/* ----------------------------------------------------------------------------------
+　privacyStatement
+---------------------------------------------------------------------------------- */
+.privacyStatement .privacyStatementBox {
+  background: #F8ECE9 !important;
+  padding: -30px 15px
+}
+.mob_privacyStatement {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyStatement-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyStatement-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #B8193F 30%, #F8ECE9 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.privacyStatement-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  background: #fff;
+}
+.c-line-dotted{
+  border: none;
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .privacyStatement .privacyStatementBox  {
+    padding: 5px 0px
+  }
+  .privacyStatement-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyStatement-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+  }
+  .mob_privacyStatement {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyStatementStyle {
+    margin-top: 80px
+  }
+  .privacyStatement-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+    background: #fff;
+  }
+}
+/*----------end privacyStatement----------*/

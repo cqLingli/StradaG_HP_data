@@ -3,6 +3,7 @@
     <main class="l-main p-member02" style="margin-top: 0px;">
 
         <!-- end c-mainTitle -->
+
         <div class="c-new-content c-new-content_style">
             <div class="l-container">
                 <div class="p-member__list tempalte_menber-list p-member__list_extra">
@@ -16,7 +17,10 @@
                         'post_type' => 'members',
                         'company' => "SB", // 自定义字段名
                         'posts_per_page' => -1,
-                        'orderby' => 'date',
+                          'orderby' => array(
+                                'meta_value' => 'ASC'
+                            ),
+                        'meta_key' => 'sb_jb',
                         'paged' => $paged
                     );
 
@@ -55,20 +59,36 @@
                                         $tax_link = get_term_link($term->slug, 'taxonomy_position');
                                         $tax_name = $term->name;
                                         $tax_slug = $term->slug;
-                                        if($tax_name==="代表社員"){
-                                            $representative_name  ="代表社員";
+                                        if($tax_slug==="representative"){
+                                            $representative_name  =$tax_name;
                                         }else{
                                             if($index===0){
-                                                //  echo '<p class="job">'.$tax_name.'</p>';
                                                 $tax_name_over=$tax_name;
                                             }else{
-                                                //   echo '<p class="job">/'.$tax_name.'</p>';
                                                 $tax_name_over=$tax_name_over.'/'.$tax_name;
                                             }
                                             $index++;
                                         }
-
                                     }
+                                    
+                                    $url_type = $_SESSION['url_type'];
+                                    if($url_type==="sz"){
+                                        $representative_name = $post->sz_yw;
+                                    }elseif ($url_type==="sg"){
+                                        $representative_name = $post->sg_yw;
+                                    }elseif ($url_type==="sb"){
+                                        $representative_name = $post->sb_yw;
+                                    }elseif ($url_type==="ch"){
+                                        $representative_name = $post->ch_yw;
+                                    }elseif ($url_type==="tr"){
+                                        $representative_name = $post->tr_yw;
+                                    }elseif ($url_type==="ss"){
+                                        $representative_name = $post->sr_yw;
+                                    }else{
+                                        $representative_name = $post->top_yw;
+                                    }
+                                    
+                                    
                                     ?>
                                     <p class="menber-representative"><?php echo $representative_name; ?></p>
                                     <p class="menber-name"><?php echo get_the_title(); ?></p>

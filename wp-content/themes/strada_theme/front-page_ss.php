@@ -152,7 +152,7 @@ $_SESSION['page_type']="top";
         <div class="circle2"></div>
         </p>
       </div>
-      <div id="text2" class="border-text border-text-controll">Strada Group</div>
+      <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
     </div>
     </div>
   </div>
@@ -275,6 +275,7 @@ $_SESSION['page_type']="top";
   <!-- end Price -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
       <div class="border-bt">
@@ -295,7 +296,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Contact -->
 
-  <!-- start Recruit -->
+  <!-- start Recruit 一旦非表示
   <a id="Recruit" class="target-fix"></a>
   <div class="block_wrap9">
     <div class="border-text9"></div>
@@ -312,10 +313,10 @@ $_SESSION['page_type']="top";
     </div>
   </div>
       <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-        <?php get_template_part('template', 'recruit_ss'); ?>
+        <?php //get_template_part('template', 'recruit_ss'); ?>
       </div>
   </div>
-  <!-- end Recruit -->
+  一旦非表示 end Recruit -->
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("ss"); ?>

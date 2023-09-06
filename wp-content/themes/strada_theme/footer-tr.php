@@ -30,8 +30,8 @@
           </li>
         </ul>
         <ul>
-            <li><a href="<?php echo home_url('url1'); ?>">個人情報の保護に関するステートメント</a></li>
-            <li><a href="<?php echo home_url('url2'); ?>">ソーシャルメディアポリシー</a></li>
+            <li><a href="<?php echo home_url('/taxria/privacy-statement'); ?>">個人情報の保護に関するステートメント</a></li>
+            <li><a href="<?php echo home_url('/social-media-policy'); ?>">ソーシャルメディアポリシー</a></li>
         </ul>
       </div>
       <div class="f-copyright">

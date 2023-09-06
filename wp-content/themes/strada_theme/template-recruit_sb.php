@@ -74,7 +74,7 @@
           </div>
 
           <div class="p-recruitBtn">
-            <a href="https://strada-sb.jp/recruit/form">
+            <a href="<?php echo home_url('bs/recruitformsb'); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit_icon.png" alt="" />
               採用エントリーはこちらから
             </a>

@@ -158,7 +158,7 @@ $_SESSION['page_type']="top";
             <div class="circle2"></div>
             </p>
           </div>
-          <div id="text2" class="border-text border-text-controll">Strada Group</div>
+          <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
         </div>
       </div>
     </div>
@@ -205,7 +205,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-      <?php get_template_part('template', ''); ?>
+      <?php get_template_part('template', 'sb-service'); ?>
     </div>
   </div>
   <!-- end Service -->
@@ -227,7 +227,7 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
-      <?php get_template_part('template', ''); ?>
+      <?php get_template_part('template', 'casestudy'); ?>
     </div>
   </div>
   <!-- end Case Study -->
@@ -258,6 +258,7 @@ $_SESSION['page_type']="top";
   <!-- end About -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
     <div class="border-bt">
@@ -295,10 +296,10 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', 'recruit_sb'); ?>
+        <?php get_template_part('template', 'recruit_sb'); ?>
     </div>
   </div>
   <!-- end Recruit -->
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("sb"); ?>

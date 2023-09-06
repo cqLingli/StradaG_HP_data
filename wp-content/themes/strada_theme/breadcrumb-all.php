@@ -12,7 +12,8 @@ $url4="";
 $breadcrumbType = "";
 
 session_start();
-$url_type = $_SESSION['url_type'];
+//$url_type = $_SESSION['url_type'];
+$url_type = get_query_var('headername');
 $thisurl = home_url(add_query_arg(array()));
 
 
@@ -86,6 +87,13 @@ if($url_type==="sz"){
         $text3="税理士法人メンバー";
         $text4="メンバー紹介:".get_the_title();
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."tax";
+        $text2="税理士法人トップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
+        $breadcrumbType="4";
     }
 }elseif ($url_type==="ss"){
     if(strpos($thisurl,'news')){
@@ -119,6 +127,13 @@ if($url_type==="sz"){
         $text3="社労士法人メンバー";
         $text4="メンバー紹介:".get_the_title();
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."sr";
+        $text2="社労士法人トップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
+        $breadcrumbType="4";
     }
 
 }elseif ($url_type==="ch"){
@@ -136,6 +151,13 @@ if($url_type==="sz"){
         $text3="中小企業労働企画開発協会メンバー";
         $text4="メンバー紹介:".get_the_title();
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."chushoukigyouroudou";
+        $text2="中小企業労働企画開発協会トップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
+        $breadcrumbType="4";
     }
 }elseif ($url_type==="sg"){
     if(strpos($thisurl,'news')){
@@ -149,7 +171,7 @@ if($url_type==="sz"){
         if(is_tax()){
             $url2=$url1."admin";
             $text2="行政書士トップ";
-            $url3=$url1."admin/taxservicelist";
+            $url3=$url1."admin/adminservicelist";
             $text3="行政書士サービス";
             $term = get_queried_object();
             $text4="事業内容:".$term->name;
@@ -157,10 +179,10 @@ if($url_type==="sz"){
         }elseif(is_single()){
             $url2=$url1."admin";
             $text2="行政書士トップ";
-            $url3=$url1."admin/taxservicelist";
+            $url3=$url1."admin/adminservicelist";
             $text3="行政書士サービス";
-            $terms = get_the_terms(get_the_id(),'taxonomy_service');
-            $url4=$url1."service/".$terms[0]->slug;
+            $terms = get_the_terms(get_the_id(),'taxonomy_servicesg');
+            $url4=$url1."servicesg/taxonomy_servicesg/".$terms[0]->slug;
             $text4="事業内容:".$terms[0]->name;
             $text5=get_the_title();
             $breadcrumbType="5";
@@ -171,6 +193,13 @@ if($url_type==="sz"){
         $url3=$url1."admin/adminmenber";
         $text3="行政書士メンバー";
         $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."admin";
+        $text2="行政書士トップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
         $breadcrumbType="4";
     }
 
@@ -196,11 +225,8 @@ if($url_type==="sz"){
             $text2="ビジネスサポートトップ";
             $url3=$url1."bs/bsservicelist";
             $text3="ビジネスサポートサービス";
-            $terms = get_the_terms(get_the_id(),'taxonomy_servicesr');
-            $url4=$url1."service/".$terms[0]->slug;
-            $text4="事業内容:".$terms[0]->name;
-            $text5=get_the_title();
-            $breadcrumbType="5";
+            $text4="事業内容:".get_the_title();
+            $breadcrumbType="4";
         }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."bs";
@@ -229,6 +255,13 @@ if($url_type==="sz"){
             $text5=get_the_title();
             $breadcrumbType="5";
         }
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."bs";
+        $text2="ビジネスサポートトップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
+        $breadcrumbType="4";
     }
 
 }elseif ($url_type==="tr"){
@@ -243,7 +276,7 @@ if($url_type==="sz"){
         if(is_tax()){
             $url2=$url1."taxria";
             $text2="タックスリアルティトップ";
-            $url3=$url1."taxria/taxservicelist";
+            $url3=$url1."taxria/taxriaservicelist";
             $text3="タックスリアルティサービス";
             $term = get_queried_object();
             $text4="事業内容:".$term->name;
@@ -251,13 +284,10 @@ if($url_type==="sz"){
         }elseif(is_single()){
             $url2=$url1."taxria";
             $text2="タックスリアルティトップ";
-            $url3=$url1."taxria/taxservicelist";
+            $url3=$url1."taxria/taxriaservicelist";
             $text3="タックスリアルティサービス";
-            $terms = get_the_terms(get_the_id(),'taxonomy_service');
-            $url4=$url1."service/".$terms[0]->slug;
-            $text4="事業内容:".$terms[0]->name;
-            $text5=get_the_title();
-            $breadcrumbType="5";
+            $text4="事業内容:".get_the_title();
+            $breadcrumbType="4";
         }
     }elseif(strpos($thisurl,'members')){
         $url2=$url1."taxria";
@@ -265,6 +295,13 @@ if($url_type==="sz"){
         $url3=$url1."taxria/taxriamenber";
         $text3="タックスリアルティメンバー";
         $text4="メンバー紹介:".get_the_title();
+        $breadcrumbType="4";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2=$url1."taxria";
+        $text2="タックスリアルティトップ";
+        $url3="";
+        $text3="検索";
+        $text4=$_GET['s'];
         $breadcrumbType="4";
     }
 }else{
@@ -280,6 +317,11 @@ if($url_type==="sz"){
     }elseif(strpos($thisurl,'members')){
         $text2="メンバー紹介:".get_the_title();
         $breadcrumbType="2";
+    }elseif(strpos($thisurl,'?s=')){
+        $url2="";
+        $text2="検索";
+        $text3=$_GET['s'];
+        $breadcrumbType="3";
     }
 }
 

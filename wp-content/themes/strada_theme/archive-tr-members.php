@@ -26,43 +26,50 @@ get_header('tr');
             </div>
         </div>
         <!-- end c-mainTitle -->
-        <div class="l-container">
-            <ul class="p-member01__link" id="myBtnContainer">
-                <!--                    <li><a href="--><?php ////echo get_post_type_archive_link('members'); ?><!--">ALL</a></li>-->
-                <div class="menberTtile2">
-                    <span>メンバー紹介</span>
-                </div>
+        <div class="c-new-content" style="padding-bottom: 100px;">
+            <div class="l-container">
+                <div class="p-member__list">
+                    <div class="menberTtile3">
+                        <span>メンバー紹介</span>
+                    </div>
+                    <?php
+                    $index_menber=0;
+                    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
+                    $args = array(
+                        'post_type' => 'members',
+                        'company' => "TR", // 自定义字段名
+                        'posts_per_page' => -1,
+                          'orderby' => array(
+                                'meta_value' => 'ASC'
+                            ),
+                        'meta_key' => 'tr_jb',
+                        'paged' => $paged
+                    );
 
-            </ul>
-            <div class="p-member__list">
-                <?php
-                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-                $args = array(
-                    'post_type' => 'members',
-                    'company' => "TR", // 自定义字段名
-                    'posts_per_page' => -1,
-                    'orderby' => 'date',
-                    'paged' => $paged
-                );
-
-                $the_query = new WP_Query($args); ?>
-                <?php
-                if($the_query->have_posts()) :
-                    while($the_query->have_posts()) : $the_query->the_post();?>
-                        <div class="item">
-                            <div class="image">
-                                <?php
-                                if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('full');
-                                } else {
-                                    ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
-                                <?php } ?>
-                            </div>
-                            <div class="txt">
-                                <p class="name"><?php echo get_the_title(); ?></p>
-                                <div class="c-job">
+                    $the_query = new WP_Query($args); ?>
+                    <?php
+                    if($the_query->have_posts()) :
+                        while($the_query->have_posts()) : $the_query->the_post();  $index_menber++;?>
+                            <div class="<?php
+                            if($index_menber % 4==1){
+                                echo "newItem";
+                            }else{
+                                echo "newItem2";
+                            }
+                            ?>">
+                                <div class="image">
                                     <?php
+                                    if ( has_post_thumbnail() ) {
+                                        the_post_thumbnail('full');
+                                    } else {
+                                        ?>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" alt="<?php the_title(); ?>">
+                                    <?php } ?>
+                                </div>
+                                <div class="txt">
+                                    <?php
+                                    $representative_name="";
+                                    $tax_name_over="";
                                     $terms = wp_get_post_terms($post->ID,'taxonomy_position', array(
                                         'hide_empty' => false,
                                         'parent' => 0,
@@ -74,35 +81,62 @@ get_header('tr');
                                         $tax_link = get_term_link($term->slug, 'taxonomy_position');
                                         $tax_name = $term->name;
                                         $tax_slug = $term->slug;
-                                        if($index===0){
-                                            echo '<p class="job">'.$tax_name.'</p>';
+                                        if($tax_slug==="representative"){
+                                            $representative_name  =$tax_name;
                                         }else{
-                                            echo '<p class="job">/'.$tax_name.'</p>';
+                                            if($index===0){
+                                                $tax_name_over=$tax_name;
+                                            }else{
+                                                $tax_name_over=$tax_name_over.'/'.$tax_name;
+                                            }
+                                            $index++;
                                         }
-                                        $index++;
+
                                     }
+                                        $url_type = $_SESSION['url_type'];
+                                        if($url_type==="sz"){
+                                            $representative_name = $post->sz_yw;
+                                        }elseif ($url_type==="sg"){
+                                            $representative_name = $post->sg_yw;
+                                        }elseif ($url_type==="sb"){
+                                            $representative_name = $post->sb_yw;
+                                        }elseif ($url_type==="ch"){
+                                            $representative_name = $post->ch_yw;
+                                        }elseif ($url_type==="tr"){
+                                            $representative_name = $post->tr_yw;
+                                        }elseif ($url_type==="ss"){
+                                            $representative_name = $post->sr_yw;
+                                        }else{
+                                            $representative_name = $post->top_yw;
+                                        }
                                     ?>
+                                    <p class="menber-representative" style="height: 20px;"><?php echo $representative_name; ?></p>
+                                    <p class="menber-name"><?php echo get_the_title(); ?></p>
+                                    <div class="c-job">
+                                        <p class="job"><?php echo $tax_name_over."　" ?></p>
+                                    </div>
+
+                                    <a  href="<?php echo get_permalink(get_the_ID());?>">
+                                        <div class="service_title_icon">
+                                            <span style="font-size: 1.5rem;font-weight: 400;">READ MORE</span>
+                                        </div>
+                                    </a>
 
                                 </div>
-                                <div class="read-more">
-                                    <img src="<?php echo home_url('/wp-content/uploads/2023/07/2024072740511_icon.png'); ?>"">
-                                </div>
-
                             </div>
-                            <a href="<?php echo get_permalink(get_the_ID()); ?>"></a>
-                        </div>
 
-                    <?php endwhile;
-                    if (function_exists("pagination")) {
-                        pagination($the_query->max_num_pages);
-                    }
-                    wp_reset_postdata();
-                else:
+                        <?php endwhile;
+                        if (function_exists("pagination")) {
+                            pagination($the_query->max_num_pages);
+                        }
+                        wp_reset_postdata();
+                    else:
+                        ?>
+                        <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
+                    <?php
+                    endif;
                     ?>
-                    <div class="title"><p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p></div>
-                <?php
-                endif;
-                ?>
+                </div>
             </div>
         </div>
     </main>

@@ -158,7 +158,7 @@ $_SESSION['page_type']="top";
             <div class="circle2"></div>
             </p>
           </div>
-          <div id="text2" class="border-text border-text-controll">Strada Group</div>
+          <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
         </div>
       </div>
     </div>
@@ -205,12 +205,12 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap3" class="node_wrap3 node_wrap_show3">
-      <?php get_template_part('template', ''); ?>
+      <?php get_template_part('template', 'sg-service'); ?>
     </div>
   </div>
   <!-- end Service -->
 
-  <!-- start Case Study -->
+  <!-- start Case Study 一旦非表示
   <a id="CaseStudy" class="target-fix"></a>
   <div class="block_wrap5">
     <div class="border-text5"></div>
@@ -227,10 +227,10 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
-      <?php get_template_part('template', ''); ?>
+      <?php //get_template_part('template', ''); ?>
     </div>
   </div>
-  <!-- end Case Study -->
+  一旦非表示 end Case Study -->
 
   <!-- start About -->
   <a id="About" class="target-fix"></a>
@@ -279,6 +279,7 @@ $_SESSION['page_type']="top";
   <!-- end Price -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
     <div class="border-bt">
@@ -322,4 +323,4 @@ $_SESSION['page_type']="top";
   <!-- end Recruit -->
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("sg"); ?>

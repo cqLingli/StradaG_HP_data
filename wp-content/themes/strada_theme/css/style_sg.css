@@ -12707,7 +12707,7 @@ img {
 
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
-  background: url('../images/mv/mv-service.jpg') no-repeat;
+  background: url('../images/common_sg/SG_サービス案内.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -12716,7 +12716,7 @@ img {
 
   .p-service .c-mainTitle,
   .s-service .c-mainTitle {
-    background: url('../images/mv/mv-service.jpg') no-repeat;
+    background: url('../images/common_sg/SG_サービス案内.png') no-repeat;
     background-size: cover;
     background-position: center center;
     margin-left: 5.5%;
@@ -14143,7 +14143,7 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 2.3);
+  width: calc(100% / 3.3);
   padding: 8px 8px 8px 8px;
   background: white;
   margin-left: 2.5%;
@@ -17347,8 +17347,6 @@ ol li {
 
   .template-sz-serviceList {
     margin-top: 1%;
-    margin-left: 5.5% !important;
-    margin-right: -1.6% !important;
   }
 }
 
@@ -17379,8 +17377,8 @@ ol li {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 1%;
-  margin-left: 9.5%;
-  margin-right: 1.5%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
 }
 
 .menber-name {
@@ -17395,7 +17393,7 @@ ol li {
 @media screen and (min-width: 991px) {
   .term-description—service {
     margin-left: 6% !important;
-    margin-right: 8% !important;
+    margin-right: 1.5% !important;
   }
 
   .c-serviceList-add {
@@ -19313,3 +19311,323 @@ ol li {
     margin-top:0px
   }
 }
+/* ----------------------------------------------------------------------------------
+　Search
+---------------------------------------------------------------------------------- */
+.search_words{background-color:yellow;}
+.search-title{
+    background-color: #DCDDDD;
+    height:150px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.search-title1{
+    position: relative;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-title2{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-content{
+    background: #F4F4F4;
+    margin: 25px 0 25px 0;
+    padding: 25px 120px 0px 120px;
+}
+.search-content2{
+    background: #FFFFFF;
+    padding: 15px 25px 15px 25px;
+}
+.search-result-diva{
+    padding: 15px 0px 0px 0px;
+}
+.search-result-a{
+    text-decoration: none;
+    color: inherit;
+}
+.search-result-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.search-result-title1{
+
+    background: #153f6f;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.search-result-title2{
+    font-size: 1.5rem;
+}
+.search-result-content{
+    font-size: 1.5rem;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.search-page{
+    padding: 10px 0px 10px 0px;
+}
+.search-nodata{
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 50px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+@media screen and (max-width: 991px) {
+.search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 40px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+/* ----------------------------------------------------------------------------------
+　headerHide
+---------------------------------------------------------------------------------- */
+#header {
+	transform: translateY(0);
+	transition: all 0.3s ease;
+}
+#header.hide {
+	transform: translateY(-100%);
+}
+/*----------end headerHide----------*/
+/* ----------------------------------------------------------------------------------
+　privacyPolicy
+---------------------------------------------------------------------------------- */
+.privacyPolicy .privacyPolicyBox {
+  background: #F3F5F6 !important;
+  padding: -30px 15px
+}
+.mob_privacyPolicy {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyPolicy-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyPolicy-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.privacyPolicy-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .privacyPolicy .privacyPolicyBox  {
+    padding: 5px 0px
+  }
+  .privacyPolicy-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyPolicy-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .mob_privacyPolicy {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyPolicyStyle {
+    margin-top: 80px
+  }
+  .privacyPolicy-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+}
+/*----------end privacyPolicy----------*/
+/* ----------------------------------------------------------------------------------
+　privacyStatement
+---------------------------------------------------------------------------------- */
+.privacyStatement .privacyStatementBox {
+  background: #F3F5F6 !important;
+  padding: -30px 15px
+}
+.mob_privacyStatement {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyStatement-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyStatement-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.privacyStatement-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  background: #fff;
+}
+.c-line-dotted{
+  border: none;
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .privacyStatement .privacyStatementBox  {
+    padding: 5px 0px
+  }
+  .privacyStatement-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyStatement-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+  }
+  .mob_privacyStatement {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyStatementStyle {
+    margin-top: 80px
+  }
+  .privacyStatement-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+    background: #fff;
+  }
+}
+/*----------end privacyStatement----------*/
+/*----------strat reciuit----------*/
+@media only screen and (max-width: 767px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+}
+@media only screen and (max-width: 991px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+}
+.l-thanks{
+      text-align: center;
+}
+/*----------end reciuit----------*/
