@@ -19190,8 +19190,8 @@ body .is-layout-flex>* {
         align-items: flex-start;
         font-size: 2rem;
     }
-    .c-form input[type="submit"] {
-        width:auto;
+    .l-reciuit dd {
+        width: 100%;
     }
     
 }
