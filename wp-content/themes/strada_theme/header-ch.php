@@ -138,7 +138,6 @@
       <a href="<?php echo home_url('chushoukigyouroudou/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
       <a href="<?php echo home_url('chushoukigyouroudou/#About'); ?>"><div class="search_content_style">事務所概要</div></a>
       <a href="<?php echo home_url('chushoukigyouroudou/chushoukigyouroudoumenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
-      <a href="<?php echo home_url('chushoukigyouroudou/#'); ?>"><div class="search_content_style">料金表</div></a>
       <a href="<?php echo home_url('chushoukigyouroudou/chushoukigyouroudouaccess'); ?>"><div class="search_content_style">アクセス</div></a>
       <a href="<?php echo home_url('chushoukigyouroudou/#'); ?>"><div class="search_content_style">リクルート</div></a>
       </div>
