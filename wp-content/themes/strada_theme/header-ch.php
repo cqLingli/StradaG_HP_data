@@ -119,9 +119,6 @@
             <a href="<?php echo home_url('chushoukigyouroudou/chushoukigyouroudoumenber'); ?>"><div class="vertical-line">メンバー紹介</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('chushoukigyouroudou/#'); ?>"><div class="vertical-line">料金表</div></a>
-          </li>
-          <li>
             <a href="<?php echo home_url('chushoukigyouroudou/chushoukigyouroudouaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
