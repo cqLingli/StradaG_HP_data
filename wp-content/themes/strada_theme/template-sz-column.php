@@ -3,7 +3,7 @@
 <main class="l-main p-column">
     <div class="l-container">
   <!-- end c-breakcrumds -->
-  <div class="c-mainTitle" style="  margin-left: 5.5%;margin-right: 5.5%;margin-top: -10%;">
+  <div class="c-mainTitle  template-column_add">
     <div class="c-mainTitle_content">
     <div class="c-tlt01 c-tlt01__black">
       <h1 class="c-tlt01__line c-tlt01__line--gray">

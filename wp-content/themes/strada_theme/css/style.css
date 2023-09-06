@@ -18328,7 +18328,54 @@ ol li {
   background-color: #6A6969;
   color: #fff;
 }
-
+.search_content_style_sz{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #003E75;
+  color: #fff;
+}
+.search_content_style_sb{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #00A159;
+  color: #fff;
+}
+.search_content_style_ss{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #EC7700;
+  color: #fff;
+}
+.search_content_style_ch{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #B97727;
+  color: #fff;
+}
+.search_content_style_sg{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #808C96;
+  color: #fff;
+}
+.search_content_style_tr{
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  background: #B8193F;
+  color: #fff;
+}
 
 .search_content_style1 {
   display: flex;
@@ -18618,7 +18665,7 @@ ol li {
   .l-header__top2 {
      padding: 0;
   }
-
+}
 /**2023 08 13 header**/
 @media screen and (max-width: 991px) {
   .h-mail a{
@@ -18727,9 +18774,12 @@ ol li {
   .c-breakcrumds span{
     line-height: 10px;
   }
+  .search_content_style1_2 {
+    width: 10%;
+  }
 }
 /**2023 08 13 header**/
-}
+
 
 .p-new01{
   background-color: #fff;
@@ -18748,3 +18798,396 @@ ol li {
   background-color: #fff;
   margin-top: 20px;
 }
+/* ----------------------------------------------------------------------------------
+　Search
+---------------------------------------------------------------------------------- */
+.search_words{background-color:yellow;}
+.search-title{
+    background-color: #DCDDDD;
+    height:150px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.search-title1{
+    position: relative;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-title2{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+.search-content{
+    background: #F4F4F4;
+    margin: 25px 0 25px 0;
+    padding: 25px 120px 0px 120px;
+}
+.search-content2{
+    background: #FFFFFF;
+    padding: 15px 25px 15px 25px;
+}
+.search-result-diva{
+    padding: 15px 0px 0px 0px;
+}
+.search-result-a{
+    text-decoration: none;
+    color: inherit;
+}
+.search-result-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.search-result-title1{
+
+    background: #153f6f;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.search-result-title2{
+    font-size: 1.5rem;
+}
+.search-result-content{
+    font-size: 1.5rem;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.search-page{
+    padding: 10px 0px 10px 0px;
+}
+.search-nodata{
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 50px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+@media screen and (max-width: 991px) {
+.search-title{
+        height:75px;
+    }
+    .search-title1{
+        font-size: 2rem;
+        line-height: 16px;
+    }
+    .search-title2{
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .search-content{
+        background: #F4F4F4;
+        margin: 15px 0 15px 0;
+        padding: 15px 0px 0px 0px;
+    }
+    .search-content2{
+        background: #FFFFFF;
+        padding: 5px 15px 5px 15px;
+    }
+    .search-result-diva{
+        padding: 5px 0px 0px 0px;
+    }
+    .search-result-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-result-title1{
+        font-size: 1.0rem;
+    }
+    .search-result-title2{
+        font-size: 1.0rem;
+    }
+    .search-result-content{
+        font-size: 1.0rem;
+        height: 40px;
+        white-space:normal;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+
+/* ----------------------------------------------------------------------------------
+　headerHide
+---------------------------------------------------------------------------------- */
+#header {
+	transform: translateY(0);
+	transition: all 0.3s ease;
+}
+#header.hide {
+	transform: translateY(-100%);
+}
+/*----------end headerHide----------*/
+/* ----------------------------------------------------------------------------------
+　privacyPolicy
+---------------------------------------------------------------------------------- */
+.privacyPolicy .privacyPolicyBox {
+  background: #F3F4F4 !important;
+  padding: -30px 15px
+}
+.mob_privacyPolicy {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyPolicy-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyPolicy-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.privacyPolicy-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .privacyPolicy .privacyPolicyBox  {
+    padding: 5px 0px
+  }
+  .privacyPolicy-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyPolicy-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .mob_privacyPolicy {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyPolicyStyle {
+    margin-top: 80px
+  }
+  .privacyPolicy-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+}
+/*----------end privacyPolicy----------*/
+/* ----------------------------------------------------------------------------------
+　privacyStatement
+---------------------------------------------------------------------------------- */
+.privacyStatement .privacyStatementBox {
+  background: #F3F4F4 !important;
+  padding: -30px 15px
+}
+.mob_privacyStatement {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.privacyStatement-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.privacyStatement-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #6A6969 30%, #F3F4F4 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.privacyStatement-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  background: #fff;
+}
+.c-line-dotted{
+  border: none;
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .privacyStatement .privacyStatementBox  {
+    padding: 5px 0px
+  }
+  .privacyStatement-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .privacyStatement-main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+  }
+  .mob_privacyStatement {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .privacyStatementStyle {
+    margin-top: 80px
+  }
+  .privacyStatement-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+    background: #fff;
+  }
+}
+/*----------end privacyStatement----------*/
+/* ----------------------------------------------------------------------------------
+　socialMediaPolicy
+---------------------------------------------------------------------------------- */
+.socialMediaPolicy .socialMediaPolicyBox {
+  background: #F3F4F4 !important;
+  padding: -30px 15px
+}
+.mob_socialMediaPolicy {
+  margin-left: 5.5%;
+  margin-right: 5.5%
+}
+
+.socialMediaPolicy-main {
+  width: 100%;
+  margin: -60px auto;
+  padding: 30px 0px 10px 34px;
+}
+.socialMediaPolicy-main h3 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #6A6969 30%, #F3F4F4 100%);
+  color: #fff;
+  width: 100%;
+  padding: 5px 15px;
+}
+.socialMediaPolicy-main h4{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.6;
+  border-left: 4px solid #6A6969;
+  padding: 2px 0 2px 15px;
+}
+
+.socialMediaPolicy-main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  /* background: #fff; */
+}
+.c-line-dotted{
+  border: none;
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .socialMediaPolicy .socialMediaPolicyBox  {
+    padding: 5px 0px
+  }
+  .socialMediaPolicy-main {
+    margin: -60px auto;
+    padding: 15px 0;
+  }
+  .socialMediaPolicy-main h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+  }
+  .socialMediaPolicy-main h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+    border-left: 4px solid #6A6969;
+    padding: 2px 5px;
+  }
+  .mob_socialMediaPolicy {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+  .socialMediaPolicyStyle {
+    margin-top: 80px
+  }
+  .socialMediaPolicy-main p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+    background: #fff;
+  }
+}
+/*----------end social-media-policy----------*/

@@ -58,7 +58,7 @@ $_SESSION['page_type']="top";
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
-              <a href="<?php echo home_url('tax/taxnewslist'); ?>" style="text-decoration:none">
+              <a href="<?php echo home_url('chushoukigyouroudou/chushoukigyouroudounewslist'); ?>" style="text-decoration:none">
                 <div class="news_title_readmore">READ MORE</div>
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
@@ -154,7 +154,7 @@ $_SESSION['page_type']="top";
             <div class="circle2"></div>
             </p>
           </div>
-          <div id="text2" class="border-text border-text-controll">Strada Group</div>
+          <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
         </div>
       </div>
     </div>
@@ -227,7 +227,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Benefits of Joining -->
 
-  <!-- start Membership -->
+  <!-- start Membership 一旦非表示
   <div class="block_wrap6">
     <div class="border-text6"></div>
     <div class="border-bt">
@@ -247,7 +247,7 @@ $_SESSION['page_type']="top";
     </div>
 
   </div>
-  <!-- end Membership -->
+  一旦非表示 end Membership -->
 
   <!-- start Q&A -->
   <a id="QA" class="target-fix"></a>
@@ -298,6 +298,7 @@ $_SESSION['page_type']="top";
   <!-- end About -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
     <div class="border-bt">
@@ -318,7 +319,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Contact -->
 
-  <!-- start Recruit -->
+  <!-- start Recruit 一旦非表示
   <a id="Recruit" class="target-fix"></a>
   <div class="block_wrap9">
     <div class="border-text9"></div>
@@ -335,10 +336,10 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php get_template_part('template', 'recruit_ch'); ?>
+      <?php //get_template_part('template', 'recruit_ch'); ?>
     </div>
   </div>
-  <!-- end Recruit -->
+  一旦非表示 end Recruit -->
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer("ch"); ?>

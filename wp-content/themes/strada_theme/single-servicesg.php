@@ -1,16 +1,7 @@
 <?php
 /* Template Name: Single Service */
-session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_header($url_type);
-}else{
-    get_header();
-}
-if ($url_type==="ss"){
-    $get_post_type_archive_link = str_replace("service", "sr/srservice", get_post_type_archive_link("service"));
-}
-
+$url_type = "sg";
+get_header("sg");
 ?>
 <?php 
 $mv = get_field('s_mv');
@@ -93,8 +84,8 @@ if($mv){
           endif;
         ?>
 
-             <div class="entry-content page-entry menberTtile"> <a href="<?php echo $get_post_type_archive_link;?>" class="c-back-list">
-                         業務内容へ戻る
+             <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "admin/adminservicelist", get_post_type_archive_link("service"));?>" class="c-back-list">
+                     ビザ申請へ戻る
                      <span class="i-arrow">
                 </span>
               </a></div>
@@ -105,11 +96,5 @@ if($mv){
       </div>
   </main>
 <?php
-session_start();
-$url_type = $_SESSION['url_type'];
-if($url_type){
-    get_footer($url_type);
-}else{
-    get_footer();
-}
+    get_footer("sg");
  ?>

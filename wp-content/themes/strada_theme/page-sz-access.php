@@ -31,7 +31,7 @@ get_header("sz");
                     <div class="t-access_content">
                                 <h4>ストラーダ税理士法人</h4>
                                 <p class="t-access_add">
-                                東京都中央区日本橋蛎殻町2丁目11−2 オートエックス工藤ビル4F
+                                東京都中央区日本橋蛎殻町2丁目11−2 オートエックス工藤ビル４階
                                 </p>
                                 <p class="t-access_add">
                                 TEL:0120-709-459
@@ -84,7 +84,7 @@ get_header("sz");
                             <div class="thumb">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>左手に見える青色・緑色・橙色の看板がある建物の４階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>
@@ -114,7 +114,7 @@ get_header("sz");
                             <div class="thumb">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/access/access2_04.png" alt="右手に日高屋がある角を右折し、110m直進。左手に青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>右手に日高屋がある角を右折し、110m直進。<br/>左手に青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>右手に日高屋がある角を右折し、110m直進。<br/>左手に青色・緑色・橙色の看板がある建物の４階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>
@@ -142,9 +142,9 @@ get_header("sz");
                         </li>
                         <li>
                             <div class="thumb">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="日高屋がある角を左折し、110m直進。左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/access/access1_03.png" alt="日高屋がある角を左折し、110m直進。左手に見える青色・緑色・橙色の看板がある建物の４階。備長炭焼一久の向かい。" />
                             </div>
-                            <p>日高屋がある角を左折し、110m直進。<br/>左手に見える青色・緑色・橙色の看板がある建物の５階。備長炭焼一久の向かい。</p>
+                            <p>日高屋がある角を左折し、110m直進。<br/>左手に見える青色・緑色・橙色の看板がある建物の４階。備長炭焼一久の向かい。</p>
                         </li>
                     </ul>
                 </div>

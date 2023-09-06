@@ -157,7 +157,7 @@ $_SESSION['page_type']="top";
         <div class="circle2"></div>
         </p>
       </div>
-      <div id="text2" class="border-text border-text-controll">Strada Group</div>
+      <div id="text2" class="border-text border-text-controll">ストラーダグループ</div>
     </div>
     </div>
   </div>
@@ -214,6 +214,7 @@ $_SESSION['page_type']="top";
   <!-- end About -->
 
   <!-- start Contact -->
+  <a id="Contact" class="target-fix"></a>
   <div class="block_wrap8">
     <div class="border-text8"></div>
       <div class="border-bt">

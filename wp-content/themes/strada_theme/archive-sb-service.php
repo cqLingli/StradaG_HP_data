@@ -18,57 +18,208 @@ $_SESSION['page_type']="service";
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
-            事業内容
-          <span>Service</span>
+
         </h1>
       </div>
     </div>
   </div>
-    <hr class="service-line-bottom" />
-  <!-- end c-mainTitle -->
-    <div class="c-new-content">
-  <div class="l-content">
     <div class="l-container">
-      <?php 
-          $terms = get_terms( 'taxonomy_service', array(
-            'hide_empty' => false,
-            'parent' => 0,
-            'order' => 'ASC',
-            'orderby' => 'menu_order'
-          ) );
-      ?>
-      <div class="c-serviceList">
-        <?php 
-        
-        foreach ( $terms as $term ) :
-        $tax_link = get_term_link($term->slug, 'taxonomy_service');
-        $tax_name = $term->name;
-        $tax_slug = $term->slug;
-        $img = get_field('service_cat_thumbnail', $term);
-        ?>
-          <div class="serviceItem">
-              <span class="ttl"><?php echo $tax_name; ?></span>
-            <div class="thumb">
-              <img src="<?php echo $img['url'] ?>" alt="">
-            </div>
-
-            <div class="content">
-                <div style="height: 200px;">
-              <p><?php echo nl2br($term->description); ?></p>
-<!--              <div class="c-btn01 ">-->
-                </div>
-               <div class="ttl2 c-btn01__blue">
-                <a href="<?php echo get_term_link($term) ?>">詳細はこちら</a>
-              </div>
-            </div>
-
-          </div>
-        <?php
-        endforeach;
-        ?>
-      </div>
+        <div class="template-service-title">
+            <hr class="service-line-bottom-top" />
+            <p>私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
+            <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
+            <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
+            <hr class="service-line-bottom-top2" />
+            <div style="margin-top: 3%;"></div>
+        </div>
     </div>
-  </div>
+  <!-- end c-mainTitle -->
+    <div class="c-new-content-service">
+        <div class="l-container">
+            <div class="l-content template-sz-service sr_service_style_add">
+                <div class="c-serviceList1">
+                    <div class="menberTtile">ビジネスの土台を作る</div>
+                    <div style="height: 10px;"></div>
+                    <?php
+                    $index=0;
+                    $args = array(
+                        'post_type' => 'servicesb', // 文章类型
+                        'posts_per_page' => 10,
+                        'paged' => $paged,
+                        'taxonomy_servicesb' => 'business_foundation'
+
+                    );
+                    $query = new WP_Query( $args ); // 执行查询
+                    ?>
+                    <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                        <div class="<?php
+                        if($index%3==1){
+                            echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
+                            <div class="thumb">
+                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                            </div>
+
+                            <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                                <div class="service_title_icon">
+                            <span>
+                                <?php echo get_the_title(); ?>
+                            </span>
+                                </div>
+                            </a>
+                            <div class="content">
+                                <div>
+                                    <p class="description_box">
+                                        <?php echo nl2br(get_the_excerpt()); ?>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    <?php endwhile; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sr_service_bg">
+        <div class="l-container">
+            <div class="sr_service_style sr_service_style_add">
+                <div class="menberTtile2">ビジネスを拡大する</div>
+                <div style="height: 10px;"></div>
+                <?php
+                $index=0;
+                $args = array(
+                    'post_type' => 'servicesb', // 文章类型
+                    'posts_per_page' => 10,
+                    'paged' => $paged,
+                    'taxonomy_servicesb' => 'business_expand'
+
+                );
+                $query = new WP_Query( $args ); // 执行查询
+                ?>
+                <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                    <div class="<?php
+                    if($index%3==1){
+                        echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
+                        <div class="thumb">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                        </div>
+
+                        <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                            <div class="service_title_icon">
+                            <span>
+                                <?php echo get_the_title(); ?>
+                            </span>
+                            </div>
+                        </a>
+                        <div class="content">
+                            <div>
+                                <p class="description_box">
+                                    <?php echo nl2br(get_the_excerpt()); ?>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                <?php endwhile; ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-new-content-service">
+        <div class="l-container">
+            <div class="l-content template-sz-service sr_service_style_add">
+                <div class="c-serviceList1">
+                    <div class="menberTtile">会社を売買する</div>
+                    <div style="height: 10px;"></div>
+                    <?php
+                    $index=0;
+                    $args = array(
+                        'post_type' => 'servicesb', // 文章类型
+                        'posts_per_page' => 10,
+                        'paged' => $paged,
+                        'taxonomy_servicesb' => 'trade_company'
+
+                    );
+                    $query = new WP_Query( $args ); // 执行查询
+                    ?>
+                    <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                        <div class="<?php
+                        if($index%3==1){
+                            echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
+                            <div class="thumb">
+                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                            </div>
+
+                            <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                                <div class="service_title_icon">
+                            <span>
+                                <?php echo get_the_title(); ?>
+                            </span>
+                                </div>
+                            </a>
+                            <div class="content">
+                                <div>
+                                    <p class="description_box">
+                                        <?php echo nl2br(get_the_excerpt()); ?>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    <?php endwhile; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sr_service_bg">
+        <div class="l-container">
+            <div class="sr_service_style sr_service_style_add">
+                <div class="menberTtile2">会社を上場する</div>
+                <div style="height: 10px;"></div>
+                <?php
+                $index=0;
+                $args = array(
+                    'post_type' => 'servicesb', // 文章类型
+                    'posts_per_page' => 10,
+                    'paged' => $paged,
+                    'taxonomy_servicesb' => 'listing_company'
+
+                );
+                $query = new WP_Query( $args ); // 执行查询
+                ?>
+                <?php while (  $query->have_posts() ) : $query->the_post(); $index++;?>
+                    <div class="<?php
+                    if($index%3==1){
+                        echo " serviceItem_top"; }else{ echo "serviceItem_top2" ; } ?>">
+                        <div class="thumb">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                        </div>
+
+                        <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
+                            <div class="service_title_icon">
+                            <span>
+                                <?php echo get_the_title(); ?>
+                            </span>
+                            </div>
+                        </a>
+                        <div class="content">
+                            <div>
+                                <p class="description_box">
+                                    <?php echo nl2br(get_the_excerpt()); ?>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                <?php endwhile; ?>
+            </div>
+        </div>
     </div>
 </main>
 
