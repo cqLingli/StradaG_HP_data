@@ -2338,6 +2338,7 @@ div.catch {
 
 .l-header__top {
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .l-header__main {
@@ -2352,7 +2353,7 @@ div.catch {
 }
 
 .l-header__nav {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -18580,6 +18581,7 @@ ol li {
 
 .l-header__top2 {
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .h-otherhp {
