@@ -2338,6 +2338,7 @@ div.catch {
 
 .l-header__top {
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .l-header__main {
@@ -2352,7 +2353,7 @@ div.catch {
 }
 
 .l-header__nav {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -14305,7 +14306,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--4 a {
   width: 60px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .h-mail.h-mail--4 a span {
