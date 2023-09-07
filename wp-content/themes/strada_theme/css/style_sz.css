@@ -19198,18 +19198,12 @@ body .is-layout-flex {
     .l-reciuit dd {
         width: 100%;
     }
-    
 }
 @media only screen and (max-width: 991px) {
     .l-reciuit .c-form{
         padding: 0px 15px 0px 15px;
     }
 }
-
-
-
-
-
 /*----------end reciuit----------*/
 
 

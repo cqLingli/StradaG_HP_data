@@ -19193,3 +19193,49 @@ ol li {
   }
 }
 /*----------end social-media-policy----------*/
+/*----------strat reciuit----------*/
+.l-thanks{
+  text-align: center;
+}
+.l-reciuit .c-form{
+padding: 0px 15px 0px 15px;
+}
+.c-form .row select{
+width: 100%;
+height: 45px;
+border-radius: 8px;
+border: 2px solid #CCCCCC;
+padding: 0 15px;
+outline: none;
+font-size: 1.6rem;
+}
+@media only screen and (max-width: 767px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+.l-reciuit .c-form .row select{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    padding: 0 15px;
+    outline: none;
+    font-size: 1.3rem;
+    -webkit-border-radius: 8px;
+}
+.l-reciuit .c-form .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2rem;
+}
+.l-reciuit dd {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 991px) {
+.l-reciuit .c-form{
+    padding: 0px 15px 0px 15px;
+}
+}
+/*----------end reciuit----------*/
