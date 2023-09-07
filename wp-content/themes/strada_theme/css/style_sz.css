@@ -3993,13 +3993,15 @@ div#企業概要 {
   .p-column__list .item .txt .content {
     font-size: 1rem !important;
     margin-top: -2% !important;
-    line-height: 1;
+    line-height: 15px;
+  }
+  .columns_title_icon{
+    margin-top: 2%!important;
   }
 }
 
 .p-column__list .item .txt .content {
   font-size: 1.2rem;
-  margin-top: 5%;
 }
 
 .p-column__01 {
@@ -4169,14 +4171,13 @@ div#企業概要 {
 .p-column__main .item .txt .title {
   margin-bottom: 8px;
   font-size: 1.5rem;
-  line-height: 100%;
-  margin-top: 5%;
 }
 
 @media screen and (max-width: 767px) {
   .p-column__main .item .txt .title {
     font-size: 1rem;
     margin-top: -2%;
+    line-height: 15px;
     width: 100%;
   }
 }
@@ -16693,8 +16694,6 @@ ol li {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
-  width: 99%;
-  margin-left: 5px;
 }
 
 .service-line-bottom-top {
@@ -17356,7 +17355,7 @@ ol li {
   border: 1px solid black;
   border-radius: 20px;
   height: 15%;
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18850,7 +18849,7 @@ body .is-layout-flex>* {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19193,7 +19192,7 @@ body .is-layout-flex>* {
     .l-reciuit dd {
         width: 100%;
     }
-    
+
 }
 @media only screen and (max-width: 991px) {
     .l-reciuit .c-form{

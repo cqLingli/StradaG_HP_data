@@ -5281,7 +5281,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -16693,8 +16693,6 @@ ol li {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
-  width: 99%;
-  margin-left: 5px;
 }
 
 .service-line-bottom-top {
@@ -18864,13 +18862,13 @@ ol li {
 .body1 .has-text-align-center1{
   border: 1px solid black !important;
   width:12.5%;
-  
+
 }
 
 .body1 .has-text-align-center2{
   border: 1px solid black !important;
   width:87.5%;
-  
+
 }
 
 .wp-block-table.is-style-stripes{
@@ -18927,20 +18925,20 @@ ol li {
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body1 tr td {
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body2 tr th {
     width:60%;
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body2 tr td {
     width:40%;
     white-space: nowrap;
@@ -19292,7 +19290,7 @@ body .is-layout-flex>* {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
