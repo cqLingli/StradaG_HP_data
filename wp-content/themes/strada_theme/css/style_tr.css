@@ -14062,7 +14062,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .s-service .entry-content ul {
-  background: #f7f7f7;
+  background: #fff;
   margin-top: 30px;
   padding: 20px 50px 20px 25px;
   display: table;
@@ -18985,7 +18985,7 @@ ol li {
   margin-left: auto;
   background: #B8193F;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;

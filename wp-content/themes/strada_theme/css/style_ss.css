@@ -19043,7 +19043,7 @@ ol li {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19270,6 +19270,10 @@ ol li {
 body .is-layout-flex>* {
   margin: 0;
   width: 50%;
+}
+
+body .is-layout-flex {
+  gap:5em !important
 }
 
 @media screen and (max-width: 767px) {
