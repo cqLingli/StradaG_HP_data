@@ -12686,6 +12686,10 @@ img {
   background: transparent;
 }
 
+.p-service {
+  background-color: #fff;
+}
+
 .p-service .c-mainTitle,
 .s-service .c-mainTitle {
   background: url('../images/mv/mv-service.jpg') no-repeat;
