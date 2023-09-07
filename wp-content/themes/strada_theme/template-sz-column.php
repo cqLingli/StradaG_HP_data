@@ -7,20 +7,8 @@
     <div class="c-mainTitle_content">
     <div class="c-tlt01 c-tlt01__black">
       <h1 class="c-tlt01__line c-tlt01__line--gray">
-        <?php 
-            if(get_query_var('monthnum') != 0){
-              echo get_query_var('year') . "年" . get_query_var('monthnum'). "月"."の記事一覧" ;
-            }elseif(get_query_var('year') != 0){
-              echo get_query_var('year') . "年" ."の記事一覧" ;
-            }elseif(is_category()){
-              single_cat_title();
-            }elseif(is_tag()){
-              single_tag_title();
-            }elseif(is_page('columns')){
-              echo 'お役立ち情報 ';            
-            }else{
-              echo wp_title('');
-            }
+        <?php
+              echo 'お役立ち情報 ';
             ?>
             <span>column</span>
       </h1>
@@ -56,7 +44,7 @@
           おすすめ記事
         </h2>
         <div class="p-column__list">
-          <?php           
+          <?php
             if($the_query->have_posts()) :
                 while($the_query->have_posts()) : $the_query->the_post(); ?>
                   <?php array_push($recommendPosts, get_the_id()); ?>

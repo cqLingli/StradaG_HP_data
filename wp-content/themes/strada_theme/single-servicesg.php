@@ -3,7 +3,9 @@
 $url_type = "sg";
 get_header("sg");
 ?>
-<?php 
+<?php
+global $wp_query;
+$term = get_the_terms($wp_query->queried_object->ID, 'taxonomy_servicesg')[0];
 $mv = get_field('s_mv');
 if($mv){
   ?>
@@ -84,8 +86,8 @@ if($mv){
           endif;
         ?>
 
-             <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "admin/adminservicelist", get_post_type_archive_link("service"));?>" class="c-back-list">
-                     ビザ申請へ戻る
+             <div class="entry-content page-entry menberTtile"> <a href="<?php echo str_replace("service", "servicesg/taxonomy_servicesg/$term->slug", get_post_type_archive_link("service"));?>" class="c-back-list">
+                     <?php echo $term->name?>へ戻る
                      <span class="i-arrow">
                 </span>
               </a></div>
@@ -94,6 +96,7 @@ if($mv){
       </div>
     </div>
       </div>
+      <?php echo get_post_type_archive_link("service");?>
   </main>
 <?php
     get_footer("sg");

@@ -3995,13 +3995,15 @@ div#企業概要 {
   .p-column__list .item .txt .content {
     font-size: 1rem !important;
     margin-top: -2% !important;
-    line-height: 1;
+  }
+  .columns_title_icon{
+    margin-top: 2%!important;
   }
 }
 
 .p-column__list .item .txt .content {
-  font-size: 1.2rem;
-  margin-top: 5%;
+  font-size: 1.4rem;
+  margin-top: 10%;
 }
 
 .p-column__01 {
@@ -4177,8 +4179,6 @@ div#企業概要 {
 .p-column__main .item .txt .title {
   margin-bottom: 8px;
   font-size: 1.5rem;
-  line-height: 100%;
-  margin-top: 5%;
 }
 
 @media screen and (max-width: 767px) {
@@ -19497,7 +19497,7 @@ body .is-layout-flex>* {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
