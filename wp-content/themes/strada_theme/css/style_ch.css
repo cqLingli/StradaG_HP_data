@@ -19816,3 +19816,8 @@ ol li {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/

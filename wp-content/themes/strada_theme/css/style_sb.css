@@ -19846,3 +19846,8 @@ font-size: 1.6rem;
 }
 }
 /*----------end reciuit----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/

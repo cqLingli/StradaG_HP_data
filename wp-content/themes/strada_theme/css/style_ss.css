@@ -19593,3 +19593,8 @@ body .is-layout-flex {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
