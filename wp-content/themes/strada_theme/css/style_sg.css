@@ -19669,3 +19669,16 @@ strong {
   font-weight: bold;
 }
 /*----------end strong----------*/
+/*----------start 追加 CSS クラス----------*/
+.sample-table table tr td{
+  border: none;
+  background-color: #fff;
+}
+.sample-table1 table tr{
+  border-bottom: 1px solid #808c96;
+  background-color: #fff;
+}
+.sample-table1 table td{
+  border: none;
+}
+/*----------end strong----------*/
