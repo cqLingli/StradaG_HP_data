@@ -169,17 +169,17 @@
                 <p class="sr_service_gm">コンテンツ</p>
                 <div class="sr_service_imgcontent">
                     <div class="sr_service_img1">
-                        <a href="#"><img
+                        <a href="<?php echo home_url('roumu');?>"><img
                                 src="<?php echo get_template_directory_uri(); ?>/images/top_SS/労務トラブル_バナー.png"
                                 alt="" /></a>
                     </div>
                     <div class="sr_service_img2">
-                        <a href="#"><img
+                        <a href="<?php echo home_url('servicesr/itツール活用');?>"><img
                                 src="<?php echo get_template_directory_uri(); ?>/images/top_SS/クラウド活用_バナー.png"
                                 alt="" /></a>
                     </div>
                     <div class="sr_service_img3">
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
+                        <a href="<?php echo home_url('あなたは障害年金');?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
                                 alt="" /></a>
                     </div>
                 </div>
