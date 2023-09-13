@@ -18295,6 +18295,9 @@ ol li {
 .search_content_a{
   display: none;
 }
+.search_content_a a{
+  text-decoration: none;
+}
 
 
 @keyframes slide-down {
