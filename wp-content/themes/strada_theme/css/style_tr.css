@@ -5293,7 +5293,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -16709,8 +16709,6 @@ ol li {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
-  width: 99%;
-  margin-left: 5px;
 }
 
 .service-line-bottom-top {
@@ -19422,7 +19420,7 @@ ol li {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19720,3 +19718,8 @@ ol li {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
