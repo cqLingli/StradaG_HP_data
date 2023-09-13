@@ -9,7 +9,7 @@
   <meta name="format-detection" content="telephone=no" />
 
   <!-- ファビコンの読み込み -->
-  <link rel="icon" href="<?php echo home_url(); ?>/favicon.ico" />
+  <link rel="icon" href="<?php echo home_url(); ?>/favicon-ch.ico" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo home_url(); ?>/apple-touch-icon-152x152.png" />
 
   <!-- プラグインのcssの読み込み -->

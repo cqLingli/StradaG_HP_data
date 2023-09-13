@@ -2338,6 +2338,7 @@ div.catch {
 
 .l-header__top {
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .l-header__main {
@@ -2352,7 +2353,7 @@ div.catch {
 }
 
 .l-header__nav {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -3993,13 +3994,15 @@ div#企業概要 {
   .p-column__list .item .txt .content {
     font-size: 1rem !important;
     margin-top: -2% !important;
-    line-height: 1;
+    line-height: 15px;
+  }
+  .columns_title_icon{
+    margin-top: 2%!important;
   }
 }
 
 .p-column__list .item .txt .content {
   font-size: 1.2rem;
-  margin-top: 5%;
 }
 
 .p-column__01 {
@@ -4169,14 +4172,13 @@ div#企業概要 {
 .p-column__main .item .txt .title {
   margin-bottom: 8px;
   font-size: 1.5rem;
-  line-height: 100%;
-  margin-top: 5%;
 }
 
 @media screen and (max-width: 767px) {
   .p-column__main .item .txt .title {
     font-size: 1rem;
     margin-top: -2%;
+    line-height: 15px;
     width: 100%;
   }
 }
@@ -14051,7 +14053,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .s-service .entry-content ul {
-  background: #f7f7f7;
+  background: #fff;
   margin-top: 30px;
   padding: 20px 50px 20px 25px;
   display: table;
@@ -14296,7 +14298,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--4 a {
   width: 60px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .h-mail.h-mail--4 a span {
@@ -16693,8 +16695,6 @@ ol li {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
-  width: 99%;
-  margin-left: 5px;
 }
 
 .service-line-bottom-top {
@@ -17356,7 +17356,7 @@ ol li {
   border: 1px solid black;
   border-radius: 20px;
   height: 15%;
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18696,7 +18696,7 @@ ol li {
   margin-left: auto;
   background: #153F6F;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -18829,6 +18829,10 @@ body .is-layout-flex>* {
   width: 50%;
 }
 
+body .is-layout-flex {
+  gap:5em !important
+}
+
 @media screen and (max-width: 767px) {
   body .is-layout-flex>* {
     margin: 0;
@@ -18850,7 +18854,7 @@ body .is-layout-flex>* {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19190,21 +19194,21 @@ body .is-layout-flex>* {
         align-items: flex-start;
         font-size: 2rem;
     }
-    .c-form input[type="submit"] {
-        width:auto;
+    .l-reciuit dd {
+        width: 100%;
     }
-    
 }
 @media only screen and (max-width: 991px) {
     .l-reciuit .c-form{
         padding: 0px 15px 0px 15px;
     }
 }
-
-
-
-
-
 /*----------end reciuit----------*/
+
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
 
 

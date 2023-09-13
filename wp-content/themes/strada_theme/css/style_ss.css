@@ -2338,6 +2338,7 @@ div.catch {
 
 .l-header__top {
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .l-header__main {
@@ -2352,7 +2353,7 @@ div.catch {
 }
 
 .l-header__nav {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -5281,7 +5282,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -14050,7 +14051,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .s-service .entry-content ul {
-  background: #f7f7f7;
+  background: #fff;
   margin-top: 30px;
   padding: 20px 50px 20px 25px;
   display: table;
@@ -14296,7 +14297,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--4 a {
   width: 60px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .h-mail.h-mail--4 a span {
@@ -16693,8 +16694,6 @@ ol li {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
-  width: 99%;
-  margin-left: 5px;
 }
 
 .service-line-bottom-top {
@@ -18864,13 +18863,13 @@ ol li {
 .body1 .has-text-align-center1{
   border: 1px solid black !important;
   width:12.5%;
-  
+
 }
 
 .body1 .has-text-align-center2{
   border: 1px solid black !important;
   width:87.5%;
-  
+
 }
 
 .wp-block-table.is-style-stripes{
@@ -18927,20 +18926,20 @@ ol li {
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body1 tr td {
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body2 tr th {
     width:60%;
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
   }
-  
+
   .body2 tr td {
     width:40%;
     white-space: nowrap;
@@ -19042,7 +19041,7 @@ ol li {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19271,11 +19270,16 @@ body .is-layout-flex>* {
   width: 50%;
 }
 
+body .is-layout-flex {
+  gap:5em !important
+}
+
 @media screen and (max-width: 767px) {
   body .is-layout-flex>* {
     margin: 0;
     width: 100%;
   }
+  .wp-container-2.wp-container-2,
   .wp-container-3.wp-container-3,
   .wp-container-6.wp-container-6,
   .wp-container-9.wp-container-9,
@@ -19292,7 +19296,7 @@ body .is-layout-flex>* {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19590,3 +19594,8 @@ body .is-layout-flex>* {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
