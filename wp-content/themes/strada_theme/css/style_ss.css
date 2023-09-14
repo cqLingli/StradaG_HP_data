@@ -14134,8 +14134,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%; 一旦コマンド*/
+    /* margin-right: 5%; 一旦コマンド*/
   }
 }
 
@@ -19647,6 +19647,22 @@ strong {
     margin-bottom: 0px!important;
 }
 /*----------end 追加 CSS クラス table----------*/
+/*----------start 追加 CSS クラス border-bottom 2px----------*/
+.borderBottom-2{
+  font-size: 1.8rem;
+  color: #674932;
+  border-bottom: 2px solid #d6c6b9;
+  margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス border-bottom 2px----------*/
+/*----------start 追加 CSS クラス no-bold----------*/
+.noBoldLi{font-weight: 400!important;}
+/*----------end 追加 CSS クラス no-bold----------*/
+/*----------start 追加 CSS クラス underline----------*/
+.underline-p{
+  text-decoration: underline;
+}
+/*----------end 追加 CSS クラス underline----------*/
 
 .container_range{
   margin-left: 15%;
