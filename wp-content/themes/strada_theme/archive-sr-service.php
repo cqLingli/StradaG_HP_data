@@ -184,7 +184,7 @@ $_SESSION['page_type']="service";
                         <p class="sr_service_gm">コンテンツ</p>
                         <div class="sr_service_imgcontent">
                             <div class="sr_service_img1">
-                                <a href="<?php echo home_url('roumu');?>"><img
+                                <a href="<?php echo home_url('servicesr/setsuritsu-romu');?>"><img
                                             src="<?php echo get_template_directory_uri(); ?>/images/top_SS/労務トラブル_バナー.png"
                                             alt="" /></a>
                             </div>
