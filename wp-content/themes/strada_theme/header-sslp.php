@@ -11,11 +11,10 @@
   <!-- ファビコンの読み込み -->
   <link rel="icon" href="<?php echo home_url(); ?>/favicon-ss.ico" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo home_url(); ?>/apple-touch-icon-152x152.png" />
-
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_min.css" />
   <!-- プラグインのcssの読み込み -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.min.css" />
-
-  <!-- 書き出したcssの読み込み -->
+    <!-- 書き出したcssの読み込み -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_sslp.css" />
 
   <?php wp_head(); ?>

@@ -10,11 +10,9 @@ $_SESSION["CAT_SLUG"] = "";
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_min.css" />
 
-<body style="overflow:auto!important;">
+
+
 <div id="page_content" class="smooth-scroll page_content" data-scroll-container>
 
     <!-- END MV SECTION-->
@@ -835,7 +833,7 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="col-md-4 d-flex p-0">
                     <div class="contact__wrap contact__mail">
-                        <a href="/otoiawase/" class="contact__link">
+                        <a href="<?php echo home_url('sr/#Contact'); ?>" class="contact__link">
                             <div class="contact__content">
                                 <div class="contact__content__btn">
                                     <div class="content__btn__inner">
@@ -884,6 +882,6 @@ $_SESSION["CAT_SLUG"] = "";
 <script src="./js/jquery.min.js"></script>
 <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
 <script src="./js/script.min.js"></script>
-</body>
+
 
 <?php get_footer("ss"); ?>
