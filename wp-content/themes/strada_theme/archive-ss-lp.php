@@ -2,7 +2,7 @@
 session_start();
 $_SESSION['url_type']="sz";
 $_SESSION['page_type']="column";
-get_header("ss");
+get_header("sslp");
 $_SESSION["CAT_NAME"] = "";
 $_SESSION["CAT_SLUG"] = "";
 /**
@@ -14,11 +14,11 @@ $_SESSION["CAT_SLUG"] = "";
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_min.css" />
 
-<body>
+<body style="overflow:auto!important;">
 <div id="page_content" class="smooth-scroll page_content" data-scroll-container>
 
     <!-- END MV SECTION-->
-    <section id="top__mv" class="top__mv section__full__height" data-scroll-section data-scroll-section-id="section0" style="margin-top: 5%;">
+    <section id="top__mv" class="top__mv section__full__height" data-scroll-section data-scroll-section-id="section0">
 
         <div class="top__mv__wrap">
             <div class="top__mv__image" style="opacity: 1;width: 100%">
