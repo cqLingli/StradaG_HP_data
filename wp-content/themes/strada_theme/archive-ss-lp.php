@@ -10,10 +10,15 @@ $_SESSION["CAT_SLUG"] = "";
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
+<main class="l-main p-column">
+<div class="c-breakcrumds b_top">
+    <div class="l-container">
+        <?php if (function_exists('bcn_display')) { bcn_display(); }?>
+    </div>
+</div>
+<!-- end c-breakcrumds -->
 
-
-
-<div id="page_content" class="smooth-scroll page_content" data-scroll-container>
+<div id="page_content"  class="smooth-scroll page_content" data-scroll-container >
 
     <!-- END MV SECTION-->
     <section id="top__mv" class="top__mv section__full__height" data-scroll-section data-scroll-section-id="section0">
@@ -744,7 +749,7 @@ $_SESSION["CAT_SLUG"] = "";
 
             <div id="faq__section" class="accordion faq__wrap">
 
-                <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-01" aria-expanded="false" aria-controls="faq-01">
+                <div onclick="btn('faq-01')" id="div-faq-01" class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-01" aria-expanded="false" aria-controls="faq-01">
                     <div class="q__accordion">
                         <span class="q__label">Q</span>
                         <h3 class="faq__title">障害者手帳を持っているので申請はできるか?</h3>
@@ -756,7 +761,7 @@ $_SESSION["CAT_SLUG"] = "";
                     </div>
                 </div>
 
-                <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-02" aria-expanded="false" aria-controls="faq-02">
+                <div onclick="btn('faq-02')" id="div-faq-02" class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-02" aria-expanded="false" aria-controls="faq-02">
                     <div class="q__accordion">
                         <span class="q__label">Q</span>
                         <h3 class="faq__title">納付要件の見方がわからない。</h3>
@@ -770,7 +775,7 @@ $_SESSION["CAT_SLUG"] = "";
                     </div>
                 </div>
 
-                <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-03" aria-expanded="false" aria-controls="faq-03">
+                <div onclick="btn('faq-03')" id="div-faq-03" class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-03" aria-expanded="false" aria-controls="faq-03">
                     <div class="q__accordion">
                         <span class="q__label">Q</span>
                         <h3 class="faq__title">初診がどこだかわからない。</h3>
@@ -782,7 +787,7 @@ $_SESSION["CAT_SLUG"] = "";
                     </div>
                 </div>
 
-                <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-04" aria-expanded="false" aria-controls="faq-04">
+                <div onclick="btn('faq-04')" id="div-faq-04" class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse" data-bs-target="#faq-04" aria-expanded="false" aria-controls="faq-04">
                     <div class="q__accordion">
                         <span class="q__label">Q</span>
                         <h3 class="faq__title">自分の病気は申請できるのかわからない。</h3>
@@ -878,10 +883,30 @@ $_SESSION["CAT_SLUG"] = "";
     <!-- END CONTACT SECTION-->
 
 </div>
-
+</main>
 <script src="./js/jquery.min.js"></script>
 <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
 <script src="./js/script.min.js"></script>
+<script>
+    function btn(id){
+        var title = document.getElementById("div-"+id);
+        var content = document.getElementById(id);
+        var res = title.getAttribute("aria-expanded");
+        if(res==="false"){
+            content.className="a__accordion collapse show";
+            title.className="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5";
+            title.setAttribute("aria-expanded","true");
+        }else {
+            content.className="a__accordion collapse";
+            title.className="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5 collapsed";
+            title.setAttribute("aria-expanded","false");
+        }
 
+
+
+
+    }
+
+</script>
 
 <?php get_footer("ss"); ?>

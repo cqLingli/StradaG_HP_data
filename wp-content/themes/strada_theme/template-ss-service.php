@@ -179,7 +179,7 @@
                                 alt="" /></a>
                     </div>
                     <div class="sr_service_img3">
-                        <a href="<?php echo home_url('あなたは障害年金');?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
+                        <a href="<?php echo home_url('sr/srservice/あなたは障害年金');?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
                                 alt="" /></a>
                     </div>
                 </div>

@@ -2301,7 +2301,6 @@ header - ヘッダー
 
 .l-header {
   z-index: 99;
-  position: fixed;
   left: 0;
   width: 100%;
   background-color: #f8f8f8;
@@ -2310,7 +2309,6 @@ header - ヘッダー
 @media screen and (max-width: 991px) {
   .l-header {
     z-index: 99;
-    position: fixed;
     left: 0;
     width: 100%;
     background-color: #f8f8f8;
@@ -19796,5 +19794,13 @@ strong {
 .flexBox1, .flexBox2, .flexBox3, .flexBox4 {
   display: flex;
   margin-bottom: 25px;
+}
+.b_top{
+  margin-top: -10%;
+}
+@media screen and (max-width: 760px) {
+  .b_top{
+    margin-top: -20%;
+  }
 }
 
