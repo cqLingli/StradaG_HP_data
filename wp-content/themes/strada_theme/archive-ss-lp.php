@@ -99,7 +99,7 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="col-lg-4 d-flex p-0">
                     <div class="contact__wrap contact__mail">
-                        <a href="/otoiawase/" class="contact__link">
+                        <a href="<?php echo home_url('sr/#Contact'); ?>" class="contact__link">
                             <div class="contact__content">
                                 <div class="contact__content__btn">
                                     <div class="content__btn__inner">
