@@ -19166,13 +19166,23 @@ body .is-layout-flex {
     padding: 0px 15px 0px 15px;
 }
 .c-form .row select{
-    width: 100%;
-    height: 45px;
-    border-radius: 8px;
-    border: 2px solid #CCCCCC;
-    padding: 0 15px;
-    outline: none;
-    font-size: 1.6rem;
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  border: 2px solid #CCCCCC;
+  padding: 0 15px;
+  outline: none;
+  font-size: 1.6rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../images/common_sz/arrow_down.png") left center no-repeat;
+  background-size: 10px;
+  background-color: #fff
+}
+
+.c-form .row select::-ms-expand{
+display: none;
 }
 @media only screen and (max-width: 767px) {
     .l-reciuit .c-form{
