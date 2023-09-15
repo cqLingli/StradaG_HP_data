@@ -80,7 +80,7 @@
 
       </div>
       <div class="ssbtnwidth">
-        <a href="voice" style="text-decoration:none;">
+        <a href="taxvoicelist" style="text-decoration:none;">
           <div
             class="ssbtn">
             詳しく観る</div>
