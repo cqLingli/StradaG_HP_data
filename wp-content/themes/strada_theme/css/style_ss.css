@@ -14134,8 +14134,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%; 一旦コマンド*/
+    /* margin-right: 5%; 一旦コマンド*/
   }
 }
 
@@ -14311,7 +14311,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--5 a {
   width: 50px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .search_icon {
@@ -18651,7 +18651,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18698,7 +18698,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -19647,155 +19647,22 @@ strong {
     margin-bottom: 0px!important;
 }
 /*----------end 追加 CSS クラス table----------*/
-
-.container_range{
-  margin-left: 15%;
-  margin-right: 5%;
-  margin-top: 4%;
-}
-.roumu_left_title{
-  background: #f5f5f5;
-  padding: 15px 0 12px;
-  margin-bottom: 15px;
-}
-.tagBox {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-.tagBox h2, .midashi1 {
-  font-size: 3.0rem;
-  text-align: center;
-  margin-bottom: 60px;
-  position: relative;
+/*----------start 追加 CSS クラス border-bottom 2px----------*/
+.borderBottom-2{
+  font-size: 1.8rem;
   color: #674932;
-  font-weight: bold;
-}
-.tagBox h2::before, .midashi1::before {
-  width: 200px;
-  background: #ddd;
-}
-.tagBox h2::after, .midashi1::after {
-  width: 100px;
-  background: #ef7f27;
-}
-.tagBox h2::before, .midashi1::before, .tagBox h2::after, .midashi1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 5px;
-  bottom: -20px;
-  left: 50%;
-  margin-left: -100px;
-}
-
-
-.tagBox h3 {
-  font-size: 2.1rem;
-  background: #f0f6e9;
-  padding: 10px 15px 15px;
-  color: #333;
-  font-weight: bold;
-}
-.tagBox h4 {
-  font-size: 2.0rem;
-  color: #674932;
-  padding: 10px 0;
   border-bottom: 2px solid #d6c6b9;
-  margin-bottom: 20px;
-  font-weight: bold;
+  margin-bottom: 0px!important;
 }
+/*----------end 追加 CSS クラス border-bottom 2px----------*/
+/*----------start 追加 CSS クラス no-bold----------*/
+.noBoldLi{font-weight: 400!important;}
+/*----------end 追加 CSS クラス no-bold----------*/
+/*----------start 追加 CSS クラス underline----------*/
+.underline-p{
+  text-decoration: underline;
+}
+/*----------end 追加 CSS クラス underline----------*/
 
-.footerInner {
-  max-width: 1115px;
-  min-width: 1000px;
-  margin: 0 auto;
-  padding: 30px 0 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1.4rem;
-}
-.footerInfo {
-  order: 1;
-  text-align: left;
-  padding-right: 25px;
-  width: calc(100% - 380px);
-}
-.bnrBox {
-  max-width: 1115px;
-  min-width: 1000px;
-  margin: 0 auto 25px;
-  padding: 0 25px;
-}
-.flexBox1, .flexBox2, .flexBox3, .flexBox4 {
-  display: flex;
-  margin-bottom: 25px;
-}
-#copyright {
-  text-align: center;
-  font-size: 1.2rem;
-  padding: 5px;
-  background: #ef7f27;
-  color: #fff;
-}
-.footerMenu {
-  order: 2;
-  width: 355px;
-}
-.footerMenu ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footerMenu ul li:nth-of-type(odd) {
-  margin-right: 24.9px;
-}
-.footerMenu ul li {
-  width: calc((100% - 25px) / 2);
-  margin-bottom: 5px;
-}
-.footerMenu ul li::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0da";
-  margin-right: 5px;
-}
-.footerInfo address > div:nth-of-type(1) {
-  font-weight: bold;
-  font-size: 1.6rem;
-}
-.footerMenu ul li a {
-  text-decoration: none;
-  color: #666;
-}
-#main p {
-  margin-bottom: 25px;
-}
-.container_range p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 
-.bnrBox {
-  max-width: 1115px;
-  min-width: 1000px;
-  margin: 0 auto 25px;
-  padding: 0 25px;
-}
-.flexBox1, .flexBox2, .flexBox3, .flexBox4 {
-  display: flex;
-  margin-bottom: 25px;
-}
-.bnrBox {
-  max-width: 1115px;
-  min-width: 1000px;
-  margin: 0 auto 25px;
-  padding: 0 25px;
-}
-.flexBox1, .flexBox2, .flexBox3, .flexBox4 {
-  display: flex;
-  margin-bottom: 25px;
-}
 

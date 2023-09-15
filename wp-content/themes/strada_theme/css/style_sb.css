@@ -4003,7 +4003,8 @@ div#企業概要 {
 
 .p-column__list .item .txt .content {
   font-size: 1.4rem;
-  margin-top: 10%;
+  margin-top: -5%;
+  font-weight: bold;
 }
 
 .p-column__01 {
@@ -4465,7 +4466,7 @@ div#企業概要 {
 .p-column__slider .p-column__list .item .image figure img {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 120%;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -4532,7 +4533,7 @@ div#企業概要 {
 }
 
 .p-column__slider .p-column__list .slick-next {
-  left: 0;
+  right: 0;
 }
 
 .p-column__slider .p-column__list .slick-next::before {
@@ -18680,7 +18681,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18727,7 +18728,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -19433,6 +19434,8 @@ ol li {
   background: linear-gradient(170deg, #9ecf41 10%, #32833A 80%);
   display: inline-block;
 }
+
+
 .template-casestudy {
   margin-left: 5.5%;
   margin-right: 5.5%;
