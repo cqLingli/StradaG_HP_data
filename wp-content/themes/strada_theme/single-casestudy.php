@@ -12,8 +12,8 @@ $get_post_type_archive_link = get_post_type_archive_link('casestudy');
     </div>
     <!-- end c-breakcrumds -->
     <div class="l-container">
-        <div class="firstview_casestudy">
-            <div class="container">
+        <div class="c-mainTitle template-casestudy template-casestudy_add">
+            <div class="casestudy_content">
                 <p class="english">Case study</p>
                 <h1 class="title">事例</h1>
             </div>
@@ -47,18 +47,29 @@ $get_post_type_archive_link = get_post_type_archive_link('casestudy');
                         <div class="date-cat">
                             <span class="date"><?php echo get_the_date('Y.m.j'); ?></span>
                             <?php
-                            $terms = wp_get_post_terms($post->ID, 'category', array(
+//                            $terms = wp_get_post_terms($post->ID, 'category', array(
+//                                'hide_empty' => false,
+//                                'parent' => 0,
+//                                'order' => 'ASC',
+//                                'orderby' => 'term_id'
+//                            ) );
+//                            foreach ( $terms as $term) {
+//                                $tax_link = get_term_link($term->slug, 'category');
+//                                $tax_name = $term->name;
+//                                $tax_slug = $term->slug;
+//                                echo '<span class="cat">'.$tax_name.'</span>';
+//                                $cat_name = $tax_name;
+//                            }
+                            $terms = wp_get_post_terms($post->ID, 'casestudy_type', array(
                                 'hide_empty' => false,
                                 'parent' => 0,
                                 'order' => 'ASC',
                                 'orderby' => 'term_id'
                             ) );
                             foreach ( $terms as $term) {
-                                $tax_link = get_term_link($term->slug, 'category');
                                 $tax_name = $term->name;
-                                $tax_slug = $term->slug;
                                 echo '<span class="cat">'.$tax_name.'</span>';
-                                $cat_name = $tax_name;
+                                break;
                             }
                             ?>
                         </div>
@@ -224,7 +235,7 @@ $get_post_type_archive_link = get_post_type_archive_link('casestudy');
                                 <?php endif;
                                 $next_post = get_next_post();
                                 if (!empty( $next_post )): ?>
-                                    <div class="item prev">
+                                    <div class="item next">
                                         <div class="image">
                                             <figure>
                                                 <?php
