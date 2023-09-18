@@ -883,9 +883,9 @@ $_SESSION["CAT_SLUG"] = "";
 
 </div>
 </main>
-<script src="./js/jquery.min.js"></script>
-<script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
-<script src="./js/script.min.js"></script>
+<!-- <script src="./js/jquery.min.js"></script> -->
+<!-- <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script> -->
+<!-- <script src="./js/script.min.js"></script> -->
 <script>
     function btn(id){
         var title = document.getElementById("div-"+id);
