@@ -163,6 +163,7 @@ html {
 
 html,
 body {
+  overflow-x: hidden;
   background: #F8F8F8;
 }
 
@@ -188,7 +189,7 @@ a:hover {
 }
 
 .l-main {
-  margin-top: 150px;
+  /* margin-top: 150px; 一旦コマンド*/
 }
 
 @media screen and (max-width: 991px) {

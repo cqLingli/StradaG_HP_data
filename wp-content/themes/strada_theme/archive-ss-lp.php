@@ -10,14 +10,13 @@ $_SESSION["CAT_SLUG"] = "";
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
-<main class="l-main p-column">
-<div class="c-breakcrumds b_top">
+<main class="l-main  p-service">
+<div class="c-breakcrumds">
     <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
     </div>
 </div>
 <!-- end c-breakcrumds -->
-
 <div id="page_content"  class="smooth-scroll page_content" data-scroll-container >
 
     <!-- END MV SECTION-->
@@ -901,10 +900,6 @@ $_SESSION["CAT_SLUG"] = "";
             title.className="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5 collapsed";
             title.setAttribute("aria-expanded","false");
         }
-
-
-
-
     }
 
 </script>
