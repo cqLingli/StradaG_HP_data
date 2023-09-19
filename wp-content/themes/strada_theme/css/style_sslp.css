@@ -189,7 +189,7 @@ a:hover {
 }
 
 .l-main {
-  /* margin-top: 150px; 一旦コマンド*/
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2302,6 +2302,7 @@ header - ヘッダー
 
 .l-header {
   z-index: 99;
+  position: fixed;
   left: 0;
   width: 100%;
   background-color: #f8f8f8;
@@ -2310,6 +2311,7 @@ header - ヘッダー
 @media screen and (max-width: 991px) {
   .l-header {
     z-index: 99;
+    position: fixed;
     left: 0;
     width: 100%;
     background-color: #f8f8f8;
@@ -2810,6 +2812,7 @@ breadcrumbs - パンくずリスト
   align-items: center;
   width: 100%;
   height: 60px;
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 991px) {
@@ -14309,7 +14312,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--5 a {
   width: 50px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .search_icon {
@@ -19645,6 +19648,22 @@ strong {
     margin-bottom: 0px!important;
 }
 /*----------end 追加 CSS クラス table----------*/
+/*----------start 追加 CSS クラス border-bottom 2px----------*/
+.borderBottom-2{
+  font-size: 1.8rem;
+  color: #674932;
+  border-bottom: 2px solid #d6c6b9;
+  margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス border-bottom 2px----------*/
+/*----------start 追加 CSS クラス no-bold----------*/
+.noBoldLi{font-weight: 400!important;}
+/*----------end 追加 CSS クラス no-bold----------*/
+/*----------start 追加 CSS クラス underline----------*/
+.underline-p{
+  text-decoration: underline;
+}
+/*----------end 追加 CSS クラス underline----------*/
 
 .container_range{
   margin-left: 15%;
