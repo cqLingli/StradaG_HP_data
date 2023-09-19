@@ -18480,7 +18480,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+  padding-left: 8px;
   font-size: 2rem;
 }
 
