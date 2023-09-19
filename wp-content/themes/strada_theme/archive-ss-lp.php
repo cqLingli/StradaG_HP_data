@@ -1,19 +1,21 @@
-<?php
+  <!-- ファビコンの読み込み -->
+  <link rel="icon" href="<?php echo home_url(); ?>/favicon-ss.ico" />
+<!-- .l-main | メインコンテンツ -->
+<main>
+<div id="page_content"  class="smooth-scroll page_content" data-scroll-container >
+    <!-- END MV SECTION-->
+    <section id="top__mv" class="top__mv section__full__height" data-scroll-section data-scroll-section-id="section0">
+    <?php
 session_start();
 $_SESSION['url_type']="ss";
-$_SESSION['page_type']="service";
 get_header("sslp");
+$_SESSION['page_type']="service";
 $_SESSION["CAT_NAME"] = "";
 $_SESSION["CAT_SLUG"] = "";
 /**
 * Template Name: Archive Sz lp
 */
 ?>
-<!-- .l-main | メインコンテンツ -->
-<main>
-<div id="page_content"  class="smooth-scroll page_content" data-scroll-container >
-    <!-- END MV SECTION-->
-    <section id="top__mv" class="top__mv section__full__height" data-scroll-section data-scroll-section-id="section0">
     <div class="c-breakcrumds">
     <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
