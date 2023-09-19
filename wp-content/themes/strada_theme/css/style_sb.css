@@ -14152,8 +14152,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%; 一旦コマンド*/
+    /* margin-right: 5%; 一旦コマンド*/
   }
 }
 
@@ -14723,7 +14723,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #00A159;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19854,3 +19854,50 @@ strong {
   font-weight: bold;
 }
 /*----------end strong----------*/
+/*----------start 追加 CSS クラス table----------*/
+.sample-table table tr td{
+  border: none;
+  background-color: #fff;
+}
+
+.sample-table1 table tr{
+  border: 1px solid #808c96;
+  background-color: #fff;
+}
+.sample-table1 table th{
+  width: 30%;
+}
+
+.sample-table2 table th{
+  background-color: #f5f5f5;
+  vertical-align:middle;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.sample-table2 table td{
+  background-color: #fff;
+  vertical-align:top;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.td1{
+  background:#fcf3eb!important
+}
+.sample-table2 ul{
+  margin-top: 0px!important;
+  list-style-type: none;
+}
+.sample-table2 ul.listNonStyle li {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position:inherit;
+}
+.listBorderB li{
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+}
+.mb0 {
+    margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス table----------*/

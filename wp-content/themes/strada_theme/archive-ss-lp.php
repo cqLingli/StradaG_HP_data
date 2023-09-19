@@ -10,14 +10,13 @@ $_SESSION["CAT_SLUG"] = "";
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
-<main class="l-main p-column">
-<div class="c-breakcrumds b_top">
+<main class="l-main  p-service">
+<div class="c-breakcrumds">
     <div class="l-container">
         <?php if (function_exists('bcn_display')) { bcn_display(); }?>
     </div>
 </div>
 <!-- end c-breakcrumds -->
-
 <div id="page_content"  class="smooth-scroll page_content" data-scroll-container >
 
     <!-- END MV SECTION-->
@@ -99,7 +98,7 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="col-lg-4 d-flex p-0">
                     <div class="contact__wrap contact__mail">
-                        <a href="/otoiawase/" class="contact__link">
+                        <a href="<?php echo home_url('sr/#Contact'); ?>" class="contact__link">
                             <div class="contact__content">
                                 <div class="contact__content__btn">
                                     <div class="content__btn__inner">
@@ -884,9 +883,9 @@ $_SESSION["CAT_SLUG"] = "";
 
 </div>
 </main>
-<script src="./js/jquery.min.js"></script>
-<script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
-<script src="./js/script.min.js"></script>
+<!-- <script src="./js/jquery.min.js"></script> -->
+<!-- <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script> -->
+<!-- <script src="./js/script.min.js"></script> -->
 <script>
     function btn(id){
         var title = document.getElementById("div-"+id);
@@ -901,10 +900,6 @@ $_SESSION["CAT_SLUG"] = "";
             title.className="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5 collapsed";
             title.setAttribute("aria-expanded","false");
         }
-
-
-
-
     }
 
 </script>
