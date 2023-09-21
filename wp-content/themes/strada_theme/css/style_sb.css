@@ -14128,7 +14128,7 @@ body.tax-taxonomy_position .p-member__list img {
   }
 
   .s-service .entry-content h3 {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 2rem;
     padding: 4px 15px;
   }
@@ -19476,7 +19476,7 @@ ol li {
 /* //事業内容二列表示 */
 body .is-layout-flex>* {
   margin: 0;
-  width: 50%;
+  width: 48%;
 }
 
 body .is-layout-flex {
@@ -19488,9 +19488,17 @@ body .is-layout-flex {
     margin: 0;
     width: 100%;
   }
+  body .is-layout-flex {
+    gap:0em !important
+  }
+  .wp-container-1.wp-container-1,
+  .wp-container-2.wp-container-2,
   .wp-container-3.wp-container-3,
+  .wp-container-5.wp-container-5,
   .wp-container-6.wp-container-6,
+  .wp-container-8.wp-container-8,
   .wp-container-9.wp-container-9,
+  .wp-container-11.wp-container-11,
   .wp-container-12.wp-container-12,
   .wp-container-15.wp-container-15,
   .wp-container-18.wp-container-18 {
@@ -19901,3 +19909,19 @@ strong {
     margin-bottom: 0px!important;
 }
 /*----------end 追加 CSS クラス table----------*/
+/*----------start leftimg----------*/
+.leftimg{
+  margin-left:-55px !important;
+}
+/* .imgGroup{
+  padding:30px !important;
+} */
+@media only screen and (max-width: 767px) {
+  .leftimg{
+    margin-left:0px !important;
+  }
+  /* .imgGroup{
+    padding:10px !important;
+  } */
+}
+/*----------end leftimg----------*/
