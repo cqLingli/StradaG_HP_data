@@ -17,7 +17,6 @@ License: none (public domain)
 html,
 body,
 div,
-span,
 applet,
 object,
 iframe,
@@ -2814,6 +2813,7 @@ breadcrumbs - パンくずリスト
   width: 100%;
   height: 60px;
   margin-top: 150px;
+  background-color: #fff
 }
 
 @media screen and (max-width: 991px) {
@@ -18317,7 +18317,7 @@ ol li {
   .c-breakcrumds {
     height: 20px;
     padding-left: 3%;
-    margin-top:80px
+    margin-top:75px
   }
 
   .menber_single-width {
@@ -19828,3 +19828,89 @@ strong {
   }
 }
 
+.blankArea{
+  height:150px
+}
+
+
+@media screen and (max-width: 767px) {
+  .blankArea{
+    height:75px
+  }
+
+  .top__mv__wrap .top__mv__image .top__mv__image__item{
+    width:auto;
+    height:auto
+  }
+  
+  .section__full__height{
+    height:24vh
+  }
+  
+  .top__mv__caption__wrap .top__mv__caption{
+    font-size:clamp(1.2rem, 8.3333333333vw, 1.5rem)
+  }
+  .top__mv__caption__wrap .top__mv__caption .caption__text__wrap .caption__text{
+    padding:0.8rem 1rem
+  }
+  .top__mv__note .top__mv__note__image{
+    width:45px;
+    margin-right:5px
+  }
+  .top__mv__note{
+    bottom:0rem
+  }
+  .section__wrapper{
+    padding:2.4rem 0;
+  }
+  .section__note__title{
+    font-size:2rem
+  }
+  .check__list .check__list__item .check__list__text.check__list__text__big{
+    font-size:1.5rem
+  }
+  .mt-6{
+    font-size: 1rem;
+  }
+  .text-center{
+    font-size: 1rem;
+  }
+  .section__title{
+    font-size: 2rem;
+  }
+  .mb-7{
+    font-size: 1rem;
+  }
+  .section__note__title__sub{
+    font-size: 2rem;
+  }
+  .mb-5{
+    font-size: 1rem;
+  }
+  .section__text__big{
+    font-size: 1.5rem;
+  }
+  .col-md-12{
+    font-size: 1rem;
+  }
+  .text-orange{
+    font-size: 1rem;
+  }
+
+  .text_shomei1{
+    font-size: 1rem;
+  }
+  .card__text__wrap .card__text{
+    font-size: 1.2rem;
+  }
+  .faq__title{
+    font-size:1.2rem
+  }
+  .q__label{
+    font-size:1.4rem;
+    padding-right:10px
+  }
+  .mb-0{
+    font-size: 1rem;
+  }
+}
