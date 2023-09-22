@@ -219,10 +219,7 @@ header の大枠
 }
 
 .l-header_topline {
-  background: url("../images/common/top_line.png");
-  background-size: 100% 100%;
-  height: 10px;
-  margin-top: 5px;
+  height: 5px
 }
 
 /* =========================================================
@@ -18500,7 +18497,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+   /*padding-left: 8px;*/
   font-size: 2rem;
 }
 
@@ -19586,6 +19583,7 @@ ol li {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
+	box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
