@@ -4003,7 +4003,8 @@ div#企業概要 {
 
 .p-column__list .item .txt .content {
   font-size: 1.4rem;
-  margin-top: 10%;
+  margin-top: -5%;
+  font-weight: bold;
 }
 
 .p-column__01 {
@@ -4465,7 +4466,7 @@ div#企業概要 {
 .p-column__slider .p-column__list .item .image figure img {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 120%;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -4532,7 +4533,7 @@ div#企業概要 {
 }
 
 .p-column__slider .p-column__list .slick-next {
-  left: 0;
+  right: 0;
 }
 
 .p-column__slider .p-column__list .slick-next::before {
@@ -14068,7 +14069,7 @@ body.tax-taxonomy_position .p-member__list img {
 }
 
 .s-service .entry-content ul {
-  background: #f7f7f7;
+  background: #fff;
   margin-top: 30px;
   padding: 20px 50px 20px 25px;
   display: table;
@@ -14127,7 +14128,7 @@ body.tax-taxonomy_position .p-member__list img {
   }
 
   .s-service .entry-content h3 {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 2rem;
     padding: 4px 15px;
   }
@@ -14151,8 +14152,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%; 一旦コマンド*/
+    /* margin-right: 5%; 一旦コマンド*/
   }
 }
 
@@ -14722,7 +14723,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #00A159;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -16738,7 +16739,7 @@ ol li {
 
 .service-line-bottom-top2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -18509,7 +18510,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+  padding-left: 8px;
   font-size: 2rem;
 }
 
@@ -18680,7 +18681,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18727,7 +18728,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #f6f6f6;
+    background-color: #fff;
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -18992,7 +18993,7 @@ ol li {
   margin-left: auto;
   background: #00A159;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19433,6 +19434,8 @@ ol li {
   background: linear-gradient(170deg, #9ecf41 10%, #32833A 80%);
   display: inline-block;
 }
+
+
 .template-casestudy {
   margin-left: 5.5%;
   margin-right: 5.5%;
@@ -19473,7 +19476,11 @@ ol li {
 /* //事業内容二列表示 */
 body .is-layout-flex>* {
   margin: 0;
-  width: 50%;
+  width: 48%;
+}
+
+body .is-layout-flex {
+  gap:5em !important
 }
 
 @media screen and (max-width: 767px) {
@@ -19481,9 +19488,17 @@ body .is-layout-flex>* {
     margin: 0;
     width: 100%;
   }
+  body .is-layout-flex {
+    gap:0em !important
+  }
+  .wp-container-1.wp-container-1,
+  .wp-container-2.wp-container-2,
   .wp-container-3.wp-container-3,
+  .wp-container-5.wp-container-5,
   .wp-container-6.wp-container-6,
+  .wp-container-8.wp-container-8,
   .wp-container-9.wp-container-9,
+  .wp-container-11.wp-container-11,
   .wp-container-12.wp-container-12,
   .wp-container-15.wp-container-15,
   .wp-container-18.wp-container-18 {
@@ -19842,3 +19857,87 @@ font-size: 1.6rem;
 }
 }
 /*----------end reciuit----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
+/*----------start 追加 CSS クラス table----------*/
+.sample-table table tr td{
+  border: none;
+  background-color: #fff;
+}
+
+.sample-table1 table tr{
+  border: 1px solid #808c96;
+  background-color: #fff;
+}
+.sample-table1 table th{
+  width: 30%;
+}
+
+.sample-table2 table th{
+  background-color: #f5f5f5;
+  vertical-align:middle;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.sample-table2 table td{
+  background-color: #fff;
+  vertical-align:top;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.td1{
+  background:#fcf3eb!important
+}
+.sample-table2 ul{
+  margin-top: 0px!important;
+  list-style-type: none;
+}
+.sample-table2 ul.listNonStyle li {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position:inherit;
+}
+.listBorderB li{
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+}
+.mb0 {
+    margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス table----------*/
+/*----------start leftimg----------*/
+.leftimg{
+  margin-left:-55px !important;
+}
+/* .imgGroup{
+  padding:30px !important;
+} */
+@media only screen and (max-width: 767px) {
+  .leftimg{
+    margin-left:0px !important;
+  }
+  /* .imgGroup{
+    padding:10px !important;
+  } */
+}
+/*----------end leftimg----------*/
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}

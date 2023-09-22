@@ -28,7 +28,6 @@ $_SESSION['page_type']="service";
             <p>入管業務に関する申請作業は多種の書類を揃えねばならず、一度申請が却下されてしまうと二度目の申請は難易度が増してしまいます。</p>
             <p>ご自分で申請しようと煩雑な作業で時間を取られるより、行政書士への依頼をおすすめします。</p>
             <hr class="service-line-bottom-top2" />
-            <div style="margin-top: 3%;"></div>
         </div>
     </div>
   <!-- end c-mainTitle -->

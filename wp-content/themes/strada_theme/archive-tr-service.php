@@ -26,7 +26,7 @@ $_SESSION['page_type']="service";
 
         <div class="l-container">
             <div class="service_title_01">
-                <hr class="service-line-bottom2" />
+                <hr class="service-line-bottom1" />
                 <span class="service-line-bottom2-span">未来につながるアドバイスを</span>
                 <p>税理士法人や会計士と業務提携している不動産会社であり、「税金対策の為の不動産取引」「不動産取引の為の税金対策」を得意としています。</p>
                 <p>相続等、節税などに絡む、お客様の不動産売買と税金対策を総合的にコンサルタントすることで、お客様満足度の最大化を目指します。</p>
