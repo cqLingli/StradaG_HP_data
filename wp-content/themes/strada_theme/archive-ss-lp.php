@@ -11,42 +11,38 @@ $_SESSION["CAT_SLUG"] = "";
 ?>
 <!-- .l-main | メインコンテンツ -->
 <main>
-    <div id="page_content" class="smooth-scroll page_content" data-scroll-container>
-        <!-- END MV SECTION-->
-        <section id="top__mv" class="top__mv section__full__height" data-scroll-section
-            data-scroll-section-id="section0">
-            <div class="c-breakcrumds">
-                <div class="l-container">
-                    <?php if (function_exists('bcn_display')) { bcn_display(); }?>
-                </div>
+    <div id="page_content" class="smooth-scroll page_content" data-scroll-container="">
+
+        <div class="c-breakcrumds">
+            <div class="l-container">
+                <?php if (function_exists('bcn_display')) { bcn_display(); }?>
             </div>
+        </div>
+        <section id="top__mv" class="top__mv section__full__height" data-scroll-section=""
+            data-scroll-section-id="section0" data-scroll-section-inview="">
             <!-- end c-breakcrumds -->
             <div class="top__mv__wrap">
-                <div class="top__mv__image" style="opacity: 1;width: 100%">
-                    <img style="translate: none;scale: none;opacity: 1;"
-                        src="<?php echo home_url('wp-content/uploads/2023/09/mv-01.jpg')?>" alt="ストラーダ社会保険労務士法人"
+                <div class="top__mv__image">
+                    <img src="<?php echo home_url('wp-content/uploads/2023/09/mv-01.jpg')?>" alt="ストラーダ社会保険労務士法人"
                         class="top__mv__image__item">
                 </div>
             </div>
 
             <div class="top__mv__caption__wrap">
-                <h2 class="top__mv__caption" style="font-size: 3.2rem!important;">
-                    <span class="caption__text__wrap" style="opacity: 1">
+                <h2 class="top__mv__caption">
+                    <span class="caption__text__wrap">
                         <span class="caption__text caption-01">
-                            <span class="caption__text__inner"
-                                style="translate: none;rotate: none; scale: none;transform: translate(0px, 0px);">あなたは、</span>
+                            <span class="caption__text__inner">あなたは、</span>
                         </span>
                     </span>
-                    <span class="caption__text__wrap" style="opacity: 1">
+                    <span class="caption__text__wrap">
                         <span class="caption__text caption-02">
-                            <span class="caption__text__inner"
-                                style="translate: none;rotate: none; scale: none;transform: translate(0px, 0px);">障害年金をもらえる</span>
+                            <span class="caption__text__inner">障害年金をもらえる</span>
                         </span>
                     </span>
-                    <span class="caption__text__wrap" style="opacity: 1">
+                    <span class="caption__text__wrap">
                         <span class="caption__text caption-03">
-                            <span class="caption__text__inner"
-                                style="translate: none;rotate: none; scale: none;transform: translate(0px, 0px);">かもしれません</span>
+                            <span class="caption__text__inner">かもしれません</span>
                         </span>
                     </span>
                 </h2>
@@ -54,18 +50,18 @@ $_SESSION["CAT_SLUG"] = "";
 
             <div class="top__mv__note">
                 <div class="top__mv__note__image mv__note__image-01">
-                    <img style="width: 150px;" src="<?php echo home_url('wp-content/uploads/2023/09/p-01.svg')?>"
-                        alt="ストラーダ社会保険労務士法人" class="top__mv__note__image">
+                    <img src="<?php echo home_url('wp-content/uploads/2023/09/p-01.svg')?>" alt="ストラーダ社会保険労務士法人"
+                        class="top__mv__note__image">
                 </div>
 
                 <div class="top__mv__note__image mv__note__image-02">
-                    <img style="width: 150px;" src="<?php echo home_url('wp-content/uploads/2023/09/p-02.svg')?>"
-                        alt="ストラーダ社会保険労務士法人" class="top__mv__note__image">
+                    <img src="<?php echo home_url('wp-content/uploads/2023/09/p-02.svg')?>" alt="ストラーダ社会保険労務士法人"
+                        class="top__mv__note__image">
                 </div>
 
                 <div class="top__mv__note__image mv__note__image-03">
-                    <img style="width: 150px;" src="<?php echo home_url('wp-content/uploads/2023/09/p-03.svg')?>"
-                        alt="ストラーダ社会保険労務士法人" class="top__mv__note__image">
+                    <img src="<?php echo home_url('wp-content/uploads/2023/09/p-03.svg')?>" alt="ストラーダ社会保険労務士法人"
+                        class="top__mv__note__image">
                 </div>
             </div>
 
@@ -73,8 +69,8 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- MV SECTION-->
 
         <!-- CONTACT SECTION-->
-        <section id="contact__section" class="section__wrapper" data-scroll-section data-scroll-section-id="section1"
-            data-scroll-section-inview>
+        <section id="contact__section" class="section__wrapper" data-scroll-section="" data-scroll-section-id="section1"
+            data-scroll-section-inview="">
 
             <div class="container-fluid">
 
@@ -154,7 +150,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END ABOUT SECTION-->
 
         <!-- SECTION 01-->
-        <section class="section__wrapper" data-scroll-section data-scroll-section-id="section2">
+        <section class="section__wrapper" data-scroll-section="" data-scroll-section-id="section2">
 
             <div class="container">
 
@@ -182,8 +178,8 @@ $_SESSION["CAT_SLUG"] = "";
                     <div class="col-lg-2"></div>
 
                     <div class="col-lg-8">
-                        <div class="bordred-box bordred-box__negative px-2 px-md-7 py-5 py-md-9 mb-5 mb-md-7"
-                            data-scroll data-scroll-speed="2">
+                        <div class="bordred-box bordred-box__negative px-2 px-md-7 py-5 py-md-9 mb-5 mb-md-7 is-inview"
+                            data-scroll="" data-scroll-speed="2">
                             <ul class="check__list">
                                 <li class="check__list__item">
                                     <p class="check__list__text check__list__text__big">がんになり、長期の療養が必要になった。</p>
@@ -220,7 +216,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 01-->
 
         <!-- SECTION 02-->
-        <section class="section__wrapper section__bkg__light" data-scroll-section data-scroll-section-id="section3">
+        <section class="section__wrapper section__bkg__light" data-scroll-section="" data-scroll-section-id="section3">
 
             <div class="container">
 
@@ -230,7 +226,7 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="row">
 
-                    <div class="col-lg-7 d-flex align-items-center justify-content-center" data-scroll
+                    <div class="col-lg-7 d-flex align-items-center justify-content-center is-inview" data-scroll=""
                         data-scroll-speed="2">
 
                         <div class="d-block">
@@ -289,11 +285,11 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 02-->
 
         <!-- SECTION 03-->
-        <section class="section__wrapper section__bkg__light" data-scroll-section data-scroll-section-id="section4">
+        <section class="section__wrapper section__bkg__light" data-scroll-section="" data-scroll-section-id="section4">
 
             <div class="container">
 
-                <div class="section__title__wrap" data-scroll data-scroll-speed="2">
+                <div class="section__title__wrap is-inview" data-scroll="" data-scroll-speed="2">
                     <h2 class="section__title">年金の専門家である<br>社会保険労務士が障害年金受給を<br>サポートいたします。</h2>
                 </div>
 
@@ -306,7 +302,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div class="col-lg-7 d-flex align-items-center justify-content-center" data-scroll
+                    <div class="col-lg-7 d-flex align-items-center justify-content-center is-inview" data-scroll=""
                         data-scroll-speed="1">
 
                         <div class="d-block">
@@ -335,7 +331,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 03-->
 
         <!-- SECTION 03-->
-        <section class="section__wrapper section__bkg__light" data-scroll-section data-scroll-section-id="section5">
+        <section class="section__wrapper section__bkg__light" data-scroll-section="" data-scroll-section-id="section5">
 
             <div class="container">
 
@@ -358,7 +354,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 03-->
 
         <!-- SECTION 03-->
-        <section class="section__wrapper section__bkg__yel" data-scroll-section data-scroll-section-id="section6">
+        <section class="section__wrapper section__bkg__yel" data-scroll-section="" data-scroll-section-id="section6">
 
             <div class="container">
 
@@ -372,16 +368,16 @@ $_SESSION["CAT_SLUG"] = "";
 
                         <div class="nav nav-tabs tab__btn__wrap" role="tablist">
                             <div class="nav-item tab__btn" role="presentation">
-                                <a href="" class="tab__link active" id="tab-01" data-bs-toggle="tab"
-                                    data-bs-target="#tab-01-pane" role="tab" aria-controls="tab-01-pane"
-                                    aria-selected="true">
+                                <a href="" class="tab__link active" id="tab-01"
+                                    data-bs-toggle="tab" data-bs-target="#tab-01-pane" role="tab"
+                                    aria-controls="tab-01-pane" aria-selected="true">
                                     <span>障害基礎年金</span>
                                 </a>
                             </div>
                             <div class="nav-item tab__btn" role="presentation">
-                                <a href="" class="tab__link" id="tab-02" data-bs-toggle="tab"
-                                    data-bs-target="#tab-02-pane" role="tab" aria-controls="tab-02-pane"
-                                    aria-selected="false">
+                                <a href="" class="tab__link" id="tab-02"
+                                    data-bs-toggle="tab" data-bs-target="#tab-02-pane" role="tab"
+                                    aria-controls="tab-02-pane" aria-selected="false" tabindex="-1">
                                     <span>障害厚生年金</span>
                                 </a>
                             </div>
@@ -394,7 +390,7 @@ $_SESSION["CAT_SLUG"] = "";
                         <div class="tab-pane fade show active" id="tab-01-pane" role="tabpanel" aria-labelledby="tab-01"
                             tabindex="0">
                             <p class="section__text__big">障害基礎年金とは、初診日に国民年金に加入していた人が対象です。</p>
-                            <p><span class="text-orange">※</span> 初診日…けがや病気で初めて病院を受診した日</p>
+                            <p class="text_shomei1"><span class="text-orange">※</span> 初診日…けがや病気で初めて病院を受診した日</p>
                             <h3 class="mini__title">
                                 <span class="mini__title__text">《具体例》</span>
                             </h3>
@@ -415,12 +411,12 @@ $_SESSION["CAT_SLUG"] = "";
                         <div class="tab-pane fade" id="tab-02-pane" role="tabpanel" aria-labelledby="tab-02"
                             tabindex="0">
                             <p class="section__text__big">「障害厚生年金」は、初診日に会社の厚生年金に加入していた人が対象です。</p>
-                            <p>初診日の要件が大切であり、初診日にどの年金制度に加入していたかによって、年金の種類や請求先が変わってきます。</p>
-                            <p>また、障害年金が支給される条件として「障害の程度」障害等級（1～3級）が定められています。この障害等級は、障害手帳や労働者災害補償保険法に定める障害とは異なります。</p>
+                            <p class="text_shomei1">初診日の要件が大切であり、初診日にどの年金制度に加入していたかによって、年金の種類や請求先が変わってきます。</p>
+                            <p class="text_shomei1">また、障害年金が支給される条件として「障害の程度」障害等級（1～3級）が定められています。この障害等級は、障害手帳や労働者災害補償保険法に定める障害とは異なります。</p>
                             <h3 class="mini__title">
                                 <span class="mini__title__text">《障害年金1級》</span>
                             </h3>
-                            <p>誰かの介助を受けなければ日常生活を送ることが困難な障害の状態です。</p>
+                            <p class="text_shomei1">誰かの介助を受けなければ日常生活を送ることが困難な障害の状態です。</p>
                             <p class="section__text__big">具体的な病状：</p>
                             <ul class="check__list mb-7">
                                 <li class="check__list__item">
@@ -434,8 +430,8 @@ $_SESSION["CAT_SLUG"] = "";
                             <h3 class="mini__title">
                                 <span class="mini__title__text">《障害年金2級》</span>
                             </h3>
-                            <p>必ずしも誰かに介助してもらう必要はなくても、日常生活は極めて難しい状態のこと。</p>
-                            <p>働いて収入を得ることができないほどの障害です。</p>
+                            <p class="text_shomei1">必ずしも誰かに介助してもらう必要はなくても、日常生活は極めて難しい状態のこと。</p>
+                            <p class="text_shomei1">働いて収入を得ることができないほどの障害です。</p>
                             <p class="section__text__big">具体的な病状：</p>
                             <ul class="check__list mb-7">
                                 <li class="check__list__item">
@@ -447,8 +443,8 @@ $_SESSION["CAT_SLUG"] = "";
                             <h3 class="mini__title">
                                 <span class="mini__title__text">《障害年金3級》</span>
                             </h3>
-                            <p>働けないなど著しい制限を受ける。または、働くことに著しい制限を加えることを必要とするような状態です。</p>
-                            <p><span class="text-orange">※ 初診日…けがや病気で初めて病院を受診した日</span></p>
+                            <p class="text_shomei1">働けないなど著しい制限を受ける。または、働くことに著しい制限を加えることを必要とするような状態です。</p>
+                            <p class="text_shomei1"><span class="text-orange">※ 初診日…けがや病気で初めて病院を受診した日</span></p>
                             <p class="section__text__big">具体的な病状：</p>
                             <ul class="check__list mb-7">
                                 <li class="check__list__item">
@@ -460,8 +456,8 @@ $_SESSION["CAT_SLUG"] = "";
                             <h3 class="mini__title">
                                 <span class="mini__title__text">《障害手当金》</span>
                             </h3>
-                            <p>けがや病気が治ったり、その症状が固定したもので、働く制限を受けるか働くことに制限を加えることを必要とする状態です。</p>
-                            <p><span class="text-orange">※ 一時金、厚生年金のみ</span></p>
+                            <p class="text_shomei1">けがや病気が治ったり、その症状が固定したもので、働く制限を受けるか働くことに制限を加えることを必要とする状態です。</p>
+                            <p class="text_shomei1"><span class="text-orange">※ 一時金、厚生年金のみ</span></p>
                             <p class="section__text__big">具体的な病状：</p>
                             <ul class="check__list mb-7">
                                 <li class="check__list__item">
@@ -484,7 +480,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 03-->
 
         <!-- SECTION 03-->
-        <section class="section__wrapper" data-scroll-section data-scroll-section-id="section7">
+        <section class="section__wrapper" data-scroll-section="" data-scroll-section-id="section7">
 
             <div class="container">
 
@@ -494,7 +490,7 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="row">
 
-                    <div class="col-md-4 mb-5 mb-md-7" data-scroll data-scroll-speed="2">
+                    <div class="col-md-4 mb-5 mb-md-7 is-inview" data-scroll="" data-scroll-speed="2">
                         <div class="card__wrap">
                             <div class="card_content">
                                 <div class="card__title">
@@ -511,7 +507,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div class="col-md-4 mb-5 mb-md-7" data-scroll data-scroll-speed="1">
+                    <div class="col-md-4 mb-5 mb-md-7 is-inview" data-scroll="" data-scroll-speed="1">
                         <div class="card__wrap">
                             <div class="card_content">
                                 <div class="card__title">
@@ -528,7 +524,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div class="col-md-4 mb-5 mb-md-7" data-scroll data-scroll-speed="2">
+                    <div class="col-md-4 mb-5 mb-md-7 is-inview" data-scroll="" data-scroll-speed="2">
                         <div class="card__wrap">
                             <div class="card_content">
                                 <div class="card__title">
@@ -553,7 +549,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 03-->
 
         <!-- SECTION 02-->
-        <section class="section__wrapper section__bkg__light" data-scroll-section data-scroll-section-id="section8">
+        <section class="section__wrapper section__bkg__light" data-scroll-section="" data-scroll-section-id="section8">
 
             <div class="container">
 
@@ -563,47 +559,52 @@ $_SESSION["CAT_SLUG"] = "";
 
                 <div class="l">
 
-                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box" data-scroll data-scroll-speed="2">
+                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box is-inview" data-scroll=""
+                        data-scroll-speed="2">
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ケース1</span>
                             <span class="text-red ms-4">400万円受給</span>
                         </h3>
-                        <p>20歳前に事故で片腕が動かない状態で結婚、出産。</p>
-                        <p>障害者手帳は持っていたが、住所も変わっていたため初診日の確認がとれず、申請ができるか相談。</p>
-                        <p>当時の住所地に障害者手帳発行の時の診断書を請求。15年以上前のものだったが当時かかった病院に資料があり、20歳前の日付だったが固定として診断書を作成してもらい5年の遡及して認定。</p>
+                        <p class="text_shomei1">20歳前に事故で片腕が動かない状態で結婚、出産。</p>
+                        <p class="text_shomei1">障害者手帳は持っていたが、住所も変わっていたため初診日の確認がとれず、申請ができるか相談。</p>
+                        <p class="text_shomei1">当時の住所地に障害者手帳発行の時の診断書を請求。15年以上前のものだったが当時かかった病院に資料があり、20歳前の日付だったが固定として診断書を作成してもらい5年の遡及して認定。</p>
                     </div>
 
-                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box" data-scroll data-scroll-speed="2">
+                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box is-inview" data-scroll=""
+                        data-scroll-speed="2">
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ケース2</span>
                             <span class="text-red ms-4">年間78万円受給</span>
                         </h3>
-                        <p>ずっと通っていた精神科が院長急死のため閉院。初診日の確認が取れないと相談。保健所に相談連絡して病院の資料を取り寄せる形で初診日を確認し、2級を受給。</p>
+                        <p class="text_shomei1">ずっと通っていた精神科が院長急死のため閉院。初診日の確認が取れないと相談。保健所に相談連絡して病院の資料を取り寄せる形で初診日を確認し、2級を受給。</p>
                     </div>
 
-                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box" data-scroll data-scroll-speed="2">
+                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box is-inview" data-scroll=""
+                        data-scroll-speed="2">
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ケース3</span>
                             <span class="text-red ms-4">450万円受給</span>
                         </h3>
-                        <p>がんで闘病の為、自分では申請できず相談。初診日確認の取り寄せから認定日、現在と診断書を作成してもらい遡及請求。</p>
+                        <p class="text_shomei1">がんで闘病の為、自分では申請できず相談。初診日確認の取り寄せから認定日、現在と診断書を作成してもらい遡及請求。</p>
                     </div>
 
-                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box" data-scroll data-scroll-speed="2">
+                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box is-inview" data-scroll=""
+                        data-scroll-speed="2">
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ケース4</span>
                             <span class="text-red ms-4">年間150万円受給</span>
                         </h3>
-                        <p>20歳前に一度精神科にかかったが、体調が良くなり5年以上通院していなかったが、働いて厚生年金に加入してから再度精神科にかかるようになり相談。</p>
-                        <p>厚生年金で請求し、20歳前の精神科は完治とみられ厚生年金2級を受給。</p>
+                        <p class="text_shomei1">20歳前に一度精神科にかかったが、体調が良くなり5年以上通院していなかったが、働いて厚生年金に加入してから再度精神科にかかるようになり相談。</p>
+                        <p class="text_shomei1">厚生年金で請求し、20歳前の精神科は完治とみられ厚生年金2級を受給。</p>
                     </div>
 
-                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box" data-scroll data-scroll-speed="2">
+                    <div class="bordred-box px-2 px-md-7 py-5 py-md-9 mb-4 case-box is-inview" data-scroll=""
+                        data-scroll-speed="2">
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ケース5</span>
                             <span class="text-red ms-4">年間120万円受給</span>
                         </h3>
-                        <p>糖尿病で透析を開始したが初診の病院が20年以上たっていて資料がないため相談。今まで受診したことのある病院を全て確認して、残っている資料で初診日を確認し、2級を受給。</p>
+                        <p class="text_shomei1">糖尿病で透析を開始したが初診の病院が20年以上たっていて資料がないため相談。今まで受診したことのある病院を全て確認して、残っている資料で初診日を確認し、2級を受給。</p>
                     </div>
 
                 </div>
@@ -614,7 +615,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 02-->
 
         <!-- SECTION 02-->
-        <section class="section__wrapper section__bkg__yel" data-scroll-section data-scroll-section-id="section9">
+        <section class="section__wrapper section__bkg__yel" data-scroll-section="" data-scroll-section-id="section9">
 
             <div class="container">
 
@@ -628,7 +629,7 @@ $_SESSION["CAT_SLUG"] = "";
                         <h3 class="mini__title">
                             <span class="mini__title__text text-orange">ご相談</span>
                         </h3>
-                        <p>お気軽にお問い合わせください。その際、障害年金を受給できるかどうかのおおよその判断やスムーズなお手続きのために、 お名前や傷病名、現在の症状や年金加入期間、初診日などをお聞きします。
+                        <p class="text_shomei1">お気軽にお問い合わせください。その際、障害年金を受給できるかどうかのおおよその判断やスムーズなお手続きのために、 お名前や傷病名、現在の症状や年金加入期間、初診日などをお聞きします。
                         </p>
                     </div>
 
@@ -645,7 +646,7 @@ $_SESSION["CAT_SLUG"] = "";
                             <h4 class="mini__title">
                                 <span class="mini__title__text text-orange">ご相談</span>
                             </h4>
-                            <p>お気軽にお問い合わせください。その際、障害年金を受給できるかどうかのおおよその判断やスムーズなお手続きのために、
+                            <p class="text_shomei1">お気軽にお問い合わせください。その際、障害年金を受給できるかどうかのおおよその判断やスムーズなお手続きのために、
                                 お名前や傷病名、現在の症状や年金加入期間、初診日などをお聞きします。</p>
                         </div>
 
@@ -653,7 +654,7 @@ $_SESSION["CAT_SLUG"] = "";
                             <h4 class="mini__title">
                                 <span class="mini__title__text text-orange">申請書の作成</span>
                             </h4>
-                            <p>初診日や保険料納付要件などを確認し、申請書を作成します。 初診日の特定は、障害年金の請求手続きをする上でとても重要な項目です。
+                            <p class="text_shomei1">初診日や保険料納付要件などを確認し、申請書を作成します。 初診日の特定は、障害年金の請求手続きをする上でとても重要な項目です。
                                 この初診日を基に「保険料納付要件」や「障害認定日要件」が判定されます。 また受給する年金の種類や、金額にも影響してきます。
                                 また、年金保険料を一定期間納めていなければ障害年金の請求は出来ません。 納付要件は初診日の前日時点となります。</p>
                         </div>
@@ -662,7 +663,7 @@ $_SESSION["CAT_SLUG"] = "";
                             <h4 class="mini__title">
                                 <span class="mini__title__text text-orange">申請書類提出</span>
                             </h4>
-                            <p>取得した診断書、病歴・就労状況等申立書や裁定請求書等など必要な書類をご準備いただき、年金事務所へ提出させていただきます。</p>
+                            <p class="text_shomei1">取得した診断書、病歴・就労状況等申立書や裁定請求書等など必要な書類をご準備いただき、年金事務所へ提出させていただきます。</p>
                         </div>
 
                     </div>
@@ -680,7 +681,7 @@ $_SESSION["CAT_SLUG"] = "";
                             <h4 class="mini__title">
                                 <span class="mini__title__text text-orange">受給決定</span>
                             </h4>
-                            <p>取得した診断書、病歴・就労状況等申立書や裁定請求書等など必要な書類をご準備いただき、年金事務所へ提出させていただきます。</p>
+                            <p class="text_shomei1">取得した診断書、病歴・就労状況等申立書や裁定請求書等など必要な書類をご準備いただき、年金事務所へ提出させていただきます。</p>
                         </div>
 
                     </div>
@@ -698,7 +699,7 @@ $_SESSION["CAT_SLUG"] = "";
                             <h4 class="mini__title">
                                 <span class="mini__title__text text-orange">障害年金受け取り</span>
                             </h4>
-                            <p>ご指定の口座に障害年金が振り込まれます。</p>
+                            <p class="text_shomei1">ご指定の口座に障害年金が振り込まれます。</p>
                         </div>
 
                     </div>
@@ -711,7 +712,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 02-->
 
         <!-- SECTION 02-->
-        <section class="section__wrapper section__bkg__light" data-scroll-section data-scroll-section-id="sectio10">
+        <section class="section__wrapper section__bkg__light" data-scroll-section="" data-scroll-section-id="section10">
 
             <div class="container">
 
@@ -725,8 +726,8 @@ $_SESSION["CAT_SLUG"] = "";
 
                         <div class="d-block">
 
-                            <div class="mb-7" data-scroll data-scroll-speed="2">
-                                <p>過去に障害年金が不支給になっていても再請求が可能です。
+                            <div class="mb-7 is-inview" data-scroll="" data-scroll-speed="2">
+                                <p class="text_shomei1">過去に障害年金が不支給になっていても再請求が可能です。
                                     障害年金は、請求書の書き方一つで不支給となったり、もらえる受給額が大きく変わったりするケースが多くあります。そこで、私たち専門家にご相談いただければ、障害年金についてのアドバイスも行わせていただきます。是非一度、ご相談ください。
                                 </p>
                             </div>
@@ -751,7 +752,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 02-->
 
         <!-- SECTION 03-->
-        <section class="section__wrapper" data-scroll-section data-scroll-section-id="section11">
+        <section class="section__wrapper" data-scroll-section="" data-scroll-section-id="section11">
 
             <div class="container">
 
@@ -762,7 +763,7 @@ $_SESSION["CAT_SLUG"] = "";
                 <ul class="check__list">
                     <li class="check__list__item">
                         <p class="check__list__text check__list__text__big">着手金30,000円</p>
-                        <p>※ご契約書を締結時に電子決済でお支払いをいただいております。 <span class="d-block">対応クレジットカード：<span
+                        <p class="text_shomei1">※ご契約書を締結時に電子決済でお支払いをいただいております。 <span class="d-block">対応クレジットカード：<span
                                     class="text-orange">JCB, MasterCard, VISA, AMERICAN EXPRESS, Diners Club
                                     INTERNATIONAL</span></span></p>
                     </li>
@@ -780,18 +781,17 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 03-->
 
         <!-- SECTION 02-->
-        <section class="section__wrapper section__bkg__yel" data-scroll-section data-scroll-section-id="section12">
+        <section class="section__wrapper section__bkg__yel" data-scroll-section="" data-scroll-section-id="section12">
 
             <div class="container">
 
                 <div class="section__title__wrap">
-                    <h2 class="section__title">Q&A</h2>
+                    <h2 class="section__title">Q&amp;A</h2>
                 </div>
 
                 <div id="faq__section" class="accordion faq__wrap">
 
-                    <div onclick="btn('faq-01')" id="div-faq-01"
-                        class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
+                    <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
                         data-bs-target="#faq-01" aria-expanded="false" aria-controls="faq-01">
                         <div class="q__accordion">
                             <span class="q__label">Q</span>
@@ -804,8 +804,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div onclick="btn('faq-02')" id="div-faq-02"
-                        class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
+                    <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
                         data-bs-target="#faq-02" aria-expanded="false" aria-controls="faq-02">
                         <div class="q__accordion">
                             <span class="q__label">Q</span>
@@ -825,8 +824,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div onclick="btn('faq-03')" id="div-faq-03"
-                        class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
+                    <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
                         data-bs-target="#faq-03" aria-expanded="false" aria-controls="faq-03">
                         <div class="q__accordion">
                             <span class="q__label">Q</span>
@@ -840,8 +838,7 @@ $_SESSION["CAT_SLUG"] = "";
                         </div>
                     </div>
 
-                    <div onclick="btn('faq-04')" id="div-faq-04"
-                        class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
+                    <div class="faq__item px-4 px-md-5 py-4 py-md-5 mb-3 mb-md-5" data-bs-toggle="collapse"
                         data-bs-target="#faq-04" aria-expanded="false" aria-controls="faq-04">
                         <div class="q__accordion">
                             <span class="q__label">Q</span>
@@ -862,7 +859,7 @@ $_SESSION["CAT_SLUG"] = "";
         <!-- END SECTION 02-->
 
         <!-- CONTACT SECTION-->
-        <section id="contact__footer" data-scroll-section data-scroll-section-id="section13">
+        <section id="contact__footer" data-scroll-section="" data-scroll-section-id="section13">
 
             <div class="container-fluid">
 
@@ -934,10 +931,95 @@ $_SESSION["CAT_SLUG"] = "";
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-            <?php get_footer('ss'); ?>
+
         </section>
         <!-- END CONTACT SECTION-->
+
+        <!-- FOOT SECTION-->
+        <section data-scroll-section="" data-scroll-section-id="section14">
+
+            <div class="row">
+
+                <div class="l-footer__foot">
+                    <div class="l-container">
+                        <ul class="f-social">
+                            <li>
+                                <a href="https://www.facebook.com/stradatax" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/facebook_icon.png"
+                                        alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://line.me/R/ti/p/%40395gkqmy" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/line_icon.png"
+                                        alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="fx-contact_btn youtube" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/youtube_icon.png"
+                                        alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/strada.tax/?hl=ja" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/ins_icon.png"
+                                        alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/stradatax" target="_blank">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/twitter_icon.png"
+                                        alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><a href="<?php echo home_url('/sr/privacy-statement'); ?>">個人情報の保護に関するステートメント</a></li>
+                            <li><a href="<?php echo home_url('/social-media-policy'); ?>">ソーシャルメディアポリシー</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-copyright">
+                        <p>
+                            Copyright © Strada Social Insurance Labor Corp. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- END FOOT SECTION-->
+
+        <!-- ブランク SECTION-->
+        <section data-scroll-section="" data-scroll-section-id="section15">
+
+            <div class="blankArea"></div>
+
+        </section>
+        <!-- END ブランク SECTION-->
+
     </div>
 </main>
+
+<!-- jQueryの読み込み -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<!-- polyfill.min.jsの読み込み -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/polyfill.min.js"></script>
+
+<!-- script.min.jsの読み込み -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/script.min.js"></script>
+
+<!-- custom.jsの読み込み -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+
+
+
+</body>
+
+</html>
