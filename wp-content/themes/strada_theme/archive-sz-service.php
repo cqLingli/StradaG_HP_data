@@ -26,18 +26,18 @@ $_SESSION['page_type']="service";
   </div>
     <div class="l-container">
     <div class="service_title_01">
-        <hr class="service-line-bottom2" />
-    <p style="margin-top: 10px;">私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
+        <hr class="service-line-bottom1" />
+    <p>私たちは、企業が誕生して、軌道に乗り、成長していく姿を数多く見てきました。</p>
     <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
     <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
-        <hr class="service-line-bottom2" />
+        <hr class="service-line-bottom1" />
     </div>
     </div>
   <!-- end c-mainTitle -->
-    <div class="c-new-content">
+    <div class="c-new-content service-line-content">
   <div class="l-content">
     <div class="l-container">
-      <?php 
+      <?php
           $terms = get_terms( 'taxonomy_service', array(
             'hide_empty' => false,
             'parent' => 0,
@@ -48,7 +48,7 @@ $_SESSION['page_type']="service";
       <div class="c-serviceList">
           <div class="menberTtile">事業内容</div>
           <div style="height: 10px;"></div>
-        <?php 
+        <?php
            $index=0;
         foreach ( $terms as $term ) :
         $tax_link = get_term_link($term->slug, 'taxonomy_service');

@@ -5306,7 +5306,7 @@ div#企業概要 {
 .c-new-content {
   /*padding-bottom: 129px;*/
   background: #E3E8F1;
-  margin-top: 30px
+  margin-top: 10px
 }
 
 @media screen and (max-width: 991px) {
@@ -19221,4 +19221,34 @@ strong {
 }
 /*----------end strong----------*/
 
+.c-line-bottom-up {
+  border: none;
+  height: 1px;
+  margin-top: -5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom-down {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.service-content-margin{
+  margin-top: 13px;
+
+}
+.service-line-bottom1{
+  height: 1px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+  margin-top: 3px;
+}
+.service-line-content {
+  margin-top: 5px!important;
+}
 
