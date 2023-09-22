@@ -219,7 +219,10 @@ header の大枠
 }
 
 .l-header_topline {
-  height: 5px
+  background: url("../images/common/top_line.png");
+  background-size: 100% 100%;
+  height: 10px;
+  margin-top: 5px;
 }
 
 /* =========================================================
@@ -5279,7 +5282,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -16704,7 +16707,7 @@ ol li {
 
 .service-line-bottom-top2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -18475,7 +18478,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  /*padding-left: 8px;*/
+  padding-left: 8px;
   font-size: 2rem;
 }
 
@@ -19316,7 +19319,7 @@ ol li {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19482,7 +19485,6 @@ ol li {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
-  box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19680,3 +19682,19 @@ strong {
   border: none;
 }
 /*----------end strong----------*/
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}

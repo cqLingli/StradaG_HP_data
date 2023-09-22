@@ -3,7 +3,7 @@
 $url_type = "sb";
 get_header("sb");
 ?>
-<?php 
+<?php
 $mv = get_field('s_mv');
 if($mv){
   ?>
@@ -37,9 +37,9 @@ if($mv){
     </div>
       <div class="l-container">
           <div class="term-excerpt">
-              <hr class="c-line-bottom" />
+              <hr class="c-line-bottom1" />
               <?php echo the_excerpt(); ?>
-              <hr class="c-line-bottom" />
+              <hr class="c-line-bottom2" />
           </div>
       </div>
     <!-- end c-mainTitle -->

@@ -39,9 +39,9 @@ if($mv){
     </div>
       <div class="l-container">
           <div class="term-excerpt">
-              <hr class="c-line-bottom" />
+              <hr class="c-line-bottom1" />
               <?php echo the_excerpt(); ?>
-              <hr class="c-line-bottom" />
+              <hr class="c-line-bottom2" />
           </div>
       </div>
     <!-- end c-mainTitle -->

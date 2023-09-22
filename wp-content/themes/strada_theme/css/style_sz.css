@@ -219,7 +219,10 @@ header の大枠
 }
 
 .l-header_topline {
-  height: 5px
+  background: url("../images/common/top_line.png");
+  background-size: 100% 100%;
+  height: 10px;
+  margin-top: 5px;
 }
 
 /* =========================================================
@@ -14133,8 +14136,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    /* margin-left: 5%; 一旦コマンド*/
-    /* margin-right: 5%; 一旦コマンド*/
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -14703,7 +14706,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #153F6F;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -16688,7 +16691,7 @@ ol li {
 
 .service-line-bottom2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -16982,7 +16985,7 @@ ol li {
 }
 
 .p-column__post1 {
-  width: 65%;
+  width: 100%;
   margin-top: -5%;
 
 }
@@ -18478,7 +18481,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  /*padding-left: 8px;*/
+  padding-left: 49.5%;
   font-size: 2rem;
 }
 
@@ -18649,7 +18652,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #fff;
+    background-color: #f6f6f6;
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18719,7 +18722,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #fff;
+    background-color: #f6f6f6;
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -19017,7 +19020,6 @@ body .is-layout-flex {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
-  box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19164,23 +19166,13 @@ body .is-layout-flex {
     padding: 0px 15px 0px 15px;
 }
 .c-form .row select{
-  width: 100%;
-  height: 45px;
-  border-radius: 8px;
-  border: 2px solid #CCCCCC;
-  padding: 0 15px;
-  outline: none;
-  font-size: 1.6rem;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: url("../images/common_sz/arrow_down.png") left center no-repeat;
-  background-size: 10px;
-  background-color: #fff
-}
-
-.c-form .row select::-ms-expand{
-display: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #CCCCCC;
+    padding: 0 15px;
+    outline: none;
+    font-size: 1.6rem;
 }
 @media only screen and (max-width: 767px) {
     .l-reciuit .c-form{
@@ -19212,11 +19204,27 @@ display: none;
     }
 }
 /*----------end reciuit----------*/
-
-/*----------start strong----------*/
-strong {
-  font-weight: bold;
+.service-line-bottom1 {
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
 }
-/*----------end strong----------*/
-
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
 
