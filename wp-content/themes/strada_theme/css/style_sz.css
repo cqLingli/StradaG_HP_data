@@ -16714,7 +16714,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16745,10 +16745,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {

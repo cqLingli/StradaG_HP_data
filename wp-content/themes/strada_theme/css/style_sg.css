@@ -14141,18 +14141,18 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.3);
-  padding: 8px 8px 8px 8px;
+  width: calc(100% / 3.4);
+  padding: 3px 5px 5px 3px;
   background: white;
-  margin-left: 2.5%;
+  margin-left: 3%;
 }
 
 .c-serviceList {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: -5%;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 5%;
+  margin-right: 6%;
 
 }
 
@@ -14796,8 +14796,8 @@ body.tax-taxonomy_position .p-member__list img {
 
 .term-description {
   margin-top: 1.5%;
-  margin-left: 7.8%;
-  margin-right: 8.8%;
+  margin-left: 7.7%;
+  margin-right: 7.9%;
   font-size: 15px;
 }
 
@@ -16714,7 +16714,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16745,10 +16745,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -17390,13 +17390,11 @@ ol li {
 
 @media screen and (min-width: 991px) {
   .term-description—service {
-    margin-left: 6% !important;
-    margin-right: 1.5% !important;
+
   }
 
   .c-serviceList-add {
-    margin-left: 4% !important;
-    margin-right: 0.5% !important;
+
   }
 }
 
