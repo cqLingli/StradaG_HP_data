@@ -58,13 +58,13 @@ $mv = get_field('service_cat_mv', $qo);
         </div>
         <div class="l-container">
         <div class="term-description term-description—service">
-            <hr class="c-line-bottom-up" />
+            <hr class="c-line-bottom1" />
             <?php echo term_description(); ?>
-            <hr class="c-line-bottom-down" />
+            <hr class="c-line-bottom2" />
         </div>
         </div>
         <!-- end c-mainTitle -->
-        <div class="c-new-content service-content-margin">
+        <div class="c-new-content">
         <div class="l-container">
             <div class="l-content">
                 <div class="c-serviceList c-serviceList-add">

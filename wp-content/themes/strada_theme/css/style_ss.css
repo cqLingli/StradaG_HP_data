@@ -14134,8 +14134,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    /* margin-left: 5%; 一旦コマンド*/
-    /* margin-right: 5%; 一旦コマンド*/
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -14311,7 +14311,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--5 a {
   width: 50px;
-  background-color: #fff;
+  background-color: #f6f6f6;
 }
 
 .search_icon {
@@ -14705,7 +14705,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -16690,7 +16690,7 @@ ol li {
 
 .service-line-bottom2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -18480,7 +18480,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 8px;
+  padding-left: 49.5%;
   font-size: 2rem;
 }
 
@@ -18651,7 +18651,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #fff;
+    background-color: #f6f6f6;
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18698,7 +18698,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #fff;
+    background-color: #f6f6f6;
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -19041,7 +19041,7 @@ ol li {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19270,16 +19270,11 @@ body .is-layout-flex>* {
   width: 50%;
 }
 
-body .is-layout-flex {
-  gap:5em !important
-}
-
 @media screen and (max-width: 767px) {
   body .is-layout-flex>* {
     margin: 0;
     width: 100%;
   }
-  .wp-container-2.wp-container-2,
   .wp-container-3.wp-container-3,
   .wp-container-6.wp-container-6,
   .wp-container-9.wp-container-9,
@@ -19594,75 +19589,27 @@ body .is-layout-flex {
   }
 }
 /*----------end privacyStatement----------*/
-/*----------start strong----------*/
-strong {
-  font-weight: bold;
-}
-/*----------end strong----------*/
 
-/*----------start 追加 CSS クラス table----------*/
-.sample-table table tr td{
+.service-line-bottom1 {
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom1 {
   border: none;
-  background-color: #fff;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
 }
-.sample-table1 table tr{
-  border-bottom: 1px solid #808c96;
-  background-color: #fff;
-}
-.sample-table1 table td{
+.c-line-bottom2 {
   border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
 }
-
-.sample-table2 table th{
-  background-color: #f5f5f5;
-  vertical-align:middle;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-.sample-table2 table td{
-  background-color: #fff;
-  vertical-align:top;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-.td1{
-  background:#fcf3eb!important
-}
-.sample-table2 ul{
-  margin-top: 0px!important;
-  list-style-type: none;
-}
-
-.sample-table2 ul.listNonStyle li {
-  margin: 0 0 10px 0;
-  font-size: 1.5rem;
-  font-weight: 400;
-  position:inherit;
-}
-.listBorderB li{
-  border-bottom: 1px dotted #ccc;
-  padding-bottom: 5px;
-}
-.mb0 {
-    margin-bottom: 0px!important;
-}
-/*----------end 追加 CSS クラス table----------*/
-/*----------start 追加 CSS クラス border-bottom 2px----------*/
-.borderBottom-2{
-  font-size: 1.8rem;
-  color: #674932;
-  border-bottom: 2px solid #d6c6b9;
-  margin-bottom: 0px!important;
-}
-/*----------end 追加 CSS クラス border-bottom 2px----------*/
-/*----------start 追加 CSS クラス no-bold----------*/
-.noBoldLi{font-weight: 400!important;}
-/*----------end 追加 CSS クラス no-bold----------*/
-/*----------start 追加 CSS クラス underline----------*/
-.underline-p{
-  text-decoration: underline;
-}
-/*----------end 追加 CSS クラス underline----------*/
-
-
-
