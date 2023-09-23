@@ -14141,10 +14141,9 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.4);
-  padding: 3px 5px 5px 3px;
+  width: calc(100% / 3.26);
+  padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 3%;
 }
 
 .c-serviceList {
@@ -14239,6 +14238,32 @@ body.tax-taxonomy_position .p-member__list img {
 
   .serviceItem .c-btn01 a {
     margin: 0 auto
+  }
+
+
+  .serviceItem2 {
+    width: 100%!important;
+    margin-left: 0!important;
+  }
+
+  .serviceItem2 .thumb {
+    width: 100%!important;
+    margin-right: 0!important;
+    margin-bottom: 15px!important;
+  }
+
+  .serviceItem2 .ttl {
+    font-size: 1.5rem!important;
+  }
+
+  .serviceItem2 p {
+    font-size: 1.2rem!important;
+    line-height: 1.6!important;
+    margin-bottom: 25px!important;
+  }
+
+  .serviceItem2 .c-btn01 a {
+    margin: 0 auto !important
   }
 
   .l-content {
@@ -14796,8 +14821,8 @@ body.tax-taxonomy_position .p-member__list img {
 
 .term-description {
   margin-top: 1.5%;
-  margin-left: 7.7%;
-  margin-right: 7.9%;
+  margin-left: 5%;
+  margin-right: 6.5%;
   font-size: 15px;
 }
 
@@ -16902,8 +16927,8 @@ ol li {
   }
 
   .c-serviceList-add {
-    margin-left: 2.5% !important;
-    margin-right: 7% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
     margin-top: -10%;
   }
 }
@@ -19693,4 +19718,63 @@ strong {
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
+}
+
+.serviceItem2 {
+  display: inline-grid;
+  margin-bottom: 45px;
+  border: 1px solid;
+  width: calc(100% / 3.26);
+  padding: 8px 8px 8px 8px;
+  background: white;
+  margin-left: 3.5%;
+}
+
+.serviceItem2 .thumb {
+  flex-shrink: 0;
+  margin: auto;
+  line-height: 0;
+  width: 100%;
+
+}
+
+.serviceItem2 .ttl {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 8px 20px;
+  background-color: #808C96;
+  background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.serviceItem2 .ttl2 {
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 8px 20px;
+  background-color: #808C96;
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.serviceItem2 p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.68;
+  margin-bottom: 50px;
+}
+
+.serviceItem2 .c-btn01 a {
+  height: 50px;
+  font-size: 1.6rem;
+  width: 265px;
+}
+
+.serviceItem2:last-child {
+  margin-bottom: 0;
 }

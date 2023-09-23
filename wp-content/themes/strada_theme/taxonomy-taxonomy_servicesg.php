@@ -52,6 +52,7 @@ $mv = get_field('service_cat_mv', $qo);
             <div class="l-content">
                 <div class="c-serviceList c-serviceList-add">
                     <?php
+                    $index=0;
                     global $wp_query;
                     $args = array();
                     if($company){
@@ -67,11 +68,17 @@ $mv = get_field('service_cat_mv', $qo);
 
                     $query = new WP_Query( $args ); // 执行查询
                     ?>
-                    <?php while (  $query->have_posts() ) : $query->the_post(); ?>
+                    <?php while (  $query->have_posts() ) : $query->the_post(); $index++; ?>
                         <?php
                         $repeater = get_field('s_repeat');
                         ?>
-                        <div class="serviceItem">
+                        <div class="<?php
+                        if($index%3==1){
+                            echo "serviceItem";
+                        }else{
+                            echo "serviceItem2";
+                        }
+                        ?>">
                             <span class="ttl"><?php the_title(); ?></span>
                             <div class="thumb">
                                 <?php
