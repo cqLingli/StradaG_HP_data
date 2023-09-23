@@ -19872,6 +19872,8 @@ strong {
 }
 .sample-table1 table th{
   width: 30%;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .sample-table2 table th{
@@ -19879,6 +19881,7 @@ strong {
   vertical-align:middle;
   padding: 10px;
   border: 1px solid #ccc;
+  font-weight: bold;
 }
 .sample-table2 table td{
   background-color: #fff;
