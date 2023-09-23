@@ -14177,7 +14177,7 @@ body.tax-taxonomy_position .p-member__list img {
   background-color: #808C96;
   background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 20px;
 }
@@ -14188,7 +14188,7 @@ body.tax-taxonomy_position .p-member__list img {
   padding: 8px 20px;
   background-color: #808C96;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: bold;
   line-height: 32px;
@@ -14230,6 +14230,9 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.5rem;
   }
 
+  .serviceItem .ttl2 {
+    font-size: 1.5rem;
+  }
   .serviceItem p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -14253,6 +14256,10 @@ body.tax-taxonomy_position .p-member__list img {
   }
 
   .serviceItem2 .ttl {
+    font-size: 1.5rem!important;
+  }
+
+  .serviceItem2 .ttl2 {
     font-size: 1.5rem!important;
   }
 
@@ -19745,7 +19752,7 @@ strong {
   background-color: #808C96;
   background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 20px;
 }
@@ -19756,7 +19763,7 @@ strong {
   padding: 8px 20px;
   background-color: #808C96;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: bold;
   line-height: 32px;
