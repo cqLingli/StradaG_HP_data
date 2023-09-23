@@ -19911,6 +19911,9 @@ strong {
 .leftimg{
   margin-left:-55px !important;
 }
+.leftimg1{
+  margin-left:-180px !important;
+}
 /* .imgGroup{
   padding:30px !important;
 } */
@@ -19918,6 +19921,9 @@ strong {
   .leftimg{
     margin-left:0px !important;
   }
+  .leftimg1{
+    margin-left:0px !important;
+}
   /* .imgGroup{
     padding:10px !important;
   } */
