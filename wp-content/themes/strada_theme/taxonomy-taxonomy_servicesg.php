@@ -1,8 +1,8 @@
 <?php
 session_start();
 $url_type = $_SESSION['url_type'];
- get_header("sg");
-
+get_header("sg");
+global $wp_query;
 ?>
 
 <?php
@@ -32,9 +32,13 @@ $mv = get_field('service_cat_mv', $qo);
         <!-- end c-breakcrumds -->
         <div class="c-mainTitle c-mainTitle-<?php echo $qo->slug; ?> c-mainTitle-overlay">
             <div class="c-mainTitle_content content-service">
-                <div class="c-tlt01 c-tlt01__black">
-                    <h1 class="c-tlt01__line c-tlt01__line--gray">
-                        <?php echo single_term_title(); ?>
+                <div class="c-tlt01 c-tlt01__black title-color">
+                    <h1 class="c-tlt01__line c-tlt01__line--gray title-color">
+                        <?php
+                        if('visa' != $wp_query->query['taxonomy_servicesg']){
+                            echo single_term_title();
+                        }
+                       ?>
                     </h1>
                 </div>
             </div>
@@ -53,7 +57,6 @@ $mv = get_field('service_cat_mv', $qo);
                 <div class="c-serviceList c-serviceList-add">
                     <?php
                     $index=0;
-                    global $wp_query;
                     $args = array();
                     if($company){
                         $args = array(
@@ -112,6 +115,12 @@ $mv = get_field('service_cat_mv', $qo);
                         </div>
                     <?php endwhile; ?>
                 </div>
+
+                <div class="entry-content page-entry2 menberTtile"> <a href="<?php echo str_replace("service", "admin/adminservicelist/", get_post_type_archive_link("service"));?>" class="c-back-service-list">
+                        サービス案内へ戻る
+                        <span class="i-arrow">
+                </span>
+                    </a></div>
             </div>
         </div>
         </div>

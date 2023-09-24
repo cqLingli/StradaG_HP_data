@@ -18950,16 +18950,20 @@ ol li {
     justify-content: center;
     width: 100%;
     max-width: 1400px;
-    height:50px;
+    height:30px!important;
     margin-top: 42px;
     margin-right: auto;
     margin-left: auto;
     background: #808C96;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
     font-weight: bold;
     line-height: 27px;
     text-decoration: none;
+  }
+  .c-back-service-list{
+    height:30px!important;
+    font-size: 1.5rem!important;
   }
 }
 .service-line-bottom2-span{
@@ -19785,3 +19789,40 @@ strong {
 .serviceItem2:last-child {
   margin-bottom: 0;
 }
+.page-entry2 {
+  margin-left: 5%;
+  margin-right: 6.5%;
+}
+ .c-back-service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
+.title-color{
+  color: white!important;
+}
+@media only screen and (max-width: 767px) {
+  .page-entry2 {
+    margin-left: 5%;
+    margin-right: 5%!important;
+  }
+  }
