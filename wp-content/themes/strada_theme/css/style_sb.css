@@ -19948,3 +19948,21 @@ strong {
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
 }
+/*-----53 start------*/
+.wp-element-caption{
+  text-align: center;
+  font-size: 2rem;
+  width: 27%;
+}
+@media only screen and (max-width: 767px) {
+    .wp-element-caption{
+        width: 20%;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .wp-element-caption{
+        width: 25%;
+    }
+}
+/*------53 end-----*/
