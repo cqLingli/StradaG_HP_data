@@ -45,6 +45,16 @@ $mv = get_field('service_cat_mv', $qo);
         </div>
         <div class="l-container">
         <div class="term-description term-description—service">
+
+            <div class="entry-content menberTtile"> <p  class="c-back-service-title">
+                    <?php
+                    single_term_title();
+                    ?>
+                    <span class="i-arrow">
+                </span>
+                </p>
+            </div>
+
             <hr class="c-line-bottom1" />
             <?php echo term_description(); ?>
             <hr class="c-line-bottom2" />
@@ -82,7 +92,7 @@ $mv = get_field('service_cat_mv', $qo);
                             echo "serviceItem2";
                         }
                         ?>">
-                            <span class="ttl"><?php the_title(); ?></span>
+<!--                            <span class="ttl">--><?php //the_title(); ?><!--</span>-->
                             <div class="thumb">
                                 <?php
                                 if($repeater != null){
@@ -106,12 +116,18 @@ $mv = get_field('service_cat_mv', $qo);
                                 ?>
                             </div>
 
+                            <a  href="<?php echo nl2br(get_the_excerpt()); ?>" class="sg-title">
+                                <div class="service_title_icon">
+                                    <span><?php the_title(); ?></span>
+                                </div>
+                            </a>
+
                                 <div>
                                     <p><?php echo nl2br(get_the_excerpt()); ?></p>
                                 </div>
-                                <div class="ttl2 c-btn01__blue">
-                                    <a href="<?php echo get_the_permalink() ?>">詳細はこちら</a>
-                                </div>
+<!--                                <div class="ttl2 c-btn01__blue">-->
+<!--                                    <a href="--><?php //echo get_the_permalink() ?><!--">詳細はこちら</a>-->
+<!--                                </div>-->
                         </div>
                     <?php endwhile; ?>
                 </div>

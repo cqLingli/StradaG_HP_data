@@ -19825,4 +19825,39 @@ strong {
     margin-left: 5%;
     margin-right: 5%!important;
   }
+  .c-back-service-title {
+    font-size: 1.5rem!important;
   }
+  .sg-title{
+    margin-top: 0!important;
+  }
+  }
+
+
+.c-back-service-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
+.sg-title{
+  text-decoration:none;
+  margin-top: 3%;
+}
