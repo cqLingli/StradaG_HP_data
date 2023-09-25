@@ -116,7 +116,7 @@ $mv = get_field('service_cat_mv', $qo);
                                 ?>
                             </div>
 
-                            <a  href="<?php echo nl2br(get_the_excerpt()); ?>" class="sg-title">
+                            <a  href="<?php echo get_the_permalink() ; ?>" class="sg-title">
                                 <div class="service_title_icon">
                                     <span><?php the_title(); ?></span>
                                 </div>
