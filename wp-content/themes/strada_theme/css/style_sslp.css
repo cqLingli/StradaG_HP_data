@@ -19913,4 +19913,7 @@ strong {
   .mb-0{
     font-size: 1rem;
   }
+  .f-copyright{
+    margin-bottom: -60px;
+  }
 }

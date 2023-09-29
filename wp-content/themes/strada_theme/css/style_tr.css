@@ -19749,6 +19749,9 @@ ol li {
     margin-top: 20px;
     margin-bottom: 0;
   }
+  .f-copyright{
+    margin-bottom: -60px;
+  }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
 
