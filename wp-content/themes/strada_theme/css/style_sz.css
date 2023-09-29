@@ -2330,7 +2330,7 @@ div.catch {
 @media screen and (max-width: 500px) {
   div.catch {
     font-size: 1rem;
-    zoom:0.9
+    zoom:0.8
   }
 }
 
