@@ -14097,7 +14097,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #B8193F;
   padding: 2px 0 2px 15px;
@@ -14134,7 +14134,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -16728,7 +16728,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16759,10 +16759,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -18956,7 +18956,7 @@ ol li {
 }
 .service-line-bottom2-span{
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   color: #B8193F;
 }
@@ -19716,6 +19716,39 @@ ol li {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start 追加 CSS クラス p-news__post-----------*/
+.p-news__post  h3 {
+  margin-top: 60px;
+  font-size: 2.2rem;
+  background: linear-gradient(to right, #B8193F 30%, #F8ECE9 100%);
+  color: #fff;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.p-news__post  p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .p-news__post h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding: 4px 15px;
+  }
+  .p-news__post  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+/*----------end 追加 CSS クラス p-news__post-----------*/
 
 .service-line-bottom1 {
   height: 1px;

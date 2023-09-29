@@ -14086,7 +14086,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #EC7700;
   padding: 2px 0 2px 15px;
@@ -14123,7 +14123,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -16713,7 +16713,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16744,10 +16744,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -18985,6 +18985,7 @@ ol li {
     font-size: 15px;
     font-weight: bold;
     color: #EC7700;
+    font-size: 1.5rem!important;
   }
 
   .singleService .c-back-list {
@@ -19017,6 +19018,7 @@ ol li {
   font-size: 15px;
   font-weight: bold;
   color: #EC7700;
+  font-size: 2.2rem;
 }
 
  .singleService .c-back-list {
@@ -19038,7 +19040,7 @@ ol li {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -19515,6 +19517,76 @@ body .is-layout-flex>* {
   }
 }
 /*----------end privacyPolicy----------*/
+/*----------start strong----------*/
+strong {
+  font-weight: bold;
+}
+/*----------end strong----------*/
+
+/*----------start 追加 CSS クラス table----------*/
+.sample-table table tr td{
+  border: none;
+  background-color: #fff;
+}
+.sample-table1 table tr{
+  border-bottom: 1px solid #808c96;
+  background-color: #fff;
+}
+.sample-table1 table td{
+  border: none;
+}
+
+.sample-table2 table th{
+  background-color: #f5f5f5;
+  vertical-align:middle;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+.sample-table2 table td{
+  background-color: #fff;
+  vertical-align:top;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.td1{
+  background:#fcf3eb!important
+}
+.sample-table2 ul{
+  margin-top: 0px!important;
+  list-style-type: none;
+}
+
+.sample-table2 ul.listNonStyle li {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position:inherit;
+}
+.listBorderB li{
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+}
+.mb0 {
+    margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス table----------*/
+/*----------start 追加 CSS クラス border-bottom 2px----------*/
+.borderBottom-2{
+  font-size: 1.8rem;
+  color: #674932;
+  border-bottom: 2px solid #d6c6b9;
+  margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス border-bottom 2px----------*/
+/*----------start 追加 CSS クラス no-bold----------*/
+.noBoldLi{font-weight: 400!important;}
+/*----------end 追加 CSS クラス no-bold----------*/
+/*----------start 追加 CSS クラス underline----------*/
+.underline-p{
+  text-decoration: underline;
+}
+/*----------end 追加 CSS クラス underline----------*/
 /* ----------------------------------------------------------------------------------
 　privacyStatement
 ---------------------------------------------------------------------------------- */
@@ -19587,7 +19659,39 @@ body .is-layout-flex>* {
   }
 }
 /*----------end privacyStatement----------*/
+/*----------start 追加 CSS クラス p-news__post-----------*/
+.p-news__post  h3 {
+  margin-top: 60px;
+  font-size: 2.2rem;
+  background: linear-gradient(to right, #EC7700 30%, #FFF0E5 100%);
+  color: #fff;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.p-news__post  p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
 
+@media screen and (max-width: 767px) {
+  .p-news__post h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding: 4px 15px;
+  }
+  .p-news__post  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+/*----------end 追加 CSS クラス p-news__post-----------*/
 .service-line-bottom1 {
   height: 1px;
   margin-top: 30px;

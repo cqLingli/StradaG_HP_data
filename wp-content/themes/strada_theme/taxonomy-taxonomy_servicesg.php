@@ -1,8 +1,8 @@
 <?php
 session_start();
 $url_type = $_SESSION['url_type'];
- get_header("sg");
-
+get_header("sg");
+global $wp_query;
 ?>
 
 <?php
@@ -32,15 +32,29 @@ $mv = get_field('service_cat_mv', $qo);
         <!-- end c-breakcrumds -->
         <div class="c-mainTitle c-mainTitle-<?php echo $qo->slug; ?> c-mainTitle-overlay">
             <div class="c-mainTitle_content content-service">
-                <div class="c-tlt01 c-tlt01__black">
-                    <h1 class="c-tlt01__line c-tlt01__line--gray">
-                        <?php echo single_term_title(); ?>
+                <div class="c-tlt01 c-tlt01__black title-color">
+                    <h1 class="c-tlt01__line c-tlt01__line--gray title-color">
+                        <?php
+                        if('visa' != $wp_query->query['taxonomy_servicesg']){
+                            echo single_term_title();
+                        }
+                       ?>
                     </h1>
                 </div>
             </div>
         </div>
         <div class="l-container">
         <div class="term-description term-description—service">
+
+            <div class="entry-content menberTtile"> <p  class="c-back-service-title">
+                    <?php
+                    single_term_title();
+                    ?>
+                    <span class="i-arrow">
+                </span>
+                </p>
+            </div>
+
             <hr class="c-line-bottom1" />
             <?php echo term_description(); ?>
             <hr class="c-line-bottom2" />
@@ -52,7 +66,7 @@ $mv = get_field('service_cat_mv', $qo);
             <div class="l-content">
                 <div class="c-serviceList c-serviceList-add">
                     <?php
-                    global $wp_query;
+                    $index=0;
                     $args = array();
                     if($company){
                         $args = array(
@@ -67,12 +81,18 @@ $mv = get_field('service_cat_mv', $qo);
 
                     $query = new WP_Query( $args ); // 执行查询
                     ?>
-                    <?php while (  $query->have_posts() ) : $query->the_post(); ?>
+                    <?php while (  $query->have_posts() ) : $query->the_post(); $index++; ?>
                         <?php
                         $repeater = get_field('s_repeat');
                         ?>
-                        <div class="serviceItem">
-                            <span class="ttl"><?php the_title(); ?></span>
+                        <div class="<?php
+                        if($index%3==1){
+                            echo "serviceItem";
+                        }else{
+                            echo "serviceItem2";
+                        }
+                        ?>">
+<!--                            <span class="ttl">--><?php //the_title(); ?><!--</span>-->
                             <div class="thumb">
                                 <?php
                                 if($repeater != null){
@@ -96,15 +116,27 @@ $mv = get_field('service_cat_mv', $qo);
                                 ?>
                             </div>
 
+                            <a  href="<?php echo get_the_permalink() ; ?>" class="sg-title">
+                                <div class="service_title_icon">
+                                    <span><?php the_title(); ?></span>
+                                </div>
+                            </a>
+
                                 <div>
                                     <p><?php echo nl2br(get_the_excerpt()); ?></p>
                                 </div>
-                                <div class="ttl2 c-btn01__blue">
-                                    <a href="<?php echo get_the_permalink() ?>">詳細はこちら</a>
-                                </div>
+<!--                                <div class="ttl2 c-btn01__blue">-->
+<!--                                    <a href="--><?php //echo get_the_permalink() ?><!--">詳細はこちら</a>-->
+<!--                                </div>-->
                         </div>
                     <?php endwhile; ?>
                 </div>
+
+                <div class="entry-content page-entry2 menberTtile"> <a href="<?php echo str_replace("service", "admin/adminservicelist/", get_post_type_archive_link("service"));?>" class="c-back-service-list">
+                        サービス案内へ戻る
+                        <span class="i-arrow">
+                </span>
+                    </a></div>
             </div>
         </div>
         </div>
