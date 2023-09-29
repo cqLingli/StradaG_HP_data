@@ -3358,7 +3358,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15px !important;
+    margin-top: 3% !important;
   }
 }
 
@@ -14972,11 +14972,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -17115,7 +17116,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
@@ -18889,7 +18890,30 @@ ol li {
   margin-left: 5.5%;
   margin-right: 5.5%
 }
-
+.singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
 @media screen and (max-width: 760px) {
   .left_heading{
     font-size: 1.8rem;
@@ -18972,31 +18996,6 @@ ol li {
   font-size: 15px;
   font-weight: bold;
   color: #808C96;
-}
-
- .singleService .c-back-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
-  height:50px;
-  margin-top: 42px;
-  margin-right: auto;
-  margin-left: auto;
-  background: #808C96;
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: bold;
-  line-height: 27px;
-  text-decoration: none;
 }
 
 .sr_service_bg{

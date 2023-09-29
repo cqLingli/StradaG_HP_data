@@ -3359,7 +3359,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15px !important;
+    margin-top: 3% !important;
   }
 }
 
@@ -14941,11 +14941,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -17083,7 +17084,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
