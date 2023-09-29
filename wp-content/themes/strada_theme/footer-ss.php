@@ -49,6 +49,9 @@
   <!-- スライダーのjsの読み込み -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
 
+  <!-- script.min.jsの読み込み -->
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/script.min.js"></script>
+
   <!-- custom.jsの読み込み -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 

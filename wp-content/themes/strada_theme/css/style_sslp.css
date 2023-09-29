@@ -17,7 +17,6 @@ License: none (public domain)
 html,
 body,
 div,
-span,
 applet,
 object,
 iframe,
@@ -163,6 +162,7 @@ html {
 
 html,
 body {
+  overflow-x: hidden;
   background: #F8F8F8;
 }
 
@@ -218,10 +218,7 @@ header の大枠
 }
 
 .l-header_topline {
-  background: url("../images/common/top_line.png");
-  background-size: 100% 100%;
-  height: 10px;
-  margin-top: 5px;
+  height: 5px
 }
 
 /* =========================================================
@@ -281,6 +278,7 @@ footer - フッターのレイアウト
   margin-left: 5px;
   margin-right: 5px;
   display: block;
+  text-decoration:underline
 }
 
 @media screen and (max-width: 767px) {
@@ -2331,7 +2329,8 @@ div.catch {
 
 @media screen and (max-width: 500px) {
   div.catch {
-    font-size: 11px;
+    font-size: 1rem;
+    zoom:0.8
   }
 }
 
@@ -2811,6 +2810,8 @@ breadcrumbs - パンくずリスト
   align-items: center;
   width: 100%;
   height: 60px;
+  margin-top: 150px;
+  background-color: #fff
 }
 
 @media screen and (max-width: 991px) {
@@ -14088,7 +14089,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #EC7700;
   padding: 2px 0 2px 15px;
@@ -14125,7 +14126,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -14310,7 +14311,7 @@ body.tax-taxonomy_position .p-member__list img {
 
 .h-mail.h-mail--5 a {
   width: 50px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .search_icon {
@@ -14704,7 +14705,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #EC7700;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -14941,11 +14942,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -17083,7 +17085,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
@@ -18313,7 +18315,8 @@ ol li {
 
   .c-breakcrumds {
     height: 20px;
-    padding-left: 3%
+    padding-left: 3%;
+    margin-top:75px
   }
 
   .menber_single-width {
@@ -18479,7 +18482,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+  /*padding-left: 8px;*/
   font-size: 2rem;
 }
 
@@ -18713,7 +18716,7 @@ ol li {
   }
   .h-logo img {
     width: auto;
-    height: 35px
+    height: 30px
   }
   .search_content {
     top: 80px;
@@ -18895,6 +18898,30 @@ ol li {
   margin-left: 5.5%;
   margin-right: 5.5%
 }
+.singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #EC7700;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 991px) {
 
@@ -19019,31 +19046,6 @@ ol li {
   font-size: 15px;
   font-weight: bold;
   color: #EC7700;
-}
-
- .singleService .c-back-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
-  height:50px;
-  margin-top: 42px;
-  margin-right: auto;
-  margin-left: auto;
-  background: #EC7700;
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: bold;
-  line-height: 27px;
-  text-decoration: none;
 }
 
 .sr_service_bg{
@@ -19461,6 +19463,7 @@ body .is-layout-flex {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
+	box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19646,6 +19649,22 @@ strong {
     margin-bottom: 0px!important;
 }
 /*----------end 追加 CSS クラス table----------*/
+/*----------start 追加 CSS クラス border-bottom 2px----------*/
+.borderBottom-2{
+  font-size: 1.8rem;
+  color: #674932;
+  border-bottom: 2px solid #d6c6b9;
+  margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス border-bottom 2px----------*/
+/*----------start 追加 CSS クラス no-bold----------*/
+.noBoldLi{font-weight: 400!important;}
+/*----------end 追加 CSS クラス no-bold----------*/
+/*----------start 追加 CSS クラス underline----------*/
+.underline-p{
+  text-decoration: underline;
+}
+/*----------end 追加 CSS クラス underline----------*/
 
 .container_range{
   margin-left: 15%;
@@ -19797,4 +19816,100 @@ strong {
   display: flex;
   margin-bottom: 25px;
 }
+.b_top{
+  margin-top: -10%;
+  height: auto;
+}
+@media screen and (max-width: 760px) {
+  .b_top{
+    margin-top: -20%;
+    height: auto;
+  }
+}
 
+.blankArea{
+  height:150px
+}
+
+
+@media screen and (max-width: 767px) {
+  .blankArea{
+    height:75px
+  }
+
+  .top__mv__wrap .top__mv__image .top__mv__image__item{
+    width:auto;
+    height:auto
+  }
+  
+  .section__full__height{
+    height:24vh
+  }
+  
+  .top__mv__caption__wrap .top__mv__caption{
+    font-size:clamp(1.2rem, 8.3333333333vw, 1.5rem)
+  }
+  .top__mv__caption__wrap .top__mv__caption .caption__text__wrap .caption__text{
+    padding:0.8rem 1rem
+  }
+  .top__mv__note .top__mv__note__image{
+    width:45px;
+    margin-right:5px
+  }
+  .top__mv__note{
+    bottom:0rem
+  }
+  .section__wrapper{
+    padding:2.4rem 0;
+  }
+  .section__note__title{
+    font-size:2rem
+  }
+  .check__list .check__list__item .check__list__text.check__list__text__big{
+    font-size:1.5rem
+  }
+  .mt-6{
+    font-size: 1rem;
+  }
+  .text-center{
+    font-size: 1rem;
+  }
+  .section__title{
+    font-size: 2rem;
+  }
+  .mb-7{
+    font-size: 1rem;
+  }
+  .section__note__title__sub{
+    font-size: 2rem;
+  }
+  .mb-5{
+    font-size: 1rem;
+  }
+  .section__text__big{
+    font-size: 1.5rem;
+  }
+  .col-md-12{
+    font-size: 1rem;
+  }
+  .text-orange{
+    font-size: 1rem;
+  }
+
+  .text_shomei1{
+    font-size: 1rem;
+  }
+  .card__text__wrap .card__text{
+    font-size: 1.2rem;
+  }
+  .faq__title{
+    font-size:1.2rem
+  }
+  .q__label{
+    font-size:1.4rem;
+    padding-right:10px
+  }
+  .mb-0{
+    font-size: 1rem;
+  }
+}

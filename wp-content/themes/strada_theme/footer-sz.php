@@ -6,9 +6,9 @@
               <p>無料相談予約</p>
               <a href="tel:0120709459" class="time" onclick="ga('send','event','tel','sp_tap','contact');">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/icon-line.png" alt="" />
-                <span>
-                  0120-709-459
-                  <small>平日：9時~18時</small>
+                <span class="muriosodan">
+                  <div class="muriosodan_tel">0120-709-459</div>
+                  <div class="muriosodan_jikan">平日：9時~18時</div>
                 </span>
               </a>
             </div>

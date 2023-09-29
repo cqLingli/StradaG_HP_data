@@ -219,10 +219,7 @@ header の大枠
 }
 
 .l-header_topline {
-  background: url("../images/common/top_line.png");
-  background-size: 100% 100%;
-  height: 10px;
-  margin-top: 5px;
+  height: 5px
 }
 
 /* =========================================================
@@ -2332,7 +2329,8 @@ div.catch {
 
 @media screen and (max-width: 500px) {
   div.catch {
-    font-size: 11px;
+    font-size: 1rem;
+    zoom:0.8
   }
 }
 
@@ -14107,7 +14105,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #00A159;
   padding: 2px 0 2px 15px;
@@ -14128,7 +14126,7 @@ body.tax-taxonomy_position .p-member__list img {
   }
 
   .s-service .entry-content h3 {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 2rem;
     padding: 4px 15px;
   }
@@ -14144,7 +14142,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -14723,7 +14721,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #00A159;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -14960,11 +14958,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -16739,7 +16738,7 @@ ol li {
 
 .service-line-bottom-top2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -16749,7 +16748,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.13);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16780,10 +16779,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.13);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -17117,7 +17116,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
@@ -18510,7 +18509,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+  /*padding-left: 8px;*/
   font-size: 2rem;
 }
 
@@ -18893,7 +18892,30 @@ ol li {
   margin-left: 5.5%;
   margin-right: 5.5%
 }
-
+.singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #00A159;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
 @media screen and (max-width: 760px) {
   .left_heading{
     font-size: 1.8rem;
@@ -18973,32 +18995,6 @@ ol li {
   font-weight: bold;
   color: #00A159;
 }
-
- .singleService .c-back-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
-  height:50px;
-  margin-top: 42px;
-  margin-right: auto;
-  margin-left: auto;
-  background: #00A159;
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: bold;
-  line-height: 27px;
-  text-decoration: none;
-}
-
 
 .sr_service_bg{
   background-color: #fff;
@@ -19476,7 +19472,7 @@ ol li {
 /* //事業内容二列表示 */
 body .is-layout-flex>* {
   margin: 0;
-  width: 50%;
+  width: 48%;
 }
 
 body .is-layout-flex {
@@ -19488,9 +19484,17 @@ body .is-layout-flex {
     margin: 0;
     width: 100%;
   }
+  body .is-layout-flex {
+    gap:0em !important
+  }
+  .wp-container-1.wp-container-1,
+  .wp-container-2.wp-container-2,
   .wp-container-3.wp-container-3,
+  .wp-container-5.wp-container-5,
   .wp-container-6.wp-container-6,
+  .wp-container-8.wp-container-8,
   .wp-container-9.wp-container-9,
+  .wp-container-11.wp-container-11,
   .wp-container-12.wp-container-12,
   .wp-container-15.wp-container-15,
   .wp-container-18.wp-container-18 {
@@ -19670,6 +19674,7 @@ body .is-layout-flex {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
+	box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19854,3 +19859,202 @@ strong {
   font-weight: bold;
 }
 /*----------end strong----------*/
+/*----------start 追加 CSS クラス table----------*/
+.sample-table table tr td{
+  border: none;
+  background-color: #fff;
+}
+
+.sample-table1 table tr{
+  border: 1px solid #c6c6c6;
+  background-color: #fff;
+}
+.sample-table1 table th{
+  width: 30%;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.sample-table2 table th{
+  background-color: #f5f5f5;
+  vertical-align:middle;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+.sample-table2 table td{
+  background-color: #fff;
+  vertical-align:top;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.td1{
+  background:#fcf3eb!important
+}
+.sample-table2 ul{
+  margin-top: 0px!important;
+  list-style-type: none;
+}
+.sample-table2 ul.listNonStyle li {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position:inherit;
+}
+.listBorderB li{
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+}
+.mb0 {
+    margin-bottom: 0px!important;
+}
+/*----------end 追加 CSS クラス table----------*/
+/*----------start leftimg----------*/
+.leftimg{
+  margin-left:-55px !important;
+}
+.leftimg1{
+  margin-left:-180px !important;
+}
+/* .imgGroup{
+  padding:30px !important;
+} */
+@media only screen and (max-width: 767px) {
+  .leftimg{
+    margin-left:0px !important;
+  }
+  .leftimg1{
+    margin-left:0px !important;
+}
+  /* .imgGroup{
+    padding:10px !important;
+  } */
+}
+/*----------end leftimg----------*/
+/**----------end 追加 CSS クラス sample-box----------***/
+.sample-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  border: solid 1px #c6c6c6;
+}
+.sample-box dt{
+  background-color: #ececec;
+  width: 30%;
+  padding: 5px;
+  line-height: 1.4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px #c6c6c6;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: middle;
+  text-align:center;
+}
+.sample-box dd{
+  width: 70%;
+  padding: 10px;
+  line-height: 1.4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: solid 1px #c6c6c6;
+  font-size: 15px;
+}
+.triangle{
+  font-size: 20px !important;
+  text-align: center;
+  width: 30%;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+@media only screen and (max-width: 767px) {
+  .sample-box{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sample-box dt{
+    width: 100%;
+  }
+  .sample-box dd{
+    width: 100%;
+  }
+  .triangle{
+    font-size: 11px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    width: 100%;
+    }
+}
+/**----------end 追加 CSS クラス sample-box----------***/
+/*----------start 追加 CSS クラス p-news__post-----------*/
+.p-news__post  h3 {
+  margin-top: 60px;
+  font-size: 2.2rem;
+  background: linear-gradient(90deg, #00A159, #EFF6EF) !important;
+  color: #fff;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.p-news__post  p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .p-news__post h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding: 4px 15px;
+  }
+  .p-news__post  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+/*----------end 追加 CSS クラス p-news__post-----------*/
+
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+/*-----53 start------*/
+.wp-element-caption{
+  text-align: center;
+  font-size: 2rem;
+  width: 27%;
+}
+@media only screen and (max-width: 767px) {
+    .wp-element-caption{
+        width: 20%;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .wp-element-caption{
+        width: 25%;
+    }
+}
+/*------53 end-----*/

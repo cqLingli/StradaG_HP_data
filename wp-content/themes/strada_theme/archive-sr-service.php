@@ -27,7 +27,7 @@ $_SESSION['page_type']="service";
 
         <div class="l-container">
         <div class="service_title_01">
-            <hr class="service-line-bottom2" />
+            <hr class="service-line-bottom1" />
             <span class="service-line-bottom2-span">労務に関するトータルサポート</span>
             <p>人事、労務、社会保険、労働保険に関するご相談や事務手続きをおこないます。</p>
             <p>日本人・外国人採用から雇用に関する手続き、就業規則作成まで労務の専門家としてしっかりサポートさせていただきます。</p>
@@ -194,7 +194,7 @@ $_SESSION['page_type']="service";
                                             alt="" /></a>
                             </div>
                             <div class="sr_service_img3">
-                                <a href="<?php echo home_url('あなたは障害年金');?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
+                                <a href="<?php echo home_url('sr/srservice/あなたは障害年金')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SS/障害年金_バナー.png"
                                                  alt="" /></a>
                             </div>
                         </div>

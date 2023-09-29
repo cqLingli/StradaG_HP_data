@@ -219,10 +219,7 @@ header の大枠
 }
 
 .l-header_topline {
-  background: url("../images/common/top_line.png");
-  background-size: 100% 100%;
-  height: 10px;
-  margin-top: 5px;
+  height: 5px
 }
 
 /* =========================================================
@@ -2332,7 +2329,8 @@ div.catch {
 
 @media screen and (max-width: 500px) {
   div.catch {
-    font-size: 11px;
+    font-size: 1rem;
+    zoom:0.8
   }
 }
 
@@ -3361,7 +3359,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15px !important;
+    margin-top: 3% !important;
   }
 }
 
@@ -14091,7 +14089,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #153F6F;
   padding: 2px 0 2px 15px;
@@ -14128,7 +14126,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -14136,8 +14134,8 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
-    /* margin-left: 5%; 一旦コマンド*/
-    /* margin-right: 5%; 一旦コマンド*/
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -14943,11 +14941,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -16691,7 +16690,7 @@ ol li {
 
 .service-line-bottom2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -16717,7 +16716,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16748,10 +16747,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -16985,7 +16984,7 @@ ol li {
 }
 
 .p-column__post1 {
-  width: 65%;
+  width: 100%;
   margin-top: -5%;
 
 }
@@ -17085,7 +17084,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
@@ -18481,7 +18480,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+   /*padding-left: 8px;*/
   font-size: 2rem;
 }
 
@@ -18493,8 +18492,10 @@ ol li {
 .l-footer_info {
   display: none;
 }
+
 @media screen and (max-width: 767px) {
   .l-footer_info {
+    width:100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18502,12 +18503,17 @@ ol li {
     flex-wrap: wrap;
     justify-content:center;
     background: #fff;
-    padding: 5px 5px;
+    padding: 5px 0px;
+  }
+
+  .l-footer_phone {
+    height: 40px;
+    width:30%
   }
   .l-footer_phone p {
     display: block;
     position: relative;
-    width: 120px;
+    width: 115px;
     height: 15px;
     margin-bottom: 1px;
     border-radius: 25px;
@@ -18521,8 +18527,8 @@ ol li {
     position: absolute;
     bottom: -4px;
     left: calc(50% - 5px);
-    width: 5px;
-    height: 5px;
+    /*width: 5px;
+    height: 5px;*/
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     background: #153f6f;
@@ -18564,7 +18570,8 @@ ol li {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-left: 3px;
+    margin-left: 2%;
+    width:30%
   }
   .l-footer_mail a {
     display: -webkit-box;
@@ -18577,7 +18584,7 @@ ol li {
     -ms-flex-pack: center;
     justify-content: center;
     width: 120px;
-    height: 55px;
+    height: 40px;
     border-radius: 5px;
     background: #fbd434;
     text-decoration: none;
@@ -18594,15 +18601,18 @@ ol li {
   }
   .l-footer_mail a span {
     color: #333;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    zoom:0.8;
     font-weight: bold;
+    line-height:15px
   }
-  .l-footer_mail.l-footer_mail--1 a {
-    width: 120px;
-  }
+  /*.l-footer_mail.l-footer_mail--1 a {
+    width:120px
+  }*/
   .l-footer_mail.l-footer_mail--2 a {
-    width: 125px;
     background: #26A69A;
+    padding-left: 2px;
+    padding-right: 2px
   }
   .l-footer_mail.l-footer_mail--2 a span {
     color: #fff;
@@ -18611,7 +18621,6 @@ ol li {
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(158deg) brightness(103%) contrast(101%);
   }
   .l-footer_mail.l-footer_mail--3 a {
-    width: 115px;
     background: #00A75B;
   }
   .l-footer_mail.l-footer_mail--3 a span {
@@ -18629,6 +18638,22 @@ ol li {
   }
   .l-footer_mail.l-footer_mail--4 a img{
     width: 60px;
+  }
+  .muriosodan{
+    padding-left:2px
+  }
+  .muriosodan_tel{
+    line-height: 15px;
+    font-size:1rem;
+    zoom:0.96;
+    font-weight: bold;
+    color: #000;
+  }
+  .muriosodan_jikan{
+    line-height: 10px;
+    font-size:1rem;
+    zoom:0.6;
+    color: #000
   }
 }
 /**2023 08 10 footer**/
@@ -18652,7 +18677,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 45px;
-    background-color: #fff;
+    /*background-color: #f6f6f6;*/
   }
   .h-mail.h-mail--4 img {
     width: auto;
@@ -18722,7 +18747,7 @@ ol li {
   }
   .h-mail.h-mail--4 a {
     width: 40px;
-    background-color: #fff;
+    /*background-color: #f6f6f6;*/
   }
   .h-mail.h-mail--4 a img {
     width: auto;
@@ -19020,6 +19045,7 @@ body .is-layout-flex {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
+	box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19173,6 +19199,16 @@ body .is-layout-flex {
     padding: 0 15px;
     outline: none;
     font-size: 1.6rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../images/common_sz/arrow_down.png") left center no-repeat;
+    background-size: 10px;
+    background-color: #fff
+}
+
+.c-form .row select::-ms-expand{
+    display: none;
 }
 @media only screen and (max-width: 767px) {
     .l-reciuit .c-form{
@@ -19204,11 +19240,60 @@ body .is-layout-flex {
     }
 }
 /*----------end reciuit----------*/
-
-/*----------start strong----------*/
-strong {
-  font-weight: bold;
+/*----------start 追加 CSS クラス p-news__post-----------*/
+.p-news__post  h3 {
+  margin-top: 60px;
+  font-size: 2.2rem;
+  background: linear-gradient(to right, #153F6F 30%, #E3E8F1 100%);
+  color: #fff;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  width: 100%;
 }
-/*----------end strong----------*/
+.p-news__post  p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
 
+@media screen and (max-width: 767px) {
+  .p-news__post h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding: 4px 15px;
+  }
+  .p-news__post  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+/*----------end 追加 CSS クラス p-news__post-----------*/
+.service-line-bottom1 {
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
 

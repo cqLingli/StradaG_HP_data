@@ -219,10 +219,7 @@ header の大枠
 }
 
 .l-header_topline {
-  background: url("../images/common/top_line.png");
-  background-size: 100% 100%;
-  height: 10px;
-  margin-top: 5px;
+  height: 5px
 }
 
 /* =========================================================
@@ -2332,7 +2329,8 @@ div.catch {
 
 @media screen and (max-width: 500px) {
   div.catch {
-    font-size: 11px;
+    font-size: 1rem;
+    zoom:0.8
   }
 }
 
@@ -3360,7 +3358,7 @@ title - 共通のタイトルやテキストなど
 
 @media screen and (max-width: 768px) {
   .content-service {
-    margin-top: 15px !important;
+    margin-top: 3% !important;
   }
 }
 
@@ -5282,7 +5280,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -14089,7 +14087,7 @@ body.tax-taxonomy_position .p-member__list img {
 .s-service .entry-content h4 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   line-height: 1.6;
   border-left: 4px solid #808C96;
   padding: 2px 0 2px 15px;
@@ -14126,7 +14124,7 @@ body.tax-taxonomy_position .p-member__list img {
 
   .s-service .entry-content h4 {
     font-size: 1.5rem;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 2%;
   }
 
@@ -14144,18 +14142,17 @@ body.tax-taxonomy_position .p-member__list img {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.3);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 2.5%;
 }
 
 .c-serviceList {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: -5%;
-  margin-left: 5.5%;
-  margin-right: 5.5%;
+  margin-left: 5%;
+  margin-right: 6%;
 
 }
 
@@ -14181,7 +14178,7 @@ body.tax-taxonomy_position .p-member__list img {
   background-color: #808C96;
   background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 20px;
 }
@@ -14192,7 +14189,7 @@ body.tax-taxonomy_position .p-member__list img {
   padding: 8px 20px;
   background-color: #808C96;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: bold;
   line-height: 32px;
@@ -14202,7 +14199,7 @@ body.tax-taxonomy_position .p-member__list img {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.68;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .serviceItem .c-btn01 a {
@@ -14234,6 +14231,9 @@ body.tax-taxonomy_position .p-member__list img {
     font-size: 1.5rem;
   }
 
+  .serviceItem .ttl2 {
+    font-size: 1.5rem;
+  }
   .serviceItem p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -14242,6 +14242,36 @@ body.tax-taxonomy_position .p-member__list img {
 
   .serviceItem .c-btn01 a {
     margin: 0 auto
+  }
+
+
+  .serviceItem2 {
+    width: 100%!important;
+    margin-left: 0!important;
+  }
+
+  .serviceItem2 .thumb {
+    width: 100%!important;
+    margin-right: 0!important;
+    margin-bottom: 15px!important;
+  }
+
+  .serviceItem2 .ttl {
+    font-size: 1.5rem!important;
+  }
+
+  .serviceItem2 .ttl2 {
+    font-size: 1.5rem!important;
+  }
+
+  .serviceItem2 p {
+    font-size: 1.2rem!important;
+    line-height: 1.6!important;
+    margin-bottom: 25px!important;
+  }
+
+  .serviceItem2 .c-btn01 a {
+    margin: 0 auto !important
   }
 
   .l-content {
@@ -14705,7 +14735,7 @@ body.tax-taxonomy_position .p-member__list img {
   margin-left: auto;
   background: #808C96;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
@@ -14799,8 +14829,8 @@ body.tax-taxonomy_position .p-member__list img {
 
 .term-description {
   margin-top: 1.5%;
-  margin-left: 7.8%;
-  margin-right: 8.8%;
+  margin-left: 5%;
+  margin-right: 6.5%;
   font-size: 15px;
 }
 
@@ -14942,11 +14972,12 @@ ol li {
 }
 
 @media screen and (max-width: 767px) {
-  /*.imageplay {
-    padding-bottom:40%
+  .imageplay {
+    /*padding-bottom:40%*/
+    margin-top:-16px
   }
 
-  .imageplay ul {
+  /*.imageplay ul {
     height: 250px;
   }
 
@@ -16707,7 +16738,7 @@ ol li {
 
 .service-line-bottom-top2 {
   height: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-width: 1px;
   border-bottom: gray 1px dotted;
   background: #D5D5D5;
@@ -16717,7 +16748,7 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
 }
@@ -16748,10 +16779,10 @@ ol li {
   display: inline-grid;
   margin-bottom: 45px;
   border: 1px solid;
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.26);
   padding: 8px 8px 8px 8px;
   background: white;
-  margin-left: 1.31%;
+  margin-left: 3.5%;
 }
 
 @media screen and (max-width: 760px) {
@@ -16905,8 +16936,8 @@ ol li {
   }
 
   .c-serviceList-add {
-    margin-left: 2.5% !important;
-    margin-right: 7% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
     margin-top: -10%;
   }
 }
@@ -17085,7 +17116,7 @@ ol li {
   }
 
   .single-service {
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .service_content_add {
@@ -17393,13 +17424,11 @@ ol li {
 
 @media screen and (min-width: 991px) {
   .term-description—service {
-    margin-left: 6% !important;
-    margin-right: 1.5% !important;
+
   }
 
   .c-serviceList-add {
-    margin-left: 4% !important;
-    margin-right: 0.5% !important;
+
   }
 }
 
@@ -18035,8 +18064,8 @@ ol li {
   }
 
   .template-service-title {
-    margin-left: 0.5% !important;
-    margin-right: 0.5% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
     margin-top: 4% !important;
     font-size: 1rem !important;
   }
@@ -18478,7 +18507,7 @@ ol li {
 }
 
 .search_content_style1_1 input::-webkit-input-placeholder {
-  padding-left: 49.5%;
+  /*padding-left: 8px;*/
   font-size: 2rem;
 }
 
@@ -18861,7 +18890,30 @@ ol li {
   margin-left: 5.5%;
   margin-right: 5.5%
 }
-
+.singleService .c-back-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
 @media screen and (max-width: 760px) {
   .left_heading{
     font-size: 1.8rem;
@@ -18923,16 +18975,20 @@ ol li {
     justify-content: center;
     width: 100%;
     max-width: 1400px;
-    height:50px;
+    height:30px!important;
     margin-top: 42px;
     margin-right: auto;
     margin-left: auto;
     background: #808C96;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
     font-weight: bold;
     line-height: 27px;
     text-decoration: none;
+  }
+  .c-back-service-list{
+    height:30px!important;
+    font-size: 1.5rem!important;
   }
 }
 .service-line-bottom2-span{
@@ -18940,31 +18996,6 @@ ol li {
   font-size: 15px;
   font-weight: bold;
   color: #808C96;
-}
-
- .singleService .c-back-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
-  height:50px;
-  margin-top: 42px;
-  margin-right: auto;
-  margin-left: auto;
-  background: #808C96;
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: bold;
-  line-height: 27px;
-  text-decoration: none;
 }
 
 .sr_service_bg{
@@ -19319,7 +19350,7 @@ ol li {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -19485,6 +19516,7 @@ ol li {
 #header {
 	transform: translateY(0);
 	transition: all 0.3s ease;
+	box-shadow:0px 3px 10px rgba(0,0,0,0.2)
 }
 #header.hide {
 	transform: translateY(-100%);
@@ -19682,3 +19714,183 @@ strong {
   border: none;
 }
 /*----------end strong----------*/
+/*----------start 追加 CSS クラス p-news__post-----------*/
+.p-news__post  h3 {
+  margin-top: 60px;
+  font-size: 2.2rem;
+  background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
+  color: #fff;
+  line-height: 1.6;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.p-news__post  p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .p-news__post h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    padding: 4px 15px;
+  }
+  .p-news__post  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+/*----------end 追加 CSS クラス p-news__post-----------*/
+.c-line-bottom1 {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+.c-line-bottom2 {
+  border: none;
+  height: 1px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-bottom: gray 1px dotted;
+  background: #D5D5D5;
+}
+
+.serviceItem2 {
+  display: inline-grid;
+  margin-bottom: 45px;
+  border: 1px solid;
+  width: calc(100% / 3.26);
+  padding: 8px 8px 8px 8px;
+  background: white;
+  margin-left: 3.5%;
+}
+
+.serviceItem2 .thumb {
+  flex-shrink: 0;
+  margin: auto;
+  line-height: 0;
+  width: 100%;
+
+}
+
+.serviceItem2 .ttl {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 8px 20px;
+  background-color: #808C96;
+  background: linear-gradient(to right, #808C96 30%, #F3F5F6 100%);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.serviceItem2 .ttl2 {
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 8px 20px;
+  background-color: #808C96;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.serviceItem2 p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.68;
+  margin-bottom: 10px;
+}
+
+.serviceItem2 .c-btn01 a {
+  height: 50px;
+  font-size: 1.6rem;
+  width: 265px;
+}
+
+.serviceItem2:last-child {
+  margin-bottom: 0;
+}
+.page-entry2 {
+  margin-left: 5%;
+  margin-right: 6.5%;
+}
+ .c-back-service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
+.title-color{
+  color: white!important;
+}
+@media only screen and (max-width: 767px) {
+  .page-entry2 {
+    margin-left: 5%;
+    margin-right: 5%!important;
+  }
+  .c-back-service-title {
+    font-size: 1.5rem!important;
+  }
+  .sg-title{
+    margin-top: 0!important;
+  }
+  }
+
+
+.c-back-service-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  width: 100%;
+  max-width: 1400px;
+  height:50px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #808C96;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 27px;
+  text-decoration: none;
+}
+.sg-title{
+  text-decoration:none;
+  margin-top: 3%;
+}

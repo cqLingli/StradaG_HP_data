@@ -30,7 +30,6 @@ $_SESSION['page_type']="service";
             <p>その中で、資金調達、補助金の取得、資本政策に基づく、会社のM&Aや上場等の企業の大きなライフイベントが発生します。</p>
             <p>そんな、会社のライフイベントで頼りになる存在であり続けたいと考えております。</p>
             <hr class="service-line-bottom-top2" />
-            <div style="margin-top: 3%;"></div>
         </div>
     </div>
   <!-- end c-mainTitle -->
