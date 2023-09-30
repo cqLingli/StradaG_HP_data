@@ -18735,7 +18735,7 @@ ol li {
     height: auto
   }
   .h-logo img {
-    width: 250px;
+    width: auto;
     height: 35px
   }
   .search_content {
