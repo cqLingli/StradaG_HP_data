@@ -96,7 +96,6 @@ if($mv){
       </div>
     </div>
       </div>
-      <?php echo get_post_type_archive_link("service");?>
   </main>
 <?php
     get_footer("sg");

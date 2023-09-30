@@ -14189,7 +14189,7 @@ body.tax-taxonomy_position .p-member__list img {
   background-color: #B97727;
   background: linear-gradient(to right, #B97727 30%, #FFF0E5 100%);
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 20px;
 }
@@ -18335,8 +18335,9 @@ ol li {
   }
 
   .c-breakcrumds {
-    height: 20px;
-    padding-left: 3%
+    height: 40px;
+    padding-left: 3%;
+    margin-top:-15px
   }
 
   .menber_single-width {
@@ -19850,6 +19851,9 @@ strong {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 0;
+  }
+  .f-copyright{
+    margin-bottom: -60px;
   }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
