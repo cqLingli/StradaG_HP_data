@@ -12577,7 +12577,7 @@ img {
     display: flex;
     align-items: center;
     margin-top: 0px;
-    width: 140px;
+    width: 150px;
     flex-shrink: 0;
     font-size: 1rem;
   }
@@ -19857,3 +19857,19 @@ strong {
   }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
+/*----------end 追加 CSS No.70-----------*/
+@media only screen and (max-width: 767px) {
+  .t-price .has-text-align-center {
+    border: 0.3px solid black !important;
+  }
+  .has-text-align-left{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center1{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center2{
+    border: 0.3px solid black !important;
+  }
+}
+/*----------end 追加 CSS No.70-----------*/

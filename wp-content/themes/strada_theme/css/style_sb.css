@@ -20025,6 +20025,31 @@ strong {
   }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
+/*----------end 追加 CSS No.70-----------*/
+@media only screen and (max-width: 767px) {
+  .t-price .has-text-align-center {
+    border: 0.3px solid black !important;
+  }
+  .has-text-align-left{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center1{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center2{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center3{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center4{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center5{
+    border: 0.3px solid black !important;
+  }
+}
+/*----------end 追加 CSS No.70-----------*/
 
 .c-line-bottom1 {
   border: none;

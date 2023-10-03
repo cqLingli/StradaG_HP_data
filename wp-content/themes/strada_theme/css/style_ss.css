@@ -18958,14 +18958,14 @@ ol li {
   }
 
   .body2 tr th {
-    width:60%;
+    width:70%;
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
   }
 
   .body2 tr td {
-    width:40%;
+    width:30%;
     white-space: nowrap;
     font-size: 1rem;
     zoom:0.85
@@ -19697,6 +19697,22 @@ strong {
   }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
+/*----------end 追加 CSS No.70-----------*/
+@media only screen and (max-width: 767px) {
+  .has-text-align-left{
+    border: 0.3px solid black !important;
+  }
+  .t-price .has-text-align-center {
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center1{
+    border: 0.3px solid black !important;
+  }
+  .body1 .has-text-align-center2{
+    border: 0.3px solid black !important;
+  }
+}
+/*----------end 追加 CSS No.70-----------*/
 .service-line-bottom1 {
   height: 1px;
   margin-top: 30px;
