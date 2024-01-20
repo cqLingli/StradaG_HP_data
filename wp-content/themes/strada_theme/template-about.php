@@ -4,7 +4,7 @@
     <div class="c-mainTitle_content">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
-        会社概要
+        グループ概要
           <span>About</span>
         </h1>
       </div>
@@ -17,7 +17,7 @@
     <div class="companyss">
   <div class="p-about_group" id="企業概要">
     <div class="c-tlt02 c-tlt02--center">                      
-      <h2>会社概要</h2>      
+      <h2>グループ概要</h2>      
     </div>
     <div class="p-about_groupContent">
       <div class="company_left">
@@ -141,7 +141,7 @@
         </dl> 
         <dl>
           <dt>2018年1月</dt>
-          <dd>ストラーダビジネスサポート株式会社の取締役に塚田拓也と宿谷祐樹が就任致しました。</dd>
+          <dd>ストラーダビジネスサポート株式会社の取締役に塚田拓也と宿谷裕樹が就任致しました。</dd>
         </dl>
         <dl>
           <dt>2017年11月</dt>

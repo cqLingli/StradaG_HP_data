@@ -134,7 +134,7 @@ $_SESSION['page_type']="top";
 ていますが、会社の目指すべき方向は一つです。<br />　各種部署が連携しながら、会社が目指すべき方向について、議論しています。その機能を私
 たち士業が担います。<br />　ストラーダグループとして、総合的な支援をさせて頂くことにより、会社の全体戦略や方向性
 に基づいたアドバイスが可能になるのです。<br /></p>
-          <p class="Message_style1_p4">ストラーダホールディングス株式会社 CEO</p>
+          <p class="Message_style1_p4">ストラーダグループ CEO</p>
           <p class="Message_style1_p5">山田 直輝</p>
         </div>
         <div class="Message_style2">
@@ -199,14 +199,15 @@ $_SESSION['page_type']="top";
         <div class="circle7"></div>
         </p>
       </div>
-      <div id="text7" class="border-text border-text-controll">会社概要、アクセス、メンバー</div>
+      <!-- <div id="text7" class="border-text border-text-controll">グループ概要、アクセス、メンバー</div> -->
+      <div id="text7" class="border-text border-text-controll">グループ概要、アクセス</div>
     </div>
     </div>
     </div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about'); ?>
-        <a id="menber" class="target-fix1"></a>
-        <?php get_template_part('template', 'members'); ?>
+        <!-- <a id="menber" class="target-fix1"></a> -->
+        <?php //get_template_part('template', 'members'); ?>
       </div>
   </div>
   </div>

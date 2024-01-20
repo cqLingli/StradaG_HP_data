@@ -172,14 +172,14 @@
           </li>
           <li>
             <a href="<?php echo home_url('#About'); ?>">
-              <div class="vertical-line">会社概要</div>
+              <div class="vertical-line">グループ概要</div>
             </a>
           </li>
-          <li>
-            <a href="<?php echo home_url('#menber'); ?>">
+          <!-- <li>
+            <a href="<?php //echo home_url('#menber'); ?>">
               <div class="vertical-line">メンバー紹介</div>
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="<?php echo home_url('access'); ?>">
               <div class="vertical-line">アクセス</div>

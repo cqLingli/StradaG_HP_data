@@ -43,7 +43,7 @@
   <!-- .l-header | ヘッダー -->
   <header>
   <div class="l-header" id="header">
-    <div class="catch">グローバル時代にも活躍できる企業を作る!！</div>
+    <div class="catch">グローバル時代にも活躍できる企業を作る!</div>
     <!-- <div class="h-btn">
       <span></span>
     </div> -->
