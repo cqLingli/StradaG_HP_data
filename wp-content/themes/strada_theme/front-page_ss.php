@@ -252,7 +252,7 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end About -->
 
-  <!-- start Price -->
+  <!-- start Price 非表示
   <a id="Price" class="target-fix"></a>
     <div class="block_wrap6">
         <div class="border-text6"></div>
@@ -269,10 +269,10 @@ $_SESSION['page_type']="top";
         </div>
         </div>
         <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-            <?php get_template_part('template', 'price_ss'); ?>
+            <?php //get_template_part('template', 'price_ss'); ?>
         </div>
     </div>
-  <!-- end Price -->
+    end Price -->
 
   <!-- start Contact -->
   <a id="Contact" class="target-fix"></a>

@@ -86,6 +86,12 @@ $_SESSION['page_type']="top";
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
                   <div class="t-news_list_topbox time" style="float: right; width: 82%;">
+                    <?php
+                        $this_terms = get_the_terms(get_the_id(),'company');
+                        foreach ($this_terms as $each_term){
+                            // ターム名を出力
+                            echo "<span class='news-company-".$each_term -> slug."'>".$each_term -> name.'　'."</span>";
+                    }?>
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>

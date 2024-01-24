@@ -206,8 +206,8 @@
         <a href="<?php echo home_url('news'); ?>"><div class="search_content_style">ニュース</div></a>
         <a href="<?php echo home_url('#'); ?>"><div class="search_content_style">業務内容</div></a>
         <a href="<?php echo home_url('#StradaGroup'); ?>"><div class="search_content_style">グループ紹介</div></a>
-        <a href="<?php echo home_url('#About'); ?>"><div class="search_content_style">会社概要</div></a>
-        <a href="<?php echo home_url('members/representative/yamada'); ?>"><div class="search_content_style">メンバー紹介</div></a>
+        <a href="<?php echo home_url('#About'); ?>"><div class="search_content_style">グループ概要</div></a>
+        <!-- <a href="<?php //echo home_url('members/representative/yamada'); ?>"><div class="search_content_style">メンバー紹介</div></a> -->
         <a href="<?php echo home_url('access'); ?>"><div class="search_content_style">アクセス</div></a>
         <a href="<?php echo home_url('#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       </div>

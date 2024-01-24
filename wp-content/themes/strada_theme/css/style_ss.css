@@ -16643,7 +16643,8 @@ ol li {
   padding: 1px 5px;
   float: right;
   width: 40%;
-  font-size: 14px;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
@@ -16656,6 +16657,7 @@ ol li {
     float: right;
     width: 40%;
     font-size: 1rem;
+    font-weight: bold;
   }
 }
 
@@ -16667,8 +16669,9 @@ ol li {
     color: white;
     padding: 1px 5px;
     float: right;
-    width: 50%;
-    font-size: 14px;
+    width: 40%;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 }
 

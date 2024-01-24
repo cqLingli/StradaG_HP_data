@@ -26,21 +26,21 @@
                         <figure class="wp-block-table is-style-stripes">
                             <table>
                                 <tr>
-                                    <td class="has-text-align-center1">内容</td>
-                                    <td class="has-text-align-center1">料金（税抜）</td>
-                                    <td class="has-text-align-center2">実費（印鑑セット別）＋行政書士報酬（税込）</td>
+                                    <td class="has-text-align-center5">内容</td>
+                                    
+                                    <td class="has-text-align-center5">実費（印鑑セット別）＋行政書士報酬（税込）</td>
                                 </tr>
 
                                 <tr>
                                     <td class="has-text-align-center3">法人設立（株式会社）</td>
-                                    <td class="has-text-align-center3">40,000円</td>
-                                    <td class="has-text-align-center3">約280,000円</td>
+                                    
+                                    <td class="has-text-align-center3">約280,000円～</td>
                                 </tr>
 
                                 <tr>
                                     <td class="has-text-align-center4">法人設立（合同会社）</td>
-                                    <td class="has-text-align-center4">20,000円</td>
-                                    <td class="has-text-align-center4">約120,000円</td>
+                                    
+                                    <td class="has-text-align-center4">約120,000円～</td>
                                 </tr>
 
                                 
@@ -50,15 +50,15 @@
                         <figure class="wp-block-table is-style-stripes">
                             <table>
                             <tr>
-                                    <td class="has-text-align-center1">内容</td>
-                                    <td class="has-text-align-center1">料金（税抜）</td>
-                                    <td class="has-text-align-center2">定款英訳、登記申請書英訳オプション込みの報酬＋実費</td>
+                                    <td class="has-text-align-center5">内容</td>
+                                    
+                                    <td class="has-text-align-center5">定款英訳、登記申請書英訳オプション込みの報酬＋実費</td>
                                 </tr>
 
                                 <tr>
                                     <td class="has-text-align-center3">法人設立（株式会社）</td>
-                                    <td class="has-text-align-center3">250,000円</td>
-                                    <td class="has-text-align-center3">約550,000円</td>
+                                    
+                                    <td class="has-text-align-center3">約550,000円～</td>
                                 </tr>
                             </table>
                         </figure>
@@ -71,47 +71,47 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業許可申請（個人・新規）知事（事業所が都道府県をまたがない場合）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">建設業許可申請（個人・更新）知事</td>
-                                    <td class="has-text-align-center4">55,000円</td>
+                                    <td class="has-text-align-center4">55,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業許可申請（法人・新規）知事</td>
-                                    <td class="has-text-align-center3">150,000円</td>
+                                    <td class="has-text-align-center3">150,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">建設業許可申請（法人・新規）大臣（事業所が都道府県をまたぐ場合）</td>
-                                    <td class="has-text-align-center4">150,000円</td>
+                                    <td class="has-text-align-center4">150,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業許可申請（法人・更新）知事</td>
-                                    <td class="has-text-align-center3">55,000円</td>
+                                    <td class="has-text-align-center3">55,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">建設業許可申請（法人・更新）大臣</td>
-                                    <td class="has-text-align-center4">100,000円</td>
+                                    <td class="has-text-align-center4">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業許可申請（般・特新規）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">建設業許可申請（許可換え新規）</td>
-                                    <td class="has-text-align-center4">100,000円</td>
+                                    <td class="has-text-align-center4">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業許可申請（業種追加）</td>
-                                    <td class="has-text-align-center3">55,000円</td>
+                                    <td class="has-text-align-center3">55,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">建設業変更届出（事業年度終了）知事</td>
-                                    <td class="has-text-align-center4">35,000円（決算報告届）</td>
+                                    <td class="has-text-align-center4">35,000円～（決算報告届）</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">建設業変更届出（事業年度終了）大臣</td>
-                                    <td class="has-text-align-center3">50,000円</td>
+                                    <td class="has-text-align-center3">50,000円～</td>
                                 </tr>
                                 
                             </table>
@@ -126,7 +126,7 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">新規（知事）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 
                             </table>
@@ -146,7 +146,7 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">古物商許可申請</td>
-                                    <td class="has-text-align-center3">50,000円</td>
+                                    <td class="has-text-align-center3">50,000円～</td>
                                 </tr>
                                 
                             </table>
@@ -158,15 +158,15 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">車両の名義変更（都内）</td>
-                                    <td class="has-text-align-center3">10,000円</td>
+                                    <td class="has-text-align-center3">10,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">車両の名義変更（神奈川千葉埼玉）</td>
-                                    <td class="has-text-align-center4">12,000円</td>
+                                    <td class="has-text-align-center4">12,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">車両の名義変更（一都三県以外）</td>
-                                    <td class="has-text-align-center3">15,000円</td>
+                                    <td class="has-text-align-center3">15,000円～</td>
                                 </tr>
                                 
                             </table>
@@ -179,15 +179,15 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">車庫証明取得（都内）</td>
-                                    <td class="has-text-align-center3">10,000円</td>
+                                    <td class="has-text-align-center3">10,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">車庫証明取得（神奈川千葉埼玉）</td>
-                                    <td class="has-text-align-center4">12,000円</td>
+                                    <td class="has-text-align-center4">12,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">車庫証明取得（一都三県以外）</td>
-                                    <td class="has-text-align-center3">15,000円</td>
+                                    <td class="has-text-align-center3">15,000円～</td>
                                 </tr>
                                 
                             </table>
@@ -203,64 +203,64 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留資格認定証明書交付申請（居住資格）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留資格認定証明書交付申請（就労資格）</td>
-                                    <td class="has-text-align-center4">100,000円</td>
+                                    <td class="has-text-align-center4">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留資格認定証明書交付申請（非就労資格）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留資格認定証明書交付申請（経営・管理）</td>
-                                    <td class="has-text-align-center4">230,000円</td>
+                                    <td class="has-text-align-center4">230,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留資格変更許可申請（居住資格）</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留資格変更許可申請（就労資格）</td>
-                                    <td class="has-text-align-center4">100,000円</td>
+                                    <td class="has-text-align-center4">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留資格変更許可申請（非就労資格）</td>
-                                    <td class="has-text-align-center3">80,000円</td>
+                                    <td class="has-text-align-center3">80,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留資格変更許可申請（経理・管理）</td>
-                                    <td class="has-text-align-center4">230,000円</td>
+                                    <td class="has-text-align-center4">230,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留期間更新許可申請（居住資格）</td>
-                                    <td class="has-text-align-center3">50,000円</td>
+                                    <td class="has-text-align-center3">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留期間更新許可申請（就労資格）</td>
-                                    <td class="has-text-align-center4">55,000円</td>
+                                    <td class="has-text-align-center4">55,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">在留期間更新許可申請（非就労資格）</td>
-                                    <td class="has-text-align-center3">30,000円</td>
+                                    <td class="has-text-align-center3">30,000円～</td>
                                 </tr>
                                 
                                 <tr>
                                     <td class="has-text-align-center4">在留期間更新許可申請（経営・管理）</td>
-                                    <td class="has-text-align-center4">50,000円</td>
+                                    <td class="has-text-align-center4">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">永住許可申請</td>
-                                    <td class="has-text-align-center3">100,000円</td>
+                                    <td class="has-text-align-center3">100,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">在留資格取得許可申請</td>
-                                    <td class="has-text-align-center4">50,000円</td>
+                                    <td class="has-text-align-center4">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">資格外活動許可申請</td>
-                                    <td class="has-text-align-center3">10,000円</td>
+                                    <td class="has-text-align-center3">10,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">就労資格証明書交付申請</td>
@@ -278,19 +278,19 @@
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">遺言書の起案及び作成指導</td>
-                                    <td class="has-text-align-center3">50,000円</td>
+                                    <td class="has-text-align-center3">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">遺産分割協議書の作成</td>
-                                    <td class="has-text-align-center4">50,000円</td>
+                                    <td class="has-text-align-center4">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center3">相続人の調査（改正原戸籍謄本・住民票等の委任取得）</td>
-                                    <td class="has-text-align-center3">50,000円</td>
+                                    <td class="has-text-align-center3">50,000円～</td>
                                 </tr>
                                 <tr>
                                     <td class="has-text-align-center4">遺言執行手続</td>
-                                    <td class="has-text-align-center4">300,000円</td>
+                                    <td class="has-text-align-center4">300,000円～</td>
                                 </tr>
                             </table>
                         </figure>

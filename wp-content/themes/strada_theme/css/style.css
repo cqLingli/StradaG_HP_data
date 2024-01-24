@@ -6447,7 +6447,7 @@ top - Topページ固有のオブジェクト
 
 .t-news_list_topbox .time {
   font-size: 1.5rem;
-  line-height: 19px;
+ 
 }
 
 .t-column_ul {
@@ -16561,7 +16561,8 @@ ol li {
   padding: 1px 5px;
   float: right;
   width: 30%;
-  font-size: 14px;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
@@ -16574,6 +16575,7 @@ ol li {
     float: right;
     width: 45%;
     font-size: 1rem;
+    font-weight: bold;
   }
 }
 
@@ -16585,8 +16587,9 @@ ol li {
     color: white;
     padding: 1px 5px;
     float: right;
-    width: 50%;
-    font-size: 14px;
+    width: 40%;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 }
 
@@ -17979,7 +17982,7 @@ ol li {
 
   .t-news_list_topbox .time {
     font-size: 1rem;
-    line-height: 14px;
+ 
   }
 
   .menberTtile {
@@ -19289,3 +19292,27 @@ strong {
   }
 }
 /*----------end 追加 CSS クラス p-news__post-----------*/
+.news-company-sb{
+    color:#00A159;
+    font-weight: bold;
+}
+.news-company-ss{
+    color:#EC7700;
+    font-weight: bold;
+}
+.news-company-sz{
+    color:#003E75;
+    font-weight: bold;
+}
+.news-company-sg{
+    color:#808C96;
+    font-weight: bold;
+}
+.news-company-tr{
+    color:#B8193F;
+    font-weight: bold;
+}
+.news-company-ch{
+    color:#B97727;
+    font-weight: bold;
+}
