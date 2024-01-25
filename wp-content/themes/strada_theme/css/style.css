@@ -9,6 +9,10 @@
   font-family: YuGothicM;
 }
 
+@font-face {
+  src: url('../fonts/A-OTF Outai Kaisho Std Light.otf') format('truetype');
+  font-family: A-OTF-OutaiKaiStd;
+}
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -5272,7 +5276,7 @@ div#企業概要 {
 }
 
 /* .p-new01 .c-mainTitle_content {
-       margin-top: -69px; 
+       margin-top: -69px;
   } */
 @media screen and (max-width: 991px) {
   .p-new01 .c-mainTitle_content {
@@ -6447,7 +6451,7 @@ top - Topページ固有のオブジェクト
 
 .t-news_list_topbox .time {
   font-size: 1.5rem;
- 
+
 }
 
 .t-column_ul {
@@ -15091,11 +15095,13 @@ ol li {
   line-height: 24px;
   padding-bottom: 5px;
   border-top:1px dotted #707070;
+  font-family: "A-OTF-OutaiKaiStd";
 }
 
 .Message_style1_p4 {
   font-size: 1.44rem;
-  text-align: right
+  text-align: right;
+  font-family: "A-OTF-OutaiKaiStd";
 }
 
 .Message_style1_p5 {
@@ -15104,6 +15110,7 @@ ol li {
   padding-bottom: 15px;
   text-align: right;
   border-bottom:1px dotted #707070;
+  font-family: "A-OTF-OutaiKaiStd";
 }
 
 .Message_style2 img {
@@ -17982,7 +17989,7 @@ ol li {
 
   .t-news_list_topbox .time {
     font-size: 1rem;
- 
+
   }
 
   .menberTtile {
@@ -18817,7 +18824,7 @@ ol li {
 .search-title{
     background-color: #DCDDDD;
     height:150px;
-    display:flex; 
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
