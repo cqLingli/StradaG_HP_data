@@ -23,42 +23,34 @@
       <div class="company_left">
         <div class="t-company_list">
           <dl>
-            <dt>法人名称</dt>
-            <dd>ストラーダホールディングス株式会社</dd>
+            <dt>グループ名称</dt>
+            <dd>ストラーダグループ</dd>
           </dl>
           <dl>
-            <dt>代表</dt>
-            <dd>代表取締役　山田 直輝</dd>
+            <dt>代表者</dt>
+            <dd>グループ代表　山田直輝</dd>
+          </dl>
+          <dl>
+            <dt>構成員数</dt>
+            <dd>38名（他業務委託27名）</dd>
           </dl>                                 
           <dl>
-            <dt>本店所在地</dt>
-            <dd>〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階</dd>
-          </dl>                      
+            <dt>住所</dt>
+            <dd>〒103-0014 東京都中央区日本橋蛎殻町1-36-5  5階
+              <br>〒103-0014 東京都中央区日本橋蛎殻町2-11-2 3階・4階・5階・6階
+            </dd>
+          </dl>                                           
           <dl>
-            <dt>電話番号</dt>
-            <dd>03-6206-215</dd>
-          </dl>                     
-          <dl>
-            <dt>メールアドレス</dt>
-            <dd>info@strada-bs.jp</dd>
-          </dl>                      
-          <dl>
-            <dt>営業時間</dt>
-            <dd>月曜日～金曜日　9時～18時　※土曜日・日曜日・祝日休み</dd>
-          </dl> 
-          <dl>
-            <dt>業務内容</dt>
-            <dd>・バーチャルオフィス運営業務<br />
-                ・経理代行業務（Business Process Outsourcing）<br />
-                ・補助金申請代行業務<br />
-                ・資金調達業務<br />
-                ・不正調査業務<br />
-                ・海外進出支援事業<br />
-                ・Ｍ＆Ａ関連業務／デューデリジェンス／バリュエーション／M&A検索代行<br />
-                ・IPO支援業務<br />
-                ・資本政策業務<br />
-                ・内部統制構築支援業務<br />
-              </dd>
+            <dt>グループ一覧</dt>
+            <dd>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_01.svg" /><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_02.svg" /><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_03.svg" /><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_04.svg" /><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_05.svg" /><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_06.svg" class="specialImg"/><br />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_07.svg" /><br />
+            </dd>
           </dl>                                         
         </div>
       </div>
