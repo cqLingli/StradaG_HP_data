@@ -49,11 +49,11 @@ $_SESSION['page_type']="top";
     </div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
-        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            style="width:100%;height:90%"></iframe>
-          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
-        </div>
+<!--        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"-->
+<!--            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen-->
+<!--            style="width:100%;height:90%"></iframe>-->
+<!--          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>-->
+<!--        </div>-->
         <div class="news_style2">
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
@@ -77,15 +77,15 @@ $_SESSION['page_type']="top";
             $query = new WP_Query($args); // 执行查询
             ?>
             <ul>
-              <?php 
+              <?php
               if($query->have_posts()) :
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <div class="t-news_list_topbox time" style="float: left; width: 18%;">
+                  <div class="t-news_list_topbox time" style="float: left; width: 10%;">
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
-                  <div class="t-news_list_topbox time" style="float: right; width: 82%;">
+                  <div class="t-news_list_topbox time" style="float: right; width: 90%;">
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>
@@ -153,7 +153,7 @@ $_SESSION['page_type']="top";
     <div class="border-text2"></div>
     <div class="border-bt">
       <div class="l-container">
-        <div style="display:flex">
+        <div>
           <div id="block_wrap2" class="title_item_wrap2 active2">
             <p class="chapter_title2">Strada Group
             <div class="circle2"></div>
@@ -164,27 +164,43 @@ $_SESSION['page_type']="top";
       </div>
     </div>
     <div class="l-container">
-      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
-        <div class="Strada_style">
-          <div class="Strada_style_img1">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt=""
-              class="Strada_style_img1_1" />
-          </div>
-          <p class="StradaStyle">ストラーダグループとは、　
-            <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
-            <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
-            <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
-            <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ</span>
-            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>
-            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>
-            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>
-            <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>
-            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>
-            <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
-              会社の全体戦略に基づいたアドバイスを可能としております。</span>
-          </p>
+        <div class="l-container Group_style1_extra">
+            <div class="Group_style1">
+                <div class="image_div">
+
+                    <div class="title_div_p">
+                        <p class="Group_style1_p1">ワンストップの集団だからこそできる</p>
+                        <p class="Group_style1_p2">
+                            部分最適ではなく全体最適な提案を。</p>
+                    </div>
+                    <div class="circle-container"></div>
+
+                </div>
+            </div>
+            <div class="Group_style2">
+                        <div class="youtube_div">
+                            <div class="Group_youtube_style1">
+                                <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                                    style="width:100%;height:90%"></iframe>
+                                <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
+                            </div>
+                               <div class="StradaStyle_div">
+                            <p class="StradaStyle">ストラーダグループとは、　 <br>
+                                <span class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span>     <br>
+                                <span class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>  <br>
+                                <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span>  <br>
+                                <span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span>  <br>
+                                <span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span>  <br>
+                                <span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span>   <br>
+                                <span class="StradaStyle_span7">■不動産：タックス・リアルティ株式会社　</span>    <br>
+                                <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span>    <br>
+                                <span class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span>
+                            </p>
+                               </div>
+                        </div>
+            </div>
         </div>
-      </div>
     </div>
   </div>
   <!-- end Strada Group -->
@@ -209,74 +225,6 @@ $_SESSION['page_type']="top";
       <?php get_template_part('template', 'tr-service'); ?>
     </div>
   </div>
-  <!-- end Service -->
-
-  <!-- start Case Study 一旦非表示
-  <a id="CaseStudy" class="target-fix"></a>
-  <div class="block_wrap5">
-    <div class="border-text5"></div>
-    <div class="border-bt">
-      <div class="l-container">
-        <div style="display:flex">
-          <div id="block_wrap5" class="title_item_wrap5 active5">
-            <p class="chapter_title5">Case Study
-            <div class="circle5"></div>
-            </p>
-          </div>
-          <div id="text5" class="border-text border-text-controll">当社事例</div>
-        </div>
-      </div>
-    </div>
-    <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
-      <?php //get_template_part('template', ''); ?>
-    </div>
-  </div>
-  一旦非表示 end Case Study -->
-
-  <!-- start Q&A 一旦非表示
-  <a id="QA" class="target-fix"></a>
-  <div class="block_wrap6">
-    <div class="border-text6"></div>
-      <div class="border-bt">
-    <div class="l-container">
-    <div style="display:flex">
-      <div id="block_wrap6" class="title_item_wrap6 active6">
-        <p class="chapter_title6">Q&A
-        <div class="circle6"></div>
-        </p>
-      </div>
-      <div id="text6" class="border-text border-text-controll">よくあるご質問</div>
-    </div>
-    </div>
-    </div>
-      <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-        <?php //get_template_part('template', ''); ?>
-      </div>
-  </div>
-  一旦非表示 end Q&A -->
-
-  <!-- start Voice　一旦非表示
-  <a id="Voice" class="target-fix"></a>
-  <div class="block_wrap4">
-    <div class="border-text4"></div>
-      <div class="border-bt">
-    <div class="l-container">
-    <div style="display:flex">
-      <div id="block_wrap4" class="title_item_wrap4 active4">
-        <p class="chapter_title4">Voice
-        <div class="circle4"></div>
-        </p>
-      </div>
-      <div id="text4" class="border-text border-text-controll">お客様からの声</div>
-    </div>
-    </div>
-   </div>
-    <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
-      <?php get_template_part('template', ''); ?>
-    </div>
-  </div>
-  一旦非表示 end Voice -->
-
   <!-- start About -->
   <a id="About" class="target-fix"></a>
   <div class="block_wrap7">
@@ -322,29 +270,53 @@ $_SESSION['page_type']="top";
       <?php get_template_part('template', 'contact_tr'); ?>
     </div>
   </div>
-  <!-- end Contact -->
 
-  <!-- start Recruit 一旦非表示
-  <a id="Recruit" class="target-fix"></a>
-  <div class="block_wrap9">
-    <div class="border-text9"></div>
-    <div class="border-bt">
-      <div class="l-container">
-        <div style="display:flex">
-          <div id="block_wrap9" class="title_item_wrap9 active9">
-            <p class="chapter_title9">Recruit
-            <div class="circle9"></div>
-            </p>
-          </div>
-          <div id="text9" class="border-text border-text-controll">採用情報</div>
-        </div>
-      </div>
-    </div>
-    <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
-      <?php //get_template_part('template', ''); ?>
-    </div>
-  </div>
-  一旦非表示 end Recruit -->
 </main>
 
 <?php get_footer("tr"); ?>
+
+
+ <script>
+     const circleContainer = document.querySelector('.circle-container');
+     // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
+     //     '中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
+     const list = ['A','B','C','D','E','F','G','H'];
+     list.forEach((item, index) => {
+         const circle = document.createElement('a');
+         circle.classList.add('circle100');
+         circle.textContent = item;
+         circle.addEventListener('click', () => {
+            // alert(item)
+             //if(item == 'A'){
+             //    circle.href= '<?php //echo home_url(''); ?>//';
+             //}
+             if(item == 'B'){
+                 circle.href= '<?php echo home_url('tax'); ?>';
+             }
+             if(item == 'C'){
+                 circle.href= '<?php echo home_url('bs'); ?>';
+             }
+             //if(item == 'D'){
+             //    circle.href= '<?php //echo home_url(''); ?>//';
+             //}
+             if(item == 'E'){
+                 circle.href= '<?php echo home_url('sr'); ?>';
+             }
+             if(item == 'F'){
+                 circle.href= '<?php echo home_url('chushoukigyouroudou'); ?>';
+             }
+             if(item == 'G'){
+                 circle.href= '<?php echo home_url('admin'); ?>';
+             }
+             if(item == 'H'){
+                 circle.href= '<?php echo home_url('taxria'); ?>';
+             }
+
+
+
+         });
+         circleContainer.appendChild(circle);
+     });
+
+
+ </script>

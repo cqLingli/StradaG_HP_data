@@ -49,11 +49,11 @@ $_SESSION['page_type']="top";
     </div>
     <div class="l-container">
       <div id="list_wrap" class="node_wrap node_wrap_show">
-        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            style="width:100%;height:90%"></iframe>
-          <p class="Youtube_text">Youtubeストラーダグループチャンネル</p>
-        </div>
+<!--        <div class="news_style1"><iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"-->
+<!--            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen-->
+<!--            style="width:100%;height:90%"></iframe>-->
+<!--          <p class="Youtube_text">Youtubeストラーダグループチャンネル</p>-->
+<!--        </div>-->
         <div class="news_style2">
           <div class="t-news_list_topbox">
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
@@ -77,15 +77,15 @@ $_SESSION['page_type']="top";
             $query = new WP_Query($args); // 执行查询
             ?>
             <ul>
-              <?php 
+              <?php
               if($query->have_posts()) :
                 while($query->have_posts()) : $query->the_post(); ?>
               <li>
                 <a href="<?php echo get_permalink(get_the_ID()); ?>">
-                  <div class="t-news_list_topbox time" style="float: left; width: 18%;">
+                  <div class="t-news_list_topbox time" style="float: left; width: 10%;">
                     <?php echo get_the_date('Y.m.d') ?>
                   </div>
-                  <div class="t-news_list_topbox time" style="float: right; width: 82%;">
+                  <div class="t-news_list_topbox time" style="float: right; width: 90%;">
                     <?php echo get_the_title(); ?>
                   </div>
                 </a>
@@ -283,29 +283,68 @@ $_SESSION['page_type']="top";
     </div>
     </div>
   </div>
-    <div class="l-container">
-      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
-        <div class="Strada_style">
-          <div class="Strada_style_img1">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/Strada Group_icon.png" alt=""
-              class="Strada_style_img1_1" />
+      <div class="l-container">
+          <div class="l-container Group_style1_extra">
+              <div class="Group_style1">
+                  <div class="image_div">
+
+                      <div class="title_div_p">
+                          <p class="Group_style1_p1">ワンストップの集団だからこそできる</p>
+                          <p class="Group_style1_p2">
+                              部分最適ではなく全体最適な提案を。</p>
+                      </div>
+                      <div class="circle-container"></div>
+
+                  </div>
+              </div>
+              <div class="Group_style2">
+                  <div class="youtube_div">
+                      <div class="Group_youtube_style1">
+                          <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
+                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                                  style="width:100%;height:90%"></iframe>
+                          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
+                      </div>
+                      <div class="StradaStyle_div">
+                          <p class="StradaStyle">ストラーダグループとは、　 <br>
+                              <span class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span>     <br>
+                              <span class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>  <br>
+                              <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span>  <br>
+                              <span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span>  <br>
+                              <span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span>  <br>
+                              <span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span>   <br>
+                              <span class="StradaStyle_span7">■不動産：タックス・リアルティ株式会社　</span>    <br>
+                              <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span>    <br>
+                              <span class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span>
+                          </p>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <p class="StradaStyle">ストラーダグループとは、　
-            <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>
-            <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>
-            <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>
-            <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ</span>
-            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>
-            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>
-            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>
-            <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>
-            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>
-            <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
-              会社の全体戦略に基づいたアドバイスを可能としております。</span>
-          </p>
-        </div>
       </div>
-    </div>
+<!--    <div class="l-container">-->
+<!--      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">-->
+<!--        <div class="Strada_style">-->
+<!--          <div class="Strada_style_img1">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/images/top_SZ/Strada Group_icon.png" alt=""-->
+<!--              class="Strada_style_img1_1" />-->
+<!--          </div>-->
+<!--          <p class="StradaStyle">ストラーダグループとは、　-->
+<!--            <span style="color: #00a159; font-weight: bold;">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>-->
+<!--            <span style="color: #003e75; font-weight: bold;">■税理士：ストラーダ税理士法人　</span>-->
+<!--            <span style="color: #684799; font-weight: bold;">■公認会計士：ストラーダ公認会計士　</span>-->
+<!--            <span style="color: #e17401; font-weight: bold;">■社会保険労務士：ストラーダ</span>-->
+<!--            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>-->
+<!--            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>-->
+<!--            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>-->
+<!--            <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>-->
+<!--            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>-->
+<!--            <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、-->
+<!--              会社の全体戦略に基づいたアドバイスを可能としております。</span>-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
   <!-- end Strada Group -->
 
@@ -496,3 +535,47 @@ $_SESSION['page_type']="top";
 </main>
 
 <?php get_footer("sz"); ?>
+<script>
+    const circleContainer = document.querySelector('.circle-container');
+    // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
+    //     '中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
+    const list = ['A','B','C','D','E','F','G','H'];
+    list.forEach((item, index) => {
+        const circle = document.createElement('a');
+        circle.classList.add('circle100');
+        circle.textContent = item;
+        circle.addEventListener('click', () => {
+            // alert(item)
+            //if(item == 'A'){
+            //    circle.href= '<?php //echo home_url(''); ?>//';
+            //}
+            if(item == 'B'){
+                circle.href= '<?php echo home_url('tax'); ?>';
+            }
+            if(item == 'C'){
+                circle.href= '<?php echo home_url('bs'); ?>';
+            }
+            //if(item == 'D'){
+            //    circle.href= '<?php //echo home_url(''); ?>//';
+            //}
+            if(item == 'E'){
+                circle.href= '<?php echo home_url('sr'); ?>';
+            }
+            if(item == 'F'){
+                circle.href= '<?php echo home_url('chushoukigyouroudou'); ?>';
+            }
+            if(item == 'G'){
+                circle.href= '<?php echo home_url('admin'); ?>';
+            }
+            if(item == 'H'){
+                circle.href= '<?php echo home_url('taxria'); ?>';
+            }
+
+
+
+        });
+        circleContainer.appendChild(circle);
+    });
+
+
+</script>
