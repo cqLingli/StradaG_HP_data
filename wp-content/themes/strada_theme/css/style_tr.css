@@ -15901,10 +15901,14 @@ ol li {
 
 /*内容をコントロールする*/
 .node_wrap_show2 {
-  width: 49%;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-top: 30px;
+  width: 100%;
+  padding: 0 5.5% 0 5.5%;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px
 }
 
 .circle2 {
@@ -15938,7 +15942,8 @@ ol li {
 }
 
 .Strada_style_img1 {
-  margin-left: 5.5%;
+  width: 100%;
+  padding: 0;
 }
 
 .Strada_style_img1_1 {
@@ -17446,8 +17451,9 @@ ol li {
 }
 
 .StradaStyle {
-  font-size: 1.3rem;
+  font-size: 1.38rem;
   padding-top: 5px;
+  line-height: 24px;
   padding-bottom: 5px;
   border-top:1px dotted #707070;
   border-bottom:1px dotted #707070;

@@ -6,6 +6,7 @@
     </div>
   -->
   <div class="l-container">
+    
     <div class="c-mainTitle">
       <div class="c-mainTitle_content">
         <div class="c-tlt01 c-tlt01__black">
@@ -19,16 +20,55 @@
 
     <div class="company_infomation">
       <p>
-      ストラーダホールディングス株式会社はストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社 
+      ストラーダホールディングス株式会社はストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社ストラーダホールディングス株式会社
       </p>
     </div>  
-    </div>
 
     <div class="t-recruit">
-    <div class="l-container">
-      <div class="recruit-contain_style">
-      <div class="recruit-container">                           
-        <div class="t-recruitContent" id="新卒採用" >
+      <div class="l-container">
+        <div class="recruit-contain_style">
+          <div class="recruit-container">
+            <div>
+              <div class="recruit-container_left">
+                  <a href="<?php echo home_url('tax/#Recruit'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit01.svg" />
+                  </a>
+                </div>
+                <div class="recruit-container_right">
+                  <a href="<?php echo home_url('bs/#Recruit'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit02.svg" />
+                  </a>      
+              </div>
+            </div>
+            <div>
+              <div class="recruit-container_left">
+                  <a href="<?php echo home_url('sr/#'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit03.svg" />
+                  </a>
+                </div>
+                <div class="recruit-container_right">
+                  <a href="<?php echo home_url('chushoukigyouroudou/#'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit04.svg" />
+                  </a>      
+              </div>
+            </div>
+            <div>
+              <div class="recruit-container_left">
+                  <a href="<?php echo home_url('admin/#Recruit'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit05.svg" />
+                  </a>
+                </div>
+                <div class="recruit-container_right">
+                  <a href="<?php echo home_url('taxria/#'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit06.svg" />
+                  </a>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+        <!-- <div class="t-recruitContent" id="新卒採用" >
           <div class="t-recruitHead">                      
             <p>募集要項</p>      
           </div>
@@ -72,16 +112,15 @@
                   書類選考の上、面接日をご連絡致します。</dd>
             </dl>                                         
           </div>
-        </div>
-                                          
+        </div>                                         
         <div class="p-recruitBtn">
-          <a href="<?php echo home_url('top/recruitform'); ?>">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit_icon.png" alt="" />
+          <a href="<?php //echo home_url('top/recruitform'); ?>">
+              <img src="<?php //echo get_template_directory_uri(); ?>/images/recruit/recruit_icon.png" alt="" />
               採用エントリーはこちらから
           </a>
-        </div>      
-        </div> 
-      </div>
+        </div>  -->
+        <!-- </div> 
+      </div> -->
     </div>
   <!--</div>-->
 </main>
