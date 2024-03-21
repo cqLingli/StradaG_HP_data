@@ -28,7 +28,7 @@
       <div class="l-container">
         <div class="recruit-contain_style">
           <div class="recruit-container">
-            <div>
+            <div class="t-recruitContent__list">
               <div class="recruit-container_left">
                   <a href="<?php echo home_url('tax/#Recruit'); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit01.svg" />
@@ -40,7 +40,7 @@
                   </a>      
               </div>
             </div>
-            <div>
+            <div class="t-recruitContent__list">
               <div class="recruit-container_left">
                   <a href="<?php echo home_url('sr/#'); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit03.svg" />
@@ -52,7 +52,7 @@
                   </a>      
               </div>
             </div>
-            <div>
+            <div class="t-recruitContent__list">
               <div class="recruit-container_left">
                   <a href="<?php echo home_url('admin/#Recruit'); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit05.svg" />
