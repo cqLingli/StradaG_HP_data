@@ -20155,7 +20155,8 @@ strong {
   background-color: #DCDDDD;
   margin-left: 5%;
   margin-top: 30px;
-  height: 100%;
+  height: 620px;
+  border-radius: 10px;
 }
 .youtube_div{
   margin-top: 30px;
@@ -20277,7 +20278,7 @@ strong {
     padding-right: 2%;
   }
   .circle-container {
-    height: 370px;
+    height: 330px;
   }
   .Group_style1_p1{
     font-size: 18px;
@@ -20293,6 +20294,8 @@ strong {
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 10px;
+    height: 380px;
+
   }
   .youtube_div{
     margin-top: 10px;
@@ -20307,7 +20310,7 @@ strong {
   }
   .circle100 {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 31%;
     width: 120px;
     height: 120px;
@@ -20317,4 +20320,5 @@ strong {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* 根据需要调整多边形顶点 */
   }
 }
-}
+
+
