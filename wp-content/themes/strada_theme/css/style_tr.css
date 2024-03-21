@@ -19854,15 +19854,15 @@ ol li {
 }
 
 .circle-container {
-  margin-top: -10%;
+  margin-top: -5%;
   position: relative;
-  height: 120%;
+  height: 100%;
   border-radius: 50%;
   background-image: url(../images/common/groupImg.png);
   /* background-color: lightblue; */
   background-size: 95%;
-  width: 110%;
-  margin-left: -1.5%;
+  width: auto;
+  margin-left: 2%;
   background-repeat: no-repeat;
 }
 .image_div{
@@ -19879,10 +19879,10 @@ ol li {
 
 .circle100 {
   position: absolute;
-  top: 26%;
+  top: 28%;
   left: 30%;
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   /*background-color: white;*/
   transform-origin: 50% 50%;
@@ -20021,10 +20021,10 @@ ol li {
   }
   .circle100 {
     position: absolute;
-    top: 34%;
+    top: 30%;
     left: 31%;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     /*background-color: white;*/
     transform-origin: 50% 50%;
