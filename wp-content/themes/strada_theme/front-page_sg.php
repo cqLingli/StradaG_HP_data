@@ -59,7 +59,7 @@ $_SESSION['page_type']="top";
             <div style="display: flex;overflow-x: hidden;width:100%;border-bottom:1px dotted #707070;">
               <div class="news_title">ニュース</div>
               <a href="<?php echo home_url('admin/adminnewslist'); ?>" style="text-decoration:none">
-                <!-- <div class="news_title_readmore">READ MORE</div> -->
+                 <div class="news_title_readmore">READ MORE</div>
                 <div style="position:relative;top:-5px">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/top/news_more.png" alt=""
                     style="width:30px" />
