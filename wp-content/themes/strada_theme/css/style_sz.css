@@ -19574,11 +19574,13 @@ body .is-layout-flex {
     border: 0.84px solid black !important;
   }
   .left_heading{
-    font-size:1.6rem;
+    font-size:1.4rem;
     padding-left:5px;
     border-left:5px solid #808C96
   }
-
+.left_heading_span{
+    font-size:1rem !important;
+  }
     .is-style-stripes{
     padding-bottom:15px
   }
