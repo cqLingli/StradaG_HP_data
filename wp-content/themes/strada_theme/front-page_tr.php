@@ -275,48 +275,56 @@ $_SESSION['page_type']="top";
 
 <?php get_footer("tr"); ?>
 
+<script>
+    const circleContainer = document.querySelector('.circle-container');
+    // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
+    //     '中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
+    const list = ['A','B','C','D','E','F','G','H','i'];
+    list.forEach((item, index) => {
+        const circle = document.createElement('a');
+        if(item == 'i'){
+            circle.classList.add('circle10');
+            circle.textContent = item;
+            circle.addEventListener('click', () => {
+                circle.href= '<?php echo home_url('/'); ?>';
+            });
+        }else {
+            circle.classList.add('circle100');
+            circle.textContent = item;
+            circle.addEventListener('click', () => {
+                // alert(item)
+                //if(item == 'A'){
+                //    circle.href= '<?php //echo home_url(''); ?>//';
+                //}
+                if(item == 'B'){
+                    circle.href= '<?php echo home_url('tax'); ?>';
+                }
+                if(item == 'C'){
+                    circle.href= '<?php echo home_url('bs'); ?>';
+                }
+                //if(item == 'D'){
+                //    circle.href= '<?php //echo home_url(''); ?>//';
+                //}
+                if(item == 'E'){
+                    circle.href= '<?php echo home_url('sr'); ?>';
+                }
+                if(item == 'F'){
+                    circle.href= '<?php echo home_url('chushoukigyouroudou'); ?>';
+                }
+                if(item == 'G'){
+                    circle.href= '<?php echo home_url('admin'); ?>';
+                }
+                if(item == 'H'){
+                    circle.href= '<?php echo home_url('taxria'); ?>';
+                }
 
- <script>
-     const circleContainer = document.querySelector('.circle-container');
-     // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
-     //     '中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
-     const list = ['A','B','C','D','E','F','G','H'];
-     list.forEach((item, index) => {
-         const circle = document.createElement('a');
-         circle.classList.add('circle100');
-         circle.textContent = item;
-         circle.addEventListener('click', () => {
-            // alert(item)
-             //if(item == 'A'){
-             //    circle.href= '<?php //echo home_url(''); ?>//';
-             //}
-             if(item == 'B'){
-                 circle.href= '<?php echo home_url('tax'); ?>';
-             }
-             if(item == 'C'){
-                 circle.href= '<?php echo home_url('bs'); ?>';
-             }
-             //if(item == 'D'){
-             //    circle.href= '<?php //echo home_url(''); ?>//';
-             //}
-             if(item == 'E'){
-                 circle.href= '<?php echo home_url('sr'); ?>';
-             }
-             if(item == 'F'){
-                 circle.href= '<?php echo home_url('chushoukigyouroudou'); ?>';
-             }
-             if(item == 'G'){
-                 circle.href= '<?php echo home_url('admin'); ?>';
-             }
-             if(item == 'H'){
-                 circle.href= '<?php echo home_url('taxria'); ?>';
-             }
+            });
+        }
 
 
 
-         });
-         circleContainer.appendChild(circle);
-     });
+        circleContainer.appendChild(circle);
+    });
 
 
- </script>
+</script>

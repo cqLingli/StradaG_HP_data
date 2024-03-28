@@ -19811,17 +19811,35 @@ strong {
   padding: 0 0 0 1%;
   display: grid;
 }
-
-.circle100 {
+.circle10 {
   position: absolute;
-  top: 28%;
-  left: 30%;
-  width: 200px;
-  height: 200px;
+  top: 29%;
+  left: 31%;
+  width: 33%;
+  height: 33%;
   border-radius: 50%;
   /*background-color: white;*/
-  transform-origin: 50% 50%;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* 根据需要调整多边形顶点 */
+}
+.circle100 {
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  width: 17%;
+  height: 16%;
+  border-radius: 30%;
+  /* background-color: white; */
+  transform-origin: 120% 120%;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.floating-div {
+  position: absolute;
+  left: 21.5%;
+  width: 14%;
+  height: 60%;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 9.5%;
 }
 .StradaStyle_div{
   margin-top: 22%;
@@ -19956,17 +19974,23 @@ strong {
   .StradaStyle:span{
     font-size: 10px;
   }
-  .circle100 {
+  .circle10 {
     position: absolute;
     top: 35%;
-    left: 31%;
-    width: 120px;
-    height: 120px;
+    left: 30%;
+    width: 34%;
+    height: 34%;
     border-radius: 50%;
     /*background-color: white;*/
-    transform-origin: 50% 50%;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* 根据需要调整多边形顶点 */
+  }
+  .circle100 {
+    top: 30%;
+    left: 24%;
+    width: 20%;
+    height: 20%;
+    border-radius: 30%;
+    /*background-color: white;*/
+    transform-origin: 110% 110%;
   }
 }
-
 
