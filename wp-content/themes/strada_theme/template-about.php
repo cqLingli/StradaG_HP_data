@@ -43,12 +43,13 @@
           <dl>
             <dt>グループ一覧</dt>
             <dd>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_01.svg" /><br />
-              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_02.svg" /><br />
+              <a href="<?php echo home_url('tax'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_01.svg" /></a><br />
+              <a href="<?php echo home_url('bs'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_02.svg" /></a><br />
               <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_03.svg" /><br />
-              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_04.svg" /><br />
-              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_05.svg" /><br />
-              <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_06.svg" class="specialImg"/><br />
+              <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_08.svg" /></a><br />
+              <a href="<?php echo home_url('chushoukigyouroudou'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_04.svg" /></a><br />
+              <a href="<?php echo home_url('admin'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_05.svg" /></a><br />
+              <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/group/group_06.svg" class="specialImg"/></a><br />
               <img src="<?php echo get_template_directory_uri(); ?>/images/group/group_07.svg" /><br />
             </dd>
           </dl>                                         

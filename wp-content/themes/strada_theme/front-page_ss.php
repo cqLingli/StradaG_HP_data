@@ -180,13 +180,13 @@ $_SESSION['page_type']="top";
                       </div>
                       <div class="StradaStyle_div">
                           <p class="StradaStyle">ストラーダグループとは、　 <br>
-                              <span class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span>     <br>
-                              <span class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span>  <br>
+                          <a href="<?php echo home_url('tax'); ?>" style="text-decoration: none;"><span class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span></a>     <br>
+                              <a href="<?php echo home_url('bs'); ?>" style="text-decoration: none;"><span class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span></a>  <br>
                               <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span>  <br>
-                              <span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span>  <br>
-                              <span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span>  <br>
-                              <span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span>   <br>
-                              <span class="StradaStyle_span7">■不動産：タックス・リアルティ株式会社　</span>    <br>
+                              <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a>  <br>
+                              <a href="<?php echo home_url('chushoukigyouroudou'); ?>" style="text-decoration: none;"><span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span></a>  <br>
+                              <a href="<?php echo home_url('admin'); ?>" style="text-decoration: none;"><span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span></a>   <br>
+                              <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span class="StradaStyle_span7">■不動産：タックス・リアルティ株式会社　</span></a>    <br>
                               <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span>    <br>
                               <span class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span>
                           </p>
@@ -368,13 +368,13 @@ $_SESSION['page_type']="top";
         const circle = document.createElement('a');
         if(item == 'i'){
             circle.classList.add('circle10');
-            circle.textContent = item;
+            // circle.textContent = item;
             circle.addEventListener('click', () => {
                 circle.href= '<?php echo home_url('/'); ?>';
             });
         }else {
             circle.classList.add('circle100');
-            circle.textContent = item;
+            // circle.textContent = item;
             circle.addEventListener('click', () => {
                 // alert(item)
                 //if(item == 'A'){
