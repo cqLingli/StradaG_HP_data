@@ -19597,4 +19597,20 @@ strong {
     transform-origin: 110% 110%;
   }
 }
+/*frontpage about start*/
+.about-dd1{
+    width: 20%!important;
+}
+.about-dd2{
+    width: 80%!important;
+}
+@media screen and (max-width: 760px) {
+    .about-dt1{
+        padding-top: 4px;
+    }
+    .about-dd1{
+        padding-top: 4px;
+}
+}
 
+/*frontpage about end*/

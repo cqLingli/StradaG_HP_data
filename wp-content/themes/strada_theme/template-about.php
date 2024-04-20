@@ -102,13 +102,54 @@
       <h2>ストラーダグループの沿革</h2>      
     </div>
     <div class="p-about_historyContent">
-      <div class="p-about_historyTime">                                
+      <div class="p-about_historyTime">      
+      
+           <?php
+            $args = array(
+              'post_type' => 'evolution', // 文章类型
+              'posts_per_page' => -1,
+              'company' => '', // 自定义字段名
+            );
+            $query = new WP_Query($args); // 执行查询
+            $wk_title = '';
+            ?>
+      
+            <?php
+              if($query->have_posts()) :
+                while($query->have_posts()) : $query->the_post(); ?>
+
+                <dl>
+                    <dt class="about-dt1"><?php echo get_the_title(); ?></dt>
+                    <dd class="about-dd1">
+                      <?php
+                        $this_terms = get_the_terms(get_the_id(),'company');
+                        foreach ($this_terms as $each_term){
+                            // ターム名を出力
+                            echo "<span class='news-company-".$each_term -> slug."'>".$each_term -> name.'　'."</span>";
+                      }?>
+                    </dd>
+                    <dd class="about-dd2">
+                        <?php echo the_content(); ?>
+                    </dd>
+                </dl>  
+                
+                
+            <?php endwhile;
+                wp_reset_postdata();
+              else:
+                ?>
+             <?php endif;?>
+      
+      <!--
+      1111111111111
         <dl>
           <dt>2021年00月</dt>
-          <dd>
+          <dd style="width:30%">2021年00月</dd>
+          <dd style="width:70%">
             <span>タックスリアルティ株式会社を設立</span><br />
             タックスリアルティ株式会社の代表取締役に加藤敦が就任致しました。
           </dd>
+
         </dl>                     
         <dl>
           <dt>2021年4月</dt>
@@ -163,6 +204,7 @@
           <dd><span>山田直輝税理士事務所を法人化してストラーダ税理士法人を設立</span><br />
           2015年12月23日に、山田直輝税理士事務所と佐藤廣子税理士事務所を統合して、法人化に伴い、東京都中央区日本橋でストラーダ税理士法人を設立致しました。</dd>
         </dl>
+        -->
       </div>
     </div>
   </div>
