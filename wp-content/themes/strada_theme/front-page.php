@@ -11,17 +11,17 @@ $_SESSION['page_type']="top";
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.jpg"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_02.png"
             alt="" /></a>
       </li>
-      <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.png"
+      <!-- <li>
+        <a href="#"><img src="<?php //echo get_template_directory_uri(); ?>/images/top/Strada_Group_Slider_01.jpg"
             alt="" /></a>
-      </li>
+      </li> -->
     </ul>
     <!-- left,right arrow -->
     <div class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/top_SZ/arrow-left.png" alt=""
