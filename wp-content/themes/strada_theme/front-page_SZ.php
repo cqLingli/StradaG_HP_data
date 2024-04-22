@@ -414,26 +414,27 @@ $_SESSION['page_type']="top";
   </div>
   <!-- end Q&A -->
 
+    <!--2021/04/22-->
   <!-- start Price -->
-  <a id="Price" class="target-fix"></a>
-  <div class="block_wrap6">
-    <div class="border-text6"></div>
-    <div class="border-bt">
-      <div class="l-container">
-        <div style="display:flex">
-          <div id="block_wrap6" class="title_item_wrap6 active6">
-            <p class="chapter_title6">Price
-            <div class="circle6"></div>
-            </p>
-          </div>
-          <div id="text6" class="border-text border-text-controll">Price</div>
-        </div>
-      </div>
-    </div>
-    <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
-      <?php get_template_part('template', 'price_sz'); ?>
-    </div>
-  </div>
+<!--  <a id="Price" class="target-fix"></a>-->
+<!--  <div class="block_wrap6">-->
+<!--    <div class="border-text6"></div>-->
+<!--    <div class="border-bt">-->
+<!--      <div class="l-container">-->
+<!--        <div style="display:flex">-->
+<!--          <div id="block_wrap6" class="title_item_wrap6 active6">-->
+<!--            <p class="chapter_title6">Price-->
+<!--            <div class="circle6"></div>-->
+<!--            </p>-->
+<!--          </div>-->
+<!--          <div id="text6" class="border-text border-text-controll">Price</div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div id="list_wrap6" class="node_wrap6 node_wrap_show6">-->
+<!--      --><?php //get_template_part('template', 'price_sz'); ?>
+<!--    </div>-->
+<!--  </div>-->
   <!-- end Price -->
 
 
