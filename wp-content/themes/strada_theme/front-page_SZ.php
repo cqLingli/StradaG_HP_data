@@ -482,8 +482,9 @@ $_SESSION['page_type']="top";
     </div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_sz'); ?>
-        <a id="menber" class="target-fix1"></a>
-        <?php get_template_part('template', 'sz-members'); ?>
+          <!--2024/4/22-->
+<!--        <a id="menber" class="target-fix1"></a>-->
+<!--        --><?php //get_template_part('template', 'sz-members'); ?>
       </div>
   </div>
   </div>
