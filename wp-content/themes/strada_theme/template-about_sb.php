@@ -16,8 +16,8 @@
     <div class="l-container">
     <div class="companyss">
   <div class="p-about_group" id="企業概要">
-    <div class="c-tlt02 c-tlt02--center">                      
-      <h2>会社概要</h2>      
+    <div class="c-tlt02 c-tlt02--center">
+      <h2>会社概要</h2>
     </div>
     <div class="p-about_groupContent">
       <div class="company_left">
@@ -29,7 +29,7 @@
           <dl>
             <dt>代表</dt>
             <dd>代表取締役　山田 直輝</dd>
-          </dl>                                 
+          </dl>
           <dl>
             <dt>登録番号</dt>
             <dd>有料職業紹介事業　許可番号　13ーユー313061</dd>
@@ -37,19 +37,21 @@
           <dl>
             <dt>本店所在地</dt>
             <dd>〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル6階</dd>
-          </dl>                      
+          </dl>
           <dl>
             <dt>電話番号</dt>
-            <dd>03-6206-215</dd>
-          </dl>                     
+<!--            <dd>03-6206-215</dd>-->
+              <!--2021/04/22-->
+            <dd>03-6206-2159</dd>
+          </dl>
           <dl>
             <dt>メールアドレス</dt>
             <dd>info@strada-bs.jp</dd>
-          </dl>                      
+          </dl>
           <dl>
             <dt>営業時間</dt>
             <dd>月曜日～金曜日　9時～18時　※土曜日・日曜日・祝日休み</dd>
-          </dl> 
+          </dl>
           <dl>
             <dt>業務内容</dt>
             <dd>・バーチャルオフィス運営業務<br />
@@ -62,7 +64,7 @@
             ・IPO支援業務<br />
             ・資本政策業務<br />
             ・内部統制構築支援業務</dd>
-          </dl>                                         
+          </dl>
         </div>
       </div>
       <div class="company_right">
@@ -108,11 +110,11 @@
     <div class="l-container">
     <div class="aboutcomstyle">
   <div class="p-about_history" id="ストラーダグループの沿革">
-    <div class="c-tlt02 c-tlt02--center">                      
-      <h2>ストラーダグループの沿革</h2>      
+    <div class="c-tlt02 c-tlt02--center">
+      <h2>ストラーダグループの沿革</h2>
     </div>
     <div class="p-about_historyContent">
-      <div class="p-about_historyTime">                                
+      <div class="p-about_historyTime">
             <?php
             $args = array(
               'post_type' => 'evolution', // 文章类型
@@ -124,14 +126,14 @@
             <?php
               if($query->have_posts()) :
                 while($query->have_posts()) : $query->the_post(); ?>
-                
+
                 <dl>
                     <dt><?php echo get_the_title(); ?></dt>
                     <dd>
                         <?php echo the_content(); ?>
                     </dd>
-                </dl>  
-                
+                </dl>
+
             <?php endwhile;
                 wp_reset_postdata();
               else:

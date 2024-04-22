@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* Template Name: access_sb */
 get_header("sb"); ?>
 
@@ -29,7 +29,9 @@ get_header("sb"); ?>
                 <div class="l-container">
                     <div class="t-access_main">
                     <div class="t-access_content">
-                                <h4>ストラーダホールディングス株式会社</h4>
+<!--                                <h4>ストラーダホールディングス株式会社</h4>-->
+                                 <!--2021/04/22-->
+                                <h4>ストラーダビジネスサポート株式会社</h4>
                                 <p class="t-access_add">
                                 〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル５階
                                 </p>
