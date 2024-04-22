@@ -128,7 +128,14 @@ $_SESSION['page_type']="top";
     <div id="list_wrap1" class="node_wrap1 node_wrap_show1">
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
-          <p class="Message_style1_p3">Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）Messege企業メッセージ（TOPメッセージ＋コンセプトなど）</p>
+          <p class="Message_style1_p3">
+「ストラーダ」とは、イタリア語で「道」という意味があります。<br>
+お客様と歩む長い道をともに歩み続けられるような社会保険労務士となりたいという意味を込めて、「ストラーダ社会保険労務士法人」と名付けました。<br>
+社会保険労務士とは、従業員の労働に関する事項を管理する労務管理の専門家です。少子高齢化が進展し、労働人口が減少する中、会社の労務管理を行うことは今後益々大切になることが予想されます。<br>
+労働保険社会保険諸法令に順守した企業経営を行い、従業員を大切にし、従業員と共に企業を成長させることができるように、労務管理を継続的に適正に行っていくことが私達の使命です。<br>
+そのため、長期に渡ってお客様へ価値を提供できるように自己研鑽に励み、労務管理はもちろん、他の面においてもグループ法人と共に価値を提供できるように努めてまいります。<br>
+また、お客様に価値を提供するスタッフが長期に渡って働けるような社内環境を整え、新しいことに挑戦し続ける事務所経営を行います。
+          </p>
           <p class="Message_style1_p4">ストラーダ社会保険労務士法人　代表社員</p>
           <p class="Message_style1_p5">宿谷 裕樹</p>
         </div>
@@ -283,8 +290,8 @@ $_SESSION['page_type']="top";
     </div>
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_ss'); ?>
-        <a id="menber" class="target-fix1"></a>
-        <?php get_template_part('template', 'ss-members'); ?>
+        <!-- <a id="menber" class="target-fix1"></a>-->
+        <?php //get_template_part('template', 'ss-members'); ?> 
       </div>
   </div>
   </div>

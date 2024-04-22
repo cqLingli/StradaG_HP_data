@@ -484,7 +484,7 @@ $_SESSION['page_type']="top";
         <?php get_template_part('template', 'about_sz'); ?>
           <!--2024/4/22-->
 <!--        <a id="menber" class="target-fix1"></a>-->
-<!--        --><?php //get_template_part('template', 'sz-members'); ?>
+        <?php //get_template_part('template', 'sz-members'); ?>
       </div>
   </div>
   </div>
