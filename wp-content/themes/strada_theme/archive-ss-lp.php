@@ -10,6 +10,7 @@ $_SESSION["CAT_SLUG"] = "";
 */
 ?>
 <!-- .l-main | メインコンテンツ -->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_min.css" />
 <main>
     <div id="page_content" class="smooth-scroll page_content" data-scroll-container="">
 
