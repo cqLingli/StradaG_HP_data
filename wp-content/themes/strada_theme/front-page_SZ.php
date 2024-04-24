@@ -337,7 +337,7 @@ $_SESSION['page_type']="top";
 <!--            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>-->
 <!--            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>-->
 <!--            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>-->
-<!--            <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>-->
+<!--            <span style="color: #b8183f; font-weight: bold;">■不動産：株式会社タックス・リアルティ　</span>-->
 <!--            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>-->
 <!--            <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、-->
 <!--              会社の全体戦略に基づいたアドバイスを可能としております。</span>-->

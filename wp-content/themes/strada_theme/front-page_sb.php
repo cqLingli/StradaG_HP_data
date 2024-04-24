@@ -193,7 +193,7 @@ $_SESSION['page_type']="top";
                               <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a>  <br>
                               <a href="<?php echo home_url('chushoukigyouroudou'); ?>" style="text-decoration: none;"><span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span></a>  <br>
                               <a href="<?php echo home_url('admin'); ?>" style="text-decoration: none;"><span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span></a>   <br>
-                              <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span class="StradaStyle_span7">■不動産：タックス・リアルティ株式会社　</span></a>    <br>
+                              <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span class="StradaStyle_span7">■不動産：株式会社タックス・リアルティ　</span></a>    <br>
                               <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span>    <br>
                               <span class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span>
                           </p>
@@ -217,7 +217,7 @@ $_SESSION['page_type']="top";
 <!--            <span style="color: #e17401; font-weight: bold;">社会保険労務士　</span>-->
 <!--            <span style="color: #b3752a; font-weight: bold;">■中小企業診断士：中小企業労働企画開発協会　</span>-->
 <!--            <span style="color: #808c96; font-weight: bold;">■行政書士：ストラーダ行政書士　</span>-->
-<!--            <span style="color: #b8183f; font-weight: bold;">■不動産：タックス・リアルティ株式会社　</span>-->
+<!--            <span style="color: #b8183f; font-weight: bold;">■不動産：株式会社タックス・リアルティ　</span>-->
 <!--            <span style="color: #221815;">が在籍しています。ストラーダグループとして、企</span>-->
 <!--            <span style="color: #221815;">業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、-->
 <!--              会社の全体戦略に基づいたアドバイスを可能としております。</span>-->
