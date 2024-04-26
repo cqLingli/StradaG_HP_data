@@ -11,15 +11,15 @@ $_SESSION['page_type']="top";
     <!-- picture area -->
     <ul>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/TAXRIA_TOP_01.jpg"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/TAXRIA_TOP_02.jpg"
             alt="" /></a>
       </li>
       <li>
-        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/Strada_Tr_Slider_01.png"
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/top_TR/TAXRIA_TOP_03.jpg"
             alt="" /></a>
       </li>
     </ul>
