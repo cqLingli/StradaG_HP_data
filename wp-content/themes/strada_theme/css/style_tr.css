@@ -6605,7 +6605,7 @@ li.column_post .column_post_cat {
 }
 
 .c-voicePost {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
   padding-left: 5.5%;
   padding-right: 3.35%;
@@ -11835,7 +11835,7 @@ typography - 文字の装飾など
 
 
 .archiveVoice {
-  background-color: #E4E8F1;
+  /*background-color: #E4E8F1;*/
   padding: 30px 0 30px 0;
   margin-top: 30px;
 }
@@ -12268,7 +12268,7 @@ img {
   border: none;
   color: white;
   margin-bottom: 17.5px;
-  background: linear-gradient(90deg, #B8193F, #F8ECE9) !important;
+  background: linear-gradient(90deg, #C2182D, #F8ECE9) !important;
   padding-left: 10px;
 }
 
@@ -12311,7 +12311,7 @@ img {
 }
 
 .c-qa__answer--text {
-  font-size: 1.44rem;
+  font-size: 1.38rem;
 }
 
 .c-qa__question:after {
@@ -12742,7 +12742,8 @@ img {
 
 .p-qa .c-mainTitle {
 
-  background: url('../images/mv/mv-qa.jpg') no-repeat;
+  /*background: url('../images/mv/mv-qa.jpg') no-repeat;*/
+  background: url('../images/mv/TR_Q&A.png') no-repeat;
   background-size: cover;
   background-position: center center;
   margin-left: 5.5%;
@@ -17822,7 +17823,7 @@ ol li {
 
   .c-voicePost {
     padding-left: 3%;
-    padding-right: 0
+    padding-right: 3%;
   }
 
   .c-voicePost .c-voicePost__tlt {
@@ -20058,6 +20059,32 @@ ol li {
     /*background-color: white;*/
     transform-origin: 110% 110%;
   }
+}
+ /*property追加*/
+
+.p-property .c-mainTitle {
+  background: url('../images/mv/TR_Property.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+.p-property {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .p-property .c-mainTitle {
+    margin-left: 3%;
+    margin-right: 3%
+  }
+
+  .p-property {
+    padding-top: 22.5%
+  }
+
 }
 
 
