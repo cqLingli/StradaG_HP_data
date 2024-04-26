@@ -129,9 +129,9 @@ $_SESSION['page_type']="top";
       <div class="l-container Message_style1_extra">
         <div class="Message_style1">
           <p class="Message_style1_p3">
-労働保険事務組合とは、 事業主の委託を受けて、事業主が行うべき労働保険の事務を処理することについて、厚生労働大臣の認可を受けた中小事業主等の団体です。<br>
-事業主は労災保険の適用が除外されておりますが、労働保険事務組合に労働保険の事務を委託することで、労災保険に特別に加入することが可能です。<br>
-労災保険では、労働者が業務中又は通勤中に負傷や疾病等で病院を受診する際や一定期間給与（報酬）を受けれなくなった際に、必要な保険給付を迅速に行う制度であり、手厚い給付を受けることが可能です。<br><br>
+労働保険事務組合とは、 事業主の委託を受けて、事業主が行うべき労働保険の事務を処理することについて、厚生労働大臣の認可を受けた中小事業主等の団体です。<br><br>
+事業主は労災保険の適用が除外されておりますが、労働保険事務組合に労働保険の事務を委託することで、労災保険に特別に加入することが可能です。<br><br>
+労災保険では、労働者が業務中又は通勤中に負傷や疾病等で病院を受診する際や一定期間給与（報酬）を受けれなくなった際に、必要な保険給付を迅速に行う制度であり、手厚い給付を受けることが可能です。<br><br><br>
           </p>
           <p class="Message_style1_p4">中小企業労働企画開発協会　会長</p>
           <p class="Message_style1_p5">宿谷 裕樹</p>
@@ -180,7 +180,7 @@ $_SESSION['page_type']="top";
                           <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
                                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
                                   style="width:100%;height:90%"></iframe>
-                          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
+                          <p class="Youtube_text">ストラーダグループ紹介動画 Youtube</p>
                       </div>
                       <div class="StradaStyle_div">
                           <p class="StradaStyle">ストラーダグループとは、　 <br>

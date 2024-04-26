@@ -85,8 +85,6 @@
                 <span>LINEでご相談</span>
               </a>
             </div>
-            <div style="width:100px">
-            </div>
             <div class="h-mail h-mail--5">
                 <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common/seach_icon.png" alt="" />
             </div>

@@ -183,7 +183,7 @@ $_SESSION['page_type']="top";
                           <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
                                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
                                   style="width:100%;height:90%"></iframe>
-                          <p class="Youtube_text">ストラーダ公認会計士事務所紹介動画 Youtube</p>
+                          <p class="Youtube_text">ストラーダグループ紹介動画 Youtube/p>
                       </div>
                       <div class="StradaStyle_div">
                           <p class="StradaStyle">ストラーダグループとは、　 <br>
