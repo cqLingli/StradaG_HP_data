@@ -92,6 +92,7 @@ $mv = get_field('service_cat_mv', $qo);
                             <span class="ttl"><?php the_title(); ?></span>
                             <div class="thumb">
                                 <?php
+                                $active = 0;
                                 if($repeater != null){
                                     foreach($repeater as $repeat){
                                         if($repeat['s_repeat_taxonomy'] == $qo->slug){
