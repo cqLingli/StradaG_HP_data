@@ -41,7 +41,7 @@
               //$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
               $args = array(
                 'post_type' => 'property',
-                'company'=>'tr',
+                'company'=>'taxria',
                 'posts_per_page' => 3,
                 'orderby' => 'date',
                 'paged' => $paged

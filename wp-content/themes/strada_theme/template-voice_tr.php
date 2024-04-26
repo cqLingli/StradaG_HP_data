@@ -64,7 +64,7 @@
               //$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
               $args = array(
                 'post_type' => 'voice',
-                'company'=>'tr',
+                'company'=>'taxria',
                 'posts_per_page' => 3,
                 'orderby' => 'date',
                 'paged' => $paged
