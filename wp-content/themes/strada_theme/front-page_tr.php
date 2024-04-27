@@ -338,6 +338,28 @@ $_SESSION['page_type']="top";
     </div>
   </div>
 
+  <!-- start Recruit -->
+  <a id="Recruit" class="target-fix"></a>
+  <div class="block_wrap9">
+    <div class="border-text9"></div>
+    <div class="border-bt">
+      <div class="l-container">
+        <div style="display:flex">
+          <div id="block_wrap9" class="title_item_wrap9 active9">
+            <p class="chapter_title9">Recruit
+            <div class="circle9"></div>
+            </p>
+          </div>
+          <div id="text9" class="border-text border-text-controll">採用情報</div>
+        </div>
+      </div>
+    </div>
+    <div id="list_wrap9" class="node_wrap9 node_wrap_show_new">
+        <?php get_template_part('template', 'recruit_tr'); ?>
+    </div>
+  </div>
+  <!-- end Recruit -->
+
 </main>
 
 <?php get_footer("tr"); ?>

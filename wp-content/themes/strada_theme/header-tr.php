@@ -76,17 +76,18 @@
 <!--
             <div class="h-mail h-mail--2">
               <a href="https://timerex.net/s/strada.5kaigishitsu/9871b478" target="_blank">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/ico-book.png" alt="" />
+                <img src="<?php /*echo get_template_directory_uri(); */?>/images/common_tr/ico-book.png" alt="" />
                 <span>カレンダーから<br />無料相談を予約する</span>
               </a>
             </div>
+  -->            
             <div class="h-mail h-mail--3">
-              <a href="https://line.me/R/ti/p/%40395gkqmy" target="_blank">
+              <a href="https://lin.ee/BTXd44r" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/ico-line.svg" alt="" />
                 <span>LINEでご相談</span>
               </a>
             </div>
-  -->
+
             <div class="h-mail h-mail--4">
             <a href="<?php echo home_url(); ?>/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/common_tr/minilogo.png" alt="" />
@@ -107,13 +108,16 @@
         <ul class="h-nav">
           <li><a href="<?php echo home_url('taxria/taxriaservicelist'); ?>"><div class="vertical-line_head">業務内容</div></a></li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">お客さまへの支援</div></a>
+            <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">お客様の声</div></a>
+            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">弊社管理物件</div></a>
+          </li>
+          <li>
+            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('taxria/#About'); ?>"><div class="vertical-line">会社概要</div></a>
@@ -125,7 +129,7 @@
             <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('taxria/Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>
         </ul>
       </div>
@@ -134,13 +138,14 @@
     <div id="search_content_ID" class="search_content">
       <div class="search_content_a">
       <a href="<?php echo home_url('taxria/taxriaservicelist'); ?>"><div class="search_content_style">業務内容</div></a>
-      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">お客さまへの支援</div></a>
-      <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
       <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="search_content_style">お客様の声</div></a>
+      <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
+      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">弊社管理物件</div></a>
+      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">ニュース</div></a>
       <a href="<?php echo home_url('taxria/#About'); ?>"><div class="search_content_style">会社概要</div></a>
       <a href="<?php echo home_url('taxria/taxriamenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="search_content_style">アクセス</div></a>
-      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">リクルート</div></a>
+      <a href="<?php echo home_url('taxria/Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       </div>
     <form id="searchFrom" method="get" action="<?php echo esc_url(home_url('/')); ?>">
       <div class="search_content_style1">

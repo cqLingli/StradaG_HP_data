@@ -4,27 +4,27 @@
       <div class="l-container">
         <ul class="f-social">
           <li>
-            <a href="https://www.facebook.com/stradatax" target="_blank">
+            <a href="#" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/facebook_icon.png" alt="" />
             </a>
           </li>
           <li>
-            <a href="https://line.me/R/ti/p/%40395gkqmy" target="_blank">
+            <a href="https://lin.ee/BTXd44r" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/line_icon.png" alt="" />
             </a>
           </li>
           <li>
-            <a href="" class="fx-contact_btn youtube" target="_blank">
+            <a href="#" class="fx-contact_btn youtube" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/youtube_icon.png" alt="" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/strada.tax/?hl=ja" target="_blank">
+            <a href="#" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/ins_icon.png" alt="" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/stradatax" target="_blank">
+            <a href="#" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/twitter_icon.png" alt="" />
             </a>
           </li>

@@ -5794,7 +5794,6 @@ div#新卒採用 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 60px;
   border-right: 1px solid #fff;
   background-color: #B8193F;
   color: #fff;
@@ -5827,11 +5826,14 @@ div#新卒採用 {
   border-top: 1px dotted #707070;
 }
 
+.t-recruitContent dt {
+  font-weight: bold;
+}
 .t-recruitContent dl dt {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
-  flex: 0 0 9%;
-  text-align: right;
+  flex: 0 0 10%;
+  text-align: left;
   margin-right:50px
 }
 
