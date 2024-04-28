@@ -33,7 +33,7 @@ get_header("sb"); ?>
                                  <!--2021/04/22-->
                                 <h4>ストラーダビジネスサポート株式会社</h4>
                                 <p class="t-access_add">
-                                〒103-0014 東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル５階
+                                東京都中央区日本橋蛎殻町２丁目１１−２ オートエックス工藤ビル 501F
                                 </p>
                                 <p class="t-access_add">
                                 TEL:03-6206-215
@@ -152,7 +152,7 @@ get_header("sb"); ?>
                 </div>
             </div>
             <div class="access google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.732793825305!2d139.78441761525877!3d35.68358088019382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188945bc013343%3A0x91fe51cc7df02e4d!2z5pel5pys44CB44CSMTAzLTAwMTQg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL6JuO5q6755S677yS5LiB55uu77yR77yR4oiS77ySIOOCquODvOODiOOCqOODg-OCr-OCueW3peiXpOODk-ODqyA0Zg!5e0!3m2!1sja!2s!4v1635329371742!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.7327941343087!2d139.78403137565613!3d35.68358087258645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018892271444c19%3A0xa12f07ecd0da7253!2z44K544OI44Op44O844OA44OT44K444ON44K544K144Od44O844OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1714271275484!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
         </div>

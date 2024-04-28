@@ -333,7 +333,7 @@ $_SESSION['page_type']="top";
                     circle.href= '<?php echo home_url('bs'); ?>';
                 }
                 //if(item == 'D'){
-                //    circle.href= '<?php //echo home_url(''); ?>//';
+                //    circle.href= '<?php /*echo home_url(''); */?>//';
                 //}
                 if(item == 'E'){
                     circle.href= '<?php echo home_url('sr'); ?>';

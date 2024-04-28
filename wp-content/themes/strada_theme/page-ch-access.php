@@ -31,7 +31,7 @@ get_header("ch"); ?>
                     <div class="t-access_content">
                                 <h4>中小企業企画開発協会</h4>
                                 <p class="t-access_add">
-                                東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル３階
+                                東京都中央区日本橋蛎殻町2-11-2 オートエックス工藤ビル 4階、5階、6階
                                 </p>
                                 <p class="t-access_add">
                                 TEL:03-6231-1103
