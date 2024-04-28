@@ -11905,7 +11905,7 @@ typography - 文字の装飾など
 
 @media only screen and (max-width: 767px) {
   .archiveVoice {
-    background-color: #E4E8F1;
+    /*background-color: #E4E8F1;*/
     padding: 15px 0;
     margin-top: 15px;
   }
