@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="property_item_two" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/POSE御苑内藤町_外観写真.jpg"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/グレイスエア西八王子_外観写真.jpg"/>
                     <div class="property_item_title">
                         <span class="property_item_content">③一棟アパート</span>
                     </div>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="property_item_two" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/グレイスエア西八王子_外観写真.jpg"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/サンコーポ_外観写真.jpg"/>
                     <div class="property_item_title">
                         <span class="property_item_content">⑤一棟アパート</span>
                     </div>
