@@ -111,13 +111,13 @@
             <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="vertical-line">お客様の声</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">よくあるご質問</div></a>
+            <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="vertical-line">よくあるご質問</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">弊社管理物件</div></a>
+            <a href="<?php echo home_url('taxria/#Property'); ?>"><div class="vertical-line">弊社管理物件</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/#'); ?>"><div class="vertical-line">ニュース</div></a>
+            <a href="<?php echo home_url('taxria/taxrianewslist'); ?>"><div class="vertical-line">ニュース</div></a>
           </li>
           <li>
             <a href="<?php echo home_url('taxria/#About'); ?>"><div class="vertical-line">会社概要</div></a>
@@ -140,8 +140,8 @@
       <a href="<?php echo home_url('taxria/taxriaservicelist'); ?>"><div class="search_content_style">業務内容</div></a>
       <a href="<?php echo home_url('taxria/#Voice'); ?>"><div class="search_content_style">お客様の声</div></a>
       <a href="<?php echo home_url('taxria/#QA'); ?>"><div class="search_content_style">よくあるご質問</div></a>
-      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">弊社管理物件</div></a>
-      <a href="<?php echo home_url('taxria/#'); ?>"><div class="search_content_style">ニュース</div></a>
+      <a href="<?php echo home_url('taxria/#Property'); ?>"><div class="search_content_style">弊社管理物件</div></a>
+      <a href="<?php echo home_url('taxria/taxrianewslist'); ?>"><div class="search_content_style">ニュース</div></a>
       <a href="<?php echo home_url('taxria/#About'); ?>"><div class="search_content_style">会社概要</div></a>
       <a href="<?php echo home_url('taxria/taxriamenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="search_content_style">アクセス</div></a>
