@@ -17,21 +17,7 @@
   <div class="archiveVoice">
       <div class="qa_container">
     <div class="l-container">
-      <?php
-       $field = get_field('voice_textbox', 3726);
-       if($field){
-         ?>
-      <div class="voice-textBox">
-        <p>
-          <?php echo $field; ?>
-        </p>
-      </div>
-      <?php
-       }
-       ?>
-      <div class="archiveVoice-main">
-
-
+        <div class="property_and_voice">
         <div class="c-voicePost">
 
             <div class="c-qa-list__title">
@@ -111,5 +97,7 @@
     </div>
     </div>
     </div>
+    </div>
   </div>
+    </div>
 </main>

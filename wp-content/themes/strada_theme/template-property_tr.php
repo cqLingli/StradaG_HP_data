@@ -17,13 +17,11 @@
   <div class="archiveVoice">
       <div class="qa_container">
     <div class="l-container">
-      <div class="archiveVoice-main">
         <div class="c-voicePost">
-            <div class="c-qa-list__title">
-                <p>弊社管理物件一覧</p>
-            </div>
-
-            <div>
+            <div class="property_and_voice">
+                <div class="c-qa-list__title">
+                    <p>弊社管理物件一覧</p>
+                </div>
                 <div class="property_item" >
                     <img src="<?php echo get_template_directory_uri(); ?>/images/property/POSE御苑内藤町_外観写真.jpg"/>
                     <div class="property_item_title">

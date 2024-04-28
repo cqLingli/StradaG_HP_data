@@ -20210,6 +20210,13 @@ ol li {
   .property_item_address{
     font-size: 15px;
   }
+  .property_and_voice{
+    padding: 0px 0px 0px 0px!important;
+  }
+}
+
+.property_and_voice{
+  padding: 0 2% 0 0;
 }
 
 
