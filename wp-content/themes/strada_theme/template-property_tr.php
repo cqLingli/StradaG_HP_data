@@ -15,82 +15,73 @@
   <!-- end c-mainTitle -->
     <div class="qa_container">
   <div class="archiveVoice">
+      <div class="qa_container">
     <div class="l-container">
-<!--      --><?php
-//       $field = get_field('property_textbox', 3726);
-//       if($field){
-//         ?>
-<!--      <div class="voice-textBox">-->
-<!--        <p>-->
-<!--          --><?php //echo $field; ?>
-<!--        </p>-->
-<!--      </div>-->
-<!--      --><?php
-/*       }
-       */?>
-
       <div class="archiveVoice-main">
         <div class="c-voicePost">
             <div class="c-qa-list__title">
                 <p>弊社管理物件一覧</p>
             </div>
 
-          <?php
-              // $author_name = get_post_meta($post->ID, 'author_name', true);
-              // $authorCurrent = array( get_user_by( 'id', $post->post_author ) );
-              //$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
-              $args = array(
-                'post_type' => 'property',
-                'company'=>'taxria',
-                'posts_per_page' => 3,
-                'orderby' => 'date',
-                'paged' => $paged
-              );
+            <div>
+                <div class="property_item" >
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/POSE御苑内藤町_外観写真.jpg"/>
+                    <div class="property_item_title">
+                        <span class="property_item_content">①オフィスビル</span>
+                    </div>
+                    <div class="property_item_address">
+                        <span>物件名：POSE御苑内藤町   </span>
+                        <span> 住　所：東京都新宿区内藤町1-69  </span>
+                    </div>
+                </div>
+                <div class="property_item_two" >
+                    <img class="property_item_img" src="<?php echo get_template_directory_uri(); ?>/images/property/preparation.png"/>
+                    <div class="property_item_title">
+                        <span class="property_item_content">②テナントビル</span>
+                    </div>
+                    <div class="property_item_address">
+                        <span>物件名：スリーYʼS&D   </span>
+                        <span> 住　所：東京都中央区銀座5-10-5  </span>
+                    </div>
+                </div>
+                <div class="property_item_two" >
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/POSE御苑内藤町_外観写真.jpg"/>
+                    <div class="property_item_title">
+                        <span class="property_item_content">③一棟アパート</span>
+                    </div>
+                    <div class="property_item_address">
+                        <span>物件名：グレイスエア西八王子   </span>
+                        <span> 住　所：東京都八王子市散田町3-28-3  </span>
+                    </div>
+                </div>
+                <div class="property_item" >
+                    <img class="property_item_img" src="<?php echo get_template_directory_uri(); ?>/images/property/preparation.png"/>
+                    <div class="property_item_title">
+                        <span class="property_item_content">④一棟アパート</span>
+                    </div>
+                    <div class="property_item_address">
+                        <span>物件名：グランノエル江古田   </span>
+                        <span> 住　所：東京都中野区江古田4-17-14  </span>
+                    </div>
+                </div>
 
-              $the_query = new WP_Query($args); ?>
+                <div class="property_item_two" >
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/property/グレイスエア西八王子_外観写真.jpg"/>
+                    <div class="property_item_title">
+                        <span class="property_item_content">⑤一棟アパート</span>
+                    </div>
+                    <div class="property_item_address">
+                        <span>物件名：サンコーポ   </span>
+                        <span> 住　所：東京都江戸川区南小岩7-34-2  </span>
+                    </div>
+                </div>
+            </div>
 
-
-          <?php
-              if($the_query->have_posts()) :
-                while($the_query->have_posts()) : $the_query->the_post(); ?>
-
-          <div class="c-voicePost__items">
-            <a href="<?php echo get_permalink(get_the_ID()); ?>">
-              <div class="c-voicePost__img">
-                <figure>
-                  <?php
-        						if (has_post_thumbnail()) {
-        							echo get_the_post_thumbnail();
-        						} else { ?>
-                  <img src="<?php echo get_template_directory_uri() ?>/images/common/no-image.png" alt="nophoto">
-                  <?php }
-        						?>
-                </figure>
-              </div>
-              <h3 class="c-voicePost__tlt">
-                <?php echo get_the_title(); ?>
-              </h3>
-              <p class="c-voicePost__name">
-                <?php echo get_field('name'); ?>
-              </p>
-              <p class="c-voicePost__text">
-                いつもありがとうございます！！
-              </p>
-            </a>
-          </div>
-          <?php endwhile; ?>
-          <?php endif; ?>
-        </div>
 
       </div>
-<!--      <div class="ssbtnwidth">-->
-<!--        <a href="taxvoicelist" style="text-decoration:none;">-->
-<!--          <div-->
-<!--            class="ssbtn">-->
-<!--            詳しく観る</div>-->
-<!--        </a>-->
-<!--      </div>-->
+
     </div>
     </div>
+      </div>
   </div>
 </main>

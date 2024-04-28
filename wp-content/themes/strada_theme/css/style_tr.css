@@ -20088,7 +20088,127 @@ ol li {
   }
 
 }
+/** 2024-4-28 stone add ->tr -> Strada Group*/
+.voice_content{
+  background-color: white;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.voice_content_part_one{
+  width: 48%;
+}
+.voice_content_part_two{
+  margin-left: 2%;
+  width: 50%;
+}
+.voice_content_part_two_p{
+  font-size: 14px;
+  font-weight: 500
+}
+.voice_other_div{
+  background-color: white;
+  padding: 2%;
+  font-size: 14px;
+  font-weight: 450
+}
+.voice_other_div_p{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.voice_other_div_p_line{
+  border-bottom: 1px dotted #707070;
+}
 
 
+
+@media screen and (max-width: 760px) {
+  .voice_other_div{
+    font-size: 10px;
+    font-weight: 400
+  }
+  .voice_content{
+    display: block;
+    padding: 1%;
+  }
+  .voice_content_part_one{
+    width: 100%;
+  }
+  .voice_content_part_two{
+    width: 99%;
+  }
+  .voice_content_part_two_p{
+    font-size: 10px;
+    font-weight: 400
+  }
+}
+
+.property_item{
+  display: inline-grid;
+  margin-bottom: 45px;
+  border: 1px solid;
+  width: calc(100% / 3.26);
+  padding: 8px 8px 15px 8px;
+  background: white;
+}
+.property_item_two{
+  display: inline-grid;
+  margin-bottom: 45px;
+  border: 1px solid;
+  width: calc(100% / 3.26);
+  padding: 8px 8px 15px 8px;
+  background: white;
+  margin-left: 3.5%;
+}
+.property_item_title{
+  background-color: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.property_item_content{
+  margin-left: 2%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.property_item_address{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: contents
+}
+.property_item_address span{
+  line-height: 1.5;
+}
+.property_item_img{
+  width: 120%;
+  height: 99%;
+}
+@media screen and (max-width: 760px) {
+.property_item {
+  display: inline-grid;
+  margin-bottom: 45px;
+  border: 1px solid;
+  width: calc(100% / 1);
+  padding: 8px 8px 8px 8px;
+  background: white;
+  margin-left: 0;
+}
+  .property_item_two {
+    display: inline-grid;
+    margin-bottom: 45px;
+    border: 1px solid;
+    width: calc(100% / 1);
+    padding: 8px 8px 8px 8px;
+    background: white;
+    margin-left: 0;
+  }
+  .property_item_content{
+    font-size: 15px;
+  }
+  .property_item_address{
+    font-size: 15px;
+  }
+}
 
 
