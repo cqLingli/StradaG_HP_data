@@ -63,14 +63,14 @@
                             <div class="c-qa__answer___main">
                                 <p class="c-qa__answer--icon">A</p>
                                 <p class="c-qa__answer--text">ご契約いただくお部屋により異なりますが、初期費用として主に以下の項目がございます。 <br />
-                                    <span style="color: #D8938F">●</span>前家賃・共益費（当月分日割り＋翌月分）<br />
-                                    <span style="color: #D8938F">●</span>敷金            <br />
-                                    <span style="color: #D8938F">●</span>礼金          <br />
-                                    <span style="color: #D8938F">●</span>仲介手数料    <br />
-                                    <span style="color: #D8938F">●</span>伴交換代      <br />
-                                    <span style="color: #D8938F">●</span>保証会社初回手数料   <br />
-                                    <span style="color: #D8938F">●</span>家財保険料       <br />
-                                    <span style="color: #D8938F">●</span>24時間安心サポート</p>
+                                    <span class="crcle_span">●</span> 前家賃・共益費（当月分日割り＋翌月分）<br />
+                                    <span class="crcle_span">●</span> 敷金            <br />
+                                    <span class="crcle_span">●</span> 礼金          <br />
+                                    <span class="crcle_span">●</span> 仲介手数料    <br />
+                                    <span class="crcle_span">●</span> 伴交換代      <br />
+                                    <span class="crcle_span">●</span> 保証会社初回手数料   <br />
+                                    <span class="crcle_span">●</span> 家財保険料       <br />
+                                    <span class="crcle_span">●</span> 24時間安心サポート</p>
                             </div>
                         </div>
                     </div>

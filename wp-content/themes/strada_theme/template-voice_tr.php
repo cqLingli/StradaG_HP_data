@@ -40,7 +40,7 @@
 
 
             <div class="c-qa-list__title">
-                <p>Bさん（医者））</p>
+                <p>Bさん（医者）</p>
             </div>
             <div class="voice_content">
                 <div class="voice_content_part_one">
@@ -78,19 +78,15 @@
             </div>
             <div class="voice_other_div">
                 <p class="voice_other_div_p">
-                    <span style="color: #D8938F">●</span>希望通りの広いルーフバルコニー付の物件をご紹介いただきました。素敵な部屋での新生活がとても楽しみです。この度はありがとうございました！         </p>
+                    <span class="crcle_span">●</span> 希望通りの広いルーフバルコニー付の物件をご紹介いただきました。素敵な部屋での新生活がとても楽しみです。この度はありがとうございました！         </p>
                 <p class="voice_other_div_p_line"/>
-                <p style="margin-bottom: 1%;margin-top: 1%;">  <span style="color: #D8938F">●</span>地方から出てきたので分からないことばかりだったのですが、物件のことだけではなく物件周りのことも説明してくださり、良い物件を見つけることができました。
-                    　ありがとうございました。         </p>
+                <p style="margin-bottom: 1%;margin-top: 1%;">  <span class="crcle_span">●</span> 地方から出てきたので分からないことばかりだったのですが、物件のことだけではなく物件周りのことも説明してくださり、良い物件を見つけることができました。ありがとうございました。         </p>
                 <p class="voice_other_div_p_line"/>
-                <p style="margin-bottom: 1%;margin-top: 1%;">      <span style="color: #D8938F">●</span>思っていたよりスムーズに、思っていたより高値で売却ができました。とても丁寧に私共の気持ちに寄り添って頂き、いろいろとアドバイスをいただけて感謝しております。
-                    　ありがとうございました。        </p>
+                <p style="margin-bottom: 1%;margin-top: 1%;">      <span class="crcle_span">●</span> 思っていたよりスムーズに、思っていたより高値で売却ができました。とても丁寧に私共の気持ちに寄り添って頂き、いろいろとアドバイスをいただけて感謝しております。ありがとうございました。        </p>
                 <p class="voice_other_div_p_line"/>
-                <p style="margin-bottom: 1%;margin-top: 1%;">    <span style="color: #D8938F">●</span>内覧や契約など売主さんとの間にたって色々と助けていただきました。対応も早く経過報告の連絡もこまめにいただき助かりました。
-                    　事前に準備しておくことなど細かく丁寧に教えていただき行動しやすかったです。本当にありがとうございました。       </p>
+                <p style="margin-bottom: 1%;margin-top: 1%;">    <span class="crcle_span">●</span> 内覧や契約など売主さんとの間にたって色々と助けていただきました。対応も早く経過報告の連絡もこまめにいただき助かりました。事前に準備しておくことなど細かく丁寧に教えていただき行動しやすかったです。本当にありがとうございました。       </p>
                 <p class="voice_other_div_p_line"/>
-                <p style="margin-bottom: 1%;margin-top: 1%;">    <span style="color: #D8938F">●</span>希望条件をお伝えして、すぐに数件候補を挙げて頂きスピード感をもって対応していただきました。気になった物件全てを内見させていただいて、希望に沿った住まいを見つけること
-                    　ができました。一つ一つ丁寧に親切にしていただきありがとうございました。またぜひ何かありましたらよろしくお願いいたします。
+                <p style="margin-bottom: 1%;margin-top: 1%;">    <span class="crcle_span">●</span> 希望条件をお伝えして、すぐに数件候補を挙げて頂きスピード感をもって対応していただきました。気になった物件全てを内見させていただいて、希望に沿った住まいを見つけることができました。一つ一つ丁寧に親切にしていただきありがとうございました。またぜひ何かありましたらよろしくお願いいたします。
                 </p>
                 <p class="voice_other_div_p_line"/>
             </div>

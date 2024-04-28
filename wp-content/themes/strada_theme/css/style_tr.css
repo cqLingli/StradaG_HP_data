@@ -20094,6 +20094,8 @@ ol li {
   background-color: white;
   display: flex;
   margin-bottom: 1%;
+  padding: 2%;
+
 }
 
 .voice_content_part_one{
@@ -20213,10 +20215,17 @@ ol li {
   .property_and_voice{
     padding: 0px 0px 0px 0px!important;
   }
+  .crcle_span{
+    font-size: 7px!important;
+  }
 }
 
 .property_and_voice{
   padding: 0 2% 0 0;
+  margin-top: -2%;
 }
-
+.crcle_span{
+  color: #D8938F;
+  font-size: 10px;
+}
 
