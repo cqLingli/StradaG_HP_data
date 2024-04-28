@@ -160,6 +160,7 @@ $_SESSION['page_type']="top";
         </div>
       </div>
     </div>
+      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
       <div class="l-container">
           <div class="l-container Group_style1_extra">
               <div class="Group_style1">
@@ -198,6 +199,7 @@ $_SESSION['page_type']="top";
                   </div>
               </div>
           </div>
+      </div>
       </div>
 <!--    <div class="l-container">-->
 <!--      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">-->

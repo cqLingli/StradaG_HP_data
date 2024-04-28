@@ -163,6 +163,7 @@ $_SESSION['page_type']="top";
     </div>
     </div>
   </div>
+      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
       <div class="l-container">
           <div class="l-container Group_style1_extra">
               <div class="Group_style1">
@@ -201,6 +202,7 @@ $_SESSION['page_type']="top";
                   </div>
               </div>
           </div>
+      </div>
       </div>
 <!--    <div class="l-container">-->
 <!--      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">-->
@@ -291,7 +293,7 @@ $_SESSION['page_type']="top";
       <div id="list_wrap7" class="node_wrap7 node_wrap_show7">
         <?php get_template_part('template', 'about_ss'); ?>
         <!-- <a id="menber" class="target-fix1"></a>-->
-        <?php //get_template_part('template', 'ss-members'); ?> 
+        <?php //get_template_part('template', 'ss-members'); ?>
       </div>
   </div>
   </div>

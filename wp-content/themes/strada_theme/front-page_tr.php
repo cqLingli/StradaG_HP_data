@@ -153,7 +153,7 @@ $_SESSION['page_type']="top";
     <div class="border-text2"></div>
     <div class="border-bt">
       <div class="l-container">
-        <div>
+        <div style="display:flex">
           <div id="block_wrap2" class="title_item_wrap2 active2">
             <p class="chapter_title2">Strada Group
             <div class="circle2"></div>
@@ -163,6 +163,7 @@ $_SESSION['page_type']="top";
         </div>
       </div>
     </div>
+      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
     <div class="l-container">
         <div class="l-container Group_style1_extra">
             <div class="Group_style1">
@@ -202,6 +203,7 @@ $_SESSION['page_type']="top";
             </div>
         </div>
     </div>
+      </div>
   </div>
   <!-- end Strada Group -->
 
@@ -228,21 +230,21 @@ $_SESSION['page_type']="top";
 
     <!-- start Q&A -->
     <a id="QA" class="target-fix"></a>
-    <div class="block_wrap3">
-        <div class="border-text5"></div>
+    <div class="block_wrap4">
+        <div class="border-text4"></div>
         <div class="border-bt">
             <div class="l-container">
                 <div style="display:flex">
-                    <div id="block_wrap5" class="title_item_wrap5 active5">
-                        <p class="chapter_title5">Q&A
-                        <div class="circle5"></div>
+                    <div id="block_wrap4" class="title_item_wrap4 active4">
+                        <p class="chapter_title4">Q&A
+                        <div class="circle4"></div>
                         </p>
                     </div>
-                    <div id="text5" class="border-text border-text-controll">よくあるご質問</div>
+                    <div id="text4" class="border-text border-text-controll">よくあるご質問</div>
                 </div>
             </div>
         </div>
-        <div id="list_wrap3" class="node_wrap5 node_wrap_show5">
+        <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
             <?php get_template_part('template', 'qa_tr'); ?>
         </div>
     </div>
@@ -250,21 +252,21 @@ $_SESSION['page_type']="top";
 
     <!-- start Property -->
     <a id="Property" class="target-fix"></a>
-    <div class="block_wrap4">
-        <div class="border-text4"></div>
+    <div class="block_wrap5">
+        <div class="border-text5"></div>
         <div class="border-bt">
             <div class="l-container">
                 <div style="display:flex">
-                    <div id="block_wrap4" class="title_item_wrap4 active4">
-                        <p class="chapter_title4">Property
-                        <div class="circle4"></div>
+                    <div id="block_wrap5" class="title_item_wrap5 active5">
+                        <p class="chapter_title5">Property
+                        <div class="circle5"></div>
                         </p>
                     </div>
-                    <div id="text4" class="border-text border-text-controll">弊社管理物件</div>
+                    <div id="text5" class="border-text border-text-controll">弊社管理物件</div>
                 </div>
             </div>
         </div>
-        <div id="list_wrap4" class="node_wrap4 node_wrap_show4">
+        <div id="list_wrap5" class="node_wrap5 node_wrap_show5">
             <?php get_template_part('template', 'property_tr'); ?>
         </div>
     </div>
@@ -274,20 +276,20 @@ $_SESSION['page_type']="top";
     <!-- start Voice -->
     <a id="Voice" class="target-fix"></a>
     <div class="block_wrap6">
-        <div class="border-text5"></div>
+        <div class="border-text6"></div>
         <div class="border-bt">
             <div class="l-container">
                 <div style="display:flex">
-                    <div id="block_wrap5" class="title_item_wrap5 active5">
-                        <p class="chapter_title5">Voice
-                        <div class="circle5"></div>
+                    <div id="block_wrap6" class="title_item_wrap6 active6">
+                        <p class="chapter_title6">Voice
+                        <div class="circle6"></div>
                         </p>
                     </div>
-                    <div id="text5" class="border-text border-text-controll">よくあるご質問</div>
+                    <div id="text6" class="border-text border-text-controll">よくあるご質問</div>
                 </div>
             </div>
         </div>
-        <div id="list_wrap6" class="node_wrap5 node_wrap_show5">
+        <div id="list_wrap6" class="node_wrap6 node_wrap_show6">
             <?php get_template_part('template', 'voice_tr'); ?>
         </div>
     </div>
