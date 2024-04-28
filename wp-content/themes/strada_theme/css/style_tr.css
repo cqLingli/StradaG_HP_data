@@ -12272,6 +12272,7 @@ img {
   margin-bottom: 17.5px;
   background: linear-gradient(90deg, #C2182D, #F8ECE9) !important;
   padding-left: 10px;
+  width: 100%;
 }
 
 .c-qa__question--icon,
