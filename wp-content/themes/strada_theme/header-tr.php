@@ -129,7 +129,7 @@
             <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="vertical-line">アクセス</div></a>
           </li>
           <li>
-            <a href="<?php echo home_url('taxria/Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
+            <a href="<?php echo home_url('taxria/#Recruit'); ?>"><div class="vertical-line">リクルート</div></a>
           </li>
         </ul>
       </div>
@@ -145,7 +145,7 @@
       <a href="<?php echo home_url('taxria/#About'); ?>"><div class="search_content_style">会社概要</div></a>
       <a href="<?php echo home_url('taxria/taxriamenber'); ?>"><div class="search_content_style">メンバー紹介</div></a>
       <a href="<?php echo home_url('taxria/taxriaaccess'); ?>"><div class="search_content_style">アクセス</div></a>
-      <a href="<?php echo home_url('taxria/Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
+      <a href="<?php echo home_url('taxria/#Recruit'); ?>"><div class="search_content_style">リクルート</div></a>
       </div>
     <form id="searchFrom" method="get" action="<?php echo esc_url(home_url('/')); ?>">
       <div class="search_content_style1">
