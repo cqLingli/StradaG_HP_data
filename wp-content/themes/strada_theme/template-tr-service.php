@@ -58,7 +58,7 @@
                     <div class="content">
                         <div>
                             <p class="description_box">
-                                <?php echo nl2br(get_the_excerpt()); ?>
+                                <?php echo get_the_excerpt(); ?>
                             </p>
                         </div>
 
