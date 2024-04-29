@@ -11957,7 +11957,7 @@ typography - 文字の装飾など
 .singleService-main {
   width: 100%;
   margin: 0 auto;
-  padding: 30px 0px 10px 34px;
+  padding: 0px 0px 10px 34px;
 }
 
 .singleService-block {
@@ -12032,7 +12032,7 @@ typography - 文字の装飾など
 
 @media only screen and (max-width: 767px) {
   .singleService-main {
-    padding: 30px 0;
+    padding: 0;
   }
 
   .singleService-block__tlt h2 {
@@ -20247,3 +20247,27 @@ ol li {
   font-size: 10px;
 }
 
+/* servers detail tang add*/
+.h4-margin-top-0 {
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
+.stepstyle{
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #b8193f;
+  background: #F8ECE9;
+}
+.stepsSubTitle{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 760px) {
+  .stepstyle{
+    font-size: 1.8rem;
+  }
+  .stepsSubTitle{
+    font-size: 1.6rem;
+  }
+}
+/* servers detail tang end*/
