@@ -108,16 +108,16 @@ $_SESSION['page_type']="service";
                                 <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                             </div>
 
-                            <a href="<?php echo get_permalink(get_the_ID()); ?>" style="text-decoration:none;">
-                                <div class="service_title_icon">
+                            
+                                <div class="service_title_icon"  style="background-image: url("");">
                             <span>
                                 <?php echo get_the_title(); ?>
                             </span>
                                 </div>
-                            </a>
+                            
                             <div class="content">
                                 <div>
-                                    <p class="description_box">
+                                    <p class="description_box2">
                                         <?php echo nl2br(get_the_excerpt()); ?>
                                     </p>
                                 </div>
