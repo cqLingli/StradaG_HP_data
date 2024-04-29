@@ -27,7 +27,7 @@ if($mv){
     </div>
     <!-- end c-breakcrumds -->
     <div class="c-mainTitle c-mainTitle-overlay">
-      <div class="c-mainTitle_content single-service c-mainTitle_content3">
+      <div class="c-mainTitle_content single-service">
         <div class="c-tlt01 c-tlt01__black">
           <h1 class="c-tlt01__line c-tlt01__line--gray">
             <?php the_title(); ?>

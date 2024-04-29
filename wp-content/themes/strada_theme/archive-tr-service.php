@@ -15,7 +15,7 @@ $_SESSION['page_type']="service";
         </div>
         <!-- end c-breakcrumds -->
         <div class="c-mainTitle service_1-mainTitle">
-            <div class="c-mainTitle_content c-mainTitle_content3">
+            <div class="c-mainTitle_content service_content_add">
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
 
