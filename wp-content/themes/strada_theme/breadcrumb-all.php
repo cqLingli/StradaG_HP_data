@@ -94,6 +94,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."tax";
+        $text2="税理士法人トップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 }elseif ($url_type==="ss"){
     if(strpos($thisurl,'news')){
@@ -134,6 +139,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."sr";
+        $text2="社労士法人トップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 
 }elseif ($url_type==="ch"){
@@ -158,6 +168,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."chushoukigyouroudou";
+        $text2="中小企業労働企画開発協会トップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 }elseif ($url_type==="sg"){
     if(strpos($thisurl,'news')){
@@ -201,6 +216,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."admin";
+        $text2="行政書士トップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 
 }elseif ($url_type==="sb"){
@@ -262,6 +282,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."bs";
+        $text2="ビジネスサポートトップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 
 }elseif ($url_type==="tr"){
@@ -303,6 +328,11 @@ if($url_type==="sz"){
         $text3="検索";
         $text4=$_GET['s'];
         $breadcrumbType="4";
+    }elseif(strpos($thisurl,'thanks')){
+        $url2=$url1."taxria";
+        $text2="タックスリアルティトップ";
+        $text3="ありがとうございます。";
+        $breadcrumbType="3";
     }
 }else{
     if(strpos($thisurl,'news')){
@@ -322,6 +352,9 @@ if($url_type==="sz"){
         $text2="検索";
         $text3=$_GET['s'];
         $breadcrumbType="3";
+    }elseif(strpos($thisurl,'thanks')){
+        $text2="ありがとうございます。";
+        $breadcrumbType="2";
     }
 }
 
