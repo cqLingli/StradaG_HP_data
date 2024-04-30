@@ -14,8 +14,8 @@ $_SESSION['page_type']="service";
             </div>
         </div>
         <!-- end c-breakcrumds -->
-        <div class="c-mainTitle service_1-mainTitle">
-            <div class="c-mainTitle_content service_content_add">
+    <div class="c-mainTitle service_1-mainTitle" style="background: url('../../wp-content/themes/strada_theme/images/common_tr/TR_Strengths.png') no-repeat; background-size: cover; background-position: center center;">
+            <div class="c-mainTitle_content service_content_add c-mainTitle_content2" >
                 <div class="c-tlt01 c-tlt01__black">
                     <h1 class="c-tlt01__line c-tlt01__line--gray">
 
