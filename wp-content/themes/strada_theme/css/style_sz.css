@@ -17435,7 +17435,7 @@ ol li {
 .StradaStyle {
   font-size: 1.38rem;
   padding-top: 5px;
-  line-height: 24px;
+  line-height: 1.2;
   padding-bottom: 5px;
   border-top:1px dotted #707070;
   border-bottom:1px dotted #707070;
@@ -19646,14 +19646,14 @@ body .is-layout-flex {
 .Group_style1_p1{
   font-weight: bold;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
   margin-left: 1%;
   line-height: 1.2;
 }
 .Group_style1_p2{
   font-weight: bold;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
   margin-left: 5%;
   line-height: 1.2;
 }
@@ -19723,7 +19723,7 @@ body .is-layout-flex {
   margin-top: 9.5%;
 }
 .StradaStyle_div{
-  margin-top: 22%;
+  margin-top: 23.5%;
 }
 .title_div_p{
   padding: 3%;

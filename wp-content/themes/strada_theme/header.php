@@ -73,18 +73,18 @@
                 <span>お問い合わせ</span>
               </a>
             </div>
-            <div class="h-mail h-mail--2">
+            <!-- <div class="h-mail h-mail--2">
               <a href="https://timerex.net/s/strada.5kaigishitsu/9871b478" target="_blank">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/ico-book.png" alt="" />
+                <img src="<?php /*echo get_template_directory_uri(); */?>/images/common_sz/ico-book.png" alt="" />
                 <span>カレンダーから<br />無料相談を予約する</span>
               </a>
             </div>
             <div class="h-mail h-mail--3">
               <a href="https://line.me/R/ti/p/%40395gkqmy" target="_blank">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/common_sz/ico-line.svg" alt="" />
+                <img src="<?php /*echo get_template_directory_uri();*/ ?>/images/common_sz/ico-line.svg" alt="" />
                 <span>LINEでご相談</span>
               </a>
-            </div>
+            </div> -->
             <div class="h-mail h-mail--5">
                 <img class="search_icon" src="<?php echo get_template_directory_uri(); ?>/images/common/seach_icon.png" alt="" />
             </div>
