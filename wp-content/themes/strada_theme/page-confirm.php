@@ -12,7 +12,7 @@ $thisurl = home_url(add_query_arg(array()));
 <main class="l-main p-service">
   <div class="c-breakcrumds">
     <div class="l-container">
-      <?php get_template_part('breadcrumb', 'all');?>
+      <?php get_template_part('breadcrumb', 'all'); ?>
     </div>
   </div>
     <!-- end c-breakcrumds -->
@@ -64,9 +64,40 @@ $thisurl = home_url(add_query_arg(array()));
                 <br/>
                 
                 <div class="c-btn01 c-btn01__center c-btn01__blue">
+                    
+             <?php if($url_type==="sz") : ?>
+                    <a href="<?php echo home_url()."/tax/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php elseif($url_type==="sg") : ?>
+                    <a href="<?php echo home_url()."/admin/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php elseif($url_type==="sb") : ?>
+                    <a href="<?php echo home_url()."/bs/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php elseif($url_type==="ch") : ?>
+                    <a href="<?php echo home_url()."/chushoukigyouroudou/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php elseif($url_type==="tr") : ?>
+                    <a href="<?php echo home_url()."/taxria/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php elseif($url_type==="ss") : ?>
+                    <a href="<?php echo home_url()."/sr/"; ?>">
+                        <span>TOPページへ戻る</span>
+                    </a>
+            <?php else : ?>
                     <a href="<?php echo home_url(); ?>">
                         <span>TOPページへ戻る</span>
                     </a>
+            <?php endif; ?>
+                    
+                    
+                    
+            
                 </div>
                 
                 </div>
