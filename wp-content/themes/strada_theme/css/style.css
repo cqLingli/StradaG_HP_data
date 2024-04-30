@@ -12717,6 +12717,11 @@ img {
   background-size: cover;
   background-position: center center;
 }
+.service_1-mainTitle  {
+  background: url('../images/mv/mv-recruit.jpg') no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -12729,7 +12734,6 @@ img {
     margin-right: 5.5%;
     margin-top: 6%;
   }
-
 }
 
 .p-qa .c-mainTitle {

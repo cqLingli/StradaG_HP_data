@@ -100,7 +100,7 @@
           </div>
 
           <div class="p-recruitBtn">
-            <a href="<?php echo home_url('bs/recruitformsb'); ?>">
+            <a href="<?php echo home_url('taxria/recruitformtr'); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/recruit_icon.png" alt="" />
               採用エントリーはこちらから
             </a>
