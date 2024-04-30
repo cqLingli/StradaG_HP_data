@@ -69,6 +69,42 @@ $thisurl = home_url(add_query_arg(array()));
                     </a>
                 </div>
                 
+                
+    <?php 
+        if(strpos($thisurl,'recruit')){
+            if($url_type==""){
+                
+            }elseif($url_type==="sz"){
+                echo do_shortcode('[mwform_formkey key="4093"]');
+            }elseif ($url_type==="sg"){
+                echo do_shortcode('[mwform_formkey key="4094"]');
+            }elseif ($url_type==="sb"){
+                echo do_shortcode('[mwform_formkey key="4092"]');
+            }elseif ($url_type==="ch"){
+                
+            }elseif ($url_type==="tr"){
+                echo do_shortcode('[mwform_formkey key="4606"]');
+            }elseif ($url_type==="ss"){
+                
+            }
+        }else{
+            if($url_type==""){
+                echo do_shortcode('[mwform_formkey key="236"]');
+            }elseif($url_type==="sz"){
+                echo do_shortcode('[mwform_formkey key="3832"]');
+            }elseif ($url_type==="sg"){
+                echo do_shortcode('[mwform_formkey key="3997"]');
+            }elseif ($url_type==="sb"){
+                echo do_shortcode('[mwform_formkey key="3998"]');
+            }elseif ($url_type==="ch"){
+                echo do_shortcode('[mwform_formkey key="3996"]');
+            }elseif ($url_type==="tr"){
+                echo do_shortcode('[mwform_formkey key="3999"]');
+            }elseif ($url_type==="ss"){
+                echo do_shortcode('[mwform_formkey key="3923"]');
+            }
+        }
+    ?>
                 </div>
             </div>
         </div>
