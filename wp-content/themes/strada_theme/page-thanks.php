@@ -16,7 +16,7 @@ $thisurl = home_url(add_query_arg(array()));
     </div>
   </div>
     <!-- end c-breakcrumds -->
-  <div class="c-mainTitle service_1-mainTitle">
+  <div class="c-mainTitle service_1-mainTitle2">
     <div class="c-mainTitle_content service_content_add">
       <div class="c-tlt01 c-tlt01__black">
         <h1 class="c-tlt01__line c-tlt01__line--gray">
