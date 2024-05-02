@@ -15830,10 +15830,10 @@ ol li {
   padding: 0 5.5% 0 5.5%;
   display: flex;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 30px
+  /* margin-top: 30px */
 }
 
 .circle2 {
@@ -19392,7 +19392,7 @@ strong {
 }
 .Group_youtube_style1{
   width: 100%;
-  height: 170%;
+  height: 50%;
 }
 
 .circle-container {
@@ -19421,21 +19421,21 @@ strong {
 }
 .circle10 {
   position: absolute;
-  top: 29%;
-  left: 31%;
-  width: 33%;
-  height: 33%;
+  top: 32%;
+  left: 34%;
+  width: 34%;
+  height: 34%;
   border-radius: 50%;
-  /*background-color: white;*/
+  /* background-color: white; */
 }
 .circle100 {
   position: absolute;
-  top: 25%;
-  left: 27%;
+  top: 28%;
+  left: 28%;
   width: 17%;
   height: 16%;
   border-radius: 30%;
-  /* background-color: white; */
+  /* background-color: #7b4646; */
   transform-origin: 120% 120%;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
@@ -19450,7 +19450,9 @@ strong {
   margin-top: 9.5%;
 }
 .StradaStyle_div{
-  margin-top: 23.5%;
+  margin-top: 2%;
+  width: 100%;
+  height: 50%;
 }
 .title_div_p{
   padding: 3%;
@@ -19531,7 +19533,7 @@ strong {
   font-weight: bold;
 }
 .StradaStyle_span9{
-  line-height: 1.1;
+  line-height: 1.5;
   color: #221815;
 }
 
@@ -19555,14 +19557,14 @@ strong {
     height: 330px;
   }
   .Group_style1_p1{
-    font-size: 18px;
+    font-size: 19px;
   }
   .Group_style1_p2{
     font-size: 18px;
   }
   .Group_youtube_style1{
     width: 100%;
-    height: 100%;
+    height: 50%;
   }
   .image_div{
     margin-left: 1%;
@@ -19585,7 +19587,7 @@ strong {
   .circle10 {
     position: absolute;
     top: 35%;
-    left: 30%;
+    left: 33%;
     width: 34%;
     height: 34%;
     border-radius: 50%;
@@ -19616,5 +19618,94 @@ strong {
         padding-top: 4px;
 }
 }
-
 /*frontpage about end*/
+
+
+
+/* tang add */
+.Group_style2_extra {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Group_style_left {
+  width: 49%;
+  padding-left: 5%;
+}
+.Group_style_right {
+  width: 49%;
+  padding-right: 5%;
+}
+.image_div2 {
+  background-color: #DCDDDD;
+  margin-top: 5%;
+  margin-left: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10px;
+}
+.circle-container_2 {
+  position: relative;
+  height: 100%;
+  border-radius: 50%;
+  /* background-image: url(../images/common/groupImg.png); */
+  background-color: lightblue;
+  background-size: 95%;
+  width: auto;
+  margin-left: 2%;
+  background-repeat: no-repeat;
+  z-index: 999; /* 位于上方 */
+}
+.circle-container_2_1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.div-relative{position:relative; color:#000; }
+.div-a{ 
+  position:absolute;z-index: 1;
+  /* background-color: lightblue; */
+}
+.div-b{ 
+  position:absolute;z-index: 2;
+  /* background-color: red; */
+  border-radius: 50%;
+}
+.youtube_div_2{
+  margin-top: 5%;
+  padding: 0 0 0 1%;
+  height: 100%;
+}
+.title_div_p_2 {
+  padding-top: 5%;
+}
+@media screen and (max-width: 760px) {
+  .Group_style2_extra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .image_div2{
+    margin-top: 3%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .Group_style_left {
+    width: 100%;
+    padding-left: 3%;
+  }
+  .Group_style_right {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+  .youtube_div_2{
+    margin-top: 3%;
+    padding: 0 0 0 1%;
+  }
+}
+/* tang end */

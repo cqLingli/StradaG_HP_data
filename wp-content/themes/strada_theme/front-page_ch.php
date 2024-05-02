@@ -162,45 +162,57 @@ $_SESSION['page_type']="top";
     </div>
       <div id="list_wrap2" class="node_wrap2 node_wrap_show2">
       <div class="l-container">
-          <div class="l-container Group_style1_extra">
-              <div class="Group_style1">
-                  <div class="image_div">
-
-                      <div class="title_div_p">
-                          <p class="Group_style1_p1">ワンストップの集団だからこそできる</p>
-                          <p class="Group_style1_p2">
-                              部分最適ではなく全体最適な提案を。</p>
-                      </div>
-                      <div class="circle-container"></div>
-
-                  </div>
-              </div>
-              <div class="Group_style2">
-                  <div class="youtube_div">
-                      <div class="Group_youtube_style1">
-                          <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
-                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                                  style="width:100%;height:90%"></iframe>
-                          <p class="Youtube_text">ストラーダグループ紹介動画 Youtube</p>
-                      </div>
-                      <div class="StradaStyle_div">
-                          <p class="StradaStyle">ストラーダグループとは、　 <br>
-                              <a href="<?php echo home_url('tax'); ?>" style="text-decoration: none;"><span class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span></a>     <br>
-                              <a href="<?php echo home_url('bs'); ?>" style="text-decoration: none;"><span class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span></a>  <br>
-                              <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span>  <br>
-                              <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a>  <br>
-                              <a href="<?php echo home_url('chushoukigyouroudou'); ?>" style="text-decoration: none;"><span class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span></a>  <br>
-                              <a href="<?php echo home_url('admin'); ?>" style="text-decoration: none;"><span class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span></a>   <br>
-                              <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span class="StradaStyle_span7">■不動産：株式会社タックス・リアルティ　</span></a>    <br>
-                              <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span>    <br>
-                              <span class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、 会社の全体戦略に基づいたアドバイスを可能としております。</span>
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
+                <div class="l-container Group_style2_extra">
+                    <div class="Group_style_left">
+                        <div class="image_div2">
+                            <div class="title_div_p_2">
+                                <p class="Group_style1_p1">ワンストップの集団だからこそできる部分最適ではなく全体最適な提案を。</p>
+                                <!-- <p class="Group_style1_p2">部分最適ではなく全体最適な提案を。</p> -->
+                            </div>
+                            <div id="mainDiv" class="div-relative">
+                                <div id="firstDiv" class="div-a">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/common/groupImg.png"
+                                        alt="" />
+                                </div>
+                                <div id="secendDiv" class="div-b"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Group_style_right">
+                        <div class="youtube_div_2">
+                            <div class="Group_youtube_style1">
+                                <iframe src="https://www.youtube.com/embed/D5-5j3AoQvw" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen style="width:100%;height:90%"></iframe>
+                                <p class="Youtube_text">ストラーダグループ紹介動画 Youtube</p>
+                            </div>
+                            <div class="StradaStyle_div">
+                                <p class="StradaStyle">ストラーダグループとは、　 <br>
+                                    <a href="<?php echo home_url('tax'); ?>" style="text-decoration: none;"><span
+                                            class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span></a> <br>
+                                    <a href="<?php echo home_url('bs'); ?>" style="text-decoration: none;"><span
+                                            class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span></a> <br>
+                                    <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span> <br>
+                                    <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><span
+                                            class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a> <br>
+                                    <a href="<?php echo home_url('chushoukigyouroudou'); ?>"
+                                        style="text-decoration: none;"><span
+                                            class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span></a> <br>
+                                    <a href="<?php echo home_url('admin'); ?>" style="text-decoration: none;"><span
+                                            class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span></a> <br>
+                                    <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span
+                                            class="StradaStyle_span7">■不動産：株式会社タックス・リアルティ　</span></a> <br>
+                                    <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span> <br>
+                                    <span
+                                        class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
+                                        会社の全体戦略に基づいたアドバイスを可能としております。</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!--    <div class="l-container">-->
 <!--      <div id="list_wrap2" class="node_wrap2 node_wrap_show2">-->
 <!--        <div class="Strada_style">-->
@@ -387,19 +399,34 @@ $_SESSION['page_type']="top";
 
 <?php get_footer("ch"); ?>
 <script>
-    const circleContainer = document.querySelector('.circle-container');
+function $(id) {
+    return document.getElementById(id)
+}
+
+function setHeightWidth() {
+    $("secendDiv").style.height = $("firstDiv").offsetHeight + "px";
+    $("secendDiv").style.width = $("mainDiv").offsetWidth + "px";
+    $("mainDiv").style.height = $("firstDiv").offsetHeight + "px";
+}
+
+function creatCircle() {
+    const circleContainer = document.querySelector('#secendDiv');
+    let childElements = circleContainer.querySelectorAll('*'); // 获取所有子元素刪除
+      childElements.forEach((element) => {
+        element.parentNode.removeChild(element);
+    });
     // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
-    //     '中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
-    const list = ['A','B','C','D','E','F','G','H','i'];
+    //'中小企業労働企画開発協会', 'ストラーダ行政書士法人', 'タックスリアルティ株式会社'];
+    const list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'i'];
     list.forEach((item, index) => {
         const circle = document.createElement('a');
-        if(item == 'i'){
+        if (item == 'i') {
             circle.classList.add('circle10');
             // circle.textContent = item;
             circle.addEventListener('click', () => {
-                circle.href= '<?php echo home_url('/'); ?>';
+                circle.href = '<?php echo home_url('/'); ?>';
             });
-        }else {
+        } else {
             circle.classList.add('circle100');
             // circle.textContent = item;
             circle.addEventListener('click', () => {
@@ -407,35 +434,43 @@ $_SESSION['page_type']="top";
                 //if(item == 'A'){
                 //    circle.href= '<?php //echo home_url(''); ?>//';
                 //}
-                if(item == 'B'){
-                    circle.href= '<?php echo home_url('tax'); ?>';
+                if (item == 'B') {
+                    circle.href = '<?php echo home_url('tax'); ?>';
                 }
-                if(item == 'C'){
-                    circle.href= '<?php echo home_url('bs'); ?>';
+                if (item == 'C') {
+                    circle.href = '<?php echo home_url('bs'); ?>';
                 }
                 //if(item == 'D'){
-                //    circle.href= '<?php //echo home_url(''); ?>//';
+                //    circle.href= '<?php /*echo home_url(''); */?>//';
                 //}
-                if(item == 'E'){
-                    circle.href= '<?php echo home_url('sr'); ?>';
+                if (item == 'E') {
+                    circle.href = '<?php echo home_url('sr'); ?>';
                 }
-                if(item == 'F'){
-                    circle.href= '<?php echo home_url('chushoukigyouroudou'); ?>';
+                if (item == 'F') {
+                    circle.href = '<?php echo home_url('chushoukigyouroudou'); ?>';
                 }
-                if(item == 'G'){
-                    circle.href= '<?php echo home_url('admin'); ?>';
+                if (item == 'G') {
+                    circle.href = '<?php echo home_url('admin'); ?>';
                 }
-                if(item == 'H'){
-                    circle.href= '<?php echo home_url('taxria'); ?>';
+                if (item == 'H') {
+                    circle.href = '<?php echo home_url('taxria'); ?>';
                 }
 
             });
         }
-
-
-
-        circleContainer.appendChild(circle);
+      circleContainer.appendChild(circle);
     });
+}
+window.onload = function() {
+    setHeightWidth();
+    creatCircle();
+    console.log("creat circle");
+}
 
-
+window.addEventListener('resize', () => {
+    // 宽度变化的处理逻辑
+    setHeightWidth();
+    creatCircle();
+    console.log("update circle");
+});
 </script>
