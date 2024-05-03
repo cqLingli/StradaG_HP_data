@@ -128,18 +128,18 @@ $_SESSION["CAT_SLUG"] = "";
         <div class="p-column__list">
           <?php
             if(get_query_var('year') != 0){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'year' => get_query_var('year'),'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }elseif(get_query_var('monthnum') != 0){
-              $args = array( 'post_type' => 'column','posts_per_page' => 30,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              $args = array( 'post_type' => 'column','posts_per_page' => 10,'year' => get_query_var('year'),'orderby' => 'date', 'paged' => get_query_var( 'paged' ) );
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'year' => get_query_var('year'),'monthnum' => get_query_var('monthnum'), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }elseif(is_category()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'cat' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
             }elseif(is_tag()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'tag__in' => get_queried_object_id(), 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts));
             }elseif(is_front_page()){
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'paged' => get_query_var( 'page' ), 'post__not_in' => $recommendPosts) );
             }else {
-              query_posts(array('post_type' =>'post', 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+              $the_query_new = query_posts(array('post_type' =>'post', 'posts_per_page' => 10,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
             }
 
             if(have_posts()) :
@@ -194,15 +194,13 @@ $_SESSION["CAT_SLUG"] = "";
             endif;
           ?>
         </div>
-          <?php
+        <?php
           if (function_exists("pagination")) {
 
-              pagination($query->max_num_pages);
+              @pagination($the_query_new->max_num_pages);
           }
           ?>
-<!--        <div class="c-pagenation">-->
-<!--          --><?php //wp_pagenavi(); ?>
-<!--        </div>-->
+
       </div>
       <div class="l-sidebar">
         <?php get_sidebar('sidebar'); ?>

@@ -26,8 +26,9 @@ get_header("sb");
             <?php
             $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : '1';
             $args = array(
+                'casestudy_type'=>$wp_query->query['casestudy_type'],
                 'post_type' => 'casestudy',
-                'posts_per_page' => 3,
+                'posts_per_page' => 10,
                 'orderby' => 'date',
                 'paged' => $paged,
                 'meta_query' => array(
@@ -111,7 +112,7 @@ get_header("sb");
                     <div class="p-column__list">
                         <?php
                         global $wp_query;
-          query_posts(array('post_type' =>'casestudy','casestudy_type'=>$wp_query->query['casestudy_type'], 'posts_per_page' => 30,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
+          query_posts(array('post_type' =>'casestudy','casestudy_type'=>$wp_query->query['casestudy_type'], 'posts_per_page' => 10,'orderby' => 'date', 'paged' => get_query_var('paged'), 'post__not_in' => $recommendPosts) );
                         if(have_posts()) :
                             while(have_posts()) : the_post(); ?>
                                 <div class="item">
@@ -160,9 +161,11 @@ get_header("sb");
                         endif;
                         ?>
                     </div>
-                    <div class="c-pagenation">
-                        <?php wp_pagenavi(); ?>
-                    </div>
+                    <?php
+                    if (function_exists("pagination")) {
+                        @pagination($the_query->max_num_pages);
+                    }
+                    ?>
                 </div>
                 <div class="l-sidebar">
                     <?php get_sidebar('sb'); ?>
