@@ -190,14 +190,15 @@ $_SESSION['page_type']="top";
                                 <p class="Youtube_text">ストラーダグループ紹介動画 Youtube</p>
                             </div>
                             <div class="StradaStyle_div">
-                                <p class="StradaStyle">ストラーダグループとは、　 <br>
+                                <div class="StradaStyle">ストラーダグループとは、　 <br>
                                     <a href="<?php echo home_url('tax'); ?>" style="text-decoration: none;"><span
                                             class="StradaStyle_span1">■税理士：ストラーダ税理士法人　</span></a> <br>
                                     <a href="<?php echo home_url('bs'); ?>" style="text-decoration: none;"><span
                                             class="StradaStyle_span2">■ビジネスコンサル：ストラーダビジネスサポート株式会社　</span></a> <br>
-                                    <span class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span> <br>
-                                    <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;"><span
-                                            class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a> <br>
+                                    <a href="#" style="text-decoration: none;"><span 
+                                            class="StradaStyle_span3">■公認会計士：ストラーダ公認会計士　</span></a> <br>                                    
+                                    <a href="<?php echo home_url('sr'); ?>" style="text-decoration: none;">
+                                        <span class="StradaStyle_span4">■社会保険労務士：ストラーダ社会保険労務士</span></a> <br>
                                     <a href="<?php echo home_url('chushoukigyouroudou'); ?>"
                                         style="text-decoration: none;"><span
                                             class="StradaStyle_span5">■労働保険事業組合業務：中小企業労働企画開発協会</span></a> <br>
@@ -205,11 +206,12 @@ $_SESSION['page_type']="top";
                                             class="StradaStyle_span6">■行政書士：ストラーダ行政書士　</span></a> <br>
                                     <a href="<?php echo home_url('taxria'); ?>" style="text-decoration: none;"><span
                                             class="StradaStyle_span7">■不動産：株式会社タックス・リアルティ　</span></a> <br>
-                                    <span class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span> <br>
+                                    <a href="#" style="text-decoration: none;"><span 
+                                            class="StradaStyle_span8">■AI・DXコンサル：ストラーダAIDX株式会社　</span></a> <br>
                                     <span
                                         class="StradaStyle_span9">が在籍しています。ストラーダグループとして、企業の戦略を下支する、バックオフィス業務の専門家集団です。バックオフィス業務を総合的な支援をさせて頂くことにより、
                                         会社の全体戦略に基づいたアドバイスを可能としております。</span>
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -358,20 +360,16 @@ $_SESSION['page_type']="top";
 
 <?php get_footer("sb"); ?>
 <script>
-function $(id) {
-    return document.getElementById(id)
-}
-
 function setHeightWidth() {
-    $("secendDiv").style.height = $("firstDiv").offsetHeight + "px";
-    $("secendDiv").style.width = $("mainDiv").offsetWidth + "px";
-    $("mainDiv").style.height = $("firstDiv").offsetHeight + "px";
+    document.getElementById("secendDiv").style.height = document.getElementById("firstDiv").offsetHeight + "px";
+    document.getElementById("secendDiv").style.width = document.getElementById("mainDiv").offsetWidth + "px";
+    document.getElementById("mainDiv").style.height = document.getElementById("firstDiv").offsetHeight + "px";
 }
 
 function creatCircle() {
     const circleContainer = document.querySelector('#secendDiv');
     let childElements = circleContainer.querySelectorAll('*'); // 获取所有子元素刪除
-      childElements.forEach((element) => {
+    childElements.forEach((element) => {
         element.parentNode.removeChild(element);
     });
     // const list = ['ストラーダAIDX株式会社', 'ストラーダ税理士法人', 'ストラーダビジネスサポート株式会社', 'ストラーダ公認会計士事務所', 'ストラーダ社会保険労務士法人',
@@ -417,11 +415,12 @@ function creatCircle() {
 
             });
         }
-      circleContainer.appendChild(circle);
+        circleContainer.appendChild(circle);
     });
 }
+
 //----------start block_wrap union----------//
-window.onload = function () {
+window.onload = function() {
     //creat group circle
     setHeightWidth();
     creatCircle();
@@ -463,7 +462,7 @@ window.onload = function () {
             if (block_wrap.classList.contains('active') == false) {
                 list_wrap.classList.add('node_wrap_hide')
             }
-            block_wrap.onclick = function () {
+            block_wrap.onclick = function() {
 
                 let classArray = this.className.split(/\s+/)
 
@@ -488,7 +487,7 @@ window.onload = function () {
             if (block_wrap1.classList.contains('active1') == false) {
                 list_wrap1.classList.add('node_wrap_hide1')
             }
-            block_wrap1.onclick = function () {
+            block_wrap1.onclick = function() {
 
                 let classArray1 = this.className.split(/\s+/)
 
@@ -514,7 +513,7 @@ window.onload = function () {
             if (block_wrap2.classList.contains('active2') == false) {
                 list_wrap2.classList.add('node_wrap_hide2')
             }
-            block_wrap2.onclick = function () {
+            block_wrap2.onclick = function() {
 
                 let classArray2 = this.className.split(/\s+/)
 
@@ -540,7 +539,7 @@ window.onload = function () {
             if (block_wrap3.classList.contains('active3') == false) {
                 list_wrap3.classList.add('node_wrap_hide3')
             }
-            block_wrap3.onclick = function () {
+            block_wrap3.onclick = function() {
 
                 let classArray3 = this.className.split(/\s+/)
 
@@ -566,7 +565,7 @@ window.onload = function () {
             if (block_wrap4.classList.contains('active4') == false) {
                 list_wrap4.classList.add('node_wrap_hide4')
             }
-            block_wrap4.onclick = function () {
+            block_wrap4.onclick = function() {
 
                 let classArray4 = this.className.split(/\s+/)
 
@@ -592,7 +591,7 @@ window.onload = function () {
             if (block_wrap5.classList.contains('active5') == false) {
                 list_wrap5.classList.add('node_wrap_hide5')
             }
-            block_wrap5.onclick = function () {
+            block_wrap5.onclick = function() {
 
                 let classArray5 = this.className.split(/\s+/)
 
@@ -618,7 +617,7 @@ window.onload = function () {
             if (block_wrap6.classList.contains('active6') == false) {
                 list_wrap6.classList.add('node_wrap_hide6')
             }
-            block_wrap6.onclick = function () {
+            block_wrap6.onclick = function() {
 
                 let classArray6 = this.className.split(/\s+/)
 
@@ -643,7 +642,7 @@ window.onload = function () {
             if (block_wrap7.classList.contains('active7') == false) {
                 list_wrap7.classList.add('node_wrap_hide7')
             }
-            block_wrap7.onclick = function () {
+            block_wrap7.onclick = function() {
 
                 let classArray7 = this.className.split(/\s+/)
 
@@ -669,7 +668,7 @@ window.onload = function () {
             if (block_wrap8.classList.contains('active8') == false) {
                 list_wrap8.classList.add('node_wrap_hide8')
             }
-            block_wrap8.onclick = function () {
+            block_wrap8.onclick = function() {
 
                 let classArray8 = this.className.split(/\s+/)
 
@@ -695,7 +694,7 @@ window.onload = function () {
             if (block_wrap9.classList.contains('active9') == false) {
                 list_wrap9.classList.add('node_wrap_hide9')
             }
-            block_wrap9.onclick = function () {
+            block_wrap9.onclick = function() {
 
                 let classArray9 = this.className.split(/\s+/)
 
@@ -722,7 +721,7 @@ window.onload = function () {
                 list_wrap.classList.add('node_wrap_hide')
                 text.classList.remove('border-text-controll')
             }
-            block_wrap.onclick = function () {
+            block_wrap.onclick = function() {
 
                 let classArray = this.className.split(/\s+/)
 
@@ -750,7 +749,7 @@ window.onload = function () {
                 list_wrap1.classList.add('node_wrap_hide1')
                 text1.classList.remove('border-text-controll')
             }
-            block_wrap1.onclick = function () {
+            block_wrap1.onclick = function() {
 
                 let classArray1 = this.className.split(/\s+/)
 
@@ -779,7 +778,7 @@ window.onload = function () {
                 list_wrap2.classList.add('node_wrap_hide2')
                 text2.classList.remove('border-text-controll')
             }
-            block_wrap2.onclick = function () {
+            block_wrap2.onclick = function() {
 
                 let classArray2 = this.className.split(/\s+/)
 
@@ -808,7 +807,7 @@ window.onload = function () {
                 list_wrap3.classList.add('node_wrap_hide3')
                 text3.classList.remove('border-text-controll')
             }
-            block_wrap3.onclick = function () {
+            block_wrap3.onclick = function() {
 
                 let classArray3 = this.className.split(/\s+/)
 
@@ -837,7 +836,7 @@ window.onload = function () {
                 list_wrap4.classList.add('node_wrap_hide4')
                 text4.classList.remove('border-text-controll')
             }
-            block_wrap4.onclick = function () {
+            block_wrap4.onclick = function() {
 
                 let classArray4 = this.className.split(/\s+/)
 
@@ -866,7 +865,7 @@ window.onload = function () {
                 list_wrap5.classList.add('node_wrap_hide5')
                 text5.classList.remove('border-text-controll')
             }
-            block_wrap5.onclick = function () {
+            block_wrap5.onclick = function() {
 
                 let classArray5 = this.className.split(/\s+/)
 
@@ -895,7 +894,7 @@ window.onload = function () {
                 list_wrap6.classList.add('node_wrap_hide6')
                 text6.classList.remove('border-text-controll')
             }
-            block_wrap6.onclick = function () {
+            block_wrap6.onclick = function() {
 
                 let classArray6 = this.className.split(/\s+/)
 
@@ -923,7 +922,7 @@ window.onload = function () {
                 list_wrap7.classList.add('node_wrap_hide7')
                 text7.classList.remove('border-text-controll')
             }
-            block_wrap7.onclick = function () {
+            block_wrap7.onclick = function() {
 
                 let classArray7 = this.className.split(/\s+/)
 
@@ -952,7 +951,7 @@ window.onload = function () {
                 list_wrap8.classList.add('node_wrap_hide8')
                 text8.classList.remove('border-text-controll')
             }
-            block_wrap8.onclick = function () {
+            block_wrap8.onclick = function() {
 
                 let classArray8 = this.className.split(/\s+/)
 
@@ -981,7 +980,7 @@ window.onload = function () {
                 list_wrap9.classList.add('node_wrap_hide9')
                 text9.classList.remove('border-text-controll')
             }
-            block_wrap9.onclick = function () {
+            block_wrap9.onclick = function() {
 
                 let classArray9 = this.className.split(/\s+/)
 

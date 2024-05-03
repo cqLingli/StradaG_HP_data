@@ -59,7 +59,7 @@
                   </a>
                 </div>
                 <div class="recruit-container_right">
-                  <a href="<?php echo home_url('taxria/#'); ?>">
+                  <a href="<?php echo home_url('taxria/#Recruit'); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/group/recruit06.svg" />
                   </a>      
               </div>
