@@ -15,7 +15,7 @@ get_header("sz");
             <div class="c-tlt01 c-tlt01__black">
                 <h1 class="c-tlt01__line c-tlt01__line--gray">
                     <?php
-                        if(isset($_SESSION["CAT_NAME"])){
+                        if($_SESSION["CAT_NAME"]){
                             echo $_SESSION["CAT_NAME"] ;
                         }else{
                             $category = get_the_category();
@@ -34,7 +34,7 @@ get_header("sz");
       <div class="p-column__post p-column__post1">
           <div class="menberTtile">
             <span><?php
-                if(isset($_SESSION["CAT_NAME"] )){
+                if($_SESSION["CAT_NAME"] ){
                     echo $_SESSION["CAT_NAME"] ;
                 }else{
                     $category = get_the_category();
