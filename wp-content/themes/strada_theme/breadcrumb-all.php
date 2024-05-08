@@ -67,7 +67,7 @@ if($url_type==="sz"){
             $url3=$url1."tax/taxcolumn1";
             $text3="税理士法人お役立ち情報";
             
-            if($_SESSION["CAT_NAME"]){
+            if(isset($_SESSION["CAT_NAME"])){
                 $url4=$url1."columns/category/".$_SESSION["CAT_SLUG"];
                 $text4=$_SESSION["CAT_NAME"] ;
             }else{
