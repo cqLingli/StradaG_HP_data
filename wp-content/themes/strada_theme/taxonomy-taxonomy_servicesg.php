@@ -123,7 +123,7 @@ $mv = get_field('service_cat_mv', $qo);
                             </a>
 
                                 <div>
-                                    <p><?php echo nl2br(get_the_excerpt()); ?></p>
+                                    <p class="p-box"><?php echo nl2br(get_the_excerpt()); ?></p>
                                 </div>
 <!--                                <div class="ttl2 c-btn01__blue">-->
 <!--                                    <a href="--><?php //echo get_the_permalink() ?><!--">詳細はこちら</a>-->
